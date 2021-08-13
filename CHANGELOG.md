@@ -54,6 +54,39 @@ Types of change:
 - [Added - RQs - Python - Java - Blockchain]()
 
 
+## August 11th 2021
+
+### Fixed
+- [Python Data Analysis - Movie Count Per Release Year Visualized - Fix broken RQ that closes the app](https://github.com/enkidevs/curriculum/pull/2827)
+- [Python - More Complex Arithmetic Operators - Reword sentence as insight order changed](https://github.com/enkidevs/curriculum/pull/2826) 
+- [HTML - Input Element - Replace incorrect images](https://github.com/enkidevs/curriculum/pull/2828)
+
+## August 10th 2021
+
+### Fixed
+- [Python - Remove Add Values To A List Exercise - Fix typo](https://github.com/enkidevs/curriculum/pull/2825)
+
+## August 6th 2021
+
+### Changed
+- [Web - Paragraphs And Headings - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2824)
+
+## August 5th 2021
+
+### Changed
+- [Go - If Else Statements - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2820)
+- [Styling - CSS Basics Applying CSS - Add more info on external css being called the weakest](https://github.com/enkidevs/curriculum/pull/2822)
+- [JavaScript - Functions Return Undefined by Default - Update Practice Question](https://github.com/enkidevs/curriculum/pull/2821)
+- [Python and JavaScript - All Coding Exercises - Apply shorter copy](https://github.com/enkidevs/curriculum/pull/2823)
+
+## August 4th 2021
+
+### Changed
+- [Coding Insights - Update concepts hint copy](https://github.com/enkidevs/curriculum/pull/2819)
+
+### Fixed
+- [Fix deep links in various insights](https://github.com/enkidevs/curriculum/pull/2818)
+
 
 ## August 3rd 2021
 
@@ -66,13 +99,27 @@ Types of change:
 - [JavaScript - Hello Mars! - Add coding insight](https://github.com/enkidevs/curriculum/pull/2815)
 
 ### Changed
+- [Python and JavaScript - All coding insights - Copy Improvements](https://github.com/enkidevs/curriculum/pull/2795)
 - [Python - Hello Mars! - Improve copy](https://github.com/enkidevs/curriculum/pull/2815)
 
 ### Archived
 - [Comp. Sci. - Archive three unused workouts](https://github.com/enkidevs/curriculum/pull/2814)
 - [TypeScript - Extending Interfaces - Remove the type-in-the-gap from the PQ](https://github.com/enkidevs/curriculum/pull/2816)
 
+## July 30th 2021
+
+### Changed
+- [SQL - Insert - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2807)
+- [SQL - Update - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2808)
+- [SQL - Aggregate Queries - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2809)
+- [SQL - Building Queries - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2810)
+- [Coding Intro - Collections - Convert the discussion insight to coding](https://github.com/enkidevs/curriculum/pull/2806)
+
 ## July 29th 2021
+
+### Changed
+- [Web - Core HTML Discussion Insight - Change category and update content](https://github.com/enkidevs/curriculum/pull/2812)
+- [Web - Box Model Discussion Insight - Change category and update content](https://github.com/enkidevs/curriculum/pull/2811)
 
 ### Fixed
 - [Linux - Difference between `redirection` and `pipe` - Fix typo in footnote](https://github.com/enkidevs/curriculum/pull/2805)

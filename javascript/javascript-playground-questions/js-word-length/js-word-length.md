@@ -27,7 +27,7 @@ setupCode:
 
 ## Content
 
-Can you define a function that will take a sentence as input? The function should split the sentence into separate words and only output words longer than 4 letters?
+> 👩‍💻 Your task is to create a function that **splits a sentence into separate words and only outputs words longer than four letters**.
 
 Example input/output:
 ```javascript
@@ -38,7 +38,7 @@ myFunction('Mary had a little lamb')
 little
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - flow control (`for...of...`, `if (x > 4)...`)
 - array functions (`split()`)
 - array property (`length`)
@@ -46,13 +46,11 @@ To achieve this, you can use the following concepts:
 
 As a bonus, try combining the array functions `split()` and `filter()` to solve the problem.  
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 
@@ -71,4 +69,4 @@ Create a function with an input variable.
 
 > Use (`.split()`).
 
-Use a loop to cycle through every word and a conditional statement to only output words longer that four letters.
+Use a loop to cycle through every word and a conditional statement to only output words longer than four letters.

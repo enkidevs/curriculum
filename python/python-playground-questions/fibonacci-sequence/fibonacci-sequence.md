@@ -24,21 +24,19 @@ setupCode:
 
 ## Content
 
-The Fibonacci sequence is a series of numbers where the next number is the sum of the previous two numbers.
+> 👩‍💻 Your task is to write a program that **prints the first 15 terms of the Fibonacci sequence**.
 
-Can you write a program that will print the Fibonacci sequence up to 15 terms?
+> The Fibonacci sequence is a series of numbers where the next number is the sum of the previous two numbers.
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - first two terms of the sequence are `0` and `1`.
 - flow control (`while..`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 
@@ -52,6 +50,6 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-For this problem you will need two variables to hold your numbers, a counter variable, and a temporary variable.
+For this problem, you will need two variables to hold your numbers, a counter variable, and a temporary variable.
 
 The temporary variable goes inside the loop while the counter increases at the end of every loop cycle.

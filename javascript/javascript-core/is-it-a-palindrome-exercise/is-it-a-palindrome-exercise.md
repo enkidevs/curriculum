@@ -11,10 +11,11 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground. 
-    // Use these strings:
+    // Create a function that tests if a string is a pallindrome.
     
-    let string1 = "Was it a car or a cat I saw"
-    let string2 = "Hey how are you"
+    // If you can't think of any strings, try these out:
+    let palindrome = "Was it a car or a cat I saw"
+    let nonPalindrome = "Hey how are you"
     
     // Type your code here:
 
@@ -26,26 +27,26 @@ setupCode:
 
 ## Content
 
-Given two `string`s:
+> 👩‍💻 Your task is to: **create a function that tests if a string is a palindrome**.
+>
+> You should test the function on both a palindrome and a non-palindrome to confirm it works.
+
+If you can't think of any strings, try these out:
 ```javascript
-let string1 = "Was it a car or a cat I saw"
-let string2 = "Hey how are you"
+let palindrome = "Was it a car or a cat I saw"
+let nonPalindrome = "Hey how are you"
 ```
 
-Can you create a function that will confirm which of the two `string`s is a palindrome?
-
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - string methods (`.split()`)
 - control flow (`if x > 1`, `for`)
 - function declaration (`function something(x) { ... }`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 
@@ -59,4 +60,4 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Your loop only needs to go up to half the `string` and check if the first character equals the last, second character equals second to last, and so on.
+Your loop only needs to go up to half the `string` and check if the first character equals the last, the second character equals second to last, and so on.

@@ -8,6 +8,12 @@ type: normal
 
 category: coding
 
+setupCode:
+  startingPoint: |
+    # Welcome to the Python playground 👋
+
+    # Start typing your code here:
+
 ---
 
 # Test Yourself
@@ -22,7 +28,7 @@ How would you write a *notifier* program? It should print a message on a certain
 
 It's up to you to choose the day of the week and the message that is printed.
 
-To achieve this, you should use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 29`)
 - flow control (`if (age > 30) ...`)
 

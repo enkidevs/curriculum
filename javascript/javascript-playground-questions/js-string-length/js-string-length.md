@@ -27,7 +27,7 @@ setupCode:
 
 ## Content
 
-Can you make a program that will take a sentence as input and output the total number of letters? The program should ignore spaces.
+> 👩‍💻 Your task is to make a program that will **count the total number of letters in a sentence (excluding spaces) and output the result**.
 
 ```javascript
 // Input string
@@ -37,16 +37,14 @@ Can you make a program that will take a sentence as input and output the total n
 8
 ```
 
-To achieve this, you can use some of the following concepts:
+To solve this, try using the following concepts:
 - flow control (`if (age > 30)`, `for...of`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 

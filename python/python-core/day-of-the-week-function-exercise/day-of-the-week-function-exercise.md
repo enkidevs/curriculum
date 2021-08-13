@@ -26,20 +26,21 @@ setupCode:
 
 ## Content
 
-Can you create a function that will take a number as input. If one of the numbers is between `0-6` output the corresponding day of the week. `0` being `Monday`. If the input is not a number, output a message like `"Try Again."`
+> 👩‍💻 Your task is to create a function that will:
+> - **check if a number is between 0-6**
+> - **if it is, output the corresponding day of the week (0 for Monday)** 
+> - **if not, output a message like "Try Again."**
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - function definition (`def something(x):`)
 - flow control (`if (x > 1):`)
 - dictionary mapping (`week = {1: "Monday"...}`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 

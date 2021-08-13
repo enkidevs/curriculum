@@ -29,23 +29,29 @@ setupCode:
 
 ## Content
 
-Given an array with repeating words, can you define a function that will take such array as input and return it without any duplicates?
+> 👩‍💻 Your task is to define a function that:
+> - **takes an array as input**
+> - **removes duplicate values**
+> - **returns the new array**
 
+Example array to use:
 ```javascript
-let names = ["Stefan", "Mark", "Joane", "Steven", "Natasha", "Mark", "Steven", "Mark", "Natasha"];
+let names = [
+  "Stefan", "Mark", "Joane", 
+  "Steven", "Natasha", "Mark", 
+  "Steven", "Mark", "Natasha"
+];
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - function declaration (`function something(x) { ... }`)
 - flow control (`if (x > 1)`, `for...of`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 

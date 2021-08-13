@@ -11,8 +11,9 @@ category: coding
 setupCode:
   startingPoint: |
     // 👋 Welcome to the JavaScript coding playground. 
-    // Use this array:
+    // Loop through an array, find out the largest number, and output it to the console.
 
+    // You can use this array:
     let numbers = [23, 81, 14, 5, 33, 631, 47, 78, 99]
     
     // Type your code here:
@@ -25,24 +26,25 @@ setupCode:
 
 ## Content
 
-Given a numbered `array`:
+> 👩‍💻 Your task is to:
+> - **loop through an array**
+> - **determine the largest number**
+> - **output it to the console**
+
+Example `array` to use:
 ```javascript
 let numbers = [23, 81, 14, 5, 33, 631, 47, 78, 99]
 ```
 
-Can you create a loop that will cycle through the `array`, determine which number is the largest, and output it to the console?
-
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - looping (`for`)
 - output (`console.log()`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 
