@@ -39,6 +39,7 @@ If you’re stuck, you can always read this footnote[1] or review the comments s
 
 > 🤓 Happy learning! Open the playground and start coding!
 
+
 ---
 
 ## Footnotes
