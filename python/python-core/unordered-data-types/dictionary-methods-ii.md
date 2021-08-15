@@ -73,10 +73,20 @@ surname = ('Hemsworth')
 famous_siblings = dict.fromkeys(names, surname)
 
 print(famous_siblings)
-
-#{'Luke': 'Hemsworth', 'Chris': 'Hemsworth', 'Liam': 'Hemsworth'}
+# {'Luke': 'Hemsworth', 'Chris': 'Hemsworth', 'Liam': 'Hemsworth'}
 ```
 
+> 💡 Alongside `dict.fromkeys`, you can also use the alternative `{}.fromkeys` to generate a new dictionary with the given keys.
+
+If we update tha `famous_siblings` example, we would get the same result:
+
+```python
+# ...
+famous_siblings = {}.fromkeys(names, surname)
+
+print(famous_siblings)
+# {'Luke': 'Hemsworth', 'Chris': 'Hemsworth', 'Liam': 'Hemsworth'}
+```
 
 ---
 
