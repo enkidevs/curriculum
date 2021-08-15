@@ -78,7 +78,7 @@ print(famous_siblings)
 
 > 💡 Alongside `dict.fromkeys`, you can also use the alternative `{}.fromkeys` to generate a new dictionary with the given keys.
 
-If we update tha `famous_siblings` example, we would get the same result:
+If we update the `famous_siblings` example, we'd get the same result:
 
 ```python
 # ...
