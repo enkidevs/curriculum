@@ -48,11 +48,15 @@ Types of change:
 
 ### Fixed
 
+## Augut 15th 2021
+
+### Changed
+- [Computer Science - Binary Expression Tree - Minor Grammar Improvements](https://github.com/enkidevs/curriculum/pull/2831)
+
 ## August 12th 2021
 
 ### Added
 - [Added - RQs - Python - Java - Blockchain]()
-
 
 ## August 11th 2021
 
