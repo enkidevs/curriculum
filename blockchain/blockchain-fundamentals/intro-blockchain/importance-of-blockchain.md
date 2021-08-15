@@ -58,8 +58,7 @@ The data in a blockchain is secured using advanced ???.
 
 ## Revision
 
-Blockchain does not have a single point of failure as it is
-???
+Blockchain does not have a single point of failure as it is ???.
 
 - decentralized
 - easily transferable  
