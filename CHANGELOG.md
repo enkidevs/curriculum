@@ -51,7 +51,9 @@ Types of change:
 ## August 15th 2021
 
 ### Fixed
+- [HTML - Update Images - Remove type in the gap as it is impossible to guess answer](https://github.com/enkidevs/curriculum/pull/2833)
 - [Blockchain - Importance of Blockchain - Remove type in the gap as it breaks the question](https://github.com/enkidevs/curriculum/pull/2832)
+
 
 ## August 12th 2021
 
