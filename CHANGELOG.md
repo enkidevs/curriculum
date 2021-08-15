@@ -48,11 +48,15 @@ Types of change:
 
 ### Fixed
 
+## August 15th 2021
+
+### Fixed
+- [Blockchain - Importance of Blockchain - Remove type in the gap as it breaks the question](https://github.com/enkidevs/curriculum/pull/2832)
+
 ## August 12th 2021
 
 ### Added
 - [Added - RQs - Python - Java - Blockchain]()
-
 
 ## August 11th 2021
 
