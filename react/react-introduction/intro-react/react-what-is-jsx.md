@@ -92,13 +92,13 @@ Is compiled to:
 const el = React.createElement(
   '???',
   ???, 
-  ???
+  '???'
 );
 ```
 
 - `p`
 - `null`
-- `'I love JSX'`
+- `I love JSX`
 - `<p>`
 - `jsx`
 - `<p>I love JSX</p>`
