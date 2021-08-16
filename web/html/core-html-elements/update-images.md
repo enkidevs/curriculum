@@ -63,19 +63,17 @@ The main reason it is important to set the image size is because those attribute
 Write the code to insert an image:
 
 ```html
-<??? ???="???" 
+<??? ???="images/logo.svg" 
      ???="Enki Logo">
 ```
 
 - `img`
 - `src`
-- `images/logo.svg`
 - `alt`
 - `image`
 - `a`
 - `href`
 - `photo`
-- `images/logo.img`
 
 
 ---

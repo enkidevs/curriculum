@@ -48,10 +48,25 @@ Types of change:
 
 ### Fixed
 
-## August 12th 2021
+## August 16th 2021
 
 ### Added
 - [Python - Dictionary Standard Mapping Type - Add info on how to create empty dictionaries](https://github.com/enkidevs/curriculum/pull/2829)
+
+## Augut 15th 2021
+
+### Changed
+- [Computer Science - Binary Expression Tree - Minor Grammar Improvements](https://github.com/enkidevs/curriculum/pull/2831)
+
+### Fixed
+- [HTML - Update Images - Remove type in the gap as it is impossible to guess answer](https://github.com/enkidevs/curriculum/pull/2833)
+- [Blockchain - Importance of Blockchain - Remove type in the gap as it breaks the question](https://github.com/enkidevs/curriculum/pull/2832)
+
+## August 12th 2021
+
+### Added
+- [Added - RQs - Python - Java - Blockchain]()
+
 
 ## August 11th 2021
 
@@ -85,6 +100,7 @@ Types of change:
 
 ### Fixed
 - [Fix deep links in various insights](https://github.com/enkidevs/curriculum/pull/2818)
+
 
 ## August 3rd 2021
 
