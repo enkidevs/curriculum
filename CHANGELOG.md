@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 16th 2021
+
+### Fixed
+- [React - What is JSX - Remove Quotations as the question becomes a guessing game](https://github.com/enkidevs/curriculum/pull/2835)
+
 ## Augut 15th 2021
 
 ### Changed
