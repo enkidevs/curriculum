@@ -17,8 +17,6 @@ revisionQuestion:
 links:
   - >-
     [Problems With Callbacks](https://blog.enki.com/developing-async-sense-in-javascript-1cc8e4720191?gi=228832b1aeb7){article}
-links:
-
 
 ---
 
