@@ -90,19 +90,19 @@ Is compiled to:
 
 ```jsx
 const el = React.createElement(
-  ???,
+  '???',
   ???, 
-  ???
+  '???'
 );
 ```
 
-- `'p'`
+- `p`
 - `null`
-- `'I love JSX'`
+- `I love JSX`
 - `<p>`
 - `jsx`
-- `'<p>I love JSX</p>'`
-- `'</p>'`
+- `<p>I love JSX</p>`
+- `</p>`
 
 
 ---
