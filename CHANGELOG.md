@@ -52,7 +52,7 @@ Types of change:
 
 ### Fixed
 - [React - What is JSX - Remove Quotations as the question becomes a guessing game](https://github.com/enkidevs/curriculum/pull/2835)
-
+- [Data Analysis With Python - Visualize Movie Show Count - Remove type in the gap as numbers are hard to guess](https://github.com/enkidevs/curriculum/pull/2836)
 ## Augut 15th 2021
 
 ### Changed
