@@ -56,7 +56,7 @@ For example, a methods that counts the number of elements from a `List` should `
 
 ## Revision
 
-The two types of exceptions are ??? and ???.
+The two types of exceptions are ???.
 
 - checked & unchecked
 - compiled & runtime
