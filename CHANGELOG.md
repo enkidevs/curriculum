@@ -48,6 +48,13 @@ Types of change:
 
 ### Fixed
 
+## August 17th 2021
+
+### Fixed
+- [Blockchain - Why Should You Care? - Remove the type-in-the-gap format from the RQ](https://github.com/enkidevs/curriculum/pull/2841)
+- [Blockchain - What Is a Blockchain? - Remove the type-in-the-gap format from the RQ](https://github.com/enkidevs/curriculum/pull/2840/)
+- [React - Conditional Rendering (Part 2) - Remove the type-in-the-gap format from the PQ](https://github.com/enkidevs/curriculum/pull/2839)
+
 ## August 16th 2021
 
 ### Fixed
