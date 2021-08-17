@@ -56,7 +56,7 @@ Types of change:
 - [Blockchain - What Is a Blockchain? - Remove the type-in-the-gap format from the RQ](https://github.com/enkidevs/curriculum/pull/2840/)
 - [React - Conditional Rendering (Part 2) - Remove the type-in-the-gap format from the PQ](https://github.com/enkidevs/curriculum/pull/2839)
 - [Spreadsheets - Whole Topic - Remove any type in the gap related to formulas as upper and lowercase are both possible answers](https://github.com/enkidevs/curriculum/pull/2842)
-
+- [Java - Use Descriptive Error Messages When Catching Exceptions - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2844)
 
 ## August 16th 2021
 
