@@ -48,10 +48,29 @@ Types of change:
 
 ### Fixed
 
+## August 17th 2021
+
+### Changed
+- [JavaScript - Inversion of Control - Improve content; add better examples; update questions](https://github.com/enkidevs/curriculum/pull/2838)
+
+### Fixed
+- [Linux - The Basics of Command Substitution - Remove the type-in-the-gap format from the PQ](https://github.com/enkidevs/curriculum/pull/2845)
+- [Python - Variables - Remove the type-in-the-gap format from the PQ](https://github.com/enkidevs/curriculum/pull/2843)
+- [Blockchain - Why Should You Care? - Remove the type-in-the-gap format from the RQ](https://github.com/enkidevs/curriculum/pull/2841)
+- [Blockchain - What Is a Blockchain? - Remove the type-in-the-gap format from the RQ](https://github.com/enkidevs/curriculum/pull/2840/)
+- [React - Conditional Rendering (Part 2) - Remove the type-in-the-gap format from the PQ](https://github.com/enkidevs/curriculum/pull/2839)
+- [Spreadsheets - Whole Topic - Remove any type in the gap related to formulas as upper and lowercase are both possible answers](https://github.com/enkidevs/curriculum/pull/2842)
+- [Java - Use Descriptive Error Messages When Catching Exceptions - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2844)
+
 ## August 16th 2021
 
 ### Added
 - [Python - Dictionary Standard Mapping Type - Add info on how to create empty dictionaries](https://github.com/enkidevs/curriculum/pull/2829)
+
+### Fixed
+- [React - What is JSX - Remove Quotations as the question becomes a guessing game](https://github.com/enkidevs/curriculum/pull/2835)
+- [Data Analysis With Python - Modifying Pie Chart II - Fix syntax issues and remove type in the gap in the PQ](https://github.com/enkidevs/curriculum/pull/2837)
+- [Data Analysis With Python - Visualize Movie Show Count - Remove type in the gap as numbers are hard to guess](https://github.com/enkidevs/curriculum/pull/2836)
 
 ## Augut 15th 2021
 
