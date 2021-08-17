@@ -50,7 +50,11 @@ Types of change:
 
 ## August 17th 2021
 
+### Changed
+- [JavaScript - Inversion of Control - Improve content; add better examples; update questions](https://github.com/enkidevs/curriculum/pull/2838)
+
 ### Fixed
+- [Linux - The Basics of Command Substitution - Remove the type-in-the-gap format from the PQ](https://github.com/enkidevs/curriculum/pull/2845)
 - [Python - Variables - Remove the type-in-the-gap format from the PQ](https://github.com/enkidevs/curriculum/pull/2843)
 - [Blockchain - Why Should You Care? - Remove the type-in-the-gap format from the RQ](https://github.com/enkidevs/curriculum/pull/2841)
 - [Blockchain - What Is a Blockchain? - Remove the type-in-the-gap format from the RQ](https://github.com/enkidevs/curriculum/pull/2840/)
