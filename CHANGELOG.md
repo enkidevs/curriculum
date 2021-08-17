@@ -51,7 +51,7 @@ Types of change:
 ## August 17th 2021
 
 ### Fixed
-- [React - Conditional Rendering (Part 2) - Remove the type-in-the-gap format from the PQ]()
+- [React - Conditional Rendering (Part 2) - Remove the type-in-the-gap format from the PQ](https://github.com/enkidevs/curriculum/pull/2839)
 
 ## August 16th 2021
 
