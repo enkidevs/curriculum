@@ -55,6 +55,8 @@ Types of change:
 - [Blockchain - Why Should You Care? - Remove the type-in-the-gap format from the RQ](https://github.com/enkidevs/curriculum/pull/2841)
 - [Blockchain - What Is a Blockchain? - Remove the type-in-the-gap format from the RQ](https://github.com/enkidevs/curriculum/pull/2840/)
 - [React - Conditional Rendering (Part 2) - Remove the type-in-the-gap format from the PQ](https://github.com/enkidevs/curriculum/pull/2839)
+- [Spreadsheets - Whole Topic - Remove any type in the gap related to formulas as upper and lowercase are both possible answers](https://github.com/enkidevs/curriculum/pull/2842)
+
 
 ## August 16th 2021
 
