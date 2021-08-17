@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Blockchain - What Is a Blockchain? - Remove the type-in-the-gap format from the RQ]()
+- [React - Conditional Rendering (Part 2) - Remove the type-in-the-gap format from the PQ](https://github.com/enkidevs/curriculum/pull/2839)
 
 ## August 16th 2021
 
