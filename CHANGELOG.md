@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 17th 2021
+
+### Fixed
+- [React - Conditional Rendering (Part 2) - Remove the type-in-the-gap format from the PQ]()
+
 ## August 16th 2021
 
 ### Fixed
