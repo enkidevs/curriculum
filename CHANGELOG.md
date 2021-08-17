@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 17th 2021
+
+### Fixed
+- [Blockchain - What Is a Blockchain? - Remove the type-in-the-gap format from the RQ]()
+
 ## August 16th 2021
 
 ### Fixed
