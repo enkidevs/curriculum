@@ -10,7 +10,6 @@ notes: |
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -57,9 +56,9 @@ For example, a methods that counts the number of elements from a `List` should `
 
 ## Revision
 
-The two types of exceptions are ??? and ???
+The two types of exceptions are ??? and ???.
 
-- checked
-- unchecked
-- compiled
-- runtime
+- checked & unchecked
+- compiled & runtime
+- runtime & checked
+- compiled & unchecked
