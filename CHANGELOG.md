@@ -48,10 +48,6 @@ Types of change:
 
 ### Fixed
 
-
-
-
-
 ## August 18th 2021
 
 ### Fixed
