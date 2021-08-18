@@ -53,6 +53,8 @@ Types of change:
 ### Fixed
 - [Data Analysis - Pipeline Analysis - Remove the type-in-the-gap format from both the PQ and the RQ](https://github.com/enkidevs/curriculum/pull/2847)
 
+- [Linux - Random Password Generator - Add "secure" in question](https://github.com/enkidevs/curriculum/pull/2849)
+
 ## August 17th 2021
 
 ### Changed
