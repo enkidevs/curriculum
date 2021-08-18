@@ -28,14 +28,14 @@ revisionQuestion:
 
 The **dictionary**, `dict`, is Python's main *mapping type*. Mapping objects are ones that contain *key-value pairs*. 
 
-Here's how you can create an empty dicitonary:
+Here's how you can create an empty dictionary:
 ```python
 usingBrackets = {}
 
 usingDict = dict()
 ```
 
-Here is a sample of a pupulated dictionary:
+Here is an example of a populated dictionary:
 
 ```python
 my_dict = {
