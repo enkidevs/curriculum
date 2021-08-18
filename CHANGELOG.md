@@ -48,6 +48,13 @@ Types of change:
 
 ### Fixed
 
+## August 18th 2021
+
+### Fixed
+- [Data Analysis - Pipeline Analysis - Remove the type-in-the-gap format from both the PQ and the RQ](https://github.com/enkidevs/curriculum/pull/2847)
+
+- [Linux - Random Password Generator - Add "secure" in question](https://github.com/enkidevs/curriculum/pull/2849)
+
 ## August 17th 2021
 
 ### Changed
@@ -61,6 +68,7 @@ Types of change:
 - [React - Conditional Rendering (Part 2) - Remove the type-in-the-gap format from the PQ](https://github.com/enkidevs/curriculum/pull/2839)
 - [Spreadsheets - Whole Topic - Remove any type in the gap related to formulas as upper and lowercase are both possible answers](https://github.com/enkidevs/curriculum/pull/2842)
 - [Java - Use Descriptive Error Messages When Catching Exceptions - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2844)
+- [Java - Throwing An Exception - Remove type in the gap and modify RQ so that different orders do not give wrong answers](https://github.com/enkidevs/curriculum/pull/2846)
 
 ## August 16th 2021
 
