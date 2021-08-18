@@ -50,6 +50,9 @@ Types of change:
 
 ## August 18th 2021
 
+### Added
+- [Python - Looping Discussion Insight - Add setup Code](https://github.com/enkidevs/curriculum/pull/2851)
+
 ### Changed
 - [Coding Intro - Do it yourself! - Enable insight](https://github.com/enkidevs/curriculum/pull/2848)
 
