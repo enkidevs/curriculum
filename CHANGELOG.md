@@ -75,6 +75,9 @@ Types of change:
 
 ## August 16th 2021
 
+### Added
+- [Python - Dictionary Standard Mapping Type - Add info on how to create empty dictionaries](https://github.com/enkidevs/curriculum/pull/2829)
+
 ### Fixed
 - [React - What is JSX - Remove Quotations as the question becomes a guessing game](https://github.com/enkidevs/curriculum/pull/2835)
 - [Data Analysis With Python - Modifying Pie Chart II - Fix syntax issues and remove type in the gap in the PQ](https://github.com/enkidevs/curriculum/pull/2837)
@@ -89,11 +92,11 @@ Types of change:
 - [HTML - Update Images - Remove type in the gap as it is impossible to guess answer](https://github.com/enkidevs/curriculum/pull/2833)
 - [Blockchain - Importance of Blockchain - Remove type in the gap as it breaks the question](https://github.com/enkidevs/curriculum/pull/2832)
 
-
 ## August 12th 2021
 
 ### Added
 - [Added - RQs - Python - Java - Blockchain]()
+
 
 ## August 11th 2021
 
