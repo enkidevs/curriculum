@@ -13,8 +13,10 @@ setupCode:
   
     print(age) #Print age to the screen as it is.
     print(name/2) #Print name to screen after dividing by 2!?
+
 ---
 # Do it yourself!
+
 ---
 ## Content
 
@@ -37,8 +39,6 @@ Don't worry too much about understanding every part of the code; see if you can 
 
 > 💡 The [comments](https://enki.com/glossary/general/comment) might help you find what's wrong.
 
-> 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit. The implementation is up to you.
+Give it an honest try, and feel free to share your solution!
 
-> 🤓 Happy learning! Open the playground and start coding!
->
-> Leave a comment or view some of the other comments for inspiration before moving on.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
