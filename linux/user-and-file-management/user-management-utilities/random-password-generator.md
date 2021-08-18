@@ -67,7 +67,7 @@ i^^iAa5o^oc["+43[G]{62&S!&Mt:L]ny7qbR~g0
 
 ## Practice
 
-Generate a random 20 chararacters password using `pwgen` :
+Generate a random, secure 20 characters password using `pwgen` :
 
 ```bash
 ??? ??? ???
