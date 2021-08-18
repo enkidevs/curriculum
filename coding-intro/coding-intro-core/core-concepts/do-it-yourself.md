@@ -13,8 +13,10 @@ setupCode:
   
     print(age) #Print age to the screen as it is.
     print(name/2) #Print name to screen after dividing by 2!?
+
 ---
 # Do it yourself!
+
 ---
 ## Content
 
