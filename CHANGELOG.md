@@ -55,6 +55,7 @@ Types of change:
 
 ### Fixed
 - [Data Analysis - Pipeline Analysis - Remove the type-in-the-gap format from both the PQ and the RQ](https://github.com/enkidevs/curriculum/pull/2847)
+- [Python - While Loops - Remove type in the gap from PQ as it is a guessing game of whitespace characters](https://github.com/enkidevs/curriculum/pull/2850)
 
 - [Linux - Random Password Generator - Add "secure" in question](https://github.com/enkidevs/curriculum/pull/2849)
 
