@@ -55,7 +55,6 @@ Types of change:
 
 - [Linux - Random Password Generator - Add "secure" in question](https://github.com/enkidevs/curriculum/pull/2849)
 
-
 ## August 17th 2021
 
 ### Changed
