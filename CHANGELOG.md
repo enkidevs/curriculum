@@ -51,7 +51,7 @@ Types of change:
 ## August 18th 2021
 
 ### Changed
-- [Coding Intro - Do it yourself! - Enable insight]()
+- [Coding Intro - Do it yourself! - Enable insight](https://github.com/enkidevs/curriculum/pull/2848)
 
 ### Fixed
 - [Data Analysis - Pipeline Analysis - Remove the type-in-the-gap format from both the PQ and the RQ](https://github.com/enkidevs/curriculum/pull/2847)
