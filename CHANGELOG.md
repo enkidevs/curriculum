@@ -55,12 +55,15 @@ Types of change:
 
 ## August 18th 2021
 
+### Added
+- [Python - Looping Discussion Insight - Add setup Code](https://github.com/enkidevs/curriculum/pull/2851)
+
 ### Changed
 - [Coding Intro - Do it yourself! - Enable insight](https://github.com/enkidevs/curriculum/pull/2848)
 
 ### Fixed
 - [Data Analysis - Pipeline Analysis - Remove the type-in-the-gap format from both the PQ and the RQ](https://github.com/enkidevs/curriculum/pull/2847)
-
+- [Python - While Loops - Remove type in the gap from PQ as it is a guessing game of whitespace characters](https://github.com/enkidevs/curriculum/pull/2850)
 - [Linux - Random Password Generator - Add "secure" in question](https://github.com/enkidevs/curriculum/pull/2849)
 
 ## August 17th 2021
