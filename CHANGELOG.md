@@ -51,7 +51,7 @@ Types of change:
 ## August 20th 2021
 
 ### Fixed
-- [Comp. Sci. - The Linked List Data Structure - Update RQ to be more specific]()
+- [Comp. Sci. - The Linked List Data Structure - Update RQ to be more specific](https://github.com/enkidevs/curriculum/pull/2852)
 
 ## August 18th 2021
 
