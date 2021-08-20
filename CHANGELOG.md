@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 20th 2021
+
+### Fixed
+- [Comp. Sci. - The Linked List Data Structure - Update RQ to be more specific]()
+
 ## August 18th 2021
 
 ### Changed
