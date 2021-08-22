@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 22nd 2021
+
+### Fixed
+- [Go - Why Learn Go - Try to retrigger insight to get latest updates in the app](https://github.com/enkidevs/curriculum/pull/2856)
+
 ## August 20th 2021
 
 ### Fixed
