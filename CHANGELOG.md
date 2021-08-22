@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 22nd 2021
+
+### Fixed
+- [JavaScript - Milliseconds Since Epoch - Remove extra semicolons in RQ answers](https://github.com/enkidevs/curriculum/pull/2855)
+
 ## August 20th 2021
 
 ### Fixed
