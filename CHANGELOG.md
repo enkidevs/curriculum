@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 22nd 2021
+
+## Changed
+- [Python - Speed Up Your Loop Using map() or List Comprehention - Update variables to snake case and change the PQ](https://github.com/enkidevs/curriculum/pull/2853) 
+
 ## August 20th 2021
 
 ### Fixed
