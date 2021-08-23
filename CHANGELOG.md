@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 22nd 2021
+
+### Fixed
+- [Linux - Changing File Ownership With Chown - Add missing colon to rq answers](https://github.com/enkidevs/curriculum/pull/2854)
+
 ## August 20th 2021
 
 ### Fixed
