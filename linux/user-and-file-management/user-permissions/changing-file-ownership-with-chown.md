@@ -85,7 +85,7 @@ Change the group to `new-group` for the `./enki.txt` file:
 
 - `sudo`
 - `chown`
-- `new-group`
+- `:new-group`
 - `./enki.txt`
 - `new-group`
 - `chmod`
