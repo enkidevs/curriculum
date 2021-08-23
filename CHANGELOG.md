@@ -50,6 +50,9 @@ Types of change:
 
 ## August 23rd 2021
 
+### Changed 
+- [Python Data Analysis - Importing Datasets - Remove quotation as only one would be accepted as a correct answer](https://github.com/enkidevs/curriculum/pull/2859)
+
 ### Fixed
 - [Data Analysis - SQL Syntax II - Fix RQ](https://github.com/enkidevs/curriculum/pull/2858)
 
