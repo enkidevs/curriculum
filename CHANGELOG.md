@@ -55,6 +55,7 @@ Types of change:
 
 ### Fixed
 - [Data Analysis - SQL Syntax II - Fix RQ](https://github.com/enkidevs/curriculum/pull/2858)
+- [SQL - Aggregate Queries Discussion Insight - Remove duplicate column word](https://github.com/enkidevs/curriculum/pull/2861)
 
 ## August 22nd 2021
 
