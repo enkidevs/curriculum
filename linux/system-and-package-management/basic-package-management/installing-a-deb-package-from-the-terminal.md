@@ -79,7 +79,8 @@ The missing dependencies error thrown by `dpkg` can be fixed by:
 The usual syntax for installing a `deb` package named `Deb_package_name` is:
 
 ```bash
-sudo ??? ??? ???
+sudo ??? \
+  ??? ???
 ```
 
 - `dpkg`
