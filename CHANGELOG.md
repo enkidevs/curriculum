@@ -50,7 +50,8 @@ Types of change:
 
 ## August 23rd 2021
 
-### Changed
+### Changed 
+- [Python Data Analysis - Importing Datasets - Remove quotation as only one would be accepted as a correct answer](https://github.com/enkidevs/curriculum/pull/2859)
 - [Python - Python Environments - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2860)
 
 ### Fixed
