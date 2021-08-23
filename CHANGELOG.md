@@ -50,6 +50,9 @@ Types of change:
 
 ## August 23rd 2021
 
+### Changed
+- [Python - Python Environments - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2860)
+
 ### Fixed
 - [Data Analysis - SQL Syntax II - Fix RQ](https://github.com/enkidevs/curriculum/pull/2858)
 
