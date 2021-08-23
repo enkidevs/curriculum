@@ -51,7 +51,7 @@ Types of change:
 ## August 23rd 2021
 
 ### Fixed
-- [Data Analysis - SQL Syntax II - Fix RQ]()
+- [Data Analysis - SQL Syntax II - Fix RQ](https://github.com/enkidevs/curriculum/pull/2858)
 
 ## August 22nd 2021
 
