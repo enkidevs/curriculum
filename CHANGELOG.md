@@ -63,6 +63,12 @@ Types of change:
 ## August 22nd 2021
 
 ### Fixed
+- [Linux - Installing a deb package from the terminal - Add sudo and package name to pr and rq](https://github.com/enkidevs/curriculum/pull/2857)
+
+
+## August 22nd 2021
+
+### Fixed
 - [Linux - Changing File Ownership With Chown - Add missing colon to rq answers](https://github.com/enkidevs/curriculum/pull/2854)
 
 ## August 20th 2021
