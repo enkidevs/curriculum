@@ -25,7 +25,7 @@ revisionQuestion:
 Developers use **Go** to build things ranging from banking servers, productivity tools, and even cryptocurrency systems.
 
 Due to its small size and efficient architecture, the **Go** language is quick to pick up and fast to run.
-
+ 
 ### Ease of programming
 
 **Go** is one of the rare languages where pretty much all programs maintain the same code formatting. This makes collaboration easier because **Go** programs are understandable by other **Go** programmers.
