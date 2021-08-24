@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 24th 2021
+
+### Changed
+- [HTML - Conditional Comments Ie9 - Remove RQ and make current PQ the new RQ as it has more value](https://github.com/enkidevs/curriculum/pull/2862)
+
 ## August 23rd 2021
 
 ### Changed 
