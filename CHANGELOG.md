@@ -53,6 +53,9 @@ Types of change:
 ### Changed
 - [HTML - Conditional Comments Ie9 - Remove RQ and make current PQ the new RQ as it has more value](https://github.com/enkidevs/curriculum/pull/2862)
 
+### Fixed
+- [SQL - Group By Clause - Remove the type-in-the-gap format from both the PQ & RQ; codeblock formatting](https://github.com/enkidevs/curriculum/pull/2863)
+
 ## August 23rd 2021
 
 ### Changed 
