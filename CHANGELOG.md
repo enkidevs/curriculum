@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 24th 2021
+
+### Fixed
+- [SQL - Group By Clause - Remove the type-in-the-gap format from both the PQ & RQ; codeblock formatting]()
+
 ## August 23rd 2021
 
 ### Changed 
