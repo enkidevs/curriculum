@@ -34,7 +34,7 @@ If you need to lowercase all the input strings:
 
 ```python
 lower_list = []
-for word in input_listt:
+for word in input_list:
     lower_list.append(word.lower())
 ```
 
