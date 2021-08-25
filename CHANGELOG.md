@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 25th 2021
+
+## Changed
+- [Python - Speed Up Your Loop Using map() or List Comprehention - Update variables to snake case and change the PQ](https://github.com/enkidevs/curriculum/pull/2853) 
+
 ## August 24th 2021
 
 ### Changed
@@ -72,11 +77,6 @@ Types of change:
 
 ### Fixed
 - [Linux - Installing a deb package from the terminal - Add sudo and package name to pr and rq](https://github.com/enkidevs/curriculum/pull/2857)
-
-
-## August 22nd 2021
-
-### Fixed
 - [Linux - Changing File Ownership With Chown - Add missing colon to rq answers](https://github.com/enkidevs/curriculum/pull/2854)
 
 ## August 20th 2021
