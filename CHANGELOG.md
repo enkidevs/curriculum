@@ -48,10 +48,36 @@ Types of change:
 
 ### Fixed
 
-## August 22nd 2021
+## August 25th 2021
 
 ## Changed
 - [Python - Speed Up Your Loop Using map() or List Comprehention - Update variables to snake case and change the PQ](https://github.com/enkidevs/curriculum/pull/2853) 
+
+## August 24th 2021
+
+### Changed
+- [HTML - Conditional Comments Ie9 - Remove RQ and make current PQ the new RQ as it has more value](https://github.com/enkidevs/curriculum/pull/2862)
+
+### Fixed
+- [SQL - Group By Clause - Remove the type-in-the-gap format from both the PQ & RQ; codeblock formatting](https://github.com/enkidevs/curriculum/pull/2863)
+
+## August 23rd 2021
+
+### Changed 
+- [Python Data Analysis - Importing Datasets - Remove quotation as only one would be accepted as a correct answer](https://github.com/enkidevs/curriculum/pull/2859)
+- [Python - Python Environments - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2860)
+
+### Fixed
+- [Data Analysis - SQL Syntax II - Fix RQ](https://github.com/enkidevs/curriculum/pull/2858)
+- [SQL - Aggregate Queries Discussion Insight - Remove duplicate column word](https://github.com/enkidevs/curriculum/pull/2861)
+- [Go - Why Learn Go - Try to retrigger insight to get latest updates in the app](https://github.com/enkidevs/curriculum/pull/2856)
+- [JavaScript - Milliseconds Since Epoch - Remove extra semicolons in RQ answers](https://github.com/enkidevs/curriculum/pull/2855)
+
+## August 22nd 2021
+
+### Fixed
+- [Linux - Installing a deb package from the terminal - Add sudo and package name to pr and rq](https://github.com/enkidevs/curriculum/pull/2857)
+- [Linux - Changing File Ownership With Chown - Add missing colon to rq answers](https://github.com/enkidevs/curriculum/pull/2854)
 
 ## August 20th 2021
 

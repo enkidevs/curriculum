@@ -22,7 +22,7 @@ links:
 
 > 👩‍💻 Using our [playground](https://learn.enki.com/public/playground?jsonUrl=https://gist.githubusercontent.com/kapnobatai137/0f58777052a47fc5061fa83370089174/raw/aa959e729d71cb03bf7d4a5ec079ced985f1e319/sql-aggregate-queries-discussion-insight.json), your task is to query the `students` table for:
 > - **all the students that are from the same class and passed one of the classes**
-> - **and create a new column column (e.g., "Average Math Grade") using one of the aggregation keywords** 
+> - **and create a new column (e.g., "Average Math Grade") using one of the aggregation keywords** 
 
 Here's what the table looks like:
 
