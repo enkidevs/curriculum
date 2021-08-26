@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 26th 2021
+
+### Fixed
+- [SQL - Remove the type-in-the-gap format]()
+
 ## August 25th 2021
 
 ## Changed

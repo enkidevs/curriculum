@@ -12,7 +12,6 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -78,8 +77,10 @@ Consider the `gender` table. We want to add a new column called `members`. This 
 Complete the code to add the column:
 
 ```sql
-??? gender
-ADD ??? ???;
+???
+  gender
+ADD
+  ??? ???;
 ```
 
 - ALTER TABLE
@@ -108,6 +109,6 @@ Consider the `generation` table. How would you delete the `region_id` column:
 
 ???
 
-- ALTER TABLE generation DROP COLUMN region_id;
-- ALTER TABLE generation DROP region_id;
-- ALTER generation DROP COLUMN region_id;
+- `ALTER TABLE generation DROP COLUMN region_id;`
+- `ALTER TABLE generation DROP region_id;`
+- `ALTER generation DROP COLUMN region_id;`
