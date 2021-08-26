@@ -113,5 +113,5 @@ The character used to find the address of a variable:
 ???
 ```
 
-- *
-- &
+- `*`
+- `&`
