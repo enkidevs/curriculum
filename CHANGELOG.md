@@ -52,6 +52,7 @@ Types of change:
 
 ### Changed
 - [Mongodb - Querying Arrays - Replace order of insights as the former was talking about the latter instead of vice versa](https://github.com/enkidevs/curriculum/pull/2866)
+- [Mongodb - Querying Arrays - Rename slugs for the last two insights of this workout as their order was changed](https://github.com/enkidevs/curriculum/pull/2869)
 
 ### Fixed
 - [Python - Recursive Generators - Remove type in the gap as it has no value and users have to guess if the parenthesis are necessary for the answer](https://github.com/enkidevs/curriculum/pull/2867)
