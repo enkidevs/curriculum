@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 26th 2021
+
+### Fixed
+- [Typescript - TSC Never - Replace deprecated link with new one](https://github.com/enkidevs/curriculum/pull/2865)
+
 ## August 25th 2021
 
 ## Changed
