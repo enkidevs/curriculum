@@ -12,12 +12,10 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -103,9 +101,11 @@ Look at the `region` table below. How would you set 1 as the default value to al
 ```
 
 ```sql
-??? region
-ALTER ??? ???
-??? 1;
+???
+  region
+ALTER
+  ??? ???
+  ??? 1;
 ```
 
 - ALTER TABLE
@@ -139,9 +139,11 @@ We'd like to set the default value `"ruby"` to all entries in the `name` column 
 Complete the following sql code to reflect these changes:
 
 ```sql
-??? version
-ALTER ??? name
-??? 'ruby';
+???
+  version
+ALTER
+  ??? name
+  ??? 'ruby';
 --
 ??? version
 ??? COLUMN id
