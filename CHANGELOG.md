@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Typescript - TSC Never - Replace deprecated link with new one](https://github.com/enkidevs/curriculum/pull/2865)
+- [SQL - Remove the type-in-the-gap format](https://github.com/enkidevs/curriculum/pull/2868)
 
 ## August 25th 2021
 
