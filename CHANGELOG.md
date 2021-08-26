@@ -51,6 +51,7 @@ Types of change:
 ## August 26th 2021
 
 ### Fixed
+- [Go - Pointers - Add back ticks to make answers clickable](https://github.com/enkidevs/curriculum/pull/2864)
 - [Typescript - TSC Never - Replace deprecated link with new one](https://github.com/enkidevs/curriculum/pull/2865)
 - [SQL - Remove the type-in-the-gap format](https://github.com/enkidevs/curriculum/pull/2868)
 
