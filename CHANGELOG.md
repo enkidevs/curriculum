@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 26th 2021
+
+### Fixed
+- [Go - Pointers - Add back ticks to make answers clickable](https://github.com/enkidevs/curriculum/pull/2864)
+
 ## August 25th 2021
 
 ## Changed
