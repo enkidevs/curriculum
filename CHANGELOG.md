@@ -53,6 +53,9 @@ Types of change:
 ### Changed
 - [Mongodb - Querying Arrays - Replace order of insights as the former was talking about the latter instead of vice versa](https://github.com/enkidevs/curriculum/pull/2866)
 
+### Fixed
+- [Typescript - TSC Never - Replace deprecated link with new one](https://github.com/enkidevs/curriculum/pull/2865)
+
 ## August 25th 2021
 
 ## Changed
