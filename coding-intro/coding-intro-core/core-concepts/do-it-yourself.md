@@ -20,7 +20,7 @@ setupCode:
 ---
 ## Content
 
-Welcome to your first coding task.
+Let's write a Python program!
 
 Who's the last person you met? Do you remember their age?
 

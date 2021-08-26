@@ -7,7 +7,7 @@ category: must-know
 
 ---
 
-# Hello Code?
+# Hello Code
 
 ---
 ## Content
@@ -20,4 +20,22 @@ The point of every program we show from now on will be to demonstrate a concept.
 
 Understanding the fundamentals will enable you to pick up any real programming language later on.
 
-When you finish this course and move on to specific programming languages, you'll be taught that language's [syntax](https://enki.com/glossary/general/syntax) but the concepts will remain the same.
+When you finish this course and move on to specific programming languages, you'll be taught that language's [syntax](https://enki.com/glossary/general/syntax), but the concepts will remain the same.
+
+---
+## Practice
+
+Learning the fundamentals of coding will enable you to ???.
+
+- learn any programming language
+- get to school faster
+- be a better gamer 
+
+
+---
+## Revision
+
+The ??? varies from one programming language to another, but the ??? remain the same.
+
+- syntax
+- concepts
