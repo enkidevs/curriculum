@@ -51,7 +51,7 @@ Types of change:
 ## August 26th 2021
 
 ### Fixed
-- [SQL - Remove the type-in-the-gap format]()
+- [SQL - Remove the type-in-the-gap format](https://github.com/enkidevs/curriculum/pull/2868)
 
 ## August 25th 2021
 
