@@ -54,7 +54,10 @@ Types of change:
 - [Mongodb - Querying Arrays - Replace order of insights as the former was talking about the latter instead of vice versa](https://github.com/enkidevs/curriculum/pull/2866)
 
 ### Fixed
+- [Python - Recursive Generators - Remove type in the gap as it has no value and users have to guess if the parenthesis are necessary for the answer](https://github.com/enkidevs/curriculum/pull/2867)
+- [Go - Pointers - Add back ticks to make answers clickable](https://github.com/enkidevs/curriculum/pull/2864)
 - [Typescript - TSC Never - Replace deprecated link with new one](https://github.com/enkidevs/curriculum/pull/2865)
+- [SQL - Remove the type-in-the-gap format](https://github.com/enkidevs/curriculum/pull/2868)
 
 ## August 25th 2021
 
