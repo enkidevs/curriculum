@@ -11,7 +11,6 @@ practiceQuestion:
 
 # findOneAndUpdate()
 
- 
 ---
 
 ## Content
@@ -131,3 +130,4 @@ Upserting represents inserting a document in our collection if it does not alrea
 
 [2:Atomicity]
 By an atomic transaction we mean that in a series of database operations, either **all operations occur**, or **nothing occurs**. Basically, we are more interested in the transaction to occur, rather than the content of the transaction.
+  
