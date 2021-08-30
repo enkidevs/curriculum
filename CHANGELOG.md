@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 30th 2021
+
+## Added
+- [Coding Intro - PQs added to first workout](https://github.com/enkidevs/curriculum/pull/2870) 
+
 ## August 26th 2021
 
 ### Changed
