@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 30th 2021
+
+### Changed
+- [Web - List Orders - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2874)
+
 ## August 26th 2021
 
 ### Changed
