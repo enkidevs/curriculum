@@ -8,11 +8,12 @@ category: coding
 setupCode:
   startingPoint: |
     # Who did you meet today?
+    # Note: One of the print statements has an error!
     name = "???"
     age = ???
   
-    print(age) #Print age to the screen as it is.
-    print(name/2) #Fix this print statement to print name to the screen
+    print(age) # Print age to the screen
+    print(name/2) # Print name to the screen
     
 ---
 # Do it yourself!
