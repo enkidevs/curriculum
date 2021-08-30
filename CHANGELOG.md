@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 30th 2021
+
+### Changed
+- [Styling - Change The Color Of The Decoration With Text Decoration Color - Replace french language link with english](https://github.com/enkidevs/curriculum/pull/2873)
+
 ## August 26th 2021
 
 ### Changed
