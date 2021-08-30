@@ -12,8 +12,8 @@ setupCode:
     age = ???
   
     print(age) #Print age to the screen as it is.
-    print(name/2) #Print name to screen after dividing by 2!?
-
+    print(name/2) #Fix this print statement to print name to the screen
+    
 ---
 # Do it yourself!
 
