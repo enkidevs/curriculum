@@ -48,11 +48,22 @@ Types of change:
 
 ### Fixed
 
-## August 27th 2021
+## August 30th 2021
 
 ## Added
 - [Coding Intro - PQs added to first workout](https://github.com/enkidevs/curriculum/pull/2870) 
 
+## August 26th 2021
+
+### Changed
+- [Mongodb - Querying Arrays - Replace order of insights as the former was talking about the latter instead of vice versa](https://github.com/enkidevs/curriculum/pull/2866)
+- [Mongodb - Querying Arrays - Rename slugs for the last two insights of this workout as their order was changed](https://github.com/enkidevs/curriculum/pull/2869)
+
+### Fixed
+- [Python - Recursive Generators - Remove type in the gap as it has no value and users have to guess if the parenthesis are necessary for the answer](https://github.com/enkidevs/curriculum/pull/2867)
+- [Go - Pointers - Add back ticks to make answers clickable](https://github.com/enkidevs/curriculum/pull/2864)
+- [Typescript - TSC Never - Replace deprecated link with new one](https://github.com/enkidevs/curriculum/pull/2865)
+- [SQL - Remove the type-in-the-gap format](https://github.com/enkidevs/curriculum/pull/2868)
 
 ## August 25th 2021
 

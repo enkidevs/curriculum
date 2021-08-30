@@ -12,7 +12,6 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -88,9 +87,11 @@ Consider the `generation` table. We want to add a new constraint called `PK-cons
 ```
 
 ```sql
-ALTER TABLE ???
-ADD ??? PK-constraints
-??? (region_id, name)
+ALTER TABLE
+  ???
+ADD
+  ??? PK-constraints
+  ??? (region_id, name)
 ```
 
 - generation
