@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## August 31st 2021
+
+## Added
+- [Coding Intro - hello beautiful people - Fixed semi-colon](https://github.com/enkidevs/curriculum/pull/2878) 
+
+
 ## August 30th 2021
 
 ## Added
