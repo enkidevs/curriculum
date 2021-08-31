@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 31st 2021
+
+### Changed
+- [Go - Go Operators - Remove type in the gap from questions that have more than one possible answer](https://github.com/enkidevs/curriculum/pull/2877)
+
 ## August 30th 2021
 
 ## Added
