@@ -50,6 +50,9 @@ Types of change:
 
 ## August 30th 2021
 
+### Changed
+- [Web - List Orders - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2874)
+
 ## Added
 - [Coding Intro - PQs added to first workout](https://github.com/enkidevs/curriculum/pull/2870) 
 
