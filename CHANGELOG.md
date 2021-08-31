@@ -51,6 +51,7 @@ Types of change:
 ## August 31st 2021
 
 ### Changed
+- [Go - Go Operators - Remove type in the gap from questions that have more than one possible answer](https://github.com/enkidevs/curriculum/pull/2877)
 - [Python - How To Open A File Object - Remove footnote numbers as there are no footnotes/glosarries](https://github.com/enkidevs/curriculum/pull/2876)
 
 ## August 30th 2021
