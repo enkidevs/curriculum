@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 31st 2021
+
+### Changed
+- [Python - How To Open A File Object - Remove footnote numbers as there are no footnotes/glosarries](https://github.com/enkidevs/curriculum/pull/2876)
+
 ## August 30th 2021
 
 ## Added
