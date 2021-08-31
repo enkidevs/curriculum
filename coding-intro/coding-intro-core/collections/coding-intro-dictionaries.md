@@ -31,9 +31,9 @@ One way to write a dictionary is using curly braces (`{ }`):
 // create a my_dog dictionary
 // with 3 key/value pairs
 my_dog = {
-  name: "Artemis",
-  age: 4,
-  color: "yellow"
+  "name": "Artemis",
+  "age": 4,
+  "color": "yellow"
 }
 ```
 
@@ -48,7 +48,7 @@ Complete the gaps such that the dictionary has `age` as a **key** and `33` for t
 
 ```plain-text
 person = {
-  ???: ???
+  '???': ???
 }
 ```
 
