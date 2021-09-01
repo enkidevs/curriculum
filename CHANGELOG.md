@@ -48,15 +48,29 @@ Types of change:
 
 ### Fixed
 
-## August 31st 2021
 
-## Added
+## September 1st 2021
+
+### Fixed
+- [Data Analysis With Python - TV Shows Ratings - Remove extra ??? from pq](https://github.com/enkidevs/curriculum/pull/2880)
+
+### Added
 - [Coding Intro - hello beautiful people - Fixed semi-colon](https://github.com/enkidevs/curriculum/pull/2878) 
 
+## August 31st 2021
+
+### Changed
+- [Go - Go Operators - Remove type in the gap from questions that have more than one possible answer](https://github.com/enkidevs/curriculum/pull/2877)
+- [Python - How To Open A File Object - Remove footnote numbers as there are no footnotes/glosarries](https://github.com/enkidevs/curriculum/pull/2876)
+- [SQL - COUNT & LIMIT - General content improvements](https://github.com/enkidevs/curriculum/pull/2879)
 
 ## August 30th 2021
 
-## Added
+### Changed
+- [Styling - Change The Color Of The Decoration With Text Decoration Color - Replace french language link with english](https://github.com/enkidevs/curriculum/pull/2873)
+- [Web - List Orders - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2874)
+
+### Added
 - [Coding Intro - PQs added to first workout](https://github.com/enkidevs/curriculum/pull/2870) 
 
 ## August 26th 2021
@@ -73,7 +87,7 @@ Types of change:
 
 ## August 25th 2021
 
-## Changed
+### Changed
 - [Python - Speed Up Your Loop Using map() or List Comprehention - Update variables to snake case and change the PQ](https://github.com/enkidevs/curriculum/pull/2853) 
 
 ## August 24th 2021
@@ -158,7 +172,6 @@ Types of change:
 
 ### Added
 - [Added - RQs - Python - Java - Blockchain]()
-
 
 ## August 11th 2021
 
