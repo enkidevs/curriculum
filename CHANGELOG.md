@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 1st 2021
+
+### Fixed
+- [Data Analysis With Python - TV Shows Ratings - Remove extra ??? from pq](https://github.com/enkidevs/curriculum/pull/2880)
+
 ## August 31st 2021
 
 ### Changed
