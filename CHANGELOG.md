@@ -50,6 +50,9 @@ Types of change:
 
 ## September 1st 2021
 
+### Changed
+- [Coding Intro - Collection Exercise - Add additional info regarding Python syntax](https://github.com/enkidevs/curriculum/pull/2882)
+
 ### Fixed
 - [Data Analysis With Python - TV Shows Ratings - Remove extra ??? from pq](https://github.com/enkidevs/curriculum/pull/2880)
 
