@@ -35,7 +35,7 @@ It's up to you to choose which type of collection you will create and what data 
 
 > 💡 As a quick reminder, lists and dictionaries are both considered collections.
 
-As this is done through the Python playground, you will have to use Python syntax[1].
+As this is done through the Python playground, you should get familiar with Python syntax[1].
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
