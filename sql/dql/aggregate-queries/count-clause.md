@@ -18,29 +18,66 @@ revisionQuestion:
   context: standalone
 ---
 
-# COUNT clause
+# COUNT & LIMIT
 
 
 ---
 
 ## Content
 
-The `COUNT` clause returns the total number of entries in a given column.
+You can use the `COUNT` clause to return the total number of entries in a given column.
 
-Using `COUNT` function[1]:
+Take this table of `customers` for example:
+
+| customer   | orders |
+|------------|--------|
+| Anabella   | 4      |
+| Obadias    | 87     |
+| Dore       | 86     |
+| Anthe      | 11     |
+| Carol-jean | 21     |
+| Mehetabel  | 68     |
+| Arte       | 1      |
+| Kandy      | 31     |
+| Brunhilda  | 61     |
+| Jolee      | 92     |
+
+Let's say your boss wants you to find out how many customers are in total. You could count all of the manually, or you could use the `COUNT` clause:
 
 ```sql
-SELECT COUNT(experience) AS count
-FROM experience
-LIMIT 5;
+SELECT
+  COUNT(customer) AS count
+FROM
+  customers
 ```
 
 | count |
 | ----- |
-| 5     |
+| 10    |
 
-No matter how many entries there are in the `experience` table, we limit the output to 5 rows. Hence, the result is `5`.
+Now, your boss wants you to find *the first five customers with the most orders*. To get this data, you'll need to use the `LIMIT` clause. 
 
+```sql
+SELECT
+  customer
+FROM
+  customers
+ORDER BY
+  orders DESC
+LIMIT 5
+```
+
+And the customers are:
+
+| Customer  | Orders |
+|-----------|--------|
+| Jolee     | 92     |
+| Obadias   | 87     |
+| Dore      | 86     |
+| Mehetabel | 68     |
+| Brunhilda | 61     |
+
+> 💡 You can use the `LIMIT` keyword in any query. you're not limited by the `ORDER BY` clause.
 
 ---
 
@@ -109,34 +146,3 @@ Output:
 - DISTINCT name
 - item
 - all
-
-
----
-
-## Footnotes
-
-[1:Pokemon Db]
-We will use the same segment of `experience` table for all aggregate functions:
-
-| id  | level | experience | growth_rate_id |
-| --- | ----- | ---------- | -------------- |
-| 1   | 1     | 0          | 1              |
-| 2   | 2     | 10         | 1              |
-| 3   | 3     | 33         | 1              |
-| ... | ...   | ...        | ...            |
-
-```sql
-SELECT experience
-FROM experience
-LIMIT 5;
-```
-
-Output:
-
-| experience |
-| ---------- |
-| 0          |
-| 10         |
-| 33         |
-| 80         |
-| 156        |
