@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Data Analysis With Python - TV Shows Ratings - Remove extra ??? from pq](https://github.com/enkidevs/curriculum/pull/2880)
+- [HTML - Image Base - Remove extra ??? from rq](https://github.com/enkidevs/curriculum/pull/2881)
 
 ## August 31st 2021
 
