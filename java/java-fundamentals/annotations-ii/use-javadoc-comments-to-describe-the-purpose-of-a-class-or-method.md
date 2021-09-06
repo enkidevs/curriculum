@@ -8,7 +8,11 @@ tags:
   - practices
 links:
   - >-
-    [www.oracle.com](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html){website}
+    [How to Write Doc Comments for the Javadoc Tool](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Use Javadoc comments to describe the purpose of a class or method
@@ -37,3 +41,16 @@ public int getMarks(String surname, int id)
 ```
 
 The Javadoc is generated in HTML format from the source code and acts as reference for programmers. They are especially helpful when working on large projects.
+
+
+---
+
+## Revision
+
+Which opening tag does a Javadoc comment start with?
+
+???
+
+- `/**`
+- `//`
+- `#`

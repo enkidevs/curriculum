@@ -6,7 +6,11 @@ tags:
   - comments
 links:
   - >-
-    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2011/08/code-comments-java-best-practices.html){website}
+    [Comment Best Practices](http://javarevisited.blogspot.co.uk/2011/08/code-comments-java-best-practices.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Use comments to explain the purpose of code
@@ -39,3 +43,35 @@ This comment is not very helpful. The method is fairly simple, and any programme
 ```
 
 This comment is better because it explains the purpose of the method; *why* we are adding 20% to `cost`.
+
+
+---
+
+## Revision
+
+Which of the following comments best describes the purpose of the code below?
+
+```java
+public BigDecimal addTax(BigDecimal cost) {
+  BigDecimal costWithTax = 
+    cost + (cost * 0.2);
+  return costWithTax;
+}
+
+// A
+/*Adds a 20% VAT tax to the product's cost*/
+
+// B
+/*Takes a value as a parameter, increases 
+it by 20% and returns that value*/
+
+// C
+/*Returns a tax value*/
+
+```
+
+???
+
+- A
+- B
+- C
