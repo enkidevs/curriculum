@@ -48,6 +48,84 @@ Types of change:
 
 ### Fixed
 
+## September 6th 2021
+
+### Added
+- [Java - Revision Questions](https://github.com/enkidevs/curriculum/pull/2883)
+
+## September 1st 2021
+
+### Fixed
+- [Data Analysis With Python - TV Shows Ratings - Remove extra ??? from pq](https://github.com/enkidevs/curriculum/pull/2880)
+- [HTML - Image Base - Remove extra ??? from rq](https://github.com/enkidevs/curriculum/pull/2881)
+
+### Added
+- [Coding Intro - hello beautiful people - Fixed semi-colon](https://github.com/enkidevs/curriculum/pull/2878) 
+
+## August 31st 2021
+
+### Changed
+- [Go - Go Operators - Remove type in the gap from questions that have more than one possible answer](https://github.com/enkidevs/curriculum/pull/2877)
+- [Python - How To Open A File Object - Remove footnote numbers as there are no footnotes/glosarries](https://github.com/enkidevs/curriculum/pull/2876)
+- [SQL - COUNT & LIMIT - General content improvements](https://github.com/enkidevs/curriculum/pull/2879)
+
+## August 30th 2021
+
+### Changed
+- [Styling - Change The Color Of The Decoration With Text Decoration Color - Replace french language link with english](https://github.com/enkidevs/curriculum/pull/2873)
+- [Web - List Orders - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2874)
+
+### Added
+- [Coding Intro - PQs added to first workout](https://github.com/enkidevs/curriculum/pull/2870) 
+
+## August 26th 2021
+
+### Changed
+- [Mongodb - Querying Arrays - Replace order of insights as the former was talking about the latter instead of vice versa](https://github.com/enkidevs/curriculum/pull/2866)
+- [Mongodb - Querying Arrays - Rename slugs for the last two insights of this workout as their order was changed](https://github.com/enkidevs/curriculum/pull/2869)
+
+### Fixed
+- [Python - Recursive Generators - Remove type in the gap as it has no value and users have to guess if the parenthesis are necessary for the answer](https://github.com/enkidevs/curriculum/pull/2867)
+- [Go - Pointers - Add back ticks to make answers clickable](https://github.com/enkidevs/curriculum/pull/2864)
+- [Typescript - TSC Never - Replace deprecated link with new one](https://github.com/enkidevs/curriculum/pull/2865)
+- [SQL - Remove the type-in-the-gap format](https://github.com/enkidevs/curriculum/pull/2868)
+
+## August 25th 2021
+
+### Changed
+- [Python - Speed Up Your Loop Using map() or List Comprehention - Update variables to snake case and change the PQ](https://github.com/enkidevs/curriculum/pull/2853) 
+
+## August 24th 2021
+
+### Changed
+- [HTML - Conditional Comments Ie9 - Remove RQ and make current PQ the new RQ as it has more value](https://github.com/enkidevs/curriculum/pull/2862)
+
+### Fixed
+- [SQL - Group By Clause - Remove the type-in-the-gap format from both the PQ & RQ; codeblock formatting](https://github.com/enkidevs/curriculum/pull/2863)
+
+## August 23rd 2021
+
+### Changed 
+- [Python Data Analysis - Importing Datasets - Remove quotation as only one would be accepted as a correct answer](https://github.com/enkidevs/curriculum/pull/2859)
+- [Python - Python Environments - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2860)
+
+### Fixed
+- [Data Analysis - SQL Syntax II - Fix RQ](https://github.com/enkidevs/curriculum/pull/2858)
+- [SQL - Aggregate Queries Discussion Insight - Remove duplicate column word](https://github.com/enkidevs/curriculum/pull/2861)
+- [Go - Why Learn Go - Try to retrigger insight to get latest updates in the app](https://github.com/enkidevs/curriculum/pull/2856)
+- [JavaScript - Milliseconds Since Epoch - Remove extra semicolons in RQ answers](https://github.com/enkidevs/curriculum/pull/2855)
+
+## August 22nd 2021
+
+### Fixed
+- [Linux - Installing a deb package from the terminal - Add sudo and package name to pr and rq](https://github.com/enkidevs/curriculum/pull/2857)
+- [Linux - Changing File Ownership With Chown - Add missing colon to rq answers](https://github.com/enkidevs/curriculum/pull/2854)
+
+## August 20th 2021
+
+### Fixed
+- [Comp. Sci. - The Linked List Data Structure - Update RQ to be more specific](https://github.com/enkidevs/curriculum/pull/2852)
+
 ## August 18th 2021
 
 ### Changed
