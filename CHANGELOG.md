@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## September 6th 2021
+
+### Changed
+- [Coding intro- All Applicable Workouts - remove type in the gap from questions with multiple correct answers](https://github.com/enkidevs/curriculum/pull/2884)
 
 ## September 1st 2021
 
