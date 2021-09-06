@@ -117,11 +117,11 @@ favorite_game["rating"]
 # In python, keys that are string values need to be encapsulated in either 'single' or "double" quotes
 dictionary_name = {
   'name': "Dictionary",
-  "rating": 1
+  "r": 1
 }
 
 # It is also possible to first create a variable, and then use that variable as a key:
-
+# In this case, keys do not have to be encapsulated in quotations
 name = "name"
 r = "rating"
 
@@ -135,9 +135,9 @@ dictionary_name = {
 
 # For string keys
 dictionary_name['name']
-dictionary_name.get("name")
+dictionary_name.get("r")
 
 # for non string keys
 dictionary_name[name]
-dictionary_name.get(name)
+dictionary_name.get(r)
 ```
