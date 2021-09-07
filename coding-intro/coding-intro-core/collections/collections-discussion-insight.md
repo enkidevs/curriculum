@@ -15,7 +15,7 @@ setupCode:
 
     # Start by creating a list here
 
-    # Then, use the print() function to display one of the collection's elements
+    # Then, use the print() function to display one of the list's elements
     print()
 
 ---
