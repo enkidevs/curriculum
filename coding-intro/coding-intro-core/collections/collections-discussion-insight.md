@@ -35,11 +35,11 @@ It's up to you to choose which type of collection you will create and what data 
 
 > 💡 As a quick reminder, lists and dictionaries are both considered collections.
 
-As this is done through the Python playground, you should get familiar with Python syntax[1].
+As this is done through the Python playground, you should get familiar with Python syntax[2].
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
-That being said, if you're not sure how to get started, check out this footnote[2].
+That being said, if you're not sure how to get started, check out this footnote[3].
 
 When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
 
@@ -72,7 +72,38 @@ And here is how you would print a collection's element:
 print(my_collection[0])
 ```
 
-[2: Hints]
+[2: Python Collection Syntax]
+
+```python
+# In python, keys that are string values need to be encapsulated in either 'single' or "double" quotes
+dictionary_name = {
+  'name': "Dictionary",
+  "r": 1
+}
+
+# It is also possible to first create a variable, and then use that variable as a key:
+# In this case, keys do not have to be encapsulated in quotations
+name = "name"
+r = "rating"
+
+dictionary_name = {
+  name: "Dictionary",
+  r: 1
+}
+
+
+# How to access an element from a dicitonary:
+
+# For string keys
+dictionary_name['name']
+dictionary_name.get("r")
+
+# for non string keys
+dictionary_name[name]
+dictionary_name.get(r)
+```
+
+[3: Hints]
 
 There are many ways in which you can tackle this. For example, you could create a list that stores weekdays:
 
@@ -111,33 +142,3 @@ favorite_game["rating"]
 // 10
 ```
 
-[2: Python Collection Syntax]
-
-```python
-# In python, keys that are string values need to be encapsulated in either 'single' or "double" quotes
-dictionary_name = {
-  'name': "Dictionary",
-  "r": 1
-}
-
-# It is also possible to first create a variable, and then use that variable as a key:
-# In this case, keys do not have to be encapsulated in quotations
-name = "name"
-r = "rating"
-
-dictionary_name = {
-  name: "Dictionary",
-  r: 1
-}
-
-
-# How to access an element from a dicitonary:
-
-# For string keys
-dictionary_name['name']
-dictionary_name.get("r")
-
-# for non string keys
-dictionary_name[name]
-dictionary_name.get(r)
-```
