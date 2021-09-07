@@ -82,26 +82,11 @@ days = [
 ]
 ```
 
-You could also create a dictionary that stores information about your favorite game:
-
-```plain-text
-favorite_game = {
-  name: "Mario",
-  rating: 10,
-  played_hours: 86
-}
-```
 
 Here is a reminder of how you can access the items:
 
 ```plain-text
 days[0]
 // "Monday"
-
-favorite_game.name
-// "Mario"
-
-favorite_game["rating"]
-// 10
 ```
 
