@@ -55,6 +55,9 @@ Types of change:
 
 ## September 1st 2021
 
+### Changed
+- [Coding Intro - Collection Exercise - Remove dictionary option from exercise](https://github.com/enkidevs/curriculum/pull/2882)
+
 ### Fixed
 - [Data Analysis With Python - TV Shows Ratings - Remove extra ??? from pq](https://github.com/enkidevs/curriculum/pull/2880)
 - [HTML - Image Base - Remove extra ??? from rq](https://github.com/enkidevs/curriculum/pull/2881)
