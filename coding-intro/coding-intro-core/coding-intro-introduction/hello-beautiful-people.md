@@ -10,7 +10,7 @@ setupCode:
    # 👋 Welcome to the Python coding playground.
    # Update the statement below to signal whether or not you're ready to learn programming!
    
-   print("I don't know what's going on");
+   print("I don't know what's going on")
 
 ---
 
