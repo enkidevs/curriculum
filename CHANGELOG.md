@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 8th 2021
+
+### Changed
+- [Typescript - TSC Enum - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2885)
+
 ## September 6th 2021
 
 ### Changed
