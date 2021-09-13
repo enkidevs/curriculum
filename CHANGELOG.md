@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 13th 2021
+
+### Fixed
+- [Java - Using StringBuilder Class - Replace StringBuffer with StringBuilder](https://github.com/enkidevs/curriculum/pull/2887)
+
 ## September 8th 2021
 
 ### Changed
