@@ -38,8 +38,8 @@ The main additional functionality provided by StringBuilder over String are the 
 You can replicate the code snippet above:
 
 ```java
-StringBuffer str= 
-new StringBuffer("Good");
+StringBuilder str= 
+new StringBuilder("Good");
   str.append("Morning");
   str.insert(4, " ");
 
