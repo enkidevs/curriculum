@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 13th 2021
+
+### Added
+- [Python - Dictionary Methods II - Add info on zip method as it is used in the following playground question](https://github.com/enkidevs/curriculum/pull/2889)
+
 ## September 8th 2021
 
 ### Changed
