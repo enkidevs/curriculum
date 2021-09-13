@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 13th 2021
+
+### Fixed
+- [Python - What Are Modules? - Fix incorrect RQ answer](https://github.com/enkidevs/curriculum/pull/2888)
+
 ## September 8th 2021
 
 ### Changed
