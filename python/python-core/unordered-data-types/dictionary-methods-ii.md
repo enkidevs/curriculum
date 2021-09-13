@@ -50,9 +50,9 @@ print(square_numbers)
 # {2: 4, 3: 9, 4: 16, 5: 25}
 ```
 
-- `popitem()` removes the last item that was inserted in the dictionary, and returns it.
+- `popitem()` removes the last item that was inserted in the dictionary and returns it.
 
-> For versions prior to Python 3.7, `popitem()` removed an arbitrary item from the dictionary. For more information check out the links in the "Learn More" section.
+> For versions before Python 3.7, `popitem()` removed an arbitrary item from the dictionary. For more information check out the links in the "Learn More" section.
 
 ```python
 square_numbers.popitem()
@@ -87,6 +87,23 @@ famous_siblings = {}.fromkeys(names, surname)
 print(famous_siblings)
 # {'Luke': 'Hemsworth', 'Chris': 'Hemsworth', 'Liam': 'Hemsworth'}
 ```
+
+- `zip()` can be used to create a new dictionary using two other objects:
+
+```python
+# here we have a list and tuple:
+keys = [1, 2, 3, 4, 5]
+values = (1, 4, 9, 16, 25)
+
+# Create a new zip object with the above keys and values and convert it to a dictionary
+newDict = dict(zip(keys, values))
+
+print(newDict)
+# {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+```
+
+> 💡 This method creates an even number of key-value pairs. For example, if one list has seven values while another has 50, the resulting dictionary will have seven key-value pairs.
 
 ---
 
