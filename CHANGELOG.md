@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 14th 2021
+
+### Fixed
+- [SQL - Intro Insert - Add missing answer field to rq](https://github.com/enkidevs/curriculum/pull/2890)
+
 ## September 8th 2021
 
 ### Changed
