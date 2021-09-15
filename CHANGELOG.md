@@ -53,6 +53,9 @@ Types of change:
 ### Changed
 - [SQL - Add Trigger 2 - Remove outdated link](https://github.com/enkidevs/curriculum/pull/2891)
 
+### Fixed
+- [Java - Using Bounded Type Parameters In Generic Methods - Fix broken example in PQ](https://github.com/enkidevs/curriculum/pull/2886)
+
 ## September 14th 2021
 
 ### Fixed
