@@ -48,10 +48,16 @@ Types of change:
 
 ### Fixed
 
-## September 13th 2021
+## September 15th 2021
 
 ### Fixed
 - [Java - Using StringBuilder Class - Replace StringBuffer with StringBuilder](https://github.com/enkidevs/curriculum/pull/2887)
+- [Java - Using Bounded Type Parameters In Generic Methods - Fix broken example in PQ](https://github.com/enkidevs/curriculum/pull/2886)
+
+## September 14th 2021
+
+### Fixed
+- [SQL - Intro Insert - Add missing answer field to rq](https://github.com/enkidevs/curriculum/pull/2890)
 
 ## September 8th 2021
 
