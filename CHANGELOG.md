@@ -50,6 +50,9 @@ Types of change:
 
 ## September 15th 2021
 
+### Changed
+- [SQL - Add Trigger 2 - Remove outdated link](https://github.com/enkidevs/curriculum/pull/2891)
+
 ### Fixed
 - [Java - Using StringBuilder Class - Replace StringBuffer with StringBuilder](https://github.com/enkidevs/curriculum/pull/2887)
 - [Java - Using Bounded Type Parameters In Generic Methods - Fix broken example in PQ](https://github.com/enkidevs/curriculum/pull/2886)
