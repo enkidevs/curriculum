@@ -10,13 +10,14 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
-    # Use these keys:
-    keys = ['ID', 'Age']
-    
-    # Populate this dictionary:
+    # 👋 Welcome to the Python coding playground.
+    # Create a dictionary
+    # Save the values in a different variable
+    # Save the keys in a different variable
+    # Clear the dictionary
+ 
+    # Use this dictionary:
     person = {}
-    
 
 ---
 
@@ -26,16 +27,15 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to populate a `dictionary` with a value of your choice and these keys:
-
-```python
-keys = ['ID', 'Age']
-```
-
-Don't forget to output the new `dictionary`.
+> 👩‍💻 Your task is to:
+> - **create a dictionary with at least one key-value pair**
+> - **save the values in a different variable**
+> - **save the keys in a different variable**
+> - **clear the dictionary**
 
 To solve this, try using the following concepts:
-- built-in method (`fromkeys`)
+- create a dictionary (`fromkeys`)
+- methods (`.values()`, `.keys()`, `.clear()`)
 
 Give it an honest try, and feel free to share your solution!
 
