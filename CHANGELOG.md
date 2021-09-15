@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 15th 2021
+
+### Fixed
+- [Java - Using Bounded Type Parameters In Generic Methods - Fix broken example in PQ](https://github.com/enkidevs/curriculum/pull/2886)
+
 ## September 14th 2021
 
 ### Fixed
