@@ -55,4 +55,8 @@ If you’re stuck, you can always read this footnote[1] or review the comments s
 
 [1: Hints]
 
-Add the `list` and a value to the `person` `dictionary` using the `fromkeys` method. 
+Create a new `dictionary` using `fromkeys` with at least one key-value pair.
+
+Use the built-in methods to extract the keys and values. 
+
+Clear the dictionary.
