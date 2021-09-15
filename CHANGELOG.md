@@ -54,7 +54,9 @@ Types of change:
 - [SQL - Add Trigger 2 - Remove outdated link](https://github.com/enkidevs/curriculum/pull/2891)
 
 ### Fixed
+- [Java - Using StringBuilder Class - Replace StringBuffer with StringBuilder](https://github.com/enkidevs/curriculum/pull/2887)
 - [Java - Using Bounded Type Parameters In Generic Methods - Fix broken example in PQ](https://github.com/enkidevs/curriculum/pull/2886)
+- [Python - What Are Modules? - Fix incorrect RQ answer](https://github.com/enkidevs/curriculum/pull/2888)
 
 ## September 14th 2021
 
