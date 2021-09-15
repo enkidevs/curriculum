@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 15th 2021
+
+### Changed
+- [SQL - Add Trigger 2 - Remove outdated link](https://github.com/enkidevs/curriculum/pull/2891)
+
 ## September 14th 2021
 
 ### Fixed
