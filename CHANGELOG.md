@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 16th 2021
+
+### Fixed
+- [Python - Using Else In Loops - Remove shorthand notation from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2894)
+
 ## September 15th 2021
 
 ### Changed
