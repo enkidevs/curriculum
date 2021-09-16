@@ -47,8 +47,7 @@ If you'd like to learn more about application security, you should make sure you
 
 **Operating Systems**
 
-**How memory in a computer works, 
-and where data is located at any given time**
+**How memory in a computer works, and where data is located at any given time**
 
 - Network Protocols
 - Binary
