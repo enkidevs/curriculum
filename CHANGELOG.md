@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 16th 2021
+
+### Fixed
+- [Appsec - What Else You Need To Know - Fix incorrect rendering of PQ and RQ](https://github.com/enkidevs/curriculum/pull/2893)
+
 ## September 15th 2021
 
 ### Changed
