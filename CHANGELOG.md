@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Python - The Import Statement - Fix code in PQ](https://github.com/enkidevs/curriculum/pull/2896)
+- [Appsec - What Else You Need To Know - Fix incorrect rendering of PQ and RQ](https://github.com/enkidevs/curriculum/pull/2893)
 
 ## September 16th 2021
 
