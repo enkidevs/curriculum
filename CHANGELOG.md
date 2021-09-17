@@ -48,10 +48,16 @@ Types of change:
 
 ### Fixed
 
+## September 17th 2021
+
+### Fixed
+- [Python - The Import Statement - Fix code in PQ](https://github.com/enkidevs/curriculum/pull/2896)
+- [Appsec - What Else You Need To Know - Fix incorrect rendering of PQ and RQ](https://github.com/enkidevs/curriculum/pull/2893)
+
 ## September 16th 2021
 
 ### Fixed
-- [Appsec - What Else You Need To Know - Fix incorrect rendering of PQ and RQ](https://github.com/enkidevs/curriculum/pull/2893)
+- [Python - Using Else In Loops - Remove shorthand notation from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2894)
 
 ## September 15th 2021
 

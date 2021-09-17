@@ -67,7 +67,7 @@ count = 0
 ??? ???
   global count
   count += 1
-  print(x)
+  print(count)
   return count
 
 ```
