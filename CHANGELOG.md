@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 17th 2021
+
+### Fixed
+- [Python - The Import Statement - Fix code in PQ](https://github.com/enkidevs/curriculum/pull/2896)
+
 ## September 16th 2021
 
 ### Fixed
