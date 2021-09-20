@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 20th 2021
+
+### Changed
+- [Python - Dictionary View Objects - Replace true with True](https://github.com/enkidevs/curriculum/pull/2897)
+
 ## September 17th 2021
 
 ### Fixed
