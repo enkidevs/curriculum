@@ -48,8 +48,8 @@ Would what be the result of the following code?
 
 ```java
 String s = "Check out this cat, my cat, the best cat really";
-int indexLast = s.indexOf("cat");
-//indexLast: ???
+int index = s.indexOf("cat");
+//index: ???
 ```
 
 - 15
