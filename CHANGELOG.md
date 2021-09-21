@@ -50,6 +50,9 @@ Types of change:
 
 ## September 20th 2021
 
+### Changed
+- [Python - Dictionary View Objects - Replace true with True](https://github.com/enkidevs/curriculum/pull/2897)
+
 ### Fixed
 - [Javascript - Loops Part 2 - Fix incorrect info in comment](https://github.com/enkidevs/curriculum/pull/2898)
 
