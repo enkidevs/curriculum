@@ -62,13 +62,13 @@ Pick the correct syntax to compare the **values** of two strings:
 
 ```java
 // A
-if(string1 == string2){
+if (string1 == string2) {
   return true;
 }
 return false;
 
 // B
-if(string1.equals(string2)){
+if (string1.equals(string2)) {
   return true
 }
 return false;
