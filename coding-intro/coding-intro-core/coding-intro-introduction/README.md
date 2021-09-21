@@ -10,3 +10,4 @@ insights:
   - why-learn-to-code
   - hello-code
   - what-is-your-goal
+  - hello-beautiful-people 

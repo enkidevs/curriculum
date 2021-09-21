@@ -8,19 +8,20 @@ category: coding
 setupCode:
   startingPoint: |
     # Who did you meet today?
+    # Note: One of the print statements has an error!
     name = "???"
     age = ???
   
-    print(age) #Print age to the screen as it is.
-    print(name/2) #Print name to screen after dividing by 2!?
-
+    print(age) # Print age to the screen
+    print(name/2) # Print name to the screen
+    
 ---
 # Do it yourself!
 
 ---
 ## Content
 
-Welcome to your first coding task.
+Let's write a Python program!
 
 Who's the last person you met? Do you remember their age?
 

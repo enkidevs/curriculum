@@ -13,9 +13,9 @@ setupCode:
     # Hey there 👋
     # Welcome to your first coding exercise
 
-    # Start by creating a collection here
+    # Start by creating a list here
 
-    # Then, use the print() function to display one of the collection's elements
+    # Then, use the print() function to display one of the list's elements
     print()
 
 ---
@@ -27,13 +27,9 @@ setupCode:
 ## Content
 
 > 👩‍💻 Your task is to:
-> - **create a collection**
+> - **create a list**
 > - **access one of its elements**
 > - **and finally print[1] the element**
-
-It's up to you to choose which type of collection you will create and what data to store inside it.
-
-> 💡 As a quick reminder, lists and dictionaries are both considered collections.
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
@@ -86,25 +82,11 @@ days = [
 ]
 ```
 
-You could also create a dictionary that stores information about your favorite game:
-
-```plain-text
-favorite_game = {
-  name: "Mario",
-  rating: 10,
-  played_hours: 86
-}
-```
 
 Here is a reminder of how you can access the items:
 
 ```plain-text
 days[0]
 // "Monday"
-
-favorite_game.name
-// "Mario"
-
-favorite_game["rating"]
-// 10
 ```
+

@@ -88,17 +88,20 @@ If you don't include the keywords `DESC` or `ASC` then `ORDER BY` will automatic
 Complete the following query to return all students that are born before the year 2000 and have a first name beginning with the letter 'A':
 
 ```sql
-SELECT name
-FROM students
-??? year_of_birth ??? 2000
-??? first_name ??? 'A%'
+SELECT
+  name
+FROM
+  students
+???
+  year_of_birth ??? 2000
+  ??? first_name ??? 'A%'
 ```
 
 - WHERE
-- <
+- `<`
 - AND
-- =
-- >
+- `=`
+- `>`
 - OR
 
 
@@ -116,8 +119,8 @@ FROM cities
 ```
 
 - WHERE
-- >
+- `>`
 - AND
-- =
-- <
+- `=`
+- `<`
 - OR

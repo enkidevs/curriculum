@@ -48,12 +48,58 @@ Types of change:
 
 ### Fixed
 
+
+## September 20th 2021
+
+### Changed
+- [Python - Dictionary View Objects - Replace true with True](https://github.com/enkidevs/curriculum/pull/2897)
+
+### Fixed
+- [Javascript - Loops Part 2 - Fix incorrect info in comment](https://github.com/enkidevs/curriculum/pull/2898)
+
+## September 17th 2021
+
+### Fixed
+- [Python - The Import Statement - Fix code in PQ](https://github.com/enkidevs/curriculum/pull/2896)
+- [Appsec - What Else You Need To Know - Fix incorrect rendering of PQ and RQ](https://github.com/enkidevs/curriculum/pull/2893)
+
+## September 16th 2021
+
+### Fixed
+- [Python - Using Else In Loops - Remove shorthand notation from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2894)
+
+## September 15th 2021
+
+### Changed
+- [SQL - Add Trigger 2 - Remove outdated link](https://github.com/enkidevs/curriculum/pull/2891)
+
+### Fixed
+- [Java - Using StringBuilder Class - Replace StringBuffer with StringBuilder](https://github.com/enkidevs/curriculum/pull/2887)
+- [Java - Using Bounded Type Parameters In Generic Methods - Fix broken example in PQ](https://github.com/enkidevs/curriculum/pull/2886)
+- [Python - What Are Modules? - Fix incorrect RQ answer](https://github.com/enkidevs/curriculum/pull/2888)
+
+## September 14th 2021
+
+### Fixed
+- [SQL - Intro Insert - Add missing answer field to rq](https://github.com/enkidevs/curriculum/pull/2890)
+
+## September 8th 2021
+
+### Changed
+- [Typescript - TSC Enum - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2885)
+
 ## September 6th 2021
 
 ### Added
 - [Java - Revision Questions](https://github.com/enkidevs/curriculum/pull/2883)
 
+### Changed
+- [Coding intro- All Applicable Workouts - remove type in the gap from questions with multiple correct answers](https://github.com/enkidevs/curriculum/pull/2884)
+
 ## September 1st 2021
+
+### Changed
+- [Coding Intro - Collection Exercise - Remove dictionary option from exercise](https://github.com/enkidevs/curriculum/pull/2882)
 
 ### Fixed
 - [Data Analysis With Python - TV Shows Ratings - Remove extra ??? from pq](https://github.com/enkidevs/curriculum/pull/2880)
@@ -128,12 +174,15 @@ Types of change:
 
 ## August 18th 2021
 
+### Added
+- [Python - Looping Discussion Insight - Add setup Code](https://github.com/enkidevs/curriculum/pull/2851)
+
 ### Changed
 - [Coding Intro - Do it yourself! - Enable insight](https://github.com/enkidevs/curriculum/pull/2848)
 
 ### Fixed
 - [Data Analysis - Pipeline Analysis - Remove the type-in-the-gap format from both the PQ and the RQ](https://github.com/enkidevs/curriculum/pull/2847)
-
+- [Python - While Loops - Remove type in the gap from PQ as it is a guessing game of whitespace characters](https://github.com/enkidevs/curriculum/pull/2850)
 - [Linux - Random Password Generator - Add "secure" in question](https://github.com/enkidevs/curriculum/pull/2849)
 
 ## August 17th 2021
@@ -153,6 +202,9 @@ Types of change:
 
 ## August 16th 2021
 
+### Added
+- [Python - Dictionary Standard Mapping Type - Add info on how to create empty dictionaries](https://github.com/enkidevs/curriculum/pull/2829)
+
 ### Fixed
 - [React - What is JSX - Remove Quotations as the question becomes a guessing game](https://github.com/enkidevs/curriculum/pull/2835)
 - [Data Analysis With Python - Modifying Pie Chart II - Fix syntax issues and remove type in the gap in the PQ](https://github.com/enkidevs/curriculum/pull/2837)
@@ -166,7 +218,6 @@ Types of change:
 ### Fixed
 - [HTML - Update Images - Remove type in the gap as it is impossible to guess answer](https://github.com/enkidevs/curriculum/pull/2833)
 - [Blockchain - Importance of Blockchain - Remove type in the gap as it breaks the question](https://github.com/enkidevs/curriculum/pull/2832)
-
 
 ## August 12th 2021
 
