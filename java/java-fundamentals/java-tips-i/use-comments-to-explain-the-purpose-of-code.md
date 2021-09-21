@@ -67,7 +67,6 @@ it by 20% and returns that value*/
 
 // C
 /*Returns a tax value*/
-
 ```
 
 ???
