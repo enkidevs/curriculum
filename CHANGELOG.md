@@ -48,6 +48,7 @@ Types of change:
 
 ### Fixed
 
+
 ## September 20th 2021
 
 ### Changed
@@ -88,6 +89,9 @@ Types of change:
 - [Typescript - TSC Enum - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2885)
 
 ## September 6th 2021
+
+### Added
+- [Java - Revision Questions](https://github.com/enkidevs/curriculum/pull/2883)
 
 ### Changed
 - [Coding intro- All Applicable Workouts - remove type in the gap from questions with multiple correct answers](https://github.com/enkidevs/curriculum/pull/2884)
