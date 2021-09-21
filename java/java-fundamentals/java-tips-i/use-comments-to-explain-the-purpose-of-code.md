@@ -49,7 +49,7 @@ This comment is better because it explains the purpose of the method; *why* we a
 
 ## Revision
 
-Which of the following comments best describes the purpose of the code below?
+Which of these comments best describe the purpose of the code?
 
 ```java
 public BigDecimal addTax(BigDecimal cost) {
