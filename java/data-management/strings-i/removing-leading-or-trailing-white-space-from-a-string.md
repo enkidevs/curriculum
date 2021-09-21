@@ -37,7 +37,7 @@ The output printed by the example above will be: `Enki`.
 
 ## Revision
 
-Which method can we use to remove surrounding white space in a string?
+Which method can we use to remove the surrounding white space in a string?
 
 ???
 
