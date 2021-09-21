@@ -44,7 +44,7 @@ int indexLast = s.lastIndexOf("dog");
 
 ## Revision
 
-Would what be the result of the following code?
+What would be the result of the following code?
 
 ```java
 String s = "Check out this cat, my cat, the best cat really";
