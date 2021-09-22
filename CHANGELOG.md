@@ -55,6 +55,7 @@ Types of change:
 
 ### Fixed
 - [JavaScript - Symbol Special Properties - Fix the practice question by switching the answer order](https://github.com/enkidevs/curriculum/pull/2900)
+- [Python - Intro To Modules - Fix continuity between code examples](https://github.com/enkidevs/curriculum/pull/2902)
 
 ## September 20th 2021
 
