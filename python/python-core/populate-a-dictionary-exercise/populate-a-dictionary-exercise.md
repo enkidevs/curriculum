@@ -27,7 +27,7 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to:
+> 👩‍💻 Using dictionary methods, your task is to:
 > - **create a dictionary with at least one key-value pair**
 > - **save the values in a different variable**
 > - **save the keys in a different variable**
