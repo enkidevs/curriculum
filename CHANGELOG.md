@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## September 22nd 2021
+
+### Fixed
+- [Javascript - The Difference Between Null Undefined And NaN - Remove function from pq as it wasn't taught yet](https://github.com/enkidevs/curriculum/pull/2899)
 
 ## September 20th 2021
 
