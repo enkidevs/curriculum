@@ -51,7 +51,7 @@ Types of change:
 ## September 22nd 2021
 
 ### Fixed
-- [JavaScript - Symbol Special Properties - Fix the practice question by switching the answer order]()
+- [JavaScript - Symbol Special Properties - Fix the practice question by switching the answer order](https://github.com/enkidevs/curriculum/pull/2900)
 
 ## September 20th 2021
 
