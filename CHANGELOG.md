@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## September 22nd 2021
+
+### Fixed
+- [JavaScript - Symbol Special Properties - Fix the practice question by switching the answer order]()
 
 ## September 20th 2021
 
