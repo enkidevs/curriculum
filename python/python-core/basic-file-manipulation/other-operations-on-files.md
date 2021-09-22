@@ -56,7 +56,7 @@ print(file.read())
 file.close()
 
 # Output:
-# Input is:
+# Input is: This is
 # Current pos: 7
 # After seek: 0
 # This is my file
