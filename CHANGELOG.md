@@ -81,6 +81,7 @@ Types of change:
 
 ### Changed
 - [SQL - Add Trigger 2 - Remove outdated link](https://github.com/enkidevs/curriculum/pull/2891)
+- [Python - Populate A Dictionary Exercise - Replace the zip method with fromkeys](https://github.com/enkidevs/curriculum/pull/2892)
 
 ### Fixed
 - [Java - Using StringBuilder Class - Replace StringBuffer with StringBuilder](https://github.com/enkidevs/curriculum/pull/2887)
