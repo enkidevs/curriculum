@@ -44,10 +44,10 @@ We will `import` and use a *method* exposed by the `my_adder` module[1] we defin
 import my_adder
 
 # now we can use methods exposed by it
-result = my_adder.add(3,4)
-print(result)
+my_adder.add(3,4)
 
-# This will be the output: 7
+# This will output:
+# The sum is: 7
 ```
 
 > 💡 A module needs to be imported only **once**, regardless of the number of times it is used as an argument for the `import` statement.
@@ -67,7 +67,7 @@ count = 0
 ??? ???
   global count
   count += 1
-  print(x)
+  print(count)
   return count
 
 ```

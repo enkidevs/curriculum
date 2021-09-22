@@ -48,6 +48,35 @@ Types of change:
 
 ### Fixed
 
+## September 22nd 2021
+
+### Added
+- [Java - Python - Remove type in the gap format from PQs and RQs](https://github.com/enkidevs/curriculum/pull/2901)
+
+### Fixed
+- [JavaScript - Symbol Special Properties - Fix the practice question by switching the answer order](https://github.com/enkidevs/curriculum/pull/2900)
+- [Python - Intro To Modules - Fix continuity between code examples](https://github.com/enkidevs/curriculum/pull/2902)
+- [Javascript - The Difference Between Null Undefined And NaN - Remove function from pq as it wasn't taught yet](https://github.com/enkidevs/curriculum/pull/2899)
+
+## September 20th 2021
+
+### Changed
+- [Python - Dictionary View Objects - Replace true with True](https://github.com/enkidevs/curriculum/pull/2897)
+
+### Fixed
+- [Javascript - Loops Part 2 - Fix incorrect info in comment](https://github.com/enkidevs/curriculum/pull/2898)
+
+## September 17th 2021
+
+### Fixed
+- [Python - The Import Statement - Fix code in PQ](https://github.com/enkidevs/curriculum/pull/2896)
+- [Appsec - What Else You Need To Know - Fix incorrect rendering of PQ and RQ](https://github.com/enkidevs/curriculum/pull/2893)
+
+## September 16th 2021
+
+### Fixed
+- [Python - Using Else In Loops - Remove shorthand notation from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2894)
+
 ## September 15th 2021
 
 ### Changed
@@ -70,6 +99,9 @@ Types of change:
 - [Typescript - TSC Enum - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2885)
 
 ## September 6th 2021
+
+### Added
+- [Java - Revision Questions](https://github.com/enkidevs/curriculum/pull/2883)
 
 ### Changed
 - [Coding intro- All Applicable Workouts - remove type in the gap from questions with multiple correct answers](https://github.com/enkidevs/curriculum/pull/2884)
