@@ -60,11 +60,7 @@ isNaN("Twenty Three") // true (it's not a number)
 What does the following code output?
 
 ```javascript
-function foo(num){
-  return num / 2;
-}
-
-console.log(foo("sum"));
+console.log("1" / 2);
 // ???
 ```
 
