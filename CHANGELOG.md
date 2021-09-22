@@ -50,7 +50,12 @@ Types of change:
 
 ## September 22nd 2021
 
+### Added
+- [Java - Python - Remove type in the gap format from PQs and RQs](https://github.com/enkidevs/curriculum/pull/2901)
+
 ### Fixed
+- [JavaScript - Symbol Special Properties - Fix the practice question by switching the answer order](https://github.com/enkidevs/curriculum/pull/2900)
+- [Python - Intro To Modules - Fix continuity between code examples](https://github.com/enkidevs/curriculum/pull/2902)
 - [Javascript - The Difference Between Null Undefined And NaN - Remove function from pq as it wasn't taught yet](https://github.com/enkidevs/curriculum/pull/2899)
 
 ## September 20th 2021
