@@ -51,7 +51,7 @@ Types of change:
 ## September 23rd 2021
 
 ### Changed
-- [Go - If Statements - Remove Type in the gap as different white space makes the anwer wrong](https://github.com/enkidevs/curriculum/pull/2904)
+- [Go - If Statements - Improve the revision question](https://github.com/enkidevs/curriculum/pull/2904)
 
 ## September 22nd 2021
 
