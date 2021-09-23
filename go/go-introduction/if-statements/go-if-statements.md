@@ -97,9 +97,9 @@ func posOrNeg(x float64) ??? {
 ```
 
 - string
-- > 
+- `>`
 - 0
-- < 
+- `<`
 - 0
 - return
 - int
