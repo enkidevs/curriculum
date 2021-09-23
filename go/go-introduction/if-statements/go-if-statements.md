@@ -10,6 +10,7 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
   context: standalone
 ---
 
@@ -83,12 +84,12 @@ Fill in the gaps to make the function check if a number is positive or negative.
 
 ```go
 func posOrNeg(x float64) ??? {
-	if ??? {
+	if x ??? ??? {
 		return "x is positive"
 	}
 
-	if ??? {
-		return "???"
+	if x ??? ??? {
+		return "x is negative"
 	}
 
 	??? "x is zero"
@@ -96,8 +97,9 @@ func posOrNeg(x float64) ??? {
 ```
 
 - string
-- x > 0
-- x < 0
-- x is negative
+- > 
+- 0
+- < 
+- 0
 - return
 - int
