@@ -39,7 +39,14 @@ In **Python**, the `tell()` function returns the current position in the **file*
 - `1`: which means at the current position;
 - `2`: which means at the end of the file.
 
-Let's see how `tell()` and `seek()` work in practice, considering a dummy `file.txt`[1]:
+Using this `file.txt`:
+
+```plain-text
+This is my file
+It has two lines of text
+```
+
+Let's see how `tell()` and `seek()` work in practice:
 
 ```python
 file = open('file.txt','r+')
@@ -111,17 +118,3 @@ Which method returns the current position of the file pointer within a **file ob
 - `seek()`
 - `open()`
 - `readline()`
-
----
-
-## Footnotes
-
-[1: File.txt Contents]
-
-```plain-text
-file = open('file.txt','r+')
-
-print(file.read())
-# This is my file
-# It has two lines of text
-```
