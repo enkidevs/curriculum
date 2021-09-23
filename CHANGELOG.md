@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 23rd 2021
+
+### Changed
+- [Go - If Statements - Improve the revision question](https://github.com/enkidevs/curriculum/pull/2904)
+
 ## September 22nd 2021
 
 ### Added
