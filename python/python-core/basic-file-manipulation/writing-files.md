@@ -36,7 +36,7 @@ path = '/usr/seba/new_file.txt'
 text = open(path, 'w+')
 ```
 
-Writing to the **file** can easily be done via the `write()` function. A single **string** may be passed as as **argument**, which will be written to the **file**. You can **split** the **string** into multiple lines by adding `\n` character where necessary.
+Writing to the **file** can be done via the `write()` function. A single **string** may be passed as as **argument**, which will be written to the **file**. You can **split** the **string** into multiple lines by adding `\n` character where necessary.
 
 ```python
 in = 'This is one line\n
