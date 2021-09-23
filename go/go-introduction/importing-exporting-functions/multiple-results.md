@@ -40,6 +40,7 @@ The above function gets two numbers inputted and then calculates the average of 
 
 Functions can also return no results. A well-known function like that is the `main()` function.
 
+
 ---
 
 ## Practice
