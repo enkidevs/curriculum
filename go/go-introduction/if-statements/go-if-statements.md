@@ -84,15 +84,15 @@ Fill in the gaps to make the function check if a number is positive or negative.
 
 ```go
 func posOrNeg(x float64) ??? {
-	if x ??? ??? {
-		return "x is positive"
-	}
+  if x ??? ??? {
+    return "x is positive"
+  }
 
-	if x ??? ??? {
-		return "x is negative"
-	}
+  if x ??? ??? {
+    return "x is negative"
+  }
 
-	??? "x is zero"
+  return "x is zero"
 }
 ```
 
