@@ -40,6 +40,22 @@ The above function gets two numbers inputted and then calculates the average of 
 
 Functions can also return no results. A well-known function like that is the `main()` function.
 
+Here's a function that adds two numbers, but has no return:
+```go
+func add(x, y int) {
+	z := 0
+	z = x + y
+	fmt.Println(z)
+}
+
+// Callling the function:
+func main() {
+  add(2, 3)
+}
+
+// Output
+// 5
+```
 
 ---
 
