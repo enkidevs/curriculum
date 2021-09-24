@@ -53,6 +53,10 @@ Types of change:
 ### Changed
 - [Go - If Statements - Improve the revision question](https://github.com/enkidevs/curriculum/pull/2904)
 
+### Fixed
+- [Python - Reading From Files - Fix incorrect info on readlines return type](https://github.com/enkidevs/curriculum/pull/2906)
+- [Python - Nested Functions - Fix incorrect output in content and pq](https://github.com/enkidevs/curriculum/pull/2907)
+
 ## September 22nd 2021
 
 ### Added
