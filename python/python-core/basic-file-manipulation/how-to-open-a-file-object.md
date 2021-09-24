@@ -77,13 +77,12 @@ print("The file mode is: ", obj.mode)
 
 ## Practice
 
-Suppose we want to append something to a file and print its content. Fill the gaps accordingly:
+Suppose we want to append something to a file. Fill the gaps accordingly:
 
 ```python
 file = ???('practice.py', '???')
 file.write('Append this')
 file.???(0)
-print(file.read())
 ```
 
 - `open`
