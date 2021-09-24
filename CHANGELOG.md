@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 24th 2021
+
+### Fixed
+- [Python - How To Open A File Object - Remove .read as answer because it isn't taught until after this insight](https://github.com/enkidevs/curriculum/pull/2908)
+
 ## September 23rd 2021
 
 ### Changed
