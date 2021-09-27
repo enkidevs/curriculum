@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 27th 2021
+
+### Changed
+- [JavaScript - Strings, Numbers, And Booleans - Add semicolons to examplse to avoid confusion with new users](https://github.com/enkidevs/curriculum/pull/2909)
+
 ## September 24th 2021
 
 ### Fixed
