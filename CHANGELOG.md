@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 4th 2021
+
+### Fixed
+- [Styling - Vertical Percentages Are Relative To Container Width Not Height - Add missing closing curly brace](https://github.com/enkidevs/curriculum/pull/2910)
+
 ## September 27th 2021
 
 ### Changed
