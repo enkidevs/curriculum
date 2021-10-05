@@ -85,7 +85,6 @@ In the example above, we will change the `name` for all our records in the `egg_
 
 Consider the `generation` table:
 
-```md
 | id | region_id | name           |
 | -- | --------- | -------------- |
 | 1  | 1         | generation-i   |
@@ -94,7 +93,6 @@ Consider the `generation` table:
 | 4  | 4         | generation-iv  |
 | 5  | 5         | generation-v   |
 | 6  | 6         | generation-vii |
-```
 
 ```sql
 ??? generation
@@ -121,13 +119,11 @@ We would like to update the table contents such that the last generation is gene
 
 Consider the following table named `gender`:
 
-```md
 | id | name       |
 | -- | ---------- |
 | 1  | female     |
 | 2  | male       |
 | 3  | genderless |
-```
 
 ```sql
 ??? gender

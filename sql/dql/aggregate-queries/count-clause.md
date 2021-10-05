@@ -85,14 +85,12 @@ And the customers are:
 
 We have a table `location`. It has data stating the region each location belongs to. How many locations are there in each region? Display the result ordered by regions.
 
-```md
 | id  | region_id | name          |
 | --- | --------- | ------------- |
 | 1   | 4         | canalave-city |
 | 2   | 4         | eterna-city   |
 | 3   | 4         | pastoria-city |
 | ... | ...       | ...           |
-```
 
 ```sql
 SELECT ???(name), ???
@@ -135,11 +133,9 @@ FROM item;
 
 Output:
 
-```md
 | count |
 | ----- |
 | 746   |
-```
 
 - COUNT
 - name
