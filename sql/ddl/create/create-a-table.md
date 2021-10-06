@@ -104,11 +104,9 @@ Which of the following queries would create this table:
 
 `employees`
 
-```md
 | ID      | full_name | salary  |
 | ------- | --------- | ------- |
 | INTEGER | VARCHAR   | INTEGER |
-```
 
 ???
 

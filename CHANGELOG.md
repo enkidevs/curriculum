@@ -48,6 +48,9 @@ Types of change:
 
 ### Fixed
 
+## October 5th 2021
+- [Revert most of #2454](https://github.com/enkidevs/curriculum/pull/2912)
+
 ## October 4th 2021
 
 ### Fixed

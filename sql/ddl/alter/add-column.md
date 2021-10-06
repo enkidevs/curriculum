@@ -66,13 +66,11 @@ DROP COLUMN boring_column;
 
 Consider the `gender` table. We want to add a new column called `members`. This column will store data about how many members each gender has using the `INT` type.
 
-```md
 | id | name       |
 | -- | ---------- |
 | 1  | female     |
 | 2  | male       |
 | 3  | genderless |
-```
 
 Complete the code to add the column:
 
@@ -89,14 +87,12 @@ ADD
 - UPDATE
 - string
 
-
 ---
 
 ## Revision
 
 Consider the `generation` table. How would you delete the `region_id` column:
 
-```md
 | id | region_id | name           |
 | -- | --------- | -------------- |
 | 1  | 1         | generation-i   |
@@ -105,7 +101,6 @@ Consider the `generation` table. How would you delete the `region_id` column:
 | 4  | 4         | generation-iv  |
 | 5  | 5         | generation-v   |
 | 6  | 6         | generation-vi  |
-```
 
 ???
 
