@@ -51,7 +51,7 @@ Types of change:
 ## October 7th 2021
 
 ### Changed
-- [Remove emojis from startingPoint]()
+- [Remove emojis from startingPoint](https://github.com/enkidevs/curriculum/pull/2913)
 
 ## October 5th 2021
 - [Revert most of #2454](https://github.com/enkidevs/curriculum/pull/2912)
