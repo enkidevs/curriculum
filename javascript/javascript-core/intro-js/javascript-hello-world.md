@@ -7,7 +7,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-   // 👋 Welcome to the JavaScript coding playground.
+   // Welcome to the JavaScript coding playground.
    // Update the statement with the first thing you'd log if you just landed on Mars!
    
    console.log("That's one small step for man, one giant leap for JavaScript!");

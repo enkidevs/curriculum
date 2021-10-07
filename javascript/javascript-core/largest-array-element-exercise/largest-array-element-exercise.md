@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the JavaScript coding playground. 
+    // Welcome to the JavaScript coding playground. 
     // Loop through an array, find out the largest number, and output it to the console.
 
     // You can use this array:

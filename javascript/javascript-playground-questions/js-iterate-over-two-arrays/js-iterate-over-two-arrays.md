@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the JavaScript coding playground.
+    // Welcome to the JavaScript coding playground.
 
     // These are the arrays:
     name = ["Stefan", "Michael", "Rebekah", "Natasha"]

@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the JavaScript coding playground.
+    // Welcome to the JavaScript coding playground.
     // Create a function that joins two arrays and sorts the resulting array in ascending order
 
     // These are the arrays:

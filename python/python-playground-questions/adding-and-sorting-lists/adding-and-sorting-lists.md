@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground.
+    # Welcome to the Python coding playground.
     # Create a function that joins two lists and sorts the resulting list in ascending order.
 
     # Sample lists to use:

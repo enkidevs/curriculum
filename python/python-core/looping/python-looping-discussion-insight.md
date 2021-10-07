@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # Welcome to the Python playground 👋
+    # Welcome to the Python playground
     # List of numbers:
     my_list = [13, 2, 11, 18, 3, 12, 0, 7 , 9, 99, 44, 76]
 

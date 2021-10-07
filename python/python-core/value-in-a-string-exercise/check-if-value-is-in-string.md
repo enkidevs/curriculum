@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground.
+    # Welcome to the Python coding playground.
     
     # Sample list of strings:
     names = ["Mark Rober", "Backyard Scientist", "Vsauce"]

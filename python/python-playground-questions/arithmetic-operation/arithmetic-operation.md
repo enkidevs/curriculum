@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground.
+    # Welcome to the Python coding playground.
     # Add or subtract two numbers and output the result.
 
     # Type your code here:

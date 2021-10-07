@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
+    # Welcome to the Python coding playground. 
     # Here is the list:
     
     numbers = [1, 3, 5, 7, 9, 10, 8, 6, 4, 2]
