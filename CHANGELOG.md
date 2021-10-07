@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 7th 2021
+
+### Changed
+- [Python - Miles to Kilometers - Change spelling Kilometres to Kilometers](https://github.com/enkidevs/curriculum/pull/2914)
+
 ## October 5th 2021
 - [Revert most of #2454](https://github.com/enkidevs/curriculum/pull/2912)
 
