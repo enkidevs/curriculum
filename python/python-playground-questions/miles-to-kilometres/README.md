@@ -1,4 +1,4 @@
-name: Miles To Kilometres
+name: Miles To Kilometers
 
 description: Create a program to transform miles to kilometres or vice versa.
 
