@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the JavaScript coding playground. 
+    // Welcome to the JavaScript coding playground. 
     // Create a function that tests if a string is a pallindrome.
     
     // If you can't think of any strings, try these out:

@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
+    # Welcome to the Python coding playground. 
     # Output the smallest number from a list
     # Example numbered list:
     numbers = [33, 99, 41, 73, 2, 21, 1, 18]

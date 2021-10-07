@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the JavaScript coding playground.
+    // Welcome to the JavaScript coding playground.
     // Create a function that sums up the first 15 terms of the harmonic series and round the result to 5 decimal places/
     
     // Type your code here:

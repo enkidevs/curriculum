@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the JavaScript coding playground.
+    // Welcome to the JavaScript coding playground.
     // A kilometer is equal to `0.621371` miles
     // A mile is equal to `1.60934` kilometers
     

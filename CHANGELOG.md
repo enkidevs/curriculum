@@ -52,6 +52,7 @@ Types of change:
 
 ### Changed
 - [Python - Miles to Kilometers - Change spelling Kilometres to Kilometers](https://github.com/enkidevs/curriculum/pull/2914)
+- [Remove emojis from startingPoint](https://github.com/enkidevs/curriculum/pull/2913)
 
 ## October 5th 2021
 - [Revert most of #2454](https://github.com/enkidevs/curriculum/pull/2912)

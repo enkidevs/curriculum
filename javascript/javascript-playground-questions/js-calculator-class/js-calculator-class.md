@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the JavaScript coding playground.
+    // Welcome to the JavaScript coding playground.
     // Create a Calculator class with four methods; multiply, divide, subtract, and add two numbers
     // Call each method to confirm it works
     
