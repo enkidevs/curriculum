@@ -6,7 +6,11 @@ tags:
   - strings
 links:
   - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}
+    [Manipulating Characters in a String](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Finding a substring in a string
@@ -35,3 +39,20 @@ int indexFirst = s.indexOf("dog");
 int indexLast = s.lastIndexOf("dog");
 //indexLast: 15
 ```
+
+---
+
+## Revision
+
+What would be the result of the following code?
+
+```java
+String s = "Check out this cat, my cat, the best cat really";
+int index = s.indexOf("cat");
+//index: ???
+```
+
+- 15
+- 24
+- 30
+- 0

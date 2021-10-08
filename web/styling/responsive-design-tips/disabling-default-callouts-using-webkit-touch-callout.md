@@ -25,10 +25,9 @@ You can use `-webkit-touch-callout` to disable the callout:
 
 ```css
 -webkit-touch-callout: none;
-
 ```
 
-*Note:* This is only compatible with Safari.
+> 💡 This is only compatible with Safari.
 
 
 ---

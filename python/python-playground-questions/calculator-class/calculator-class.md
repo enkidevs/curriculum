@@ -10,9 +10,12 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
-
-    def Calculator(x):
+    # Welcome to the Python coding playground. 
+    # Create a Calculator class with four methods; multiply, divide, subtract, and add two numbers
+    # Call each method to confirm it works
+    
+    # Type your code here:
+    def Calculator():
       
 
 ---
@@ -23,22 +26,21 @@ setupCode:
 
 ## Content
 
-Can you create a `Calculator` class that has the ability to multiply, divide, subtract and add two numbers?
+> 👩‍💻 Your task is to:
+> - **create a `Calculator` class that takes two numbers as input**
+> - **add four methods to the class: multiply, divide, subtract and add the two numbers**
+> - **call each of the four methods to confirm it works**
 
-After creating the class, call each of the four methods with numbers to confirm it works.
-
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - class creation (`class Something:`)
 - initial class method (`__init__ (self...)`)
 - function definition (`def something(x):`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 

@@ -54,7 +54,7 @@ Example with a `<wbr>` element between `Llanfairpwllgwyngyllgogerychwyrn` and `d
 
 [View CodePen](https://codepen.io/enkidevs/pen/wxgMKr)
 
-**Note:** Don't confused `<wbr>` with the `<br>` element. The `<br>` elements always creates a line break, whereas the `<wbr>` only specifies the position where the line should break if it needs to.
+> 💡 Don't confused `<wbr>` with the `<br>` element. The `<br>` elements always creates a line break, whereas the `<wbr>` only specifies the position where the line should break if it needs to.
 
 
 ---

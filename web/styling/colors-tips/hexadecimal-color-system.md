@@ -34,7 +34,7 @@ The hexadecimal color system starts with `#` and is case-insensitive.
 `GG` relates to the degree of green.
 `BB` relates to the degree of blue.
 
-**Note:** `#FFFFFF` is the same as `#FFF`.
+> 💡 `#FFFFFF` is the same as `#FFF`.
 
 Hexadecimal runs from `0` to `F`
 (`0`, `1`, `2`, ..., `9`, `A`, `B`, ..., `F`)

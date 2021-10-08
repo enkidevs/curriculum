@@ -10,10 +10,12 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the JavaScript coding playground.
+    // Welcome to the JavaScript coding playground.
+
     // Here is the Array:
-    
     let numbers = [1, 3, 5, 7, 9, 10, 8, 6, 4, 2];
+
+    // Type your code here:
 
 ---
 
@@ -23,15 +25,15 @@ setupCode:
 
 ## Content
 
-Given the array:
+> 👩‍💻 Using the `numbers` array, your task is to write a program that **outputs the first and last value, second and second to last, and so on**.
 
+
+Sample array:
 ```javascript
 let numbers = [1, 3, 5, 7, 9, 10, 8, 6, 4, 2];
 ```
 
-Can you write a program that will print the first and last, second and second to last, and so on?
-
-The output should look like this:
+Sample output:
 ```javascript
 [1, 2]
 [3, 4]
@@ -40,16 +42,14 @@ The output should look like this:
 [9, 10]
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - flow control (`while..`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 

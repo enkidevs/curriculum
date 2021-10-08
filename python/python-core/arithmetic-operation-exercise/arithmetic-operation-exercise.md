@@ -10,9 +10,11 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground.
-    # For this problem use one of these arithmetic operators
+    # Welcome to the Python coding playground.
+    # For this problem, use one of these arithmetic operators:
     # * or /
+
+    # Type your code here:
 
 ---
 
@@ -22,21 +24,19 @@ setupCode:
 
 ## Content
 
-How would you write a program that will either multiply or divide two numbers? The output should contain a message along with the result.
+> 👩‍💻 Your task is to write a program that **multiplies or divides two numbers and outputs the result**.
 
 It's up to you to choose which operation to use and what the message will be.
 
-To achieve this, you should use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 29`)
 - arithmetic operators (`* or /`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 

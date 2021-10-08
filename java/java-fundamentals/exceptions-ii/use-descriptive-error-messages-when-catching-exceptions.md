@@ -6,7 +6,11 @@ tags:
   - exceptions
 links:
   - >-
-    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2013/03/0-exception-handling-best-practices-in-Java-Programming.html){website}
+    [Exception Handling Best Practices](http://javarevisited.blogspot.co.uk/2013/03/0-exception-handling-best-practices-in-Java-Programming.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Use descriptive error messages when catching exceptions
@@ -32,3 +36,26 @@ This message is much more helpful. It tells us that the problem relates to the `
 
 We now know where to look in our code for the problem, and have a good idea of why an exception was thrown.
  
+
+---
+
+## Revision
+
+Which of the following error messages would be the most helpful?
+
+```plain-text
+# A
+Error: Invalid argument
+
+# B
+Invalid age: -5
+
+# C
+Something went wrong
+```
+
+???
+
+- B
+- A
+- C
