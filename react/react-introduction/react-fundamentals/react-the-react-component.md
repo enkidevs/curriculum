@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Components and
-    props](https://facebook.github.io/react/docs/components-and-props.html){website}
+    props](https://reactjs.org/docs/components-and-props.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
