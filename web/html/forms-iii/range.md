@@ -96,7 +96,7 @@ This block of code is JavaScript and used to provide the necessary functionality
 
 Additionally, you can edit your sliders by adding hash marks. This is done with the `list` attribute and the `<datalist>` element.
 
-**Note:** Chrome only supports these tick marks currently.
+> 💡 Chrome only supports these tick marks currently.
 
 Example:
 

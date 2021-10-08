@@ -10,6 +10,10 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # What Is a Blockchain?
@@ -41,6 +45,17 @@ There are many applications of the blockchain, such as:
 ---
 
 ## Practice
+
+A blockchain is a ??? ledger.
+
+- distributed
+- centralized
+- free
+
+
+---
+
+## Revision
 
 A blockchain is a ??? ledger.
 

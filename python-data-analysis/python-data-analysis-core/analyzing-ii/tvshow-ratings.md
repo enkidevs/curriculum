@@ -93,9 +93,6 @@ Given the code with missing parts, and the description, make the code match the 
 
 Group the `people` `DataFrame` by its `Age` column. Count the number of rows for each `Age` group. Sort the values in descending order. Reset the index to a new logical one from 0 to length and add a new column called `Count By Age` where the `groupby.size` will display the output.
 
-
-???
-
 - `people`
 - `Age`
 - `.size()`

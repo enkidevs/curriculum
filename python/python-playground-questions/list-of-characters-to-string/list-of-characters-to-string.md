@@ -10,10 +10,12 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground.
-    # The list of characters:
+    # Welcome to the Python coding playground.
+    # Join the list of characters into a string and output the result:
 
     characters = ['h', 'e', 'l', 'l', 'o', , 'w', 'o', 'r', 'l' , 'd']
+    
+    # Type your code here:
 
 ---
 
@@ -23,7 +25,9 @@ setupCode:
 
 ## Content
 
-Given a list of characters:
+> 👩‍💻 Your task is to **create a program that joins a list of characters into a string and outputs the result**.
+
+Sample list of characters to use:
 ```python
 characters = [
 	  'h', 
@@ -40,19 +44,15 @@ characters = [
 ]
 ```
 
-Can you write a program that will take a list as input, transform the list into a string, and output the result?
-
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - function declaration (`def something(x):`)
 - loops (`for...in...`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 

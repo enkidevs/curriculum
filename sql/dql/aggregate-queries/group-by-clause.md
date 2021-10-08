@@ -11,23 +11,20 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
 # Group By clause
 
-
 ---
 
 ## Content
 
-The `GROUP BY` clause is often used with aggregate functions (e.g. `SUM`, `AVG`). Syntactically it comes after the `WHERE` clause and before the `ORDER BY` in the *query*. It enables users to group data by one or more columns.
+The `GROUP BY` clause is often used with aggregate functions (e.g. `SUM`, `AVG`). Syntactically it comes after the `WHERE` clause and before the `ORDER BY` in the _query_. It enables users to group data by one or more columns.
 
 In our Pokemon db, we have a table called `move_name` with the following columns:
 
@@ -56,7 +53,6 @@ Output:
 | 617   | 3           |
 | 639   | 7           |
 
-
 ---
 
 ## Practice
@@ -69,19 +65,21 @@ We have a table called `pokemon`. In this table there are two fields:
 We want to count how many pokemon are **not** default. Fill in the blanks to complete this query:
 
 ```sql
-SELECT ???(name), ???
-FROM pokemon
-??? is_default;
+SELECT 
+  ???(name),
+  ???
+FROM
+  pokemon
+???
+  is_default;
 ```
 
 Output:
 
-```md
 | count | is_default |
 | ----- | ---------- |
 | 90    | f          |
 | 721   | t          |
-```
 
 - COUNT
 - is_default
@@ -89,7 +87,6 @@ Output:
 - AVG
 - SUM
 - name
-
 
 ---
 
@@ -99,20 +96,24 @@ Output:
 `id` - unique id of the item  
 `cost` - item's cost  
 `item_category_id` - ID category  
-`name` - item's name  
+`name` - item's name
 
-Find the *average cost of items in each category*.
+Find the _average cost of items in each category_.
 
 ```sql
-SELECT ???(cost),item_category_id
-FROM ???
-??? item_category_id
-ORDER BY item_category_id;
+SELECT
+  ???(cost),
+  item_category_id
+FROM
+  ???
+???
+  item_category_id
+ORDER BY
+  item_category_id;
 ```
 
 Output:
 
-```md
 | avg    | item_category_id |
 | ------ | ---------------- |
 | 550    | 1                |
@@ -126,7 +127,6 @@ Output:
 | 134.28 | 9                |
 | 1810   | 10               |
 | ...    | ...              |
-```
 
 - AVG
 - item

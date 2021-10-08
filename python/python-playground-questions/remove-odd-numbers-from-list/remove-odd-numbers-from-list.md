@@ -10,10 +10,11 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
+    # Welcome to the Python coding playground. 
     # Numbered list:
-
     numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+    # Type your code here:
 
 
 ---
@@ -24,25 +25,23 @@ setupCode:
 
 ## Content
 
-Given the list:
+> 👩‍💻 Your task is to create a program that **removes all odd numbers from a list and outputs the result.**
+
+Example list to use:
 ```python
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
-Can you create a program that will traverse through each number in the given list, remove the number if it is odd, and save the new list with only even numbers?
-
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - loops (`for...in...`)
 - conditional statements (`if (x>1)...`)
 - built-in method (`remove()`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 

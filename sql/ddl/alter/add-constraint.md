@@ -12,7 +12,6 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -76,7 +75,6 @@ DROP CONSTRAINT constraint_name;
 
 Consider the `generation` table. We want to add a new constraint called `PK-constraints` in which we state that we want the `region_id` and `name` columns to be primary keys:
 
-```md
 | id | region_id | name           |
 | -- | --------- | -------------- |
 | 1  | 1         | generation-i   |
@@ -85,12 +83,13 @@ Consider the `generation` table. We want to add a new constraint called `PK-cons
 | 4  | 4         | generation-iv  |
 | 5  | 5         | generation-v   |
 | 6  | 6         | generation-vi  |
-```
 
 ```sql
-ALTER TABLE ???
-ADD ??? PK-constraints
-??? (region_id, name)
+ALTER TABLE
+  ???
+ADD
+  ??? PK-constraints
+  ??? (region_id, name)
 ```
 
 - generation
@@ -108,7 +107,6 @@ ADD ??? PK-constraints
 
 Consider the `version` table. We want to add a `CHECK` constraint to `version_group_id` column. Any of its entries should not be bigger than 10:
 
-```md
 | id | version_group_id | name       |
 | -- | ---------------- | ---------- |
 | .. | ..               | ..         |
@@ -124,13 +122,12 @@ Consider the `version` table. We want to add a `CHECK` constraint to `version_gr
 | 16 | 10               | soulsilver |
 | 17 | 11               | black      |
 | 18 | 11               | white      |
-```
 
 ```sql
 ALTER TABLE version
 ADD ???
 ```
 
-- CONSTRAINT check_constraint CHECK (version_group_id <= 10);
-- PRIMARY KEY (version_group_id > 10);
-- CONSTRAINT check_constraint UNIQUE (version_group_id <= 10);
+- `CONSTRAINT check_constraint CHECK (version_group_id <= 10);`
+- `PRIMARY KEY (version_group_id > 10);`
+- `CONSTRAINT check_constraint UNIQUE (version_group_id <= 10);`

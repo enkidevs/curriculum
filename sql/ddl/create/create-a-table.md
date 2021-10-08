@@ -16,7 +16,6 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -105,11 +104,9 @@ Which of the following queries would create this table:
 
 `employees`
 
-```md
 | ID      | full_name | salary  |
 | ------- | --------- | ------- |
 | INTEGER | VARCHAR   | INTEGER |
-```
 
 ???
 

@@ -1,6 +1,6 @@
 name: List Iteration
 
-description: Create a program to iterate over two lists
+description: Create a program to iterate over two lists.
 
 aspects:
   - workout

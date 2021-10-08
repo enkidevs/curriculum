@@ -75,11 +75,10 @@ The prefix needed to invoke preconfigured values is:
 
 ???
 
-- `$npm*package_config*`
-- `npm*package_config*`
+- `$npm_package_config_`
+- `npm_package_config_`
 - `npm_package_config`
 - `$npm_config`
-
 
 ---
 

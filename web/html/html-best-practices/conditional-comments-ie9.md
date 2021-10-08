@@ -2,10 +2,6 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
@@ -50,7 +46,7 @@ If certain code is meant to display on non-IE browsers and on some versions of I
 
 ---
 
-## Practice
+## Revision
 
 How are conditional comments written for versions of IE prior to IE10?
 
@@ -60,17 +56,3 @@ How are conditional comments written for versions of IE prior to IE10?
 - `<!-[if IE]> HTML CODE HERE <[endif]->`
 - `<-[if IE]> HTML CODE HERE <![endif]-!>`
 - `<![if IE]> HTML CODE HERE <![endifIE]!>`
-
-
----
-
-## Revision
-
-Conditional comments only work in Internet Explorer, versions prior to IE10. Which version are these?
-
-???
-
-- versions 5 through 9.
-- versions 1 through 9.
-- versions 7 through 9.
-- versions 8 and 9.
