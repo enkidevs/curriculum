@@ -412,6 +412,7 @@ Types of change:
 
 ### Changed
 - [Spreadsheets - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2778)
+- [Security - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2777)
 
 ### Fixed
 - [Git - topic - retrigger changes made in PR2768 Git](https://github.com/enkidevs/curriculum/pull/2773)
