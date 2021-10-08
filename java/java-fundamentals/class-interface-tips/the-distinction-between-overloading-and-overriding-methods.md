@@ -55,7 +55,7 @@ public class Child extends Parent{
 
 ```
 
-Note: it is good practice to explicitly declare overridden methods using `@Override`.
+> 💡 It is good practice to explicitly declare overridden methods using `@Override`.
 
 
 ---
