@@ -29,7 +29,7 @@ For example, the Presentation Layer would be responsible for converting Windows-
 
 The Presentation Layer is also responsible for **encryption/decryption** of data from the Application Layer for secure transmission through lower layers.
 
-**Note:** This process may also span across multiple layers such as Application, Session, Transport, and/or Network layers, depending on the use case.
+> 💡 This process may also span across multiple layers such as Application, Session, Transport, and/or Network layers, depending on the use case.
 
 
 ---
