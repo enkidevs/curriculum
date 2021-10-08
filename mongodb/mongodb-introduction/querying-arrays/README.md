@@ -3,8 +3,8 @@ description: Learn more about querying arrays in MongoDB
 insights:
   - querying-an-array-i
   - querying-an-array-ii
-  - querying-an-array-with-the-all-operator-iii
-  - querying-an-array-with-the-size-operator-iv
+  - querying-an-array-with-the-size-operator-iii
+  - querying-an-array-with-the-all-operator-iv
 aspects:
   - introduction
  
