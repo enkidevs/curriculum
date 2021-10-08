@@ -57,6 +57,7 @@ Types of change:
 
 ### Fixed
 - [JavaScript - Types Boolean and Number - Remove const from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2916) 
+- [All Topics - Retrigger in favor of 2918](https://github.com/enkidevs/curriculum/pull/2919)
 
 ### Added
 - [Go - Multiple Results - Add example on no return type](https://github.com/enkidevs/curriculum/pull/2905)
