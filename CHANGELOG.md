@@ -418,6 +418,7 @@ Types of change:
 ## June 29th 2021
 
 ### Changed
+- [Spreadsheets - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2778)
 - [Python - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2775)
 - [Webflow - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2774)
 - [React - topic - replace old note format with emoji](https://github.com/enkidevs/curriculum/pull/2776)
