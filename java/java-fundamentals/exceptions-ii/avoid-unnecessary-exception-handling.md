@@ -6,9 +6,7 @@ tags:
   - exceptions
 links:
   - >-
-    [javarevisited.blogspot.co.uk](http://javarevisited.blogspot.co.uk/2013/03/0-exception-handling-best-practices-in-Java-Programming.html){website}
-  - >-
-    [codereview.stackexchange.com](http://codereview.stackexchange.com/questions/11724/is-it-better-practice-to-have-void-method-throw-an-exception-or-to-have-the-meth){website}
+    [Void vs Boolean](http://codereview.stackexchange.com/questions/11724/is-it-better-practice-to-have-void-method-throw-an-exception-or-to-have-the-meth){website}
 ---
 
 # Avoid unnecessary exception handling
@@ -18,11 +16,29 @@ links:
 
 ## Content
 
-Throwing and catching exceptions is costly in terms of performance. Avoiding unnecessary exception handling can speed up your code. 
+One disadvantage of overusing exception handling is that it leads to redundant code which is just "noise" and doesn't contribute to making the program better or safer. 
 
-Another disadvantage of overusing exception handling is that frequent use of `try` and `catch` blocks can make code less readable by obfuscating the control flow of a program.
+This in turn also makes the codebase grow which requires more effort for a programmer to understand it.
 
-In some cases, it may be more appropriate to return a `boolean` value to indicate the result of an operation rather than trying to catch an exception. This can result in more efficient and cleaner looking code.
+```java
+try {
+  doX(c);
+} catch (MyException e) {
+  // transforming exceptions is one common
+  // way of adding redundant try/catch
+	throw new MyOtherException(e, e.getCode()); 
+}
+```
+
+Frequent uses of `try` and `catch` can obfuscate the control flow of a program and thus should only be used if they introduce a benefit in exchange for the extra code. 
+
+A generally good rule to follow when deciding where you should catch an exception is:
+
+> 💡 You should catch an exception when you are in the part of the code that knows what to do with it.
+
+Another way to overuse exceptions is to throw them for non-critical errors or warnings.
+
+In those cases, it may be more appropriate to return a `boolean` value to indicate the result of an operation rather than throwing an exception. 
 
 ```java
 public void method() {
@@ -31,9 +47,11 @@ public void method() {
 //validates code and throws an exception
 private void validator(Object p)
   throws Exception {
-  try { //something
+  try {
+    //something
   }
-  catch { //exception
+  catch {
+    //exception
   }
 }
 ```
@@ -46,7 +64,7 @@ public void method() {
     throw new Exception();
 }
 private boolean isValid(Object p) {
-  //check if valid
-  return //true/false
+  // check if valid
+  return // true / false
 }
 ```

@@ -17,7 +17,6 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -81,11 +80,9 @@ Defining *constraints* such as a `FOREIGN KEY` usually starts with `CONSTRAINT` 
 
 Consider you have the following table called `subsidiaries`:
 
-```md
 | id  | name    | email   |
 | --- | ------- | ------- |
 | INT | VARCHAR | VARCHAR |
-```
 
 How would you define the `employees` table such that there is a constraint named `emp_subs` that defines a relationship between these two tables?
 

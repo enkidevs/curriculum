@@ -24,7 +24,6 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -68,14 +67,12 @@ This would create an index on the specified table and columns.
 
 The main difference between *non-clustered* and *clustered* indices is that for the latter we need to specify the order in which we want the entries to be ordered.
 
-
 ---
 
 ## Practice
 
 Create an index on the following table, on the `region_id` and `name` columns. It needs to be a non-clustered index:
 
-```md
 | id | region_id | name           |
 | -- | --------- | -------------- |
 | 1  | 1         | generation-i   |
@@ -84,7 +81,6 @@ Create an index on the following table, on the `region_id` and `name` columns. I
 | 4  | 4         | generation-iv  |
 | 5  | 5         | generation-v   |
 | 6  | 6         | generation-vi  |
-```
 
 ```sql
 ??? ??? test_index
@@ -104,7 +100,6 @@ ON region (???, name);
 
 Consider the `version` table. Suppose no primary key was defined for it. We need to create a clustered index that will order the `version_group_id` column in ascending order:
 
-```md
 | id | version_group_id | name      |
 | -- | ---------------- | --------- |
 | 4  | 3                | gold      |
@@ -117,14 +112,12 @@ Consider the `version` table. Suppose no primary key was defined for it. We need
 | 11 | 7                | leafgreen |
 | 12 | 8                | diamond   |
 | 13 | 8                | pearl     |
-```
 
 ???
 
-- CREATE UNIQUE INDEX "u_index" ON version (version_group_id ASC);
-- CREATE UNIQUE INDEX "u_index" ON version (version ASC);
-- CREATE INDEX "u_index" ON version (version_group_id ASC);
-
+- `CREATE UNIQUE INDEX "u_index" ON version (version_group_id ASC);`
+- `CREATE UNIQUE INDEX "u_index" ON version (version ASC);`
+- `CREATE INDEX "u_index" ON version (version_group_id ASC);`
 
 ---
 

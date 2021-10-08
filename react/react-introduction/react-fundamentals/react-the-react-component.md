@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Components and
-    props](https://facebook.github.io/react/docs/components-and-props.html){website}
+    props](https://reactjs.org/docs/components-and-props.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -53,7 +53,7 @@ Notice how both types of components are used to return elements (e.g. `<p>Enki a
 
 The differences between function and class components will be discussed at the end of this workout, but for now know that, when viewed externally, each way of writing a component can render the same result.
 
-Note: Component names should start with a capital letter such that you can differentiate them from **DOM tags**.
+> 💡 Component names should start with a capital letter such that you can differentiate them from **DOM tags**.
 
 
 ---

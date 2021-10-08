@@ -8,6 +8,12 @@ type: normal
 
 category: coding
 
+setupCode:
+  startingPoint: |
+    # Welcome to the Python playground
+
+    # Start typing your code here:
+
 ---
 
 # Test Yourself
@@ -20,7 +26,7 @@ Now that you've learned about time and date modules, it's time to practice!
 
 How would you create a program where you create a date using the `datetime` module and separately print out all the different formats it provides?
 
-To achieve this, you should use some of the following concepts:
+To solve this, try using the following concepts:
 - learned modules (`time`, `datetime`)
 - importing modules(`import`, `from...import`)
 - string format(`strftime()`, `%d`, `%a`, `%b`, `%Y`, `%H`,`%M`,`%S`)

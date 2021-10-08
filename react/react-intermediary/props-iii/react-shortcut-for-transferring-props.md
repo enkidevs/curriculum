@@ -5,7 +5,7 @@ category: how-to
 links:
   - >-
     [Spread
-    attributes](https://facebook.github.io/react/docs/jsx-in-depth.html#spread-attributes){website}
+    attributes](https://reactjs.org/docs/jsx-in-depth.html#spread-attributes){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

@@ -56,7 +56,7 @@ const handleChange = value => {
 
 In the `useEffect()` hook, the `callback(age)` is called whenever the value of `age` changes. 
 
-Note: Another important takeaway here is that although `setState` can be async, this happens behind the scenes, and we cannot control it. `setState` doesn't return a promise so using `await` or `then` will not work.
+> 💡 Another important takeaway here is that although `setState` can be async, this happens behind the scenes, and we cannot control it. `setState` doesn't return a promise so using `await` or `then` will not work.
 
 
 ---

@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Rendering
-    elements](https://facebook.github.io/react/docs/rendering-elements.html){website}
+    elements](https://reactjs.org/docs/rendering-elements.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

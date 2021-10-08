@@ -5,7 +5,7 @@ category: how-to
 links:
   - >-
     [cloneElement()
-    Documentation](https://facebook.github.io/react/docs/top-level-api.html#cloneelement){website}
+    Documentation](https://reactjs.org/docs/react-api.html#cloneelement){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

@@ -97,8 +97,6 @@ Complete the code if a `<base>` URL is assigned and an image is used within an O
 </head>
 ```
 
-???
-
 - `base`
 - `http://enkipro.com/`
 - `image`

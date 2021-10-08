@@ -74,7 +74,7 @@ What does a DoublyLinkedList node usually keep track of?
 
 ## Revision
 
-Which of the following concepts is list-specific?
+Which of the following concepts is specific to linked lists?
 
 ???
 

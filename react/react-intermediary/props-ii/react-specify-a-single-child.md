@@ -5,7 +5,7 @@ category: how-to
 links:
   - >-
     [Requiring Single
-    Child](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#requiring-single-child){website}
+    Child](https://reactjs.org/docs/typechecking-with-proptypes.html#requiring-single-child){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

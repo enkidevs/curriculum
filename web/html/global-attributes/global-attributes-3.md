@@ -63,7 +63,7 @@ The `translate` attribute is used to indicate if an element and its content shou
 The `"yes"` value(which can also be an empty string,`""`) says the content should be translated.
 The `"no"` value says the content should not be translated.
 
-**Note:** The attribute does not immediately translate the element but rather specifies if it should or should not translate when the user translates the page.
+> 💡 The attribute does not immediately translate the element but rather specifies if it should or should not translate when the user translates the page.
 Example:
 
 ```html

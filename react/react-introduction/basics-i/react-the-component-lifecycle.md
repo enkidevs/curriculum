@@ -5,10 +5,10 @@ category: must-know
 links:
   - >-
     [Adding lifecycle methods to a
-    class](https://facebook.github.io/react/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class){website}
+    class](https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class){website}
   - >-
     [The component
-    lifecycle](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle){website}
+    lifecycle](https://reactjs.org/docs/react-component.html#the-component-lifecycle){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

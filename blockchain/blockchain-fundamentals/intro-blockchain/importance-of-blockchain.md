@@ -10,6 +10,10 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Why Should You Care?
@@ -19,7 +23,7 @@ practiceQuestion:
 
 ## Content
 
-Here are a couple reasons to why blockchain is an important technology:
+Here are a couple reasons why the blockchain is an important technology:
 
 1. **Secure**
 
@@ -47,3 +51,14 @@ The data in a blockchain is secured using advanced ???.
 - cryptography
 - blocks
 - cryogenics
+
+
+---
+
+## Revision
+
+Blockchain does not have a single point of failure as it is ???.
+
+- decentralized
+- easily transferable  
+- heavily controlled

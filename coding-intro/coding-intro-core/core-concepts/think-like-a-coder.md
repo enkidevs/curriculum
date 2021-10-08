@@ -21,16 +21,16 @@ Let's look at a scenario.
 
 Imagine you have to simulate grabbing five coins from three different jars. 
 
-You could make a function, `pick_coins`, with three commands and use it five times, saving yourself a lot of time.
+You could make a function, `pick_coins`, with five commands and use it three times, saving yourself a lot of time.
 
 ```python
 def pick_coins():
   # Grab the first coin
   # Grab the second coin
   # Grab the third coin
+  # Grab the fourth coin
+  # Grab the fifth coin
 
-pick_coins()
-pick_coins()
 pick_coins()
 pick_coins()
 pick_coins()

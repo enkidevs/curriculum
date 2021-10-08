@@ -9,7 +9,6 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -73,13 +72,11 @@ Output:
 
 Consider the `move_effect_change` table. We want to know the sum of all values contained in the `move_effect` column:
 
-```md
 | id | move_effect | version_group_id |
 | -- | ----------- | ---------------- |
 | 1  | 8           | 11               |
 | 2  | 18          | 3                |
 | 3  | 29          | 3                |
-```
 
 Construct a query to do so:
 
@@ -102,22 +99,20 @@ FROM move_effect_change;
 
 We have a table called `items` that contains the name and cost of every item in Pokeland. We want to know how much it would cost to buy all items...
 
-```md
 | id | cost | name        |
 | -- | ---- | ----------- |
 | 1  | 0    | master-ball |
 | 2  | 1200 | ultra-ball  |
 | 3  | 600  | great-ball  |
 | 4  | 200  | poke-ball   |
-```
 
 Which query will do so?
 
 ???
 
-- SELECT SUM(cost) FROM item;
-- SELECT AVG(cost) FROM item;
-- SELECT MAX(cost) FROM item;
+- `SELECT SUM(cost) FROM item;`
+- `SELECT AVG(cost) FROM item;`
+- `SELECT MAX(cost) FROM item;`
 
 
 ---
