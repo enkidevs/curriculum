@@ -51,10 +51,14 @@ Types of change:
 ## October 8th 2021
 
 ### Changed
-- [MongoDb - Entier Topic - Replace old note format with the emoji one](https://github.com/enkidevs/curriculum/pull/2771)
+- [MongoDb - Querying With All - Replace old note format with the emoji one](https://github.com/enkidevs/curriculum/pull/2917)
+- [MongoDb - Entire Topic - Replace old note format with the emoji one](https://github.com/enkidevs/curriculum/pull/2771)
 
 ### Fixed
 - [JavaScript - Types Boolean and Number - Remove const from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2916) 
+
+### Added
+- [Go - Multiple Results - Add example on no return type](https://github.com/enkidevs/curriculum/pull/2905)
 
 ## October 7th 2021
 
@@ -397,7 +401,6 @@ Types of change:
 - [Python - Hello World! - Fix syntax highlighting](https://github.com/enkidevs/curriculum/pull/2784)
 - [Python - Method Objects - Make example more clear](https://github.com/enkidevs/curriculum/pull/2785)
 
-
 ## July 5th 2021
 
 ### Added
@@ -407,7 +410,6 @@ Types of change:
 - [Python - Syntax and Numerical Operators - Re-order insights](https://github.com/enkidevs/curriculum/pull/2780)
 - [Web - Topic - Replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2782)
 
-
 ### Fixed
 - [Linux - Execute command without saving it - fix missing space in example](https://github.com/enkidevs/curriculum/pull/2779)
 
@@ -415,6 +417,7 @@ Types of change:
 
 ### Changed
 - [Spreadsheets - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2778)
+- [Python - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2775)
 - [Webflow - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2774)
 - [React - topic - replace old note format with emoji](https://github.com/enkidevs/curriculum/pull/2776)
 - [Security - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2777)
