@@ -4,7 +4,7 @@ type: normal
 category: must-know
 links:
   - >-
-    [Style](https://facebook.github.io/react/docs/dom-elements.html#style){website}
+    [Style](https://reactjs.org/docs/dom-elements.html#style){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

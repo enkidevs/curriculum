@@ -43,7 +43,7 @@ increaseAge = () => {
 
 This way, the latest state value is **always** provided as an argument to the function you pass into `setState`, and the new state value will become whatever you return from said function. 
 
-Note: the function also receives the latest `props`, as its second argument.
+> 💡 The function also receives the latest `props`, as its second argument.
 
 If using function components, the same logic applies to the `useState` hook:
 
