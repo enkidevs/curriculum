@@ -14,7 +14,7 @@ links:
 
 setupCode:
   startingPoint: |
-    // Welcome to the JavaScript playground 👋
+    // Welcome to the JavaScript playground
 
     // Start typing your code here:
 

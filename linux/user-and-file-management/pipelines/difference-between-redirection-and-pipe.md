@@ -74,7 +74,7 @@ script.sh ??? file.txt
 
 ## Revision
 
-*Piping* refers to passing the output to another program or utility, while *redirecting* to
+*Piping* refers to passing the output to another program or utility, while *redirecting* refers to
 
 ???
 

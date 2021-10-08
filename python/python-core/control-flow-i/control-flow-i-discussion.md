@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # Welcome to the Python playground 👋
+    # Welcome to the Python playground
 
     # Start typing your code here:
 

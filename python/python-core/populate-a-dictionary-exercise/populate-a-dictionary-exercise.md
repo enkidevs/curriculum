@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground.
+    # Welcome to the Python coding playground.
     # Create a dictionary
     # Save the values in a different variable
     # Save the keys in a different variable

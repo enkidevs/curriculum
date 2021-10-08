@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
+    # Welcome to the Python coding playground. 
     # Example output:
     # The character z appears only 2 times
 

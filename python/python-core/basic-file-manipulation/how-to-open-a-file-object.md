@@ -25,7 +25,7 @@ revisionQuestion:
 
 ## Content
 
-**Reading** from and **writing** to files in **Python 3** can easily be done using the `open()` function. This will create a `file` object, which can be used to call other support **methods** associated with it.
+**Reading** from and **writing** to files in **Python 3** can be done using the `open()` function. This will create a `file` object, which can be used to call other support **methods** associated with it.
 
 Consider the following syntax:
 
@@ -77,18 +77,17 @@ print("The file mode is: ", obj.mode)
 
 ## Practice
 
-Suppose we want to append something to a file and print its content. Fill the gaps accordingly:
+Suppose we want to append something to a file. Fill the gaps accordingly:
 
 ```python
-file = open('practice.py', '???')
+file = ???('practice.py', '???')
 file.write('Append this')
 file.???(0)
-print(file.???())
 ```
 
+- `open`
 - `a+`
 - `seek`
-- `read`
 - `a`
 - `write`
 - `append`

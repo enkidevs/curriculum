@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # Hey there 👋
+    # Hey there
     # Welcome to your first coding exercise
 
     # Start by creating a list here
