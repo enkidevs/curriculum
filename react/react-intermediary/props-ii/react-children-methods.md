@@ -73,7 +73,7 @@ React.Children.toArray(
 
 This returns the children as a flat array, with keys assigned to each child. Note that this method will change the keys of all the elements in the children array, even if they had a key before.
 
-
+ 
 ---
 
 ## Practice

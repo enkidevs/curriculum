@@ -57,7 +57,7 @@ The break element `<br>` is one of those elements. It can be placed anywhere and
 
 > ⚠️ Even though the closing tag is optional in HTML5, it is best practice to use the closing tag. This is especially necessary if you want your document to be readable in either XML or XHTML.
 
-
+ 
 ---
 
 ## Practice

@@ -59,8 +59,8 @@ However, because our course is taught on a mobile platform, having these large i
 So, for easier readability, we will use smaller indentations in this course.
 
 > ⚠️ You should always format your code before building it.
-
-
+ 
+  
 ---
 
 ## Practice

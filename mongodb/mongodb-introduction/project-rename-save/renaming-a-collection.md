@@ -36,7 +36,7 @@ Output:
 ```javascript
 { "ok": 1 }
 ```
-
+ 
 > ⚠️ To avoid any errors, do not try to rename a collection while there is a query running on that collection. Also, capitalization matters. If you have many collections, make sure you don't misspell the collection name.
 
 ```javascript

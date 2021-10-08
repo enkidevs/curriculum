@@ -45,7 +45,7 @@ Disadvantages of Multithreading:
 - difficult to debug, result is sometimes unpredictable
 - potential deadlocks
 - "starvation": some threads may not be served
-
+ 
 
 ---
 

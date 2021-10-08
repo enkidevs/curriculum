@@ -82,7 +82,7 @@ Output:
   "first100": 57
 }
 ```
-
+ 
 > ⚠️ The order of the pipeline stages matters. The stages are applied in a top-down manner. In the example above, the process is the following:
 
 1. We limit the number of documents to be aggregated

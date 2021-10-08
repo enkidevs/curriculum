@@ -61,7 +61,7 @@ And this is the result:
 
 > ⚠️ When inserting data, **if you omit a column**, the inserted value will be `NULL`[2].
 
-
+ 
 ---
 
 ## Practice

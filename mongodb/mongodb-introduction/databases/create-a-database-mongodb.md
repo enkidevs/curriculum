@@ -24,7 +24,7 @@ revisionQuestion:
 In MongoDB, the `use <db>` command is used to either create a new database or switch to an existing one.
 
 > ⚠️ If you do not create a new database, the default `test` database will be used.
-
+ 
 ```javascript
 use pokemon
 // switched to db pokemon
@@ -50,7 +50,7 @@ db
 To list all the databases, you need to use the `show dbs` command.
 
 > ⚠️ Empty databases won't show with the `show dbs` command.
-
+ 
 ```javascript
 show dbs
 

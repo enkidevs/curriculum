@@ -55,7 +55,7 @@ Here, `'Get some food!'` is printed because the condition above evaluates to `Tr
 type(True)
 # <class 'bool'>
 ```
-
+ 
 
 ---
 

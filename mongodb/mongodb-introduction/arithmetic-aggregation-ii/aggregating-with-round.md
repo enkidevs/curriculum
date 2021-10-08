@@ -58,7 +58,7 @@ Output:
   "roundedPower": 51
 }
 ```
-
+ 
 > ⚠️ `$round: ["$initialPower"]` = `$round: ["$initialPower", 0]` 
 
 If we wanted to round with any decimal point, we would write it as `$round: ["$initialPower", NUMBER_HERE]` 

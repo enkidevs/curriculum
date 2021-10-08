@@ -38,7 +38,7 @@ Some files and directories related statements:
 
 > ⚠️ Sometimes accessing these properties can be restricted due to the security manager of the system.
 
-
+ 
 ---
 
 ## Practice

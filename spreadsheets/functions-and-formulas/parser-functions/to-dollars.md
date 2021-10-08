@@ -36,7 +36,7 @@ The syntax is:
 This function is mostly used when you want to convert a number value to a dollar value. 
 
 > 💡 You can achieve the same effect by selecting a cell and pressing the "Format as currency" button on the formula bar.
-
+ 
 
 ---
 

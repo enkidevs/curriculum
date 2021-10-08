@@ -117,7 +117,7 @@ If you have a table with an empty cell within your web page, you should insert t
 
 > ⚠️ Do not use multiple non-breaking spaces to create larger spaces. If additional space is necessary, then CSS should be used.
 
-
+ 
 ---
 
 ## Practice

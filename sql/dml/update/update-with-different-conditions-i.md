@@ -57,7 +57,7 @@ In this case, because we didn't include a condition, **all the records** will be
 > ⚠️ You should take care when updating data. One missed condition could lead to irreversible changes.
 
 ### Strict Condition
-
+ 
 The correct way to update the `mammals` table is to set a good condition.
 
 You could try:

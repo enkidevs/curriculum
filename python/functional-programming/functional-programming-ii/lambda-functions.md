@@ -49,7 +49,7 @@ In this case, we are passing the lambda function `x % 3 == 0` to `filter()` to b
 
 > ⚠️ Lambda should only be used when a function will be used in one location in your code, and won't be used again after that. In all other cases, it is better to use `def` to avoid unnecessary confusion.
 
-
+ 
 ---
 
 ## Practice

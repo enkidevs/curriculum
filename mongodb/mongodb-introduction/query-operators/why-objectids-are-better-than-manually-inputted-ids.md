@@ -49,7 +49,7 @@ There are more methods and uses for `ObjectId`s that we will cover later on.
 
 > ⚠️ Even though it is best practice to use `ObjectId`s instead of manually inputted ones, we will still use some manually inputted ids in our examples for easier readability and explanation of certain functions.
 
-
+ 
 ---
 
 ## Practice

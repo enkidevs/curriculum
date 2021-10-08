@@ -51,7 +51,7 @@ You can declare it with **any combination** of `width`, `style`, and `color` in 
 > ⚠️ You need to set the `style` for the border to show. If you don't, the default value is `none`. 
 
 Borders can have different styles such as `solid` (**the most common**), `dashed`, `dotted`, `double`, and others.
-
+ 
 You can also set borders for sides individually:
 
 ```css

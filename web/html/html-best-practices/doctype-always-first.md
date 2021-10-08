@@ -27,7 +27,7 @@ For HTML5 the declaration is typed as:
 
 > ⚠️ The DOCTYPE tag is *not* an HTML element, but a tag specific for browsers to identify the type of code in the document.
 
-
+ 
 ---
 
 ## Practice

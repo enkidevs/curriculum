@@ -60,7 +60,7 @@ sudo chown -R jesse:new-group /some/directory
 
 > ⚠️ This command would not just change the owner of the `/some/directory` directory, but every file and subdirectory therein.
 
-
+ 
 ---
 
 ## Practice

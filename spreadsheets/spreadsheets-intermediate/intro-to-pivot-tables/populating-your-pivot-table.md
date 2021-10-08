@@ -61,7 +61,7 @@ You can switch the order of the data by dragging it.
 
 In the same manner, you can add columns.
 
-
+ 
 ---
 
 ## Practice

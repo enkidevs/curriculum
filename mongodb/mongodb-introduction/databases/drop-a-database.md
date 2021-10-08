@@ -38,7 +38,7 @@ use Pokemon
 ```
 
 > ⚠️ When switching databases, look at any capitalization and spelling errors because the names of the databases are case sensitive.
-
+ 
 When we are sure we are on the correct database, we can use the `db.dropDatabase()` command to delete the current database:
 
 ```javascript

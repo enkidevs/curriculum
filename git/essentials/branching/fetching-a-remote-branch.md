@@ -43,7 +43,7 @@ git fetch --all
 
 > ⚠️ Changes are **not** automatically applied to your local branch, you have to do this yourself with `git merge`.
 
- 
+  
  
 ---
 

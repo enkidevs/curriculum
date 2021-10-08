@@ -40,7 +40,7 @@ In this case, the `master` branch is up to date. The `scrollFix` branch is track
 
 > ⚠️ The information displayed relates to the last time you connected to the server. Use `git fetch --all` first to be totally up to date.
 
-
+ 
 ---
 
 ## Practice

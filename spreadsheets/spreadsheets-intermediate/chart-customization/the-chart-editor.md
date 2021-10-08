@@ -27,7 +27,7 @@ Here you can choose to change:
 - the axes
 - series
 - and many more...
-
+ 
 Let's make the lines smooth for our chart. This is done from the `Chart style` tab:
 
 ![smooth](https://img.enkipro.com/ad72c00958bc80dbd6ad5b24958bbeaf.gif)

@@ -38,7 +38,7 @@ All forms on Webflow are fully customizable, meaning that after creating a `Form
 If we tried to add a form element, in this case, a label, outside of the form, we would get this error:
 
 ![error](https://img.enkipro.com/7840fdd38d370d2305e9660dacee3084.png)
-
+ 
 If we wanted to add or remove an element, we can do it both from the `Canvas` and the `Navigator`.
 
 If we wanted to edit the settings of a form element, we would need to either double click the element on the `Canvas` or select it either in the `Navigator` and edit the settings on the right side panel.

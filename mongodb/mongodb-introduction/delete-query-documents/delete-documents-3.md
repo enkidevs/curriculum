@@ -41,7 +41,7 @@ Output:
 
 > ⚠️ When executed, the query returns the document that was deleted.
 
-
+ 
 ---
 
 ## Practice

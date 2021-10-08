@@ -63,7 +63,7 @@ saving bytes</title>
 
 In order for the document to display properly with all the optional tags omitted, there are various conditions that need to be met. Check out the *Learn More* section for a full list of optional tags and conditions.
 
-
+ 
 ---
 
 ## Practice

@@ -63,7 +63,7 @@ Example:
 [View CodePen](https://codepen.io/enkidevs/pen/qKLKJm)
 
 > ⚠️ When setting the `min` value, it cannot be greater than the max value, and vice-versa.
-
+ 
 
 ---
 

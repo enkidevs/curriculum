@@ -62,7 +62,7 @@ Example of absolute paths:
 
 There is one downfall when it comes to using absolute link paths. You have no control over these files because they are located on other domains, and if they are moved, your links will break.
 
-
+ 
 ---
 
 ## Practice

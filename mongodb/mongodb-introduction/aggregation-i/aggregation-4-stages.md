@@ -35,7 +35,7 @@ Output:
   "result": 2
 }
 ```
-
+ 
 > ⚠️ The order of the aggregation stages matters. In this example, the process is the following:
 
 1. We skip the first 300 documents from the collection

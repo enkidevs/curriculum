@@ -84,7 +84,7 @@ The fractions are used to determine the time of day after midnight.
 Without proper formatting, `=TO_DATE(0)` and `=TO_DATE(0.25)` would look the same.
 
 ![to-date](https://img.enkipro.com/7540d5617465b0099bc0747edd9c1c21.png)
-
+ 
 
 ---
 

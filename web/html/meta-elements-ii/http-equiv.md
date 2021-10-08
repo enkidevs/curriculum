@@ -85,7 +85,7 @@ Now it is way simpler to specify the character set thanks to the `charset` attri
 
 The `set-cookie` attribute is used to define a `cookie` for the page. However, you should always use the HTTP header `Set-Cookie` to set Cookies for the page because the `http-equiv="set-cookie` is obsolete.
 
-
+ 
 ---
 
 ## Practice

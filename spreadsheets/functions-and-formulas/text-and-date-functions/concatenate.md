@@ -58,7 +58,7 @@ If your cell is formatted as a text data type, the result would differ from a ce
 Here are some more examples:
 
 ![more-concatenate-examples](https://img.enkipro.com/1107969b8b5426ab84122f7a30f56555.png)
-
+ 
 
 ---
 

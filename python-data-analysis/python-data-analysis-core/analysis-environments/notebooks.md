@@ -34,8 +34,9 @@ Notebooks let you mix code, text and images in any order you like, and each piec
 We'll show you how to create a notebook on Jupyter Lab in the next insight.
 
 ---
-## Practice
 
+## Practice
+ 
 Notebooks are documents that support ??? 
 
 - various elements such as code, text and images, and more
@@ -43,6 +44,7 @@ Notebooks are documents that support ???
 
 
 ---
+
 ## Revision
 
 Notebooks support interactive images.

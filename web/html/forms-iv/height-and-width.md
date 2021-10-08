@@ -42,7 +42,7 @@ It is very important to set both the height and width in HTML to reserve space w
 > ⚠️ Never specify only the height or only the width property, always specify both.
 
 Also, you can edit the height and width properties using CSS rules.
-
+ 
 ---
 
 ## Practice
