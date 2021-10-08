@@ -63,7 +63,7 @@ y **= x
 
 ## Practice
 
-What’s the output of the following code:
+What's the output of the following code:
 
 ```bash
 x = 3
@@ -80,7 +80,7 @@ x **= 2
 
 ## Revision
 
-What’s the output of the following code:
+What's the output of the following code:
 
 ```bash
 x = 32
