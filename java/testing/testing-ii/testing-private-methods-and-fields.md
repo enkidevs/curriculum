@@ -86,7 +86,7 @@ try {
 }
 ```
 
-> Note: If you omit this step, Java will throw an error.
+> ❗ If you omit this step, Java will throw an error.
 
 The last option would be to **refactor** said class. Maybe the class to be tested does too much and some functionality can be moved inside another class. This, again, is a matter of *software design*.
 

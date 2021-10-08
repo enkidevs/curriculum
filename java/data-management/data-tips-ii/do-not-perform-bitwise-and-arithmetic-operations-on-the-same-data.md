@@ -6,7 +6,7 @@ tags:
   - numeric-operations
 links:
   - >-
-    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM01-J.+Do+not+perform+bitwise+and+arithmetic+operations+on+the+same+data){website}
+    [wiki.sei.cmu.edu/java](https://wiki.sei.cmu.edu/confluence/display/java/NUM01-J.+Do+not+perform+bitwise+and+arithmetic+operations+on+the+same+data){website}
 revisionQuestion:
   formats:
     - fill-in-the-gap

@@ -56,7 +56,7 @@ Which would output:
 }
 ```
 
-**Note:** When adding or subtracting, the expressions don't always have to be fields. We can also use literals. Here's an example in which we subtract 7 from the `"Basic" power`:
+> 💡 When adding or subtracting, the expressions don't always have to be fields. We can also use literals. Here's an example in which we subtract 7 from the `"Basic" power`:
 
 ```javascript
 db.pokemon.aggregate([

@@ -4,7 +4,7 @@ type: normal
 category: caveats
 links:
   - >-
-    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ05-J.+Do+not+return+references+to+private+mutable+class+members){website}
+    [More Information](https://wiki.sei.cmu.edu/confluence/display/java/OBJ05-J.+Do+not+return+references+to+private+mutable+class+members){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

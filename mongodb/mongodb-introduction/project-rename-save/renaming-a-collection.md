@@ -37,7 +37,7 @@ Output:
 { "ok": 1 }
 ```
 
-**Note:** To avoid any errors, do not try to rename a collection while there is a query running on that collection. Also, capitalization matters. If you have many collections, make sure you don't misspell the collection name.
+> ❗ To avoid any errors, do not try to rename a collection while there is a query running on that collection. Also, capitalization matters. If you have many collections, make sure you don't misspell the collection name.
 
 ```javascript
 db.pokemon
