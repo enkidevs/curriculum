@@ -48,7 +48,7 @@ Alternatively, if you are in a **Go** playground, you can use the `Format` butto
 
 As you can see in the image above, the formatting of **Go** programs has relatively large indentations.
 
-> ❗ These indentations should always be done via tabs and never spaces (unless necessary).  
+> ⚠️ These indentations should always be done via tabs and never spaces (unless necessary).  
 
 It is a convention in the **Go** community to format all code the same way. 
 
@@ -58,7 +58,7 @@ However, because our course is taught on a mobile platform, having these large i
 
 So, for easier readability, we will use smaller indentations in this course.
 
-> ❗ You should always format your code before building it.
+> ⚠️ You should always format your code before building it.
 
 
 ---

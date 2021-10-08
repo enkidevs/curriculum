@@ -55,7 +55,7 @@ In HTML we also have empty elements or **void** elements.  These elements don't 
 
 The break element `<br>` is one of those elements. It can be placed anywhere and forces a line break at that point. 
 
-> ❗ Even though the closing tag is optional in HTML5, it is best practice to use the closing tag. This is especially necessary if you want your document to be readable in either XML or XHTML.
+> ⚠️ Even though the closing tag is optional in HTML5, it is best practice to use the closing tag. This is especially necessary if you want your document to be readable in either XML or XHTML.
 
 
 ---

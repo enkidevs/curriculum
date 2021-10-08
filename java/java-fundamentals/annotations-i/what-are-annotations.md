@@ -49,7 +49,7 @@ Example:
 }
 ```
 
-> ❗ Whenever the method has no `default` value, its return value must be specified on each usage.
+> ⚠️ Whenever the method has no `default` value, its return value must be specified on each usage.
 
 You can split all *annotations* into three types:
 

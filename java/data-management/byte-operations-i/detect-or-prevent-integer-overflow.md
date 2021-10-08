@@ -38,7 +38,7 @@ Few techniques for detecting integer overflow:
 
 2. Upcasting: Cast the inputs to the next larger primitive integer type and perform the arithmetic in the larger size. 
 
-> ❗ Not applicable for `long` as it is the largest integer type.
+> ⚠️ Not applicable for `long` as it is the largest integer type.
 
 3. `BigInteger` class: Convert the inputs into objects of type `BigInteger` and perform all arithmetic using the class methods.
 

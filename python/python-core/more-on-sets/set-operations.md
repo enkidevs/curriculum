@@ -28,7 +28,7 @@ Apart from set operations such as union and intersection, Python's `set` has oth
 
 Add an element to a `set`:
 
-> ❗ Sets only accept **immutable** elements
+> ⚠️ Sets only accept **immutable** elements
 
 ```python
 >>> enki = set("Enk")

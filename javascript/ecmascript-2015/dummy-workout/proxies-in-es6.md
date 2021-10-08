@@ -63,7 +63,7 @@ let {proxy, revoke} =
 // switch off by calling revoke()
 ```
 
-> ❗ Warning: proxies are an advanced ES6 feature, but are not yet implemented by many browsers or transpilers.
+> ⚠️ Warning: proxies are an advanced ES6 feature, but are not yet implemented by many browsers or transpilers.
 
 ---
 

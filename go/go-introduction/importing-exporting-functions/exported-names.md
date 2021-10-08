@@ -26,7 +26,7 @@ The difference between **exported** and **imported**:
 
 **Exported** names are defined elsewhere in the package but can be used in any program.
 
-> ❗ **Exported** names always start with a capital letter.
+> ⚠️ **Exported** names always start with a capital letter.
 
 If a function starts with a lowercase letter it can only be used within the package it was defined at. 
 

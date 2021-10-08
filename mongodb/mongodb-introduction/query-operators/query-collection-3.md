@@ -145,7 +145,7 @@ Output:
 // ...
 ```
 
-> ❗ If we wanted the query above to find only the documents where one of the values is true, we would have to add the `$or` logical operator.
+> ⚠️ If we wanted the query above to find only the documents where one of the values is true, we would have to add the `$or` logical operator.
 
 
 ---

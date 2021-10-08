@@ -30,7 +30,7 @@ revisionQuestion:
 
 Every thread in *Java* is created and controlled by the `java.lang.Thread` class. In order to start a thread we have to call a `start()` function on it.
 
-> ❗ It is important to remember that *processes* and *threads* are not the same things although they are quite similar.
+> ⚠️ It is important to remember that *processes* and *threads* are not the same things although they are quite similar.
 
 Advantages of Multithreading:
 

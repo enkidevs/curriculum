@@ -38,7 +38,7 @@ git branch -vv
 
 In this case, the `master` branch is up to date. The `scrollFix` branch is tracking the `uiFix` branch on the `uiTeam` server. There are two commits on the local branch which you haven't pushed and one commit on the server which you haven't merged.
 
-> ❗ The information displayed relates to the last time you connected to the server. Use `git fetch --all` first to be totally up to date.
+> ⚠️ The information displayed relates to the last time you connected to the server. Use `git fetch --all` first to be totally up to date.
 
 
 ---
