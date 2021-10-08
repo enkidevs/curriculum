@@ -36,7 +36,7 @@ Output:
 }
 ```
 
-Note that the order of the aggregation stages matters. In this example, the process is the following:
+> ❗ The order of the aggregation stages matters. In this example, the process is the following:
 
 1. We skip the first 300 documents from the collection
 2. We limit the number of documents entering the aggregation pipeline to 50

@@ -107,6 +107,26 @@ Output:
 
 The above search returns only the documents that have `type` equal to `"Grass"` and `secondType` equal to `"Normal"`.
 
+In these queries, there is an implicit `$and` operator. 
+
+This operator is used when you want your search to satisfy both conditions.
+
+```javascript
+// this:
+db.pokemon.find({
+  type: "Grass",
+  secondType: "Normal"
+});
+
+// Is the same as:
+db.pokemon.find({
+  $and: [
+    {type: "Grass"},
+    {secondType: "Normal"}
+  ]
+});
+```
+
 
 ---
 

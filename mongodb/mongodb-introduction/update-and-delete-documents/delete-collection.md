@@ -40,7 +40,7 @@ db.Pokemon.drop()
 // true
 ```
 
-**Note:** The only possible output for the `drop()` method is `true` or `false`, indicating if the deletion was successful or not.
+> 💡 The only possible output for the `drop()` method is `true` or `false`, indicating if the deletion was successful or not.
 
 
 ---
