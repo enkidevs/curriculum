@@ -5,7 +5,7 @@ category: how-to
 links:
   - >-
     [Type checking with
-    PropTypes](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#react.proptypes){website}
+    PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html#react.proptypes){website}
   - '[PropTypes Library](https://www.npmjs.com/package/prop-types){website}'
 practiceQuestion:
   formats:
