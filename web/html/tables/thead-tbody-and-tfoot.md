@@ -6,7 +6,6 @@ tags:
   - workout
   - deep
 links:
-  - '[CodePen: Scrolling Table CSS](https://codepen.io/enkidevs/pen/JBXyoJ){code}'
   - >-
     [HTML <thead>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead){documentation}
@@ -16,7 +15,6 @@ links:
   - >-
     [HTML <tfoot>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot){documentation}
-  - '[Codepen Example](https://codepen.io/stefan-stojanovic/pen/jKbJgQ){code}'
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -66,9 +64,11 @@ Furthermore, there are some important usage notes for these elements. These are:
 
 5. If necessary, you can use more than one `<tbody>` element within a table. This is very useful for larger tables, where you want to divide the table into separate sections and give each section a different formatting. Also, when dividing the table with multiple `<tbody>` elements, each `<tbody>` element can have its own header row.
 
-**Note:** Having a header row doesn't mean having multiple `<thead>` elements, this is not allowed. What this means is each top row of the `<tbody>` element can be made a header with the appropriate combination of `<tr>` and `<th>` elements.
+> 💡 Having a header row doesn't mean having multiple `<thead>` elements, this is not allowed. What this means is each top row of the `<tbody>` element can be made a header with the appropriate combination of `<tr>` and `<th>` elements.
 
-For a similar and larger example with CSS and multiple `<tbody>` elements, check the `codepen example` link under the more info section at the bottom of this insight.
+For a similar example with CSS and multiple `<tbody>` elements, check the following `codepen example` link.
+
+[View CodePen](https://codepen.io/enkidevs/pen/JjNGWqE)
 
 
 ---

@@ -74,7 +74,7 @@ script.sh ??? file.txt
 
 ## Revision
 
-*Piping* refers to passing the output to another program or utility, while *redirecting* to
+*Piping* refers to passing the output to another program or utility, while *redirecting* refers to
 
 ???
 
@@ -115,7 +115,7 @@ p1 > myFile
 1. `p1` is executed
 2. *output* of `p1` is put in a file called `myFile`.
 
-If `myFile` already exists, it will be overriden.
+If `myFile` already exists, it will be overwritten.
 
 [2:explanation]
 What happens when running the line:

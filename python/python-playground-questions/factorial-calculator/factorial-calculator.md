@@ -10,9 +10,11 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
+    # Welcome to the Python coding playground. 
     # Example output:
     # 5! is equal to 120
+
+    # Type your code here:
       
 ---
 
@@ -22,9 +24,9 @@ setupCode:
 
 ## Content
 
-Can you write a program that will take a number as input and output its factorial value?
+> 👩‍💻 Your task is to create a program that **calculates and outputs the factorial of a number**.
 
-> A factorial of the number 5, which is written as `5!`, would be calculated as 5 x 4 x 3 x 2 x 1.
+> A factorial of the number 5, written as `5!`, would be calculated as 5 x 4 x 3 x 2 x 1.
 
 Example output:
 
@@ -34,17 +36,15 @@ Example output:
 
 For the sake of learning, try not to use the built-in `math` modules' `factorial()` method.
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 18...`)
 - flow control (`for...in`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 

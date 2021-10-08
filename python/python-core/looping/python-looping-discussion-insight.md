@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 tags:
@@ -7,6 +7,14 @@ tags:
 type: normal
 
 category: coding
+
+setupCode:
+  startingPoint: |
+    # Welcome to the Python playground
+    # List of numbers:
+    my_list = [13, 2, 11, 18, 3, 12, 0, 7 , 9, 99, 44, 76]
+
+    # Start typing your code here:
 
 ---
 
@@ -25,7 +33,7 @@ Here is the list of numbers.
 my_list = [13, 2, 11, 18, 3, 12, 0, 7 , 9, 99, 44, 76]
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - loops (`for x in y...`)
 - order (`sorted`, `reversed`)
 - flow control (`if (age > 30) ...`)

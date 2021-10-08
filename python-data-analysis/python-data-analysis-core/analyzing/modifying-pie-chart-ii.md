@@ -8,7 +8,6 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -79,9 +78,9 @@ labels = 'Milk','Coffee','Tea'
 
 plt.pie(
     ???,
-    ???=labels
+    ???=labels,
     ???=???,
-    autopct="%.f",
+    autopct="%.f"
 )
 
 plt.title('Drinks left')

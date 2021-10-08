@@ -5,7 +5,7 @@ category: how-to
 links:
   - >-
     [MDN Docs on Text
-    Decoration](https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration){documentation}
+    Decoration](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration){documentation}
   - >-
     [More Control Over Text
     Decoration](https://css-tricks.com/more-control-over-text-decoration/){website}

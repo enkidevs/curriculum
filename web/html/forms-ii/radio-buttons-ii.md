@@ -69,7 +69,7 @@ Example:
 
 In the example above, we have 3 `radio` buttons, each with the same name - `gender` and each with a unique `value` that is used to identify each button. Also, each button has an `id`. This `id` is used with the `<label>` element's `for` attribute to link the label to the radio button.
 
-**Note: By adding the label, we allow the user to have a larger clickable area for the radio button. That is, if the user presses anywhere in the `gender1` label, that label's button will be selected. This option is really useful as it makes it easier to click both for big and small screen sizes.**
+> 💡 By adding the label, we allow the user to have a larger clickable area for the radio button. That is, if the user presses anywhere in the `gender1` label, that label's button will be selected. This option is really useful as it makes it easier to click both for big and small screen sizes.**
 
 Once a user presses a button, and submits the result, the form's data is sent in a `name/value` pair. For instance, if they pick `female`, the form's data will include the line `gender=female` upon submission.
 

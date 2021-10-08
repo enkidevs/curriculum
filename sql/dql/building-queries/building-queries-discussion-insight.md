@@ -3,7 +3,7 @@ author: kapnobatai136
 
 type: normal
 
-category: discussion
+category: how-to
 
 links:
   - >-
@@ -11,19 +11,17 @@ links:
 
 ---
 
-# Test Yourself
+# Building Queries Exercise
 
 ---
 
 ## Content
 
-Now that you know how queries work, it's time to try them out!
+> 👩‍💻 Using our [playground](https://learn.enki.com/public/playground?jsonUrl=https://gist.githubusercontent.com/kapnobatai137/2b85df43ad3d134112160d24aa78ad5a/raw/9b4aab60d58fbe17e783458192629d83c6eb53aa/sql-building-queries-discussion-insight.json), your task is to query the `pokemon` table for Pokémon that:
+> - **are from the same generation**
+> - **are from the same type**
 
-Consider this scenario: you're working with Professor Oak to implement the next-gen Pokédex.
-
-You're in charge of the database, meaning that you'll be writing all the queries for the Pokédex.
-
-The main `pokemon` table has the following schema:
+Here's what the table looks like:
 
 | id  | name       | generation | type_1 | type_2 |
 |-----|------------|------------|--------|--------|
@@ -31,27 +29,25 @@ The main `pokemon` table has the following schema:
 | 2   | Charmander | 1          | Fire   | Fire   |
 | ... | ...        | ...        | ...    | ...    |
 
-Your task is to write a query that satisfies these conditions:
-- all Pokémon should be from **the same generation**
-- all Pokémon should have **the same type**
-
 It's up to you to choose which generation the Pokémon are from, and which type they have in common.
 
-To achieve this, you should use the following concepts:
+To solve this, try using the following concepts:
 - querying (`SELECT column_name FROM table_name`)
 - conditions (`WHERE <condition>`)
 - comparison operators (`name = "Enki"`)
 - logical operators (`OR`, `AND`)
 
-We've included a **Playground** in the *Learn More* section. In there, you can check out all the data that the `pokemon` table contains and try your query out.
+Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
-If you're not sure what to do, check out this footnote[1].
+That being said, if you're not sure how to get started, check out this footnote[1].
 
-When you're ready, leave a comment here with your submission. If you don't want to participate, you can always check the comment section to see what the other users come up with.
+When you're finished, feel free to share your solution with the community, join in on discussions, and upvote solutions from your fellow learners!
 
-> 💡 Before you submit your program, take a look at [how you can format your comments](https://www.enki.com/glossary/general/markdown-formatting).
+> 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 
-> 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit, the implementation is up to you.
+> 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit. The implementation is up to you.
+
+> 🤓 Happy learning! Open the [playground](https://learn.enki.com/public/playground?jsonUrl=https://gist.githubusercontent.com/kapnobatai137/2b85df43ad3d134112160d24aa78ad5a/raw/9b4aab60d58fbe17e783458192629d83c6eb53aa/sql-building-queries-discussion-insight.json) and start coding!
 
 ---
 
@@ -95,5 +91,3 @@ WHERE
   region = 1 AND
   type_1 = "Fire";
 ```
-
-Finally, after you've tested the query, you can copy and paste it in the comment section.

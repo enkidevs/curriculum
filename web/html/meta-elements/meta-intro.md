@@ -48,7 +48,7 @@ Here's an example of how metadata is written within an HTML webpage.
 
 Next to the `<meta name="title" content="Page Title">` tag, the `<title>` tag also describes metadata. The difference is the `<title>` is more important than the `<meta>` title tag. This is because the `<title>` tag is used as the valid markup for a title that will be displayed. Whereas the `<meta>` title tag is used for crawling(web indexing with internet bots).
 
-**Note:** Google will ignore any meta tags it doesn't recognize.
+> 💡 Google will ignore any meta tags it doesn't recognize.
 
 
 ---

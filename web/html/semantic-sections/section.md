@@ -25,7 +25,7 @@ revisionQuestion:
 
 The HTML `<section>` element is used to represent a standalone section. Usually, This is a section which doesn't have a better element to represent it within that HTML document.
 
-**Note:** Each `<section>` element should be properly identified, usually with a heading `<h1>`-`<h6>`.
+> 💡 Each `<section>` element should be properly identified, usually with a heading `<h1>`-`<h6>`.
 
 Example:
 

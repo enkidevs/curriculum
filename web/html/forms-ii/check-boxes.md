@@ -49,7 +49,7 @@ The HTML `checkbox` type of input forms are square boxes that can be ticked or c
 
 ![checkbox-both](https://img.enkipro.com/902c58342b0b1451592cb6e25e01a851.png)
 
-**Note:** A similar input form type is `radio`. This input type is also clickable, however, unlike with checkboxes, if multiple options are present, the radio buttons can have only one option checked at a time.
+> 💡 A similar input form type is `radio`. This input type is also clickable. However, unlike with checkboxes, if multiple options are present, the radio buttons can have only one option checked at a time.
 
 Example with one checkbox:
 
