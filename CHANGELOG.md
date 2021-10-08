@@ -424,6 +424,7 @@ Types of change:
 - [Comp. Sci. - Reverse Polish Notation - Replace dead resource link](https://github.com/enkidevs/curriculum/pull/2765)
 
 ### Changed
+- [Linux - Topic - Replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2770)
 - [Git - Topic - Replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2768)
  
 ## June 27th 2021

@@ -40,8 +40,7 @@ Supported escape sequences:
 
 ```
 
-*Note:*  `↵` is the Enter key.
-
+> 💡 `↵` is the Enter key.
 
 ---
 
