@@ -7,7 +7,7 @@ tags:
   - integer-overflow
 links:
   - >-
-    [www.securecoding.cert.org](https://wiki.sei.cmu.edu/confluence/display/java/NUM00-J.+Detect+or+prevent+integer+overflow){website}
+    [Integer Overflow](https://wiki.sei.cmu.edu/confluence/display/java/NUM00-J.+Detect+or+prevent+integer+overflow){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
