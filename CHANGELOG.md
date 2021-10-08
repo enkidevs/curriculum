@@ -413,6 +413,7 @@ Types of change:
 
 ### Changed
 - [Python - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2775)
+- [Webflow - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2774)
 - [React - topic - replace old note format with emoji](https://github.com/enkidevs/curriculum/pull/2776)
 - [Security - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2777)
 

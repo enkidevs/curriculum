@@ -29,7 +29,7 @@ To edit the number of columns and their sizes, click on the column element and s
 
 ![settings](https://img.enkipro.com/1c71b1cf329231774e91c9f871a01b28.png)
 
-**Note:** Each column element consists of a single row of columns.
+> 💡 Each column element consists of a single row of columns.
 
 You can edit the sizes of the columns by moving the numbers on the bottom of the `Columns Settings` panel. There are different default size values depending on the number of columns you select, but all are customizable.
 
