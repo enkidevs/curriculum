@@ -23,7 +23,7 @@ Your documents might contains objects instead of numbers or strings. In the aggr
 
 This operator ignores any `null` values, and, if all values are `null`, the aggregation would just return an empty document. 
 
-**Note:** The `$mergeObjects` operator does not modify the original documents. The aggregation combines the documents and outputs a new temporary document.
+> 💡 The `$mergeObjects` operator does not modify the original documents. The aggregation combines the documents and outputs a new temporary document.
 
 Let's say we have the following documents in our database:
 

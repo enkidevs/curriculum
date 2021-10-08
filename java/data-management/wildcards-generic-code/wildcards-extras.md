@@ -47,7 +47,7 @@ List<? extends Object> objList = intList;
 List<? extends Number>  numList = intList;
 ```
 
-**NOTE:** `<?>` is the same as `<? extends Object>` as `Object` is the top class in *Java*.
+> 💡 `<?>` is the same as `<? extends Object>` as `Object` is the top class in *Java*.
 
 
 ---
