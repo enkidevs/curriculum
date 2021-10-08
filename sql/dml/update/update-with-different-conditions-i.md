@@ -138,3 +138,4 @@ Here is the `mammals` table
 | 2    | Bats       |
 | 3    | Marsupials |
 | NULL | Primate    |
+ 
