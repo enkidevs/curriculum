@@ -53,6 +53,9 @@ Types of change:
 ### Fixed
 - [JavaScript - Types Boolean and Number - Remove const from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2916) 
 
+### Added
+- [Python - Arithmetic Opertaions - Add shorthand notation insight ](https://github.com/enkidevs/curriculum/pull/2895)
+
 ## October 7th 2021
 
 ### Changed
