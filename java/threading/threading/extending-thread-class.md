@@ -58,7 +58,7 @@ public class Main {
 
 The result of running the above program would be the same as in the previous one.
 
-**NOTE:** for better understanding of *threads* please read the *More on the Thread Class* section below.
+> 💡 For better understanding of *threads* please read the *More on the Thread Class* section below.
 
 
 ---

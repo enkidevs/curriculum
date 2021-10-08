@@ -4,7 +4,7 @@ type: normal
 category: caveats
 links:
   - >-
-    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/ERR02-J.+Prevent+exceptions+while+logging+data){website}
+    [Prevent Exeptions While Logging](https://wiki.sei.cmu.edu/confluence/display/java/ERR02-J.+Prevent+exceptions+while+logging+data){website}
 ---
 
 # Prevent `exceptions` while logging Data

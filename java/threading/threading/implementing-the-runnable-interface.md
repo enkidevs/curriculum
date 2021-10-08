@@ -69,7 +69,7 @@ public class Main {
 }
 ```
 
-**NOTE:** it makes no difference whether we start new threads inline or declare them beforehand.
+> 💡 It makes no difference whether we start new threads inline or declare them beforehand.
 
 The output of the above program is always different as concurrency is in most cases implemented by the operating system. One example could be like this:
 

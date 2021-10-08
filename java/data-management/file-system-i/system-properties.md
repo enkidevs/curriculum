@@ -36,7 +36,7 @@ Some files and directories related statements:
 - `user.dir` - returns user working directory
 - `path.separator` - returns path separator character used in `java.class.path`. This character is used to separate individual file paths from each other when they are going one after another (`:` on Unix and `;` on Windows).
 
-**NOTE:** sometimes accessing these properties can be restricted due to the security manager of the system.
+> ❗ Sometimes accessing these properties can be restricted due to the security manager of the system.
 
 
 ---
