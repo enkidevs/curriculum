@@ -32,3 +32,4 @@ If a `struct` you have created is huge, using a value receiver would create larg
 On the other hand, if you don't want to edit the receivers value, always use a value receiver.
 
 We will dive into this further with examples in the next workouts.
+ 

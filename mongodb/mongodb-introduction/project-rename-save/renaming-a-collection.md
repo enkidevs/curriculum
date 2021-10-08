@@ -58,3 +58,4 @@ Which code successfully changes the name of the collection `Pokemon` to `pokemon
 - `db.Pokemon.renameCollection("Pokemon")`
 - `db.Pokemon.rename("POKEMON")`
 - `db.Pokemon.renameCollectionTo("pokemon")`
+ 

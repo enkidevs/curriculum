@@ -115,3 +115,4 @@ The least intrusive method of unit testing private methods and fields is to
 - use reflection to gain access to the private methods
 - refactor the class
 - define an inner testing class
+ 

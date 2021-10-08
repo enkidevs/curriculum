@@ -67,3 +67,4 @@ The concept of threading is: ???
 - splitting a single process into multiple tasks
 - ensuring that the current process gets the most resources out of the system
 - making a process run on a single core in order to free up resources
+ 

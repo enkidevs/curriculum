@@ -150,3 +150,4 @@ The easiest way to redirect a web page to another is using a meta redirect tag i
 - Yes
 - There is an error in the sample code.
 - This way doesn't work at all.
+ 
