@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Never
-    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#never){documentation}
+    Type](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#the-never-type){documentation}
 practiceQuestion:
   formats:
     - fill-in-the-gap

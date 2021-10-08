@@ -41,10 +41,13 @@ Before diving into this skill, you should make sure you have a strong foundation
 
 If you'd like to learn more about application security, you should make sure you have a strong foundation in the following:  
 
-At least one scripting language (even bash, check out our other topics)  
-???  
-Operating Systems  
-How memory in a computer works, and where data is located at any given time  
+**At least one scripting language (even bash, check out our other topics)**
+
+???
+
+**Operating Systems**
+
+**How memory in a computer works, and where data is located at any given time**
 
 - Network Protocols
 - Binary
@@ -58,10 +61,13 @@ How memory in a computer works, and where data is located at any given time
 
 If you'd like to learn more about application security, you should make sure you have a strong foundation in the following:  
 
-At least one scripting language (even bash, check out our other topics)  
-Network Protocols
-???  
-How memory in a computer works, and where data is located at any given time  
+**At least one scripting language (even bash, check out our other topics)**
+
+**Network Protocols**
+
+???
+
+**How memory in a computer works, and where data is located at any given time**
 
 - Operating Systems  
 - Binary

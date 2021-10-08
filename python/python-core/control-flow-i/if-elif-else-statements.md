@@ -87,19 +87,19 @@ if days_coding == 7:
 What does the following code snippet print?
 
 ```python
-x = 8
+name = 'George'
 
-if (x == 8):
-    print('true')
+if name == 'Stefan':
+    print("Hey Stefan")
+elif name == 'Andrei':
+    print('Hey Andrei')
 else:
-    print('false')
+    print("Hey, what's your name?")
 ```
 
 ???
 
-- true
+- `Hey, what's your name?`
+- `Hey Stefan`
+- `Hey Andrei`
 - SyntaxError
-- false
-- True
-- False
- 

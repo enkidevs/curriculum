@@ -1,6 +1,6 @@
 name: Introduction
 
-description: Why learn to code?
+description: Your intro to coding starts here!
 
 aspects:
   - introduction
@@ -10,3 +10,4 @@ insights:
   - why-learn-to-code
   - hello-code
   - what-is-your-goal
+  - hello-beautiful-people 

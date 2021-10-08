@@ -115,7 +115,7 @@ If you have a table with an empty cell within your web page, you should insert t
 
 [View CodePen](https://codepen.io/enkidevs/pen/PBpLqV)
 
-**Note:** Do not use multiple non-breaking spaces to create larger spaces. If additional space is necessary, then CSS should be used.
+> ❗ Do not use multiple non-breaking spaces to create larger spaces. If additional space is necessary, then CSS should be used.
 
 
 ---

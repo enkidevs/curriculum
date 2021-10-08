@@ -116,7 +116,7 @@ print(???.readline())
 
 ## Revision
 
-Suppose we want to read all lines from a file and return them as a string. Fill the gaps accordingly:
+Suppose we want to read all lines from a file and return them as a list. Fill the gaps accordingly:
 
 ```py
 file = open('test.txt', '???')

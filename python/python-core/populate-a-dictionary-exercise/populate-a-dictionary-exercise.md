@@ -10,14 +10,14 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
-    # Using these two lists:
-    keys = ['Name', 'Surname', 'Profession']
-    values = ["Alan", "Turing", "Mathematician"]
-
-    # Populate this dictionary:
+    # Welcome to the Python coding playground.
+    # Create a dictionary
+    # Save the values in a different variable
+    # Save the keys in a different variable
+    # Clear the dictionary
+ 
+    # Use this dictionary:
     person = {}
-    
 
 ---
 
@@ -27,33 +27,21 @@ setupCode:
 
 ## Content
 
-Given an empty `dictionary`:
-```python
-person = {
+> 👩‍💻 Using dictionary methods, your task is to:
+> - **create a dictionary with at least one key-value pair**
+> - **save the values in a different variable**
+> - **save the keys in a different variable**
+> - **clear the dictionary**
 
-}
-```
+To solve this, try using the following concepts:
+- create a dictionary (`fromkeys`)
+- methods (`.values()`, `.keys()`, `.clear()`)
 
-And two `list`s:
-```python
-keys = ['Name', 'Surname', 'Profession']
-values = ["Alan", "Turing", "Mathematician"]
-```
+Give it an honest try, and feel free to share your solution!
 
-Can you populate the `person` `dict` using the two `lists`? 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-Don't forget to output the new `dictionary`.
-
-To achieve this, you can use the following concepts:
-- built-in method (`zip`)
-
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
-
-That being said, if you're not sure how to get started, check out this footnote[1]. 
-
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 
@@ -67,4 +55,8 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Add the two `lists` to the `person` `dictionary` using the `zip` method. 
+Create a new `dictionary` using `fromkeys` with at least one key-value pair.
+
+Use the built-in methods to extract the keys and values. 
+
+Clear the dictionary.

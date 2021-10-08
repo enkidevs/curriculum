@@ -10,11 +10,13 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
+    # Welcome to the Python coding playground. 
     # Example input
     # myFunction('Mary had a little lamb')
     # Output:
     # little
+
+    # Type your code here:
 
 ---
 
@@ -24,7 +26,7 @@ setupCode:
 
 ## Content
 
-Can you define a function that will take a sentence as input? The function should split the sentence into separate words and only output words longer than 4 letters?
+> 👩‍💻 Your task is to define a function that **splits a sentence into separate words and only outputs words longer than four letters**.
 
 Example input/output:
 ```python
@@ -35,18 +37,16 @@ myFunction('Mary had a little lamb')
 little
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - flow control (`for...in...`, `if (x > 4)...`)
 - built-in functions (`len()`, `split()`)
 - function creation (`def something(x):`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1].
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 

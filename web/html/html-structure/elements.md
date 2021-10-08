@@ -49,13 +49,13 @@ Example:
 </p>
 ```
 
-**Note:** Nested elements are very useful and every website or document has them.
+> 💡 Nested elements are very useful and every website or document has them.
 
 In HTML we also have empty elements or **void** elements.  These elements don't have to be closed because they don't actually wrap around any content.
 
 The break element `<br>` is one of those elements. It can be placed anywhere and forces a line break at that point. 
 
-**Note:** Even though the closing tag is optional in HTML5, it is best practice to use the closing tag. This is especially necessary if you want your document to be readable in either XML or XHTML.
+> ❗ Even though the closing tag is optional in HTML5, it is best practice to use the closing tag. This is especially necessary if you want your document to be readable in either XML or XHTML.
 
 
 ---

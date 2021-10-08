@@ -8,6 +8,12 @@ type: normal
 
 category: coding
 
+setupCode:
+  startingPoint: |
+    # Welcome to the Python playground
+
+    # Start typing your code here:
+
 ---
 
 # Test Yourself
@@ -24,7 +30,7 @@ The class should have an `__init__` method, plus two methods that will be used t
 
 When you call the methods, they should print the calculated output as part of a message - for example, `"The area is 10"`.
 
-To achieve this, you should use the following concepts:
+To solve this, try using the following concepts:
 - class keyword (`class`)
 - function creation (`def ...`)
 - area of a rectangle (`Length * Width`)

@@ -36,16 +36,16 @@ let 2Company = "Enki"; // not valid
 
 ### Semicolon
 
-Statements in JavaScript end in a `;`. Based on the ECMAScript[1] rules however, adding a `;` isn't actually required (although it is common practice):
+Statements in JavaScript end in a `;`. Based on the ECMAScript[1] rules, however, adding a `;` isn't required (although it is common practice):
 
 ```javascript
 let firstName = "Enki";
 //                    ^
 ```
 
-Omitting a semicolon in certain situations can cause problems. JavaScript has a feature called Automatic Semicolon Insertion (ASI) which means that, if you omit a semicolon, JavaScript will automatically add it where it thinks it should go. 
+Omitting a semicolon in certain situations can cause problems. So JavaScript has a feature called Automatic Semicolon Insertion (ASI) which means, if you omit a semicolon, JavaScript will automatically add it where it thinks it should go. 
 
-This can sometimes lead to unexpected results[2]. Thus, it's usually recommended to insert the `;` yourself, or use a tool such as [Prettier](https://prettier.io) to do it for you.
+However, this can sometimes lead to unexpected results[2]. Thus, it's recommended to insert the `;` yourself or use a tool such as [Prettier](https://prettier.io) to do it for you.
 
 
 
@@ -65,7 +65,7 @@ You can also add single line comments to the same line as other code:
 let company="enki"; // define company
 ```
 
-Or if you have more text you can use a block comment:
+Or, if you have more text, you can use a block comment:
 
 ```javascript
 /*
@@ -131,7 +131,7 @@ ECMAScript is the specification defining the rules of JavaScript. The features o
 [2: ASI]
 JavaScript ASI will sometimes assume a statement ends where it might not be intended.
 
-For example, the code bellow:
+For example, the code below:
 
 ```js
 x 

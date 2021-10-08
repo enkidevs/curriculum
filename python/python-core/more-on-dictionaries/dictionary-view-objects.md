@@ -95,7 +95,7 @@ Which keyword is used for testing collection memberships?
 d = {'python':1}
 Enki = d.keys()
 'python' ??? Enki
->>> true
+>>> True
 ```
 
 - in

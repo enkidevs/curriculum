@@ -10,8 +10,9 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the JavaScript coding playground.
+    // Welcome to the JavaScript coding playground.
     
+    // Type your code here:
     switch() {
 
     }
@@ -23,7 +24,11 @@ setupCode:
 
 ## Content
 
-Can you create a `switch` statement with `7` `case`s(not including the `default` one). Each `case` can be represented as a number from `0-6` and it should have some output.
+> 👩‍💻 Your task is to:
+> - **create a switch statement with seven cases (for each day of the week)**
+> - **each case can be represented as a number from 0-6 or a string**
+> - **add a default case**
+> - **each case should output something**
 
 Example input output:
 ```javascript
@@ -34,17 +39,15 @@ Example input output:
 // It is Wednesday my dudes!
 ```
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - flow control (`switch`)
 - output (`console.log()`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 
