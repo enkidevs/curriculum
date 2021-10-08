@@ -57,7 +57,7 @@ Output:
 { "_id": "Water", "sumOfPowers": 1467 }
 ```
 
-> ❗ If the expression can't evaluate a valid number (the number is missing), it will return `null`.
+> ⚠️ If the expression can't evaluate a valid number (the number is missing), it will return `null`.
 
 ### `$floor`
 

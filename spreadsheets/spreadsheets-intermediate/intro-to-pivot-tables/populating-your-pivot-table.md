@@ -51,7 +51,7 @@ Let's add `Category` and `Product` as rows.
 
 ![rows](https://img.enkipro.com/454d37a7ed74454c82a12de8a525919c.png)
 
-> ❗ The order of the data in the `Rows` and `Columns` section is important.
+> ⚠️ The order of the data in the `Rows` and `Columns` section is important.
 
 Pivot tables will group data based on the topmost data set in the editor.
 

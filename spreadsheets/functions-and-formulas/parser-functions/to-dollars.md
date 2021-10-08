@@ -31,7 +31,7 @@ The syntax is:
 
 ![to-dollar](https://img.enkipro.com/c17706578d9a300788189dccde6583a5.png)
 
-> ❗ You cannot use this function to convert different currencies to a dollar. To convert currencies you need to use Google's `GOOGLEFINANCE` function.
+> ⚠️ You cannot use this function to convert different currencies to a dollar. To convert currencies you need to use Google's `GOOGLEFINANCE` function.
 
 This function is mostly used when you want to convert a number value to a dollar value. 
 

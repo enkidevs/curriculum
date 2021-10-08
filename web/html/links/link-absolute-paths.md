@@ -58,7 +58,7 @@ Example of absolute paths:
 - `http://www.apple.com/images/logo.svg`
 - `http://www.enkipro.com/help/articles/how-do-i-set-up-a-webpage.html`
 
-> ❗ For the absolute path link to work, you have to provide the domain name of the website, including the `http:// `.
+> ⚠️ For the absolute path link to work, you have to provide the domain name of the website, including the `http:// `.
 
 There is one downfall when it comes to using absolute link paths. You have no control over these files because they are located on other domains, and if they are moved, your links will break.
 

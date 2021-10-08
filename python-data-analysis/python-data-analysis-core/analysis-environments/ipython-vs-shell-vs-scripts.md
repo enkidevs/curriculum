@@ -100,6 +100,6 @@ In any terminal, pressing the ⬆️ key would give us our last executed line.
 
 If we press ⬆️ in iPython, it would give us last executed `Line`.
 
-> ❗ The multi-line editing feature is not available within the iPython terminal and only available in notebooks (more on this to come later)
+> ⚠️ The multi-line editing feature is not available within the iPython terminal and only available in notebooks (more on this to come later)
 
 You can think of notebooks as interactive Python environments that can combine code execution, rich text, charts, and rich media. 
