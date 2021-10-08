@@ -412,6 +412,7 @@ Types of change:
 
 ### Changed
 - [React - topic - replace old note format with emoji](https://github.com/enkidevs/curriculum/pull/2776)
+- [Security - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2777)
 
 ### Fixed
 - [Git - topic - retrigger changes made in PR2768 Git](https://github.com/enkidevs/curriculum/pull/2773)
@@ -424,6 +425,7 @@ Types of change:
 - [Comp. Sci. - Reverse Polish Notation - Replace dead resource link](https://github.com/enkidevs/curriculum/pull/2765)
 
 ### Changed
+- [Linux - Topic - Replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2770)
 - [Git - Topic - Replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2768)
  
 ## June 27th 2021
