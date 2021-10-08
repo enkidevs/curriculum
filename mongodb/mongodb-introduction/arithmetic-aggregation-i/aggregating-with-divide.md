@@ -35,7 +35,7 @@ Division is performed in MongoDB by using the `$divide` operator. The syntax loo
 
 Using the same documents as in the previous insights[1], we can use the `$divide` operator to calculate the initial power of each `pokemon` by dividing the `power` field by the `age` field (this way we can find the `power` of a pokémon when their age is one).
 
-**Note:** The expressions are calculated like so `<expression1>` / `<expression2>`.
+> 💡 The expressions are calculated like so `<expression1>` / `<expression2>`.
 
 Example:
 
@@ -71,7 +71,7 @@ Output:
 }
 ```
 
-**Note:** Just like with the `$add`, `$subtract` and `$multiply` operators, the expressions do not have to be existing fields, they can also be any literals.
+> 💡 Just like with the `$add`, `$subtract` and `$multiply` operators, the expressions do not have to be existing fields, they can also be any literals.
 
 
 ---

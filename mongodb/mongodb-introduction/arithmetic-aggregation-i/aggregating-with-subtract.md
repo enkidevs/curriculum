@@ -29,7 +29,7 @@ Similarly to addition, subtraction can be achieved by using the `$subtract` oper
 
 Now, using the same documents as in the previous insight[1], we can use the `$subtract` operator to calculate how much stronger the `"Ultimate"` `power` is compared to the `"Basic"` one for each pokémon.
 
-**Note:** The expressions are calculated like so: `<expression1>` - `<expression2>`.
+> 💡 The expressions are calculated like so: `<expression1>` - `<expression2>`.
 
 Example:
 

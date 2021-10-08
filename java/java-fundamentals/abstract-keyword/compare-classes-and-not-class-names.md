@@ -4,7 +4,7 @@ type: normal
 category: caveats
 links:
   - >-
-    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ09-J.+Compare+classes+and+not+class+names){website}
+    [Compare Classes Not Names](https://wiki.sei.cmu.edu/confluence/display/java/OBJ09-J.+Compare+classes+and+not+class+names){website}
 revisionQuestion:
   formats:
     - fill-in-the-gap

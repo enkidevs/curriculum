@@ -58,7 +58,7 @@ Output:
 }
 ```
 
-**Note:** When executed, the query returns the original version of the document by default. To display the modified version of the document upon executing the query, you need to add `returnNewDocument: true`.
+> 💡 When executed, the query returns the original version of the document by default. To display the modified version of the document upon executing the query, you need to add `returnNewDocument: true`.
 
 In the above example, we added 15 to the `power` field. This time let's decrease the `power` by 14:
 
@@ -89,7 +89,7 @@ Output:
 }
 ```
 
-**Note:** The `$inc` operator is used to either increase or decrease the value of the specified field. If the field doesn't exist, it will be created with the value specified with the `$inc` operator.
+> 💡 The `$inc` operator is used to either increase or decrease the value of the specified field. If the field doesn't exist, it will be created with the value specified with the `$inc` operator.
 
 You might be wondering what the difference between the `findOneAndUpdate()` and `updateOne()` methods are. The first difference is that the `findOneAndUpdate()` method returns the document that will be updated (or the updated document) while the `updateOne()` method returns a document that contains the following:
 

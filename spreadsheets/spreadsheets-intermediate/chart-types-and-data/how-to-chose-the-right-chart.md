@@ -42,7 +42,7 @@ You could check if your company's profit is going up or down based on two or mor
 
 ![pie-profit](https://img.enkipro.com/b18eb1e2e155d13360823d27b485f541.png)
 
-> ❗ Choosing the right chart is key.
+> ⚠️ Choosing the right chart is key.
 
 To determine what chart you need, you first need to look at your data.
 

@@ -45,7 +45,7 @@ We can use the `$group` stage to group them by their `type`, and then use the `$
 
 By first we mean the first document entered in the database for the selected grouping.
 
-**Note:** When using the `$first` operator within the `$group` stage, it is best to use it together with the `$sort` aggregation stage.
+> 💡 When using the `$first` operator within the `$group` stage, it is best to use it together with the `$sort` aggregation stage.
 
 Example:
 
