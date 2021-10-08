@@ -44,7 +44,7 @@ Example 2: The document will automatically redirect users from one webpage to an
 </head>
 ```
 
-**Note:** The better option is using JS:
+> 💡 The better option is using JS:
 
 ```html
 <script>
@@ -81,7 +81,7 @@ Now it is way simpler to specify the character set thanks to the `charset` attri
 <meta charset="UTF-8">
 ```
 
-**Note:** You should always use the `charset` attribute to set you character encoding because the `http-equiv="content-type` is obsolete.
+> ❗ You should always use the `charset` attribute to set you character encoding because the `http-equiv="content-type` is obsolete.
 
 The `set-cookie` attribute is used to define a `cookie` for the page. However, you should always use the HTTP header `Set-Cookie` to set Cookies for the page because the `http-equiv="set-cookie` is obsolete.
 

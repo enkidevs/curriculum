@@ -64,7 +64,7 @@ Example of opening the link in a different tab:
 
 [View CodePen](https://codepen.io/enkidevs/pen/jpmNbe)
 
-** Note:** `_self` is only needed to open within the same tab/window when overriding conflicting code.
+> 💡 `_self` is only needed to open within the same tab/window when overriding conflicting code.
 
 
 ---

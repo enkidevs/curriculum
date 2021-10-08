@@ -25,7 +25,7 @@ revisionQuestion:
 
 ## Content
 
-**Reading** from and **writing** to files in **Python 3** can easily be done using the `open()` function. This will create a `file` object, which can be used to call other support **methods** associated with it.
+**Reading** from and **writing** to files in **Python 3** can be done using the `open()` function. This will create a `file` object, which can be used to call other support **methods** associated with it.
 
 Consider the following syntax:
 
@@ -38,11 +38,11 @@ Here's the disambiguation of its arguments:
 
 - `f_name`: string value that contains the name of the file
 - `access_mode`: it determines the mode in which the file has to be opened: `read`, `write`, `append`
-- `buffering`: there are two important values `0` (means no buffering) or `1` (means line buffering[1] is performed). If the value is greater than `1` then that will be considered the buffer's size
+- `buffering`: there are two important values `0` (means no buffering) or `1` (means line buffering is performed). If the value is greater than `1` then that will be considered the buffer's size
 
 The supported modes for opening a file are:
 
-- `a`: Opens the file for `appending`. With the **file pointer**[2] being at the end of the file
+- `a`: Opens the file for `appending`. With the **file pointer** being at the end of the file
 - `r`: Opens the file for `reading`. With the **file pointer** being at the beginning of the file
 - `w`: Opens the file for `writing`. Overwrites the file if it exists. If the file doesn't exist it will create a new file
 - `a+`: Opens the file for both `reading` and `appending`. The **file pointer** is at the end of the file
@@ -77,18 +77,17 @@ print("The file mode is: ", obj.mode)
 
 ## Practice
 
-Suppose we want to append something to a file and print its content. Fill the gaps accordingly:
+Suppose we want to append something to a file. Fill the gaps accordingly:
 
 ```python
-file = open('practice.py', '???')
+file = ???('practice.py', '???')
 file.write('Append this')
 file.???(0)
-print(file.???())
 ```
 
+- `open`
 - `a+`
 - `seek`
-- `read`
 - `a`
 - `write`
 - `append`

@@ -27,9 +27,18 @@ revisionQuestion:
 
 ## Content
 
-We talked about CSS and what it can do, but we didn't mention how to actually make the browser use it alongside the HTML file.
+Let's take a look at how you can apply CSS to your HTML file!
 
-There are 3 ways of doing so. In terms of specificity, the external CSS file is the weakest.
+There are three ways can apply CSS:
+1. Inline (you apply the `style` attribute to HTML elements)
+2. Internal (you use the `<style>` element in the `<head>` section)
+3. External (you use the <link> element to reference an external CSS file)
+
+You can only use one of these methods to apply CSS to an HTML element. If an element receives styling from two different methods (e.g., inline and external) then **specificity** comes into play. 
+
+In terms of specificity, inline is the *strongest* (overrides any other styles) and external is the *weakest* (is overridden by any other styles).
+
+> 💡 Although the external method is the *weakest*, it is the recommended method as it splits the resources into *structure* and *style*.
 
 ### External CSS file
 
@@ -82,3 +91,5 @@ What is the recommended way of applying CSS?
 - External file.
 - Internal CSS.
 - Inline CSS.
+
+

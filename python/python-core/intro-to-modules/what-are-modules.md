@@ -86,8 +86,8 @@ Which of the following options would better describe a module in Python?
 # ???
 ```
 
-- 3
 - 2
+- 3
 - 1
 
 

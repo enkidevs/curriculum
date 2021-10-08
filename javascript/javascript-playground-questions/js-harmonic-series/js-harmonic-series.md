@@ -10,9 +10,10 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the JavaScript coding playground.
+    // Welcome to the JavaScript coding playground.
+    // Create a function that sums up the first 15 terms of the harmonic series and round the result to 5 decimal places/
     
-    console.log("Hello world!");
+    // Type your code here:
 
 ---
 
@@ -22,25 +23,23 @@ setupCode:
 
 ## Content
 
-The harmonic series is the divergent infinite series that looks like this:
+> 👩‍💻 Your task is to create a function that will: **sum up the first 15 terms of the harmonic series and round the result to 5 decimal places**.
+
+> The harmonic series is the divergent infinite series that looks like this:
 
 ![harmonic-series](https://img.enkipro.com/86e08401cab9a7841c91077c24e46945.png)
 
-Can you create a function that will sum up the first 15 terms of this series and round them to 5 decimal places?
-
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 25`)
 - flow control (`for...of`)
 - function declaration (`function Something(){}`)
 - methods & functions (`toFixed`, `Math.round()`,...)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 

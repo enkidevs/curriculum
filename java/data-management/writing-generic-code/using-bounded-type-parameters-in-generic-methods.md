@@ -49,7 +49,7 @@ Declare a generic method that only takes Lists of subclasses of `Dog`:
 ```java
 public <???>
    ??? pet(List<???> dogs) {
-  for(each d : dogs){
+  for(Dog d : dogs){
      d.pet();
   }
 }

@@ -56,13 +56,13 @@ If you want to use the same dataset, you can download it using the link in the *
 Import a dataset called `my_data.csv` into a `DataFrame` called `df`.
 
 ```py
-??? = pd.???(???)
+??? = pd.???('???')
 ```
 
 - df
 - read_csv
-- 'my_data.csv'
 - my_data.csv
+- my_data
 - readCSV
 
 ---
