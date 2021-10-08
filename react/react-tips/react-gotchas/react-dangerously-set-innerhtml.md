@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Official
-    Documentation](https://facebook.github.io/react/docs/dom-elements.html#dangerouslysetinnerhtml){website}
+    Documentation](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

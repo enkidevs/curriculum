@@ -5,7 +5,7 @@ category: tip
 links:
   - >-
     [Children in
-    JSX](https://facebook.github.io/react/docs/jsx-in-depth.html#children-in-jsx){website}
+    JSX](https://reactjs.org/docs/jsx-in-depth.html#children-in-jsx){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

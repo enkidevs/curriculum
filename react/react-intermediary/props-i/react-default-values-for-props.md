@@ -5,7 +5,7 @@ category: how-to
 links:
   - >-
     [Default prop
-    values](https://facebook.github.io/react/docs/typechecking-with-proptypes.html#default-prop-values){website}
+    values](https://reactjs.org/docs/typechecking-with-proptypes.html#default-prop-values){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

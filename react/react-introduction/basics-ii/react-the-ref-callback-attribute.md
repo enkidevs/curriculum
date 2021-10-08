@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Refs and the
-    DOM](https://facebook.github.io/react/docs/refs-and-the-dom.html){website}
+    DOM](https://reactjs.org/docs/refs-and-the-dom.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

@@ -5,7 +5,7 @@ category: how-to
 links:
   - >-
     [Inline if else conditional
-    operator](https://facebook.github.io/react/docs/conditional-rendering.html#inline-if-else-with-conditional-operator){website}
+    operator](https://reactjs.org/docs/conditional-rendering.html#inline-if-else-with-conditional-operator){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

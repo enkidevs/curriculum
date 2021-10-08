@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Lists and
-    keys](https://facebook.github.io/react/docs/lists-and-keys.html){website}
+    keys](https://reactjs.org/docs/lists-and-keys.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
