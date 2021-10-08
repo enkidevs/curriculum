@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 8th 2021
+
+### Fixed
+- [JavaScript - Types Boolean and Number - Remove const from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2916) 
+
 ## October 7th 2021
 
 ### Changed
