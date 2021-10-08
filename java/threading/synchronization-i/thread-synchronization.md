@@ -48,7 +48,7 @@ class synchExample {
 }
 ```
 
-**NOTE:** synchronizing on a method is equivalent to synchronizing on a `this` object instance, so only one method is accessible at a time.
+> 💡 Synchronizing on a method is equivalent to synchronizing on a `this` object instance, so only one method is accessible at a time.
 
 - Synchronization on an object has the following pattern:
 

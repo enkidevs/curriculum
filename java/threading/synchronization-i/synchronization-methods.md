@@ -56,7 +56,7 @@ To maximize performance, a good idea is to reduce the scope of `Lock`s to only a
 
 Java also provides predefined *lock* interfaces in their `java.util.concurrent` library.
 
-**NOTE:** It is important to remember to use the same *lock* when working with sensitive data in multiple threads, as acquiring different *locks* will lose the purpose of synchronization.
+> 💡 It is important to remember to use the same *lock* when working with sensitive data in multiple threads, as acquiring different *locks* will lose the purpose of synchronization.
 
 
 ---

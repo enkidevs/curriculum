@@ -25,7 +25,7 @@ To add this effect, go to the `Style` panel, select the `Hover` state, and scrol
 
 ![result-shadow-box](https://img.enkipro.com/611bab883af8c457bb19d71ed9ec1c0e.gif)
 
-**Note:** You can edit the styling of all states on a single element. 
+> 💡 You can edit the styling of all states on a single element. 
 
 To view the styling, first switch back to `None` (because the `Canvas` always displays what is selected). If the state we added an effect to is selected, the effect will be displayed on the Canvas.
 

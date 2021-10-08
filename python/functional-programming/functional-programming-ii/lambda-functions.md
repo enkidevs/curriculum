@@ -47,7 +47,7 @@ filter(lambda x: x % 3 == 0, foo)
 
 In this case, we are passing the lambda function `x % 3 == 0` to `filter()` to be applied to each element in `foo`. Notice how we are not able to call this function outside of where it is declared. This is because the function is anonymous; there is no name to call it by outside of this context.
 
-Note: Lambda should only be used when a function will be used in one location in your code, and won't be used again after that. In all other cases, it is better to use `def` to avoid unnecessary confusion.
+> ❗ Lambda should only be used when a function will be used in one location in your code, and won't be used again after that. In all other cases, it is better to use `def` to avoid unnecessary confusion.
 
 
 ---

@@ -51,7 +51,7 @@ Output:
 { "_id": "Water", "nameOfLast": "Blastoise" }
 ```
 
-**Note** If our grouping has only one document, `$first` and `$last` would give out the same output.
+> ❗ If our grouping has only one document, `$first` and `$last` would give out the same output.
 
 
 ---

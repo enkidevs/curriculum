@@ -52,13 +52,13 @@ WriteResult({ "nRemoved": 11 })
 
 In the above example, we have deleted all documents whose `power` field equals exactly `40`.
 
-**Note:** The output of the `remove()` method, whether it is deleting a single, multiple or all documents, will always be `WriteResult({"nRemoved": NUMBER})`. The `NUMBER` is the number of documents deleted.
+> 💡 The output of the `remove()` method, whether it is deleting a single, multiple or all documents, will always be `WriteResult({"nRemoved": NUMBER})`. The `NUMBER` is the number of documents deleted.
 
 To delete exactly one document based on specified criteria we need to add `true` or `1` for the `justOne` boolean parameter.
 
 When using `remove()` to delete a single document, it works the same way as the `findOneAndDelete()` method by deleting the first matching document.
 
-**Note:** The `justOne` parameter is false by default.
+> 💡 The `justOne` parameter is false by default.
 
 Example:
 

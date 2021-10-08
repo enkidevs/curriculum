@@ -79,7 +79,7 @@ Output:
 }
 ```
 
-**Note:** The `,1` in `$trunc: ["$initialPower", 1]` represents the decimal place and it means that the value will be truncate to 1 decimal point.
+> 💡 The `,1` in `$trunc: ["$initialPower", 1]` represents the decimal place and it means that the value will be truncated to 1 decimal point.
 
 If we wanted to truncate without any decimal points, we would write it as `$trunc: ["$initialPower"]`  or `$trunc: ["$initialPower", 0]`.
 

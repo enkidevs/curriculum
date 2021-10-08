@@ -70,7 +70,7 @@ Output:
 
 As you can see in the example above, the object was transformed into an array. Each key-value pair was displayed in `k: "key"` and `v: "value"` pairs.
 
-**Note:** We used the same name `"spells"` to store the converted object. You can use a different name.
+> 💡 We used the same name `"spells"` to store the converted object. You can use a different name.
 
 
 ---
