@@ -415,6 +415,7 @@ Types of change:
 
 ### Changed
 - [Spreadsheets - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2778)
+- [Webflow - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2774)
 - [React - topic - replace old note format with emoji](https://github.com/enkidevs/curriculum/pull/2776)
 - [Security - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2777)
 
