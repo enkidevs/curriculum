@@ -76,7 +76,7 @@ In addition to this, `console.*` can be used to pipe information to `stdout` in 
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
 
-> 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the [*Skill Map*](https://enki.com/skill/selection) tab** to jump to the workouts most relevant for you.
+> 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the [*Skill Map*](https://app.enki.com/skill/selection) tab** to jump to the workouts most relevant for you.
 
 
 ---

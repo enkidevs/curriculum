@@ -70,7 +70,7 @@ let arr = [10, 20, 30];
 for (let i in arr) {
    console.log(i); 
 }
-// 10 20 30 newFunc
+// 0 1 2 newFunc
 
 for (let i of arr) {
    console.log(i);

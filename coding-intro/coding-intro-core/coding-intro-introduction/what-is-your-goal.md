@@ -8,7 +8,6 @@ category: must-know
 links:
   - '[Why is Python so popular?](https://www.youtube.com/watch?v=Y8Tko2YC5hA&ab_channel=ProgrammingwithMosh){video}'
   - '[Why you should learn SQL](https://www.linkedin.com/pulse/why-you-should-learn-sql-brewster-knowlton/){article}'
-  - '[Want to learn web development but don’t know where to start?](https://www.freecodecamp.org/news/want-to-learn-web-development-but-dont-know-where-to-start-478ed62e0e55/){article}'
 
 ---
 

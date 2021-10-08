@@ -10,37 +10,38 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
+    # Welcome to the Python coding playground. 
+    # A kilometer is equal to `0.621371` miles
+    # A mile is equal to `1.60934` kilometers
+    
     # Example output:
-    # 3 miles are equal to 4.8289 kilometres
+    # 3 miles are equal to 4.8289 kilometers
+
+    # Type your code here:
     
 ---
 
-# Miles to Kilometres Converter
+# Miles to Kilometers Converter
 
 ---
 
 ## Content
 
-How would you write a program that will convert miles to kilometres? The output should contain a message along with the result.
+> 👩‍💻 Your task is to write a program that **converts miles to kilometers and outputs the result**.
 
-It's up to you to choose which operation to use and what the message will be.
-
-To achieve this, you should use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 29`)
 - arithmetic operators (`+, -, *, /`)
-- A kilometre is equal to `0.621371` miles
-- A mile is equal to `1.60934` kilometres
+- A kilometer is equal to `0.621371` miles
+- A mile is equal to `1.60934` kilometers
 
-As bonus points, you can also write a program to convert kilometres to miles.
+As bonus points, you can also write a program to convert kilometers to miles.
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1].
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 
@@ -54,7 +55,7 @@ Remember, learning is more effective when we do it with others.
 
 [1: Hints]
 
-Use one variable to hold the number of miles, another to hold the conversion factor, and a third one to hold the result.
+Use one variable to hold the number of miles, another to hold the conversion factor, and a third to hold the result.
 
 Example input / output:
 ```plain-text
@@ -62,5 +63,5 @@ Example input / output:
 3 miles
 
 # Output
-# miles are equal to 4.8280 kilometres
+# miles are equal to 4.8280 kilometers
 ```

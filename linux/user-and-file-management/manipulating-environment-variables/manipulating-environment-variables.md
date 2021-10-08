@@ -18,7 +18,7 @@ revisionQuestion:
   context: relative
 ---
 
-# Shell vs Environment
+# Shell vs. Environment
 
 
 ---
@@ -35,11 +35,11 @@ echo $drink
 # water
 ```
 
-Shell variables are used only by the shell itself, and not available to any of its child processes. 
+Shell variables are used only by the shell itself and are not available to any of its child processes. 
 
 They are commonly used in scripts to make calculations and to store intermediate results.
 
-Shell variables can be converted into environment variables with the `export` command:
+You can convert shell variables into environment variables with the `export` command:
 
 ```shell
 # export DRINK shell variable
@@ -51,12 +51,11 @@ echo $DRINK
 
 > ⚠ When exporting a variable into the environment, be careful not to overwrite another important environment variable with the same name. 
 
-
 ---
 
 ## Practice
 
-Complete the code to create a new environment variable:
+Complete the code to create a new **environment variable** called `NEW_USER`:
 
 ```bash
 ??? ???="Enki"
@@ -67,7 +66,6 @@ Complete the code to create a new environment variable:
 - $NEW_USER
 - new_user
 - create
-
 
 ---
 

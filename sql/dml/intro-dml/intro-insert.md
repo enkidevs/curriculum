@@ -12,7 +12,6 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -74,7 +73,7 @@ Adding values to your table is done using the ??? keyword.
 Insert the following row into the `employees` table:
 
 ```sql
-??? employees ???
+??? ??? ???
 (9, 'John', 'Developer')
 ```
 

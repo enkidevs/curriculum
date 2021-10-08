@@ -60,9 +60,11 @@ sudo dpkg -r PACKAGE_NAME
 The missing dependencies error thrown by `dpkg` can be fixed by:
 
 ```bash
-??? ??? ??? 
+??? ??? \
+  ??? ??? 
 ```
 
+- `sudo`
 - `apt-get`
 - `install` 
 - `-f`
@@ -74,10 +76,11 @@ The missing dependencies error thrown by `dpkg` can be fixed by:
 
 ## Revision
 
-The usual syntax for installing a `deb` package is:
+The usual syntax for installing a `deb` package named `Deb_package_name` is:
 
 ```bash
-??? ??? ???
+sudo ??? \
+  ??? ???
 ```
 
 - `dpkg`

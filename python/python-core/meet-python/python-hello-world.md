@@ -1,15 +1,19 @@
 ---
 author: emmab
+
 tags:
   - introduction
+
 type: normal
+
 category: coding
+
 setupCode:
   startingPoint: |
-   # 👋 Welcome to the Python coding playground.
-   # Update the statement to print 'Hello World'
+   # Welcome to the Python coding playground.
+   # Update the statement to output the first thing you'd log if you just landed on Mars!
    
-   print("You got this!")
+   print("That's one small step for man, one giant leap for Python!");
    
 practiceQuestion:
   formats:
@@ -22,31 +26,29 @@ revisionQuestion:
   context: standalone
 ---
 
-# Hello World!
-
+# Hello Mars!
 
 ---
 
 ## Content
 
-Let's write our first Python program, and print `Hello World!` to our screen!
+Let's write our first Python program!
 
-To do this, in the Python interpreter, use Python's print function as follows:
+> 👩‍💻 Your task is to use Python's `print` function to output **the first thing you'd log if you just landed on Mars**!
 
-```python
-print('Hello World!')
+Here's how you would say hello to Mars:
+
+```py
+print('Hello Mars!')
 ```
 
-The output displayed in the shell should be:
+And the output displayed in the shell would be:
 
-```Plain Text
-Hello World!
+```plain-text
+Hello Mars!
 ```
 
-In this program, we've used Python's built-in `print` function. Soon you'll learn about many more of these built-in functions and how to create your own.
-
-
-> As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the [*Skill Map*](https://enki.com/skill/selection) tab** to jump to the workouts most relevant for you.
+> As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the [*Skill Map*](https://app.enki.com/skill/selection) tab** to jump to the workouts most relevant for you.
 
 ---
 
@@ -70,7 +72,7 @@ Let's practice more Python! Which statement will display `'Enki'`?
 
 Complete the code snippet with the correct function to output `'Python with Enki!'`:
 
-```plain-text
+```python
 ???('Python with Enki!')
 
 # Output:

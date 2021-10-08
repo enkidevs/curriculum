@@ -31,7 +31,7 @@ revisionQuestion:
 
 The HTML input forms of type `checkbox` are square boxes that can be ticked or checked to be activated. They allow you to either select none, a single or more values at once.
 
-**Note:** A similar input form type is `radio`. This input type is also clickable, however, unlike with checkboxes, if multiple options are present, the radio buttons can have only one option checked at a time.
+> 💡 A similar input form type is `radio`. This input type is also clickable. However, unlike with checkboxes, if multiple options are present, the radio buttons can have only one option checked at a time.
 
 Example with multiple checkboxes:
 
@@ -110,7 +110,7 @@ Example with multiple checkboxes:
 
 In the example above, we have 7 checkboxes, each with the same name - `genre` and each with a unique value that is used to identify each checkbox. Also, each button has an id. This id is used with the `<label>` element's `for` attribute to link the label to the checkbox.
 
-**Note: By adding the label, we allow the user to have a larger clickable area for the checkboxes. That is, if the user presses anywhere in the `folk` label, that label's checkbox will be selected. This option is really useful as it makes it easier to select a value both for big and small screen sizes.**
+> 💡 By adding the label, we allow the user to have a larger clickable area for the checkboxes. That is, if the user presses anywhere in the `folk` label, that label's checkbox will be selected. This option is really useful as it makes it easier to select a value both for big and small screen sizes.
 
 The 'name' & 'value' attributes work as a pair in keeping track of the data sent and are both important to use with checkboxes. For instance, if the user picks `folk` and `reggae` the name/value pairs would be `genre=folk&genre=reggae`. This is something the client never sees as the data is sent upon submission of the form.
 

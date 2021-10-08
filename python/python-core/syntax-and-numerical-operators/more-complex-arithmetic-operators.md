@@ -45,7 +45,7 @@ Here are some other examples:
 # 0.25
 ```
 
-As mentioned in the previous insight[1], the `**` operator is executed before the `-` in the first example, so the calculation is `-(3**4)`.
+The `**` operator is executed before the `-` operator[1] in the first example, so the calculation is `-(3**4)`.
 
 Python uses the modulus operator, `%`, to return the *remainder of a division*.
 

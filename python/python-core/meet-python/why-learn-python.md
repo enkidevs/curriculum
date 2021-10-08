@@ -26,15 +26,15 @@ revisionQuestion:
 
 Python is the language of the present and the future. Here's why:
 
-- *Simplicity*
+- **Simplicity**
 
 It's easy to read and understand. It usually requires less code than other languages like Java and C++ to accomplish the same tasks.
  
-- *Perfect for Data Science and ML*
+- **Perfect for Data Science and ML**
 
 It has numerous [libraries](https://enki.com/glossary/general/library) that let us tackle complex problems with a few lines of code. That's why Python developers are amongst the highest paid in data-related fields.
 
-- *Huge Community*
+- **Huge Community**
 
 If you get stuck on a problem, you have a massive online community to help you out. You can always find the answers, whether on Google, Stack Overflow, or even Reddit.
 
@@ -80,5 +80,3 @@ else:
 
 - `"Don't give up, you're doing great! 🤗"`
 - `"That's the spirit! 🎉"`
-
- 

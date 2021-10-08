@@ -10,9 +10,11 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
+    # Welcome to the Python coding playground. 
     # Example output:
     # Your birthday is in 131 days
+
+    # Type your code here:
       
 ---
 
@@ -22,19 +24,20 @@ setupCode:
 
 ## Content
 
-Using the `datetime` and/or `time` modules, create a program that will check if the current date is your birthday. If it is, print a happy birthday message. If it is not, output how many days left till your birthday.
+> 👩‍💻 Using the `datetime` or `time` modules, your task is to define a `happyBirthday` function. It should:
+> - **check if the current date is your birthday**
+> - **If it is, print a happy birthday message**
+> - **If not, output how many days until your birthday**
 
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - importing (`import`, `from...import...`)
 - built-in methods(`now()`, `year()`, `month()`,...)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 

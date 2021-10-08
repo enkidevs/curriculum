@@ -1,5 +1,5 @@
 ---
-author: claremarie
+author: kapnobatai136
 type: normal
 category: must-know
 tags:
@@ -11,7 +11,6 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:

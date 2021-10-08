@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Handling
-    events](https://facebook.github.io/react/docs/handling-events.html){website}
+    events](https://reactjs.org/docs/handling-events.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

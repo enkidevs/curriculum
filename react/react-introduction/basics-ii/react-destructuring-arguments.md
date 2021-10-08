@@ -8,7 +8,7 @@ links:
     assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){website}
   - >-
     [Destructuring objects as function
-    parameters](https://simonsmith.io/destructuring-objects-as-function-parameters-in-es6/){website}
+    parameters](https://simonsmith.io/destructuring-objects-as-function-parameters-in-es6){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
