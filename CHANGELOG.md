@@ -53,6 +53,9 @@ Types of change:
 ### Fixed
 - [JavaScript - Types Boolean and Number - Remove const from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2916) 
 
+### Added
+- [Go - Multiple Results - Add example on no return type](https://github.com/enkidevs/curriculum/pull/2905)
+
 ## October 7th 2021
 
 ### Changed
