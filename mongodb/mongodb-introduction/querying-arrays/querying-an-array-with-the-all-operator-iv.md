@@ -11,7 +11,6 @@ practiceQuestion:
 
 # Querying An Array With $all
 
-
 ---
 
 ## Content
