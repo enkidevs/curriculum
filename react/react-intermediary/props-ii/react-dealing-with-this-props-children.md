@@ -5,7 +5,7 @@ category: feature
 links:
   - >-
     [React
-    Children](https://facebook.github.io/react/docs/top-level-api.html#reactchildren){website}
+    Children](https://reactjs.org/docs/react-api.html#reactchildren){website}
 ---
 
 # Dealing with `this.props.children`

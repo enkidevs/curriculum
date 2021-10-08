@@ -5,7 +5,7 @@ category: how-to
 links:
   - >-
     [Conditional
-    rendering](https://facebook.github.io/react/docs/conditional-rendering.html){website}
+    rendering](https://reactjs.org/docs/conditional-rendering.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
