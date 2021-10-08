@@ -8,7 +8,7 @@ links:
     Children](https://learn.co/lessons/react-this-props-children){website}
   - >-
     [React
-    Children](https://facebook.github.io/react/docs/react-api.html#reactchildren){website}
+    Children](https://reactjs.org/docs/react-api.html#reactchildren){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
