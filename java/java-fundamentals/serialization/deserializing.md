@@ -64,7 +64,6 @@ It is especially important to use `try` and `catch` blocks when deserializing an
 - Might fail upon loading `bmw.ser` file
 - JVM might not find byte code for the `Car` class
 
-**Notes:**
 
 > 💡 `in.readObject()` was casted to `Car`.
 
