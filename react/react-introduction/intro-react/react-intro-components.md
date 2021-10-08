@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [React Getting
-    Started](https://facebook.github.io/react/docs/getting-started.html){website}
+    Started](https://reactjs.org/docs/getting-started.html){website}
 ---
 
 # Intro Components
