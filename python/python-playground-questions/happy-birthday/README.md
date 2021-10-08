@@ -1,6 +1,6 @@
 name: Happy Birthday
 
-description: Create a program to Wish happy birthday or output days until birthday.
+description: Create a program to wish a happy birthday or to output the number of days until your birthday.
 
 aspects:
   - workout

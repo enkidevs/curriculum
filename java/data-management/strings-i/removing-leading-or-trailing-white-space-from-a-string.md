@@ -7,7 +7,11 @@ tags:
   - string-manipulation
 links:
   - >-
-    [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}
+    [Manipulating Characters in a String](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Removing leading or trailing white space from a string
@@ -28,3 +32,15 @@ System.out.println(trimmed);
 ```
 
 The output printed by the example above will be: `Enki`.
+
+---
+
+## Revision
+
+Which method can we use to remove the surrounding white space in a string?
+
+???
+
+- trim()
+- indexOf()
+- contains()

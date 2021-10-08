@@ -10,13 +10,16 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the JavaScript coding playground.
+    // Welcome to the JavaScript coding playground.
+
     // Example output:
     //     1 
     //    1 1
     //   1 2 1
     //  1 3 3 1
     // 1 4 6 4 1 
+
+    // Type your code here:
     
 ---
 
@@ -26,7 +29,9 @@ setupCode:
 
 ## Content
 
-The Pascal triangle is a triangular array of binomial coefficients.
+> 👩‍💻 Your task is to write a program that **outputs the Pascal triangle.**
+
+> The Pascal triangle is a triangular array of binomial coefficients.
 
 ![pascal-triangle](https://img.enkipro.com/9ca1eb25c5fc393b831db1556dcad889.png)
 
@@ -34,19 +39,15 @@ Here is a gif from Wikipedia that demonstrates how each value is calculated:
 
 ![wiki-explanation](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
-Can you write a program that will print the Pascal triangle exactly like in the above gif?
-
-To achieve this, you can use the following concepts:
+To solve this, try using the following concepts:
 - variable creation (`age = 22`)
 - flow control (`for...of:`)
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Give it an honest try, and feel free to share your solution!
 
-That being said, if you're not sure how to get started, check out this footnote[1]. 
+If you’re stuck, you can always read this footnote[1] or review the comments section.
 
-When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
-
-Remember, learning is more effective when we do it with others.
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
 > 💡 Take a look at [how you can format text using markdown](https://www.enki.com/glossary/general/markdown-formatting).
 
