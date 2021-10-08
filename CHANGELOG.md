@@ -48,15 +48,386 @@ Types of change:
 
 ### Fixed
 
+## October 8th 2021
+
+### Fixed
+- [JavaScript - Types Boolean and Number - Remove const from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2916) 
+
+## October 7th 2021
+
+### Changed
+- [Python - Miles to Kilometers - Change spelling Kilometres to Kilometers](https://github.com/enkidevs/curriculum/pull/2914)
+- [Remove emojis from startingPoint](https://github.com/enkidevs/curriculum/pull/2913)
+
+## October 5th 2021
+- [Revert most of #2454](https://github.com/enkidevs/curriculum/pull/2912)
+
+## October 4th 2021
+
+### Fixed
+- [Styling - Vertical Percentages Are Relative To Container Width Not Height - Add missing closing curly brace](https://github.com/enkidevs/curriculum/pull/2910)
+
+## September 27th 2021
+
+### Changed
+- [JavaScript - Strings, Numbers, And Booleans - Add semicolons to examplse to avoid confusion with new users](https://github.com/enkidevs/curriculum/pull/2909)
+
+## September 24th 2021
+
+### Fixed
+- [Python - How To Open A File Object - Remove .read as answer because it isn't taught until after this insight](https://github.com/enkidevs/curriculum/pull/2908)
+
+## September 23rd 2021
+
+### Changed
+- [Go - If Statements - Improve the revision question](https://github.com/enkidevs/curriculum/pull/2904)
+
+### Fixed
+- [Python - Reading From Files - Fix incorrect info on readlines return type](https://github.com/enkidevs/curriculum/pull/2906)
+- [Python - Nested Functions - Fix incorrect output in content and pq](https://github.com/enkidevs/curriculum/pull/2907)
+
+## September 22nd 2021
+
+### Added
+- [Java - Python - Remove type in the gap format from PQs and RQs](https://github.com/enkidevs/curriculum/pull/2901)
+
+### Fixed
+- [JavaScript - Symbol Special Properties - Fix the practice question by switching the answer order](https://github.com/enkidevs/curriculum/pull/2900)
+- [Python - Intro To Modules - Fix continuity between code examples](https://github.com/enkidevs/curriculum/pull/2902)
+- [Javascript - The Difference Between Null Undefined And NaN - Remove function from pq as it wasn't taught yet](https://github.com/enkidevs/curriculum/pull/2899)
+- [Python - Other Operations On Files - Fix incorrect code output for file.read(7)](https://github.com/enkidevs/curriculum/pull/2903)
+
+## September 20th 2021
+
+### Changed
+- [Python - Dictionary View Objects - Replace true with True](https://github.com/enkidevs/curriculum/pull/2897)
+
+### Fixed
+- [Javascript - Loops Part 2 - Fix incorrect info in comment](https://github.com/enkidevs/curriculum/pull/2898)
+
+## September 17th 2021
+
+### Fixed
+- [Python - The Import Statement - Fix code in PQ](https://github.com/enkidevs/curriculum/pull/2896)
+- [Appsec - What Else You Need To Know - Fix incorrect rendering of PQ and RQ](https://github.com/enkidevs/curriculum/pull/2893)
+
+## September 16th 2021
+
+### Fixed
+- [Python - Using Else In Loops - Remove shorthand notation from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2894)
+
+## September 15th 2021
+
+### Changed
+- [SQL - Add Trigger 2 - Remove outdated link](https://github.com/enkidevs/curriculum/pull/2891)
+- [Python - Populate A Dictionary Exercise - Replace the zip method with fromkeys](https://github.com/enkidevs/curriculum/pull/2892)
+
+### Fixed
+- [Java - Using StringBuilder Class - Replace StringBuffer with StringBuilder](https://github.com/enkidevs/curriculum/pull/2887)
+- [Java - Using Bounded Type Parameters In Generic Methods - Fix broken example in PQ](https://github.com/enkidevs/curriculum/pull/2886)
+- [Python - What Are Modules? - Fix incorrect RQ answer](https://github.com/enkidevs/curriculum/pull/2888)
+
+## September 14th 2021
+
+### Fixed
+- [SQL - Intro Insert - Add missing answer field to rq](https://github.com/enkidevs/curriculum/pull/2890)
+
+## September 8th 2021
+
+### Changed
+- [Typescript - TSC Enum - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2885)
+
+## September 6th 2021
+
+### Added
+- [Java - Revision Questions](https://github.com/enkidevs/curriculum/pull/2883)
+
+### Changed
+- [Coding intro- All Applicable Workouts - remove type in the gap from questions with multiple correct answers](https://github.com/enkidevs/curriculum/pull/2884)
+
+## September 1st 2021
+
+### Changed
+- [Coding Intro - Collection Exercise - Remove dictionary option from exercise](https://github.com/enkidevs/curriculum/pull/2882)
+
+### Fixed
+- [Data Analysis With Python - TV Shows Ratings - Remove extra ??? from pq](https://github.com/enkidevs/curriculum/pull/2880)
+- [HTML - Image Base - Remove extra ??? from rq](https://github.com/enkidevs/curriculum/pull/2881)
+
+### Added
+- [Coding Intro - hello beautiful people - Fixed semi-colon](https://github.com/enkidevs/curriculum/pull/2878) 
+
+## August 31st 2021
+
+### Changed
+- [Go - Go Operators - Remove type in the gap from questions that have more than one possible answer](https://github.com/enkidevs/curriculum/pull/2877)
+- [Python - How To Open A File Object - Remove footnote numbers as there are no footnotes/glosarries](https://github.com/enkidevs/curriculum/pull/2876)
+- [SQL - COUNT & LIMIT - General content improvements](https://github.com/enkidevs/curriculum/pull/2879)
+
+## August 30th 2021
+
+### Changed
+- [Styling - Change The Color Of The Decoration With Text Decoration Color - Replace french language link with english](https://github.com/enkidevs/curriculum/pull/2873)
+- [Web - List Orders - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2874)
+
+### Added
+- [Coding Intro - PQs added to first workout](https://github.com/enkidevs/curriculum/pull/2870) 
+
+## August 26th 2021
+
+### Changed
+- [Mongodb - Querying Arrays - Replace order of insights as the former was talking about the latter instead of vice versa](https://github.com/enkidevs/curriculum/pull/2866)
+- [Mongodb - Querying Arrays - Rename slugs for the last two insights of this workout as their order was changed](https://github.com/enkidevs/curriculum/pull/2869)
+
+### Fixed
+- [Python - Recursive Generators - Remove type in the gap as it has no value and users have to guess if the parenthesis are necessary for the answer](https://github.com/enkidevs/curriculum/pull/2867)
+- [Go - Pointers - Add back ticks to make answers clickable](https://github.com/enkidevs/curriculum/pull/2864)
+- [Typescript - TSC Never - Replace deprecated link with new one](https://github.com/enkidevs/curriculum/pull/2865)
+- [SQL - Remove the type-in-the-gap format](https://github.com/enkidevs/curriculum/pull/2868)
+
+## August 25th 2021
+
+### Changed
+- [Python - Speed Up Your Loop Using map() or List Comprehention - Update variables to snake case and change the PQ](https://github.com/enkidevs/curriculum/pull/2853) 
+
+## August 24th 2021
+
+### Changed
+- [HTML - Conditional Comments Ie9 - Remove RQ and make current PQ the new RQ as it has more value](https://github.com/enkidevs/curriculum/pull/2862)
+
+### Fixed
+- [SQL - Group By Clause - Remove the type-in-the-gap format from both the PQ & RQ; codeblock formatting](https://github.com/enkidevs/curriculum/pull/2863)
+
+## August 23rd 2021
+
+### Changed 
+- [Python Data Analysis - Importing Datasets - Remove quotation as only one would be accepted as a correct answer](https://github.com/enkidevs/curriculum/pull/2859)
+- [Python - Python Environments - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2860)
+
+### Fixed
+- [Data Analysis - SQL Syntax II - Fix RQ](https://github.com/enkidevs/curriculum/pull/2858)
+- [SQL - Aggregate Queries Discussion Insight - Remove duplicate column word](https://github.com/enkidevs/curriculum/pull/2861)
+- [Go - Why Learn Go - Try to retrigger insight to get latest updates in the app](https://github.com/enkidevs/curriculum/pull/2856)
+- [JavaScript - Milliseconds Since Epoch - Remove extra semicolons in RQ answers](https://github.com/enkidevs/curriculum/pull/2855)
+
+## August 22nd 2021
+
+### Fixed
+- [Linux - Installing a deb package from the terminal - Add sudo and package name to pr and rq](https://github.com/enkidevs/curriculum/pull/2857)
+- [Linux - Changing File Ownership With Chown - Add missing colon to rq answers](https://github.com/enkidevs/curriculum/pull/2854)
+
+## August 20th 2021
+
+### Fixed
+- [Comp. Sci. - The Linked List Data Structure - Update RQ to be more specific](https://github.com/enkidevs/curriculum/pull/2852)
+
+## August 18th 2021
+
+### Added
+- [Python - Looping Discussion Insight - Add setup Code](https://github.com/enkidevs/curriculum/pull/2851)
+
+### Changed
+- [Coding Intro - Do it yourself! - Enable insight](https://github.com/enkidevs/curriculum/pull/2848)
+
+### Fixed
+- [Data Analysis - Pipeline Analysis - Remove the type-in-the-gap format from both the PQ and the RQ](https://github.com/enkidevs/curriculum/pull/2847)
+- [Python - While Loops - Remove type in the gap from PQ as it is a guessing game of whitespace characters](https://github.com/enkidevs/curriculum/pull/2850)
+- [Linux - Random Password Generator - Add "secure" in question](https://github.com/enkidevs/curriculum/pull/2849)
+
+## August 17th 2021
+
+### Changed
+- [JavaScript - Inversion of Control - Improve content; add better examples; update questions](https://github.com/enkidevs/curriculum/pull/2838)
+
+### Fixed
+- [Linux - The Basics of Command Substitution - Remove the type-in-the-gap format from the PQ](https://github.com/enkidevs/curriculum/pull/2845)
+- [Python - Variables - Remove the type-in-the-gap format from the PQ](https://github.com/enkidevs/curriculum/pull/2843)
+- [Blockchain - Why Should You Care? - Remove the type-in-the-gap format from the RQ](https://github.com/enkidevs/curriculum/pull/2841)
+- [Blockchain - What Is a Blockchain? - Remove the type-in-the-gap format from the RQ](https://github.com/enkidevs/curriculum/pull/2840/)
+- [React - Conditional Rendering (Part 2) - Remove the type-in-the-gap format from the PQ](https://github.com/enkidevs/curriculum/pull/2839)
+- [Spreadsheets - Whole Topic - Remove any type in the gap related to formulas as upper and lowercase are both possible answers](https://github.com/enkidevs/curriculum/pull/2842)
+- [Java - Use Descriptive Error Messages When Catching Exceptions - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2844)
+- [Java - Throwing An Exception - Remove type in the gap and modify RQ so that different orders do not give wrong answers](https://github.com/enkidevs/curriculum/pull/2846)
+
+## August 16th 2021
+
+### Added
+- [Python - Dictionary Standard Mapping Type - Add info on how to create empty dictionaries](https://github.com/enkidevs/curriculum/pull/2829)
+
+### Fixed
+- [React - What is JSX - Remove Quotations as the question becomes a guessing game](https://github.com/enkidevs/curriculum/pull/2835)
+- [Data Analysis With Python - Modifying Pie Chart II - Fix syntax issues and remove type in the gap in the PQ](https://github.com/enkidevs/curriculum/pull/2837)
+- [Data Analysis With Python - Visualize Movie Show Count - Remove type in the gap as numbers are hard to guess](https://github.com/enkidevs/curriculum/pull/2836)
+
+## Augut 15th 2021
+
+### Changed
+- [Computer Science - Binary Expression Tree - Minor Grammar Improvements](https://github.com/enkidevs/curriculum/pull/2831)
+
+### Fixed
+- [HTML - Update Images - Remove type in the gap as it is impossible to guess answer](https://github.com/enkidevs/curriculum/pull/2833)
+- [Blockchain - Importance of Blockchain - Remove type in the gap as it breaks the question](https://github.com/enkidevs/curriculum/pull/2832)
+
+## August 12th 2021
+
+### Added
+- [Added - RQs - Python - Java - Blockchain]()
+
+## August 11th 2021
+
+### Fixed
+- [Python Data Analysis - Movie Count Per Release Year Visualized - Fix broken RQ that closes the app](https://github.com/enkidevs/curriculum/pull/2827)
+- [Python - More Complex Arithmetic Operators - Reword sentence as insight order changed](https://github.com/enkidevs/curriculum/pull/2826) 
+- [HTML - Input Element - Replace incorrect images](https://github.com/enkidevs/curriculum/pull/2828)
+
+## August 10th 2021
+
+### Fixed
+- [Python - Remove Add Values To A List Exercise - Fix typo](https://github.com/enkidevs/curriculum/pull/2825)
+
+## August 6th 2021
+
+### Changed
+- [Web - Paragraphs And Headings - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2824)
+
+## August 5th 2021
+
+### Changed
+- [Go - If Else Statements - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2820)
+- [Styling - CSS Basics Applying CSS - Add more info on external css being called the weakest](https://github.com/enkidevs/curriculum/pull/2822)
+- [JavaScript - Functions Return Undefined by Default - Update Practice Question](https://github.com/enkidevs/curriculum/pull/2821)
+- [Python and JavaScript - All Coding Exercises - Apply shorter copy](https://github.com/enkidevs/curriculum/pull/2823)
+
+## August 4th 2021
+
+### Changed
+- [Coding Insights - Update concepts hint copy](https://github.com/enkidevs/curriculum/pull/2819)
+
+### Fixed
+- [Fix deep links in various insights](https://github.com/enkidevs/curriculum/pull/2818)
+
+
+## August 3rd 2021
+
+### Changed
+- [JavaScript - Basics Part 2 - Minor Grammar Improvements](https://github.com/enkidevs/curriculum/pull/2817)
+
+## August 2nd 2021
+
+### Added
+- [JavaScript - Hello Mars! - Add coding insight](https://github.com/enkidevs/curriculum/pull/2815)
+
+### Changed
+- [Python and JavaScript - All coding insights - Copy Improvements](https://github.com/enkidevs/curriculum/pull/2795)
+- [Python - Hello Mars! - Improve copy](https://github.com/enkidevs/curriculum/pull/2815)
+
+### Archived
+- [Comp. Sci. - Archive three unused workouts](https://github.com/enkidevs/curriculum/pull/2814)
+- [TypeScript - Extending Interfaces - Remove the type-in-the-gap from the PQ](https://github.com/enkidevs/curriculum/pull/2816)
+
+## July 30th 2021
+
+### Changed
+- [SQL - Insert - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2807)
+- [SQL - Update - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2808)
+- [SQL - Aggregate Queries - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2809)
+- [SQL - Building Queries - Place the discussion insight as an exercise opportunity](https://github.com/enkidevs/curriculum/pull/2810)
+- [Coding Intro - Collections - Convert the discussion insight to coding](https://github.com/enkidevs/curriculum/pull/2806)
+
+## July 29th 2021
+
+### Changed
+- [Web - Core HTML Discussion Insight - Change category and update content](https://github.com/enkidevs/curriculum/pull/2812)
+- [Web - Box Model Discussion Insight - Change category and update content](https://github.com/enkidevs/curriculum/pull/2811)
+
+### Fixed
+- [Linux - Difference between `redirection` and `pipe` - Fix typo in footnote](https://github.com/enkidevs/curriculum/pull/2805)
+
+## July 28th 2021
+
+### Fixed
+- [Python - Control Flow I - Update duplicated RQ](https://github.com/enkidevs/curriculum/pull/2804)
+
+## July 26th 2021
+
+### Fixed
+- [Coding Intro - Introduction - General improvements](https://github.com/enkidevs/curriculum/pull/2803)
+- [Coding Intro - DO..WHILE - Fix RQ](https://github.com/enkidevs/curriculum/pull/2802)
+- [Coding Intro - Accessing List Items - Fix RQ](https://github.com/enkidevs/curriculum/pull/2801)
+
+## July 22nd 2021
+
+### Fixed
+- [Linux - Shell vs. Environment - Fix the type-in-the-gap format for the PQ and minor grammar improvements](https://github.com/enkidevs/curriculum/pull/2800)
+
+## July 21st 2021
+
+### Fixed
+- [Styling - Borders - Remove incorrect and add correct information regarding borders](https://github.com/enkidevs/curriculum/pull/2799)
+
+### Changed
+- [Python - All Coding Exercises - Remove markdown form readmes and update setupCodes](https://github.com/enkidevs/curriculum/pull/2791)
+- [Python - Python Versions - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/2793)
+- [JavaScript - All Coding Exercises - Update setupCode](https://github.com/enkidevs/curriculum/pull/2792)
+
+## July 20th 2021
+
+### Fixed
+- [Java - How Range Operations Work - Remove trailing spaces from possible PQ answer](https://github.com/enkidevs/curriculum/pull/2797)
+- [Python - The Import Statement - Minor Grammar improvements](https://github.com/enkidevs/curriculum/pull/2798)
+
+## July 19th 2021
+
+### Fixed
+- [Docker - Docker CLI - Remove the type-in-the-gap format because the answer wasn't explained in the insight](https://github.com/enkidevs/curriculum/pull/2796)
+
+## July 8th 2021
+
+### Fixed
+- [JavaScript - Environmental Variables - Fix PQ bug](https://github.com/enkidevs/curriculum/pull/2786)
+- [Python - What Are Iterators - Fix grammar code bug on line 35](https://github.com/enkidevs/curriculum/pull/2787)
+- [Coding Intro - Think Like A Coder - Fix example](https://github.com/enkidevs/curriculum/pull/2788)
+
+## July 7th 2021
+
+### Fixed
+- [Python - Hello World! - Fix syntax highlighting](https://github.com/enkidevs/curriculum/pull/2784)
+- [Python - Method Objects - Make example more clear](https://github.com/enkidevs/curriculum/pull/2785)
+
+
+## July 5th 2021
+
+### Added
+- [Spreadsheets - Excel File Types - Add footnote on Macros](https://github.com/enkidevs/curriculum/pull/2781)
+
+### Changed
+- [Python - Syntax and Numerical Operators - Re-order insights](https://github.com/enkidevs/curriculum/pull/2780)
+- [Web - Topic - Replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2782)
+
+
+### Fixed
+- [Linux - Execute command without saving it - fix missing space in example](https://github.com/enkidevs/curriculum/pull/2779)
+
+## June 29th 2021
+
+### Changed
+- [React - topic - replace old note format with emoji](https://github.com/enkidevs/curriculum/pull/2776)
+- [Security - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2777)
+
+### Fixed
+- [Git - topic - retrigger changes made in PR2768 Git](https://github.com/enkidevs/curriculum/pull/2773)
+
 ## June 28th 2021
 
 ### Fixed
+- [Linux - The test Built-in - Update return value of `test` and other general improvements](https://github.com/enkidevs/curriculum/pull/2767)
 - [SQL - MIN and MAX clauses - Fix query & general updates](https://github.com/enkidevs/curriculum/pull/2766)
 - [Comp. Sci. - Reverse Polish Notation - Replace dead resource link](https://github.com/enkidevs/curriculum/pull/2765)
 
 ### Changed
-- [Mongodb - Topic - replace old note format with emojis](https://github.com/enkidevs/curriculum/pull/2771)
-
+- [Linux - Topic - Replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2770)
+- [Git - Topic - Replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2768)
+ 
 ## June 27th 2021
 
 ### Fixed
