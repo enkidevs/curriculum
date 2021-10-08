@@ -29,7 +29,7 @@ You and anyone you've shared your notebook with can collaborate on the notebook 
 
 Notebooks let you mix code, text and images in any order you like, and each piece can be tested independently.
 
-> ❗ Running code out-of-order may have unintended effects[2] as notebooks run as whole, top to bottom.
+> ⚠️ Running code out-of-order may have unintended effects[2] as notebooks run as whole, top to bottom.
 
 We'll show you how to create a notebook on Jupyter Lab in the next insight.
 

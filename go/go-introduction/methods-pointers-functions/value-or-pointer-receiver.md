@@ -25,7 +25,7 @@ With value receivers, every time you call a method the value is copied.
 
 > 💡 Even though pointer receivers are used more than value receivers.
 
-> ❗ You can't use both value and pointer receivers in the same method.
+> ⚠️ You can't use both value and pointer receivers in the same method.
 
 If a `struct` you have created is huge, using a value receiver would create large unnecessary copies each time you call the method. So, in this case, a pointer receiver would be better.
 

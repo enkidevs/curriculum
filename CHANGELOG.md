@@ -53,6 +53,7 @@ Types of change:
 ### Changed
 - [MongoDb - Querying With All - Replace old note format with the emoji one](https://github.com/enkidevs/curriculum/pull/2917)
 - [MongoDb - Entire Topic - Replace old note format with the emoji one](https://github.com/enkidevs/curriculum/pull/2771)
+- [All Topics - Where Applicable - Replace ❗ with ⚠️](https://github.com/enkidevs/curriculum/pull/2918)
 
 ### Fixed
 - [JavaScript - Types Boolean and Number - Remove const from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2916) 

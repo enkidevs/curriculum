@@ -49,7 +49,7 @@ else:
 
 Here, `'Get some food!'` is printed because the condition above evaluates to `True`.
 
-> ❗ Python booleans must be *capitalized*, and they belong to the `bool` class.
+> ⚠️ Python booleans must be *capitalized*, and they belong to the `bool` class.
 
 ```python
 type(True)
