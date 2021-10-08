@@ -46,7 +46,7 @@ class TestClass{
 }
 ```
 
-**NOTE:** if the RetentionPolicy is not specified, the default value will be RetentionPolicy.CLASS
+> 💡 If the `RetentionPolicy` is not specified, the default value will be RetentionPolicy.CLASS
 
 ### Inherited
 

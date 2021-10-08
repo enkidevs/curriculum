@@ -4,7 +4,7 @@ type: normal
 category: best-practice
 links:
   - >-
-    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/OBJ01-J.+Limit+accessibility+of+fields){website}
+    [Limit Accesibility Of Fields](https://wiki.sei.cmu.edu/confluence/display/java/OBJ01-J.+Limit+accessibility+of+fields){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

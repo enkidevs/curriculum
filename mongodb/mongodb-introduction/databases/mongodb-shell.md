@@ -48,7 +48,7 @@ show dbs
 #local  0.000GB
 ```
 
-Note that because we haven't created any databases yet, we are only seeing the ones that are created by default (`admin`, `config`, and `local`).
+> 💡 Because we haven't created any databases yet, we are only seeing the ones that are created by default (`admin`, `config`, and `local`).
 
 You can use the `help()` function to list all the available commands for a particular database:
 
