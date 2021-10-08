@@ -3,7 +3,7 @@ author: catalin
 type: normal
 category: must-know
 links:
-  - '[Forms](https://facebook.github.io/react/docs/forms.html){website}'
+  - '[Forms](https://reactjs.org/docs/forms.html){website}'
 practiceQuestion:
   formats:
     - fill-in-the-gap
