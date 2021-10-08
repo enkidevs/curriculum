@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [The component
-    lifecycle](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle){website}
+    lifecycle](https://reactjs.org/docs/react-component.html#the-component-lifecycle){website}
   - >-
     [Lifecycle methods
     diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/){website}
