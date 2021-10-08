@@ -76,12 +76,10 @@ FROM
 
 Output:
 
-```md
 | count | is_default |
 | ----- | ---------- |
 | 90    | f          |
 | 721   | t          |
-```
 
 - COUNT
 - is_default
@@ -116,7 +114,6 @@ ORDER BY
 
 Output:
 
-```md
 | avg    | item_category_id |
 | ------ | ---------------- |
 | 550    | 1                |
@@ -130,7 +127,6 @@ Output:
 | 134.28 | 9                |
 | 1810   | 10               |
 | ...    | ...              |
-```
 
 - AVG
 - item

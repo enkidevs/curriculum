@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground.
+    # Welcome to the Python coding playground.
     # Join the list of characters into a string and output the result:
 
     characters = ['h', 'e', 'l', 'l', 'o', , 'w', 'o', 'r', 'l' , 'd']

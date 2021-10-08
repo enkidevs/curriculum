@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
+    # Welcome to the Python coding playground. 
     # Example output:
     # It is odd
     # There is an even number of chocolate bars

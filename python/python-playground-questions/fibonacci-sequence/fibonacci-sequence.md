@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
+    # Welcome to the Python coding playground. 
     # Fibonacci sequence:
     # 1, 1, 2, 3, 5, 8
 

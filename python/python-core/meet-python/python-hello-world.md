@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-   # 👋 Welcome to the Python coding playground.
+   # Welcome to the Python coding playground.
    # Update the statement to output the first thing you'd log if you just landed on Mars!
    
    print("That's one small step for man, one giant leap for Python!");

@@ -70,14 +70,12 @@ And the output is:
 
 The following `item` table stores information about items and their cost.
 
-```md
 | id | cost | name        |
 | -- | ---- | ----------- |
 | 1  | 0    | master-ball |
 | 2  | 1200 | ultra-ball  |
 | 3  | 600  | great-ball  |
 | 4  | 200  | poke-ball   |
-```
 
 How could you find out the most expensive item?
 
@@ -102,13 +100,11 @@ FROM
 
 Take a look at the `move_effect_change` table:
 
-```md
 | id | move_effect | version_group_id |
 | -- | ----------- | ---------------- |
 | 1  | 8           | 11               |
 | 2  | 18          | 3                |
 | 3  | 29          | 3                |
-```
 
 How can you find the move with the **lowest** effect:
 

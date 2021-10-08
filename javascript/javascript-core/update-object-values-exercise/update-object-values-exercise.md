@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the JavaScript coding playground.
+    // Welcome to the JavaScript coding playground.
     // Add "German" to the languages array
     // Replace the equation with "e = mc^2"
     // Add a nobelRecipient key and set it to true

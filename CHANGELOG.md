@@ -48,10 +48,79 @@ Types of change:
 
 ### Fixed
 
+## October 8th 2021
+
+### Fixed
+- [JavaScript - Types Boolean and Number - Remove const from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2916) 
+
+## October 7th 2021
+
+### Changed
+- [Python - Miles to Kilometers - Change spelling Kilometres to Kilometers](https://github.com/enkidevs/curriculum/pull/2914)
+- [Remove emojis from startingPoint](https://github.com/enkidevs/curriculum/pull/2913)
+
+## October 5th 2021
+- [Revert most of #2454](https://github.com/enkidevs/curriculum/pull/2912)
+
+## October 4th 2021
+
+### Fixed
+- [Styling - Vertical Percentages Are Relative To Container Width Not Height - Add missing closing curly brace](https://github.com/enkidevs/curriculum/pull/2910)
+
+## September 27th 2021
+
+### Changed
+- [JavaScript - Strings, Numbers, And Booleans - Add semicolons to examplse to avoid confusion with new users](https://github.com/enkidevs/curriculum/pull/2909)
+
+## September 24th 2021
+
+### Fixed
+- [Python - How To Open A File Object - Remove .read as answer because it isn't taught until after this insight](https://github.com/enkidevs/curriculum/pull/2908)
+
+## September 23rd 2021
+
+### Changed
+- [Go - If Statements - Improve the revision question](https://github.com/enkidevs/curriculum/pull/2904)
+
+### Fixed
+- [Python - Reading From Files - Fix incorrect info on readlines return type](https://github.com/enkidevs/curriculum/pull/2906)
+- [Python - Nested Functions - Fix incorrect output in content and pq](https://github.com/enkidevs/curriculum/pull/2907)
+
+## September 22nd 2021
+
+### Added
+- [Java - Python - Remove type in the gap format from PQs and RQs](https://github.com/enkidevs/curriculum/pull/2901)
+
+### Fixed
+- [JavaScript - Symbol Special Properties - Fix the practice question by switching the answer order](https://github.com/enkidevs/curriculum/pull/2900)
+- [Python - Intro To Modules - Fix continuity between code examples](https://github.com/enkidevs/curriculum/pull/2902)
+- [Javascript - The Difference Between Null Undefined And NaN - Remove function from pq as it wasn't taught yet](https://github.com/enkidevs/curriculum/pull/2899)
+- [Python - Other Operations On Files - Fix incorrect code output for file.read(7)](https://github.com/enkidevs/curriculum/pull/2903)
+
+## September 20th 2021
+
+### Changed
+- [Python - Dictionary View Objects - Replace true with True](https://github.com/enkidevs/curriculum/pull/2897)
+
+### Fixed
+- [Javascript - Loops Part 2 - Fix incorrect info in comment](https://github.com/enkidevs/curriculum/pull/2898)
+
+## September 17th 2021
+
+### Fixed
+- [Python - The Import Statement - Fix code in PQ](https://github.com/enkidevs/curriculum/pull/2896)
+- [Appsec - What Else You Need To Know - Fix incorrect rendering of PQ and RQ](https://github.com/enkidevs/curriculum/pull/2893)
+
+## September 16th 2021
+
+### Fixed
+- [Python - Using Else In Loops - Remove shorthand notation from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2894)
+
 ## September 15th 2021
 
 ### Changed
 - [SQL - Add Trigger 2 - Remove outdated link](https://github.com/enkidevs/curriculum/pull/2891)
+- [Python - Populate A Dictionary Exercise - Replace the zip method with fromkeys](https://github.com/enkidevs/curriculum/pull/2892)
 
 ### Fixed
 - [Java - Using StringBuilder Class - Replace StringBuffer with StringBuilder](https://github.com/enkidevs/curriculum/pull/2887)
@@ -69,6 +138,9 @@ Types of change:
 - [Typescript - TSC Enum - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/2885)
 
 ## September 6th 2021
+
+### Added
+- [Java - Revision Questions](https://github.com/enkidevs/curriculum/pull/2883)
 
 ### Changed
 - [Coding intro- All Applicable Workouts - remove type in the gap from questions with multiple correct answers](https://github.com/enkidevs/curriculum/pull/2884)

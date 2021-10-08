@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    # 👋 Welcome to the Python coding playground. 
+    # Welcome to the Python coding playground. 
     # Lists to use:
 
     name = ['Stefan', 'Michael', 'Rebekah', "Natasha"]

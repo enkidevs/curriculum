@@ -74,14 +74,12 @@ Output:
 
 Consider the following table `item`. 
 
-```md
 | id | cost | name        |
 | -- | ---- | ----------- |
 | 1  | 0    | master-ball |
 | 2  | 1200 | ultra-ball  |
 | 3  | 600  | great-ball  |
 | 4  | 200  | poke-ball   |
-```
 
 This table has a field called `cost`, indicating how much each item costs. We would like to know an average cost for all items in the table. Fill the gaps accordingly:
 
@@ -105,13 +103,11 @@ SELECT ???(???)
 
 We have a table called `contest_combo`. It holds info about how much damage each combo can give. We want to know an average damage value for the second move:
 
-```md
 | id | first_move | second_move |
 | -- | ---------- | ----------- |
 | 1  | 1          | 3           |
 | 2  | 1          | 29          |
 | 3  | 1          | 185         |
-```
 
 ```sql
 SELECT ???(???)

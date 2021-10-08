@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the JavaScript coding playground.
+    // Welcome to the JavaScript coding playground.
     // Create a rollDice function
     import Math.random;
     // Type your code here:

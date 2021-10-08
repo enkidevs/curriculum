@@ -10,7 +10,7 @@ category: coding
 
 setupCode:
   startingPoint: |
-    // 👋 Welcome to the JavaScript coding playground.
+    // Welcome to the JavaScript coding playground.
     
     // For this problem use one of the arithmetic operators:
     // +, -, * or \
