@@ -57,6 +57,7 @@ Types of change:
 
 ### Fixed
 - [JavaScript - Types Boolean and Number - Remove const from pq as it wasn't taught](https://github.com/enkidevs/curriculum/pull/2916) 
+- [All Topics - Retrigger insights in favor of 2918](https://github.com/enkidevs/curriculum/pull/2920)
 
 ### Added
 - [Python - Arithmetic Opertaions - Add shorthand notation insight ](https://github.com/enkidevs/curriculum/pull/2895)
@@ -418,6 +419,7 @@ Types of change:
 ## June 29th 2021
 
 ### Changed
+- [Spreadsheets - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2778)
 - [Python - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2775)
 - [Webflow - topic - replace old note format with emoji one](https://github.com/enkidevs/curriculum/pull/2774)
 - [React - topic - replace old note format with emoji](https://github.com/enkidevs/curriculum/pull/2776)

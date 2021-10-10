@@ -152,3 +152,4 @@ Choose the correct code that creates a new document in the `pokemon` collection.
 - `db.Pokemon.insertOne( {_id:13, name:"Psyduck", type:"water"} )`
 - `db.pokemon.insertDocument( {_id:13, name:"Psyduck", type:"water"} )`
 - `db.Pokemon.insertDocument( {_id:13, name:"Psyduck", type:"water"} )`
+ 

@@ -52,3 +52,4 @@ Let's make the title bold and add a subtitle:
 The chart from the previous workout:
 
 ![previous-chart](https://img.enkipro.com/a8f69242523d86c29148a4c3544b41eb.png)
+ 

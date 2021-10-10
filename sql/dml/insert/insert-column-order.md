@@ -131,3 +131,4 @@ When creating a table, you can define default values for your columns.
 Then, when you omit a column, the default value will be inserted instead of `NULL`.
 
 Don't worry about default values. We'll go over how they work in the Defining Data course.
+ 

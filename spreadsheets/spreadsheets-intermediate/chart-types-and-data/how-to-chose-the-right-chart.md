@@ -47,3 +47,4 @@ You could check if your company's profit is going up or down based on two or mor
 To determine what chart you need, you first need to look at your data.
 
 When in doubt, you can always test all the charts and decide on the one that best suits you.
+ 

@@ -193,3 +193,4 @@ db.pokemon.???({
 
 [1:Categorical and discrete data]
 By categorical data we mean variables that represent a characteristic, and that might not have a logical order. By discrete data we mean variables that are countable, and that can be bounded by a range of values.
+ 
