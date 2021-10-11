@@ -29,7 +29,7 @@ revisionQuestion:
 
 Similar to other programming languages, Python uses standard arithmetic operators.
 
-The four standard operators are `+`, `-`, `*` and `/`. These allow us to add, subtract, mutiply and divide.
+The four standard operators are `+`, `-`, `*` and `/`. These allow us to add, subtract, multiply and divide.
 
 Here they are in use:
 
