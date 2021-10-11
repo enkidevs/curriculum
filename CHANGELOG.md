@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 11th 2021
+
+### Fixed
+- [Python - Arithmetic Operators - Fix grammar for multiply word](https://github.com/enkidevs/curriculum/pull/2921)
+
 ## October 8th 2021
 
 ### Changed
