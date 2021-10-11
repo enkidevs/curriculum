@@ -5,6 +5,9 @@ category: hack
 tags:
   - introduction
   - obscura
+links:
+  - >-
+    [Array Holes](https://medium.com/better-programming/what-are-holes-in-arrays-3ac5fcbcd1c){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -44,10 +47,13 @@ a.length = 4;
 // a = [
 //   "one", 
 //   "two", 
-//   undefined,
-//   undefined
+//   <2 empty items>
 // ]
 ```
+
+Extending an array without adding values would create empty item slots, also called *holes*. An array with *holes* is also referred to as a *sparse* array.
+
+> 💡 Check out the *Learn More* section for more information about *sparse* arrays and *holes*.
 
 Finally, to truncate to zero:
 
@@ -74,9 +80,9 @@ arr.length = 4;
 ```
 
 - length
-- `[1,2,undefined,undefined]`
+- `[1, 2, <1 empty item>, <1 empty item>]`
 - size
-- `[1,2,undefined,undefined,undefined]`
+- `[1, 2, undefined, undefined]`
 
 
 ---
@@ -95,7 +101,7 @@ names.length = 0;
 // names = ???
 ```
 
-- `["John","Mary","Tom", undefined]`
+- `["John", "Mary", "Tom",  <1 empty item>]`
 - `[ ]`
 - `[undefined,undefined,undefined, undefined]`
 - `["John","Mary","Tom"]`

@@ -856,6 +856,11 @@ Types of change:
 ### Changed
 - [Linux - Easy Way Of Sharing Files - Move link to the Links section](https://github.com/enkidevs/curriculum/pull/2581)
 
+## January 28th 2021
+
+### Changed
+- [Javascript - Setting The Length of An Array - Update information about empty array items](https://github.com/enkidevs/curriculum/pull/2535)
+
 ## January 27th 2021
 
 ### Added
@@ -946,7 +951,7 @@ Types of change:
 ## January 11th 2021
 
 ### Fixed
-- [Go - Assignment Operators - Fix incorrect RQ answer](https://github.com/enkidevs/curriculum/pull/2536)
+- [Go - Assignment Operators - Fix incorrect RQ answer](https://github.com/enkidevs/curriculum/pull/2536
 
 ## January 5th 2021
 
