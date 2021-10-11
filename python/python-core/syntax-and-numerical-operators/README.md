@@ -6,6 +6,7 @@ insights:
   - arithmetic-operators
   - more-complex-arithmetic-operators  
   - execution-order-of-arithmetic-operators
+  - shorthand-notation-for-arithmetic-operation
   
 exercises:
   - py-practice-arithmetic-operations

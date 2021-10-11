@@ -65,6 +65,7 @@ Types of change:
 - [All Topics - Retrigger insights in favor of 2918](https://github.com/enkidevs/curriculum/pull/2920)
 
 ### Added
+- [Python - Arithmetic Opertaions - Add shorthand notation insight ](https://github.com/enkidevs/curriculum/pull/2895)
 - [Go - Multiple Results - Add example on no return type](https://github.com/enkidevs/curriculum/pull/2905)
 
 ## October 7th 2021
