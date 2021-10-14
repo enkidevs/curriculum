@@ -98,7 +98,7 @@ The four data type groups in **Go** are:
 1. ???
 2. Aggregate
 3. Reference
-4. Interference
+4. Interface
 ```
 - Basic
 - Numbers
