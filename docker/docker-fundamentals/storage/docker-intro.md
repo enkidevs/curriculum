@@ -35,7 +35,7 @@ In an ideal case, our containers should not contain unique data mixed in with th
 
 One example would be running a database container many times over without losing the data in the actual database.
 
-To persistg data across the lifecycle of a container, Docker generally provides two options:
+To persist data across the lifecycle of a container, Docker generally provides two options:
 
 1. Volumes
 2. Bind-mounts
