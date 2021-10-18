@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 18th 2021
+
+### Fixed
+- [Docker - Docker Intro - Fix misspelt word Persist](https://github.com/enkidevs/curriculum/pull/2924)
+
 ## October 11th 2021
 
 ### Fixed
