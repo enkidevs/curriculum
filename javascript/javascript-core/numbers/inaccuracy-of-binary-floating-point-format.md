@@ -64,7 +64,7 @@ console.log((1.3 + 2.3) == 3.6);
 
 Instead of comparing two floating numbers, the best way to avoid *inaccuracies* is to ??? the numbers and compare the result to ???.
 
-- substract
+- subtract
 - third expected value
 - sum
 
