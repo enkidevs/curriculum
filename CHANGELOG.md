@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 19th 2021
+
+### Fixed
+- [JavaScript - Inaccuracy of Binary Floating Point Format - Fix misspelt subtract word](https://github.com/enkidevs/curriculum/pull/2925)
+
 ## October 18th 2021
 
 ### Fixed
