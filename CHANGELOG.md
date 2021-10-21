@@ -51,7 +51,7 @@ Types of change:
 ## October 21st 2021
 
 ### Fixed
-- [React - Props in constructor's state - Add a missing question gap to the revision question]()
+- [React - Props in constructor's state - Add a missing question gap to the revision question](https://github.com/enkidevs/curriculum/pull/2926)
 
 ## October 19th 2021
 
