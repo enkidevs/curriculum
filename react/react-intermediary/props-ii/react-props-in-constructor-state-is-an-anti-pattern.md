@@ -120,7 +120,9 @@ class CountryName extends React.Component {
 }
 ```
 
-* use `props.countryCode` in `render`, not in the `constructor`
-* use `this.props.countryCode` instead of `props.countryCode`
-* delete the `super(props)` line
-* set to state directly with `this.state.countryName = props.countryCode`
+???
+
+* use props.countryCode in render, not in the constructor
+* use this.props.countryCode instead of props.countryCode
+* delete the super(props) line
+* set to state directly with this.state.countryName = props.countryCode

@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 21st 2021
+
+### Fixed
+- [React - Props in constructor's state - Add a missing question gap to the revision question]()
+
 ## October 19th 2021
 
 ### Fixed
