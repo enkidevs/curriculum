@@ -33,7 +33,7 @@ Also, because the rework is split based on the work done, the miner who found th
 
 Mining pools can also swap between mined coins to maximize the profit. This implies that the two puzzles require the same computations.
 
-But mining in a pool has its own downsides: if the pools goes offline, the miners won't produce anything either. There's also a chance that the pool manager keeps the entire reward for himself.
+But mining in a pool has its own downsides: if the pools goes offline, the miners won't produce anything either. There's also a chance that the pool manager keeps the entire reward for themself.
 
 
 ---
