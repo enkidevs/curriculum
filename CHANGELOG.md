@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 27th 2021
+
+### Changed
+- [React - Why Use React - Remove Outdated links](https://github.com/enkidevs/curriculum/pull/2928)
+
 ## October 21st 2021
 
 ### Fixed
