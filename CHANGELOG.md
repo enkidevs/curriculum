@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 3rd 2021
+
+### Fixed
+- [Linux - Basics Of Command Substitution - Add missing backticks to the correct answer for the RQ](https://github.com/enkidevs/curriculum/pull/2929)
+
 ## October 27th 2021
 
 ### Changed
