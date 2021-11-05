@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 4th 2021
+
+### Fixed
+- [JavaScript - Types Introduction - Fix grammar in a code block](https://github.com/enkidevs/curriculum/pull/2930)
+
 ## November 3rd 2021
 
 ### Fixed
