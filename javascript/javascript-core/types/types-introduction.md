@@ -51,7 +51,7 @@ Unlike some other languages you do not need to tell JavaScript what type a varia
 // because we assign a string
 let name = "john smith";
 
-// JavaScript knows its a string
+// JavaScript knows it's a string
 typeof name; // "string"
 ```
 
