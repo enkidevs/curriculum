@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 11th 2021
+
+### Fixed
+- [JavaScript - Differences Between Null, Undefined and NaN - Fix pq example](https://github.com/enkidevs/curriculum/pull/2932)
+
 ## November 4th 2021
 
 ### Fixed
