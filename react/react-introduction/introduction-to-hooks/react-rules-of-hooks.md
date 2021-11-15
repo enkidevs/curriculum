@@ -72,7 +72,7 @@ How many times can you call hooks in React?
 
 ???
 
-- as many times as we want
+- as many times as you want
 - only once
 - twice per hook
 
