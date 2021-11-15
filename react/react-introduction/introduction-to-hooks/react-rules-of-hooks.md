@@ -72,16 +72,9 @@ How many times can you call hooks in React?
 
 ???
 
-Can you call hooks inside JavaScript functions that aren't components?
-
-???
-
 - as many times as we want
-- yes
 - only once
 - twice per hook
-- no
-- maybe
 
 
 ---
