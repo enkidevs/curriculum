@@ -53,6 +53,9 @@ Types of change:
 ### Changed
 - [JavaScript - Using Test With Regexp - Update question](https://github.com/enkidevs/curriculum/pull/2934)
 
+### Fixed
+- [JavaScript - IIFE Pattern - Fix incorrect syntax in RQ](https://github.com/enkidevs/curriculum/pull/2935)
+
 ## November 11th 2021
 
 ### Fixed
