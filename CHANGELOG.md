@@ -55,6 +55,7 @@ Types of change:
 
 ### Fixed
 - [JavaScript - IIFE Pattern - Fix incorrect syntax in RQ](https://github.com/enkidevs/curriculum/pull/2935)
+- [Java - Serializing - Fix grammar](https://github.com/enkidevs/curriculum/pull/2936)
 
 ## November 11th 2021
 
