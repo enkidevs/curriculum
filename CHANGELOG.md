@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 15th 2021
+
+### Changed
+- [JavaScript - Using Test With Regexp - Update question](https://github.com/enkidevs/curriculum/pull/2934)
+
 ## November 11th 2021
 
 ### Fixed
