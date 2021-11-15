@@ -77,10 +77,10 @@ Can you call hooks inside JavaScript functions that aren't components?
 ???
 
 - as many times as we want
-- no
+- yes
 - only once
 - twice per hook
-- yes
+- no
 - maybe
 
 
