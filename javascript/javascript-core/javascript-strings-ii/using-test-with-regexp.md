@@ -45,7 +45,7 @@ containsAtSchool.test(str); // false
 
 ## Practice
 
-What does the following code snippet return?
+What will the `test`s return?
 
 ```javascript
 let str = 'Practicing my RegExp with Enki!';
