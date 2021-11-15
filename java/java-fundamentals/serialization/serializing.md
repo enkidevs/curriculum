@@ -28,7 +28,7 @@ revisionQuestion:
 In order for the object to be serializable two conditions must be held:
 
 - It has to implement `java.io.Serializable` interface
-- Fields of an objects must be serializable, otherwise they must be marked as `transient`[1]
+- An object's fields must be serializable, otherwise they must be marked as `transient`[1]
 
 For example, let's say we want to store a copy of `Car` object on a local machine:
 
