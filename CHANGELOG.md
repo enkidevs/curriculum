@@ -50,6 +50,9 @@ Types of change:
 
 ## November 15th 2021
 
+### Changed
+- [JavaScript - Using Test With Regexp - Update question](https://github.com/enkidevs/curriculum/pull/2934)
+
 ### Fixed
 - [JavaScript - IIFE Pattern - Fix incorrect syntax in RQ](https://github.com/enkidevs/curriculum/pull/2935)
 
