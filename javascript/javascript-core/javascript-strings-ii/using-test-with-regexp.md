@@ -52,15 +52,15 @@ let str = 'Practicing my RegExp with Enki!';
 
 let containsRegExp = /Regular Expressions/i;
 containsRegExp.test(str);
+// ???
 
 let containsEnki = /Enki/i;
 containsEnki.test(str);
+// ???
 ```
 
-- False, True
-- True, False
-- True, True
-- False, False
+- false
+- true
 
 
 ---
