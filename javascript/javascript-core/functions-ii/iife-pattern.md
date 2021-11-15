@@ -90,7 +90,7 @@ What's the syntax of an **IIFE** ?
 ```
 
 - `function`
-- `()`
+- `)(`
 - `{}`
 - `(`
 - `)`
