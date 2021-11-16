@@ -52,9 +52,12 @@ Types of change:
 
 ### Changed
 - [JavaScript - Using Test With Regexp - Update question](https://github.com/enkidevs/curriculum/pull/2934)
+- [JavaScript - Remote Scripts - Remove type in the gap as one extra space can make the answer incorrect](https://github.com/enkidevs/curriculum/pull/2939)
+
 
 ### Fixed
 - [JavaScript - IIFE Pattern - Fix incorrect syntax in RQ](https://github.com/enkidevs/curriculum/pull/2935)
+- [Spreadsheets - What Are Formulas - Fix markdown table rendering incorrectly](https://github.com/enkidevs/curriculum/pull/2937)
 - [Java - Serializing - Fix grammar](https://github.com/enkidevs/curriculum/pull/2936)
 - [React - Rules Of Hooks - Fix incorrect PQ answer](https://github.com/enkidevs/curriculum/pull/2938)
 
