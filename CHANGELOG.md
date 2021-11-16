@@ -59,6 +59,7 @@ Types of change:
 - [JavaScript - IIFE Pattern - Fix incorrect syntax in RQ](https://github.com/enkidevs/curriculum/pull/2935)
 - [Spreadsheets - What Are Formulas - Fix markdown table rendering incorrectly](https://github.com/enkidevs/curriculum/pull/2937)
 - [Java - Serializing - Fix grammar](https://github.com/enkidevs/curriculum/pull/2936)
+- [React - Rules Of Hooks - Fix incorrect PQ answer](https://github.com/enkidevs/curriculum/pull/2938)
 
 ## November 11th 2021
 
