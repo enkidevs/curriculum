@@ -7,7 +7,7 @@ category: must-know
 
 revisionQuestion:
   formats:
-    - fill-in-the-gap
+    - new leaner 
   context: standalone
 
 ---
@@ -36,11 +36,11 @@ Every concept, feature, technology, or best practice beyond these basic building
 
 All programming languages have a handful of building blocks. When combined, they can create any program:
 
-??? to store information like `x = 5`
-??? to differentiate between numbers, text, etc.
-??? to make little blocks for different tasks
-??? to make yes/no decisions
-??? to repeat tasks as we please
+Variables to store information like `x = 5`
+Data types to differentiate between numbers, text, etc.
+Function to make little blocks for different tasks
+Condition to make yes/no decisions
+Loops to repeat tasks as we please
 
 - variables
 - data types
