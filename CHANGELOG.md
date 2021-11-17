@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 17th 2021
+
+### Changed
+- [Go - Formatting - Remove Type In The Gap as there is more than one correct answer](https://github.com/enkidevs/curriculum/pull/2940)
+
 ## November 15th 2021
 
 ### Changed
