@@ -10,12 +10,10 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -80,7 +78,7 @@ Format the `file-name.go` package using the `gofmt` command.
 
 ## Revision
 
-Format the `file-name.go` package found in the `/path/to/directory` using the `gofmt` command
+Format the `file-name.go` package found in the `/path/to/directory` using the `go fmt` command
 
 ```go
 ??? ??? ???
