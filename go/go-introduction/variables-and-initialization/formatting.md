@@ -78,7 +78,7 @@ Format the `file-name.go` package using the `gofmt` command.
 
 ## Revision
 
-Format the `file-name.go` package found in the `/path/to/directory` using the `go fmt` command
+Format the `file-name.go` package found in the `/path/to/directory` using the `gofmt` command
 
 ```go
 ??? ??? ???
