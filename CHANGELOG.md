@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 19th 2021
+
+### Fixed
+- [Python - Shorthand Notation For Arithmetic Operations - Fix inccorect output displayed in comment](https://github.com/enkidevs/curriculum/pull/2942/)
+
 ## November 17th 2021
 
 ### Changed
