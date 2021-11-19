@@ -56,7 +56,7 @@ x += y
 # x becomes 5
 
 y **= x
-# y becomes 9
+# y becomes 243
 ```
 
 ---
