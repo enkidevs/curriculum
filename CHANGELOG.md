@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 23rd 2021
+
+### Fixed
+- [Airtable - Airtable Linking Tables - Fix incorrectly rendered answer for the PQ](https://github.com/enkidevs/curriculum/pull/2943)
+
 ## November 19th 2021
 
 ### Fixed
