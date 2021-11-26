@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 26th 2021
+
+### Fixed
+- [Data Analysis - Syntax II - Replace equal signs with LIKE when using wildcards](https://github.com/enkidevs/curriculum/pull/2944)
+
 ## November 23rd 2021
 
 ### Fixed
