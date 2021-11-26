@@ -6,6 +6,7 @@ type: normal
 category: must-know
 links:
   - '[WHERE Clause](https://www.geeksforgeeks.org/sql-where-clause/){website}'
+  - '[LIKE Predicate](https://en.wikibooks.org/wiki/Structured_Query_Language/Like_Predicate){website}'
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -51,7 +52,7 @@ Let's look at a less strict example:
 SELECT year, title
 FROM movies
 WHERE year < 2005
-AND title = "%Harry Potter%"
+AND title LIKE "%Harry Potter%"
 ```
 
 | year | title                                    |
@@ -60,9 +61,13 @@ AND title = "%Harry Potter%"
 | 2002 | Harry Potter and the Chamber of Secrets  |
 | 2004 | Harry Potter and the Prisoner of Azkaban |
 
-We can add in multiple `WHERE` clauses using the `AND` keyword. Wrapping "Harry Potter" in `%`, the wildcard character, allows you to pick up all titles that have "Harry Potter" somewhere in the name..
+> 💡 We can add in multiple `WHERE` clauses using the `AND` keyword.
 
-Check out the **Learn More** link to find out how to make `WHERE` less strict by using the keywords `LIKE`, `BETWEEN`, `AND`, `OR` and `IN`, as well as wildcards `%`.
+We can use the `LIKE` keyword to look for pattern (instead of exact) matches. The filter `WHERE title LIKE "%Harry Potter%"` tells SQL to look for all the movies that have `"Harry Potter"` somewhere in the name.
+
+This pattern matching is achieved with the `%` wildcard character.
+
+> 💡 Check out the **Learn More** section for more information about the `WHERE` keyword.
 
 As you can see, the results are returned in the same order that they're stored in the database.
 
@@ -72,14 +77,13 @@ If we wanted to sort them by year in descending order then we can use the `ORDER
 SELECT year, title
 FROM movies
 WHERE year < 2005
-AND title = "%Harry Potter%"
+AND title LIKE "%Harry Potter%"
 ORDER BY year DESC
 ```
 
 This will reverse the order of the results.
 
 If you don't include the keywords `DESC` or `ASC` then `ORDER BY` will automatically sort the data by `ASC`, ascending order.
-
 
 ---
 
@@ -100,7 +104,7 @@ FROM
 - WHERE
 - `<`
 - AND
-- `=`
+- LIKE
 - `>`
 - OR
 
@@ -121,6 +125,6 @@ FROM cities
 - WHERE
 - `>`
 - AND
-- `=`
+- =
 - `<`
 - OR
