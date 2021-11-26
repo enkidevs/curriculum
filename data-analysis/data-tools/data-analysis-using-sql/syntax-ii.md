@@ -6,6 +6,7 @@ type: normal
 category: must-know
 links:
   - '[WHERE Clause](https://www.geeksforgeeks.org/sql-where-clause/){website}'
+  - '[LIKE Predicate](https://en.wikibooks.org/wiki/Structured_Query_Language/Like_Predicate){website}'
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -65,7 +66,6 @@ AND title LIKE "%Harry Potter%"
 We can use the `LIKE` keyword to look for pattern (instead of exact) matches. The filter `WHERE title LIKE "%Harry Potter%"` tells SQL to look for all the movies that have `"Harry Potter"` somewhere in the name.
 
 This pattern matching is achieved with the `%` wildcard character.
-
 
 > 💡 Check out the **Learn More** section for more information about the `WHERE` keyword.
 
