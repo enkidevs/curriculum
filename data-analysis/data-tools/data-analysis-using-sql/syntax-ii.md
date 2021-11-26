@@ -51,7 +51,7 @@ Let's look at a less strict example:
 SELECT year, title
 FROM movies
 WHERE year < 2005
-AND title = "%Harry Potter%"
+AND title LIKE "%Harry Potter%"
 ```
 
 | year | title                                    |
@@ -60,7 +60,7 @@ AND title = "%Harry Potter%"
 | 2002 | Harry Potter and the Chamber of Secrets  |
 | 2004 | Harry Potter and the Prisoner of Azkaban |
 
-We can add in multiple `WHERE` clauses using the `AND` keyword. Wrapping "Harry Potter" in `%`, the wildcard character, allows you to pick up all titles that have "Harry Potter" somewhere in the name..
+We can add in multiple `WHERE` clauses using the `AND` keyword. Wrapping "Harry Potter" in `%`, the wildcard character, allows you to pick up all titles that have "Harry Potter" somewhere in the name.
 
 Check out the **Learn More** link to find out how to make `WHERE` less strict by using the keywords `LIKE`, `BETWEEN`, `AND`, `OR` and `IN`, as well as wildcards `%`.
 
@@ -72,14 +72,13 @@ If we wanted to sort them by year in descending order then we can use the `ORDER
 SELECT year, title
 FROM movies
 WHERE year < 2005
-AND title = "%Harry Potter%"
+AND title LIKE "%Harry Potter%"
 ORDER BY year DESC
 ```
 
 This will reverse the order of the results.
 
 If you don't include the keywords `DESC` or `ASC` then `ORDER BY` will automatically sort the data by `ASC`, ascending order.
-
 
 ---
 
@@ -100,7 +99,7 @@ FROM
 - WHERE
 - `<`
 - AND
-- `=`
+- LIKE
 - `>`
 - OR
 
@@ -121,6 +120,6 @@ FROM cities
 - WHERE
 - `>`
 - AND
-- `=`
+- LIKE
 - `<`
 - OR
