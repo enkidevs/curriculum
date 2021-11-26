@@ -62,7 +62,9 @@ AND title LIKE "%Harry Potter%"
 
 We can add in multiple `WHERE` clauses using the `AND` keyword. Wrapping "Harry Potter" in `%`, the wildcard character, allows you to pick up all titles that have "Harry Potter" somewhere in the name.
 
-Check out the **Learn More** link to find out how to make `WHERE` less strict by using the keywords `LIKE`, `BETWEEN`, `AND`, `OR` and `IN`, as well as wildcards `%`.
+> 💡 When using wildcards (`%`, `_`, `[]`, ...) you should substitute the `=` operator with the `LIKE` operator.
+
+For more information, check out the **Learn More** link to find out how to make `WHERE` less strict by using the keywords `LIKE`, `BETWEEN`, `AND`, `OR` and `IN`, as well as wildcards `%`.
 
 As you can see, the results are returned in the same order that they're stored in the database.
 
