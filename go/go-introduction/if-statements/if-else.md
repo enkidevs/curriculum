@@ -28,9 +28,7 @@ if x := 1 ; x > 0 {
   fmt.Println(x, " is positive")
 }
 fmt.Println(x, " is negative")
-// Output:
-// 1 is positive
-// 1 is negative
+//          ^ this will be an error
 ```
 
 The error would be:
