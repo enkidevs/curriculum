@@ -38,7 +38,7 @@ The error would be:
 undefined: x
 ```
 
-This is because the `x` we've created inside the `if` statement is only visible to the scope of that `if`. While our second `fmt.Println` that uses the `x` is located outside of the if.
+This is because the `x` created inside the `if` statement is not visible outside of it.
 
 Instead, we should use an `if..else` statement:
 
