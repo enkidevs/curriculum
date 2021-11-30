@@ -66,7 +66,7 @@ Tables themselves in HTML without CSS can appear a little messy and confusing co
 
 [View CodePen](https://codepen.io/enkidevs/pen/JBXWbr)
 
-Styling tables can take a little practice, as seen in the example above, and often use more specific selectors. Such as, in order to prevent the last column or bottom row from having styles that may look strange, properties on these rows (or cells) can be reset using the psudo class `:last-child` like this.
+Styling tables can take a little practice, as seen in the example above, and often use more specific selectors. Such as, in order to prevent the last column or bottom row from having styles that may look strange, properties on these rows (or cells) can be reset using the pseudo class `:last-child` like this.
 
 ```css
 tr:last-child {

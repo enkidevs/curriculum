@@ -57,6 +57,7 @@ Types of change:
 
 ### Fixed
 - [Data Analysis - Syntax II - Replace equal signs with LIKE when using wildcards](https://github.com/enkidevs/curriculum/pull/2944)
+- [Web - Table tr and td - Fix grammar psudo to pseudo](https://github.com/enkidevs/curriculum/pull/2945) 
 
 ## November 23rd 2021
 
