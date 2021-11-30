@@ -21,17 +21,22 @@ revisionQuestion:
 
 An `if-else` statement is used to execute some code if the condition is `true` and another if it is `false`.
 
-If we had this `if` in our main function, both statements would be printed out.
+If we had this `if` in our main function, it would produce an error.
 
 ```go
 if x := 1 ; x > 0 {
   fmt.Println(x, " is positive")
 }
 fmt.Println(x, " is negative")
-// Output:
-// 1 is positive
-// 1 is negative
+//          ^ this will be an error
 ```
+
+The error would be:
+```go
+undefined: x
+```
+
+This is because the `x` created inside the `if` statement is not visible outside of it.
 
 Instead, we should use an `if..else` statement:
 
@@ -45,8 +50,7 @@ if x := 1 ; x > 0 {
 // 1 is positive
 ```
 
-Now, we would have only one output.
-
+This won't have any errors because the `else` is a part of the `if` statement.
 
 ---
 
