@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 29th 2021
+
+### Fixed
+- [Golang - If Else - Fix incorrect code example regarding scopes](https://github.com/enkidevs/curriculum/pull/2947)
+
 ## November 26th 2021
 
 ### Fixed
