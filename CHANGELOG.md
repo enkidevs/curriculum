@@ -51,6 +51,7 @@ Types of change:
 ## November 29th 2021
 
 ### Fixed
+- [SQL - SQL Injection - Add missing space between WHERE and rest of code in both content code blocks](https://github.com/enkidevs/curriculum/pull/2946)
 - [Golang - If Else - Fix incorrect code example regarding scopes](https://github.com/enkidevs/curriculum/pull/2947)
 
 ## November 26th 2021

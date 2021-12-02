@@ -40,7 +40,7 @@ construction of the following vulnerable SQL call:
 ```java
 String query = "SELECT *
 FROM accounts
-WHEREcustID='" +
+WHERE custID='" +
 request.getParameter("id") +
  "'";
 ```
@@ -51,7 +51,7 @@ Query Language (HQL)):
 
 ```plain-text
 Query HQLQuery = session.createQuery(
-  "FROM accountsWHERE custID='" +
+  "FROM accounts WHERE custID='" +
   request.getParameter("id") +
   "'");
 ```
