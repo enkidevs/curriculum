@@ -51,6 +51,7 @@ Types of change:
 ## December 7th 2021
 
 ### Fixed
+- [Python - Three Ways To Substitute A Substring Of A String - Fix PQ](https://github.com/enkidevs/curriculum/pull/2949)
 - [HTML - Text Fields - Replace image with a version that has the correct placeholder text](https://github.com/enkidevs/curriculum/pull/2948)
 
 ## November 29th 2021

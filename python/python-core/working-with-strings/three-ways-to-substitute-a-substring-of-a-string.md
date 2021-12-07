@@ -79,21 +79,23 @@ print(t
  .???(weather="sunny"))
 ```
 
-The fastest and easiest way of formatting strings is by using: ???
+Using `f-strings`, print "Hey Enki, how are you?":
+
+```python
+app = 'Enki'
+print(f'Hey ???, how are you?')
+```
 
 - `Template`
 - `$`
 - `substitute`
-- `f-strings`
+- `{app}`
 - `string.Template`
-- `percent-style`
-- `curly-bracket`
+- `{`
+- `app`
 - `format`
 - `%`
-- `{`
-- `dict`
-- `mod`
-
+- `}`
 
 ---
 
