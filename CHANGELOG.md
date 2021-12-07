@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 7th 2021
+
+### Fixed
+- [HTML - Text Fields - Replace image with a version that has the correct placeholder text](https://github.com/enkidevs/curriculum/pull/2948)
+
 ## November 29th 2021
 
 ### Fixed
