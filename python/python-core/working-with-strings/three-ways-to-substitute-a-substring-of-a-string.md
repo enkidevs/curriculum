@@ -82,7 +82,7 @@ print(t
 Using `f-strings`, print "Hey Enki, how are you?":
 
 ```python
-app = "Enki"
+app = 'Enki'
 print(f'Hey ???, how are you?')
 ```
 
