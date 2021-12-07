@@ -79,7 +79,11 @@ print(t
  .???(weather="sunny"))
 ```
 
-The fastest and easiest way of formatting strings is by using: ???
+The fastest and easiest way of formatting strings is by using: 
+
+```plain-text
+???
+```
 
 - `Template`
 - `$`
