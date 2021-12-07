@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 7th 2021
+
+### Fixed
+- [Python - Three Ways To Substitute A Substring Of A String - Fix PQ](https://github.com/enkidevs/curriculum/pull/2949)
+
 ## November 29th 2021
 
 ### Fixed
