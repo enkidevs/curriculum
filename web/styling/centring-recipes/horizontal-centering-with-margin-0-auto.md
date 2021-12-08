@@ -43,7 +43,7 @@ The element also has a known width, so the browser can calculate the container's
 What does the following piece of CSS code do? ???
 
 ```css
-#class {
+#id {
    width: 960px;
    margin: 0 auto;
 }
