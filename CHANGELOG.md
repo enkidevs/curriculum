@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 8th 2021
+
+### Fixed
+- [CSS - Horizontal Centering With Marging 0 Auto - Replace class with id as hashtag goes with id and dot with class](https://github.com/enkidevs/curriculum/pull/2950)
+
 ## December 7th 2021
 
 ### Fixed
