@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Python Data Analysis - Total Number of TV Show Actors - Replace duplicate image](https://github.com/enkidevs/curriculum/pull/2953)
+- [Java - Java8 Lambda Expressions - Fix incorrect code example](https://github.com/enkidevs/curriculum/pull/2955)
 
 ## December 8th 2021
 
