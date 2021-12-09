@@ -8,7 +8,6 @@ category: how-to
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -107,7 +106,7 @@ Fill in the code to drop all rows that have `NaN` values in the `Age` column of 
 ```
 
 - noNanValues
-- .dropna
+- dropna
 - subset 
 - Age
 - age
