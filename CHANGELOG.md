@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 9th 2021
+
+### Fixed
+- [HTML - Global Attributes 2 - Update grammar](https://github.com/enkidevs/curriculum/pull/2954)
+
 ## December 8th 2021
 
 ### Fixed
