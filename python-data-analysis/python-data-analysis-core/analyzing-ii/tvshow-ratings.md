@@ -125,8 +125,8 @@ people\
 - Age
 - .sort_values
 - ascending=False
-- to_frame
-- reset_index
+- .to_frame
+- .reset_index
 - index
 - to_data_frame
 - descending=True
