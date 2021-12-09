@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 9th 2021
+
+### Fixed
+- [Python Data Analysis - Total Number Of Actors - Remove extra dot from revision question answer](https://github.com/enkidevs/curriculum/pull/2951)
+
 ## December 8th 2021
 
 ### Fixed
