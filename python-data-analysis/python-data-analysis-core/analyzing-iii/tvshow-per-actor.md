@@ -26,7 +26,7 @@ splitTVShowCast = tvshowCast.set_index('type')\
 
 Which gives this output:
 
-![split-tvshow-cast](https://img.enkipro.com/e891ee0dcd9fb02839443d84b6125c79.png)
+![split-tvshow-cast](https://img.enkipro.com/4af36d03ef84957b3b3e270984900c35.png)
 
 Then we group and sort again:
 

@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Python Data Analysis - TV Show Ratings - Add missing dots to 2 methods](https://github.com/enkidevs/curriculum/pull/2952)
+- [Python Data Analysis - Total Number of TV Show Actors - Replace duplicate image](https://github.com/enkidevs/curriculum/pull/2953)
 
 ## December 8th 2021
 
