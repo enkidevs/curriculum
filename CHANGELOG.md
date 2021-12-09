@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 9th 2021
+
+### Fixed
+- [Python Data Analysis - TV Show Ratings - Add missing dots to 2 methods](https://github.com/enkidevs/curriculum/pull/2952)
+
 ## December 8th 2021
 
 ### Fixed
