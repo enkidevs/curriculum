@@ -107,7 +107,7 @@ Fill in the code to drop all rows that have `NaN` values in the `Age` column of 
 ```
 
 - noNanValues
-- .dropna
+- dropna
 - subset 
 - Age
 - age
