@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 9th 2021
+
+### Fixed
+- [Python Data Analysis - Total Number of TV Show Actors - Replace duplicate image](https://github.com/enkidevs/curriculum/pull/2953)
+
 ## December 8th 2021
 
 ### Fixed
