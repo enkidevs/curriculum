@@ -53,9 +53,15 @@ Types of change:
 ### Fixed
 - [Regular Expressions - Dates - Change Backslash to forward slash in note](https://github.com/enkidevs/curriculum/pull/2959)
 
+## December 10th 2021
+
+### Fixed
+- [React - React The Redux Store - Remove duplicate answer field from pq](https://github.com/enkidevs/curriculum/pull/2957)
+
 ## December 9th 2021
 
 ### Fixed
+- [Python Data Analysis - TV Show Ratings - Add missing dots to 2 methods](https://github.com/enkidevs/curriculum/pull/2952)
 - [HTML - Global Attributes 2 - Update grammar](https://github.com/enkidevs/curriculum/pull/2954)
 - [Python Data Analysis - Total Number Of Actors - Remove extra dot from revision question answer](https://github.com/enkidevs/curriculum/pull/2951)
 - [Python Data Analysis - Total Number of TV Show Actors - Replace duplicate image](https://github.com/enkidevs/curriculum/pull/2953)
