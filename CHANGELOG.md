@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 10th 2021
+
+### Fixed
+- [React - React The Redux Store - Remove duplicate answer field from pq](https://github.com/enkidevs/curriculum/pull/2957)
+
 ## December 9th 2021
 
 ### Fixed
