@@ -56,6 +56,7 @@ Types of change:
 ## December 9th 2021
 
 ### Fixed
+- [HTML - Global Attributes 2 - Update grammar](https://github.com/enkidevs/curriculum/pull/2954)
 - [Python Data Analysis - Total Number Of Actors - Remove extra dot from revision question answer](https://github.com/enkidevs/curriculum/pull/2951)
 - [Python Data Analysis - Total Number of TV Show Actors - Replace duplicate image](https://github.com/enkidevs/curriculum/pull/2953)
 - [Styling - Matches Any Pseudo Class Matches - Replace Matches with is as it was officially renamed](https://github.com/enkidevs/curriculum/pull/2956)
