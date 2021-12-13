@@ -48,7 +48,7 @@ Putting this all together we have:
 
 `/^(0?[1-9]|1[0-2])\/(0?[1-9]|[12]\d|3[01])\/\d{4}$/`
 
-> 💡 Remember that we need to add `\/` in order to escape the backslashes so that we can use them!
+> 💡 Remember that we need to add `\` behind `/` in order to escape the forward slashes so that we can use them!
 
 
 ---
