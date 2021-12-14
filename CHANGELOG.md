@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [React - React The Redux Store - Remove duplicate answer field from pq](https://github.com/enkidevs/curriculum/pull/2957)
+- [Linux - Using Find To Search By Filename - Remove forward slash from second answer field as it is unnecessary](https://github.com/enkidevs/curriculum/pull/2960)
 
 ## December 9th 2021
 
