@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 16th 2021
+
+### Fixed
+- [Go - Intro To Fmt - Fix typo in PQ variable name](https://github.com/enkidevs/curriculum/pull/2962)
+
 ## December 10th 2021
 
 ### Fixed
