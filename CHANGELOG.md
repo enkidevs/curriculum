@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 13th 2021
+
+### Fixed
+- [Regular Expressions - Dates - Change Backslash to forward slash in note](https://github.com/enkidevs/curriculum/pull/2959)
+
 ## December 10th 2021
 
 ### Fixed
