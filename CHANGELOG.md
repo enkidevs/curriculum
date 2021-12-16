@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 16th 2021
+
+### Fixed
+- [Styling - Border - Replace incorrect questions](https://github.com/enkidevs/curriculum/pull/2963)
+
 ## December 13th 2021
 
 ### Fixed
