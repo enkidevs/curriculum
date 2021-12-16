@@ -53,6 +53,11 @@ Types of change:
 ### Fixed
 - [Go - Intro To Fmt - Fix typo in PQ variable name](https://github.com/enkidevs/curriculum/pull/2962)
 
+## December 13th 2021
+
+### Fixed
+- [Regular Expressions - Dates - Change Backslash to forward slash in note](https://github.com/enkidevs/curriculum/pull/2959)
+
 ## December 10th 2021
 
 ### Fixed

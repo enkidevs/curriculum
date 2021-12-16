@@ -48,7 +48,7 @@ Putting this all together we have:
 
 `/^(0?[1-9]|1[0-2])\/(0?[1-9]|[12]\d|3[01])\/\d{4}$/`
 
-> 💡 Remember that we need to add `\/` in order to escape the backslashes so that we can use them!
+> 💡 To use special characters (like `/` or `.`) as normal characters without any special behavior, we need to add `\` behind them (like `\/` or `\.`). This is called *escaping*.
 
 
 ---
@@ -78,3 +78,4 @@ How could we specify that we only want dates with years in the range 2000-2099?
 - /2\d{2}/
 - /2\d{4}/
 - /20\d{3}/
+

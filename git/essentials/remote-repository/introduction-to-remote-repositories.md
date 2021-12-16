@@ -33,18 +33,18 @@ Remote repositories can be a GitHub repository, a user's fork on a server or jus
 
 **Pushing** and **Pulling** to/from remote repositories can be accomplished with HTTP and SSH protocols.
 
-**GitHub**[1], for example:
+When pulling from **GitHub**[1] for example, you can do this via the `git clone` command:
 
-- `SSL` like 
+- With `HTTP` over `SSL`(HTTPS), this would mean:
 
-```plain-text
-https://github.com/user/repo.git
+```bash
+git clone https://github.com/user/repo.git
 ```
 
-- `SSH` like
+- And with `SSH` you would do:
 
-```plain-text
-git@github.com:user/repo.git
+```bash
+git clone git@github.com:user/repo.git
 ```
 
 
