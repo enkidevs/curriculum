@@ -49,7 +49,7 @@ WHILE (
 ENDWHILE
 ```
 
-We created a complex condition: if the `hungry` variable is equal to `true` **and** 4 sandwiches were made, you call the `make_sandwich` function.
+We created a complex condition: if the `hungry` variable is equal to `true` **and** less than 4 sandwiches were made, you call the `make_sandwich` function.
 
 
 ---
