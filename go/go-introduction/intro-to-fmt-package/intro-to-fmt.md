@@ -61,7 +61,7 @@ What does `fmt` stand for?
 Fill in the code to print the text shown in the output:
 
 ```go
-var ocupation = "developer"
+var occupation = "developer"
 
 fmt.???("I am a Go ???", ???)
 
