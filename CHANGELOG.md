@@ -48,6 +48,9 @@ Types of change:
 
 ### Fixed
 
+### Fixed
+- [Coding Intro - While Do - Replace OR with And in loop example to avoid infinite loop](https://github.com/enkidevs/curriculum/pull/2964)
+
 ## December 13th 2021
 
 ### Fixed
