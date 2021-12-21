@@ -92,7 +92,7 @@ Which of the three properties represents the style of this border?
 
 Fill in the correct property name to its value:
 ```css
-div{
+div {
   border-???: dashed;
   border-???: 44px;
   border-???: green;
