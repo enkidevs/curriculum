@@ -53,6 +53,11 @@ Types of change:
 ### Fixed
 - [Coding Intro - While Do - Replace OR with And in loop example to avoid infinite loop](https://github.com/enkidevs/curriculum/pull/2964)
 
+## December 16th 2021
+
+### Fixed
+- [Go - Intro To Fmt - Fix typo in PQ variable name](https://github.com/enkidevs/curriculum/pull/2962)
+
 ## December 13th 2021
 
 ### Fixed
