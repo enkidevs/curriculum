@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 22nd 2021
+
+### Fixed
+- [Linux - Adding Directories To Path - Add missing quotations and export keyword in first and third code example](https://github.com/enkidevs/curriculum/pull/2965)
+
 ## December 21st 2021
 
 ### Fixed
