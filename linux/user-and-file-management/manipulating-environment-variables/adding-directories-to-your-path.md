@@ -31,7 +31,7 @@ revisionQuestion:
 To do this, edit the `.bashrc` file in the home directory and append the following line (chaining the existing `PATH` at the end):
 
 ```bash
-export PATH=/path/to/dir:$PATH
+export PATH="/path/to/dir:$PATH"
 ```
 
 You can open `.bashrc` in terminal by running:
@@ -45,7 +45,7 @@ nano ~/.bashrc
 For example, to add the directory `/usr/sbin`, the following would be used:
 
 ```bash
-PATH="/usr/sbin:$PATH"
+export PATH="/usr/sbin:$PATH"
 ```
 
 Source your `.bashrc` or logout/login (or restart the terminal) for the changes to take effect.
