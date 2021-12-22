@@ -70,7 +70,7 @@ This is the same as running:
 What should be added to `.bashrc` to prepend `/fun/enki`  to `PATH`?
 
 ```bash
-PATH=???
+export PATH=???
 # reload .bashrc
 ??? ~/.bashrc
 ```
