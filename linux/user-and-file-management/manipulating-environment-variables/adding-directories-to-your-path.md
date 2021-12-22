@@ -31,7 +31,7 @@ revisionQuestion:
 To do this, edit the `.bashrc` file in the home directory and append the following line (chaining the existing `PATH` at the end):
 
 ```bash
-export PATH=/path/to/dir:$PATH
+export PATH="/path/to/dir:$PATH"
 ```
 
 You can open `.bashrc` in terminal by running:
@@ -45,7 +45,7 @@ nano ~/.bashrc
 For example, to add the directory `/usr/sbin`, the following would be used:
 
 ```bash
-PATH="/usr/sbin:$PATH"
+export PATH="/usr/sbin:$PATH"
 ```
 
 Source your `.bashrc` or logout/login (or restart the terminal) for the changes to take effect.
@@ -70,15 +70,18 @@ This is the same as running:
 What should be added to `.bashrc` to prepend `/fun/enki`  to `PATH`?
 
 ```bash
-PATH=???
-# reload .bashrc
+# .bashrc
+export PATH="???"
+```
+
+And how do you reload `.bashrc`?
+```bash
 ??? ~/.bashrc
 ```
 
-- `"/fun/enki:$PATH"`
-- `source`
-- `"/fun/enki:PATH"`
 - `/fun/enki:$PATH`
+- `source`
+- `/fun/enki:PATH`
 - `reload`
 
 
