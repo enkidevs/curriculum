@@ -70,15 +70,18 @@ This is the same as running:
 What should be added to `.bashrc` to prepend `/fun/enki`  to `PATH`?
 
 ```bash
-export PATH=???
-# reload .bashrc
+# .bashrc
+export PATH="???"
+```
+
+And how do you reload `.bashrc`?
+```bash
 ??? ~/.bashrc
 ```
 
-- `"/fun/enki:$PATH"`
-- `source`
-- `"/fun/enki:PATH"`
 - `/fun/enki:$PATH`
+- `source`
+- `/fun/enki:PATH`
 - `reload`
 
 
