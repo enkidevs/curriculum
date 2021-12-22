@@ -74,11 +74,7 @@ In this shorthand declaration code:
 border: dotted teal 12px;
 ```
 
-Which of the three properties represents the style of this border?
-
-```plain-text
-???
-```
+The property that represents the style of the border is ???.
 
 - dotted
 - 12px
@@ -89,7 +85,7 @@ Which of the three properties represents the style of this border?
 
 ## Revision
 
-Fill in the correct property name to its value:
+Fill in the correct property names:
 ```css
 div {
   border-???: dashed;
