@@ -48,10 +48,20 @@ Types of change:
 
 ### Fixed
 
-## December 16th 2021
+## December 22nd 2021
 
 ### Fixed
 - [Styling - Border - Replace incorrect questions](https://github.com/enkidevs/curriculum/pull/2963)
+
+## December 21st 2021
+
+### Fixed
+- [Coding Intro - While Do - Replace OR with And in loop example to avoid infinite loop](https://github.com/enkidevs/curriculum/pull/2964)
+
+## December 16th 2021
+
+### Fixed
+- [Go - Intro To Fmt - Fix typo in PQ variable name](https://github.com/enkidevs/curriculum/pull/2962)
 
 ## December 13th 2021
 
