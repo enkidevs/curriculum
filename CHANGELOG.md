@@ -53,6 +53,7 @@ Types of change:
 ### Fixed
 - [Styling - Border - Replace incorrect questions](https://github.com/enkidevs/curriculum/pull/2963)
 - [Linux - Adding Directories To Path - Add missing quotations and export keyword in first and third code example](https://github.com/enkidevs/curriculum/pull/2965)
+- [Linux - Adding Directories To Path - Add Resource link on export keyword](https://github.com/enkidevs/curriculum/pull/2966)
 
 ## December 21st 2021
 
