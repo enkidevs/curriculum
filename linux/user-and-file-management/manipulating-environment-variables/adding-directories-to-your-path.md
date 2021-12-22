@@ -10,6 +10,9 @@ tags:
   - bashrc
   - export
   - introduction
+links:
+  - >-
+    [Environment Variables in Linux](https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/){documentation}
 practiceQuestion:
   formats:
     - fill-in-the-gap
