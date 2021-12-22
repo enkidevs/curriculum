@@ -51,6 +51,7 @@ Types of change:
 ## December 22nd 2021
 
 ### Fixed
+- [Styling - Border - Replace incorrect questions](https://github.com/enkidevs/curriculum/pull/2963)
 - [Linux - Adding Directories To Path - Add missing quotations and export keyword in first and third code example](https://github.com/enkidevs/curriculum/pull/2965)
 
 ## December 21st 2021
