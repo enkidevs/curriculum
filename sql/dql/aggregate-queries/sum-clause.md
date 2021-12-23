@@ -25,7 +25,9 @@ revisionQuestion:
 
 The `SUM` clause comes in handy when we need to perform numerical addition.
 
-Below we will see some examples based on a hypothetical database containing important information on pokemon. First, we will extract a limited number of entries[1]:
+Let's take a look at an example!
+
+We'll use this `experience` table:
 
 | id  | level | experience | growth_rate_id |
 | --- | ----- | ---------- | -------------- |
@@ -34,37 +36,22 @@ Below we will see some examples based on a hypothetical database containing impo
 | 3   | 3     | 33         | 1              |
 | ... | ...   | ...        | ...            |
 
-```sql
-SELECT experience
-FROM experience_table
-LIMIT 5;
-```
-
-Output:
-
-| experience |
-| ---------- |
-| 0          |
-| 10         |
-| 33         |
-| 80         |
-| 156        |
-
-We can use the `SUM` function to quickly add up all the totals above[2]:
+You want to find out the **total number of points** required to get your pokémon to level 3. You could sum up all the values yourself, or you could let SQL and `SUM` do all the work:
 
 ```sql
-SELECT SUM(experience) FROM
-(SELECT experience
-  FROM experience_table
-  LIMIT 5);
+SELECT
+  SUM(experience)
+FROM
+  experience
+LIMIT
+  3;
 ```
 
-Output:
+Let's break down the query. We start by telling SQL to `SUM` all the values in the `experience` table, and immediately after we `LIMIT` the number of rows to 3[1]. The result is the sum of the first three values in the `experience` column:
 
-| sum |
-| --- |
-| 279 |
-
+| SUM(experience) |
+|-----------------|
+| 43              |
 
 ---
 
@@ -81,8 +68,10 @@ Consider the `move_effect_change` table. We want to know the sum of all values c
 Construct a query to do so:
 
 ```sql
-SELECT ???(???) 
-FROM move_effect_change;
+SELECT
+  ???(???) 
+FROM
+  move_effect_change;
 ```
 
 - SUM
@@ -114,17 +103,11 @@ Which query will do so?
 - `SELECT AVG(cost) FROM item;`
 - `SELECT MAX(cost) FROM item;`
 
-
 ---
 
 ## Footnotes
 
 [1:LIMIT]
 `LIMIT` number.
+
 This clause enables users to `SELECT` the first given number of entries
-
-[2:Nested Query]
-We need to use nested queries to be able to `SELECT SUM()` only on the first 5 entries.
-In this particular case we say: Compute the `SUM` on the experience column, taking into account only the 5 entries of the table. `AS` must be specified when using nested queries.
-
-Check out this [great resource](https://www.tutorialspoint.com/sql/sql-sub-queries.htm) if you want to find out more about nested queries.
