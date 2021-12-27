@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 27th 2021
+
+### Fixed
+- [Git - Commits - How To Write A Git Commit Message](https://github.com/enkidevs/curriculum/pull/2968)
+
 ## December 22nd 2021
 
 ### Fixed
