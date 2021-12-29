@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 29th 2021
+
+### Fixed
+- [Git - Sharing Data By Bundling - Remove git keyword from cd command and make the PQ a single line command](https://github.com/enkidevs/curriculum/pull/2969)
+
 ## December 27th 2021
 
 ### Fixed
