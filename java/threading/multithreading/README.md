@@ -1,5 +1,5 @@
-name: Deadlocks
-description: 'Understanding, preventing and recovering from deadlocks.'
+name: Multithreading
+description: 'Multithreading ins and outs'
 insights:
   - thread-sleep-and-thread-yield-do-not-have-synchronization-mechanisms
   - multithreading-use-local-variables
@@ -9,4 +9,3 @@ game: thread-safe
 aspects:
   - workout
   - deep
- 
