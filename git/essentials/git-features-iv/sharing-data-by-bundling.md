@@ -39,7 +39,7 @@ To access the commits on another computer:
 
 ```bash
 git clone myBundle bundled_repo
-git cd bundled_repo
+cd bundled_repo
 ```
 
 To be safe, you can verify that the commit is valid before cloning:
@@ -56,8 +56,7 @@ git bundle verify ../myBundle
 How would you bundle the whole `newFeature` branch?
 
 ```bash
-git bundle ??? 
-   FeatureBranch ??? ???        
+git bundle ??? FeatureBranch ??? ???        
 ```
 
 - `create`
