@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 30th 2021
+
+### Changed
+- [Git - All Applicable Code Blocks - Move single line commands to be on a single line from multi line that they were before code wrap](https://github.com/enkidevs/curriculum/pull/2974)
+
 ## December 29th 2021
 
 ### Fixed
