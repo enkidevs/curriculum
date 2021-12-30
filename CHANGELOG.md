@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 30th 2021
+
+### Changed
+- [SQL - Join Role - Change table example](https://github.com/enkidevs/curriculum/pull/2973)
+
 ## December 29th 2021
 
 ### Fixed
