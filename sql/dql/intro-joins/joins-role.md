@@ -25,47 +25,48 @@ revisionQuestion:
 When querying a database with multiple tables, retrieving information from several different tables may be necessary.
 This is to say, we'd like to combine the columns of some tables based on their relationship.
 
-Say we want to fetch a list of pokemon and their types in the `pokedex` database; however, there is no single table with both the name and the type information. Instead, we have the `health` and `attack` tables. In order to create a list with the desired information, we would have to **join** the tables in some way. **SQL** provides a way for us to do this by using a joining condition between the two tables. For these two tables, the relation is in the `id` columns.
+Say we want to fetch a list of pokemon and their types in the `pokedex` database; however, there is no single table with both the name and the type information. Instead, we have the `pokemon` and `routes` tables. In order to create a list with the desired information, we would have to **join** the tables in some way. **SQL** provides a way for us to do this by using a joining condition between the two tables. For these two tables, the relation is in the `id` columns.
 
-`health`
+`pokemon`
 
-| id | name       | health |
-|----|------------|--------|
-| 1  | venusaur   | 53     |
-| 2  | charmeleon | 41     |
-| 3  | pikachu    | 50     |
-| 4  | squirtle   | 39     |
-| 5  | magikarp   | 25     |
+| id | name       | health | type1    | type2  | base_attack | route |
+|----|------------|--------|----------|--------|-------------|-------|
+| 1  | venusaur   | 53     | grass    | poison | 25          | NULL  |
+| 2  | charmeleon | 41     | fire     | NULL   | 16          | 4     |
+| 3  | pikachu    | 50     | electric | NULL   | 22          | 4     |
+| 4  | squirtle   | 39     | water    | NULL   | 17          | 25    |
+| 5  | magikarp   | 25     | water    | NULL   | 12          | 6     |
 
-`attack`
+`routes`
 
-| id | type1    | type2  | base_attack |
-|----|----------|--------|-------------|
-| 1  | grass    | poison | 25          |
-| 2  | fire     | NULL   | 16          |
-| 3  | electric | NULL   | 22          |
-| 4  | water    | NULL   | 17          |
-| 5  | water    | NULL   | 12          |
+| id | name       |
+|----|------------|
+| 1  | venusaur   |
+| 2  | charmeleon |
+| 3  | pikachu    |
+| 4  | squirtle   |
+| 5  | magikarp   |
 
-To return the `name` and `type1` value of each pokemon, we need to use the `JOIN` keyword. The syntax will be explored in further workouts, but below is the correct query
+To return the `name` and `type1` value of each pokemon, we need to use the `JOIN` keyword. The syntax will be explored in further workouts, but below is the correct query:
 
 ```sql
 SELECT 
-  health.name,
-  attack.type1
-FROM health JOIN attack
-  ON health.id = attack.id
+  routes.name,
+  pokemon.route
+    
+FROM pokemon JOIN routes
+  ON pokemon.id = routes.id;
 ```
-Notice that the query makes references to both tables and then also states the **joining condition**[1] (`health.id = attack.id`). 
+Notice that the query makes references to both tables and then also states the **joining condition**[1] (`pokemon.id = routes.id`). 
 This query returns the following:
 
-| name       | type1    |
-|------------|----------|
-| venusaur   | grass    |
-| charmeleon | fire     |
-| pikachu    | electric |
-| squirtle   | water    |
-| magikarp   | water    |
+| name       | route |
+| ---------- | ----- |
+| venusaur   | NULL  |
+| charmeleon | 4     |
+| pikachu    | 4     |
+| squirtle   | 25    |
+| magikarp   | 6     |
 
 > 💡 There are many different types of joins, with different implementations and different results. These are covered in the following few workouts.
 
