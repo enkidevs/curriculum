@@ -42,8 +42,7 @@ You can also give the tool a range of lines to search.
 Searching for the changes made to *myFunction* can be done using:
 
 ```bash
-git ??? ??? 
-      :myFunction:myFile.js
+git ??? ??? :myFunction:myFile.js
 ```
 
 - `log`
