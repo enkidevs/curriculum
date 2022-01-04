@@ -56,13 +56,13 @@ To implement a custom **context manager**, two methods must be implemented:
 ```python
 class my_context_manager:
   def __enter__(self):
-      # set up things
-      return thing
+    # set up things
+    return thing
   def __exit__(self,type,value,traceback):
-      # deal with unmanaged resources
+    # deal with unmanaged resources
 #....
 with my_context_manager as custom_name
-   # work with resources
+  # work with resources
 
 ```
 
@@ -80,11 +80,10 @@ Complete the code snippet to implement a context manager:
 ```python
 class new_context_manager:
   def ???(self):
-      # set up things
-      return thing
-  def ???(self, type,
-         value, traceback):
-      # deal with unmanaged resources
+    # set up things
+    return thing
+  def ???(self, type, value, traceback):
+    # deal with unmanaged resources
 
 with new_context_manager as custom_name
    # work with resources

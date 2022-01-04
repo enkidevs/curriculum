@@ -30,8 +30,7 @@ revisionQuestion:
 Consider the following syntax:
 
 ```python
-obj = open(f_name, [access_mode],
-                      [buffering])
+obj = open(f_name, [access_mode], [buffering])
 ```
 
 Here's the disambiguation of its arguments:

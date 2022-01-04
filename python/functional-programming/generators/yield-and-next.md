@@ -42,10 +42,10 @@ Consider the following generator:
 
 ```py
 def range_gen(n):
-    i = 0
-    while i < n:
-        yield i
-        i += 1
+  i = 0
+  while i < n:
+    yield i
+    i += 1
 ```
 
 This **function** generates all natural numbers up to `n`. Let's use the `next()` method now:
@@ -73,9 +73,9 @@ What is the output of the following snippet?
 
 ```py
 def countdown(num):
-    while num > 0:
-        yield num
-        num -= 1
+  while num > 0:
+    yield num
+    num -= 1
 
 >>> gen = countdown(5)
 >>> print(next(gen))

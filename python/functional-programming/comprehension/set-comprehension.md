@@ -40,7 +40,6 @@ And we need a set containing only even numbers in the list. This can be easily a
 
 ```python
 even_set = {x for x in my_list if x%2 == 0}
-
 ```
 
 We can now check the result:

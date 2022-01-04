@@ -31,18 +31,18 @@ It uses the sort method `sort` in order to decide what to retrieve from it first
 import queue
 
 class Enki(object):
-    def __init__(self, priority):
-       self.priority = priority
-       return
-    def __lt__(self, other):
-       return self.priority < other.priority
+  def __init__(self, priority):
+    self.priority = priority
+    return
+  def __lt__(self, other):
+    return self.priority < other.priority
 
 q = queue.PriorityQueue()
 q.put(Enki(55))
 q.put(Enki(3))
 q.put(Enki(100))
 while not q.empty():
-    print(q.get().priority)
+  print(q.get().priority)
 # output is 3 / 55 / 100
 ```
 
@@ -52,18 +52,18 @@ If we want to reverse the sorting order (greatest priority first), we would have
 
 ```python
 class Enki(object):
-    def __init__(self, priority):
-       self.priority = priority
-       return
-    def __lt__(self, other):
-       return self.priority > other.priority
+  def __init__(self, priority):
+    self.priority = priority
+    return
+  def __lt__(self, other):
+    return self.priority > other.priority
 
  q = queue.PriorityQueue()
  q.put(Enki(55))
  q.put(Enki(3))
  q.put(Enki(100))
  while not q.empty():
-     print(q.get().priority)
+  print(q.get().priority)
  # output is 100 / 55 / 3
 ```
 

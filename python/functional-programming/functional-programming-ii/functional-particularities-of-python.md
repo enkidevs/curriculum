@@ -47,17 +47,14 @@ A comprehension is an expression where the same flow control keywords used in lo
 ```python
 # without comprehension
 for element in list:
-  if condition1(element) and
-    condition2(element):
+  if condition1(element) and condition2(element):
     collection.append(element)
   else:
     new = mutate(element)
     collection.append(element)
 
 # with comprehension
-collection = [e if condition1(e) and
-              condition2(e) else
-              modify(e) for e in list]
+collection = [e if condition1(e) and condition2(e) else modify(e) for e in list]
 ```
 
 As you can clearly see, our code instantly becomes much more legible and comprehensible.
