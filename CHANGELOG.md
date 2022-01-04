@@ -53,6 +53,9 @@ Types of change:
 ### Fixed
 - [HTML - The Caption Element - Add minor info when to use strong, b and font-weight property to avoid confusion](https://github.com/enkidevs/curriculum/pull/2972)
 
+### Changed
+- [Git - All Applicable Code Blocks - Change all single line commands that span multiple lines from PQ and RQ & content to be on a single line.](https://github.com/enkidevs/curriculum/pull/2974)
+
 ## December 29th 2021
 
 ### Fixed

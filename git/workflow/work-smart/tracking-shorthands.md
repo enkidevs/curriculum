@@ -55,8 +55,7 @@ The final option works if the branch name you’re trying to checkout doesn’t 
 The shorthand command to set up a new branch and track it is:
 
 ```bash
-git ??? --???
-    origin/sharefix
+git ??? --??? origin/sharefix
 ```
 
 - `checkout`
@@ -72,8 +71,7 @@ git ??? --???
 The shorthand command to set up a new branch and track it is:
 
 ```bash
-git ??? --??? 
-          origin/sharefix
+git ??? --??? origin/sharefix
 ```
 
 - `checkout`

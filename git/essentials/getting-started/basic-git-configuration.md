@@ -74,8 +74,7 @@ On *Windows* machines, the path to the executable must be included.
 Complete the command to change your username for all projects:
 
 ```bash
-git ??? ??? \
-  user.??? "My Name"
+git ??? ??? user.??? "My Name"
 ```
 
 - `config`

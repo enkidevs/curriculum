@@ -45,9 +45,7 @@ Many different formats are accepted, for example relative dates ("3 hours ago"),
 Show the commits between 01/01/2016 and 05/01/2016 (DD/MM/YYYY) :
 
 ```bash
-git ??? 
-  --???="2016-01-01" 
-  --???="2016-01-05"
+git ??? --???="2016-01-01" --???="2016-01-05"
 ```
 
 - `log`

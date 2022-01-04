@@ -40,10 +40,8 @@ git config core.sparsecheckout true
 Choose your subdirectories:
 
 ```bash
-echo some/dir/ \
-   >> .git/info/sparse-checkout
-echo another/sub/tree \
-   >> .git/info/sparse-checkout
+echo some/dir/ >> .git/info/sparse-checkout
+echo another/sub/tree >> .git/info/sparse-checkout
 ```
 
 Checkout:
@@ -62,10 +60,8 @@ Sparse checkout allows the user to choose what files to look at. It does the opp
 Enable *sparse checkout* then choose to checkout only the `newFeature/` subdirectory:
 
 ```bash
-git ???
-      ???.??? true
-echo ??? >>
-       .git/info/sparse-checkout
+git ??? ???.??? true
+echo ??? >> .git/info/sparse-checkout
 ```
 
 - `config`
