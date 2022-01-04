@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 4th 2022
+
+### Fixed
+- [Blockchain - What Are Smart Contracts - Fix misspelled files word](https://github.com/enkidevs/curriculum/pull/2978)
+
 ## December 30th 2021
 
 ### Changed
