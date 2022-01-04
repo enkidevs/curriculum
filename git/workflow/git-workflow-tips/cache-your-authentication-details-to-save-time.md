@@ -35,8 +35,7 @@ If you don't want to type these in every time, you can store your authentication
 To set up a credential cache:
 
 ```bash
-git config --global 
-   credential.helper cache
+git config --global credential.helper cache
 ```
 
 This will keep your details in memory for 15 minutes.
@@ -53,8 +52,7 @@ Another option to avoid frequent authentication is to use SSH transport.
 Cache your credentials:
 
 ```bash
-git ??? ???
-  ???.??? ???
+git ??? ??? ???.??? ???
 ```
 
 - `config`
@@ -71,8 +69,7 @@ git ??? ???
 To cache your credentials for 15 minutes you would run:
 
 ```bash
-git ??? ??? 
-  credential.??? ???
+git ??? ??? credential.??? ???
 ```
 
 - `config`
