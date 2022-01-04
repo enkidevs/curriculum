@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Blockchain - What Are Smart Contracts - Fix misspelled files word](https://github.com/enkidevs/curriculum/pull/2978)
+- [Linux - Converting Between Unix And Windows Text Files - Replace wrong quotation character with the correct one](https://github.com/enkidevs/curriculum/pull/2976)
 
 ## December 30th 2021
 
