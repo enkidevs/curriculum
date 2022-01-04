@@ -52,8 +52,7 @@ git last
 Create an alias `pr` for the command:
 
 ```bash
-git ??? ??? ???
-    'log --pretty=format:"%h:%an'
+git ??? ??? ??? 'log --pretty=format:"%h:%an'
 ```
 
 - `config`

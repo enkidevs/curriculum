@@ -53,6 +53,11 @@ Types of change:
 ### Fixed
 - [HTML - Image Map - Fix incorrect description word for area element](https://github.com/enkidevs/curriculum/pull/2975)
 
+## December 30th 2021
+
+### Changed
+- [Git - All Applicable Code Blocks - Change all single line commands that span multiple lines from PQ and RQ & content to be on a single line.](https://github.com/enkidevs/curriculum/pull/2974)
+
 ## December 29th 2021
 
 ### Fixed

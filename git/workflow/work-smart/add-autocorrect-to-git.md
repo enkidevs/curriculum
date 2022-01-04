@@ -53,8 +53,7 @@ git config --global help.autocorrect 0
 You can enable autocorrect using :
 
 ```bash
-git config --global
-    ???.???
+git config --global ???.???
 ```
 
 - `help`

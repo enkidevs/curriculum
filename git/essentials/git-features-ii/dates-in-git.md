@@ -62,8 +62,7 @@ git revert master@{"last Tuesday"}
 To retrieve all the logs starting from last week until yesterday, you would run:
 
 ```bash
-git ??? --since=??? 
-     ???="yesterday"
+git ??? --since=??? ???="yesterday"
 ```
 
 - `log`

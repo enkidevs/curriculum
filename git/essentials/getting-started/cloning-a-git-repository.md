@@ -40,8 +40,7 @@ You can clone any open-source project or even private ones as long as you have t
 For example, you can clone the `reduck` library from its specific URL:
 
 ```bash
-git clone
-  https://github.com/enkidevs/reduck
+git clone https://github.com/enkidevs/reduck
 ```
 
 Running this command will:
@@ -54,9 +53,7 @@ Running this command will:
 Another name for the parent directory can be specified as follows:
 
 ```bash
-git clone 
-  https://github.com/enki/repo \
-    myAwesomeClone
+git clone https://github.com/enki/repo myAwesomeClone
 ```
 
 Apart from the `https` protocol used above, `git` also supports transfer through **SSH** and local protocols.
