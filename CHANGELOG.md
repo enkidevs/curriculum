@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 4th 2022
+
+### Fixed
+- [Multiple Topics - Multiple insights - Replace all occurances of "wrong" quotations that break the "solve this question" feature with normal quotations](https://github.com/enkidevs/curriculum/pull/2977)
+
 ## December 30th 2021
 
 ### Changed
