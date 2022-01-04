@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 4th 2022
+
+### Fixed
+- [HTML - Image Map - Fix incorrect description word for area element](https://github.com/enkidevs/curriculum/pull/2975)
+
 ## December 29th 2021
 
 ### Fixed
