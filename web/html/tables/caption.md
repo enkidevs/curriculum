@@ -9,6 +9,9 @@ links:
   - >-
     [HTML <caption>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption){documentation}
+  - >-
+    [HTML <b>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b){documentation}
 practiceQuestion:
   formats:
     - fill-in-the-gap
