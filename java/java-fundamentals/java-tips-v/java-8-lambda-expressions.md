@@ -32,19 +32,19 @@ Lambda expressions are one of the most significant additions that enable you to 
 Example of a lambda:
 
 ```java
-class LambdaTest {
-public static void main(String[] args) {
-     // Anonymous Runnable
- Runnable r1 = new Runnable(){
-   public void run(){
-     System.out.println("test1");
-   }
- };
-     // Lambda Runnable
- Runnable r2=
-        ()->System.out.println("test2");
- r1.run(); // test1
- r2.run(); // test2
+public class Main {
+  public static void main(String[] args) {
+    // Anonymous Runnable
+    Runnable r1 = new Runnable() {
+      public void run() {
+        System.out.println("test1");
+      }
+    };
+    // Lambda Runnable
+    Runnable r2 = () -> System.out.println("test2");
+    r1.run(); // test1
+    r2.run(); // test2
+  }
 }
 ```
 

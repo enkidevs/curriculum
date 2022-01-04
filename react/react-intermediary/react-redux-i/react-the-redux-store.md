@@ -84,7 +84,6 @@ First, create a Redux store:
 import { createStore } from ‘redux';
 let store =
   ???(reducer, initstate);
-store.???();
 ```
 
 Next, try to get its state:

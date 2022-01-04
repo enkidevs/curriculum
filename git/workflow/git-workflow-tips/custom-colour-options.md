@@ -44,8 +44,7 @@ The other `color.*` options are `ui`, `branch.*`, `diff.*` and `interactive.*`.
 Change the colour for `diff.meta` to be *blue* foreground, *black* background and *bold* font:
 
 ```bash
-git ??? ???
-      ??? ???
+git ??? ??? ??? ???
 ```
 
 - `config`

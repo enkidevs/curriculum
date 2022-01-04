@@ -78,7 +78,7 @@ Search in the home directory for files that contain happy in their title:
 ```
 
 - `find`
-- `~/`
+- `~`
 - `f`
 - `-name`
 - `"*happy*"`

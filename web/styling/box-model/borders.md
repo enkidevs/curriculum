@@ -10,7 +10,6 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -69,38 +68,32 @@ div{
 
 ## Practice
 
-In the shorthand declaration:
+In this shorthand declaration code:
 
 ```css
-border: 1 2 3;
+border: dotted teal 12px;
 ```
 
-Which number represents the style of the border?
+The property that represents the style of the border is ???.
 
-```plain-text
-???
-```
-
-- 2
-- 1
-- 3
+- dotted
+- 12px
+- teal
 
 
 ---
 
 ## Revision
 
-In the shorthand declaration, which number represents the color of the border?
-
+Fill in the correct property names:
 ```css
-border: 1 2 3;
+div {
+  border-???: dashed;
+  border-???: 44px;
+  border-???: green;
+}
 ```
-
-```plain-text
-???
-```
-
-- 3
-- 1
-- 2
+- style
+- width
+- color
  

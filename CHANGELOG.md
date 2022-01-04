@@ -48,6 +48,61 @@ Types of change:
 
 ### Fixed
 
+## December 30th 2021
+
+### Changed
+- [Git - All Applicable Code Blocks - Change all single line commands that span multiple lines from PQ and RQ & content to be on a single line.](https://github.com/enkidevs/curriculum/pull/2974)
+
+## December 29th 2021
+
+### Fixed
+- [Git - Sharing Data By Bundling - Remove git keyword from cd command and make the PQ a single line command](https://github.com/enkidevs/curriculum/pull/2969)
+- [Java - Multithreading - Update the workout's name & description](https://github.com/enkidevs/curriculum/pull/2971)
+
+## December 27th 2021
+
+### Fixed
+- [Git - Commits - How To Write A Git Commit Message](https://github.com/enkidevs/curriculum/pull/2968)
+
+## December 22nd 2021
+
+### Fixed
+- [Styling - Border - Replace incorrect questions](https://github.com/enkidevs/curriculum/pull/2963)
+- [Linux - Adding Directories To Path - Add missing quotations and export keyword in first and third code example](https://github.com/enkidevs/curriculum/pull/2965)
+- [Linux - Adding Directories To Path - Add Resource link on export keyword](https://github.com/enkidevs/curriculum/pull/2966)
+- [SQL - SUM clause - Remove subquery use & general improvements](https://github.com/enkidevs/curriculum/pull/2967)
+
+## December 21st 2021
+
+### Fixed
+- [Coding Intro - While Do - Replace OR with And in loop example to avoid infinite loop](https://github.com/enkidevs/curriculum/pull/2964)
+
+## December 16th 2021
+
+### Fixed
+- [Go - Intro To Fmt - Fix typo in PQ variable name](https://github.com/enkidevs/curriculum/pull/2962)
+
+## December 13th 2021
+
+### Fixed
+- [Regular Expressions - Dates - Change Backslash to forward slash in note](https://github.com/enkidevs/curriculum/pull/2959)
+
+## December 10th 2021
+
+### Fixed
+- [React - React The Redux Store - Remove duplicate answer field from pq](https://github.com/enkidevs/curriculum/pull/2957)
+- [Linux - Using Find To Search By Filename - Remove forward slash from second answer field as it is unnecessary](https://github.com/enkidevs/curriculum/pull/2960)
+
+## December 9th 2021
+
+### Fixed
+- [Python Data Analysis - TV Show Ratings - Add missing dots to 2 methods](https://github.com/enkidevs/curriculum/pull/2952)
+- [HTML - Global Attributes 2 - Update grammar](https://github.com/enkidevs/curriculum/pull/2954)
+- [Python Data Analysis - Total Number Of Actors - Remove extra dot from revision question answer](https://github.com/enkidevs/curriculum/pull/2951)
+- [Python Data Analysis - Total Number of TV Show Actors - Replace duplicate image](https://github.com/enkidevs/curriculum/pull/2953)
+- [Java - Java8 Lambda Expressions - Fix incorrect code example](https://github.com/enkidevs/curriculum/pull/2955)
+- [Styling - Matches Any Pseudo Class Matches - Replace Matches with is as it was officially renamed](https://github.com/enkidevs/curriculum/pull/2956)
+
 ## December 8th 2021
 
 ### Fixed
