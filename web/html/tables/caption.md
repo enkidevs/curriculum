@@ -39,8 +39,8 @@ Example:
 <table>
   <caption>Employee List</caption>
   <tr>
-    <td><strong>Name</strong></td>
-    <td><strong>Start Date</strong></td>
+    <td><b>Name</b></td>
+    <td><b>Start Date</b></td>
   </tr>
   <tr>
     <td>Jimmy</td>
@@ -52,7 +52,9 @@ Example:
 </table>
 ```
 
-> 💡 In the example above, the `<strong>` element is used to bring great importance to the "Name" and "Starting Date" tags. However, if you would only like to style these elements bold and not bring importance to them, you should replace it with the `style="font-weight:bold;"` CSS property. On the other hand, if you would only like to bring attention to them without high importance, you can use the `<b>` element.
+> 💡 In the example above, the `<b>` element is used to bring attention to the "Name" and "Starting Date" tags. 
+
+If you'd like to only style the elements bold without bringing attention to them, you should replace it with the `style="font-weight:bold;"` CSS property.
 
 ![table-caption](https://img.enkipro.com/ec2e595bc8ee7beb5d9882c1ae15022e.png)
 
