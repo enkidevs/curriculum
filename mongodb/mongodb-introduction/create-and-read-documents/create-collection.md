@@ -31,7 +31,7 @@ db.createCollection("pokemon")
 // { "ok": 1 }
 ```
 
-> ⚠️ If a collection doesn’t exist when you create/insert a new document, MongoDB will create one for you.
+> ⚠️ If a collection doesn't exist when you create/insert a new document, MongoDB will create one for you.
 
 To list all collections within a database, you need to use the `show collections` command:
 

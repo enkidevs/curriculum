@@ -88,7 +88,7 @@ Complete the code by adding the appropriate input form attributes to submit the 
 
 ## Revision
 
-Which input form attribute, with values such as “_blank” and “framename”, indicates where to display the response that is received after submitting the form?
+Which input form attribute, with values such as "_blank" and "framename", indicates where to display the response that is received after submitting the form?
 
 ```html
 ???

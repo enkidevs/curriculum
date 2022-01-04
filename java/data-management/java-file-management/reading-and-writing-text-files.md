@@ -87,7 +87,7 @@ Why is the try-catch block necessary when reading and writing files with `FileRe
 
 ???
 
-- In case the paths to the files aren’t valid.
+- In case the paths to the files aren't valid.
 - In case the files are empty.
 - In case the we swapped the paths by mistake.
 - In case files are too large.

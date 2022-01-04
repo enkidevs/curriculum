@@ -17,7 +17,7 @@ revisionQuestion:
 
 ## Content
 
-If you started the shutdown either via the terminal or from the GUI and then realised that you didn’t really want to do that, you can use:
+If you started the shutdown either via the terminal or from the GUI and then realised that you didn't really want to do that, you can use:
 
 ```bash
 shutdown -c

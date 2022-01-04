@@ -79,7 +79,7 @@ Tableau allows you to connect to data:
 - stored in a file, such as Microsoft Excel, PDF, Spatial files etc
 - stored on a server, such as Tableau Server, Microsoft SQL Server, Google Analytics etc
 - stored in your CRM
-- you’ve connected to before
+- you've connected to before
 
 [2: Discrete]
 

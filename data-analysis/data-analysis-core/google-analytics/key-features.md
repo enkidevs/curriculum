@@ -53,7 +53,7 @@ Again you can always segment your data by dimensions such as device (mobile vs d
 
 It's also worth noting another useful dimension - **user type**. This segments users into *new* or *returning* visitors. 
 
-New users are *first-time users*. Google’s tracking snippet creates a random, unique ID that gets associated with the user's browser cookie. Each unique ID is a unique user.
+New users are *first-time users*. Google's tracking snippet creates a random, unique ID that gets associated with the user's browser cookie. Each unique ID is a unique user.
 
 > 💡 This information will be lost if a user clears their browsing data, and Google Analytics also doesn't recognise users who visit sites from different devices by default.
 
@@ -62,7 +62,7 @@ New users are *first-time users*. Google’s tracking snippet creates a random, 
 
 ## Practice
 
-What is a “metric” in Google Analytics?
+What is a "metric" in Google Analytics?
 
 ???
 
@@ -76,7 +76,7 @@ What is a “metric” in Google Analytics?
 
 ## Revision
 
-What is a “dimension” in Google Analytics?
+What is a "dimension" in Google Analytics?
 
 ???
 

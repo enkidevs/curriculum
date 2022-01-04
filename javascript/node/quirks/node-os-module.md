@@ -78,7 +78,7 @@ console.log(os.networkInterfaces());
 Get the total system memory in bytes:
 
 ```javascript
-var os = require(“os”);
+var os = require("os");
 console.log(os.???());
 ```
 

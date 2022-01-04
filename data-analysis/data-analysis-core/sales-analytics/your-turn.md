@@ -19,5 +19,5 @@ links:
 
 👇 Leave a comment on this insight with **your favorite sales tools** and **why they're loved** by your team.
 
-View others’ comments and upvote the ones you like so everyone can benefit!
+View others' comments and upvote the ones you like so everyone can benefit!
  

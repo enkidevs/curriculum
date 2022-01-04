@@ -38,7 +38,7 @@ let wStream = fs.createWriteStream(
 rStream.pipe(wStream);
 ```
 
-The `pipe()` function is used in the above example to write the content of `file1` (which was read into `rstream`) into file2 using `wstream`. `pipe()` manages the data flow meaning there’s no need to worry about fast or slow data. Also, because `pipe()` returns the destination stream it can be used chain multiple streams together.
+The `pipe()` function is used in the above example to write the content of `file1` (which was read into `rstream`) into file2 using `wstream`. `pipe()` manages the data flow meaning there's no need to worry about fast or slow data. Also, because `pipe()` returns the destination stream it can be used chain multiple streams together.
 
 
 ---

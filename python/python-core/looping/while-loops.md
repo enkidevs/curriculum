@@ -75,7 +75,7 @@ while x < ???:
 
 ## Revision
 
-What’s the output of the following code snippet:
+What's the output of the following code snippet:
 
 ```python
 x = 0

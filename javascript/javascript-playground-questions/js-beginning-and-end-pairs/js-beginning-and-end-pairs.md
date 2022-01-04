@@ -47,7 +47,7 @@ To solve this, try using the following concepts:
 
 Give it an honest try, and feel free to share your solution!
 
-If you’re stuck, you can always read this footnote[1] or review the comments section.
+If you're stuck, you can always read this footnote[1] or review the comments section.
 
 😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 

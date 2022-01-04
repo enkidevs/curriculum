@@ -104,7 +104,7 @@ print(Enki.???)
 
 ## Revision
 
-Get the class’s metaclass:
+Get the class's metaclass:
 
 ```python
 print(Enki.???)

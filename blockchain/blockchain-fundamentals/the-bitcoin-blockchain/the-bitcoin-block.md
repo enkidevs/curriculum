@@ -34,7 +34,7 @@ Recall that any byte changed in the input changes the output drastically: by inc
 
 The more 0's the hash has to start with, the more difficult the computation is. The first block mined had *difficulty 1* and it needed to begin with at least 8 *0*'s. The last block discovered (at the time of writing) had a difficulty of *3 trillion*, or roughly 18 *0*'s. This difficulty is equivalent to a hash rate of 22,500 PH/s (PetaHashes/s), or 22 million trillion hashes per second.
 
-In the learn more section, you’ll find a link to an online block explorer where you can play around.
+In the learn more section, you'll find a link to an online block explorer where you can play around.
 
 
 ---

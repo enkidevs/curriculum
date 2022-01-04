@@ -45,7 +45,7 @@ Conversion table :
          double  |  Double
 ```
 
-*primitives* and *objects* should not be mixed when doing comparisons. Instead, compare objects with objects (using `equals()` method) and compare primitive with primitives (using logical operators such as “`==`”, “`<`” etc).
+*primitives* and *objects* should not be mixed when doing comparisons. Instead, compare objects with objects (using `equals()` method) and compare primitive with primitives (using logical operators such as "`==`", "`<`" etc).
 
 
 ---
@@ -84,7 +84,7 @@ What is the wrapper class of primitive `int` ?
 
  ???
 
-- “int5”
-- “integer5”
-- “int5integer5”
+- "int5"
+- "integer5"
+- "int5integer5"
 - Nothing

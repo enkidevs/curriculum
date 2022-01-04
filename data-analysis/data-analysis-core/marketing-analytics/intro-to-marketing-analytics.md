@@ -19,7 +19,7 @@ links:
 
 Marketing aims to reach consumers at the moments that **most influence their decisions**. 
 
-That’s why over a decade ago, Amazon began offering targeted recommendations to consumers already logged in and ready to buy. And it explains P&G’s decision to sponsor radio and then TV programs to reach audiences most likely to buy its products — hence the term “soap opera".
+That's why over a decade ago, Amazon began offering targeted recommendations to consumers already logged in and ready to buy. And it explains P&G's decision to sponsor radio and then TV programs to reach audiences most likely to buy its products — hence the term "soap opera".
 
 Marketing analytics is crucial in aiding these decisions and is the practice of **analyzing marketing strategies to maximize their effectiveness**. 
 
@@ -43,5 +43,5 @@ Growth hacking is an umbrella term for strategies focused solely on growth. It i
 
 The goal of growth hacking strategies is to acquire as many users or customers as possible while spending as little as possible.
 
-Many startups use Dave McClure’s “pirate funnel” as a recipe for growth. These are **acquisition**, **activation**, **retention**, **referral**, and **revenue** (AARRR). 
+Many startups use Dave McClure's "pirate funnel" as a recipe for growth. These are **acquisition**, **activation**, **retention**, **referral**, and **revenue** (AARRR). 
  

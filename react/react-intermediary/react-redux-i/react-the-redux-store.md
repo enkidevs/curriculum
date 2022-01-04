@@ -81,7 +81,7 @@ store.replaceReducer(newReducer);
 First, create a Redux store:
 
 ```js
-import { createStore } from ‘redux’;
+import { createStore } from ‘redux';
 let store =
   ???(reducer, initstate);
 store.???();

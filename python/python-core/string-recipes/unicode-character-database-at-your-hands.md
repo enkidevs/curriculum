@@ -66,8 +66,8 @@ To get the version of the **Unicode Database** currently used:
 Get the category of the specified character:
 
 ```python
->>> ???.???(u’L’)
-‘Lu’
+>>> ???.???(u'L')
+‘Lu'
 #Letter, uppercase
 ```
 
@@ -86,8 +86,8 @@ Get the category of the specified character:
 Get the name of the specified character:
 
 ```python
->>>unicodedata.???(u’~’)
-‘TILDE’
+>>>unicodedata.???(u'~')
+‘TILDE'
 ```
 
 - `name`

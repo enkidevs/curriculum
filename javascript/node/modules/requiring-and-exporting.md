@@ -38,7 +38,7 @@ var module = require('./example.js');
 Take *sampleModule.js*:
 
 ```javascript
-module.exports = “Required and exported!”;
+module.exports = "Required and exported!";
 ```
 
 > 💡 `exports` could have been used instead of `module.exports` to achieve the same effect.
@@ -46,7 +46,7 @@ module.exports = “Required and exported!”;
 Importing *sampleModule.js* into a new JavaScript file *main.js*:
 
 ```javascript
-var test = require(‘./sampleModule.js’);
+var test = require(‘./sampleModule.js');
 console.log(test);
 ```
 

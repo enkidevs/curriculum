@@ -71,7 +71,7 @@ A copy constructor provides a simpler and safer way to create a copy of an objec
 
 ## Revision
 
-Which of the following code snippets is the correct copy constructor for the ‘Address’ constructor:
+Which of the following code snippets is the correct copy constructor for the ‘Address' constructor:
 
 ```java
 // Address Constructor  

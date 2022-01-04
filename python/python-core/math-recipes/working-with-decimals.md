@@ -77,7 +77,7 @@ Using the `decimal` module, print the value of  `d` ‘s logarithm (base 10):
 
 ```python
 import decimal
-d = decimal.Decimal(“2.71”)
+d = decimal.Decimal("2.71")
 print(d.???())
 ```
 
@@ -95,7 +95,7 @@ Use the `decimal` module to assign the given value to the decimal variable `a` :
 
 ```python
 import decimal
-a = ???.???(“6.42”)
+a = ???.???("6.42")
 ```
 
 - `decimal`

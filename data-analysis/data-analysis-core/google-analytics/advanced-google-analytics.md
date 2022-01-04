@@ -30,16 +30,16 @@ revisionQuestion:
 
 ### Hits and Sessions
 
-With each user interaction on your website, the Analytics tracking code automatically sends what’s called a “hit” to Google Analytics. A “hit” is a URL string with parameters of useful information about your users.
+With each user interaction on your website, the Analytics tracking code automatically sends what's called a "hit" to Google Analytics. A "hit" is a URL string with parameters of useful information about your users.
 
 The three most common types of hits are:
 
-1. **“Pageview” hits**
+1. **"Pageview" hits**
    When a user loads a webpage with the tracking code.
-2. **“Event” hits**
+2. **"Event" hits**
    When a user interacts with a particular element on your website.
-3. **“Transaction” hits**
-   Can pass data to Analytics about ecommerce purchases such as products purchased, transaction IDs, and “stock keeping units” (SKUs).
+3. **"Transaction" hits**
+   Can pass data to Analytics about ecommerce purchases such as products purchased, transaction IDs, and "stock keeping units" (SKUs).
 
 > 💡 Setting up **Enhanced Ecommerce** allows you to pass additional ecommerce data like product category, whether items have been added or removed from a shopping cart, and how many times users viewed a product.
 

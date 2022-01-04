@@ -48,8 +48,8 @@ if string.find('Hello') != -1:
 Complete the following code snippet such that it makes sense:
 
 ```py
-string = “Hey there”
-??? ‘Hey’ ??? string:
+string = "Hey there"
+??? ‘Hey' ??? string:
   print("found it")
 # found it
 ```

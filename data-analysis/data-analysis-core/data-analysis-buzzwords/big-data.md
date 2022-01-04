@@ -25,13 +25,13 @@ revisionQuestion:
 
 As the name suggests, Big Data refers to **extremely large volumes** of data that are hard to analyze using traditional techniques.
 
-It’s more helpful to read it as, “so much data that you need to take careful steps to avoid week-long script runtimes.”
+It's more helpful to read it as, "so much data that you need to take careful steps to avoid week-long script runtimes."
 
-Just think about Amazon’s recommendation algorithm...
+Just think about Amazon's recommendation algorithm...
 
 The company takes all your buying history together with what it knows about you, your buying patterns, and the buying patterns of people like you to come up with some pretty good suggestions. 
 
-It’s a marketing machine, and the company's big data analytics capabilities have made it extremely successful.
+It's a marketing machine, and the company's big data analytics capabilities have made it extremely successful.
 
 Companies or governments use software frameworks like Hadoop[1] to store and process huge amounts of any kind of data quickly.
 

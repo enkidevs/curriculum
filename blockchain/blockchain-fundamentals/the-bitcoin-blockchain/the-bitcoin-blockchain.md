@@ -23,7 +23,7 @@ In the previous insight, we talked about people sending bitcoins to others. But 
 
 Unlike real world currencies, that are issued by a country's central bank to meet a financial goal, bitcoins are part of a limited supply of 21 million. They are **created by the network** to **reward** the miner who appended a valid block to the blockchain.
 
-In a sense, they are created from thin air. But the steady rate at which they are created and the feature of having a limited supply make them a desirable asset. The **block reward** in 2009 was 50 bitcoins and it’s been halving ever since, every 210,000 blocks.
+In a sense, they are created from thin air. But the steady rate at which they are created and the feature of having a limited supply make them a desirable asset. The **block reward** in 2009 was 50 bitcoins and it's been halving ever since, every 210,000 blocks.
 
 A new block is discovered roughly every 10 minutes, so the block reward remains constant for about 4 years. The reward was 12.5 bitcoins until May 11th 2020.
 

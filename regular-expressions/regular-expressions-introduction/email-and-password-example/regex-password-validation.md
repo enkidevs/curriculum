@@ -21,7 +21,7 @@ revisionQuestion:
 
 ## Content
 
-You have probably seen these types of messages on all your favorite sites: *“Your password must have at least 8 characters, including an upper case letter, a lowercase letter and a number”*.
+You have probably seen these types of messages on all your favorite sites: *"Your password must have at least 8 characters, including an upper case letter, a lowercase letter and a number"*.
 
 And sometimes even a symbol character to make sure you'll never remember your password in the future... 🤔
 

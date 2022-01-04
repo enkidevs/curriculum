@@ -24,7 +24,7 @@ revisionQuestion:
 
 ## Content
 
-A module encapsulates an amount of code into one single code unit. Node has a module system implemented which allows for other JavaScript files to be included and used in your application. A substantial amount of Node’s core functionality was implemented using JavaScript modules.
+A module encapsulates an amount of code into one single code unit. Node has a module system implemented which allows for other JavaScript files to be included and used in your application. A substantial amount of Node's core functionality was implemented using JavaScript modules.
 
 Node incorporates 3 different module types, modules can either be core modules, local modules or third party modules. An example of a core Node module is the `http` module. Local modules are Node.js files in your project that have an `exports` object declared. Third party modules usually have a `package.json` and are installed from a remote host into your `node_modules/` folder.
 

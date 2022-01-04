@@ -56,10 +56,10 @@ In which case will a new user *not* be able to login?
 
 ???
 
-- It doesn’t have a password set up.
-- It doesn’t have a group assigned.
-- It doesn’t have a home directory. 
-- It doesn’t have an account picture.
+- It doesn't have a password set up.
+- It doesn't have a group assigned.
+- It doesn't have a home directory. 
+- It doesn't have an account picture.
 
 
 ---

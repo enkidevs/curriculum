@@ -50,7 +50,7 @@ password123! ❌
 
 There are two more things we can add to make it fully watertight.
 
-`^` and `$` make sure the match starts at the beginning of a word and ends with the word. Essentially, only whole word matches are allowed. Partial matches aren’t considered.
+`^` and `$` make sure the match starts at the beginning of a word and ends with the word. Essentially, only whole word matches are allowed. Partial matches aren't considered.
 
 Our password validator in one line of regex 🎉:
 

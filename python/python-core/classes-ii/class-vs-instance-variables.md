@@ -59,7 +59,7 @@ Is `my_var` a class or instance variable?
 
 ```python
 class Test:
-   my_var = ‘enki’
+   my_var = ‘enki'
 ```
 
 - `class`

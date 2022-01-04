@@ -71,7 +71,7 @@ A blockchain is a ??? ledger.
 [1:Distributed Ledger]
 A distributed ledger is a database that exists across several locations or among multiple participants.
 
-Think of blockchain and distributed ledger in the same way you might think of Kleenex and facial tissues. The former is a type of the latter, but it has become so popular that it becomes ingrained in people’s minds as what the product is.
+Think of blockchain and distributed ledger in the same way you might think of Kleenex and facial tissues. The former is a type of the latter, but it has become so popular that it becomes ingrained in people's minds as what the product is.
 
 [2:Wallet Address]
 Unlike a real address, this will be a long string of numbers and letters.

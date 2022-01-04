@@ -40,7 +40,7 @@ git log --pretty=format:"%h %s" --graph
 
 ## Revision
 
-To see a visual representation of the project’s branching, you would use:
+To see a visual representation of the project's branching, you would use:
 
 ```bash
 git ??? ???

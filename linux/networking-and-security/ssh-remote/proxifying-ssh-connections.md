@@ -61,10 +61,10 @@ ssh hostB ssh hostC 'ls -lah'
 
 ## Revision
 
-If you are using a middle server to connect to a third, what username will appear on the third server’s connections list?
+If you are using a middle server to connect to a third, what username will appear on the third server's connections list?
 
 ???
 
-- the middle server’s username
+- the middle server's username
 - your username
-- the third server’s username
+- the third server's username

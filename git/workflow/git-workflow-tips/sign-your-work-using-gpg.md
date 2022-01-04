@@ -68,7 +68,7 @@ git config --global ???
 git add .
 
 git commit ??? ???
-               “commit signed”
+               "commit signed"
 ```
 
 - `user.signingkey`

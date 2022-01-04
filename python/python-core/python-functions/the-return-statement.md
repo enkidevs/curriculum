@@ -71,7 +71,7 @@ def sum():
 
 ## Revision
 
-Python’s `return` statement exits a function and passes back an ??? to the function caller. It’s used to return the ??? with an output result to the function call.
+Python's `return` statement exits a function and passes back an ??? to the function caller. It's used to return the ??? with an output result to the function call.
 
 - expression
 - flow of control

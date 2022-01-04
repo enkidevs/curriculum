@@ -83,10 +83,10 @@ which starts from a given node we choose, which algorithm should we use?
 
  ???
 
-- Prim’s algorithm
-- Kruskal’s algorithm
+- Prim's algorithm
+- Kruskal's algorithm
 - Knapsack algorithm
-- Dijkstra’s algorithm
+- Dijkstra's algorithm
 
 
 ---

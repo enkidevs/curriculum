@@ -24,7 +24,7 @@ revisionQuestion:
 
 ## Content
 
-Most HTML elements have attributes specific to them. However, there is a set of attributes called “Global Attributes” which are shared among all HTML elements.
+Most HTML elements have attributes specific to them. However, there is a set of attributes called "Global Attributes" which are shared among all HTML elements.
 
 We will cover the 4 most used global attributes in this insight. Those are: `class`, `id`, `style` and `title`. 
 

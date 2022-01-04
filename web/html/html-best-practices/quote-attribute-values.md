@@ -98,9 +98,9 @@ Which line of HTML5 is NOT written correctly?
 
 ???
 
-- `<a href=”#” class=”lg btn>Click Me</a>`
+- `<a href="#" class="lg btn>Click Me</a>`
 - `<a href="#" class="md btn">Click Me</a>`
-- `<a href=’#’ class=’sm btn’>Click Me</a>`
+- `<a href='#' class='sm btn'>Click Me</a>`
 - `<a href=# class=btn>Click Me</a>`
 
 

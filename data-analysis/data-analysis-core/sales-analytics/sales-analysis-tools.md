@@ -29,11 +29,11 @@ CRMs tend to have their own built-in data visualizations, but if you want all of
 
 This can be done in many ways, and is often as simple as connecting the data straight from your BI tool.
 
-If you want to build your own CRM from scratch, **Airtable** is your tool. It’s simple to use and totally customizable. Hook it up to Zapier to create automations and integrate it with other apps.
+If you want to build your own CRM from scratch, **Airtable** is your tool. It's simple to use and totally customizable. Hook it up to Zapier to create automations and integrate it with other apps.
 
 If your website has **Intercom** or other conversation relationship management tools enabled, then sales reps can use live chat to proactively engage, qualify and convert website visitors in real time. 
 
-Intercom allows your sales reps to hop on a discovery call, demo a product or schedule a follow-up meeting with high value leads while they’re live on your website.
+Intercom allows your sales reps to hop on a discovery call, demo a product or schedule a follow-up meeting with high value leads while they're live on your website.
 
 Check out the **Learn More** link to find out about the best sales tools out there.
  

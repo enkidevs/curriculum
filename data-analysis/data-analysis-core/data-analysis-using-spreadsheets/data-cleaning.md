@@ -33,7 +33,7 @@ If your raw data has already been tampered with and you can't download it again,
 
 1. **Unpretty your spreadsheets**
 
-- Remove merged cells as these can’t be used in pivot tables and are not well supported by external tools
+- Remove merged cells as these can't be used in pivot tables and are not well supported by external tools
 - Remove multi-line headers
 - Remove titles, formatting, file version, date and authors (use the file history and versioning for that)
 

@@ -61,7 +61,7 @@ Kitty.sayName();
 
 ## Practice
 
-Complete the following snippet to output “I enjoy studying”:
+Complete the following snippet to output "I enjoy studying":
 
 ```javascript
 function Hobby(hobby){

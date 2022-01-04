@@ -66,7 +66,7 @@ Complete the `SequenceMatcher`  constructor such that empty spaces are treated a
 
 ```python
 s = SequenceMatcher(??? x: x == ???,
-    “ abcd”, “abcd abcd”)
+    " abcd", "abcd abcd")
 ```
 
 - `lambda`

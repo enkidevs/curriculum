@@ -37,7 +37,7 @@ This outputs a modal window with the text, `OK`/`CANCEL` buttons and input field
 alert(message):
 ```
 
-This outputs a window with the message and stops execution until the visitor presses the “OK” button.
+This outputs a window with the message and stops execution until the visitor presses the "OK" button.
 
 ```js
 confirm(message):

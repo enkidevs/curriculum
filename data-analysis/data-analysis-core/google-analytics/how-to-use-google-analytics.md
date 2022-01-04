@@ -56,7 +56,7 @@ The Master View is your working view. It means that you can apply many different
 
 The Test View is where you test all of your filters first. You could always skip testing a filter, but even experienced users should refrain from doing this.
 
-The Raw Data View is an untouched view where you don’t apply any modifications (like filters) that alter the data collection process. This view allows you to always go back if anything goes wrong in your working view(s).
+The Raw Data View is an untouched view where you don't apply any modifications (like filters) that alter the data collection process. This view allows you to always go back if anything goes wrong in your working view(s).
 
 > 💡 Google allows you to set up 25 views on one property so make sure to use them wisely!
 
@@ -87,7 +87,7 @@ The Analytics tracking code can collect which of the following?
 ???
 
 - Device and operating system
-- User’s favorite website
+- User's favorite website
 - User's browsing history
 
 

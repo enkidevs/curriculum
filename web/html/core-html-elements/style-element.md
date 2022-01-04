@@ -144,4 +144,4 @@ What is the `<style>` element used for?
 ## Footnotes
 
 [1:Critical CSS]
-The critical CSS is used to style the above-the-fold content of your website. Above-the-fold content is what users see when your website first loads, which can include navigation and other elements. For this reason, it’s very important to properly style and render this part of the website as quickly as possible.
+The critical CSS is used to style the above-the-fold content of your website. Above-the-fold content is what users see when your website first loads, which can include navigation and other elements. For this reason, it's very important to properly style and render this part of the website as quickly as possible.

@@ -47,7 +47,7 @@ cd573cfaace07e7949bc0c46028904ff  -
 
 ## Revision
 
-As a hack for bench-testing the computer’s CPU you can use:
+As a hack for bench-testing the computer's CPU you can use:
 
 ```bash
 ??? if=/dev/zero bs=1M 

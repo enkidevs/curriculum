@@ -108,7 +108,7 @@ Write the form code that creates an item of a dropdown.
 
 ## Revision
 
-Which line of code creates form’s dropdown list with a single item?
+Which line of code creates form's dropdown list with a single item?
 
 ???
 
@@ -125,7 +125,7 @@ Which line of code creates form’s dropdown list with a single item?
 ### How much do you know about dropdowns?
 
 
-When a form’s drop-down has an option other than the first item that needs to display by default, what attribute is used?
+When a form's drop-down has an option other than the first item that needs to display by default, what attribute is used?
 
 ```html
 <select>

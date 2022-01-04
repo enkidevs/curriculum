@@ -54,7 +54,7 @@ calc(add); // 3
 calc(subtract); // 1
 ```
 
-We don’t even need to give our functions a name. 
+We don't even need to give our functions a name. 
 
 A function without a name is called an anonymous function:
 

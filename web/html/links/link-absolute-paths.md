@@ -76,7 +76,7 @@ What is the biggest downfall to using absolute paths?
 ???
 
 - `http://www.enkipro.com/help/articles/how-do-i-set-up-a-webpage.html`
-- You don’t have control over files on other domains and if they are moved, your links will break.
+- You don't have control over files on other domains and if they are moved, your links will break.
 - `contact.html`
 - `../services.html`
 - `travel/fiji/group-photo.html`

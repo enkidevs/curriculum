@@ -99,7 +99,7 @@ Declare and update the counter `e`:
 
 ```python
 e = ???()
-e.???(“enki”)
+e.???("enki")
 ```
 
 - `Counter`

@@ -21,7 +21,7 @@ revisionQuestion:
 
 **Bitcoin** was the first public blockchain which works as a ledger for tracking bitcoin token[1] transactions happening between users. A token is a "e-currency based on cryptographic proof"[2]. The first block was mined on the 3rd of January 2009.
 
-It was all the idea of Satoshi Nakamoto (or a team with that alias). No one knows who Satoshi Nakamoto really is. There’s been plenty of speculation over the years about who it was, but none of them were confirmed.
+It was all the idea of Satoshi Nakamoto (or a team with that alias). No one knows who Satoshi Nakamoto really is. There's been plenty of speculation over the years about who it was, but none of them were confirmed.
 
 Some say this worked in favor of Bitcoin: by using a pseudonym, Satoshi Nakamoto made sure the spotlight was pointing at the technology rather than the person behind it. Slowly, but surely, the value of Bitcoin increased year by year, attracting more and more enthusiasts.
 

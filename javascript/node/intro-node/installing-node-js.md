@@ -23,9 +23,9 @@ revisionQuestion:
 
 ## Content
 
-To setup a local environment to use Node.js both a text editor and the Node.js binary installables are required. JavaScript files can be created in any text editor (Notepad, Atom, Sublime) as long as the file has the extension `.js`. However, it’s recommended to use an Integrated Development Environment (IDE) such as Webstorm which is a far more useful tool when programming.
+To setup a local environment to use Node.js both a text editor and the Node.js binary installables are required. JavaScript files can be created in any text editor (Notepad, Atom, Sublime) as long as the file has the extension `.js`. However, it's recommended to use an Integrated Development Environment (IDE) such as Webstorm which is a far more useful tool when programming.
 
-The latest version of Node is available to download from the Node website, once this has been downloaded and extracted, Node can be tested to ensure it’s working by running `node` from your terminal or command prompt:
+The latest version of Node is available to download from the Node website, once this has been downloaded and extracted, Node can be tested to ensure it's working by running `node` from your terminal or command prompt:
 
 ```bash
 node

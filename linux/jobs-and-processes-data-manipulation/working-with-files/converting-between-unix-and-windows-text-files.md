@@ -72,10 +72,10 @@ Complete the `sed` substitute command to convert a DOS file to Unix:
 sed ??? file1 > file2
 ```
 
-- `’s/^M$//’`
-- `’s/$/^M/’`
-- `’s//M$/’`
-- `’/^M/s/$//’`
+- `'s/^M$//'`
+- `'s/$/^M/'`
+- `'s//M$/'`
+- `'/^M/s/$//'`
 
 
 ---

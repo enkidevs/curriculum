@@ -71,7 +71,7 @@ Return the size of the struct:
 Return the size of the `struct` given:
 
 ```python
->>> ???.???(‘hhl’)
+>>> ???.???(‘hhl')
 8
 ```
 
@@ -91,7 +91,7 @@ Return the size of the `struct` given:
 What method should be used in the following code snippet to get a `bytes` object from the given argument?
 
 ```python
->>> struct.???(‘hhl’, 3, 13, 42)
+>>> struct.???(‘hhl', 3, 13, 42)
 b'\x03\x00\r\x00*\x00\x00\x00'
 ```
 

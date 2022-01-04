@@ -55,8 +55,8 @@ When is a `WeakHashMap`  entry taken by the garbage collector?
 
 ???
 
-- When the key’s strong reference is set to be null.
-- When it’s empty.
+- When the key's strong reference is set to be null.
+- When it's empty.
 - After it has been used once.
 
 

@@ -39,7 +39,7 @@ If there is a cron script `backup.sh` in `cron.daily/` directory, the extension 
 
 ## Revision
 
-It’s not a good idea to use ??? in a script name when you run it using `run-parts` .
+It's not a good idea to use ??? in a script name when you run it using `run-parts` .
 
 - `.` 
 - `_` 

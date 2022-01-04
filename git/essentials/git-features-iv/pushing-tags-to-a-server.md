@@ -24,7 +24,7 @@ revisionQuestion:
 
 ## Content
 
-The `git push` command doesn’t automatically transfer your tags to the remote server. 
+The `git push` command doesn't automatically transfer your tags to the remote server. 
 
 You have to push a tag that you want to share by running `git push remote [tagname]`. 
 

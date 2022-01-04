@@ -52,7 +52,7 @@ Here is the order of execution for Python's operators (highest to lowest):
 
 ## Practice
 
-What’s the output of the following code:
+What's the output of the following code:
 
 ```bash
 2 + 7 * 2 // 8
@@ -68,7 +68,7 @@ What’s the output of the following code:
 
 ## Revision
 
-What’s the output of the following code:
+What's the output of the following code:
 
 ```bash
 4 + 3 * 9 // 6

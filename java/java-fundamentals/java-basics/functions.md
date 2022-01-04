@@ -70,7 +70,7 @@ public class Example {
 
 ### Non-void Functions
 
-Instead of `void`, we could use a concrete type to denote that our function will return a specific result. For example, we could use an `int` to denote returning the result of integer multiplication or a `String` to denote returning the result of string concatenation. In general, we’re allowed to return any type available in Java (primitive or non-primitive).
+Instead of `void`, we could use a concrete type to denote that our function will return a specific result. For example, we could use an `int` to denote returning the result of integer multiplication or a `String` to denote returning the result of string concatenation. In general, we're allowed to return any type available in Java (primitive or non-primitive).
 
 ```java
 public class NonVoidExample {

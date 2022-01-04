@@ -21,7 +21,7 @@ notes: 'static workout '
 
 ## Content
 
-Code written should be made easy to maintain by following the *don’t repeat yourself* principle. 
+Code written should be made easy to maintain by following the *don't repeat yourself* principle. 
 
 The principle suggests avoiding duplications or copying and pasting blocks of code from one place to another, by moving similar or repetitive code into reusable units like methods or sometimes an entire class. 
 

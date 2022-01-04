@@ -96,7 +96,7 @@ As you can see, the `input` element is responsible for many of the form controls
 
 ## Practice
 
-Which input type creates a HTML form’s input text field?
+Which input type creates a HTML form's input text field?
 
 ```html
 <input type="???">

@@ -24,7 +24,7 @@ revisionQuestion:
 
 The spread operator automatically assigns (or spreads out) the contents of an expression to multiple arguments, elements or variables which can save you some tedious assignment code.
 
-For example let’s say we have an array with 3 values we want to pass to a function accepting three arguments:
+For example let's say we have an array with 3 values we want to pass to a function accepting three arguments:
 
 ```javascript
 let test = [1,2,3];

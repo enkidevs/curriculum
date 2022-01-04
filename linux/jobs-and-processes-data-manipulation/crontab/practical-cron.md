@@ -100,7 +100,7 @@ Setup cron to run `myScript.py` every Saturday at 8:00pm and 10:00pm :
 
 ## Revision
 
-A crontab job’s format is:
+A crontab job's format is:
 
 ```plain-text
 MIN ??? DATE ??? ??? COMMAND 

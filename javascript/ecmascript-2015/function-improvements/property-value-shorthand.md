@@ -53,7 +53,7 @@ function test() {
 test(); // { name: "enki" }
 ```
 
-> 💡 An exception will be thrown at run time if you specify a value that doesn’t exist in your return object.
+> 💡 An exception will be thrown at run time if you specify a value that doesn't exist in your return object.
 
 ```js
 function test() {

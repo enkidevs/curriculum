@@ -48,7 +48,7 @@ console.log(x); //prints ???
 - Infinity
 
 %exp
-Infinity could be any number, so we can’t represent the result of `Infinity - Infinity` as a fixed value.
+Infinity could be any number, so we can't represent the result of `Infinity - Infinity` as a fixed value.
 %
 
 ---

@@ -63,7 +63,7 @@ Create a runnable with the help of lambda expressions:
 
 ```java
 Runnable myRunnable = ??? ??? 
-   System.out.println(“my runnable”);
+   System.out.println("my runnable");
 ```
 
 - `()` 

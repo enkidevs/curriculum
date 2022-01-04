@@ -28,7 +28,7 @@ This containerized application can be tested and built on a developer's local ma
 
 The software that was developed and tested is the same software that gets deployed.
 
-> 💡 The core idea of Docker comes down to the following concept: “_develop once, run anywhere_”.
+> 💡 The core idea of Docker comes down to the following concept: "_develop once, run anywhere_".
 
 Docker enables separating an application from the infrastructure it will be run on and deployed.
 

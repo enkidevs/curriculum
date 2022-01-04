@@ -41,7 +41,7 @@ node
 16
 ```
 
-Variables can also be used in the terminal, if the `var` keyword is used then the value is stored but not printed, whereas if the *var* keyword isn’t used the value is both stored and printed.
+Variables can also be used in the terminal, if the `var` keyword is used then the value is stored but not printed, whereas if the *var* keyword isn't used the value is both stored and printed.
 
 ```bash
 > x = 5

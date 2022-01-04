@@ -30,13 +30,13 @@ revisionQuestion:
 The `write()`  method is used to write data to a writable stream. Take the following example:
 
 ```javascript
-var fs = require(‘fs’);
+var fs = require(‘fs');
 var rstream = fs.createReadStream
-                        (‘file.txt’);
+                        (‘file.txt');
 var wstream = fs.createWriteStream
-                        (‘output.txt’);
+                        (‘output.txt');
 
-rstream.on(‘data’, function(data) {
+rstream.on(‘data', function(data) {
 
  wstream.write(data);
 

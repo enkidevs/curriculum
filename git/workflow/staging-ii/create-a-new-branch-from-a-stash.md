@@ -37,7 +37,7 @@ This will create a branch `testing` and checkout the commit you were on when you
 
 ## Practice
 
-You can test stashed code using a new branch “testing”:
+You can test stashed code using a new branch "testing":
 
 ```bash
 git ??? ??? ???

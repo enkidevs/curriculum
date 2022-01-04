@@ -34,7 +34,7 @@ let myArray;
 // myArray=[1,2,3]
 ```
 
-If the source object to use for destructuring contains more values than you need you don’t necessarily have to use all of them either:
+If the source object to use for destructuring contains more values than you need you don't necessarily have to use all of them either:
 
 ```javascript
 let myArray = [1, 2, 3, 4];
@@ -42,7 +42,7 @@ let [x, y, z] = myArray;
 //x=1, y=2, z=3;
 ```
 
-If you don’t want to assign all values from the source object simply leave them out!
+If you don't want to assign all values from the source object simply leave them out!
 
 Below we will ignore the second (200) value:
 

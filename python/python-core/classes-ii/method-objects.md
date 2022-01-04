@@ -127,7 +127,7 @@ Store in variable `x` a method object from the `Test` class:
 ```python
 class Test:
    def p(self):
-       return “p method”
+       return "p method"
 ??? = Test()
 x = test.???
 ```

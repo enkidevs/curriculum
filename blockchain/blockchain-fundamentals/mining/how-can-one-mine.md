@@ -27,7 +27,7 @@ The increase in Bitcoin price made mining a highly profitable field. Many compan
 
 The most expensive ASIC has a hash rate of `13.5 TH/s` and it sells for $3,000. Latest generation CPUs can perform at most couple hundreds hashes per second (200-300 H/s), which means the ASIC is *40 trillion times* faster.
 
-The problem is ASICs take a long time to ship. Some people even think that the producers use them to mine bitcoins before sending them to users. And by the time they reach the customers, they aren’t as effective as they might have been because the network's processing power is only increasing over time.
+The problem is ASICs take a long time to ship. Some people even think that the producers use them to mine bitcoins before sending them to users. And by the time they reach the customers, they aren't as effective as they might have been because the network's processing power is only increasing over time.
 
 
 ---

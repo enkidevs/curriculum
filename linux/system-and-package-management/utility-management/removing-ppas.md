@@ -68,7 +68,7 @@ apt-get update
 
 ## Practice
 
-The safer alternative to `apt-get purge` that also removes PPA’s is 
+The safer alternative to `apt-get purge` that also removes PPA's is 
 
 ???.
 

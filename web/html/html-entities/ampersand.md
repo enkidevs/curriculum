@@ -103,7 +103,7 @@ What HTML character entity is used to insert an ampersand symbol ("&")?
 ### How much do you know about HTML character entities?
 
 
-If you have a webpage called “black&white”, what character entity is best to use in the following URL:
+If you have a webpage called "black&white", what character entity is best to use in the following URL:
 
 ```html
 <a 

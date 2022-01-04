@@ -79,7 +79,7 @@ public class Employee{
 
 ## Practice
 
-Why won’t the following code snippet compile?
+Why won't the following code snippet compile?
 
 ```java
 public class Person {
@@ -99,7 +99,7 @@ public class Company {
 - Field name of Person is private and cannot be accessed from Company.
 - this keyword is wrongly used.
 - p is not instantiated correctly.
-- p.name shouldn’t be a String.
+- p.name shouldn't be a String.
 
 
 ---

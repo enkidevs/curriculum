@@ -48,7 +48,7 @@ Advantages of using an inner class:
 
 ## Practice
 
-Which of the advantages of using inner classes is this statement describing: ‘It’s easier to understand how an inner class is to be used since it appears inside the class using it.’ 
+Which of the advantages of using inner classes is this statement describing: ‘It's easier to understand how an inner class is to be used since it appears inside the class using it.' 
 
 ???
 

@@ -48,7 +48,7 @@ while `origin` as ??? .
 
 - default first branch name
 - default remote repository name
-- new branches’ default name
+- new branches' default name
 - local folder name
 
 
@@ -62,5 +62,5 @@ while `origin` as ??? .
 
 - default first branch name
 - default remote repository name
-- new branches’ default name
+- new branches' default name
 - local folder name

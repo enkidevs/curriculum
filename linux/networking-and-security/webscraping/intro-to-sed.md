@@ -81,9 +81,9 @@ Complete the following command to replace *cat* with *rat* from lines which cont
 ```
 
 - `sed`
-- `’/dog/s/cat/rat/g’`
-- `’/s/cat/dog/g’`
-- `’/dog/!s/cat/rat/g’`
+- `'/dog/s/cat/rat/g'`
+- `'/s/cat/dog/g'`
+- `'/dog/!s/cat/rat/g'`
 - `des`
 
 

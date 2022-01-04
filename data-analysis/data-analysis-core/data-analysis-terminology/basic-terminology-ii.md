@@ -31,7 +31,7 @@ If you spot any outliers, make sure you investigate them to understand what caus
 
 Measures how **spread out** values in a data-set are.
 
-The square root of the variance gives us the **standard deviation**, which is more intuitively useful because it’s expressed in the same units as the values themselves.
+The square root of the variance gives us the **standard deviation**, which is more intuitively useful because it's expressed in the same units as the values themselves.
 
 If we plotted out the points from a normally distributed[2] data set this would form a bell-shaped curve. 
 

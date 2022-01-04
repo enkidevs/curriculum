@@ -55,7 +55,7 @@ Instantiate a `SequenceMatcher` object with the given sequences and print the si
 
 ```python
 import difflib
-a = (1, 2, 3, ‘x’)
+a = (1, 2, 3, ‘x')
 b = (1, 2)
 
 s = ???

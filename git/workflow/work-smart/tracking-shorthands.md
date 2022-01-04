@@ -45,7 +45,7 @@ Automatic:
 git checkout sharefix
 ```
 
-The final option works if the branch name you’re trying to checkout doesn’t exist locally and also matches a name on only one remote.
+The final option works if the branch name you're trying to checkout doesn't exist locally and also matches a name on only one remote.
 
 
 ---

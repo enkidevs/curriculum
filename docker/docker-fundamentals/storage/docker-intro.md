@@ -23,7 +23,7 @@ revisionQuestion:
 
 ## Content
 
-By design, data in Docker containers doesn’t persist when that container no longer exists.
+By design, data in Docker containers doesn't persist when that container no longer exists.
 
 > 💡 When a container is deleted, all of the data written to the container is deleted along with it.
 

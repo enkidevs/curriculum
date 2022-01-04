@@ -48,7 +48,7 @@ A reflow is a recomputation of the page's layout, calculating positions and dime
 
 ## Practice
 
-Which of those properties won’t preserve the space allocated for the element?
+Which of those properties won't preserve the space allocated for the element?
 
 ???
 
