@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 4th 2022
+
+### Fixed
+- [Linux - Converting Between Unix And Windows Text Files - Replace wrong quotation character with the correct one](https://github.com/enkidevs/curriculum/pull/2976)
+
 ## December 30th 2021
 
 ### Changed
