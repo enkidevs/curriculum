@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Multiple Topics - Multiple insights - Replace all occurances of "wrong" quotations that break the "solve this question" feature with normal quotations](https://github.com/enkidevs/curriculum/pull/2977)
+- [Linux - Converting Between Unix And Windows Text Files - Replace wrong quotation character with the correct one](https://github.com/enkidevs/curriculum/pull/2976)
 
 ## December 30th 2021
 

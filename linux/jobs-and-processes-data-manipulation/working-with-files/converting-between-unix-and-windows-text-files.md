@@ -46,10 +46,8 @@ sed 's/^M$//' dos_file > unix_file
 To convert from Unix to DOS:
 
 ```bash
-sed 's/$'"/`echo \\\r`/" unix_file
-                 > dos_file # bash
-sed "s/$/`echo -e \\\r`/" unix_file
-                 > dos_file # ksh
+sed 's/$'"/`echo \\\r`/" unix_file > dos_file # bash
+sed "s/$/`echo -e \\\r`/" unix_file > dos_file # ksh
 sed 's/$/\r/' unix_file > dos_file
 # gsed 3.02.80 or higher
 ```
