@@ -36,9 +36,9 @@ We will define a class that implements one method that returns the product of tw
 
 ```python
 class Calculator:
-    def multiply(self, a, b):
-        time.sleep(10)
-        return a * b
+  def multiply(self, a, b):
+    time.sleep(10)
+    return a * b
 ```
 
 If we would run a basic **unittest** on this class, it'll take `10` seconds plus the actual testing time to finish the test.

@@ -42,9 +42,9 @@ This means that once an `if` statement condition evaluates to `True`, the indent
 hungry = 'very'
 
 if hungry == 'very':
-    print('Get some food!')
+  print('Get some food!')
 else:
-    print("I bet you're hungry now!")
+  print("I bet you're hungry now!")
 ```
 
 Here, `'Get some food!'` is printed because the condition above evaluates to `True`.

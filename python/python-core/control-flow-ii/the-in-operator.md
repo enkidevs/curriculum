@@ -42,9 +42,9 @@ string = 'Python'
 sentence = "Python's the best language to learn!"
 
 if string in sentence:
-    print('I agree!')
+  print('I agree!')
 else:
-    print('Hmm, not sure I agree.')
+  print('Hmm, not sure I agree.')
 
 # I agree!
 ```
@@ -63,9 +63,9 @@ letter = 'p'
 my_string = 'stop, collaborate and listen'
 
 if letter ??? my_string:
-    print('???')
+  print('???')
 else:
-    print('???')
+  print('???')
 ```
 
 - `in`

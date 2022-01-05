@@ -31,9 +31,9 @@ Consider the `Enki` class:
 
 ```python
 class Enki:
-    def __init__(self):
-        self.__private = 3.14
-        print(self.__private)
+  def __init__(self):
+    self.__private = 3.14
+    print(self.__private)
 
 
 enki = Enki() # prints 3.14
@@ -63,8 +63,8 @@ What is the output of the following snippet?
 
 ```python
 class Test:
-   def __init__(self):
-       self.__x = "hey there"
+  def __init__(self):
+    self.__x = "hey there"
 t = Test()
 print(t.__x)
 ???

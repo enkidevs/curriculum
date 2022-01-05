@@ -65,12 +65,10 @@ Then, add the two methods:
 ```python
 # Example 1
 def perimeter(self):
-  return print("The perimeter of the given rectangle is",\
-    self.length * 2 + self.width * 2)
+  return print("The perimeter of the given rectangle is", self.length * 2 + self.width * 2)
 
 def area(self):
-  return print("The area of the given rectangle is",\
-    self.length * self.width)
+  return print("The area of the given rectangle is", self.length * self.width)
 
 
 # Example 2
