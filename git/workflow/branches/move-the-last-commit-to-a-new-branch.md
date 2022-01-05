@@ -49,9 +49,12 @@ git commit -m 'fixed'
 
 ## Practice
 
-Run the commands in the correct order such that the last commit from current branch is moved to branch `bug-fix`:
+Run the commands in the correct order such that the last commit from current branch is moved to a new branch called `bug-fix`:
 
 ```plain-text
+???
+???
+???
 ???
 ???
 ```
