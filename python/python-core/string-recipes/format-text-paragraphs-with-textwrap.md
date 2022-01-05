@@ -34,8 +34,7 @@ Import the module:
 import textwrap
 ```
 
-Wrap the text in the string *"parallel"*, so that all lines are a maximum
-of `x` characters long:
+Wrap the text in the string *"parallel"*, so that all lines are a maximum of `x` characters long:
 
 ```python
 # When x = 2
@@ -51,7 +50,7 @@ textwrap.wrap("parallel", width=4)
 
 Returns a list of lines (without trailing newlines).
 
-If we would like to include trailing newlines (`\n`) after a each string of a certain `width` we can either use the following syntax:
+If we would like to include trailing newlines (`\n`) after each string of a certain `width` we can use the following syntax:
 
 ```python
 '\n'.join(textwrap.wrap('text', width=2))
@@ -59,7 +58,7 @@ If we would like to include trailing newlines (`\n`) after a each string of a ce
 # 'te\nxt'
 ```
 
-Or we can use the `fill` method implemented in `textwrap` module:
+You can also use `fill` (a shorthand notation) to achieve the same result:
 
 ```python
 textwrap.fill("text", width=2)
@@ -67,11 +66,7 @@ textwrap.fill("text", width=2)
 # 'te\nxt'
 ```
 
-Fill a text:
-
-```python
-textwrap.fill(text, width=55)
-```
+> 💡 `fill` accepts the same keyword arguments as `wrap`
 
 Collapse and truncate a text to `width` :
 
@@ -112,7 +107,7 @@ Truncate `text` to `17` characters max:
 
 ## Revision
 
-Wrap the `text`  with a maximum of 30 chars per line:
+Wrap the `text` with a maximum of 30 chars per line:
 
 ```python
 textwrap.???(text, ???=30)
