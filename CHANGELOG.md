@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 5th 2022
+
+### Fixed
+- [Git - Move The Last Commit To A New Branch - Add missing answer fields and improve wording of PQ](https://github.com/enkidevs/curriculum/pull/2983)
+
 ## January 4th 2022
 
 ### Fixed
