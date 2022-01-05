@@ -33,7 +33,7 @@ revisionQuestion:
 
 ## Content
 
-The HTML `<map>` element is used for creating links on selected portions of an image when used alongside the `<area>` attribute.
+The HTML `<map>` element is used for creating links on selected portions of an image when used alongside the `<area>` element.
 
 [View CodePen](https://codepen.io/enkidevs/pen/ajbxbX)
 
