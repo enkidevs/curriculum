@@ -48,9 +48,16 @@ Types of change:
 
 ### Fixed
 
+## January 5th 2022
+
+### Changed
+- [Python - Format Text Paragraphs With Textwrap - Make the fill method more clear](https://github.com/enkidevs/curriculum/pull/2981)
+
 ## January 4th 2022
 
 ### Fixed
+- [HTML - Image Map - Fix incorrect description word for area element](https://github.com/enkidevs/curriculum/pull/2975)
+- [Blockchain - What Are Smart Contracts - Fix misspelled files word](https://github.com/enkidevs/curriculum/pull/2978)
 - [Linux - Converting Between Unix And Windows Text Files - Replace wrong quotation character with the correct one](https://github.com/enkidevs/curriculum/pull/2976)
 
 ## December 30th 2021
@@ -59,6 +66,8 @@ Types of change:
 - [HTML - The Caption Element - Add minor info when to use strong, b and font-weight property to avoid confusion](https://github.com/enkidevs/curriculum/pull/2972)
 
 ### Changed
+- [SQL - Join Role - Change table example](https://github.com/enkidevs/curriculum/pull/2973)
+
 - [Git - All Applicable Code Blocks - Change all single line commands that span multiple lines from PQ and RQ & content to be on a single line.](https://github.com/enkidevs/curriculum/pull/2974)
 
 ## December 29th 2021
