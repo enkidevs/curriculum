@@ -50,6 +50,9 @@ Types of change:
 
 ## January 5th 2022
 
+### Fixed
+- [Java - Multithreading Use Local Variables - Fix example](https://github.com/enkidevs/curriculum/pull/2982)
+
 ### Changed
 - [Python - Format Text Paragraphs With Textwrap - Make the fill method more clear](https://github.com/enkidevs/curriculum/pull/2981)
 
