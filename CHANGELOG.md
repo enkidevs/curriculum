@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 5th 2022
+
+### Fixed
+- [HTML - Image Base - Add mising example using OpenGraph meta tag](https://github.com/enkidevs/curriculum/pull/2984)
+
 ## January 4th 2022
 
 ### Fixed
