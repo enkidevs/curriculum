@@ -58,7 +58,7 @@ If we would like to include trailing newlines (`\n`) after each string of a cert
 # 'te\nxt'
 ```
 
-The `fill` method is shorthand notation for the above example:
+You can also use `fill` (a shorthand notation) to achieve the same result:
 
 ```python
 textwrap.fill("text", width=2)
@@ -66,7 +66,7 @@ textwrap.fill("text", width=2)
 # 'te\nxt'
 ```
 
-> 💡 `fill` doesn't require explicitly writing `\n`, it automatically creates a new line after each specified `width`.
+> 💡 `fill` accepts the same keyword arguments as `wrap`
 
 Collapse and truncate a text to `width` :
 
