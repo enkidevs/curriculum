@@ -58,7 +58,7 @@ If we would like to include trailing newlines (`\n`) after each string of a cert
 # 'te\nxt'
 ```
 
-Similarly, the `fill` method is a shorter version that can be used to achieve the same result:
+The `fill` method is shorthand notation for the above example:
 
 ```python
 textwrap.fill("text", width=2)
