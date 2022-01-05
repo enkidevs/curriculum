@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 5th 2022
+
+### Changed
+- [Html - Link Relative Paths - Change part of PQ as it wasn't worder properly](https://github.com/enkidevs/curriculum/pull/2985)
+
 ## January 4th 2022
 
 ### Fixed
