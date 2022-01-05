@@ -55,9 +55,16 @@ Example:
 </table>
 ```
 
-> 💡 In the example above, the `<b>` element is used to bring attention to the "Name" and "Starting Date" tags. 
+In the example above, the `<b>` element is used to bring attention to the "Name" and "Starting Date" tags. 
 
-If you'd like to only style the elements bold without bringing attention to them, you should replace it with the `style="font-weight:bold;"` CSS property.
+If you'd like to only style the elements bold without bringing attention to them, you should replace it with a `<span>` element, and apply the `style="font-weight:bold;"` CSS property to it:
+```html
+<td> <span style="font-weight:bold"> Name </span> </td>
+<td> <span style="font-weight:bold"> Start Date </span> </td>
+```
+
+> 💡 We add the `<span>` element because we cannot directly apply `style="font-weight:bold"` to the `<td>` element. 
+
 
 ![table-caption](https://img.enkipro.com/ec2e595bc8ee7beb5d9882c1ae15022e.png)
 
