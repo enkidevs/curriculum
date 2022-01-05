@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 5th 2022
+
+### Fixed
+- [Java - Multithreading Use Local Variables - Fix example](https://github.com/enkidevs/curriculum/pull/2982)
+
 ## January 4th 2022
 
 ### Fixed
