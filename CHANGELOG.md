@@ -51,11 +51,14 @@ Types of change:
 ## January 4th 2022
 
 ### Fixed
+- [Blockchain - What Are Smart Contracts - Fix misspelled files word](https://github.com/enkidevs/curriculum/pull/2978)
 - [Linux - Converting Between Unix And Windows Text Files - Replace wrong quotation character with the correct one](https://github.com/enkidevs/curriculum/pull/2976)
 
 ## December 30th 2021
 
 ### Changed
+- [SQL - Join Role - Change table example](https://github.com/enkidevs/curriculum/pull/2973)
+
 - [Git - All Applicable Code Blocks - Change all single line commands that span multiple lines from PQ and RQ & content to be on a single line.](https://github.com/enkidevs/curriculum/pull/2974)
 
 ## December 29th 2021

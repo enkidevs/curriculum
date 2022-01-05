@@ -76,7 +76,7 @@ What do you have to pay for to publish a smart contract on the blockchain?
 
 ## Revision
 
-What is the difference between a smart contract and code filles written in other languages?
+What is the difference between a smart contract and code files written in other languages?
 
 ???
 

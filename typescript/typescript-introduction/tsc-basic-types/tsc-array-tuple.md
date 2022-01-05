@@ -73,7 +73,7 @@ let bools: boolean[] = [];
 Tuple is like an array, but it can only take in a fixed number of elements with individual types:
 
 ```ts
-// myTyple has a number at the first position
+// numAndBoolTuple has a number at the first position
 // and a boolean at the second position
 let numAndBoolTuple: [number, boolean] = [
   1,
