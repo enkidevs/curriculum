@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 5th 2022
+
+### Changed
+- [Python - Format Text Paragraphs With Textwrap - Make the fill method more clear](https://github.com/enkidevs/curriculum/pull/2981)
+
 ## January 4th 2022
 
 ### Fixed
