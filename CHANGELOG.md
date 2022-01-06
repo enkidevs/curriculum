@@ -52,8 +52,11 @@ Types of change:
 
 ### Fixed
 - [HTML - Image Base - Add mising example using OpenGraph meta tag](https://github.com/enkidevs/curriculum/pull/2984)
+- [Git - Move The Last Commit To A New Branch - Add missing answer fields and improve wording of PQ](https://github.com/enkidevs/curriculum/pull/2983)
+- [Java - Multithreading Use Local Variables - Fix example](https://github.com/enkidevs/curriculum/pull/2982)
 
 ### Changed
+- [Html - Link Relative Paths - Change part of PQ as it wasn't worder properly](https://github.com/enkidevs/curriculum/pull/2985)
 - [Python - Format Text Paragraphs With Textwrap - Make the fill method more clear](https://github.com/enkidevs/curriculum/pull/2981)
 
 ## January 4th 2022
