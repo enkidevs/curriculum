@@ -72,6 +72,9 @@ Types of change:
 
 ## December 30th 2021
 
+### Fixed
+- [HTML - The Caption Element - Add minor info when to use strong, b and font-weight property to avoid confusion](https://github.com/enkidevs/curriculum/pull/2972)
+
 ### Changed
 - [SQL - Join Role - Change table example](https://github.com/enkidevs/curriculum/pull/2973)
 

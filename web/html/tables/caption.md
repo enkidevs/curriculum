@@ -9,6 +9,9 @@ links:
   - >-
     [HTML <caption>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption){documentation}
+  - >-
+    [HTML <b>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b){documentation}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -31,7 +34,7 @@ The HTML `<caption>`, or the **Table Caption** element is used to specify a titl
 
 Adding a clear and concise description of the table's content within the `<caption>` element is useful for helping people decide if they want to read the table or skip over it.
 
-When used, `<caption>` element must to be the **first** element within the `<table>` element to be valid, although using CSS it can be moved accordingly. The property `caption-side` can be set to `bottom` to quickly move the caption to the bottom of the table even with it added to the top of the table.
+When used, the `<caption>` element must be the **first** element within the `<table>` element to be valid, although using CSS, it can be moved accordingly. The property `caption-side` can be set to `bottom` to quickly move the caption to the bottom of the table even with it is added to the top of the table.
 
 Example:
 
@@ -39,8 +42,8 @@ Example:
 <table>
   <caption>Employee List</caption>
   <tr>
-    <td><strong>Name</strong></td>
-    <td><strong>Start Date</strong></td>
+    <td><b>Name</b></td>
+    <td><b>Start Date</b></td>
   </tr>
   <tr>
     <td>Jimmy</td>
@@ -52,7 +55,13 @@ Example:
 </table>
 ```
 
-> 💡 In the example above, the `<strong>` element is used to bring importance to the "Name" and "Starting Date" tags. However, it can be replaced with the `style="font-weight:bold;"` CSS property. 
+In the example above, the `<b>` element is used to bring attention to the "Name" and "Starting Date" tags. 
+
+If you'd like to only style the elements bold without bringing attention to them, you can apply the `style="font-weight:bold;"` CSS property:
+```html
+<td style="font-weight:bold"> Name </td>
+<td style="font-weight:bold"> Start Date </td>
+```
 
 ![table-caption](https://img.enkipro.com/ec2e595bc8ee7beb5d9882c1ae15022e.png)
 
