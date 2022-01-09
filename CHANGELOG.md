@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 9th 2022
+
+### Changed
+- [Go - Go Packages - Remove type in the gap from PQ](https://github.com/enkidevs/curriculum/pull/2986)
+
 ## January 5th 2022
 
 ### Fixed
