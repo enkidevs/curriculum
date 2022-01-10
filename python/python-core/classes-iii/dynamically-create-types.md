@@ -40,7 +40,7 @@ This `type` function takes three arguments:
 - `bases` - list of superclasses
 - `dict` - dictionary of attributes
 
-These two classes implement the same functionality although syntactically different:
+These two classes implement the same functionality although syntacticly different
 
 ```python
 # The name is set to "BigCar"
@@ -55,9 +55,12 @@ def Car_init(self, name):
     self.name = name
 
 # We can choose the name of a class
-SmallCar = type("BigCar", (), \
-{"counter": 0, "__init__": Car_init, \
-"beep": lambda self: "Beep " + self.name})
+SmallCar = type("BigCar",
+  (),
+  {"counter": 0,
+   "__init__": Car_init,
+   "beep": lambda self: "Beep " +
+                        self.name})
 ```
 
 So now these two classes are practically identical (`__name__` property is also equal), the only difference can be seen in types, which does not affect the functionality:
