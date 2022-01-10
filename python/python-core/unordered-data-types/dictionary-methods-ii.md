@@ -95,7 +95,8 @@ print(famous_siblings)
 Suppose we want to create a dictionary using the `fromkeys` method. Fill in the gaps accordingly:
 
 ```python
-new_dictionary = ???.???([1, 2, 3, 4, 5], ???)
+new_dictionary = ???.???(
+  [1, 2, 3, 4, 5], ???)
 
 print(new_dictionary)
 # {1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
