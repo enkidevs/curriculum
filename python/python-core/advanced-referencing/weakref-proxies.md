@@ -29,8 +29,8 @@ The difference is that proxies can be used without calling the `ref` first to ac
 import weakref
 
 class Enki(object):
-  def __init__(self, arg):
-    self.arg = arg
+    def __init__(self, arg):
+        self.arg = arg
 
 enki = Enki('arg')
 r = weakref.ref(enki)

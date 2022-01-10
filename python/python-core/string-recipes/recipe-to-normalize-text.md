@@ -29,7 +29,9 @@ Using the `unicodedata` Python module it's easy to normalize any **unicode** dat
 import unicodedata
 
 data = u'ïnvéntìvé'
-normal = unicodedata.normalize('NFKD', data).encode('ASCII', 'ignore')
+normal = unicodedata.normalize\
+    ('NFKD', data).\
+    encode('ASCII', 'ignore')
 print(normal)
 
 ```
