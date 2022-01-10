@@ -95,6 +95,7 @@ print(preferences)
 Fill in the following snippet so that it will return the value of `dog`:
 
 ```python
+
 animals = {
     'cat': 'persian', 
     'dog': 'pug'
