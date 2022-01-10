@@ -52,8 +52,8 @@ Considering the following class and its instantiation:
 
 ```python
 class Enki:
-  def f(self):
-    return "Python"
+    def f(self):
+        return "Python"
 
 enki = Enki()
 
