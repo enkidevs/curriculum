@@ -34,7 +34,7 @@ Suppose we have the class:
 
 ```python
 class Enki:
-  pi = 3.14
+    pi = 3.14
 ```
 
 Get all **writable** attributes of your `class object`:
