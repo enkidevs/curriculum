@@ -31,11 +31,9 @@ revisionQuestion:
 
 ```python
 square_numbers.keys()
-
 # dict_keys([1, 2, 3, 4, 5])
 
 square_numbers.values()
-
 # dict_values([1, 4, 9, 16, 25])
 ```
 
@@ -43,16 +41,15 @@ square_numbers.values()
 
 ```python
 square_numbers.pop(1)
-
 # 1
 
 print(square_numbers)
 # {2: 4, 3: 9, 4: 16, 5: 25}
 ```
 
-- `popitem()` removes the last item that was inserted in the dictionary, and returns it.
+- `popitem()` removes the last item that was inserted in the dictionary and returns it.
 
-> For versions prior to Python 3.7, `popitem()` removed an arbitrary item from the dictionary. For more information check out the links in the "Learn More" section.
+> For versions prior to Python 3.7, `popitem()` removed an arbitrary item from the dictionary. For more information, check out the links in the "Learn More" section.
 
 ```python
 square_numbers.popitem()
