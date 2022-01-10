@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 9th 2022
+
+### Changed
+- [Go - Go Packages - Remove type in the gap from PQ](https://github.com/enkidevs/curriculum/pull/2986)
+
 ## January 5th 2022
 
 ### Fixed
@@ -67,6 +72,9 @@ Types of change:
 - [Linux - Converting Between Unix And Windows Text Files - Replace wrong quotation character with the correct one](https://github.com/enkidevs/curriculum/pull/2976)
 
 ## December 30th 2021
+
+### Fixed
+- [HTML - The Caption Element - Add minor info when to use strong, b and font-weight property to avoid confusion](https://github.com/enkidevs/curriculum/pull/2972)
 
 ### Changed
 - [SQL - Join Role - Change table example](https://github.com/enkidevs/curriculum/pull/2973)
