@@ -39,7 +39,7 @@ datetime.MAXYEAR # 9999
 ## largest year of date/datetime objects
 ```
 
-Keep in mind that in the `datetime` **module** there is also a `datetime` **class** and they shouldn't be confused.
+Keep in mind that in the `datetime` **module**, there is also a `datetime` **class**; they shouldn't be confused.
 
 ```python
 # printing the current date and time
