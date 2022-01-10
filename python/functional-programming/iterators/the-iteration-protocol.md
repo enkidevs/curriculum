@@ -34,22 +34,22 @@ Iterators are always implemented as classes. Let's examine an iterator's code fo
 
 ```python
 class Counter(object):
-    def __init__(self, start, finish):
-        self.current = start
-        self.finish = finish
+  def __init__(self, start, finish):
+    self.current = start
+    self.finish = finish
 
-    def __iter__(self):
-        return self
+  def __iter__(self):
+    return self
 
-    def __next__(self):
-        if self.current > self.finish:
-            raise StopIteration
-        else:
-            self.current += 1
-            return self.current - 1
+  def __next__(self):
+    if self.current > self.finish:
+      raise StopIteration
+    else:
+      self.current += 1
+      return self.current - 1
 ```
 
-We're already familiar with the `iter` and `next` methods. The `init` method is what is called when the iterator is first created, however, it is not a constructor since, the object is already created when the code within `init` is executed. Instead, this is referred to as an initializer.
+We're already familiar with the `iter` and `next` methods. The `init` method is what is called when the iterator is first created. However, it is not a constructor since the object is already created when the code within `init` is executed. Instead, this is referred to as an initializer.
 
 In this `Counter` example, we can see that `init` takes the values defined by the creator of the iterator (the start and finish values) and keeps track of them. The `next` method checks to see if the iterator has gone beyond the defined `finish` value, and if not, increases the current value and returns the value before that. If the value has exceeded the `finish` value, a StopIteration exception is raised. Simple!
 
