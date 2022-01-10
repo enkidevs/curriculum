@@ -29,7 +29,7 @@ revisionQuestion:
 
 ## Content
 
-The `map` function is built in to the Python language. Together with the other built-in functions `filter` and `reduce`, `map` allows us to take a functional approach to programming in Python.
+The `map` function is built into the Python language. Together with the other built-in functions `filter` and `reduce`, `map` allows us to take a functional approach to programming in Python.
 
 `map` applies a given function—`function_here` in the case below—iteratively to all items in a given `input_list`[1]. The basic syntax looks like this:
 
