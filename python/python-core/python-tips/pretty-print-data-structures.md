@@ -78,7 +78,8 @@ Pretty `print` the following 2D array:
 ```python
 import ???
 
-array = [(x, {y: y * y for y in range(4)}) for x in range(8)]
+array = [(x, {y: y * y for y in range(4)})
+        for x in range(8)]
 print(pprint.???(???, width=19))
 ```
 

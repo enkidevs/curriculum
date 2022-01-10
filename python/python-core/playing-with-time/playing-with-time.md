@@ -38,7 +38,8 @@ The `time.time()` function returns the **current time** in **seconds** since "th
 
 ```python
 cur_time = time.time()
-print("Seconds since Unix Epoch: ", cur_time)
+print("Seconds since Unix Epoch: ",
+                          cur_time)
 
 # ('Seconds since Unix Epoch: ',
 #              1498231656.509076)
