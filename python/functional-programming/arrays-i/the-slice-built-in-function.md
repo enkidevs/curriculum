@@ -105,8 +105,7 @@ print(ourString[sObject])
 Use `slice` to remove every second number in the list of numbers.
 
 ```python
-nList = ['1', '2', '3', '4', '5',
-         '6', '7', '8']
+nList = ['1', '2', '3', '4', '5', '6', '7', '8']
 
 sObject = ???(???, ???, ???)
 print(nList[sObject])
