@@ -34,9 +34,9 @@ For example, here's how you might check whether a number is greater than another
 my_age = 23
 legal_age = 21
 if my_age >= legal_age:
-  print("You can have a beer!")
+    print("You can have a beer!")
 else:
-  print("Unlucky.")
+    print("Unlucky.")
 ```
 
 
@@ -62,7 +62,7 @@ Let's write some Python code! Do you remember how to print a message?
 my_age = 20
 legal_age = 18
 if my_age >= legal_age:
-  ???("Enjoy the ride!")
+    ???("Enjoy the ride!")
 ```
 
 - print
