@@ -89,7 +89,8 @@ This module provide other useful methods for working with dates, times and calen
 Set the first day of the week of your `calendar` to be Monday:
 
 ```python
-calendar.???(calendar.MONDAY)
+calendar.??? \
+  (calendar.MONDAY)
 ```
 
 - `setfirstweekday`

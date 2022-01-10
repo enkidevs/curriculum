@@ -41,8 +41,10 @@ class Connection(object):
   def post(self):
     self.method = "POST"
       # ^ mutates the Connection object
-    self.httpconnection.request(self.method, "/")
-    self.result = self.httpconnection.getresponse()
+    self.httpconnection.request(
+      self.method, "/")
+    self.result =
+      self.httpconnection.getresponse()
     conn.result.read()
     return self.result
 ```

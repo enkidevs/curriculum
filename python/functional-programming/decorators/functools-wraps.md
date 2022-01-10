@@ -26,7 +26,8 @@ For example, for the code below:
 ```python
 def h2_decorate(string_function):
   def func_wrapper(name):
-    return "<h2>{0}</h2>".format(string_function(name))
+    return "<h2>{0}</h2>" \
+    .format(string_function(name))
   return func_wrapper
 
 @h2_decorate
@@ -52,7 +53,8 @@ from functools import wraps
 def h2_decorate(string_function):
   @wraps(string_function)
   def func_wrapper(name):
-    return "<h2>{0}</h2>".format(string_function(name))
+    return "<h2>{0}</h2>"
+      .format(string_function(name))
   return func_wrapper
 
 print(say_hello.__name__)
