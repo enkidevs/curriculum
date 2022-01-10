@@ -27,7 +27,7 @@ Last insight, we've seen how **recursion** and **generators** can work together.
 
 Consider the following example:
 
-```plain-text
+```python
 def fibonacci():
     #Generating fibonacci sequence
     a, b = 0, 1
@@ -51,7 +51,7 @@ This is why we define the second **generator** called `firstn` which accepts two
 
 Finally, we print a list containing the first 10 *elements* of the *Fibonacci sequence*:
 
-```plain-text
+```python
 # Output:
 # [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 ```
@@ -99,8 +99,7 @@ def n_power(g,n):
     for i in range(n):
       yield next(g)
 
-print(list(n_power(
-  power_of_two(), 4)))
+print(list(n_power(power_of_two(), 4)))
 ```
 
 ???

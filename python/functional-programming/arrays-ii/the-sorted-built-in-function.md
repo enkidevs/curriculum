@@ -105,8 +105,7 @@ print(sorted([4, 0, 2, 3, 1, 5]))
 What is the result of the execution of the following code snippet?
 
 ```python
-print(sorted([0, 2, 3, 1,
-'a', 'b', 'A', 'B']))
+print(sorted([0, 2, 3, 1, 'a', 'b', 'A', 'B']))
 ```
 
 ???
