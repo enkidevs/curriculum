@@ -105,18 +105,9 @@ We have three lists, `fnames`, `lnames`, `locations`, which are ordered so that 
 Fill in the gaps in the code below to achieve this.
 
 ```python
-locations = ['IT',
-             'FR',
-             'FR',
-             'RU']
-fnames = ['italo',
-          'jean',
-          'emily',
-          'katya']
-lnames = ['calvino',
-          'micheal',
-          'rambert',
-          'sokolov']
+locations = ['IT', 'FR', 'FR', 'RU']
+fnames = ['italo', 'jean', 'emily', 'katya']
+lnames = ['calvino', 'micheal', 'rambert', 'sokolov']
 
 result = zip(???, ???)
 result2 = zip(???, ???)
