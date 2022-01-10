@@ -80,7 +80,8 @@ bytearray(b'.\xf0\xf1\xf2')
 Convert the bytearray object into a hexadecimal string:
 
 ```python
->>> ???(b'\xf0\xf1\xf2').???()
+>>> ???(b'\xf0\xf1\xf2') \
+    .???()
 'f0f1f2'
 ```
 

@@ -39,12 +39,12 @@ To *override* a parent method, the child class should define a method with the *
 
 ```python
 class Animal:
-  def identify(self):
-    print("I am an animal")
+    def identify(self):
+        print("I am an animal")
 
 class Bird(Animal):
-  def identify(self):
-    print("I am a bird")
+    def identify(self):
+        print("I am a bird")
 
 bird = Bird()
 bird.identify()
@@ -58,10 +58,10 @@ To add some behavior to a method but also use the parent method behavior, use `s
 # No changes made to the class Animal
 # Change class Bird to:
 class Bird(Animal):
-  def identify(self):
-    # added line, calls parent method
-    super().identify()
-    print("I am a bird")
+    def identify(self):
+         # added line, calls parent method
+        super().identify()
+        print("I am a bird")
 
 bird = Bird()
 bird.identify()
