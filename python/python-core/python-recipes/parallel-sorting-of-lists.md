@@ -43,7 +43,7 @@ age = [18, 21, 40, 32]
 names, age = zip(*sorted(zip(names, age)))
 ```
 
-The `sorted()` method is the equivalent of `sort()` in python3. It sorts the tuples formed from the first `zip` comparing them by the *1st* element of each tuple.
+The `sorted()` method is the equivalent of `sort()` in python3. It sorts the tuples formed from the first `zip`, comparing them by each tuple's *1st* element.
 
 
 ---
