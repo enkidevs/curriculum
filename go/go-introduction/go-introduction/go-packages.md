@@ -5,7 +5,6 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -90,9 +89,7 @@ import (
 )
 ```
 
-```plain-text
 ???
-```
 
 - B
 - A
