@@ -32,11 +32,11 @@ Note that for pytest to run the assertion function, it has to start with `test_`
 ```python
 # multiply_pytest.py
 def multiply(a, b):
-    return a * b
+  return a * b
 def test_one():
-    assert multiply(2, 3) == 6
+  assert multiply(2, 3) == 6
 def test_two():
-    assert multiply(3, 2) == 5
+  assert multiply(3, 2) == 5
 ```
 
 The test can be run issuing the following command[1]:
@@ -75,7 +75,7 @@ The **output** is split into two main parts. The first half contains information
 - the number of **tests** collected from that file;
 - the label: `F` if tests fail, or `P` if they pass.
 
-If any **test** fails, then pytest will generate the second part. This part shows the line that causes each **test case** to fail, marked by the `>` sign. Furthermore, it gives a detailed explanation of the **assertion** and finally it states what type of **error** was encountered.
+If any **test** fails, then pytest will generate the second part. This part shows the line that causes each **test case** to fail, marked by the `>` sign. Furthermore, it gives a detailed explanation of the **assertion**, and finally, it states what type of **error** was encountered.
 
 
 ---
