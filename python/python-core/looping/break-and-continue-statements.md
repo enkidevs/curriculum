@@ -29,12 +29,12 @@ For example:
 ```python
 x = 5
 while (x > 0):
-  if (x == 2):
-    # exit the loop
-    # when x equals 2
-    break
-  print(x)
-  x = x - 1
+    if (x == 2):
+        # exit the loop
+        # when x equals 2
+        break
+    print(x)
+    x = x - 1
 
 print("Broken away!")
 ```

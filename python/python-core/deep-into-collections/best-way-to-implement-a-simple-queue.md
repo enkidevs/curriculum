@@ -67,7 +67,8 @@ Complete the code snippet so that the queue reads Enki:
 
 ```python
 from collections import deque
-queue = deque(["i", "n", "k", "i"])
+queue = deque(["i", "n", \
+              "k", "i"])
 
 queue.???
 queue.???
