@@ -60,7 +60,7 @@ word = 'list'
 sentence = 'we know about numbers, strings and booleans'
 
 ??? word ??? in sentence:
-  print("Let's learn some more data types!")
+    print("Let's learn some more data types!")
 ```
 
 - `if`
