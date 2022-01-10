@@ -36,24 +36,23 @@ We will define a class that implements one method that returns the product of tw
 
 ```python
 class Calculator:
-    def multiply(self, a, b):
-        time.sleep(10)
-        return a * b
+  def multiply(self, a, b):
+    time.sleep(10)
+    return a * b
 ```
 
 If we would run a basic **unittest** on this class, it'll take `10` seconds plus the actual testing time to finish the test.
 
 Let's define a **unittest** using a mock example:
 
-```plain-text
+```python
 from unittest import TestCase
 from unittest.mock import patch
 
 class TestCalculator(TestCase):
-    @patch('main.Calculator.multiply',
-                  return_value=9)
-    def test_multiply(self, multiply):
-        self.assertEqual(multiply(2,3), 9)
+  @patch('main.Calculator.multiply', return_value=9)
+  def test_multiply(self, multiply):
+    self.assertEqual(multiply(2,3), 9)
 ```
 
 We are importing the `patch` decorator[1] from `unittest.mock`. It replaces the actual `multiply` function with a **mock function** that behaves exactly how we want it to. In this case, our **mock function** always returns `9`. During the lifetime of our **test**, the `multiply` function is replaced with its **mocked version**.
