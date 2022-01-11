@@ -22,7 +22,7 @@ revisionQuestion:
 
 ## Content
 
-Another useful **Python** module is `sched` and it's used for general purpose event scheduling.
+Another useful **Python** module is `sched`, and it's used for general-purpose event scheduling.
 
 Import the module:
 
@@ -31,7 +31,7 @@ import sched
 import time # we will use this
 ```
 
-Every operation is done with the help of a `scheduler` class that needs two time functions. The first one to determine the current time and the second to wait for a specific period of time. (e.g. `time.time` and `time.sleep`)
+Every operation is done with the help of a `scheduler` class that needs two-time functions. The first one to determine the current time and the second to wait for a specific period of time. (e.g. `time.time` and `time.sleep`)
 
 ```python
 s = sched.scheduler(time.time, time.sleep)
@@ -55,7 +55,7 @@ Then we run our scheduler:
 s.run()
 ```
 
-`first` is printed after 2 seconds while `second` is printed after 3 seconds.
+`first` is printed after 2 seconds, and the `second` after 3 seconds.
 
 
 ---
@@ -92,7 +92,7 @@ Given the scheduler code:
 ```python
 sched.enter(3,2,print,argument=('second',))
 ```
-What is the priority and what the delay?
+What is the priority, and what is the delay?
 ```python
 # Priority ???
 # Delay ???
