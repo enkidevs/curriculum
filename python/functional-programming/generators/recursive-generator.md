@@ -30,9 +30,9 @@ Consider the following example:
 
 ```python
 def infinity(start):
-    yield start
-    for x in infinity(start + 1)
-      yield x
+  yield start
+  for x in infinity(start + 1)
+    yield x
 ```
 
 We defined a **generator** that counts up to infinity. During the first evaluation, the starting value will be **returned**. Then we loop on the new **generators** created in the `for`'s body.
@@ -43,8 +43,8 @@ Let's check out the example above implemented using `yield from`:
 
 ```python
 def infinity(start):
-    yield start
-    yield from infinity(start + 1)
+  yield start
+  yield from infinity(start + 1)
 
 gen = infinity(20)
 print(next(gen)) # 20
@@ -64,9 +64,9 @@ Can you spot which of the following generators are recursive?
 
 ```python
 def list_gen(l):
-    if l:
-        yield l[0]
-        yield from list_gen(l[1:])
+  if l:
+    yield l[0]
+    yield from list_gen(l[1:])
 
 def cubic_generator(n):
 	for i in range(n):

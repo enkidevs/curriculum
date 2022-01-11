@@ -28,13 +28,13 @@ revisionQuestion:
 
 ## Content
 
-Find a list of all python modules installed on a machine by running the following command in a terminal.
+Find a list of all Python modules installed on a machine by running the following command in a terminal.
 
 ```bash
 pydoc modules
 ```
 
-Or, inside of a python interactive shell:
+Or, inside of a Python interactive shell:
 
 ```python
 >>> help('modules')
@@ -45,7 +45,7 @@ Or, inside of a python interactive shell:
 
 ## Practice
 
-Complete the following command such that when used in the Python interactive shell it will show all modules installed on the machine:
+Complete the following command such that when used in the Python interactive shell, it will show all modules installed on the machine:
 
 ```py
 >>> ???('???')
@@ -63,7 +63,7 @@ Complete the following command such that when used in the Python interactive she
 
 ## Revision
 
-What command/s can be ran in **a terminal*** in order to see all Python modules installed on the machine?
+What command can be used in **a terminal*** to see all Python modules installed on the machine?
 
 ???
 
