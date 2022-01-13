@@ -54,7 +54,7 @@ print(a)
 
 Note that `[0:2]` does not include the item at index `2`.
 
-We can also use `del` to delete all of the items inside a `list`, or the whole object itself:
+We can also use `del` to delete all of the items inside a `list` or the whole object itself:
 
 ```python
 # delete all the items

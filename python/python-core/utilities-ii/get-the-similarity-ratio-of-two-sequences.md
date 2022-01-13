@@ -21,7 +21,7 @@ revisionQuestion:
 
 ## Content
 
-`difflib`'s `SequenceMatcher` class and its ratio method makes it easy to compute the "similarity" of two sequences.
+`difflib`'s `SequenceMatcher` class and its ratio method make it easy to compute the "similarity" of two sequences.
 
 ```python
 import difflib
@@ -42,7 +42,7 @@ With the output:
 40.0
 ```
 
-*Junk* sequences (such as whitespace or blank lines) can be passed as the first argument of the function, for them not to be taken into account. The default value is `None`, when nothing is ignored.
+*Junk* sequences (such as whitespace or blank lines) can be passed as the first argument of the function, for them not to be taken into account. The default value is `None` when nothing is ignored.
 
 It can be used to compare sequences of characters as well, i.e. strings.
 
