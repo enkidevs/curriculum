@@ -62,6 +62,7 @@ Types of change:
 ### Changed
 - [Html - Link Relative Paths - Change part of PQ as it wasn't worder properly](https://github.com/enkidevs/curriculum/pull/2985)
 - [Python - Format Text Paragraphs With Textwrap - Make the fill method more clear](https://github.com/enkidevs/curriculum/pull/2981)
+- [Python - Sequential Data Types II - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3012)
 - [Python - Decorators - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3023)
 - [Python - Functional Programming II - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3025)
 - [Python - String Recipes - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3013)
