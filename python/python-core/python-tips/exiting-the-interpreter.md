@@ -68,7 +68,7 @@ sys.???
 
 ## Revision
 
-What is the key stroke for exiting python interpreter (REPL)?
+What is the keyboard shortcut for exiting python interpreter (REPL)?
 
 ???
 
