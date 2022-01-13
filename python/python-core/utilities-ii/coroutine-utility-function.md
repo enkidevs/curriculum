@@ -63,7 +63,7 @@ Convert `my_generator` to a coroutine function:
 import types
 
 def my_generator():
-   yield 1
+  yield 1
 
 my_coroutine = ???.???(my_generator)
 ```

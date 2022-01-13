@@ -34,11 +34,11 @@ cube_dict = {x: x ** 3 for x in num_list}
 
 ```
 
-Now if we print cube_dict, we get:
+Now, if we print `cube_dict`, we get:
 
 ```python
 for k, v in cube_dict.items():
-    print(k, v)
+  print(k, v)
 # output
 # 1 1
 # 2 8
@@ -58,17 +58,18 @@ print(lcase_freqs)
 # partial output ...
 
 {'u': 0, 'q': 0, 'w': 0, 'o': 0, \
-'b': 0,  'c': 0, 't': 0, 'h': 0, \
+ 'b': 0,  'c': 0, 't': 0, 'h': 0, \
 ...
-'g': 0, 'a': 0, 'n': 0}
+ 'g': 0, 'a': 0, 'n': 0}
+ 
 # Check it is correct:
 lfk = list(lcase_freqs.keys())
 lfk.sort()
 print(lfk)
 ['a', 'b', 'c', 'd', 'e', 'f', \
-'g', 'h', 'i', 'j', 'k', 'l', \
-'m', 'n', 'o', 'p','q', 'r', \
-'s', 't', 'u', 'v', 'w', 'x', \
-'y', 'z']
+ 'g', 'h', 'i', 'j', 'k', 'l', \
+ 'm', 'n', 'o', 'p','q', 'r', \
+ 's', 't', 'u', 'v', 'w', 'x', \
+ 'y', 'z']
 
 ```
