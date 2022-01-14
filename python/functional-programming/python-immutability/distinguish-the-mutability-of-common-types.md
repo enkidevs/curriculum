@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [PYTHON OBJECTS: MUTABLE VS.
-    IMMUTABLE](https://codehabitude.com/2013/12/24/python-objects-mutable-vs-immutable/){website}
+    IMMUTABLE](https://www.geeksforgeeks.org/mutable-vs-immutable-objects-in-python/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -63,7 +63,7 @@ For example, consider the following code snippet:
 ```python
 string = ""
 for line in file:
-    string += str(line)
+  string += str(line)
 ```
 
 In this case, while the code will execute and perform the functionality correctly, as we increase the size of the string it will become increasingly more inefficient. This is because of the immutability of the `string` type, which causes the concatenation operation performed at each iteration to create a whole new copy of the string. As we reach the end of a large file, every iteration of the loop will be creating and discarding a very large string, which could potentially be needlessly I/O intensive and a waste of memory.
@@ -73,7 +73,7 @@ With the knowledge of which data types are mutable, you can choose a better data
 ```python
 list = [] # List is mutable!
 for line in file:
-    list.append(str(line))
+  list.append(str(line))
 "".join(list)
 ```
 

@@ -57,8 +57,7 @@ for x in list:
 A better and faster way is:
 
 ```python
-slist = [some_function(elt) \
-  for elt in somelist]
+slist = [some_function(elt) for elt in somelist]
 s = "".join(slist)
 ```
 

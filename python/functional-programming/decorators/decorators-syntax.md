@@ -26,8 +26,7 @@ def say_hello(name):
   return "Hello, {0}!".format(name)
 def h2_decorate(string_function):
   def func_wrapper(name):
-    return "<h2>{0}</h2>"
-      .format(string_function(name))
+    return "<h2>{0}</h2>".format(string_function(name))
   return func_wrapper
 hello_wrapper = h2_decorate(say_hello)
 ```
@@ -37,8 +36,7 @@ We can shorten the code and get rid of the variable assignment by introducing th
 ```python
 def h2_decorate(string_function):
   def func_wrapper(name):
-    return "<h2>{0}</h2>"
-      .format(string_function(name))
+    return "<h2>{0}</h2>".format(string_function(name))
   return func_wrapper
 
 @h2_decorate
@@ -55,8 +53,7 @@ As you can see, the function is decorated, without the need of an explicit `h2_d
 # variable assignment
 def say_hello(name):
   return "Hello, {0}!".format(name)
-long_wrap =
-  div_decorate(h2_decorate(say_hello))
+long_wrap = div_decorate(h2_decorate(say_hello))
 print(long_wrap("Mike"))
 
 # @ notation
@@ -83,8 +80,7 @@ However, this syntax requires an additional enclosing function, as the **decorat
 def tags_wrapper(tag):
   def func_decorator(string_function):
     def name_wrapper(name):
-      return "<{0}>{1}</{0}>"
-        .format(tag, string_function(name))
+      return "<{0}>{1}</{0}>".format(tag, string_function(name))
     return name_wrapper
   return func_decorator
 

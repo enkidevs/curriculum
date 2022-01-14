@@ -35,7 +35,7 @@ If you need to lowercase all the input strings:
 ```python
 lower_list = []
 for word in input_list:
-    lower_list.append(word.lower())
+  lower_list.append(word.lower())
 ```
 
 Instead, you can use `map()` to push the loop into compiled C code:
@@ -47,8 +47,7 @@ lower_list = map(str.lower, input_list)
 Also, in Python 2.0 or above, there are list comprehensions. List comprehension are the "pythonic" way to approach this situation. `map()` is more often used in JavaScript. We recommend usage of list comprehension:
 
 ```python
-lower_list = [word.lower() \
-  for word in input_list]
+lower_list = [word.lower() for word in input_list]
 ```
 
 They are both more efficient than simple `for` loop statement.
@@ -63,8 +62,7 @@ Use list comprehension to modify a list of characters such that all its elements
 ```python
 strings = ['a', 'e', 'i', 'o', 'u']
 
-lower_list = [word.??? \
-  for word in ???]
+lower_list = [word.??? for word in ???]
 ```
 
 - upper()

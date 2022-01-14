@@ -30,7 +30,7 @@ We begin by importing the *doctest* module and defining a function:
 import doctest
 
 def multiply(a, b):
-    return a * b
+  return a * b
 ```
 
 Then, define the tests inside the function's docstring[1]:
@@ -40,24 +40,24 @@ Then, define the tests inside the function's docstring[1]:
 import doctest
 
 def multiply(a, b):
-    """
-    Test for numbers:
+  """
+  Test for numbers:
 
-    >>> multiply(3,3)
-    9
+  >>> multiply(3,3)
+  9
 
-    Test for chars:
+  Test for chars:
 
-    >>> multiply('a',3)
-    'aaa'
-    >>> multiply('a',0)
-    ''
-    """
+  >>> multiply('a',3)
+  'aaa'
+  >>> multiply('a',0)
+  ''
+  """
 
-    return a * b
+  return a * b
 
 if __name__ == '__main__':
-    doctest.testmod()
+  doctest.testmod()
 
 ```
 
@@ -73,24 +73,24 @@ The output:
 
 ```python
 Trying:
-    multiply(3, 3)
+  multiply(3, 3)
 Expecting:
-    9
+  9
 ok
 Trying:
-    multiply('a', 3)
+  multiply('a', 3)
 Expecting:
-    'aaa'
+  'aaa'
 ok
 Trying:
-    multiply('a', 0)
+  multiply('a', 0)
 Expecting:
-    ''
+  ''
 ok
 1 items had no tests:
-    __main__
+  __main__
 1 items passed all tests:
-   3 tests in __main__.multiply
+  3 tests in __main__.multiply
 3 tests in 2 items.
 3 passed and 0 failed.
 Test passed.
@@ -105,12 +105,12 @@ Create a `doctest` for the following methods:
 
 ```python
 def sum(a, b):
-    # Test:
-    """
-    >>> ??? ???
-    2
-    """
-    return ???
+  # Test:
+  """
+  >>> ??? ???
+  2
+  """
+  return ???
 ```
 
 - sum
