@@ -27,10 +27,10 @@ Suppose we have the class definition:
 
 ```python
 class Enki:
-    class_var = 'python'  # class var
+  class_var = 'python'  # class var
 
-    def __init__(self, inst):
-        self.inst = inst  # instance var
+  def __init__(self, inst):
+    self.inst = inst  # instance var
 ```
 
 The difference between the types of variables can be easily seen:
@@ -59,7 +59,7 @@ Is `my_var` a class or instance variable?
 
 ```python
 class Test:
-   my_var = ‘enki’
+  my_var = ‘enki’
 ```
 
 - `class`

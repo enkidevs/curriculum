@@ -53,7 +53,7 @@ print(a_string)
 # Learning Python with Enki, workout number 3.
 ```
 
-As you can see, the `format` method takes in the replacements as arguments, and returns the formatted string. Another useful feature of this method is that you can decide which argument is replaced, by using indexes:
+As you can see, the `format` method takes in the replacements as arguments and returns the formatted string. Another useful feature of this method is that you can decide which argument is replaced by using indexes:
 
 ```py
 app = 'Enki'
