@@ -50,7 +50,7 @@ for x in range(4):
 print(pprint.pformat(data, width=19))
 ```
 
-Instead of a single line our output will be:
+Instead of a single line, our output will be:
 
 ```python
 [(0, {0: 0, 1: 1}),
@@ -78,8 +78,7 @@ Pretty `print` the following 2D array:
 ```python
 import ???
 
-array = [(x, {y: y * y for y in range(4)})
-        for x in range(8)]
+array = [(x, {y: y * y for y in range(4)}) for x in range(8)]
 print(pprint.???(???, width=19))
 ```
 
