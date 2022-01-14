@@ -25,7 +25,7 @@ The standard `while` loop syntax is:
 
 ```python
 while condition:
-    doSomething()
+  doSomething()
 ```
 
 While the condition evaluates to *true*, the code inside the loop is executed. As soon as the condition evaluates to *false*, the loop is exited and the code immediately following the loop is executed.
@@ -35,8 +35,8 @@ For example:
 ```python
 counter = 0
 while counter < 5:
-    print(counter)
-    counter = counter + 1
+  print(counter)
+  counter = counter + 1
 ```
 
 Gives the following output:
@@ -80,8 +80,8 @@ What’s the output of the following code snippet:
 ```python
 x = 0
 while x < 5:
-    x = x + 1
-    print(x)
+  x = x + 1
+  print(x)
 ```
 
 ???

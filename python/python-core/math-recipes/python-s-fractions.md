@@ -23,7 +23,7 @@ revisionQuestion:
 
 ## Content
 
-Support for rational number arithmetic can be achieved using Python's  `fractions` module.
+Support for rational number arithmetic can be achieved using Python's `fractions` module.
 
 Import the module:
 
@@ -49,7 +49,7 @@ print(fractions.gcd(25,75))
 #  25
 ```
 
-Keep in mind that with the release of Python 3.5, this method is deprecated and `math.gcd()` should be used.
+Keep in mind that with the release of Python 3.5, this method is deprecated, and `math.gcd()` should be used.
 
 
 ---

@@ -87,8 +87,7 @@ Suppose we have the following lists. We want to know the temperature in UK. Fill
 countries = ['USA','UK','SP']
 temp = ['28','29','30']
 
-new = ???(???(
-    countries,temp))
+new = ???(???(countries,temp))
 new.???('USA')
 new.pop('SP')
 
