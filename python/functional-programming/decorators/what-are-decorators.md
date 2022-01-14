@@ -43,8 +43,7 @@ You could always define another function that makes use of `say_hello`:
 
 ```python
 def hello_heading(name):
-  return "<h2>{0}</h2>"
-    .format(say_hello(name))
+  return "<h2>{0}</h2>".format(say_hello(name))
 ```
 
 Which is perfectly acceptable, but you'd be giving away the opportunity of making your code extensible. What if you are going to need a `say_goodbye` function, formatted in the same way? You'd have to create two more functions:
@@ -53,8 +52,7 @@ Which is perfectly acceptable, but you'd be giving away the opportunity of makin
 def say_goodbye(name):
   return "Goodbye, {0}!".format(name)
 def goodbye_heading(name):
-  return "<h2>{0}</h2>"
-    .format(say_goodbye(name))
+  return "<h2>{0}</h2>".format(say_goodbye(name))
 ```
 
 This is not ideal, since all you had done, for each function, was to **decorate** (enhance, manipulate or extend) their output. What if you could write a function that wraps any function's output in `<h2>` tags?
@@ -62,8 +60,7 @@ This is not ideal, since all you had done, for each function, was to **decorate*
 ```python
 def h2_decorate(string_function):
   def func_wrapper(name):
-    return "<h2>{0}</h2>"
-      .format(string_function(name))
+    return "<h2>{0}</h2>".format(string_function(name))
   return func_wrapper
 ```
 
@@ -87,7 +84,7 @@ If you couldn't figure it out, consider that `h2_decorate`'s references to the `
 
 ## Practice
 
-The number of similar looking functions that can be decorated using the same decorator is
+The number of similar-looking functions that can be decorated using the same decorator is
 
 ???
 
@@ -108,13 +105,11 @@ def say_hello(name):
   return "Hello, {0}!".format(name)
 # A
 def hello_heading(name):
-  return "<h2>{0}</h2>"
-    .format(say_hello(name))
+  return "<h2>{0}</h2>".format(say_hello(name))
 # B
 def hello_heading(func):
   def func_wrapper(name):
-    return "<h2>{0}</h2>"
-      .format(func(name))
+    return "<h2>{0}</h2>".format(func(name))
   return func_wrapper
 ```
 

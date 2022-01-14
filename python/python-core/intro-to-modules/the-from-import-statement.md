@@ -34,12 +34,12 @@ Consider the following module:
 # my_functions.py
 
 def hello(what):
-    text = "Hello, " + what
-    print(text)
+  text = "Hello, " + what
+  print(text)
 def cube(x):
-    print(x ** 3)
+  print(x ** 3)
 def quad(x):
-    print(x ** 4)
+  print(x ** 4)
 ```
 
 To access exposed methods of it we could do the following:
@@ -96,8 +96,7 @@ def ???
 
 ```python
 # main.py
-??? ??? ??? subtract
-            ??? ???
+??? ??? ??? subtract ??? ???
 
 sub(20, 3)
 # 20 - 3 is: 17
@@ -125,8 +124,7 @@ sub(20, 3)
 How can you specifically import the `calculate_volume` method of `cylinder` module?
 
 ```python
-??? ??? ???
-    ???
+??? ??? ??? ???
 
 radius = 10
 height = 30
