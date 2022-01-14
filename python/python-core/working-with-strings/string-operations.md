@@ -23,7 +23,7 @@ revisionQuestion:
 
 Strings are bits of text either defined with 'single' or "double" quotations. Python has a number of built-in methods which perform a variety of operations on strings.
 
-First we'll declare a string for method testing purposes:
+First, we'll declare a string for method testing purposes:
 
 ```python
 testString = 'operations'
