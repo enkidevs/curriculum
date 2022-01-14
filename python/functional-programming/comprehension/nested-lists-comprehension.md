@@ -27,27 +27,23 @@ Since a list comprehension can take any **expression** as its initial expression
 These are often useful, but are often used to work with matrices.
 
 ```python
-matrix = [[1, 2, 3], [4, 5, 6], \
-[7, 8, 9]]
-
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 ```
 
 Say we want to create another matrix with values equal to the squares of each element in the original matrix:
 
 ```python
-matrix2 = [[x**2 for x in row] for \
-row in matrix]
-#matrix2 = [[1, 4, 9], [16, 25, 36],\
-# [49, 64, 81]]
+matrix2 = [[x**2 for x in row] for row in matrix]
+#matrix2 = [[1, 4, 9], [16, 25, 36], [49, 64, 81]]
 ```
 
 A more advanced list comprehension with two for clauses and two if clauses:
 
 ```python
 lc = [ (x, y) for x in \
-range(10) if x % 2 == 0 \
-for y in range(20) if \
-y % 3 == 0 ]
+     range(10) if x % 2 == 0 \
+     for y in range(20) if \
+     y % 3 == 0 ]
 # lc
 # [(0, 0), (0, 3), (0, 6), \
 # (0, 9), (0, 12), (0, 15), (0, 18),\
@@ -70,7 +66,6 @@ Use nested list comprehension to generate a list of tuples, where the first elem
 Ex: (1,1),(1,2),(1,3),...(9,7),(9,8),(9,9).
 
 ```python
-
 l = [??? for x in range(10)\
     if ??? for y in ???]
 ```

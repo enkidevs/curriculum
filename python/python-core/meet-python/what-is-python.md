@@ -34,16 +34,15 @@ For example, here's how you might check whether a number is greater than another
 my_age = 23
 legal_age = 21
 if my_age >= legal_age:
-    print("You can have a beer!")
+  print("You can have a beer!")
 else:
-    print("Unlucky.")
+  print("Unlucky.")
 ```
 
 
 Python is also a *general-purpose* programming language. That means it can be used for *just about anything*. 
 
 You can use it to build websites, web apps and desktop apps. But it's also used in scientific computing, artificial intelligence, and data analysis!
-
 
 > 💬 Why are you interested in Python?
 >
@@ -62,7 +61,7 @@ Let's write some Python code! Do you remember how to print a message?
 my_age = 20
 legal_age = 18
 if my_age >= legal_age:
-    ???("Enjoy the ride!")
+  ???("Enjoy the ride!")
 ```
 
 - print
