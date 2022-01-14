@@ -37,20 +37,20 @@ Let's define a **queue** class now:
 
 ```py
 class Queue:
-    def __init__(self):
-        self.items = []
+  def __init__(self):
+    self.items = []
 
-    def isEmpty(self):
-        return self.items == []
+  def isEmpty(self):
+    return self.items == []
 
-    def enqueue(self, item):
-        self.items.insert(0,item)
+  def enqueue(self, item):
+    self.items.insert(0,item)
 
-    def dequeue(self):
-        return self.items.pop()
+  def dequeue(self):
+    return self.items.pop()
 
-    def size(self):
-        return len(self.items)
+  def size(self):
+    return len(self.items)
 ```
 
 > 💡 Instead of `size`  you can use `__len__`. It will allow you to use `len(myQueue)` instead of `myQueue.size()`. Check the *Learn More* section for a playground link. We've prepared both queue classes in there so you can test them out and decide which one you want to use.
