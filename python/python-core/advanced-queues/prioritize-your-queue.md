@@ -63,7 +63,7 @@ class Enki(object):
  q.put(Enki(3))
  q.put(Enki(100))
  while not q.empty():
-  print(q.get().priority)
+   print(q.get().priority)
  # output is 100 / 55 / 3
 ```
 
