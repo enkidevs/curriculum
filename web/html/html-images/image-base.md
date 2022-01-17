@@ -61,9 +61,9 @@ All links in the web page or document will lead to the `https://www.enki.com` li
 > ❗ OpenGraph meta tag links ignore the `<base>` tag and need to have absolute URL paths:
 ```html
 <head>
-  <base href="http://enkipro.com/">
+  <base href="http://enki.com/">
   <meta property='og:image'
-    content='http://enkipro.com/facebook-image.jpg'>
+    content='http://enki.com/facebook-image.jpg'>
 </head>
 ```
 
