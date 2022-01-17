@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 10th 2022
+
+### Fixed
+- [Python - Set Comprehension - More corrent answer to appropriate place in RQ](https://github.com/enkidevs/curriculum/pull/2987) 
+
 ## January 9th 2022
 
 ### Changed
