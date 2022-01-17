@@ -35,11 +35,11 @@ Functions inside any object type are known as *methods* (the case for class func
 ```python
 # a data structure
 class Employee:
-    # an attribute
-    count = 5
-    # a method
-    def print_idnum(self):
-      ...
+  # an attribute
+  count = 5
+  # a method
+  def print_idnum(self):
+    ...
 ```
 
 
