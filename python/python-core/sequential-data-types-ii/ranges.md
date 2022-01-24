@@ -43,7 +43,7 @@ list(range(1, 10))
 # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-The first argument here is where the range starts, and second argument is where it ends. This second argument is *not inclusive*.
+The first argument here is where the range starts, and the second argument is where it ends. This second argument is *not inclusive*.
 
 > Notice how the range function doesn't automatically generate the `list`. When using Python 3 we must always pass our range to the `list` method first.
 

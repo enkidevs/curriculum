@@ -34,7 +34,7 @@ The program will only execute the code *if the condition has been met*.
 ```python
 num = 3
 if num > 0:
-    print(num, " is a positive number")
+  print(num, " is a positive number")
 ```
 
 The code above will print `'3 is a positive number'`.
@@ -44,9 +44,9 @@ The `if` statement can be extended to include a *catch-all*, `else`, that will b
 ```python
 num = 1
 if num == 0:
-    print("Zero")
+  print("Zero")
 else:
-    print("Positive number")
+  print("Positive number")
 ```
 
 The code above will print `'Positive number'`.
@@ -74,9 +74,9 @@ What does the following code snippet print?
 ```python
 x = 3
 if x < 3:
-    print ('small')
+  print ('small')
 else:
-    print ('big')
+  print ('big')
 ```
 
 ???
@@ -95,9 +95,9 @@ What does the following code snippet print?
 ```python
 x = 8
 if (x == 8):
-    print ('true')
+  print ('true')
 else:
-    print ('false')
+  print ('false')
 ```
 
 ???

@@ -36,9 +36,7 @@ import itertools;
 letters = ['a', 'b', 'c', 'd']
 numbers = [1, 2, 3, 4]
 
-print(
-  list(
-    itertools.chain(letters, numbers)))
+print(list(itertools.chain(letters, numbers)))
 
 # Result = ['a', 'b', 'c', 'd', 1, 2, 3, 4]
 ```
@@ -48,10 +46,7 @@ Next, `filterfalse` iterates through a collection of elements, and, given a bool
 ```python
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 
-print(
-  list(
-    itertools.filterfalse(
-      lambda x: 2 < x < 7, numbers)))
+print(list(itertools.filterfalse(lambda x: 2 < x < 7, numbers)))
 
 # Result = [1, 2, 7, 8]
 ```
@@ -62,9 +57,7 @@ Finally, `compress()`, which takes two collections, a and b, and returns only th
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 boolean = [1, 0, 1, 0, 1, 0, 1, 0]
 
-print(
-  list(
-    itertools.compress(numbers, boolean)))
+print(list(itertools.compress(numbers, boolean)))
 
 # Result: [1, 3, 5, 7]
 ```
@@ -86,26 +79,18 @@ discounts = [-30, -100, -35, -85, -15]
 isInSale = [1, 0, 1, 1, 1]
 salePrices = []
 
-discountIterator =
-iter(
-  itertools.???(
-    discounts, isInSale))
+discountIterator = iter(itertools.???(discounts, isInSale))
 
-fullPricesInSale =
-itertools.compress(prices, isInSale)
+fullPricesInSale = itertools.compress(prices, isInSale)
 
 def f(x):
   price = x + next(discountIterator)
   salePrices.append(price)
   return(price <= 0)
 
-print(
-  list(
-    itertools.???(
-      lambda x: f(x), fullPricesInSale)))
+print(list(itertools.???(lambda x: f(x), fullPricesInSale)))
 
-print(
-  list(salePrices))
+print(list(salePrices))
 ```
 
 - `compress`
@@ -125,16 +110,10 @@ What is the result of the following code execution?
 ```python
 import itertools;
 
-names = ['Tom', 'Sadiq', 'Lars',
-          'Lee', 'Jean']
+names = ['Tom', 'Sadiq', 'Lars', 'Lee', 'Jean']
 boolean = [1, 0, 1, 1, 0]
 
-print(
-  list(
-    itertools.islice(
-      itertools.cycle(
-        itertools.compress(
-          names, boolean)), 0, 6)))
+print(list(itertools.islice(itertools.cycle(itertools.compress(names, boolean)), 0, 6)))
 ```
 
 ???
