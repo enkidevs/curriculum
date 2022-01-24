@@ -100,7 +100,7 @@ e['n'] = 'N'
 e['k'] = 'K'
 e['i'] = 'I'
 for k, v in e.???():
-    print(k, v)
+  print(k, v)
 
 # e E / n N / k K / i I
 ```
