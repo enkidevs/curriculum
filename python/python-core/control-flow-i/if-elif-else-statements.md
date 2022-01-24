@@ -29,11 +29,11 @@ In terms of syntax, this is written as `elif`. It's shorthand for `else if`.
 
 ```python
 if condition:
-    print('do something')
+  print('do something')
 elif condition:
-    print('do something else')
+  print('do something else')
 else: 
-    print('do some other thing')
+  print('do some other thing')
 ```
 
 If the condition for `if` has not been met, the program will check the `elif`. If it meets this condition it will execute the `elif` body of code.
@@ -43,11 +43,11 @@ The `else` code is only executed if none of the other conditions have been met.
 ```python
 num = 0
 if num > 0:
-    print('Positive number')
+  print('Positive number')
 elif num == 0:
-    print('Zero')
+  print('Zero')
 else:
-    print('Negative number')
+  print('Negative number')
 ```
 
 If we assign the value 0 to `num`, our program above will print `'Zero'`.
@@ -65,11 +65,11 @@ Complete the following `if` statement to return `'You're at the start of a great
 days_coding = 2
 
 if days_coding == 7:
-    print("You've been coding for a week!")
+  print("You've been coding for a week!")
 ??? days_coding ??? 7:
-    print("More than a week - keep it up!")
+  print("More than a week - keep it up!")
 ???:
-    print("You're at the start of a great journey!")
+  print("You're at the start of a great journey!")
 ```
 
 - `elif`
@@ -90,11 +90,11 @@ What does the following code snippet print?
 name = 'George'
 
 if name == 'Stefan':
-    print("Hey Stefan")
+  print("Hey Stefan")
 elif name == 'Andrei':
-    print('Hey Andrei')
+  print('Hey Andrei')
 else:
-    print("Hey, what's your name?")
+  print("Hey, what's your name?")
 ```
 
 ???

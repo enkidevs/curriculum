@@ -48,13 +48,13 @@ print(my_set)
 # {'rabbit', 'parrot', 'cat', 'horse', 'dog'}
 ```
 
-As you can see, *duplicate* values aren't added to `my_set`. Also note how the *order of items doesn't matter*.
+As you can see, *duplicate* values aren't added to `my_set`. Also, note how the *order of items doesn't matter*.
 
 To remove items, we can use:
 
 - `discard()` -> removes an item if it exists and does nothing if it does not
 
-- `remove()` -> removes an item if it exists, but raises an error if it does not exist.
+- `remove()` -> removes an item if it exists but raises an error if it does not exist.
 
 ```python
 my_set.remove('dog')
