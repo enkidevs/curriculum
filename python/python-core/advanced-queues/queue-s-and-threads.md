@@ -80,8 +80,7 @@ Complete the code snippet:
 q = Queue()
 ??? = 3 # declare 3 threads
 for i in range(num_threads):
-  worker = ??? \
-           (target=enki, args=(q,))
+  worker = ???(target=enki, args=(q,))
   worker.setDaemon(True)
   worker.start()
 ```
