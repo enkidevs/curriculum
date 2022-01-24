@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## Jauary 24th 2022
+
+### Changed
+- [Go - For Loops - Make the question fill in the gap only](https://github.com/enkidevs/curriculum/pull/3030)
+
 ## January 10th 2022
 
 ### Fixed
