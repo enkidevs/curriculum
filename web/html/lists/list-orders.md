@@ -154,8 +154,6 @@ What does this code create? Choose the appropriate option.
 </ol>
 ```
 
-???
-
 Option 1
 
 ```html
