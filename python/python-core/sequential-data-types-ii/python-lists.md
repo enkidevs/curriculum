@@ -25,7 +25,7 @@ revisionQuestion:
 
 A list is a **sequential data type** that acts as a container for objects. 
 
-Lists are separated by commas and *must be wrapped in square brackets*, `[ ]`.
+Lists are separated by commas, and *must be wrapped in square brackets*, `[ ]`.
 
 ```python
 my_first_list = ['apples', 'oranges']

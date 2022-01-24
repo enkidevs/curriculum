@@ -31,9 +31,9 @@ For example:
 
 ```python
 if True:
-    print('Will print this.')
+  print('Will print this.')
 else:
-    print('This will not be printed.')
+  print('This will not be printed.')
 print('What about this one?')
 ```
 
@@ -48,10 +48,10 @@ If we were to rewrite the above snippet as:
 
 ```python
 if True:
-    print('Will print this.')
+  print('Will print this.')
 else:
-    print('This will not be printed.')
-    print('What about this one?')
+  print('This will not be printed.')
+  print('What about this one?')
 ```
 
 The output will be:
@@ -78,9 +78,9 @@ What will this code print?
 
 ```python
 if True:
-   print('this is true')
+  print('this is true')
 else:
-   print('this is false')
+  print('this is false')
 ```
 
 ```plain-text

@@ -29,12 +29,12 @@ For example:
 ```python
 x = 5
 while (x > 0):
-    if (x == 2):
-        # exit the loop
-        # when x equals 2
-        break
-    print(x)
-    x = x - 1
+  if (x == 2):
+    # exit the loop
+    # when x equals 2
+    break
+  print(x)
+  x = x - 1
 
 print("Broken away!")
 ```
@@ -50,7 +50,7 @@ Broken away!
 
 Python's `continue` statement is used to skip only one iteration[1] of a loop.
 
-The code execution will proceed to the beginning of next loop iteration.
+The code execution will proceed to the beginning of the next loop iteration.
 
 For example, here's how we can print only odd numbers by skipping every even loop iteration:
 

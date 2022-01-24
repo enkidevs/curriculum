@@ -4,7 +4,7 @@ type: normal
 category: feature
 links:
   - >-
-    [docs.python.org](https://docs.python.org/3.5/library/datetime.html){website}
+    [docs.python.org](https://docs.python.org/3.10/library/datetime.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
