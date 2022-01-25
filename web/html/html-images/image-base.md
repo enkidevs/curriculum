@@ -6,6 +6,8 @@ links:
   - >-
     [HTML <base>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base){documentation}
+  - >-
+    [The Open Graph Protocol](https://ogp.me/){documentation}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -54,7 +56,16 @@ All links in the web page or document will lead to the `https://www.enki.com` li
 </head>
 ```
 
-**Note**: In HTML5, the `<base>` end tag has to be omitted. On the other hand, in XHTML it has to be closed.
+> 💡 In HTML5, the `<base>` end tag has to be omitted. On the other hand, in XHTML it has to be closed.
+
+> ❗ OpenGraph meta tag links ignore the `<base>` tag and need to have absolute URL paths:
+```html
+<head>
+  <base href="http://enki.com/">
+  <meta property='og:image'
+    content='http://enki.com/facebook-image.jpg'>
+</head>
+```
 
 
 ---
@@ -112,7 +123,6 @@ Complete the code if a `<base>` URL is assigned and an image is used within an O
 ## Quiz
 
 ### What code assigns the default of every link within the web page to open a new page?
-
 
 ???
 

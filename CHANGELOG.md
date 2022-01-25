@@ -53,6 +53,14 @@ Types of change:
 ### Added
 - [TypeScript - tsc Extending Interfaces - Add more info](https://github.com/enkidevs/curriculum/pull/3029)
 
+## January 24th 2022
+
+### Changed
+- [Go - For Loops - Make the question fill in the gap only](https://github.com/enkidevs/curriculum/pull/3030)
+
+### Fixed
+- [HTML - List Orders - Remove extra answer field from RQ](https://github.com/enkidevs/curriculum/pull/3031)
+
 ## January 10th 2022
 
 ### Fixed
@@ -66,12 +74,15 @@ Types of change:
 ## January 5th 2022
 
 ### Fixed
+- [HTML - Image Base - Add mising example using OpenGraph meta tag](https://github.com/enkidevs/curriculum/pull/2984)
 - [Git - Move The Last Commit To A New Branch - Add missing answer fields and improve wording of PQ](https://github.com/enkidevs/curriculum/pull/2983)
 - [Java - Multithreading Use Local Variables - Fix example](https://github.com/enkidevs/curriculum/pull/2982)
 
 ### Changed
 - [Html - Link Relative Paths - Change part of PQ as it wasn't worder properly](https://github.com/enkidevs/curriculum/pull/2985)
 - [Python - Format Text Paragraphs With Textwrap - Make the fill method more clear](https://github.com/enkidevs/curriculum/pull/2981)
+- [Python - Playing With Time - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3007)
+- [Python - Deep Into Collections - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2997)
 - [Python - Python Functions - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3008)
 - [Python - Control Flow II - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2996)
 - [Python - Control Flow I - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2995)
