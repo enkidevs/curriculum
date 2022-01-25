@@ -53,6 +53,17 @@ Types of change:
 ### Fixed
 - [Java - DRY Principle - Replace 404 link](https://github.com/enkidevs/curriculum/pull/3032)
 
+### Added
+- [TypeScript - tsc Extending Interfaces - Add more info](https://github.com/enkidevs/curriculum/pull/3029)
+
+## January 24th 2022
+
+### Changed
+- [Go - For Loops - Make the question fill in the gap only](https://github.com/enkidevs/curriculum/pull/3030)
+
+### Fixed
+- [HTML - List Orders - Remove extra answer field from RQ](https://github.com/enkidevs/curriculum/pull/3031)
+
 ## January 10th 2022
 
 ### Fixed
