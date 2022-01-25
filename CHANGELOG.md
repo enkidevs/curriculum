@@ -48,7 +48,11 @@ Types of change:
 
 ### Fixed
 
-### January 24th 2022
+
+## January 24th 2022
+
+### Changed
+- [Go - For Loops - Make the question fill in the gap only](https://github.com/enkidevs/curriculum/pull/3030)
 
 ### Fixed
 - [HTML - List Orders - Remove extra answer field from RQ](https://github.com/enkidevs/curriculum/pull/3031)
