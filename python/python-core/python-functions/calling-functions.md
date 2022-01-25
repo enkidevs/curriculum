@@ -27,7 +27,7 @@ For example:
 ```python
 # To define
 def new_func():
-    print ('Function time!')
+  print ('Function time!')
 
 # To call
 new_func()
@@ -46,8 +46,8 @@ In this example, variable `x` is defined in the function as a parameter:
 
 ```python
 def func(x):
-    ans = x * x
-    print(ans)
+  ans = x * x
+  print(ans)
 ```
 
 To call this function, you must pass a value (i.e. an argument) into it, which will put that value into the `x` variable (i.e. parameter) inside the function.
@@ -80,7 +80,7 @@ Complete the code to define and call the `mean` function to get the arithmetic m
 x = 4
 y = 2
 ??? mean(a, b):
-    print((a + b) / 2)
+  print((a + b) / 2)
 
 ???(???)
 ```
@@ -99,8 +99,8 @@ Complete the code snippet to define and call the function with the correct param
 
 ```python
 ??? cube(x):
-    res = x * x * x
-    print (res)
+  res = x * x * x
+  print (res)
 
 num = 5
 ???(???)

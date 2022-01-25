@@ -4,7 +4,7 @@ type: normal
 category: feature
 links:
   - >-
-    [docs.python.org](https://docs.python.org/3.5/library/datetime.html){website}
+    [docs.python.org](https://docs.python.org/3.10/library/datetime.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -39,7 +39,7 @@ datetime.MAXYEAR # 9999
 ## largest year of date/datetime objects
 ```
 
-Keep in mind that in the `datetime` **module** there is also a `datetime` **class** and they shouldn't be confused.
+Keep in mind that in the `datetime` **module**, there is also a `datetime` **class**; they shouldn't be confused.
 
 ```python
 # printing the current date and time

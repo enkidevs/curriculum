@@ -48,10 +48,93 @@ Types of change:
 
 ### Fixed
 
+## January 25th 2022
+
+### Added
+- [TypeScript - tsc Extending Interfaces - Add more info](https://github.com/enkidevs/curriculum/pull/3029)
+
+## January 24th 2022
+
+### Changed
+- [Go - For Loops - Make the question fill in the gap only](https://github.com/enkidevs/curriculum/pull/3030)
+
+### Fixed
+- [HTML - List Orders - Remove extra answer field from RQ](https://github.com/enkidevs/curriculum/pull/3031)
+
+## January 10th 2022
+
+### Fixed
+- [Python - Set Comprehension - More corrent answer to appropriate place in RQ](https://github.com/enkidevs/curriculum/pull/2987) 
+
+## January 9th 2022
+
+### Changed
+- [Go - Go Packages - Remove type in the gap from PQ](https://github.com/enkidevs/curriculum/pull/2986)
+
+## January 5th 2022
+
+### Fixed
+- [HTML - Image Base - Add mising example using OpenGraph meta tag](https://github.com/enkidevs/curriculum/pull/2984)
+- [Git - Move The Last Commit To A New Branch - Add missing answer fields and improve wording of PQ](https://github.com/enkidevs/curriculum/pull/2983)
+- [Java - Multithreading Use Local Variables - Fix example](https://github.com/enkidevs/curriculum/pull/2982)
+
+### Changed
+- [Html - Link Relative Paths - Change part of PQ as it wasn't worder properly](https://github.com/enkidevs/curriculum/pull/2985)
+- [Python - Format Text Paragraphs With Textwrap - Make the fill method more clear](https://github.com/enkidevs/curriculum/pull/2981)
+- [Python - Playing With Time - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3007)
+- [Python - Deep Into Collections - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2997)
+- [Python - Python Functions - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3008)
+- [Python - Control Flow II - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2996)
+- [Python - Control Flow I - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2995)
+- [Python - Intro To Modules - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2998)
+- [Python - Classes II - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2993)
+- [Python - More On Dictionaries - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3004)
+- [Python - Math Recipies - Minor grammar improvement](https://github.com/enkidevs/curriculum/pull/3001)
+- [Python - More On Lists - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3005)
+- [Python - Classes I - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2992)
+- [Python - Looping - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3000)
+- [Python - Meet Python - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3003)
+- [Python - Python Tips - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3010)
+- [Python - Sequential Data Types II - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3012)
+- [Python - Decorators - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3023)
+- [Python - Functional Programming II - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3025)
+- [Python - String Recipes - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3013)
+- [Python - Syntax And Numerical Operators - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3014)
+- [Python - Testing - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3015)
+- [Python - Unordered Data Types - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3016)
+- [Python - Utilities I - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3017)
+- [Python - Utilities II - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3018)
+- [Python - Working With Strings - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3019)
+- [Python - Arrays I - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3020)
+- [Python - Arrays II - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3021)
+- [Python - Comprehension - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3022)
+- [Python - Functional Programming - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3024)
+- [Python - Generators - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3026)
+- [Python - Python Immutability - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3028)
+- [Python - Iterators - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3027)
+
+## January 4th 2022
+
+### Fixed
+- [HTML - Image Map - Fix incorrect description word for area element](https://github.com/enkidevs/curriculum/pull/2975)
+- [Blockchain - What Are Smart Contracts - Fix misspelled files word](https://github.com/enkidevs/curriculum/pull/2978)
+- [Linux - Converting Between Unix And Windows Text Files - Replace wrong quotation character with the correct one](https://github.com/enkidevs/curriculum/pull/2976)
+
+## December 30th 2021
+
+### Fixed
+- [HTML - The Caption Element - Add minor info when to use strong, b and font-weight property to avoid confusion](https://github.com/enkidevs/curriculum/pull/2972)
+
+### Changed
+- [SQL - Join Role - Change table example](https://github.com/enkidevs/curriculum/pull/2973)
+
+- [Git - All Applicable Code Blocks - Change all single line commands that span multiple lines from PQ and RQ & content to be on a single line.](https://github.com/enkidevs/curriculum/pull/2974)
+
 ## December 29th 2021
 
 ### Fixed
 - [Git - Sharing Data By Bundling - Remove git keyword from cd command and make the PQ a single line command](https://github.com/enkidevs/curriculum/pull/2969)
+- [Java - Multithreading - Update the workout's name & description](https://github.com/enkidevs/curriculum/pull/2971)
 
 ## December 27th 2021
 

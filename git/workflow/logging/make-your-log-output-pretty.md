@@ -54,8 +54,7 @@ git log --pretty=oneline
 Print the output where `%ar` represents the time since the commit has been pushed:
 
 ```bash
-git ??? ???:
-         "??? - %ar"
+git ??? ???: "??? - %ar"
 fe21ab0 - 1 week ago 
 cd4512a - 2 weeks ago 
 ```
