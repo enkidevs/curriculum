@@ -10,7 +10,7 @@ tags:
   - repetition
 links:
   - >-
-    [www.thejavageek.com](https://www.geeksforgeeks.org/dry-dont-repeat-yourself-principle-in-java-with-examples/){website}
+    [The DRY Principle](https://www.geeksforgeeks.org/dry-dont-repeat-yourself-principle-in-java-with-examples/){website}
 notes: 'static workout '
 ---
 
