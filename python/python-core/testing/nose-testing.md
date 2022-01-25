@@ -31,16 +31,16 @@ revisionQuestion:
 # multiply_nose.py
 
 def multiply(a, b):
-    return a * b
+  return a * b
 
 def test_one():
-    assert multiply(2, 3) == 6
+  assert multiply(2, 3) == 6
 
 def test_two():
-    assert multiply(3, 2) == 5
+  assert multiply(3, 2) == 5
 ```
 
-For this example we'll **run** the test with `-v` (verbose) flag:
+For this example, we'll **run** the test with `-v` (verbose) flag:
 
 ```bash
 nosetests -v multiply.py

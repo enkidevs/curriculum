@@ -42,7 +42,7 @@ The most common use of the `re` module is to search texts for specified patterns
 ```python
 text = 'Enki is cool'
 if re.search('Enki', text):
-    print("Found it!")
+  print("Found it!")
 # output: Found it!
 ```
 

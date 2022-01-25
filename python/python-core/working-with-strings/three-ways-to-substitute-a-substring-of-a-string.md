@@ -73,10 +73,8 @@ Using `string.Template` , substitute the following substring:
 
 ```python
 import string
-t = string
- .???("It's ???weather")
-print(t
- .???(weather="sunny"))
+t = string.???("It's ???weather")
+print(t.???(weather="sunny"))
 ```
 
 Using `f-strings`, print "Hey Enki, how are you?":
@@ -105,8 +103,7 @@ Substitute the substring using curly brackets:
 
 ```python
 my_string = "Good {time}"
-print(my_string
-  .???(???="evening"))
+print(my_string.???(???="evening"))
 ```
 
 - `format`

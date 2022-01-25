@@ -29,7 +29,7 @@ revisionQuestion:
 
 ## Content
 
-The `map` function is built in to the Python language. Together with the other built-in functions `filter` and `reduce`, `map` allows us to take a functional approach to programming in Python.
+The `map` function is built into the Python language. Together with the other built-in functions `filter` and `reduce`, `map` allows us to take a functional approach to programming in Python.
 
 `map` applies a given function—`function_here` in the case below—iteratively to all items in a given `input_list`[1]. The basic syntax looks like this:
 
@@ -68,8 +68,7 @@ Finally, it's good to know that we can pass more than one iterable `input_list` 
 Let's say we have a list, called `promises`. We want to `make_good` on all our promises, where `make_good` is a previously-defined function that takes a string. Fill in the blanks in the code below to apply `make_good` to all elements in `promises`.  
 
 ```python
-promises = ['learn css', 'learn js',
-  'buy milk', 'be excellent to each other']
+promises = ['learn css', 'learn js', 'buy milk', 'be excellent to each other']
 promises = ???(???, ???)
 ```
 

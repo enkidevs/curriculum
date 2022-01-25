@@ -29,7 +29,7 @@ revisionQuestion:
 
 ## Content
 
-Python's `struct` module has routines for converting between binary and text data, in both directions.
+Python's `struct` module has routines for converting between binary and text data in both directions.
 
 Import the module:
 
