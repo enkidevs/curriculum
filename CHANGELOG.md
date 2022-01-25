@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 25th 2022
+
+### Fixed
+- [Java - DRY Principle - Replace 404 link](https://github.com/enkidevs/curriculum/pull/3032)
+
 ## January 10th 2022
 
 ### Fixed
