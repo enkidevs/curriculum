@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## January 25th 2022
+
+### Added
+- [TypeScript - tsc Extending Interfaces - Add more info](https://github.com/enkidevs/curriculum/pull/3029)
 
 ## January 24th 2022
 
