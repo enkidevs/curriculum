@@ -53,6 +53,9 @@ Types of change:
 ### Added
 - [TypeScript - tsc Extending Interfaces - Add more info](https://github.com/enkidevs/curriculum/pull/3029)
 
+### Archived
+- [Git - Remote Repository - Tracking and staging files duplicate](https://github.com/enkidevs/curriculum/pull/2970)
+
 ## January 24th 2022
 
 ### Changed
