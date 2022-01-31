@@ -28,7 +28,7 @@ The **RFC 3454** international memo defines the procedure of *preparing* Unicode
 
 Often, it is necessary to compare identifications for things such as **host names** for **equality**.
 
-The main purpose of **RFC 3454** is providing a framework for ensuring string input and comparison work for users throughout the world.
+The main purpose of **RFC 3454** is to provide a framework for ensuring string input and comparison work for users throughout the world.
 
 Python provides the `stringprep` module filled with static methods used for checking if your input is in the specified **RFC 3454** table.
 

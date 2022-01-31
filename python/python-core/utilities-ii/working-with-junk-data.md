@@ -29,8 +29,7 @@ For the sake of the argument we will work with this class' function called `find
 ```python
 from difflib import SequenceMatcher
 
-s = SequenceMatcher(None, \
-   " abcd", "abcd abcd")
+s = SequenceMatcher(None, " abcd", "abcd abcd")
 print(s.find_longest_match(0, 5, 0, 9))
 
 # prints Match(a=0, b=4, size=5)
@@ -51,8 +50,7 @@ See how in the first scenario we searched for the longest match between the two 
 But if we treat white spaces as **Junk** the output will be different:
 
 ```python
-s = SequenceMatcher(lambda x: x == " ",
-                    " abcd", "abcd abcd")
+s = SequenceMatcher(lambda x: x == " ", " abcd", "abcd abcd")
 print(s.find_longest_match(0, 5, 0, 9))
 # prints Match(a=1, b=0, size=4)
 ```
@@ -65,8 +63,7 @@ print(s.find_longest_match(0, 5, 0, 9))
 Complete the `SequenceMatcher`  constructor such that empty spaces are treated as junk:
 
 ```python
-s = SequenceMatcher(??? x: x == ???,
-    “ abcd”, “abcd abcd”)
+s = SequenceMatcher(??? x: x == ???, “ abcd”, “abcd abcd”)
 ```
 
 - `lambda`
