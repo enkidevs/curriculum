@@ -139,7 +139,7 @@ Using the `git checkout` command together with the `-b` flag, you can simultaneo
 git checkout -b my-branch
 ```
 
-[4:switch]
+[5:switch]
 Using the `git switch -c my-branch` command, you can simultaneously create a new branch and switch to it:
 
 > The `-c` flag means to create a new branch if the specified `my-branch` does not exist. Without `-c`, you can only switch to an existing one.
