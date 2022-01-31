@@ -56,7 +56,7 @@ If you want to perform floor division to return an `int`, use the `//` operator:
 # 6
 ```
 
-When using the `//` operator, you only return the whole number part of the division. Any digits after the decimal point will be removed.
+When using the `//` operator, you only return the whole number part of the division. Digits after the decimal point are removed.
 
 
 ---

@@ -27,10 +27,10 @@ For example:
 
 ```python
 def out_func(num):
-    def in_func(num):
-        return num + 1
-    num_1 = in_func(num)
-    print(num, num_1)
+  def in_func(num):
+    return num + 1
+  num_1 = in_func(num)
+  print(num, num_1)
 ```
 
 The `in_func` function is nested within the `out_func` function and is inaccessible from outside of the `out_func` functions scope.
@@ -59,10 +59,10 @@ What’s the output to the following function call:
 
 ```python
 def outer(num):
-    def inner(num):
-        return num - 2
-    nums = inner(num)
-    print(num, nums)
+  def inner(num):
+    return num - 2
+  nums = inner(num)
+  print(num, nums)
 
 outer(3)
 ```
@@ -97,17 +97,17 @@ We've defined a nested function here. What will the following code output?
 
 ```python
 def some_function(num):
-    def nested_func(num):
-        return num + 1
-    num_1 = nested_func(num)
-    print(num, num_1)
+  def nested_func(num):
+    return num + 1
+  num_1 = nested_func(num)
+  print(num, num_1)
 
 def some_new_function(num):
-    def nested_func_new(num):
-        return num*2
-    num_1 = nested_func(num)
-    num_2 = nested_func_new(num)
-    print(num, num_1, num_2)
+  def nested_func_new(num):
+    return num*2
+  num_1 = nested_func(num)
+  num_2 = nested_func_new(num)
+  print(num, num_1, num_2)
 
 some_new_function(1)
 ```

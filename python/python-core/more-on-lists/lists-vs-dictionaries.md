@@ -47,7 +47,7 @@ dict = {
 }
 ```
 
-Because elements stored in **lists** can be accessed using **indices**, the retrieving of an element will be done in `O(n)` in the worst case scenario. When using **dictionaries**, indices are replaced by **keys** (hashable types). This means that retrieving a certain element would be done in `O(1)` as we can find each **value** associated to each **key** directly.
+Because elements stored in **lists** can be accessed using **indices**, the retrieving of an element will be done in `O(n)` in the worst-case scenario. When using **dictionaries**, indices are replaced by **keys** (hashable types). This means that retrieving a certain element would be done in `O(1)` as we can find each **value** associated to each **key** directly.
 
 Let's see an example:
 
