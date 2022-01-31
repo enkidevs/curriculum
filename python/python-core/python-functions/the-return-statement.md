@@ -29,8 +29,8 @@ Here is an example using a return statement:
 
 ```python
 def return_func():
-    print ('Print!')
-    return 'Return!'
+  print ('Print!')
+  return 'Return!'
 
 print(return_func())
 ```

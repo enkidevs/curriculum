@@ -54,13 +54,13 @@ print(cal)
 The output will look like this:
 
 ```plain-text
-           January 2016
-      Mo Tu We Th Fr Sa Su
-                   1  2  3
-       4  5  6  7  8  9 10
-      11 12 13 14 15 16 17
-      18 19 20 21 22 23 24
-      25 26 27 28 29 30 31
+    January 2016
+Mo Tu We Th Fr Sa Su
+              1  2  3
+ 4  5  6  7  8  9 10
+11 12 13 14 15 16 17
+18 19 20 21 22 23 24
+25 26 27 28 29 30 31
 
 
 ```
@@ -77,9 +77,9 @@ To print a whole year's calendar:
 print(calendar.calendar(2016))
 ```
 
-Output not shown since it is too large.
+The output is not shown since it is too large.
 
-This module provide other useful methods for working with dates, times and calendars such as `calendar.isleap` (checks if a year is a leap year).
+This module provides other useful methods for working with dates, times, and calendars, such as `calendar.isleap` (checks if a year is a leap year).
 
 
 ---
@@ -89,8 +89,7 @@ This module provide other useful methods for working with dates, times and calen
 Set the first day of the week of your `calendar` to be Monday:
 
 ```python
-calendar.??? \
-  (calendar.MONDAY)
+calendar.???(calendar.MONDAY)
 ```
 
 - `setfirstweekday`
