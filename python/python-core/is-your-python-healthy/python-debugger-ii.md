@@ -31,14 +31,14 @@ Considering the **source code** exemplified in the previous insight[1], lets see
 (Pdb) list
 -> num_list = [1, 2]
    chars = ['a', 'b']
-   
+
    def nested_loop():
      for nr in num_list:
        print(nr)
        for char in chars:
          print(char)
 
-    if __name__ == '__main__':
+   if __name__ == '__main__':
 (Pdb)
 ```
 
