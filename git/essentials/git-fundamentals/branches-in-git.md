@@ -6,6 +6,9 @@ links:
   - >-
     [Git Branching Official
     Documentation](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell){website}
+  - >-
+    [Git Switch Official
+    Documentation](https://git-scm.com/docs/git-switch){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
