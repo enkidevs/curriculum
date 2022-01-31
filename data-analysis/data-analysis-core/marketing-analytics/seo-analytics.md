@@ -79,4 +79,4 @@ Organic search traffic is a highly effective indicator of overall SEO success.
 ## Footnotes
 
 [1:SEO]
-Search engine optimization (SEO), in its simplest terms, is the process of making changes to your website's content to make it more visible to search engines and improve your site’s rank.
+Search engine optimization (SEO), in its simplest terms, is the process of making changes to your website's content to make it more visible to search engines and improve your site's rank.

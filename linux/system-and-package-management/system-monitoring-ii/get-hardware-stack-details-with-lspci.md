@@ -83,8 +83,8 @@ How would you retrieve information on audio hardware?
 
 ??? .
 
-- system’s hardware
-- system’s software
+- system's hardware
+- system's software
 - connected USB devices
 - settings
 

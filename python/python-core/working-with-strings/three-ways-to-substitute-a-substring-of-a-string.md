@@ -50,7 +50,7 @@ print(t.format(name='Ted'))
 # Hello Ted
 ```
 
-Format strings contain “replacement fields” surrounded by curly braces `{}`.
+Format strings contain "replacement fields" surrounded by curly braces `{}`.
 
 ### Update:
 

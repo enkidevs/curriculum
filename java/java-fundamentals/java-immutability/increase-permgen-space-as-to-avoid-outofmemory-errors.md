@@ -52,7 +52,7 @@ Bear in mind that with the introduction of `Java 8`, permanent generation space 
 
 ## Revision
 
-Before Java 8, you could’ve increased `permGen` memory space to 256M with:
+Before Java 8, you could've increased `permGen` memory space to 256M with:
 
 ```java
 ???

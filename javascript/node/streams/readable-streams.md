@@ -51,7 +51,7 @@ rstream.on("end", function () {
 Encoding can be set on the stream like follows:
 
 ```javascript
-rstream.setEncoding(‘utf8’);
+rstream.setEncoding(‘utf8');
 ```
 
 

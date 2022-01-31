@@ -22,7 +22,7 @@ In terms of data visualization, Mode has a wide variety of built-in chart types 
 
 One of the coolest things about Mode is that you can use their **HTML editor** to make fully-customizable charts and dashboards.
 
-Once you’ve run your SQL queries, click into the Report Builder and select “Edit HTML” to open the HTML editor.
+Once you've run your SQL queries, click into the Report Builder and select "Edit HTML" to open the HTML editor.
 
 Here you can modify the code behind the individual elements in your report or build something completely custom using CSS, HTML, JavaScript, D3, etc. 
 

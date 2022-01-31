@@ -107,7 +107,7 @@ Can SVG images be directly inserted into an HTML page as code without linked to 
 ### How much do you know about HTML image types?
 
 
-If you don’t need transparency or animation for a photograph, which image format should you use?
+If you don't need transparency or animation for a photograph, which image format should you use?
 
 - JPG
 - PNG

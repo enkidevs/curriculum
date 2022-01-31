@@ -25,7 +25,7 @@ After a certain period of time (dependant on internet speed and latency), and a 
 
 A distinction can also be made between nodes: there are **full nodes** and **mining nodes**. In short, mining nodes, or simply *miners*, are the ones that verify and bundle the valid, available[1] transactions into a new block. They also make sure to include a reference to the previous block in the chain. Full nodes are the ones that receive the bundled blocks from miners and verify its *integrity*. If everything is in order, they then forward a confirmation message to other nodes.
 
-To prevent nodes from turning against the network, they *are rewarded* whenever they find a valid block. We’ll discuss node rewards later.
+To prevent nodes from turning against the network, they *are rewarded* whenever they find a valid block. We'll discuss node rewards later.
 
 The high-level components of the blockchain can be enumerated as follows:
 

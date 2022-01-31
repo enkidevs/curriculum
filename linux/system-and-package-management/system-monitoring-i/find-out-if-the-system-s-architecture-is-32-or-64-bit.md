@@ -59,7 +59,7 @@ The `x86_64` at the end before the GNU/Linux means that the system is running a 
 
 ## Practice
 
-To find out *just* your system’s architecture, you would run :
+To find out *just* your system's architecture, you would run :
 
 ```bash
 ??? ???
@@ -75,7 +75,7 @@ To find out *just* your system’s architecture, you would run :
 
 ## Revision
 
-To find out your system’s arhitecture and properties, you would run :
+To find out your system's arhitecture and properties, you would run :
 
 ```bash
 ???

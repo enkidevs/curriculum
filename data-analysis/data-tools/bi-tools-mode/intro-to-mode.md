@@ -29,9 +29,9 @@ Mode is an **SQL-based analytics tool *designed for analysts***.
 
 Mode brings SQL and R/Python users together to work side-by-side. Not many other tools do this effectively. 
 
-That means that it’s great if your analysts are always going to be the ones developing reports and answering questions. 
+That means that it's great if your analysts are always going to be the ones developing reports and answering questions. 
 
-However, if you want business users to be able to explore from scratch, you’re likely to struggle. 
+However, if you want business users to be able to explore from scratch, you're likely to struggle. 
 
 Users can still drag-and-drop their data to build dashboards, but only after they've queried the data using SQL.
 

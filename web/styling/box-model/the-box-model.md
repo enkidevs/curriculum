@@ -62,7 +62,7 @@ Which is the inside-out order for the *box model* components?
 ### are you familiar with the box model?
 
 
-What’s the correct outside-in order of the elements contained by the Box Model?
+What's the correct outside-in order of the elements contained by the Box Model?
 
  ???
 

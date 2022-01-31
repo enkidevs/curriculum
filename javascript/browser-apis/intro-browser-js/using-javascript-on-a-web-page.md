@@ -19,7 +19,7 @@ revisionQuestion:
 
 ## Content
 
-JavaScript is an interpreted language and needs a *host environment* such as a web browser to run (or in Node’s case, Google’s *v8 engine*).
+JavaScript is an interpreted language and needs a *host environment* such as a web browser to run (or in Node's case, Google's *v8 engine*).
 
 There are a number of ways to use JavaScript on a web page.
 

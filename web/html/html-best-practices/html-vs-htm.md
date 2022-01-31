@@ -32,7 +32,7 @@ Today, limiting extensions to 3 characters is no longer necessary on any operati
 
 ## Practice
 
-When was the “.html” extension considered acceptable over “.htm”?
+When was the ".html" extension considered acceptable over ".htm"?
 
 ???
 
@@ -46,7 +46,7 @@ When was the “.html” extension considered acceptable over “.htm”?
 
 ## Revision
 
-When was the “.htm” extension used?
+When was the ".htm" extension used?
 
 ???
 

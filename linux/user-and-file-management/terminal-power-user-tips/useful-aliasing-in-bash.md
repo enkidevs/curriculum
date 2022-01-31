@@ -38,7 +38,7 @@ You can use an alias instead of longer commands, adding them on your `.bashrc` f
 alias ll="ls –l"
 ```
 
-In this example, typing `ll` will now return ‘long listing format’.
+In this example, typing `ll` will now return ‘long listing format'.
 
 Quick exit with alias:
 
@@ -59,7 +59,7 @@ Now, to open *~/.bashrc* in nano text editor:
 nbrc
 ```
 
-Or, to find the top 10 largest files in your system, you can set the following ‘alias’:
+Or, to find the top 10 largest files in your system, you can set the following ‘alias':
 
 ```plain-text
 alias top10=
@@ -99,7 +99,7 @@ ports
 
 ## Revision
 
-??? is used to give a “false name” to other commands.
+??? is used to give a "false name" to other commands.
 
 - alias
 - short

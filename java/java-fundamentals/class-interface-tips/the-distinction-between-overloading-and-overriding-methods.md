@@ -62,7 +62,7 @@ public class Child extends Parent{
 
 ## Practice
 
-What’s the name of the process where a method is redefined after being taken from a parent class?
+What's the name of the process where a method is redefined after being taken from a parent class?
 
 ???
 

@@ -109,12 +109,12 @@ The `bottom` property in CSS goes hand in hand with positioning. By default, ele
 
 caption-side
 %exp
-It allows you to define where **HTML**’s caption element will be positioned.
+It allows you to define where **HTML**'s caption element will be positioned.
 %
 
 clip
 %exp
-`clip` is used on background and it allows you control how far a background image or colour extends beyond the element’s `padding`.
+`clip` is used on background and it allows you control how far a background image or colour extends beyond the element's `padding`.
 %
 
 counter-increment
@@ -169,9 +169,9 @@ When printing a page, `orphans` property controls the minimum number of lines of
 
 outline-style
 %exp
-Draws a line outside the element. It's similar to border except it can’t be set to cover less then all sides of the element.
+Draws a line outside the element. It's similar to border except it can't be set to cover less then all sides of the element.
 
-It won’t affect the position of the element.
+It won't affect the position of the element.
 %
 
 overflow

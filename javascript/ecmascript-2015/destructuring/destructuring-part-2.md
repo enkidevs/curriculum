@@ -41,7 +41,7 @@ let {company:v1, topic:v2} = source;
 
 ### Default Properties
 
-You can also assign a default value that will be used when destructuring if a source object doesn’t have a matching property.
+You can also assign a default value that will be used when destructuring if a source object doesn't have a matching property.
 
 Below the default value of `200` will be used for variable `y` as the source object does not have a `y` property.
 

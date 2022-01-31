@@ -45,7 +45,7 @@ request.getParameter("id") +
  "'";
 ```
 
-**Scenario #2**: Similarly, an application’s blind trust in frameworks
+**Scenario #2**: Similarly, an application's blind trust in frameworks
 may result in queries that are still vulnerable, (e.g. Hibernate
 Query Language (HQL)):
 
@@ -56,7 +56,7 @@ Query HQLQuery = session.createQuery(
   "'");
 ```
 
-In both cases, the attacker modifies the ‘id’ parameter value in
+In both cases, the attacker modifies the ‘id' parameter value in
 their browser to send: ' or '1'='1. For example:
 <http://example.com/app/accountView?id='> or '1'='1
 This changes the meaning of both queries to return all the

@@ -38,7 +38,7 @@ Iterator {
 }
 ```
 
-Let’s modify our return statement to use this:
+Let's modify our return statement to use this:
 
 ```javascript
 //code omitted

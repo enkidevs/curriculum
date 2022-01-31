@@ -31,7 +31,7 @@ We'd need to use a BI[1] or business intelligence tool for that.
 
 Tableau offers five main products: 
 
-- **Tableau Desktop**, referred to as “the gold standard” in visual analytics, this is Tableau's main product for unlimited data exploration on interactive dashboards. This is a desktop tool (rather than browser based) and requires you to install software.
+- **Tableau Desktop**, referred to as "the gold standard" in visual analytics, this is Tableau's main product for unlimited data exploration on interactive dashboards. This is a desktop tool (rather than browser based) and requires you to install software.
 
 - **Tableau Server** allows you to share your data and dashboards with your team or company.
 

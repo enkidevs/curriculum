@@ -21,7 +21,7 @@ revisionQuestion:
 
 ## Content
 
-How many times have you seen the message *“Invalid email format”* in your sign-up form?
+How many times have you seen the message *"Invalid email format"* in your sign-up form?
 
 That's because the `input` element on an HTML form already performs the validation without you needing to write any of your own regex.
 

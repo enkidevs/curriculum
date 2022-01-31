@@ -99,9 +99,9 @@ the shortest paths between a source node and every other node?
  ???
 
 - Bellman-Ford algorithm
-- Prim’s algorithm
-- Kruskal’s algorithm
-- Dijkstra’s algorithm
+- Prim's algorithm
+- Kruskal's algorithm
+- Dijkstra's algorithm
 
 
 ---

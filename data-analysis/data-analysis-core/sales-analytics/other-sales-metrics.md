@@ -29,7 +29,7 @@ revisionQuestion:
 There are many other useful sales metrics to track alongside pipeline analysis metrics.
 
 - **Time Spent Selling**
-  There are few things more valuable than your sales reps' time – so it’s critical that you know how they’re using it. Spotting what the biggest time sucks are can help you fix bottlenecks in the sales process.
+  There are few things more valuable than your sales reps' time – so it's critical that you know how they're using it. Spotting what the biggest time sucks are can help you fix bottlenecks in the sales process.
 
 - **Distance from Goals/Targets**
   Setting clearly defined and attainable goals will help you spot problem areas and can boost motivation for sales reps to hit targets. Check out the best way to set these targets [here](https://www.pipedrive.com/en/blog/setting-sales-goals).

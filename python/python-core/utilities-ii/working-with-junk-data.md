@@ -63,7 +63,7 @@ print(s.find_longest_match(0, 5, 0, 9))
 Complete the `SequenceMatcher`  constructor such that empty spaces are treated as junk:
 
 ```python
-s = SequenceMatcher(??? x: x == ???, “ abcd”, “abcd abcd”)
+s = SequenceMatcher(??? x: x == ???, " abcd", "abcd abcd")
 ```
 
 - `lambda`

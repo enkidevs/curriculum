@@ -22,7 +22,7 @@ revisionQuestion:
 
 ## Content
 
-`currentColor` will reuse the calculated value of the element’s `color` property.
+`currentColor` will reuse the calculated value of the element's `color` property.
 
 Given:
 

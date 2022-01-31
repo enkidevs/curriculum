@@ -84,7 +84,7 @@ map.set(1, 2);
 - ReferenceError: map is not ...
 
 %exp
-Integers can’t be used as weak keys.
+Integers can't be used as weak keys.
 %
 
 ---

@@ -10,7 +10,7 @@ tags:
   - repetition
 links:
   - >-
-    [www.thejavageek.com](http://www.thejavageek.com/2015/04/10/dont-repeat-yourself-principle/){website}
+    [www.thejavageek.com](https://www.geeksforgeeks.org/dry-dont-repeat-yourself-principle-in-java-with-examples/){website}
 notes: 'static workout '
 ---
 
@@ -21,7 +21,7 @@ notes: 'static workout '
 
 ## Content
 
-Code written should be made easy to maintain by following the *don’t repeat yourself* principle. 
+Code written should be made easy to maintain by following the *don't repeat yourself* principle. 
 
 The principle suggests avoiding duplications or copying and pasting blocks of code from one place to another, by moving similar or repetitive code into reusable units like methods or sometimes an entire class. 
 

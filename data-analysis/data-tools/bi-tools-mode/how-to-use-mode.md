@@ -41,13 +41,13 @@ To invite someone to join your organization, start from the Mode home page for y
 
 4. 👩‍💻 **Query data** 
 
-You’ll need to write and execute SQL queries against one or more connected databases. In Mode, this is done within a report.
+You'll need to write and execute SQL queries against one or more connected databases. In Mode, this is done within a report.
 
 To create a new report, click the new report  button in the upper right hand corner of the Mode home page. You will be taken to the Query Editor where you can compose SQL code.
 
 5. 📊 **Visualize results** 
 
-Once you’ve written a query or two and have some data to play with, click Report Builder in the left panel to begin curating components — tables, charts, or Notebook output cells—in a shareable report. 
+Once you've written a query or two and have some data to play with, click Report Builder in the left panel to begin curating components — tables, charts, or Notebook output cells—in a shareable report. 
 
 Design the report layout however you like: pick the charts and tables you want to show, rearrange their order, and specify the size of each element.
 

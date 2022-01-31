@@ -81,7 +81,7 @@ In what order will the shell visit the folders in `PATH` to find a valid executa
 
 ## Revision
 
-The `command not found` error is thrown if the executable couldn’t be found ???.
+The `command not found` error is thrown if the executable couldn't be found ???.
 
 - in the list of folders contained in the PATH variable
 - anywhere on the system

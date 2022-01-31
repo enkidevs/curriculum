@@ -85,7 +85,7 @@ intField.???(myObj, 10);
 
 ## Revision
 
-Complete the following code snippet to get the field named “Enki”:
+Complete the following code snippet to get the field named "Enki":
 
 ```java
 Field intField = 

@@ -78,7 +78,7 @@ print(a)
 
 ## Practice
 
-What’s the output of the following code snippet:
+What's the output of the following code snippet:
 
 ```python
 e = [7, 8, 9, 11, 15, 19]

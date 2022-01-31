@@ -70,7 +70,7 @@ Content-Type: text/html; charset=...
 
 ## Revision
 
-You can test if a server’s *port 20* is open by issuing:
+You can test if a server's *port 20* is open by issuing:
 
 ```bash
 ??? ??? 

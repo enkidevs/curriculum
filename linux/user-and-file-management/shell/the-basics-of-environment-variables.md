@@ -60,7 +60,7 @@ As you can see, `echo $HOME` displays the value of the `HOME` environment variab
 
 ## Revision
 
-How would you list all environment variables’ values?
+How would you list all environment variables' values?
 
 ```plain-text
 ???

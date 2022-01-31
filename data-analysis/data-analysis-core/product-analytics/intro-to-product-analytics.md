@@ -4,10 +4,6 @@ tags:
   - introduction
 type: normal
 category: must-know
-links:
-  - >-
-    [Product vs Marketing
-    Analytics](http://upflow.co/l/Yem9/blog/2020/05/27/the-difference-between-product-analytics-and-marketing-analytics-and-why-you-need-both){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -32,7 +28,7 @@ Successful product analysis would track KPIs like like engagement, retention, an
 It answers questions like:
 
 - Who are your power users? And how do their behaviors differ from other users? 
-- Why do some users convert, while others don’t?
+- Why do some users convert, while others don't?
 - How does retention differ by user cohort? Is it higher or lower when people engage with a particular feature?
 - What are the top drivers of user engagement and retention?
 - Did that new feature release cause the desired change in behavior?

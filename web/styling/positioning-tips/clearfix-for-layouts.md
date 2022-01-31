@@ -62,8 +62,8 @@ What does `clear` property do?
 
 ???
 
-- It doesn’t allow float elements on specified sides.
-- It doesn’t allow any type of elements on specified sides.
+- It doesn't allow float elements on specified sides.
+- It doesn't allow any type of elements on specified sides.
 - It allows float elements on specified sides.
 
 

@@ -24,7 +24,7 @@ Let's say we want to get all documents with their type equal to either `"Grass"`
 - `$or` is a logical operator used to match one or more values from at least two expressions.
 - `$in` is a comparison operator used to match any values specified inside the given array like `$in: []`.
 
-In our case, since we’re looking at different values for the same field (the `type` field), the `$in` operator is better suited since it is less verbose. Nevertheless, here are both examples:
+In our case, since we're looking at different values for the same field (the `type` field), the `$in` operator is better suited since it is less verbose. Nevertheless, here are both examples:
 
 Using the `$or` operator:
 

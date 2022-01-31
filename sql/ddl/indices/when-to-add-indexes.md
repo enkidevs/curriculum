@@ -7,7 +7,7 @@ tags:
   - deep
 links:
   - >-
-    [Indexing Dos and Don’ts](https://www.itprotoday.com/sql-server/indexing-dos-and-don-ts){website}
+    [Indexing Dos and Don'ts](https://www.itprotoday.com/sql-server/indexing-dos-and-don-ts){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

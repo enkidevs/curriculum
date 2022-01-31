@@ -56,7 +56,7 @@ Complete the snippet to initialize a list:
 ```java
 List<String> enki = 
    ???.???(
-   “enki”, “is”, “cool” );
+   "enki", "is", "cool" );
 ```
 
 - `Arrays` 
@@ -77,7 +77,7 @@ Complete the snippet to initialize a list:
 ```java
 List<String> myList = 
    Arrays.???(
-   “one”, “two”, “three” );
+   "one", "two", "three" );
 ```
 
 - `asList` 

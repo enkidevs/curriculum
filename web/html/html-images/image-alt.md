@@ -101,7 +101,7 @@ Which description(s) of using image alt attributes is not true:
 ### Do you know the best way to write acronyms (like "USA") within image alt attribute?
 
 
-Hint: The best way helps screen readers read the alt properly as it prevents "ITS in the US" from being read as "It’s in the us".
+Hint: The best way helps screen readers read the alt properly as it prevents "ITS in the US" from being read as "It's in the us".
 
 `<img src="usa-map.jpg" alt="______">`
 

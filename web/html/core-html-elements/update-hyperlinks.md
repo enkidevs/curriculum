@@ -150,7 +150,7 @@ What is the default style of a text link in HTML?
 - `It is blue and underlined.`
 - `anywhere within the <main> element.`
 - `anywhere within the web page.`
-- `The cursor doesn’t change in this case`
+- `The cursor doesn't change in this case`
 - `""`
 - `*`
 - `_empty`

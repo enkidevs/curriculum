@@ -25,7 +25,7 @@ revisionQuestion:
 
 A **closure** is created when a function is created and includes both the function and its surrounding scope.
 
-When functions are nested, a closure gives the inner function access to the outer function’s scope.
+When functions are nested, a closure gives the inner function access to the outer function's scope.
 
 For example, you can return the inner function `bar()` from the outer function `foo()` and `bar()` will still maintain access to the local variables and arguments of the outer function `foo()`:
 

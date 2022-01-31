@@ -31,7 +31,7 @@ In previous versions of ECMAScript, if you wanted to use Unicode characters one 
 String.fromCharCode(65); // A
 ```
 
-However `fromCharCode` doesn’t work with all possible unicode values, but only ranging from `1` to `65535` (`0xFFFF`). A greater number used as input will be truncated automatically.
+However `fromCharCode` doesn't work with all possible unicode values, but only ranging from `1` to `65535` (`0xFFFF`). A greater number used as input will be truncated automatically.
 
 ```javascript
 String.fromCharCode(0x2014); // —

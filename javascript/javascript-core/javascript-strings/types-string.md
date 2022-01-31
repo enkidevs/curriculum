@@ -45,7 +45,7 @@ ghi";
 There are also special characters that can be used by preceding the character with a backslash. Here are some common ones:
 
 ```javascript
-\’ single quote
+\' single quote
 \" double quote
 \\ backslash
 \n new line

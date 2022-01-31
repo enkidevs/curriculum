@@ -60,7 +60,7 @@ if(??? myFunction === ???){
 ```
 
 - typeof
-- ”function”
+- "function"
 - function
 - !
 - undefined

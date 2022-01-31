@@ -35,9 +35,9 @@ These can always be changed if you prefer a different type of chart.
 
 There are loads to choose from including **line and area graphs**, **column, bar and pie charts**, **scatter plots**, and, if you have geographical data, even **maps**!
 
-> 💡 To represent different data over time using lines and bars, try a **combo chart**. For example, you can show revenue in bars and profit margin in a line across the same chart, giving you a more complete picture of your organization’s financial health.
+> 💡 To represent different data over time using lines and bars, try a **combo chart**. For example, you can show revenue in bars and profit margin in a line across the same chart, giving you a more complete picture of your organization's financial health.
 
-> 💡 To draw attention to a key metric or KPI, try the **scorecard chart**. For example, you can show the total sales number for your organization’s top selling product, and even call out percentage changes over time.
+> 💡 To draw attention to a key metric or KPI, try the **scorecard chart**. For example, you can show the total sales number for your organization's top selling product, and even call out percentage changes over time.
 
 You can also edit loads of other display options such as the axes, legends and colors. 
 

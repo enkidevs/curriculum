@@ -125,7 +125,7 @@ Create a text link that opens the user's default email program.
 
 ## Revision
 
-What code is used to create a link that when clicked opens the user’s default email program with an auto-loaded email address?
+What code is used to create a link that when clicked opens the user's default email program with an auto-loaded email address?
 
 ???
 
@@ -142,7 +142,7 @@ What code is used to create a link that when clicked opens the user’s default 
 ### How much do you know about HTML links opening email programs?
 
 
-Create a link that when clicked opens the user’s default email program with an auto-loaded email address and email subject?
+Create a link that when clicked opens the user's default email program with an auto-loaded email address and email subject?
 
 ```html
 <a

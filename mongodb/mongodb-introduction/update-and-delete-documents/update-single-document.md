@@ -29,7 +29,7 @@ The `updateOne()` method has 3 parameters `(filter, update, options)`.
 
 The `filter` is the criteria used for selecting the document you want to edit.
 
-The `update` parameter contains the changes that we want to apply to the document. Commonly, we do this with MongoDB [update operators](https://docs.mongodb.com/manual/reference/operator/update/#id1) such as `$set` or `$rename`. For example, `$set` will either update a value for a field that exists or create a new field with that value if it doesn’t.
+The `update` parameter contains the changes that we want to apply to the document. Commonly, we do this with MongoDB [update operators](https://docs.mongodb.com/manual/reference/operator/update/#id1) such as `$set` or `$rename`. For example, `$set` will either update a value for a field that exists or create a new field with that value if it doesn't.
 
 The `options` parameter is used for adding more options to the update method and will be discussed in a later workout.
 

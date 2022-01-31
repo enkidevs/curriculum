@@ -32,12 +32,12 @@ Chaining is where multiple pipes are used to move (pipe) data along a path where
 Take the following example:
 
 ```js
-var fs = require(‘fs’);
-var zlib = require(`zlib’);
+var fs = require(‘fs');
+var zlib = require(`zlib');
 
-fs.createReadStream(‘file.txt.gz’)
+fs.createReadStream(‘file.txt.gz')
   .pipe(zlib.createGunzip())
-  .pipe(fs.createWriteStream(‘final.txt’));
+  .pipe(fs.createWriteStream(‘final.txt'));
 ```
 
 Here, a readable stream is created which is piped into a second stream, `zlib.createGunzip()`, to unzip the content passed to it. The final pipe chains the unzipped content to the writable stream which writes the data to the specified file.

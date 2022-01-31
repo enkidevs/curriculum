@@ -48,7 +48,7 @@ In case you want the navigation bar at the bottom of the page, replace `top: 0;`
 
 ## Practice
 
-Which of the following properties will “glue” an element to its place?
+Which of the following properties will "glue" an element to its place?
 
 ???
 

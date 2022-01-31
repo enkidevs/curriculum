@@ -85,7 +85,7 @@ What is the root element of an HTML document?
 ???
 ```
 
-What HTML element is best to assign the document’s primary language?
+What HTML element is best to assign the document's primary language?
 
 ```html
 <??? lang="en-GB">

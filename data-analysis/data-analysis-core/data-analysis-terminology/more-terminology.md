@@ -29,7 +29,7 @@ And here is the last set of important terms to be aware of 🤓.
 
 ### Statistical Significance
 
-A result is statistically significant when we judge that it probably **didn’t happen due to chance**.
+A result is statistically significant when we judge that it probably **didn't happen due to chance**.
 
 Check out the **Learn More** link for an explanation on how to calculate it!
 
@@ -57,7 +57,7 @@ Data mining is the process of **discovering patterns** in large data sets that i
 
 Similar to data analysis, but more narrowly focused on **business metrics**. 
 
-The technical side of BI involves learning how to effectively use software to generate reports and find important trends. It’s descriptive, rather than predictive.
+The technical side of BI involves learning how to effectively use software to generate reports and find important trends. It's descriptive, rather than predictive.
 
 We'll be looking at some of the most popular BI tools, such as Tableau, Looker and Mode, later on!
 

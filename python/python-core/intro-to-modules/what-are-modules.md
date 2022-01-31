@@ -25,7 +25,7 @@ When you quit the Python interpreter and open it again, the *functions* and *var
 
 If you want to write a more *complex program*, you are better off using a *text editor* to prepare the **input** for the interpreter. This is known as creating a **script**.
 
-As your program's *size* gets longer you might want to split it into several **files**. You may also want to use a *handy function* that you’ve written in several **programs** without copying its **definition** into each program.
+As your program's *size* gets longer you might want to split it into several **files**. You may also want to use a *handy function* that you've written in several **programs** without copying its **definition** into each program.
 
 To support all these, Python provides **modules**[1]. Simply, a **module** is a file consisting of Python **code** with **definitions** and **statements**. In a **module** you can find runnable code defining:
 

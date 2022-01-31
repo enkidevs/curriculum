@@ -90,7 +90,7 @@ Imagine that we don't want to include hyphens or spaces in our pattern for Ameri
 
 [1: Credit Card Networks]
 
-A credit card network sets the interchange or “swipe” fees that merchants are charged to accept a credit card transaction. 
+A credit card network sets the interchange or "swipe" fees that merchants are charged to accept a credit card transaction. 
 
 Credit card networks do not control fees a cardholder pays such as the interest rates, annual fees, late fees, foreign transaction fees and over-limit fees.
  

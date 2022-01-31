@@ -4,7 +4,7 @@ type: normal
 category: must-know
 links:
   - >-
-    [Diagnosing Memory “Leaks” in
+    [Diagnosing Memory "Leaks" in
     Python](http://chase-seibert.github.io/blog/2013/08/03/diagnosing-memory-leaks-python.html){website}
 practiceQuestion:
   formats:

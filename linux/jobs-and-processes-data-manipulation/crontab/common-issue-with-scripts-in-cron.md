@@ -57,7 +57,7 @@ Make `enki.py` file executable:
 
 ## Revision
 
-If the user doesn’t have execute rights for a file, `cron` may
+If the user doesn't have execute rights for a file, `cron` may
 
 ???.
 

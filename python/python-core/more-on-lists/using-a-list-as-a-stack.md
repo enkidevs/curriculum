@@ -68,10 +68,10 @@ stack.???
 
 ## Revision
 
-What’s the output of the following code snippet:
+What's the output of the following code snippet:
 
 ```python
-stack = [‘10’, ‘11’, ‘12’, ‘13’]
+stack = [‘10', ‘11', ‘12', ‘13']
 stack.append(14)
 stack.append(15)
 stack.pop()
@@ -80,8 +80,8 @@ print(stack)
 // ???
 ```
 
-- `['10', '11’, ’12', '13', 14]`
+- `['10', '11', '12', '13', 14]`
 - `14`
 - `15`
-- There’s no output...
+- There's no output...
  

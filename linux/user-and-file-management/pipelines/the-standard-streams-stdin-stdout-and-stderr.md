@@ -57,7 +57,7 @@ How would a program know who is the source of the input received through `stdin`
 
 ???
 
-- It wouldn’t be able to find out
+- It wouldn't be able to find out
 - `By stdin.source`
 - `By stdin -s`
 - By the type of input received

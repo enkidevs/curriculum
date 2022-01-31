@@ -55,7 +55,7 @@ This shows that the outer function is called with the parameter, that parameter 
 
 ## Practice
 
-What’s the output to the following function call:
+What's the output to the following function call:
 
 ```python
 def outer(num):
@@ -79,7 +79,7 @@ outer(3)
 
 ## Revision
 
-A function is nested when it’s defined inside the ??? of another function.
+A function is nested when it's defined inside the ??? of another function.
 
 - scope
 - parentheses

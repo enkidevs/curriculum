@@ -56,7 +56,7 @@ echo 'line 1
 
 ## Revision
 
-In the terminal, add numbering before a file’s content (counting only non-empty lines) :
+In the terminal, add numbering before a file's content (counting only non-empty lines) :
 
 ```bash
 cat enki.txt | ???

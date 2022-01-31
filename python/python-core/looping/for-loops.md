@@ -70,7 +70,7 @@ Gives this output:
 
 ## Practice
 
-What’s the output of the following code snippet:
+What's the output of the following code snippet:
 
 ```py
 for x in [0, 1, 2, 3, 4, 5]:
@@ -90,7 +90,7 @@ for x in [0, 1, 2, 3, 4, 5]:
 
 ## Revision
 
-What’s the output of the following code snippet:
+What's the output of the following code snippet:
 
 ```py
 for letter in 'Python':

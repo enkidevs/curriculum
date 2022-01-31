@@ -38,7 +38,7 @@ for (let i of it) {
 }
 ```
 
-This error occurs as we didn't conform to the iterable protocol so JavaScript doesn’t know how to work with our iterator.
+This error occurs as we didn't conform to the iterable protocol so JavaScript doesn't know how to work with our iterator.
 
 Let's fix this now by returning an object with a property marked with `[Symbol.iterator]`:
 

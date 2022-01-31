@@ -49,7 +49,7 @@ Splitting on `\d`:
 ]
 ```
 
-Java’s split method ignores any trailing empty Strings.
+Java's split method ignores any trailing empty Strings.
 
 
 ---

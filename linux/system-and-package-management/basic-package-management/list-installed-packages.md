@@ -68,7 +68,7 @@ yum list installed "package_name"
 
 ## Practice
 
-It’s good practice to add the list of installed packages to a new file because 
+It's good practice to add the list of installed packages to a new file because 
 
 ???.
 

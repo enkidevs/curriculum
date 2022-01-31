@@ -17,16 +17,16 @@ category: must-know
 There are so many great tools out there. Here are a few of our favorites!
 
 ### Mixpanel
-Mixpanel can collect a lot of data for your CRO[1] experiments. Mixpanel helps you find the ‘hidden gems buried in your data automatically’ like the user segments who are underperforming, anomalies in your data trends and more.
+Mixpanel can collect a lot of data for your CRO[1] experiments. Mixpanel helps you find the ‘hidden gems buried in your data automatically' like the user segments who are underperforming, anomalies in your data trends and more.
 
 ### Amplitude
 Amplitude is very similar to Mixpanel as an essential Product Analytics tool. One key difference is that it automatically clusters similar users into behavioral cohorts — via their Personas.
 
 ### KissMetrics
-KissMetrics helps you understand the customer behavior of your clients across **different devices** and identify what’s working and what's not.
+KissMetrics helps you understand the customer behavior of your clients across **different devices** and identify what's working and what's not.
 
 ### Optimizely
-This is one of the oldest and most powerful CRO tools on the market. It allows marketing departments and software development teams to apply a “culture of optimization” to their offerings.
+This is one of the oldest and most powerful CRO tools on the market. It allows marketing departments and software development teams to apply a "culture of optimization" to their offerings.
 
 ### HotJar
 HotJar helps you visualize the visitor behavior on your website with click, move, and scroll heatmaps.

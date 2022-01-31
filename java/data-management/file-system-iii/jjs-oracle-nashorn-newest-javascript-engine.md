@@ -54,7 +54,7 @@ A few interesting features of Oracle Nashorn:
 
 ## Practice
 
-Using Java 8’s Oracle Nashorn engine run `enki.js`:
+Using Java 8's Oracle Nashorn engine run `enki.js`:
 
 ```java
 ??? ???

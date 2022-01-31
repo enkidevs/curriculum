@@ -29,13 +29,13 @@ The only difference being that computers require specific instructions. (Don't t
 
 ### Data: Variables
 
-Data is information and information needs to be stored somewhere. That’s where variables come in. For instance, when you meet someone new you could store their `name = "Batman"` and `age = 24` as two separate pieces of information.
+Data is information and information needs to be stored somewhere. That's where variables come in. For instance, when you meet someone new you could store their `name = "Batman"` and `age = 24` as two separate pieces of information.
 
 In this case, `name` and `age` would be the variables that store information.
 
 ### Data: Types
 
-It’s easy to divide 24 by 2 and get 12. However, dividing “Batman” by 2 might land you in jail. To avoid going to jail, we group information into distinct *data types* depending on whether the values they hold are numbers, texts, or something else.
+It's easy to divide 24 by 2 and get 12. However, dividing “Batman” by 2 might land you in jail. To avoid going to jail, we group information into distinct *data types* depending on whether the values they hold are numbers, texts, or something else.
 
 These *data types* save us from attempting number related operations on texts and vice versa.
 

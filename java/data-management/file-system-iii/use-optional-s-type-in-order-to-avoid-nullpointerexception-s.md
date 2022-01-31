@@ -56,7 +56,7 @@ System.out.println( "Name: "
 
 ```
 
-The `map()` method transforms the current `Optional`’s value and returns the new `Optional` instance. The `orElse()` method  accepts a default value if the `optional` is null.
+The `map()` method transforms the current `Optional`'s value and returns the new `Optional` instance. The `orElse()` method  accepts a default value if the `optional` is null.
 
 ```java
 System.out.println( myName.map( s ->
@@ -72,7 +72,7 @@ Optional should be used as the return type of functions that might not return a 
 
 ## Practice
 
-Check if an optional’s instance is not `null`:
+Check if an optional's instance is not `null`:
 
 ```java
 Optional<String> 

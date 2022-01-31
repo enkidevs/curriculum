@@ -34,7 +34,7 @@ Think about height and shoe size. These are *positively correlated* variables.
 
 ### Mean
 
-The mean gives us a sense of a “typical” or average value for a group of numbers.
+The mean gives us a sense of a "typical" or average value for a group of numbers.
 
 It is calculated by dividing the **sum of a list of values** by the **number of values** in that list.
 

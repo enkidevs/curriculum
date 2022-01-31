@@ -78,6 +78,6 @@ git ??? --since=??? ???="yesterday"
 
 `git` ??? understand relative dates like `"yesterday"` and `"1month6days ago"`.
 
-- can
+- can'
 - can’t
  

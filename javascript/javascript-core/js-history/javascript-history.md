@@ -29,9 +29,9 @@ Before we jump in, a few words on JavaScript history. It was initially developed
 
 The first version of JavaScript was called *LiveScript*, but this was later changed to JavaScript.
 
-Although JavaScript has the word “Java” in the title, the language has nothing to do with Java (probably a marketing ploy to capitalize on Java's popularity at the time).
+Although JavaScript has the word "Java" in the title, the language has nothing to do with Java (probably a marketing ploy to capitalize on Java's popularity at the time).
 
-While some of JavaScript’s methods and syntax are similar to Java, JavaScript owes more to languages such as *Scheme* and *Self*.
+While some of JavaScript's methods and syntax are similar to Java, JavaScript owes more to languages such as *Scheme* and *Self*.
 
 
 ---

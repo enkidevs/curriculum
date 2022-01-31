@@ -83,7 +83,7 @@ Set the highest priority for the process with ID `2314`:
 
 ## Revision
 
-A process’ nice value of 15 represents a ??? priority.
+A process' nice value of 15 represents a ??? priority.
 
 - low
 - high

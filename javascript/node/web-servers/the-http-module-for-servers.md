@@ -31,7 +31,7 @@ Node is well suited and frequently used for creating servers which are both ligh
 To build the server, first require the `http` module into your JavaScript file:
 
 ```plain-text
-var http = require(‘http’);
+var http = require(‘http');
 ```
 
 As all HTTP communication is done via the request / response pair, Node's `http` module uses the same concept, being designed to work with a `request` and a `response` object.
@@ -41,7 +41,7 @@ Next, a handler function needs to be defined to handle and respond to all reques
 ```plain-text
 function requestHandler(request, response) {
 
-  response.end(‘Test response!’);
+  response.end(‘Test response!');
 
 }
 ```
@@ -61,7 +61,7 @@ Then assign a port to the server object using `listen`:
 server.listen(8000, function() {
 
   console.log(‘Server listening here:
-              http://localhost:%s’, 8000);
+              http://localhost:%s', 8000);
 
 });
 ```
@@ -77,7 +77,7 @@ Complete the code snippet to listen for requests on port `2242` with `server`:
 server.???(???, function() {
 
   console.log(‘Server listening here:
-              http://localhost:%s’, 2242);
+              http://localhost:%s', 2242);
 
 });
 

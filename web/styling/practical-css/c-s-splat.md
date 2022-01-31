@@ -131,7 +131,7 @@ The right syntax to specify the stack order of an element is `z-index: x`.
   text-align: center;
 }
 %exp
-`upper` doesn’t mean anything in CSS. However, `uppercase` can be used to transform all characters as intended.
+`upper` doesn't mean anything in CSS. However, `uppercase` can be used to transform all characters as intended.
 %
 
 ​---

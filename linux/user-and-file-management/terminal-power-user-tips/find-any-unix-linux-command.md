@@ -79,6 +79,6 @@ install-sgmlcatalog (8) - maintain
 
 `apropos`  allows you to search through ???
 
-- commands’ description
+- commands' description
 - users
 - servers

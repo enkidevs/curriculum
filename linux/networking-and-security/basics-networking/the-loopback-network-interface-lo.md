@@ -64,5 +64,5 @@ Loopback interface always refers to the ???
 
 - machine itself
 - ISP address
-- router’s address
-- destination’s address
+- router's address
+- destination's address

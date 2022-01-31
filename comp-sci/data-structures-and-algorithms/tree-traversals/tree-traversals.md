@@ -43,7 +43,7 @@ In the following insights we will assume that a left node has priority over the 
 
 **Breadth-first traversal** (also known as *Breadth-first Search* or *BFS*) is the tree traversal that prioritize neighbors (nodes on the same level) over nodes on other levels.
 
-Let’s consider the tree:
+Let's consider the tree:
 
 ![treeex](https://img.enkipro.com/857d47ddc50f5dfa0e2947ab092854df.png)
 

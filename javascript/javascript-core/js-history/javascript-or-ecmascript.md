@@ -29,7 +29,7 @@ The language that would become JavaScript was created by **Brendan Eich** in 199
 
 What ECMAScript does is to provide a schema which regulates the underlying behavior of the implementing languages.
 
-The current JavaScript is considered a **dialect** (or implementation) of ECMAScript, but there are other popular dialects in use such as Adobe’s ActionScript.
+The current JavaScript is considered a **dialect** (or implementation) of ECMAScript, but there are other popular dialects in use such as Adobe's ActionScript.
 
 At the time of writing the current version of ECMAScript is **ECMAScript 2015** which is also sometimes referred to as **ECMAScript 6** or just **ES6**.
 

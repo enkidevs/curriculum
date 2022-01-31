@@ -71,7 +71,7 @@ Practice: The command to enable the *Reuse Recorded Resolution* tool is:
 
 ## Revision
 
-rerere(“Reuse Recorded Resolution”) ??? the way you ??? a ??? conflict and automatically resolves it for you.
+rerere("Reuse Recorded Resolution") ??? the way you ??? a ??? conflict and automatically resolves it for you.
 
 - saves
 - solved

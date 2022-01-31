@@ -122,6 +122,7 @@ Types of change:
 ## January 4th 2022
 
 ### Fixed
+- [Multiple Topics - Multiple insights - Replace all occurances of "wrong" quotations that break the "solve this question" feature with normal quotations](https://github.com/enkidevs/curriculum/pull/2977)
 - [HTML - Image Map - Fix incorrect description word for area element](https://github.com/enkidevs/curriculum/pull/2975)
 - [Blockchain - What Are Smart Contracts - Fix misspelled files word](https://github.com/enkidevs/curriculum/pull/2978)
 - [Linux - Converting Between Unix And Windows Text Files - Replace wrong quotation character with the correct one](https://github.com/enkidevs/curriculum/pull/2976)

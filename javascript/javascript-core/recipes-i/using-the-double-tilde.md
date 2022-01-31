@@ -89,5 +89,5 @@ console.log( ~~"Sunny" );
 - 56
 - 0
 - NaN
-- ”56”
+- "56"
  

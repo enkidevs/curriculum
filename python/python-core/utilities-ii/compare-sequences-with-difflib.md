@@ -70,11 +70,11 @@ Use `Differ` class to print the differences between texts `a` and `b`  :
 
 ```python
 import difflib
-a = “abc \n xyz”
-b = “abc \n plm”
+a = "abc \n xyz"
+b = "abc \n plm"
 d = difflib.???()
 diff = d.???(a, b)
-print(‘\n’.join(diff))
+print(‘\n'.join(diff))
 ```
 
 - `Differ`

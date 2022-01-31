@@ -43,7 +43,7 @@ Additionally, we can distinguish the following couple of methods:
 
 In both syntaxes defined above `byteorder` stands for the **byte order** or **endianness**[2], accepting the values `"big"` or `"little"`.
 
-The `signed` argument (`False` by default) determines whether **two’s complement** is used to represent the integer. Keep in mind that having `signed` equal to `False` and calling `.to_bytes()` on a *negative* number will result in a `OverflowError`.
+The `signed` argument (`False` by default) determines whether **two's complement** is used to represent the integer. Keep in mind that having `signed` equal to `False` and calling `.to_bytes()` on a *negative* number will result in a `OverflowError`.
 
 Note that you can round up a floating point numbers using the following expression:
 

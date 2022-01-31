@@ -43,7 +43,7 @@ public String getAddress(String name) {
 
 ## Revision
 
-What’s the main advantage of using meaningful names for methods?
+What's the main advantage of using meaningful names for methods?
 
 ???
 

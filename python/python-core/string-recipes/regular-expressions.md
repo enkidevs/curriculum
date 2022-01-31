@@ -66,9 +66,9 @@ Search the given text for the `abc` pattern:
 
 ```python
 import re
-text = “here is abc”
-if ???.???(‘abc’, text)
-   print(‘found’)
+text = "here is abc"
+if ???.???(‘abc', text)
+   print(‘found')
 ```
 
 - `re`

@@ -65,7 +65,7 @@ How many unique tags are used in this code? ???
 ```plain-text
 <h1>Large Text Heading</h1>
 <img src="photos/image.jpg">
-<p>I’m just a simple paragraph.</p>
+<p>I'm just a simple paragraph.</p>
 ```
 
 - `/`

@@ -68,7 +68,7 @@ Which error is raised if the proxy is accessed after the reference object is del
 
 ## Revision
 
-What’s the difference between using `ref` and `proxy` from `weakref`?
+What's the difference between using `ref` and `proxy` from `weakref`?
 
 ???
 

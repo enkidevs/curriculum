@@ -50,8 +50,8 @@ git ??? ??? ??? ???
 - `config`
 - `--global`
 - `color.diff.meta`
-- `”blue black bold”`
-- `”blue, black, bold”`
+- `"blue black bold"`
+- `"blue, black, bold"`
 
 
 ---

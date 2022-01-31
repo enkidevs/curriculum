@@ -27,7 +27,7 @@ revisionQuestion:
 
 ## Content
 
-Without experimentation, companies can’t innovate; they can only guess.
+Without experimentation, companies can't innovate; they can only guess.
 
 **A/B testing** is a process of experimentation where you show **two variants** of a web page or email to different groups and compare which variant is more effective.
 
@@ -43,7 +43,7 @@ Here's our 6-step guide to conduct an A/B test:
    To evaluate how effective a change is, you'll want to isolate one "independent variable" and measure its performance — otherwise, you can't be sure which one was responsible for changes in performance[1].
 
 2. **Create a 'control' and a 'challenger'**
-   Set up the unaltered version of whatever you're testing as your "control" then build a variation, or a "challenger" — the website, landing page, or email you’ll test against your control.
+   Set up the unaltered version of whatever you're testing as your "control" then build a variation, or a "challenger" — the website, landing page, or email you'll test against your control.
 
 3. **Split your sample groups equally and randomly**
    Determine your sample size and then use a tool that will automatically split traffic to your variations so that each variation gets a random sampling of visitors.

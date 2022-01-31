@@ -72,7 +72,7 @@ sudo ??? /dev/null >
 
 ## Revision
 
-To clear the current user’s history you can run:
+To clear the current user's history you can run:
 
 ```bash
 ??? ???

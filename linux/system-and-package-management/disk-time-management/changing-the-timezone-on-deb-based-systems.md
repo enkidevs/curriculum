@@ -39,7 +39,7 @@ You can also switch `UTC/GMT` using that same command.
 
 ## Practice
 
-Change the system’s timezone:
+Change the system's timezone:
 
 ```bash
 ??? ??? ???
@@ -57,7 +57,7 @@ Change the system’s timezone:
 
 ## Revision
 
-On Debian systems, you can change the system’s timezone by running:
+On Debian systems, you can change the system's timezone by running:
 
 ```bash
 sudo ??? ???

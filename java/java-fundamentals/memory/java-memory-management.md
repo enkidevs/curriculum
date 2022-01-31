@@ -50,7 +50,7 @@ On what algorithm is Garbage Collection based?
 
 ## Revision
 
-On what is Java’s memory management based?
+On what is Java's memory management based?
 
 ???
 
