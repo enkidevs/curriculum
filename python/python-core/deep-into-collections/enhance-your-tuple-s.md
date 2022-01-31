@@ -112,8 +112,7 @@ print(A._asdict())
 Convert the `namedtuple` into an `OrderedDict` :
 
 ```python
-question = ???('Practice', \
-               'a b c')
+question = ???('Practice', 'a b c')
 p = question(a = 10, b = 5, c = 2)
 print(p.???())
 # OrderedDict([('a', 10), \

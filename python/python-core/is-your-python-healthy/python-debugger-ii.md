@@ -29,17 +29,16 @@ Considering the **source code** exemplified in the previous insight[1], lets see
 
 ```python
 (Pdb) list
-1  -> num_list = [1, 2]
-2     chars = ['a', 'b']
-3     
-4     
-5     def nested_loop():
-6         for nr in num_list:
-7             print(nr)
-8             for char in chars:
-9                 print(char)
-10     
-11     if __name__ == '__main__':
+-> num_list = [1, 2]
+   chars = ['a', 'b']
+
+   def nested_loop():
+     for nr in num_list:
+       print(nr)
+       for char in chars:
+         print(char)
+
+   if __name__ == '__main__':
 (Pdb)
 ```
 
