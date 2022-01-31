@@ -44,7 +44,7 @@ print(n)
 # [1, 2]
 ```
 
-A shallow copy is a first-layer only copy of the container: any reference to a mutable object contained is kept.
+A shallow copy is a first-layer-only copy of the container: any reference to a mutable object contained is kept.
 
 ```python
 m = [1, []]
