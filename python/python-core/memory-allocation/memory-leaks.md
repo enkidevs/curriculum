@@ -32,9 +32,9 @@ A **memory leak** occurs when a program manages *memory allocation* incorrectly:
 0MB      512MB    1024MB
 ```
 
-Instead of reusing memory already allocated , the program requests more and more memory, hence eating up memory other background programs/processes might be using. This can slow the whole system down due to *thrashing*[1] making the OS to force kill `A` to free up memory.
+Instead of reusing memory already allocated, the program requests more and more memory, hence eating up memory other background programs/processes might be using. This can slow the whole system down due to *thrashing*[1] making the OS force kill `A` to free up memory.
 
-You can usually assume your Python application has a memory leak if its memory usage grows steadily over time. This is not necessarily a reason for concern, as there are a number of tools that can help you identify and solve the problem. To name a few:
+You can usually assume your Python application has a memory leak if its memory usage grows steadily over time. This is not necessarily a reason for concern, as several tools can help you identify and solve the problem. To name a few:
 
 - Python's debugger, `pdb`
 - memory monitors and analyzers, `pympler` and `memory_profiler`

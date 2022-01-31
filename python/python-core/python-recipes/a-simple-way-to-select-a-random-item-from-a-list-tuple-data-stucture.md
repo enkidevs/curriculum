@@ -28,8 +28,7 @@ If you need to randomly select an item from a list:
 ```python
 import random
 items = ['here', 'to', 'one', 'strings']
-rand_item =
-items[random.randrange(len(items))]
+rand_item = items[random.randrange(len(items))]
 ```
 
 Use `randrange` (or `randint`) to generate a pseudo-random integer from the range indicated by it's arguments.
@@ -37,9 +36,7 @@ Use `randrange` (or `randint`) to generate a pseudo-random integer from the rang
 2) Naive approach 2:
 
 ```python
-rand_items =
-[items[random.randrange(len(items))]
-              for item in range(4)]
+rand_items = [items[random.randrange(len(items))] for item in range(4)]
 ```
 
 Use `random.randrange` to generate indexes inside a list comprehension.
