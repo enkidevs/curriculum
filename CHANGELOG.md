@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 31st 2022
+
+### Added
+- [Git - Branches In Git - Add info on git switch, convert RQ to fill-in-the-gap](https://github.com/enkidevs/curriculum/pull/3034)
+
 ## January 25th 2022
 
 ### Added
