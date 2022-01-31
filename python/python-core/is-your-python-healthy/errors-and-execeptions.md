@@ -43,8 +43,8 @@ Indentation in Python is very important. We want the **variable** to be assigned
 
 ```python
 def func():
-    value = 5
-    return value
+  value = 5
+  return value
 ```
 
 However, even if the code is *syntactically correct*, we can still encounter errors when executing the program. Errors detected while executing the program are called **exceptions**. There are types of exceptions which cause the program to stop executing and types of exceptions which can be handled.

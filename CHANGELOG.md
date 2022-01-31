@@ -84,6 +84,7 @@ Types of change:
 ### Changed
 - [Html - Link Relative Paths - Change part of PQ as it wasn't worder properly](https://github.com/enkidevs/curriculum/pull/2985)
 - [Python - Format Text Paragraphs With Textwrap - Make the fill method more clear](https://github.com/enkidevs/curriculum/pull/2981)
+- [Python - Is Your Python Healthy - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2999)
 - [Python - Memory Allocation - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces, grammar improvements](https://github.com/enkidevs/curriculum/pull/3002)
 - [Python - Playing With Time - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3007)
 - [Python - Deep Into Collections - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2997)
