@@ -14,7 +14,6 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -79,6 +78,10 @@ Thinking of a branch as a pointer to a specific state of the repository, we can 
 git checkout my-branch
 ```
 
+Or we can also use `git switch`[5]:
+```bash
+git switch my-brancwh
+```
 
 ---
 
@@ -103,15 +106,14 @@ git ??? ??? my-branch
 
 ## Revision
 
-The command used in **Git** to switch between branches:
+The command/s used in **Git** to switch between branches:
 
-```bash
 ???
-```
 
-- `git checkout`
-- `git branch`
+- `git checkout & git switch`
+- `git branch & git checkout`
 - `git branch -m`
+- `git checkout switch branch -m`
 
 
 ---
@@ -132,4 +134,13 @@ Using the `git checkout` command together with the `-b` flag, you can simultaneo
 
 ```bash
 git checkout -b my-branch
+```
+
+[4:switch]
+Using the `git switch -c my-branch` command, you can simultaneously create a new branch and switch to it:
+
+> The `-c` flag means to create a new branch if the specified `my-branch` does not exist. Without `-c`, you can only switch to an existing one.
+
+```bash
+git switch -c my-branch
 ```
