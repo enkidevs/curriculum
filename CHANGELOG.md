@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 1st 2022
+
+### Fixed
+- [Python Data Analysis - End Goals Minor Grammar Improvement](https://github.com/enkidevs/curriculum/pull/3036)
+
 ## January 25th 2022
 
 ### Added
