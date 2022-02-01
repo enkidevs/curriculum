@@ -26,7 +26,7 @@ What do we know?
 
 We know that we have ratings, cast members, genre (`listed_in`), year of release, type of content, and the duration of it.
 
-Here're are some of the questions we can answer about this dataset:
+Here are some of the questions we can answer about this dataset:
 - How many movies vs TV shows are there?
 - How many ratings exist?
 - How many movies vs TV shows of a specific ratings are there?
