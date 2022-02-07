@@ -48,12 +48,20 @@ Types of change:
 
 ### Fixed
 
+## February 7th 2022
+
+### Fixed
+- [MongoDb - Aggregation With $last - Replace $first operator with $last](https://github.com/enkidevs/curriculum/pull/3038)
+
 ## January 31st 2022
 
 ### Added
 - [Git - Branches In Git - Add info on git switch, convert RQ to fill-in-the-gap](https://github.com/enkidevs/curriculum/pull/3034)
 
 ## January 25th 2022
+
+### Fixed
+- [Java - DRY Principle - Replace 404 link](https://github.com/enkidevs/curriculum/pull/3032)
 
 ### Added
 - [TypeScript - tsc Extending Interfaces - Add more info](https://github.com/enkidevs/curriculum/pull/3029)

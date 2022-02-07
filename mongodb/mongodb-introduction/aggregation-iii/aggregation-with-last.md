@@ -75,7 +75,7 @@ db.pokemon.aggregate([
 - `$group`
 - `$type`
 - `nameOfLast `
-- `$first`
+- `$last`
 - `$Type`
 - `$Group`
 
