@@ -83,7 +83,7 @@ git checkout my-branch
 
 Or we can also use `git switch`[5]:
 ```bash
-git switch my-brancwh
+git switch my-branch
 ```
 
 ---
