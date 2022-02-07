@@ -113,8 +113,8 @@ The command/s used in **Git** to switch between branches:
 
 ???
 
-- `git checkout & git switch`
-- `git branch & git checkout`
+- `git checkout or git switch`
+- `git branch or git checkout`
 - `git branch -m`
 - `git checkout switch branch -m`
 
