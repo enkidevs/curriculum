@@ -50,6 +50,9 @@ Types of change:
 
 ## January 25th 2022
 
+### Fixed
+- [Java - DRY Principle - Replace 404 link](https://github.com/enkidevs/curriculum/pull/3032)
+
 ### Added
 - [TypeScript - tsc Extending Interfaces - Add more info](https://github.com/enkidevs/curriculum/pull/3029)
 
