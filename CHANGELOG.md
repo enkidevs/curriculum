@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 7th 2022
+
+### Fixed
+- [MongoDb - Aggregation With $last - Replace $first operator with $last](https://github.com/enkidevs/curriculum/pull/3038)
+
 ## January 25th 2022
 
 ### Added
