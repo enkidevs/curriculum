@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 8th 2022
+
+### Fixed
+- [JavaScript - Sum And Product Of Two Arrays Exercise - Fix spelling of Summed in question](https://github.com/enkidevs/curriculum/pull/3039)
+
 ## February 7th 2022
 
 ### Fixed
