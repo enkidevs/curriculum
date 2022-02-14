@@ -79,7 +79,7 @@ Link to the
 
 ## Revision
 
-What denotes an anchor link?
+Add the missing code to create an anchor link that navigates to the portion of the page whose id is `contact`:
 
 ```html
 <a href="???contact">
