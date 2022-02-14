@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 14th 2022
+
+### Changed
+-[Web - Nested Lists - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/3040)
+
 ## February 7th 2022
 
 ### Fixed
