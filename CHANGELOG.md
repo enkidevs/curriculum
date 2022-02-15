@@ -51,7 +51,7 @@ Types of change:
 ## February 14th 2022
 
 ### Changed
--[Web - Anchor Links - Make RQ clearer](https://github.com/enkidevs/curriculum/pull/3041) 
+- [Web - Anchor Links - Make RQ clearer](https://github.com/enkidevs/curriculum/pull/3041) 
 
 ## February 7th 2022
 

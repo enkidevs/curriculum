@@ -79,7 +79,7 @@ Link to the
 
 ## Revision
 
-Add the missing code to create an anchor link that navigates to the portion of the page whose id is `contact`:
+Create an anchor link that navigates to the HTML element with the `contact` id:
 
 ```html
 <a href="???contact">
