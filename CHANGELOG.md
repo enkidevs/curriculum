@@ -52,6 +52,7 @@ Types of change:
 
 ### Changed
 -[Web - Nested Lists - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/3040)
+-[Python - Python Packages - Remove whitespace from a one liner code that spanned two lines](https://github.com/enkidevs/curriculum/pull/3042) 
 
 ## February 7th 2022
 
