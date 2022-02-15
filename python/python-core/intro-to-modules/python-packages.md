@@ -52,8 +52,7 @@ Now that we have these files defined in our **Hotel package**, we can use them i
 ```python
 # rooms_update.py
 
-from Hotel 
-import available_rooms, total_rooms
+from Hotel import available_rooms, total_rooms
 
 available_rooms.available(10)
 # 10 rooms are available.
