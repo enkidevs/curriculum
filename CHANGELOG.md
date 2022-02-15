@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 15th 2022
+
+### Fixed
+- [Spreadsheets - What Are Formulas - fix markdown table not rendering correctly in PQ](https://github.com/enkidevs/curriculum/pull/3043)
+
 ## February 7th 2022
 
 ### Fixed
