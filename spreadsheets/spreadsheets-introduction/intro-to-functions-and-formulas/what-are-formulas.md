@@ -42,7 +42,8 @@ Now, every time you update the data in one of the cells found in the formula (`B
 ## Practice
 
 Consider the following spreadsheet:
-| ‏‏‎ ‎ | A    | B        |
+
+| &#160; | A    | B        |
 |---|------|----------|
 | 1 | Week | Spending |
 | 2 | 1    | 23       |
