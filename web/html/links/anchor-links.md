@@ -79,7 +79,7 @@ Link to the
 
 ## Revision
 
-What denotes an anchor link?
+Create an anchor link that navigates to the HTML element with the `contact` id:
 
 ```html
 <a href="???contact">
