@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 14th 2022
+
+### Changed
+-[Python - Python Packages - Remove whitespace from a one liner code that spanned two lines](https://github.com/enkidevs/curriculum/pull/3042) 
+
 ## February 7th 2022
 
 ### Fixed
