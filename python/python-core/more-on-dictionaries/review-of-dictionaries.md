@@ -34,9 +34,9 @@ weather = {'London': 23, 'Barcelona': 28,
            'Bucharest': 35}
 ```
 
-A dictionary is represented by a series of tuples ( key: value ) wrapped in curly braces ( {} ). Another property worth mentioning at this stage is that dictionaries are *unordered data types*, meaning that the order in which tuples are stored and displayed is arbitrary.
+A dictionary is represented by a series of tuples ( key: value ) wrapped in curly braces ( {} ). 
 
-Being an unordered data type makes it impossible for elements to be accessed via some index. However, we can retrieve any stored value by referencing the related key:
+We can retrieve any stored value by referencing the related key:
 
 ```python
 print(weather['Barcelona'])
@@ -63,6 +63,18 @@ print(weather.items())'
 #             ('Barcelona', 28),
 #             ('Bucharest', 35)])
 ```
+
+Or we can use the `keys()` and `values()` method to get the key or value on a specific index of the dictionary:
+```python
+secondKey = list(weather.keys())[1]
+print(secondKey)
+# Barcelona
+
+thirdValue = list(weather.values())[2]
+print(thirdValue)
+# 35
+```
+
 
 We can update a dictionary by updating an existing entry, adding a new entry or deleting an existing one:
 
