@@ -70,7 +70,7 @@ navigator.???()
 - getBattery
 - battery
 - addEventListener
-- 'levelChange'
+- 'levelchange'
 - logBatteryLevel
 - addListener
 - bat
