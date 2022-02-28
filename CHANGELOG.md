@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 28th 2022
+
+### Fixed
+- [Python - Chain Comparison Operators - Replace outdated link](https://github.com/enkidevs/curriculum/pull/3049)
+
 ## February 15th 2022
 
 ### Fixed
