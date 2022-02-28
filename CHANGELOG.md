@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 28th 2022
+
+### Fixed
+- [Javascript - Battery API - Replace incorrect levelChange event name with the correct levelchange one](https://github.com/enkidevs/curriculum/pull/3048)
+
 ## February 15th 2022
 
 ### Fixed
