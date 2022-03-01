@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 28th 2022
+
+### Fixed
+- [Data Analysis - Sorting And Filtering - Add missing L to calculations word in note](https://github.com/enkidevs/curriculum/pull/3047)
+
 ## February 15th 2022
 
 ### Fixed
