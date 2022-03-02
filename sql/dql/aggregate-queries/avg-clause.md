@@ -35,12 +35,11 @@ Using the following segment of the `experience` **table**:
 | 2  | 2     | 10         | 1              |
 | 3  | 3     | 33         | 1              |
 
-Let's see what the first five values of the `experience` **column** look like:
+Let's see what the values of the `experience` **column** look like:
 
 ```sql
 SELECT experience
 FROM experience
-LIMIT 5;
 ```
 
 Output:
@@ -53,12 +52,11 @@ Output:
 | 80         |
 | 156        |
 
-Using the `AVG` function, you can find the average of the first five values:
+Using the `AVG` function, you can find the average of the values in a select column:
 
 ```sql
 SELECT AVG(experience) as Result
 FROM experience
-LIMIT 5;
 ```
 
 Output:
