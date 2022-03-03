@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 2nd 2022
+
+### Changed
+- [SQL - AVG Clause - Remove LIMIT as it has no effect on the provided queries](https://github.com/enkidevs/curriculum/pull/3050)
+
 ## February 28th 2022
 
 ### Fixed
