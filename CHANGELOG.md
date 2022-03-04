@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 4th 2022
+
+### Fixed
+- [Linux - User Mod Recipies - Move Single Line Command in PQ Back To A Single Line](https://github.com/enkidevs/curriculum/pull/3051)
+
 ## March 2nd 2022
 
 ### Changed
