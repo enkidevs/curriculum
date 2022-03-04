@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 4th 2022
+
+### Changed
+- [Coding Intro - All Plain Text Code Blocks - Add JS Syntax Highlighting](https://github.com/enkidevs/curriculum/pull/3052)
+
 ## February 28th 2022
 
 ### Fixed
