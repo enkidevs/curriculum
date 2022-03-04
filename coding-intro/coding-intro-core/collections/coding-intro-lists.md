@@ -21,19 +21,19 @@ Usually, you can mix elements with different data types in a list, but some lang
 
 Lists items commonly have a direction:
 
-```plain-text
+```javascript
 item1 -> item2 -> item3
 ```
 
 Which can also point both ways if needed:
 
-```plain-text
+```javascript
 item1 <- -> item2 <- -> item3
 ```
 
 Sometimes we can see lists written using square brackets `[ ]`, with the values separated by commas inside.
 
-```plain-text
+```javascript
 users = ["Andrei", "Catalin", "Mihai"]
 ```
 

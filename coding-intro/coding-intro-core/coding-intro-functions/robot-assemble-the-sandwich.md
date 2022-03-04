@@ -21,7 +21,7 @@ revisionQuestion:
 
 Let's continue preparing the sandwich-making instructions for our robot by writing a function to perform the second step of our recipe[1] - building out the sandwich from the ingredients.
 
-```plain-text
+```javascript
 FUNCTION build_sandwich
   INPUT cheese_bowl, sliced_bread, butter
   INSTRUCT buttered_slices = butter_the_bread(sliced_bread, butter)
@@ -37,14 +37,14 @@ Computers are 100% literal[2] like that. We have to spell out everything **exact
 
 For example, in the code above, take a look at the last two lines of the function body:
 
-```plain-text
+```javascript
 INSTRUCT sandwich = combine_slices(buttered_slices_with_cheese)
 OUTPUT sandwich
 ```
 
 If you forgot to save the output of `combine_slices` into the variable `sandwich`:
 
-```plain-text
+```javascript
 INSTRUCT combine_slices(buttered_slices_with_cheese)
 OUTPUT sandwich
 ```
@@ -60,7 +60,7 @@ Let's practice function creation!
 
 Write a function called `fill_glass` that takes in `glass` and `water`, calls `pour` function to pour the `water` into the `glass` and produces a `glass_of_water` as the result:
 
-```plain-text
+```javascript
 ??? ???
   ??? glass, water
   ??? glass_of_water = ???(glass, water)
@@ -82,7 +82,7 @@ ENDFUNCTION
 
 Write a function called `fill_glass` that takes in `glass` and `water`, calls `pour` function to pour the `water` into the `glass` and produces a `glass_of_water` as the result:
 
-```plain-text
+```javascript
 ??? ???
   ??? glass, water
   ??? glass_of_water = ???(glass, water)
@@ -137,7 +137,7 @@ In some languages, instructions usually end with a semicolon `;`.
 
 This means that the instruction:
 
-```plain-text
+```javascript
 study_buddy = "enki"
 ```
 
@@ -145,6 +145,6 @@ will not work in those languages!
 
 We have to end it with a `;` like this:
 
-```plain-text
+```javascript
 study_buddy = "enki";
 ```

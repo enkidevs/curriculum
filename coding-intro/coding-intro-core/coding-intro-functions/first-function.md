@@ -35,7 +35,7 @@ We can think of a function as divided into three parts.
 
 Here's how you can write the `multiplyTwoNumbers` function using our own made-up[1] language:
 
-```plain-text
+```javascript
 FUNCTION multiplyTwoNumbers
   INPUT num1, num2
   INSTRUCT result = multiply(num1, num2)
@@ -44,7 +44,7 @@ FUNCTION multiplyTwoNumbers
 
 To call this function we write its name, followed by a pair of `()`.
 
-```plain-text
+```javascript
 INSTRUCT multiplyTwoNumbers(5, 3)
 ```
 

@@ -70,7 +70,7 @@ print(my_collection[0])
 
 There are many ways in which you can tackle this. For example, you could create a list that stores weekdays:
 
-```plain-text
+```javascript
 days = [
   "Monday",
   "Tuesday",
@@ -85,7 +85,7 @@ days = [
 
 Here is a reminder of how you can access the items:
 
-```plain-text
+```javascript
 days[0]
 // "Monday"
 ```

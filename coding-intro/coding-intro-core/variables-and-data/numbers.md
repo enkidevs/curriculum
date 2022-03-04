@@ -30,13 +30,13 @@ In order to make everything easier and faster to work with, programming language
 
 Let's define an integer!
 
-```plain-text
+```javascript
 my_age = 33
 ```
 
 > 💡 Depending on the programming language, you might have to type the data type before the variable name.
 
-```plain-text
+```javascript
 int my_age = 33
 
 integer my_age = 33
@@ -49,7 +49,7 @@ integer my_age = 33
 
 Which of the following is an integer?
 
-```plain-text
+```javascript
 a = 1
 
 b = "1"
@@ -70,7 +70,7 @@ c = "one"
 
 Create a variable named `age` which stores `33`:
 
-```plain-text
+```javascript
 ??? ??? ???
 ```
 

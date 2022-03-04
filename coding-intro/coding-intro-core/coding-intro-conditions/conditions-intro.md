@@ -27,7 +27,7 @@ Remember that grilled-cheese-making-robot that we programmed? Let's repurpose it
 
 Let's create a variable named `input`, and based on its value the robot will make the sandwich with a different type of bread.
 
-```plain-text
+```javascript
 input = 0
 ```
 
@@ -40,7 +40,7 @@ In the following insights, we'll use `input` to help our robot make decisions.
 
 What type is the `input` variable?
 
-```plain-text
+```javascript
 input = 0
 ```
 
@@ -57,7 +57,7 @@ input = 0
 
 What type is the `input` variable?
 
-```plain-text
+```javascript
 input = "0"
 ```
 

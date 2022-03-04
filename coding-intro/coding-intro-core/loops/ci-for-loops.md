@@ -25,7 +25,7 @@ The idea behind these loops is that you are repeating an instruction **for each*
 
 If, for example, you have this list of friends:
 
-```plain-text
+```javascript
 friends = [
   "John",
   "Dan",
@@ -35,7 +35,7 @@ friends = [
 
 You can repeat an instruction **for each** friend using the for loop. In this example we'll make a grilled cheese sandwich[1]:
 
-```plain-text
+```javascript
 FOR EACH friend OF friends
   INSTRUCT make_a_grill_cheese_sandwich(
     cheese, 
@@ -51,7 +51,7 @@ ENDFOR
 
 As we have mentioned, you can also use a range:
 
-```plain-text
+```javascript
 FOR seconds = 1 TO 20
   INSTRUCT wash_hands()
 ENDFOR
@@ -68,7 +68,7 @@ In this example, we repeat the `wash_hands()` instruction 20 times.
 
 Complete the loop so that it repeats **five times**:
 
-```plain-text
+```javascript
 ??? counter = 1 ??? ???
   INSTRUCT wash_hands()
 ???
@@ -86,7 +86,7 @@ Complete the loop so that it repeats **five times**:
 
 Complete the loop so that it rings the alarm every day:
 
-```plain-text
+```javascript
 days = ["Monday", "Tuesday", ...]
 
 ??? EACH day ??? ???
@@ -107,7 +107,7 @@ days = ["Monday", "Tuesday", ...]
 [1:Function]
 Here is the `make_a_grill_cheese_sandwich` function:
 
-```plain-text
+```javascript
 FUNCTION make_a_grill_cheese_sandwich
   INPUT cheese, grater, bowl, bread, butter, pan, plate
   INSTRUCT cheese_bowl, sliced_bread = prepare_ingredients(

@@ -21,7 +21,7 @@ revisionQuestion:
 
 The `input` variable will be used to help the robot decide which action to take. When the value is `0` it will do nothing.
 
-```plain-text
+```javascript
 IF (input == 0) THEN
   INSTRUCT do_nothing()
 ```
@@ -58,7 +58,7 @@ You are not limited to the equality operator. Here is a table of the most common
 
 What do you think the robot will do here?
 
-```plain-text
+```javascript
 hungry = false
 
 IF (hungry == true) THEN

@@ -26,7 +26,7 @@ What matters is the key. To extract a value from a dictionary you need to refere
 
 Using the same example as previously, let's extract the `name`:
 
-```plain-text
+```javascript
 my_dog = {
   name: "Artemis",
   age: 4,
@@ -41,7 +41,7 @@ To extract the value, we first write the name of the dictionary (`my_dog`), foll
 
 Depending on the programming language, you can also extract a value using a key between square brackets:
 
-```plain-text
+```javascript
 my_dog["age"]
 // 4
 ```
@@ -55,7 +55,7 @@ This is usually referred to as **bracket notation**.
 
 Extract the value for the `color` key using **dot notation**:
 
-```plain-text
+```javascript
 my_dog = {
   name: "Artemis",
   age: 4,
@@ -78,7 +78,7 @@ my_dog??????
 
 Extract the value for the `name` key using **bracket notation**:
 
-```plain-text
+```javascript
 person = {
   name: "Andrei"
 }

@@ -28,7 +28,7 @@ We've already seen this type before when creating the `study_buddy` variable.
 
 Now, let's make another one:
 
-```plain-text
+```javascript
 best_user = "You"
 ```
 
@@ -53,7 +53,7 @@ Strings commonly have to be enclosed with ???.
 
 Complete the gaps to define a variable called `my_name` that stores the `"Andrei"` string:
 
-```plain-text
+```javascript
 my_name ??? ???
 ```
 

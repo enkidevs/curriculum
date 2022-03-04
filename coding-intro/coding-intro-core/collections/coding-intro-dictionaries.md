@@ -25,7 +25,7 @@ The name is inspired by our everyday language dictionaries, which are collection
 
 One way to write a dictionary is using curly braces (`{ }`):
 
-```plain-text
+```javascript
 // create a my_dog dictionary
 // with 3 key/value pairs
 my_dog = {
@@ -44,7 +44,7 @@ In this example, `name` is the **key**, and `"Artemis"` is the value.
 
 Complete the gaps such that the dictionary has `age` as a **key** and `33` for the **value**:
 
-```plain-text
+```javascript
 person = {
   ???: ???
 }
@@ -64,7 +64,7 @@ person = {
 
 Match the variable with its data type:
 
-```plain-text
+```javascript
 a = [
   1,
   2,

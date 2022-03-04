@@ -18,7 +18,7 @@ Now it's time to run the functions we create as commands for the robot.
 
 The final part of the code we're giving the robot is:
 
-```plain-text
+```javascript
 FUNCTION make_a_grill_cheese_sandwich
   INPUT cheese, grater, bowl, bread, butter, pan, plate
   INSTRUCT cheese_bowl, sliced_bread = prepare_ingredients(cheese, grater, bowl, bread)
@@ -34,7 +34,7 @@ Now for the last part.
 
 Let's tell the robot to run the `make_a_grill_cheese_sandwich` function:
 
-```plain_text
+```javascript
 INSTRUCT make_a_grill_cheese_sandwich(cheese, grater, bowl, bread, butter, pan, plate)
 ```
 
