@@ -77,7 +77,7 @@ navigator.???()
 - 'level'
 - 'change'
 - BatteryAPI
-
+- 'levelChange'
 
 ---
 
