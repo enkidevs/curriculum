@@ -33,7 +33,7 @@ Another great way to spot trends or to explore your data is to use **filters**.
 
 Filtering is the process of choosing a smaller part of your data and using that subset for viewing or analysis. 
 
-> 💡 Filtering is generally temporary – the original data is kept, but only part of it is used for calcuations.
+> 💡 Filtering is generally temporary – the original data is kept, but only part of it is used for calculations.
 
 You can click on this icon to turn every column into a filter. From here you can then manipulate each column to display the desired information. 
 
