@@ -92,7 +92,7 @@ FROM pokedex_name;
 
 ## Revision
 
-Consider the following table named GRADES with the following query. Fill the gaps such that we will have no duplicate NAME's in the resulting table:
+Consider the following table named `GRADES` with the following query. Fill the gaps such that we will have no duplicate `NAME`s in the resulting table:
 
 | NAME      | GRADE_PERC |
 |-----------|------------|
