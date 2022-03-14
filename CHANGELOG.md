@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 14th 2022
+
+### Fixed
+- [JavaScript - How Npm3 Handles Dependencies - Fix answer flowing out of screen and minor spelling mistake](https://github.com/enkidevs/curriculum/pull/3058)
+
 ## March 4th 2022
 
 ### Fixed
