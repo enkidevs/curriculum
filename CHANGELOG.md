@@ -61,6 +61,7 @@ Types of change:
 ## February 28th 2022
 
 ### Fixed
+- [Javascript - Battery API - Replace incorrect levelChange event name with the correct levelchange one](https://github.com/enkidevs/curriculum/pull/3048)
 - [Python - Chain Comparison Operators - Replace outdated link](https://github.com/enkidevs/curriculum/pull/3049)
 - [Data Analysis - Sorting And Filtering - Add missing L to calculations word in note](https://github.com/enkidevs/curriculum/pull/3047)
 
