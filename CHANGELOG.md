@@ -48,6 +48,37 @@ Types of change:
 
 ### Fixed
 
+## March 4th 2022
+
+### Fixed
+- [Linux - User Mod Recipies - Move Single Line Command in PQ Back To A Single Line](https://github.com/enkidevs/curriculum/pull/3051)
+
+## March 2nd 2022
+
+### Changed
+- [SQL - AVG Clause - Remove LIMIT as it has no effect on the provided queries](https://github.com/enkidevs/curriculum/pull/3050)
+
+## February 28th 2022
+
+### Fixed
+- [Python - Chain Comparison Operators - Replace outdated link](https://github.com/enkidevs/curriculum/pull/3049)
+- [Data Analysis - Sorting And Filtering - Add missing L to calculations word in note](https://github.com/enkidevs/curriculum/pull/3047)
+
+## February 15th 2022
+
+### Fixed
+- [Spreadsheets - What Are Formulas - fix markdown table not rendering correctly in PQ](https://github.com/enkidevs/curriculum/pull/3043)
+
+## February 14th 2022
+
+### Changed
+- [Web - Anchor Links - Make RQ clearer](https://github.com/enkidevs/curriculum/pull/3041) 
+- [Web - Nested Lists - Remove type in the gap as it has no value](https://github.com/enkidevs/curriculum/pull/3040)
+- [Python - Python Packages - Remove whitespace from a one liner code that spanned two lines](https://github.com/enkidevs/curriculum/pull/3042) 
+
+### Fixed
+- [SQL - The Roles That Joins Play - Replace wrong output table with the correct one](https://github.com/enkidevs/curriculum/pull/3044)
+
 ## February 7th 2022
 
 ### Fixed
