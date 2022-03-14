@@ -70,14 +70,14 @@ navigator.???()
 - getBattery
 - battery
 - addEventListener
-- 'levelChange'
+- 'levelchange'
 - logBatteryLevel
 - addListener
 - bat
 - 'level'
 - 'change'
 - BatteryAPI
-
+- 'levelChange'
 
 ---
 
