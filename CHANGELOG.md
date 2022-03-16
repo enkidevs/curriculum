@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 16th 2022
+
+### Fixed
+- [HTML - Intro cite - Remove double bigger than and smaller than signs from RQ answer](https://github.com/enkidevs/curriculum/pull/3060)
+
 ## March 4th 2022
 
 ### Fixed
