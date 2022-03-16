@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+### March 16th 2022
+
+### Fixed
+- [Linux - Transforming Text With Sed - Fix text not showing](https://github.com/enkidevs/curriculum/pull/3061) 
+
 ## March 4th 2022
 
 ### Fixed
