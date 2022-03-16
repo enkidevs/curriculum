@@ -48,10 +48,11 @@ Types of change:
 
 ### Fixed
 
-## March 15th 2022
+## March 16th 2022
 
 ### Fixed
 - [JavaScript - Flags For NPM - Fix grammar (you to your) in pq](https://github.com/enkidevs/curriculum/pull/3059)
+- [Linux - Transforming Text With Sed - Fix text not showing](https://github.com/enkidevs/curriculum/pull/3061) 
 
 ## March 4th 2022
 
