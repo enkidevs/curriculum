@@ -51,6 +51,7 @@ Types of change:
 ## March 16th 2022
 
 ### Fixed
+- [HTML - Intro cite - Remove double bigger than and smaller than signs from RQ answer](https://github.com/enkidevs/curriculum/pull/3060)
 - [JavaScript - Flags For NPM - Fix grammar (you to your) in pq](https://github.com/enkidevs/curriculum/pull/3059)
 - [Linux - Transforming Text With Sed - Fix text not showing](https://github.com/enkidevs/curriculum/pull/3061) 
 
