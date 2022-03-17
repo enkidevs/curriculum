@@ -48,10 +48,17 @@ Types of change:
 
 ### Fixed
 
-## March 14th 2022
+## March 17th 2022
 
 ### Fixed
 - [JavaScript - How Npm3 Handles Dependencies - Fix answer flowing out of screen and minor spelling mistake](https://github.com/enkidevs/curriculum/pull/3058)
+
+## March 16th 2022
+
+### Fixed
+- [HTML - Intro cite - Remove double bigger than and smaller than signs from RQ answer](https://github.com/enkidevs/curriculum/pull/3060)
+- [JavaScript - Flags For NPM - Fix grammar (you to your) in pq](https://github.com/enkidevs/curriculum/pull/3059)
+- [Linux - Transforming Text With Sed - Fix text not showing](https://github.com/enkidevs/curriculum/pull/3061) 
 
 ## March 4th 2022
 
@@ -66,6 +73,7 @@ Types of change:
 ## February 28th 2022
 
 ### Fixed
+- [Javascript - Battery API - Replace incorrect levelChange event name with the correct levelchange one](https://github.com/enkidevs/curriculum/pull/3048)
 - [Python - Chain Comparison Operators - Replace outdated link](https://github.com/enkidevs/curriculum/pull/3049)
 - [Data Analysis - Sorting And Filtering - Add missing L to calculations word in note](https://github.com/enkidevs/curriculum/pull/3047)
 
