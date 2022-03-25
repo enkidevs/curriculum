@@ -40,7 +40,7 @@ git log --since="01/01/2016"
 
 To see the commits between two dates:
 ```bash
-git log --since=<01/01/2016> --until=<01/01/2017>
+git log --since="01/01/2016" --until="01/01/2017"
 ```
 
 To compare the repository between two different dates:
