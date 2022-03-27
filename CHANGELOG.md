@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 27th 2022
+
+### Changed
+- [Python - Boolean Operators - Bold words that describe question ](https://github.com/enkidevs/curriculum/pull/3063)
+
 ## March 17th 2022
 
 ### Fixed
