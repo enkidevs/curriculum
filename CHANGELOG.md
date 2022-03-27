@@ -53,6 +53,11 @@ Types of change:
 ### Changed
 - [Python - Boolean Operators - Bold words that describe question ](https://github.com/enkidevs/curriculum/pull/3063)
 
+## March 25th 2022
+
+### Added
+- [Git - Git Features II - Add example with until date](https://github.com/enkidevs/curriculum/pull/3062)
+
 ## March 17th 2022
 
 ### Fixed
