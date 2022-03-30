@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 30th 2022
+
+### Changed
+- [Python - Clas Keywords - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3065)
+
 ## March 25th 2022
 
 ### Added
