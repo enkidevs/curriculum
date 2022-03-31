@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 30th 2022
+
+### Fixed
+- [Python - Looping Techniques - Fix pq and replace incorrect comment sign](https://github.com/enkidevs/curriculum/pull/3064)
+
 ## March 25th 2022
 
 ### Added
