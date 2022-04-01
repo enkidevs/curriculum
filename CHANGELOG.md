@@ -53,6 +53,9 @@ Types of change:
 ### Changed
 - [Python - Clas Keywords - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3065)
 
+### Fixed
+- [Python - Looping Techniques - Fix pq and replace incorrect comment sign](https://github.com/enkidevs/curriculum/pull/3064)
+
 ## March 25th 2022
 
 ### Added

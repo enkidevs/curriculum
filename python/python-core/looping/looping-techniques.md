@@ -48,8 +48,8 @@ Python has multiple techniques for looping over data structures.
 my_dict = {'first': 'a', 'second': 'b'}
 for k, v in my_dict.items():
   print(k, v)
-#first a
-#second b
+# first a
+# second b
 ```
 
 The `enumerate()` function allows looping with both `index` and `value` through any **sequence**:
@@ -105,20 +105,23 @@ Complete the code snippet to pair the sequences in order and loop over them both
 list_a = ['a', 'b', 'c']
 list_one = ['one', 'two', 'three']
 for k, v in ???(list_a, list_one):
-  print(???)
+  print(???, ???)
 
-//Expected output:
-// a one
-// b two
-// c three
+# Expected output:
+# a one
+# b two
+# c three
 ```
 
 - `zip`
-- `k, v`
-- `f, s`
+- `k` 
+- `v`
+- `f`
+- `s`
 - `pair`
 - `parallel`
-- `list_a, list_one`
+- `list_a`
+- `list_one`
 
 
 ---
