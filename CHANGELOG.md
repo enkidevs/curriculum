@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 4th 2022
+
+### Changed
+- [Linux - Input and Output Redirection With And - Shorten names in RQ](https://github.com/enkidevs/curriculum/pull/3067)
+
 ## March 30th 2022
 
 ### Changed
