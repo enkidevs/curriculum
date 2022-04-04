@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 3rd 2022
+
+### Fixed
+- [Java - Distinction Between Stack and Heap Memory - Update questions to have only one order](https://github.com/enkidevs/curriculum/pull/3066)
+
 ## March 30th 2022
 
 ### Changed
