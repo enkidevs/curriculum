@@ -53,6 +53,11 @@ Types of change:
 ### Changed
 - [Linux - Input and Output Redirection With And - Shorten names in RQ](https://github.com/enkidevs/curriculum/pull/3067)
 
+## April 3rd 2022
+
+### Fixed
+- [Java - Distinction Between Stack and Heap Memory - Update questions to have only one order](https://github.com/enkidevs/curriculum/pull/3066)
+
 ## March 30th 2022
 
 ### Changed
