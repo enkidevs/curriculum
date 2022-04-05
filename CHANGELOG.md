@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 5th 2022
+
+### Fixed
+- [Blockhain - Blocks - Replace broken link with new one](https://github.com/enkidevs/curriculum/pull/3068)
+
 ## April 3rd 2022
 
 ### Fixed
