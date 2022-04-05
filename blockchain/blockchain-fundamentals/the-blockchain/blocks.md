@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Interactive tutorial of how blocks are
-    built](https://anders.com/blockchain/){website}
+    built](https://andersbrownworth.com/blockchain){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
