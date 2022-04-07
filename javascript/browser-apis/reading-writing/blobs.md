@@ -101,14 +101,14 @@ new ???(
 );
 ```
 
-- Blob
-- ["parts"]
-- type
-- endings
-- blob
-- "parts"
-- mimeType
-- newLines
+- `Blob`
+- `["parts"]`
+- `type`
+- `endings`
+- `blob`
+- `"parts"`
+- `mimeType`
+- `newLines`
 
 
 ---
