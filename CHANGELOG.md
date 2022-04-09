@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 6th 2022
+
+### Fixed
+- [Multple Topics - Multiple Insights - Add back ticks to all array like answers as they do not render the color](https://github.com/enkidevs/curriculum/pull/3070)
+
 ## April 5th 2022
 
 ### Fixed
