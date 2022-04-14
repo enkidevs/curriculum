@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 14th 2022
+
+### Fixed
+- [Python - The Sum Built In Function - Fix code block and answers in RQ](https://github.com/enkidevs/curriculum/pull/3071) 
+
 ## April 6th 2022
 
 ### Fixed
