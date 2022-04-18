@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 18th 2022
+
+### Fixed
+- [Data Analysis - Pandas Functions I - Minor Grammar Improvements](https://github.com/enkidevs/curriculum/pull/3074)
+
 ## April 14th 2022
 
 ### Fixed
