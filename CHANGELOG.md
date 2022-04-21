@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 21st 2022
+
+### Changed
+- [HTML - Sectioning Elements - Move less than and greater than symbols to code block and remove from answers](https://github.com/enkidevs/curriculum/pull/3075)
+
 ## April 15th 2022
 
 ### Fixed
