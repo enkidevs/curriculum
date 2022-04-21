@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 18th 2022
+
+### Fixed
+- [Data Analysis - Product Analytics Tools - Minor Grammar Improvements](https://github.com/enkidevs/curriculum/pull/3073)
+
 ## April 15th 2022
 
 ### Fixed
