@@ -53,6 +53,11 @@ Types of change:
 ### Fixed
 - [Data Analysis - Product Analytics Tools - Minor Grammar Improvements](https://github.com/enkidevs/curriculum/pull/3073)
 
+## April 15th 2022
+
+### Fixed
+- [TypeScript - Number, String, Boolean - Replace Deprecated Links With Updated Ones](https://github.com/enkidevs/curriculum/pull/3072)
+
 ## April 14th 2022
 
 ### Fixed
