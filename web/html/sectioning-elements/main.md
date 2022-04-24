@@ -115,15 +115,15 @@ As you can see in the example above, we have added `<article>` within our `<main
 Which HTML container element should only be used once within a page layout?
 
 ```html
-???
+<???>
 ```
 
-- `<main>`
-- `<nav>`
-- `<head>`
-- `<footer>`
-- `<one>`
-- `<solo>`
+- `main`
+- `nav`
+- `head`
+- `footer`
+- `one`
+- `solo`
 
 
 ---
