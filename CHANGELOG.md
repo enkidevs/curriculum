@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 26th 2022
+
+### Fixed
+- [Styling - Page Break for Printing - Minor grammar improvement](https://github.com/enkidevs/curriculum/pull/3078)
+
 ## April 25th 2022
 
 ### Changed
