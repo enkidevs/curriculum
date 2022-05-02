@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 2nd 2022
+
+### Fixed
+- [Python - Dictionary Methods I - Add missing print to 4th code block](https://github.com/enkidevs/curriculum/pull/3081)
+
 ## April 26th 2022
 
 ### Fixed
