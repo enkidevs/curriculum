@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+
+## May 15th 2022
+
+### Changed
+- [Java - Abstract Keyword - Make answers match method names](https://github.com/enkidevs/curriculum/pull/3082) 
+
 ## April 26th 2022
 
 ### Fixed
