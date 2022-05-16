@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 16th
+
+### Fixed
+- [Data Analysis - Marketing Metricts - Add missing parenthesis to the equations in PQ and RQ](https://github.com/enkidevs/curriculum/pull/3083)
+
 ## April 26th 2022
 
 ### Fixed
