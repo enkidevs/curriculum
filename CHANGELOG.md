@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 16th 2022
+
+### Fixed
+- [Blockchain - Blocks III - Update new domain on demo link](https://github.com/enkidevs/curriculum/pull/3084)
+
 ## April 26th 2022
 
 ### Fixed
