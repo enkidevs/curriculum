@@ -54,6 +54,11 @@ Types of change:
 - [Blockchain - Blocks III - Update new domain on demo link](https://github.com/enkidevs/curriculum/pull/3084)
 - [Python - Dictionary Methods I - Add missing print to 4th code block](https://github.com/enkidevs/curriculum/pull/3081)
 
+## May 15th 2022
+
+### Changed
+- [Java - Abstract Keyword - Make answers match method names](https://github.com/enkidevs/curriculum/pull/3082) 
+
 ## April 26th 2022
 
 ### Fixed

@@ -66,9 +66,9 @@ abstract String optionZ(String s);
 
 ???
 
-- Option Z
-- Option X
-- Option Y
+- `optionZ`
+- `optionX`
+- `optionY`
 
 
 ---
@@ -87,6 +87,6 @@ abstract float optionC(float e) {
 
 ???
 
-- Option A
-- Option B
-- Option C
+- `optionA`
+- `optionB`
+- `optionC`
