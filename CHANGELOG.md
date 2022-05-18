@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 18th 2022
+
+### Fixed
+- [Computer Science - Heap Data Structure - Minor grammar improvement](https://github.com/enkidevs/curriculum/pull/3086)
+
 ## May 16th 2022
 
 ### Fixed
