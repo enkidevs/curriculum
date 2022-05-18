@@ -26,7 +26,7 @@ revisionQuestion:
 
 ## Content
 
-A *heap* is tree-based data structure designed to support a constant-time `find-max` (or `find-min`) operation in addition to efficient insertion of new elements and efficient removal of the maximum (or minimum) element.  They are frequently used to implement priority queues, where the elements are ordered by priority (or some other factor) rather then their insertion order.
+A *heap* is a tree-based data structure designed to support a constant-time `find-max` (or `find-min`) operation and the efficient insertion of new elements and efficient removal of the maximum (or minimum) element. In addition, they are frequently used to implement priority queues, where the elements are ordered by priority (or some other factor) rather than their insertion order.
 
 A heap that supports the `find-max` operation is called a *max heap* while a heap that supports a `find-min` operation is called a *min heap*. The values in a heap are often called *keys* and must satisfy what is known as the *heap property*: for a max heap, the keys of parent nodes are always greater than or equal to those of the children and the highest key is in the root node. For a min heap, replace "greater than" with "less than" and "highest key" with "lowest key".
 
