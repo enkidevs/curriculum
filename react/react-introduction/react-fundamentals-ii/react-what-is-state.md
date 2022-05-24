@@ -78,7 +78,7 @@ The snippet above will update the `state` one second after construction. Specifi
 
 `render`ing our component now, we'll first see `"Hello"` which will change to `"World"` after one second.
 
-Note that we are setting the `state` here inside a `setTimeout` call. This might not be recommended (depending on your application) due to the posibility of creating memory leaks[3].
+Note that we are setting the `state` here inside a `setTimeout` call. This might not be recommended (depending on your application) due to the possibility of creating memory leaks[3].
 
 
 ---

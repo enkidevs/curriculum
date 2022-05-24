@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## May 18th 2022
+
+### Fixed
+- [React - React What Is State - Minor grammar improvement](https://github.com/enkidevs/curriculum/pull/3085)
+
 ## May 16th 2022
 
 ### Fixed
