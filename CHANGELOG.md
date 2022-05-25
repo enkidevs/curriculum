@@ -50,6 +50,11 @@ Types of change:
 
 ## May 18th 2022
 
+### Changed
+- [Git - What Is Stored In A Checksum - Update question](https://github.com/enkidevs/curriculum/pull/3088)
+
+## May 18th 2022
+
 ### Fixed
 - [React - React What Is State - Minor grammar improvement](https://github.com/enkidevs/curriculum/pull/3085)
 
