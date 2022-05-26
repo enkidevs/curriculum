@@ -53,10 +53,19 @@ Types of change:
 ### Fixed
 - [Computer Science - Heap Data Structure - Minor grammar improvement](https://github.com/enkidevs/curriculum/pull/3086)
 
+### Changed
+- [Git - What Is Stored In A Checksum - Update question](https://github.com/enkidevs/curriculum/pull/3088)
+
+## May 18th 2022
+
+### Fixed
+- [React - React What Is State - Minor grammar improvement](https://github.com/enkidevs/curriculum/pull/3085)
+
 ## May 16th 2022
 
 ### Fixed
 - [Blockchain - Blocks III - Update new domain on demo link](https://github.com/enkidevs/curriculum/pull/3084)
+- [Data Analysis - Marketing Metricts - Add missing parenthesis to the equations in PQ and RQ](https://github.com/enkidevs/curriculum/pull/3083)
 - [Python - Dictionary Methods I - Add missing print to 4th code block](https://github.com/enkidevs/curriculum/pull/3081)
 
 ## May 15th 2022
