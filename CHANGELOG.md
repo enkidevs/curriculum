@@ -48,6 +48,67 @@ Types of change:
 
 ### Fixed
 
+## May 18th 2022
+
+### Fixed
+- [Computer Science - Heap Data Structure - Minor grammar improvement](https://github.com/enkidevs/curriculum/pull/3086)
+
+### Changed
+- [Git - What Is Stored In A Checksum - Update question](https://github.com/enkidevs/curriculum/pull/3088)
+
+## May 18th 2022
+
+### Fixed
+- [React - React What Is State - Minor grammar improvement](https://github.com/enkidevs/curriculum/pull/3085)
+
+## May 16th 2022
+
+### Fixed
+- [Blockchain - Blocks III - Update new domain on demo link](https://github.com/enkidevs/curriculum/pull/3084)
+- [Data Analysis - Marketing Metricts - Add missing parenthesis to the equations in PQ and RQ](https://github.com/enkidevs/curriculum/pull/3083)
+- [Python - Dictionary Methods I - Add missing print to 4th code block](https://github.com/enkidevs/curriculum/pull/3081)
+
+## May 15th 2022
+
+### Changed
+- [Java - Abstract Keyword - Make answers match method names](https://github.com/enkidevs/curriculum/pull/3082) 
+
+## April 26th 2022
+
+### Fixed
+- [Styling - Page Break for Printing - Minor grammar improvement](https://github.com/enkidevs/curriculum/pull/3078)
+
+## April 25th 2022
+
+### Changed
+- [Security - Securing The Presentation Layer - Move link to Learn More section](https://github.com/enkidevs/curriculum/pull/3077)
+
+## April 21st 2022
+
+### Changed
+- [HTML - Sectioning Elements - Move less than and greater than symbols to code block and remove from answers](https://github.com/enkidevs/curriculum/pull/3075)
+
+## April 18th 2022
+
+### Fixed
+- [Data Analysis - Pandas Functions I - Minor Grammar Improvements](https://github.com/enkidevs/curriculum/pull/3074)
+- [Data Analysis - Product Analytics Tools - Minor Grammar Improvements](https://github.com/enkidevs/curriculum/pull/3073)
+
+## April 15th 2022
+
+### Fixed
+- [TypeScript - Number, String, Boolean - Replace Deprecated Links With Updated Ones](https://github.com/enkidevs/curriculum/pull/3072)
+
+## April 14th 2022
+
+### Fixed
+- [Python - The Sum Built In Function - Fix code block and answers in RQ](https://github.com/enkidevs/curriculum/pull/3071) 
+
+## April 6th 2022
+
+### Fixed
+- [Multple Topics - Multiple Insights - Add back ticks to all array like answers as they do not render the color](https://github.com/enkidevs/curriculum/pull/3070)
+
 ## April 5th 2022
 
 ### Fixed

@@ -27,13 +27,13 @@ revisionQuestion:
 
 ## Content
 
-Once you've set up your Jupyter workspace and imported some libraries you're nearly ready to explore some data.
+Once you've set up your Jupyter workspace and imported some libraries, you're nearly ready to explore some data.
 
 First, we need to have access to our data!
 
-There are several ways to do this, depending on where your data is stored. We're going to show you how to access **csv data** using `pandas`.
+There are several ways to do this, depending on where your data is stored. First, we will show you how to access **CSV data** using `pandas`.
 
-Imagine we have a csv file on our laptop filled with data on all of our products.
+Imagine we have a **CSV** file on our laptop filled with data on all of our products.
 
 You can create a DataFrame[1] variable, *"products_data"*, using the `read_csv` function.
 
@@ -43,7 +43,7 @@ products_data = pd.read_csv(<INSERT_PATH_TO_CSV>)
 
 > 💡 Remember that **pd** is our pandas alias. So we're calling the `read_csv` function on the pandas library. The CSV path could be a local file directory or a URL.
 
-Now we have some data we're ready to go.
+Now we have some data, we're ready to go.
 
 The `head()` function gives us *the top n rows of our data*. Running this code returns a table of the first 10 rows:
 
@@ -57,7 +57,7 @@ The `unique()` function returns the unique values of any column we choose to use
 products_data['category'].unique()
 ```
 
-The `shape` fucntion returns the number of rows and columns as a tuple (number of rows, number of columns).
+The `shape` function returns the number of rows and columns as a tuple (number of rows, number of columns).
 
 ```py
 products_data.shape
@@ -65,7 +65,7 @@ products_data.shape
 # (891, 12)
 ```
 
-Check out the **Learn More** link to discover some other useful functions like `tail()`, `columns`, `dtypes` and others!
+Check out the **Learn More** link to discover other useful functions like `tail()`, `columns`, `dtypes` and others!
 
 
 ---

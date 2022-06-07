@@ -61,6 +61,7 @@ print(new)
 ```python
 square_numbers.items()
 
+print(square_numbers.items())
 # dict_items([(1, 1), (2, 4), (3, 9), (4, 16), (5, 25)])
 ```
 

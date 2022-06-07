@@ -58,7 +58,7 @@ Other key marketing metrics to track are:
 Customer Aquisition Cost can be measured using the following formula:
 
 ```plain-text
-??? + Time Spent / ???
+(??? + Time Spent) / ???
 ```
 
 - Money
@@ -74,7 +74,7 @@ Customer Aquisition Cost can be measured using the following formula:
 Customer Aquisition Cost can be measured using the following formula:
 
 ```plain-text
-??? + ??? / ???
+(??? + ???) / ???
 ```
 
 - Money

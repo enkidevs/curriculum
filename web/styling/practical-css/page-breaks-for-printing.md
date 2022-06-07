@@ -20,7 +20,7 @@ revisionQuestion:
 
 ## Content
 
-**CSS** provide with a set of properties in order to define how a document is printed:
+**CSS** provides us with a set of properties in order to define how a document is printed:
 
 - `page-break-before` : will break the page before the element on which is applied
 - `page-break-after` : will break the page after the element on which is applied
