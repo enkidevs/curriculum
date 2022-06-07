@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+### Changed
+
+- [Curriculum - README - Update emails](https://github.com/enkidevs/curriculum/pull/3069)
+
 ## May 18th 2022
 
 ### Fixed
