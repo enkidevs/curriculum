@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 7th 2022
+
+### Fixed
+- [JavaScript - Yield - Add missing semicolons in RQ](https://github.com/enkidevs/curriculum/pull/3089)
+
 ## May 18th 2022
 
 ### Fixed
