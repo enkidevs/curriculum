@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+
+## June 13th 2022
+
+### Changed
+- [SQL - SQL NOT Example - Update question answers](https://github.com/enkidevs/curriculum/pull/3091)
+
 ### Changed
 
 - [Curriculum - README - Update emails](https://github.com/enkidevs/curriculum/pull/3069)
