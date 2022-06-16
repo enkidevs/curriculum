@@ -4,8 +4,8 @@ type: normal
 category: feature
 links:
   - >-
-    [Cherry Picking Small Git
-    Lesson](https://swsblog.stanford.edu/blog/cherry-picking-small-git-lesson){website}
+    [Cherry Picking Git
+    Documentation](https://git-scm.com/docs/git-cherry-pick){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
