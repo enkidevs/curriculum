@@ -48,8 +48,13 @@ Types of change:
 
 ### Fixed
 
-### Changed
 
+## June 30th 2022
+
+### Fixed
+- [Python - Why Functional Programming - Fix typo in footnote](https://github.com/enkidevs/curriculum/pull/3093)
+
+### Changed
 - [Curriculum - README - Update emails](https://github.com/enkidevs/curriculum/pull/3069)
 
 ## May 18th 2022
