@@ -44,5 +44,5 @@ A shared state is ???
 ## Footnotes
 
 [1:Designing away Bugs]
-For example, a shopping website might have a "basket" object which is passed as a parameter to various scopes. The objects within that basket and the data about which user the basket belongs to would be mutated by various sections of code in these different scopes. If there was some temporal dependency between functions being called on the basket, altering or removing one function may accidentally (and not obviously) ripple out and break other functionality. Withtout shared state, you can ensure an entire class of bugs cannot manifest in our program.
+For example, a shopping website might have a "basket" object which is passed as a parameter to various scopes. The objects within that basket and the data about which user the basket belongs to would be mutated by various sections of code in these different scopes. If there was some temporal dependency between functions being called on the basket, altering or removing one function may accidentally (and not obviously) ripple out and break other functionality. Without shared state, you can ensure an entire class of bugs cannot manifest in our program.
  
