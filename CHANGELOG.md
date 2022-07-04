@@ -48,15 +48,25 @@ Types of change:
 
 ### Fixed
 
-## June 10th 2022
-
-### Changed
-- [Curriculum - README - Update emails](https://github.com/enkidevs/curriculum/pull/3069)
-
-## June 7th 2022
+## July 4th 2022
 
 ### Fixed
 - [JavaScript - Yield - Add missing semicolons in RQ](https://github.com/enkidevs/curriculum/pull/3089)
+
+## June 16th 2022
+
+### Fixed
+- [Git - Cherry Pick A Commit - Replace broken link with a working one](https://github.com/enkidevs/curriculum/pull/3092)
+
+### Changed
+
+## June 30th 2022
+
+### Fixed
+- [Python - Why Functional Programming - Fix typo in footnote](https://github.com/enkidevs/curriculum/pull/3093)
+
+### Changed
+- [Curriculum - README - Update emails](https://github.com/enkidevs/curriculum/pull/3069)
 
 ## May 18th 2022
 
