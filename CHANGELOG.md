@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## June 16th 2022
+
+### Fixed
+- [Git - Cherry Pick A Commit - Replace broken link with a working one](https://github.com/enkidevs/curriculum/pull/3092)
+
+### Changed
 
 ## June 30th 2022
 
