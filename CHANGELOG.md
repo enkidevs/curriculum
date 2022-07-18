@@ -53,6 +53,11 @@ Types of change:
 ### Fixed
 - [Data Analysis - Key Metrics - Minor grammar improvement](https://github.com/enkidevs/curriculum/pull/3095)
 
+## July 4th 2022
+
+### Fixed
+- [JavaScript - Yield - Add missing semicolons in RQ](https://github.com/enkidevs/curriculum/pull/3089)
+
 ## June 16th 2022
 
 ### Fixed
