@@ -41,12 +41,10 @@ The commit object contains a checksum[1], the author's name and email, the commi
 
 ## Revision
 
-The usual commit object contains a hash-code, author’s name and email, date and ??? .
+The usual commit object contains a checksum, author’s name and email, date and a ??? .
 
-- description
-- SHA-1
-- checksum
-
+- commit message
+- hash code 
 
 ---
 

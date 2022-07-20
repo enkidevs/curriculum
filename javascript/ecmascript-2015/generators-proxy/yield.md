@@ -107,8 +107,8 @@ Fill in the missing gaps such that the `next()` calls' output stand true:
 }
 
 function* gen2() {
-  ???
-  ???
+  ???;
+  ???;
 }
 
 let x = gen1();
