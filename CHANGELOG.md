@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## July 13th 2022
+
+### Fixed
+- [Data Analysis - Key Metrics - Minor grammar improvement](https://github.com/enkidevs/curriculum/pull/3095)
+
 ## July 4th 2022
 
 ### Fixed
