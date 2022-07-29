@@ -48,7 +48,14 @@ Types of change:
 
 ### Fixed
 
+## July 29th 2022
+
 [TypeScript - TSC Any Void Null Undefined - Replace deprecated links](https://github.com/enkidevs/curriculum/pull/3096)
+
+## July 20th 2022
+
+### Changed
+- [Linux - Input and Output Redirection With And - Shorten names in RQ](https://github.com/enkidevs/curriculum/pull/3067)
 
 ## July 13th 2022
 
