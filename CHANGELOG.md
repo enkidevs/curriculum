@@ -48,6 +48,8 @@ Types of change:
 
 ### Fixed
 
+[TypeScript - TSC Any Void Null Undefined - Replace deprecated links](https://github.com/enkidevs/curriculum/pull/3096)
+
 ## July 13th 2022
 
 ### Fixed
