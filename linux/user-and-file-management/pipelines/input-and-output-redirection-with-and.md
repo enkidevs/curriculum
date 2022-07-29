@@ -89,7 +89,7 @@ Which of the following can redirect the output of a process to a file?
 Piping `cat` like this:
 
 ```bash
-cat some_file.txt | some_command
+cat file.txt | command
 ```
 
 Is the same as running:
@@ -98,7 +98,7 @@ Is the same as running:
 ??? ??? ???
 ```
 
-- `some_command`
+- `command`
 - `<`
-- `some_file.txt`
+- `file.txt`
 - `>`
