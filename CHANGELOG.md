@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 1st 2022
+
+### Fixed
+- [MongoDB - Find One And Delete - Fix wrong headline](https://github.com/enkidevs/curriculum/pull/3098)
+
 ## July 20th 2022
 
 ### Changed
