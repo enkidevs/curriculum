@@ -53,6 +53,10 @@ Types of change:
 ### Fixed
 - [MongoDB - Find One And Delete - Fix wrong headline](https://github.com/enkidevs/curriculum/pull/3098)
 
+## July 29th 2022
+
+- [TypeScript - TSC Any Void Null Undefined - Replace deprecated links](https://github.com/enkidevs/curriculum/pull/3096)
+
 ## July 20th 2022
 
 ### Changed
