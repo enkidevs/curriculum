@@ -55,7 +55,7 @@ print(c1.quadrant)
 # "first"
 ```
 
-Methods are different. Basically a **method** is a function that belongs to a `class`.
+Methods are different. A **method** is a function that belongs to a `class`.
 
 Theoretically, all attributes of a class that are function objects define corresponding instance methods.
 

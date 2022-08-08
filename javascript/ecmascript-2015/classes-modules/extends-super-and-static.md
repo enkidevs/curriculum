@@ -48,7 +48,7 @@ class Engineer extends Person {
   }
 }
 
-var e = new Engineer("alex", 35);
+let e = new Engineer("alex", 35);
 ```
 
 ### Static
@@ -68,7 +68,7 @@ UtilityMethods.log();
 Note if you instantiate a class with static methods then you cannot call static methods on the instantiated class:
 
 ```javascript
-var a = new UtilityMethods();
+let a = new UtilityMethods();
 a.log(); //error
 ```
 

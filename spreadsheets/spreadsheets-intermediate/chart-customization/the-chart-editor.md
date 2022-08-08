@@ -18,7 +18,7 @@ We're going to use the chart from the previous workout[1].
 
 In the `Chart editor`, we have a `Customize` tab.
 
-> ❗ The `Customize` tab is different for each chart type.
+> ⚠️ The `Customize` tab is different for each chart type.
 
 ![customize](https://img.enkipro.com/01638b7e174af98dffa0959033fa9590.png)
 
@@ -52,3 +52,4 @@ Let's make the title bold and add a subtitle:
 The chart from the previous workout:
 
 ![previous-chart](https://img.enkipro.com/a8f69242523d86c29148a4c3544b41eb.png)
+ 

@@ -2,7 +2,7 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -22,7 +22,7 @@ revisionQuestion:
 
 The HTML `<hr>`, or the **Thematic Break** element, is used to create a thematic break between a paragraph of elements. This break is usually represented as a horizontal line and the element itself is a self-closing element, meaning it has no ending tag.
 
-**Note:** In HTML4.01 the `<hr>` element used to represent a horizontal rule, hence the name `hr`, nevertheless that was changed in HTML5 and now it represents a thematic break.
+> 💡 In HTML4.01 the `<hr>` element used to represent a horizontal rule, hence the name `hr`, nevertheless that was changed in HTML5 and now it represents a thematic break.
 
 Thematic Break Example:
 

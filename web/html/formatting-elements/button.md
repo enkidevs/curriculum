@@ -64,7 +64,7 @@ The `<button>` element has a slight edge over the `<input>` as both images and t
 
 [View CodePen](https://codepen.io/enkidevs/pen/VdqZdQ)
 
-**Note:** Buttons have no default action upon click. This is why they are best tied to forms or advanced uses of JavaScript.
+> 💡 Buttons have no default action upon click. This is why they are best tied to forms or advanced uses of JavaScript.
 
 
 ---

@@ -43,7 +43,7 @@ In order to improve application security, we'll make use of many automated tools
 
 ## Practice
 
-In order to develop applications that cannot be scanned for vulnerabilities, you should periodically ??? your ??? using ???.
+In order to improve application security, you should periodically ??? your ??? using ???.
 
 - scan
 - application

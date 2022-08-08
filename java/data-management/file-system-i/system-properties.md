@@ -36,7 +36,7 @@ Some files and directories related statements:
 - `user.dir` - returns user working directory
 - `path.separator` - returns path separator character used in `java.class.path`. This character is used to separate individual file paths from each other when they are going one after another (`:` on Unix and `;` on Windows).
 
-**NOTE:** sometimes accessing these properties can be restricted due to the security manager of the system.
+> ⚠️ Sometimes accessing these properties can be restricted due to the security manager of the system.
 
 
 ---
@@ -75,3 +75,4 @@ Why is it important to consider different system properties when working with fi
 
 - Different operating systems have their own unique properties which if mixed up will ruin the program
 - System properties are changing through out the execution process so it is important to stay up to date to ensure the correctness of the program
+ 

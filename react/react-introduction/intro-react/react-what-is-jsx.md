@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Introducing
-    JSX](https://facebook.github.io/react/docs/introducing-jsx.html){website}
+    JSX](https://reactjs.org/docs/introducing-jsx.html){website}
   - >-
     [JSX looks like an
     abomination](https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918#.amqkpfybp/){website}
@@ -68,7 +68,7 @@ You can use **JSX** expressions anywhere. For example, you can:
 - `return` them
 - use them in `for` loops
 - use them in `if` statements
-- accept them as `function` arguments
+- accept them as `function` parameters
 - etc.
 
 Although writing `React.createElement` statements is perfectly valid, the main reason developers prefer to use JSX is the familiarity of HTML-like syntax.
@@ -90,19 +90,19 @@ Is compiled to:
 
 ```jsx
 const el = React.createElement(
-  ???,
+  '???',
   ???, 
-  ???
+  '???'
 );
 ```
 
-- `'p'`
+- `p`
 - `null`
-- `'I love JSX'`
+- `I love JSX`
 - `<p>`
 - `jsx`
-- `'<p>I love JSX</p>'`
-- `'</p>'`
+- `<p>I love JSX</p>`
+- `</p>`
 
 
 ---

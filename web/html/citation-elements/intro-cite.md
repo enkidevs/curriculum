@@ -98,12 +98,12 @@ What HTML element is best to use in this example?
 tag = ???
 ```
 
-- `<cite>`
-- `<quote>`
-- `<blockquote>`
-- `<q>`
-- `<movie>`
-- `<title>`
+- `cite`
+- `quote`
+- `blockquote`
+- `q`
+- `movie`
+- `title`
 
 
 ---

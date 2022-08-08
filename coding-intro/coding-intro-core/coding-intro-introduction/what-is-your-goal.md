@@ -6,13 +6,12 @@ type: normal
 category: must-know
 
 links:
-  - '[5 Reasons Why Python Is A Great First Language](https://mikkegoes.com/5-reasons-why-python-is-a-great-first-programming-language/){article}'
+  - '[Why is Python so popular?](https://www.youtube.com/watch?v=Y8Tko2YC5hA&ab_channel=ProgrammingwithMosh){video}'
   - '[Why you should learn SQL](https://www.linkedin.com/pulse/why-you-should-learn-sql-brewster-knowlton/){article}'
-  - '[Want to learn web development but don’t know where to start?](https://www.freecodecamp.org/news/want-to-learn-web-development-but-dont-know-where-to-start-478ed62e0e55/){article}'
 
 ---
 
-# What's your goal?
+# Aim for the stars!
 
 ---
 ## Content
@@ -22,7 +21,8 @@ At the end of this course, you'll have several options for the next step to take
 Here are some suggestions from Enki:
 - [Python](https://app.enki.com/skill/python) is a popular language for beginners. It's easy to read, has a large community, and can be used for almost anything.
 - [SQL](https://app.enki.com/skill/sql) is a *querying* language[1] and a good option as a stepping stone to learning programming languages and analyzing data[2].
-- If you want to start by making a website, make sure you go through our [Web](https://app.enki.com/skill/web) topic (which includes HTML and CSS).
+- JavaScript, HTML, and CSS are the languages of the Web. Learn to create websites from scratch from our [Web](https://app.enki.com/skill/web) and [JavaScript](https://app.enki.com/skill/javascript) topics.
+
 
 > 💬 Which programming languages will you learn later and why?
 > 

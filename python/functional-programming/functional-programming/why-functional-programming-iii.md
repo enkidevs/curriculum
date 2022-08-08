@@ -24,7 +24,7 @@ practiceQuestion:
 
 As you might remember from the insights on *immutability*, there are a number of advantages to using immutable data instead of mutable state objects.
 
-To recap: an **immutable** object is an object which cannot be modified after its creation. In order to make changes to state using immutable obejcts, a new copy of the state object needs to be created, with the desired modifications added at the time of the creation of the copy.
+To recap: an **immutable** object is an object which cannot be modified after its creation. In order to make changes to state using immutable objects, a new copy of the state object needs to be created, with the desired modifications added at the time of the creation of the copy.
 
 Why is immutability so useful? Using immutable objects to keep track of your program's state means that there is a fully-traceable, completely accurate state history, which is not easily possible using traditional imperative programming.
 

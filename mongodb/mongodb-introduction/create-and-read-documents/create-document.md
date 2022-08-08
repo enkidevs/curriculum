@@ -42,7 +42,7 @@ Output:
 }
 ```
 
-**Note:** If there is no `pokemon` collection, a new one will be created. Also, if you don't specify an `_id` when adding a new document, an `_id` with an `ObjectId` value will be added by MongoDB. `ObjectId`s will be discussed later on.
+> ⚠️ If there is no `pokemon` collection, a new one will be created. Also, if you don't specify an `_id` when adding a new document, an `_id` with an `ObjectId` value will be added by MongoDB. `ObjectId`s will be discussed later on.
 
 ### Add Multiple Documents
 
@@ -152,3 +152,4 @@ Choose the correct code that creates a new document in the `pokemon` collection.
 - `db.Pokemon.insertOne( {_id:13, name:"Psyduck", type:"water"} )`
 - `db.pokemon.insertDocument( {_id:13, name:"Psyduck", type:"water"} )`
 - `db.Pokemon.insertDocument( {_id:13, name:"Psyduck", type:"water"} )`
+ 

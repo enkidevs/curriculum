@@ -33,13 +33,13 @@ Usually, developers start by printing everything for a better understanding: **w
 Consider the following example:
 
 ```python
-1 def foo():
-2   return 6
-3 x = foo()
-4 while(True):    
-5   x += 1
-6 if x > 19:
-7  print("Welcome!")
+def foo():
+  return 6
+x = foo()
+while(True):    
+  x += 1
+if x > 19:
+ print("Welcome!")
 ```
 
 Let's suppose we wanted `"Welcome!"` to be printed. In this simple case, we have only an `if` statement to check. 
@@ -47,16 +47,16 @@ Let's suppose we wanted `"Welcome!"` to be printed. In this simple case, we have
 A **useful trick** for debugging is printing the value of `x` and following the execution of the code:
 
 ```python
-1  def foo():
-2    return 6
-3  x = foo()
-4  print("Line 4, x= ", x)
-5  while(True):  
-6    x += 1
-7  print("Line  7, x=", x)
-8  if x > 19:
-9    print("Line 9, x=", x)
-10   print("Welcome!")
+def foo():
+  return 6
+x = foo()
+print("Line 4, x= ", x)
+while(True):  
+  x += 1
+print("Line  7, x=", x)
+if x > 19:
+  print("Line 9, x=", x)
+  print("Welcome!")
 
 # Line 4, x=6
 ```

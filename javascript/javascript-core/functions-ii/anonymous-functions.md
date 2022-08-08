@@ -37,7 +37,7 @@ function [name]([p1[, p2[, ...,]]]) {
 An example of an **anonymous** function:
 
 ```javascript
-var square = function(x) {
+let square = function(x) {
    return x * x;
 };
 ```
@@ -72,8 +72,7 @@ Is the `name` field used in a **function expression** for defining functions man
 Complete the following anonymous function:
 
 ```javascript
-
-var cube = ???(x) {
+let cube = ???(x) {
    return x * x * x;
 };
 ```

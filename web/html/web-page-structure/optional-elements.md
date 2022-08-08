@@ -59,7 +59,7 @@ saving bytes</title>
 <p>Qed.
 ```
 
-> ❗ Not all tags can be omitted. For example, `<title>` will still need an opening and closing tag.
+> ⚠️ Not all tags can be omitted. For example, `<title>` will still need an opening and closing tag.
 
 In order for the document to display properly with all the optional tags omitted, there are various conditions that need to be met. Check out the *Learn More* section for a full list of optional tags and conditions.
 
@@ -127,3 +127,4 @@ Option 2
 - Option 1
 - Neither
 - Both
+ 

@@ -8,7 +8,7 @@ tags:
   - operators
 links:
   - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/101268/hidden-features-of-python){website}
+    [Chaining Comparison Operators](https://mathspp.com/blog/pydonts/chaining-comparison-operators){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -41,10 +41,12 @@ Chaining operators is equivalent to:
 ```python
 x = 10
 
-1 < x  and x < 15
+1 < x and x < 15
 # True
 ```
 
+> 🤔 Is it possible to chain separate variables like the following:
+*1 < x < 12 and 4 < y < 8*?
 
 ---
 

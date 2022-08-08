@@ -12,7 +12,6 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -80,7 +79,7 @@ DO (
 
 ???
 
-- 5
 - 4
+- 5
 - 0
 - 3

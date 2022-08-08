@@ -28,8 +28,7 @@ revisionQuestion:
 Set up git templates:
 
 ```plain-text
-git config --global init.templatedir 
-  '~/.git-templates'
+git config --global init.templatedir '~/.git-templates'
 ```
 
 Make a directory to hold the global hooks:
@@ -41,8 +40,7 @@ mkdir -p ~/.git-templates/hooks
 Write a hook and make sure the hook is executable:
 
 ```plain-text
-chmod a+x ~/.git-templates/hooks
-   /pre-commit
+chmod a+x ~/.git-templates/hooks /pre-commit
 ```
 
 Run `git init` in your repository to include the global hooks.

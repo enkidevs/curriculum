@@ -36,7 +36,7 @@ If however a function **expression** is used rather than a function **declaratio
 ```js
 alert(foo()); // Error!
 // Function expression
-var foo = function() { return 'Enki'; }
+let foo = function() { return 'Enki'; }
 ```
 
 This is because function **expressions** are evaluated from the top-down as normal.
@@ -50,7 +50,7 @@ Give the output:
 
 ```js
 alert(foo()); // ???
-var foo = function() { return 'Enki'; }
+let foo = function() { return 'Enki'; }
 ```
 
 - error

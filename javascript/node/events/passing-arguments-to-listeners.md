@@ -25,7 +25,7 @@ revisionQuestion:
 The `eventEmitter.emit()` method allows for a set of arguments to be passed to the listener functions. The `this` keyword, when passed, is set to reference the `EventEmitter` to which the listener is attached.
 
 ```javascript
-var EventEmitter = require('events');
+let EventEmitter = require('events');
 class MyEmitter extends EventEmitter {}
 const emitter = new MyEmitter();
 

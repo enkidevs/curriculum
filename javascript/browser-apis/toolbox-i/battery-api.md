@@ -41,7 +41,7 @@ navigator.getBattery()
         'levelchange', LogBatteryLevel);
 
       function LogBatteryLevel() {
-        var bat = battery.level * 100;
+        let bat = battery.level * 100;
         console.log(`Level: ${bat}%`);
       }
   });
@@ -70,14 +70,14 @@ navigator.???()
 - getBattery
 - battery
 - addEventListener
-- 'levelChange'
+- 'levelchange'
 - logBatteryLevel
 - addListener
 - bat
 - 'level'
 - 'change'
 - BatteryAPI
-
+- 'levelChange'
 
 ---
 

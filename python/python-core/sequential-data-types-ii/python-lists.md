@@ -23,9 +23,9 @@ revisionQuestion:
 
 ## Content
 
-Lists are another **sequential data type** that act as containers for objects. 
+A list is a **sequential data type** that acts as a container for objects. 
 
-Lists are also separated by commas, and *must be wrapped in square brackets*, `[ ]`.
+Lists are separated by commas, and *must be wrapped in square brackets*, `[ ]`.
 
 ```python
 my_first_list = ['apples', 'oranges']
@@ -49,10 +49,11 @@ print(my_first_list)
 # ['bananas', 'oranges', 'pears']
 ```
 
-We can also use our `index` and `count` methods that we learnt about back in the `tuple` days on lists.
+> We can also use our `index` and `count` methods that we learned about back in the [Tuple Methods lesson](https://app.enki.com/insights/tuple-methods).
 
 Let's discover some more `list` methods next!
 
+> 🤔 What's the difference between a [tuple](https://app.enki.com/python-core/sequential-data-types-ii/the-fundamental-tuples) and a list?
 
 ---
 

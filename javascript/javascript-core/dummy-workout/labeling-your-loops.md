@@ -27,10 +27,10 @@ You can give a label to every nested iteration and use the `break` statement to 
 
 ```javascript
 outerloop:  
-for (var i=0; i<5; i++) {
+for (let i=0; i<5; i++) {
   if (somethingIsTrue()) {  
     innerloop:  
-    for (var j=0; j<5; j++) {  
+    for (let j=0; j<5; j++) {  
       if (somethingElseIsTrue()) {  
         // Breaks the inner loop  
         break innerloop; 
@@ -53,7 +53,7 @@ Break `enkiLoop`:
 
 ```javascript
 enkiLoop:
-for(var i=0; i<5; i++) {
+for(let i=0; i<5; i++) {
  if(condition) {
    ??? ???
  }

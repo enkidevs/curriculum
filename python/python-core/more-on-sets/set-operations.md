@@ -26,7 +26,9 @@ revisionQuestion:
 
 Apart from set operations such as union and intersection, Python's `set` has other useful operations:
 
-Add an element to a `set` (note: sets only accept **immutable** elements):
+Add an element to a `set`:
+
+> ⚠️ Sets only accept **immutable** elements
 
 ```python
 >>> enki = set("Enk")
@@ -112,4 +114,5 @@ enki.???()
 - `empty`
 - `delete`
 - `list`
+ 
  

@@ -9,7 +9,6 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -26,7 +25,9 @@ revisionQuestion:
 
 The `SUM` clause comes in handy when we need to perform numerical addition.
 
-Below we will see some examples based on a hypothetical database containing important information on pokemon. First, we will extract a limited number of entries[1]:
+Let's take a look at an example!
+
+We'll use this `experience` table:
 
 | id  | level | experience | growth_rate_id |
 | --- | ----- | ---------- | -------------- |
@@ -35,37 +36,22 @@ Below we will see some examples based on a hypothetical database containing impo
 | 3   | 3     | 33         | 1              |
 | ... | ...   | ...        | ...            |
 
-```sql
-SELECT experience
-FROM experience_table
-LIMIT 5;
-```
-
-Output:
-
-| experience |
-| ---------- |
-| 0          |
-| 10         |
-| 33         |
-| 80         |
-| 156        |
-
-We can use the `SUM` function to quickly add up all the totals above[2]:
+You want to find out the **total number of points** required to get your pokémon to level 3. You could sum up all the values yourself, or you could let SQL and `SUM` do all the work:
 
 ```sql
-SELECT SUM(experience) FROM
-(SELECT experience
-  FROM experience_table
-  LIMIT 5);
+SELECT
+  SUM(experience)
+FROM
+  experience
+LIMIT
+  3;
 ```
 
-Output:
+Let's break down the query. We start by telling SQL to `SUM` all the values in the `experience` table, and immediately after we `LIMIT` the number of rows to 3[1]. The result is the sum of the first three values in the `experience` column:
 
-| sum |
-| --- |
-| 279 |
-
+| SUM(experience) |
+|-----------------|
+| 43              |
 
 ---
 
@@ -73,19 +59,19 @@ Output:
 
 Consider the `move_effect_change` table. We want to know the sum of all values contained in the `move_effect` column:
 
-```md
 | id | move_effect | version_group_id |
 | -- | ----------- | ---------------- |
 | 1  | 8           | 11               |
 | 2  | 18          | 3                |
 | 3  | 29          | 3                |
-```
 
 Construct a query to do so:
 
 ```sql
-SELECT ???(???) 
-FROM move_effect_change;
+SELECT
+  ???(???) 
+FROM
+  move_effect_change;
 ```
 
 - SUM
@@ -100,25 +86,22 @@ FROM move_effect_change;
 
 ## Revision
 
-We have a table called `items` that contains the name and cost of every item in Pokeland. We want to know how much it would cost to buy all items...
+We have a table called `item` that contains the name and cost of every item in Pokeland. We want to know how much it would cost to buy all items...
 
-```md
 | id | cost | name        |
 | -- | ---- | ----------- |
 | 1  | 0    | master-ball |
 | 2  | 1200 | ultra-ball  |
 | 3  | 600  | great-ball  |
 | 4  | 200  | poke-ball   |
-```
 
 Which query will do so?
 
 ???
 
-- SELECT SUM(cost) FROM item;
-- SELECT AVG(cost) FROM item;
-- SELECT MAX(cost) FROM item;
-
+- `SELECT SUM(cost) FROM item;`
+- `SELECT AVG(cost) FROM item;`
+- `SELECT MAX(cost) FROM item;`
 
 ---
 
@@ -126,10 +109,5 @@ Which query will do so?
 
 [1:LIMIT]
 `LIMIT` number.
+
 This clause enables users to `SELECT` the first given number of entries
-
-[2:Nested Query]
-We need to use nested queries to be able to `SELECT SUM()` only on the first 5 entries.
-In this particular case we say: Compute the `SUM` on the experience column, taking into account only the 5 entries of the table. `AS` must be specified when using nested queries.
-
-Check out this [great resource](https://www.tutorialspoint.com/sql/sql-sub-queries.htm) if you want to find out more about nested queries.

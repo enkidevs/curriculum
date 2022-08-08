@@ -42,9 +42,9 @@ string = 'Python'
 sentence = "Python's the best language to learn!"
 
 if string in sentence:
-    print('I agree!')
+  print('I agree!')
 else:
-    print('Hmm, not sure I agree.')
+  print('Hmm, not sure I agree.')
 
 # I agree!
 ```
@@ -63,9 +63,9 @@ letter = 'p'
 my_string = 'stop, collaborate and listen'
 
 if letter ??? my_string:
-    print('???')
+  print('???')
 else:
-    print('???')
+  print('???')
 ```
 
 - `in`
@@ -93,5 +93,5 @@ The `in` operator evaluates to ??? if it finds the specified value in the ???.
 ## Footnotes
 
 [1:Membership operator]
-Membership operators are used to test if a sequence is present in an object, such as a string.
+Membership operators are used to test if a variable is present in an object, such as a string.
  

@@ -65,7 +65,7 @@ We can also change the content of the tag to say `"This is blue"` rather than `"
 let blueTags = document.getElementsByClassName(
   'blue'
 );
-for (var i = 0; i < blueTags.length; i++) {
+for (let i = 0; i < blueTags.length; i++) {
   blueTags[i].style.color = 'blue';
   blueTags[i].innerHTML = 'This is blue';
 }

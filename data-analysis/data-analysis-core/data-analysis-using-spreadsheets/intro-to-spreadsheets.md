@@ -17,12 +17,10 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -37,11 +35,11 @@ Spreadsheets allow **anyone** to quickly analyze pretty *large amounts of data*.
 
 When we think about our Data Analysis process, we can do all the key steps such as cleaning, exploring and visualizing data using spreadsheets 🎉.
 
-We're going to be using **Google Sheets** throughout this workout as it's a free tool - you just need access to a Google account to be able to use it.
+We will be using **Google Sheets** throughout this workout as it's a free tool - you only need access to a Google account to use it.
 
 > 💡 Google Sheets has nearly all the same functionality as Excel. Check out the **Learn More** link to read about the minor differences.
 
-Along with the basic functions like `SUM`, `AVERAGE` and `COUNT`, you'll want to be familar with these other useful functions:
+Along with the basic functions like `SUM`, `AVERAGE` and `COUNT`, you'll want to be familiar with these other useful functions:
 
 `SUMIF` / `AVERAGEIF`
 Calculates the sum or average based on a chosen criteria.
@@ -63,14 +61,14 @@ Multiples one range of values by its corresponding row counterparts.
 
 Check out the *Data Analysis Functions* **Learn More** link for some examples of how to use each of these if you're unsure.
 
-We also have our own Spreadsheets course which covers everything in much more depth 🔎. 
+We also have our own Spreadsheets course, which covers everything in much more depth 🔎. 
 
 
 ---
 
 ## Practice
 
-What is a useful spreadsheets formula to sum data that meets a certain criteria.
+What is a useful spreadsheets formula to sum data that meets certain criteria?
 
 ```plain-text
 ???
@@ -86,7 +84,7 @@ What is a useful spreadsheets formula to sum data that meets a certain criteria.
 
 ## Revision
 
-What is a useful spreadsheets formula to average data that meets a certain criteria?
+What is a useful spreadsheets formula to average data that meets certain criteria?
 
 ```plain-text
 =???()

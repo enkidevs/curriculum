@@ -51,7 +51,7 @@ Let's add `Category` and `Product` as rows.
 
 ![rows](https://img.enkipro.com/454d37a7ed74454c82a12de8a525919c.png)
 
-> ❗ The order of the data in the `Rows` and `Columns` section is important.
+> ⚠️ The order of the data in the `Rows` and `Columns` section is important.
 
 Pivot tables will group data based on the topmost data set in the editor.
 
@@ -94,3 +94,4 @@ In a pivot table, the `Rows` and ??? fields are used to populate it.
 Here is how the pivot table editor looked like:
 
 ![pivot-editor](https://img.enkipro.com/a195da10b5b4832c018064ac85dd2a59.png)
+ 

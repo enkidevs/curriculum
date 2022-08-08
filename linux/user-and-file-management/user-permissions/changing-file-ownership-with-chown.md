@@ -58,7 +58,7 @@ It would look something like this:
 sudo chown -R jesse:new-group /some/directory
 ```
 
-> ❗ This command would not just change the owner of the `/some/directory` directory, but every file and subdirectory therein.
+> ⚠️ This command would not just change the owner of the `/some/directory` directory, but every file and subdirectory therein.
 
 
 ---
@@ -85,7 +85,7 @@ Change the group to `new-group` for the `./enki.txt` file:
 
 - `sudo`
 - `chown`
-- `new-group`
+- `:new-group`
 - `./enki.txt`
 - `new-group`
 - `chmod`
@@ -100,3 +100,4 @@ Change the group to `new-group` for the `./enki.txt` file:
 You can use the `chgrp` command to change the **group ownership**. This is the same as writing `sudo chown :new-group ./file`.
 
 For more information check the *Learn More* section for the command's documentation.
+ 

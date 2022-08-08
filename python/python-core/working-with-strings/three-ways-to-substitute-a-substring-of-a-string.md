@@ -73,27 +73,27 @@ Using `string.Template` , substitute the following substring:
 
 ```python
 import string
-t = string
- .???("It's ???weather")
-print(t
- .???(weather="sunny"))
+t = string.???("It's ???weather")
+print(t.???(weather="sunny"))
 ```
 
-The fastest and easiest way of formatting strings is by using: ???
+Using `f-strings`, print "Hey Enki, how are you?":
+
+```python
+app = 'Enki'
+print(f'Hey ???, how are you?')
+```
 
 - `Template`
 - `$`
 - `substitute`
-- `f-strings`
+- `{app}`
 - `string.Template`
-- `percent-style`
-- `curly-bracket`
+- `{`
+- `app`
 - `format`
 - `%`
-- `{`
-- `dict`
-- `mod`
-
+- `}`
 
 ---
 
@@ -103,8 +103,7 @@ Substitute the substring using curly brackets:
 
 ```python
 my_string = "Good {time}"
-print(my_string
-  .???(???="evening"))
+print(my_string.???(???="evening"))
 ```
 
 - `format`

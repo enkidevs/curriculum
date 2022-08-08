@@ -7,12 +7,10 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -57,7 +55,7 @@ TO_DATE(-1)
 12/29/1899
 ```
 
-> ❗ The `TO_DATE()` function expects a number as an input. 
+> ⚠️ The `TO_DATE()` function expects a number as an input. 
 
 It doesn't convert date formats as cells do. If we were to input a date (`10/10/2020`), the function interprets it as an arithmetic operation.
 
@@ -120,3 +118,4 @@ Which parser function is used to convert a numeric value to a date value?
 - DATE_TO
 - CONVERT_TO_DATE
 - DATE
+ 

@@ -83,7 +83,7 @@ Larger example:
 </html>
 ```
 
-**Note:** When it comes to ordering CSS and JS, always add CSS first. And JS can be loaded in the `<head>` element, or more commonly before the closing `</body>` tag. For an explanation check the `learn more` links section of this insight.
+> 💡 When it comes to ordering CSS and JS, always add CSS first. And JS can be loaded in the `<head>` element, or more commonly before the closing `</body>` tag. For an explanation check the `learn more` links section of this insight.
 
 
 ---

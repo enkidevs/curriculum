@@ -57,7 +57,7 @@ func main() {
 
 ## Practice
 
-Finish the code to make the statement work.
+Finish the code to make the switch statement work.
 
 ```go
 func main() {

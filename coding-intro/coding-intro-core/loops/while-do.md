@@ -8,7 +8,6 @@ aspects:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -34,8 +33,8 @@ hungry = true
 sandwiches_made = 0
 
 WHILE (
-  hungry == true OR 
-  sandwiches_made <=3
+  hungry == true AND 
+  sandwiches_made <= 3
 )
   INSTRUCT make_a_grill_cheese_sandwich(
     cheese, 
@@ -50,7 +49,7 @@ WHILE (
 ENDWHILE
 ```
 
-We created a complex condition: if the `hungry` variable is equal to `true` **or** less than 4 sandwiches were made, you call the `make_sandwich` function.
+We created a complex condition: if the `hungry` variable is equal to `true` **and** less than 4 sandwiches were made, you call the `make_sandwich` function.
 
 
 ---

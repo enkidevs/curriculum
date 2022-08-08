@@ -44,7 +44,7 @@ Adding data to the linked fields is done by clicking on the `+` sign found in th
 
 To link two already existing tables you have to ???.
 
-- create a new field and select the 'Link <name of table to be linked>'
+- `create a new field and select the Link <name of table to be linked>`
 - create a new base and link it using base linking
 - delete the table and create a new table from scratch
 

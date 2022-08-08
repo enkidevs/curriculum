@@ -27,7 +27,7 @@ For example:
 ```python
 # To define
 def new_func():
-    print ('Function time!')
+  print ('Function time!')
 
 # To call
 new_func()
@@ -40,24 +40,30 @@ Gives the following output:
 Function time!
 ```
 
-A parameter in Python is a variable which can be passed into functions so that methods can be performed onto it.
+The value passed into a function is called an argument. The variable that holds that value within the function is called a parameter.
 
-In this example, variable `x` is passed into the function as a parameter:
+In this example, variable `x` is defined in the function as a parameter:
 
 ```python
 def func(x):
-    ans = x * x
-    print(ans)
+  ans = x * x
+  print(ans)
 ```
 
-So to call this function, you must pass a parameter into your function call as follows:
+To call this function, you must pass a value (i.e. an argument) into it, which will put that value into the `x` variable (i.e. parameter) inside the function.
+
+You can pass a number directly or as a variable:
 
 ```python
+# With a variable
 num = 5
 func(num)
+
+# Directly
+func(5)
 ```
 
-In the example, variable `x` will take the value of `num`, therefore the output will be:
+In the `func(x)` example, the variable `x` will take the value of `num` or `5` depending on how we plugged it in. Either way, the output will be:
 
 ```plain-text
 25
@@ -74,7 +80,7 @@ Complete the code to define and call the `mean` function to get the arithmetic m
 x = 4
 y = 2
 ??? mean(a, b):
-    print((a + b) / 2)
+  print((a + b) / 2)
 
 ???(???)
 ```
@@ -93,8 +99,8 @@ Complete the code snippet to define and call the function with the correct param
 
 ```python
 ??? cube(x):
-    res = x * x * x
-    print (res)
+  res = x * x * x
+  print (res)
 
 num = 5
 ???(???)

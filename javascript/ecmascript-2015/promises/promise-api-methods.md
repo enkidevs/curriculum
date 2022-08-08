@@ -53,8 +53,8 @@ Promise.race([p1, p2, p3]).then(values => {
 Creates immediately rejected or resolved promises which could be useful for testing scenarios for example:
 
 ```javascript
-var p1 = Promise.reject(new Error("fail"));
-var p2 = Promise.resolve();
+let p1 = Promise.reject(new Error("fail"));
+let p2 = Promise.resolve();
 ```
 
 
@@ -86,15 +86,15 @@ Promise.race([p1, p2, p3]).then(res =>
 // ???
 ```
 
-- ['a', 'b', 'c']
-- 'b'
-- 'a'
-- 'c'
-- ['b', 'c', 'a']
-- ['a', 'c', 'b']
-- ['b', 'a', 'c']
-- ['c', 'b', 'a']
-- ['c', 'a', 'b']
+- `['a', 'b', 'c']`
+- `'b'`
+- `'a'`
+- `'c'`
+- `['b', 'c', 'a']`
+- `['a', 'c', 'b']`
+- `['b', 'a', 'c']`
+- `['c', 'b', 'a']`
+- `['c', 'a', 'b']`
 
 
 ---

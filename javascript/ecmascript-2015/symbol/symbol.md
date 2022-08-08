@@ -36,7 +36,7 @@ But how do you work with symbols?
 The following code creates a symbol:
 
 ```javascript
-var sym = Symbol();
+let sym = Symbol();
 ```
 
 Be sure not to use the new operator when creating a symbol otherwise you will get an exception.

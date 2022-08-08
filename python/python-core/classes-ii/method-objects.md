@@ -52,8 +52,8 @@ Considering the following class and its instantiation:
 
 ```python
 class Enki:
-    def f(self):
-        return "Python"
+  def f(self):
+    return "Python"
 
 enki = Enki()
 
@@ -74,7 +74,26 @@ ef() # returns 'Python'
 print(ef()) # prints 'Python'
 ```
 
-Note that under the hood, `enki.f()` is **exactly equivalent** to `Enki.f(enki)`.
+> 💡 Under the hood, `enki.f()` is **exactly equivalent** to `Enki.f(enki)`:
+
+```python
+enki.f() # this will return 'Python'
+print(enki.f()) # prints 'Python'
+
+Enki.f(enki) # also returns 'Python'
+print(Enki.f(enki)) # also prints 'Python'
+```
+
+> ⚠️ `enki.f(anything)` will throw an error because `enki.f()` only takes the Enki class `self` as a parameter.
+
+```python
+enki.f('foobar')
+
+# Traceback (most recent call last):
+#  File "main.py", line 6, in <module>
+#    enki.f('foobar')
+# TypeError: f() takes 1 positional argument but 2 were given
+```
 
 
 ---
@@ -107,8 +126,8 @@ Store in variable `x` a method object from the `Test` class:
 
 ```python
 class Test:
-   def p(self):
-       return “p method”
+  def p(self):
+    return “p method”
 ??? = Test()
 x = test.???
 ```
@@ -120,4 +139,5 @@ x = test.???
 - `new`
 - `def`
 - `get`
+ 
  

@@ -9,12 +9,10 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -72,12 +70,13 @@ This means that the default configurations in Docker are setup to be easy to use
 
 To inspect a Docker `nginx` image, we'd run the command:
 
-???
+```bash
+docker ??? ??? ???
+```
 
-- `docker image inspect nginx`
-- `docker inspect image nginx`
-- `docker image nginx inspect`
-- `docker inspect nginx image`
+- `image`
+- `inspect`
+- `nginx`
 
 ---
 
@@ -85,12 +84,15 @@ To inspect a Docker `nginx` image, we'd run the command:
 
 To fetch the logs for a Docker container named `webserver`, we'd run:
 
-???
+```bash
+docker ??? ??? ???
+```
 
-- `docker container logs webserver`
-- `docker logs container webserver`
-- `docker show logs webserver`
-- `docker webserver container-logs`
+- `container`
+- `logs`
+- `webserver`
+- `show`
+- `container-logs`
 
 ---
 

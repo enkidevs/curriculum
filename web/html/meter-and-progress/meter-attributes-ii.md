@@ -2,7 +2,7 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -30,7 +30,7 @@ We've previously discussed the `value`, `low` and `high` attributes for the `<me
 
 - The `form` attribute is used to associate the `<meter>` element with the `<form>` element which has ownership over it. This is only necessary if the `<meter>` element is not a direct descendant of the `<form>` element who's using it.
 
-**Note: Each attribute value(from the 7 attributes previously mentioned) has to be a valid floating point number.**
+> 💡 Each of the seven attributes values has to be a valid floating-point number.
 
 
 ---

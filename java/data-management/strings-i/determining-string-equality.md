@@ -6,9 +6,13 @@ tags:
   - strings
 links:
   - >-
-    [www.javapractices.com](http://www.javapractices.com/topic/TopicAction.do?Id=18){website}
+    [Determine if Strings are equal](http://www.javapractices.com/topic/TopicAction.do?Id=18){website}
   - >-
-    [www.stackoverflow.com](https://stackoverflow.com/a/3801355/8030012){website}
+    [What is String pool?](https://stackoverflow.com/a/3801355/8030012){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Determining string equality
@@ -39,7 +43,7 @@ if(string1 == string2){
 return false;
 ```
 
-**NOTE:** If we do not use the keyword `new`, the previous code would return `true`. This is because the variable `string2` would end up pointing to the same reference as the variable `string1` (since the string `"Enki"` would already be in the String pool by the time `string2` is created).
+> ⚠️ If we do not use the keyword `new`, the previous code would return `true`. This is because the variable `string2` would end up pointing to the same reference as the variable `string1` (since the string `"Enki"` would already be in the String pool by the time `string2` is created).
 
 If we want to compare the values of the strings, we should use `.equals`. This code will return `true`:
 
@@ -49,3 +53,31 @@ if(string1.equals(string2)){
 }
 return false;
 ```
+
+---
+
+## Revision
+
+Pick the correct syntax to compare the **values** of two strings:
+
+```java
+// A
+if (string1 == string2) {
+  return true;
+}
+return false;
+
+// B
+if (string1.equals(string2)) {
+  return true
+}
+return false;
+```
+
+???
+
+- B
+- A
+- both
+- neither
+ 

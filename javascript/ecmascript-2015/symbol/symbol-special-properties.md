@@ -102,8 +102,8 @@ Which of the following code snippets will return an array of all the symbol prop
 
 ???
 
-- none
 - 1
+- none
 - 2
 - 3
 - 4
@@ -126,8 +126,8 @@ console.log(
 // ???
 ```
 
-- []
-- ['Symbol()']
-- ['Symbol(enki)']
-- ['Symbol()', 'Symbol(enki)']
+- `[]`
+- `['Symbol()']`
+- `['Symbol(enki)']`
+- `['Symbol()', 'Symbol(enki)']`
  

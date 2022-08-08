@@ -44,7 +44,7 @@ In **strict mode** this does not happen and would give a reference error of `und
 
 `undeclared` means that there is no present declaration of the variable in any of the scopes.
 
-Note: this is not the same as `undefined`.
+> ⚠️ This is not the same as `undefined`.
 
 It is recommended that you use strict mode for your code to prevent **variable leaks**.
 
@@ -77,3 +77,4 @@ Non-strict mode allows the automate creation of a variable in ??? scope, while *
 - global
 - local
 - strict
+ 

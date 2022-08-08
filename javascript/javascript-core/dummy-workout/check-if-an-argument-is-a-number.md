@@ -30,8 +30,8 @@ revisionQuestion:
 
 ```js
 function isNumber(n){
-  var float  = !isNaN(parseFloat(n));
-  var finite = isFinite(n);
+  let float  = !isNaN(parseFloat(n));
+  let finite = isFinite(n);
   return float && finite;
 }
 ```
@@ -45,8 +45,8 @@ Complete the code to check if the argument is a number:
 
 ```javascript
 function isNumber(x) {
-   var float = !isNan(???(x));
-   var finite = ???(x);
+   let float = !isNan(???(x));
+   let finite = ???(x);
    return float ??? ???;
 }
 ```
@@ -73,8 +73,8 @@ Complete the code in order to check if the input is a number or not:
 
 ```javascript
 function isNumber(n){
-  var float  = ! ???(???(n));
-  var finite = ???(n);
+  let float  = ! ???(???(n));
+  let finite = ???(n);
   return float && finite;
 }
 ```

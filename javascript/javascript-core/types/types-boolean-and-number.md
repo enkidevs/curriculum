@@ -13,12 +13,31 @@ revisionQuestion:
   context: standalone
 ---
 
-# Types - Boolean and Number
+#  Strings, Numbers and Booleans
 
 
 ---
 
 ## Content
+
+
+### Strings
+
+To store any sequence of characters, whether its one letter or multiple sentences, we use strings.
+
+A string is always wrapped in either `'single'` or `"double quotes"`
+
+```javascript
+let company = "Enki";
+let google_search = 'How to learn JavaScript in one day';
+```
+
+We can also perform operations on strings like the following:
+
+```javascript
+google_search.length // 34
+```
+
 
 ### Boolean
 
@@ -54,22 +73,21 @@ More math functionality is available via the `Math` object e.g.
 Math.round(5.7); // 6
 ```
 
-
 ---
 
 ## Practice
 
 On the first line declare a **boolean variable** named `a` that's `true`.
-On the second line declare a **number constant** named `b` with the value equal to `3.14`.
+On the second line declare a **number variable** named `b` with the value equal to `3.14`.
 
 ```javascript
-let ??? = ???
-??? ??? = ???
+let ??? = ???;
+??? ??? = ???;
 ```
 
 - `a`
 - `true`
-- `const`
+- `let`
 - `b`
 - `3.14`
 - `"3.14"`

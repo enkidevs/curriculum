@@ -51,7 +51,7 @@ Output:
 { "_id": "Water", "nameOfLast": "Blastoise" }
 ```
 
-**Note** If our grouping has only one document, `$first` and `$last` would give out the same output.
+> ⚠️ If our grouping has only one document, `$first` and `$last` would give out the same output.
 
 
 ---
@@ -75,7 +75,7 @@ db.pokemon.aggregate([
 - `$group`
 - `$type`
 - `nameOfLast `
-- `$first`
+- `$last`
 - `$Type`
 - `$Group`
 
@@ -95,3 +95,4 @@ Which of these is not a valid accumulator for the `$group` stage?
 - `$max`
 - `$push`
 - `$sum`
+ 

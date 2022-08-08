@@ -62,9 +62,9 @@ Example new account:
 </form>
 ```
 
-![form-single-inputs](https://img.enkipro.com/288b0d8a651a817fb7823f658c586825.png)
+![form-single-inputs](https://img.enkipro.com/ed157ae3fb134c51f3cc4835ca89bd98.png)
 
-**Note:** If you have a single line input whose value should contain a date, URL, or an email, you should provide a more suitable input type than `type="text"`.
+> 💡 If you have a single line input whose value should contain a date, URL, or an email, you should provide a more suitable input type than `type="text"`.
 
 Next, you can control the physical size of your input fields with the `size` attribute. The `size` attribute sets the width of the text field in terms of characters rather than pixels.
 

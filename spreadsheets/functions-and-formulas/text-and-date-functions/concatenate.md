@@ -51,7 +51,7 @@ In this example, we combine the values of three cells (`A2`, `B2`, and `C2`), us
 
 ![concatenate](https://img.enkipro.com/097aae294b02996550bc7bb24745af5e.png)
 
-> ❗ When referencing cells, the data type matters!
+> ⚠️ When referencing cells, the data type matters!
 
 If your cell is formatted as a text data type, the result would differ from a cell that is formatted as a date type.
 
@@ -68,3 +68,4 @@ The `=CONCATENATE()` function is used to combine data from ???.
 
 - two or more cells
 - exactly two cells
+ 

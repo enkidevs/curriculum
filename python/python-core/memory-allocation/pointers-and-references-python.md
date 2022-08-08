@@ -45,7 +45,7 @@ They both **reference** the same place in memory. Strange, right?
 
 In Python, basic types are usually *immutable*. This means you can't change their value without them changing their identity (you can already represent an integer in binary; if you are to modify any bit, its value would also change). The same is true for *strings*, *floats*, *tuples* and *bytes*.
 
-It then comes down to the variables' name: what do they represent? In this case, the `=` operator is better described by **"binding"** than *"assignment"*. In other words, both `a` and `b` reference the same object (as seen above with regard to their memory addresses). Incrementing either of them means binding their name to a new value:
+It then comes down to the variables name: what do they represent? In this case, the `=` operator is better described by **"binding"** than *"assignment"*. In other words, both `a` and `b` reference the same object (as seen above with regard to their memory addresses). Incrementing either of them means binding their name to a new value:
 
 ```python
 a = a + 1

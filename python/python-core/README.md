@@ -8,13 +8,21 @@ sections:
   '0':
     - meet-python
     - syntax-and-numerical-operators
+    - arithmetic-operation-exercise
     - control-flow-i
+    - even-or-odd-exercise
     - control-flow-ii
+    - value-in-a-string-exercise
     - sequential-data-types-i
+    - populate-a-tuple-exercise
     - sequential-data-types-ii
+    - remove-add-values-to-a-list-exercise
     - unordered-data-types
+    - populate-a-dictionary-exercise
     - looping
+    - pattern-printing-exercise
     - python-functions
+    - day-of-the-week-function-exercise
     - python-tips
   '1':
     - intro-to-modules

@@ -23,12 +23,12 @@ revisionQuestion:
 
 ## Content
 
-**NOTE:** whenever an object is serialized to a file, conventionally this file is given a `.ser` extension although it can be any other type of file such as `.txt`.
+> 💡 Whenever an object is serialized to a file, conventionally this file is given a `.ser` extension although it can be any other type of file such as `.txt`.
 
 In order for the object to be serializable two conditions must be held:
 
 - It has to implement `java.io.Serializable` interface
-- Fields of an objects must be serializable, otherwise they must be marked as `transient`[1]
+- An object's fields must be serializable, otherwise they must be marked as `transient`[1]
 
 For example, let's say we want to store a copy of `Car` object on a local machine:
 

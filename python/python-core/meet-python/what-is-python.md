@@ -1,19 +1,19 @@
 ---
 author: emmab
+
 tags:
   - introduction
+  - discussion
+
 type: normal
+
 category: must-know
-links:
-  - '[What is Python?](https://www.python.org/doc/essays/blurb/){website}'
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
+
 ---
 
 # Python Intro
@@ -23,9 +23,10 @@ revisionQuestion:
 
 ## Content
 
-Python is a popular *high-level* programming language.
 
-That means it's designed to be easy to read, using English keywords and simple syntax[1].
+Python is the world's fastest-growing programming language.
+
+It's designed to be easy to read, using English keywords and simple syntax[1].
 
 For example, here's how you might check whether a number is greater than another number:
 
@@ -33,15 +34,19 @@ For example, here's how you might check whether a number is greater than another
 my_age = 23
 legal_age = 21
 if my_age >= legal_age:
-    print("You can have a beer!")
+  print("You can have a beer!")
 else:
-    print("Unlucky.")
+  print("Unlucky.")
 ```
+
 
 Python is also a *general-purpose* programming language. That means it can be used for *just about anything*. 
 
 You can use it to build websites, web apps and desktop apps. But it's also used in scientific computing, artificial intelligence, and data analysis!
 
+> 💬 Why are you interested in Python?
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 ---
 
@@ -50,33 +55,19 @@ You can use it to build websites, web apps and desktop apps. But it's also used 
 Let's write some Python code! Do you remember how to print a message?
 
 > Don't worry; this is to get you comfortable with code. 
-> You'll learn all about how this works in the upcoming lessons
+> You'll learn all about how this works in the upcoming lessons.
 
 ```python
-my_age = 23
-legal_age = 21
+my_age = 20
+legal_age = 18
 if my_age >= legal_age:
-    ???("You can have a beer!")
+  ???("Enjoy the ride!")
 ```
 
 - print
 - state
 - write
 - log
-
----
-
-## Revision
-
-Python is a programming language that you can use for just about anything.
-
-We call these kinds of languages ???.
-
-- general-purpose
-- all-the-things
-- multi-featured
-- domain-specific
-
 
 ---
 

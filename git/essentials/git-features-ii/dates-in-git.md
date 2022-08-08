@@ -38,6 +38,11 @@ To see the commits since the 1st Jan 2016:
 git log --since="01/01/2016"
 ```
 
+To see the commits between two dates:
+```bash
+git log --since="01/01/2016" --until="01/01/2017"
+```
+
 To compare the repository between two different dates:
 
 ```bash
@@ -51,7 +56,8 @@ To revert to an old version of a repository:
 git revert master@{"last Tuesday"}
 ```
 
-Note: these commands use the **committer** date not the **author** date. The committer date refers to the time the work was last applied.
+> ⚠️ These commands use the **committer** date not the **author** date. The committer date refers to the time the work was last applied.
+
 
 
 ---
@@ -61,8 +67,7 @@ Note: these commands use the **committer** date not the **author** date. The com
 To retrieve all the logs starting from last week until yesterday, you would run:
 
 ```bash
-git ??? --since=??? 
-     ???="yesterday"
+git ??? --since=??? ???="yesterday"
 ```
 
 - `log`
@@ -80,3 +85,4 @@ git ??? --since=???
 
 - can
 - can’t
+ 

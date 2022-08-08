@@ -43,7 +43,7 @@ To edit a class name, duplicate or delete it, select the class you want to edit 
 
 ![dropdown-class-menu](https://img.enkipro.com/0df4a00e6c81cc328d6bfb75cdaa8845.png)
 
-**Note:** If only one element has a particular class and you accidentally removed the class from the element, you don't have to worry. Just start typing the name of the class and the class will be shown in the "Existing classes" section.
+> 💡 If only one element has a particular class and you accidentally removed the class from the element, you don't have to worry. Just start typing the name of the class and the class will be shown in the "Existing classes" section.
 
 
 ---

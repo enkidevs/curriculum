@@ -28,7 +28,7 @@ revisionQuestion:
 ## Content
 
 To reference the body element with the DOM you simply use `document.body` rather than selecting the body element with `getElementsByTagName` method. For example, this is how to store a reference to the body in a variable:  
-`var bodyElement = document.body`  
+`let bodyElement = document.body`  
 
 ## Overwriting the body
 

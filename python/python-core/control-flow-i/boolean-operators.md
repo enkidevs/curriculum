@@ -32,7 +32,7 @@ num = 1
 a_string = 'foobar'
 
 if a_string == 'foobar' and num == 1:
-    print('Success!')
+  print('Success!')
 # Success!
 ```
 
@@ -42,7 +42,7 @@ When using the `and` operator, *all conditions* must evaluate to `True` for the 
 
 ```python
 if a_string == 'foobar' or num > 2:
-    print('Success!')
+  print('Success!')
 # Success!
 ```
 
@@ -62,16 +62,16 @@ When using the `or` operator, *at least one of the conditions* must evaluate to 
 
 ## Practice
 
-Complete the code snippet so that both conditions must evaluate to `True` for the word `'yes'` to be printed:
+Complete the code snippet so that **both** conditions must evaluate to `True` for the word `'yes'` to be printed:
 
 ```python
 x = 6
 a_string = 'python'
 
 if x == 6 ??? a_string == 'python':
-    print ('yes')
+  print ('yes')
 else:
-    print('no')
+  print('no')
 
 # 'yes'
 ```
@@ -85,16 +85,16 @@ else:
 
 ## Revision
 
-Complete the code snippet so that at least one of the conditions must evaluate to `True` for the word `'yes'` to be printed:
+Complete the code snippet so that **at least one** of the conditions must evaluate to `True` for the word `'yes'` to be printed:
 
 ```python
 x = 6
 a_string = 'python'
 
 if x == 6 ??? a_string == 'java':
-    print ('yes')
+  print ('yes')
 else:
-    print('no')
+  print('no')
 ```
 
 - `or`

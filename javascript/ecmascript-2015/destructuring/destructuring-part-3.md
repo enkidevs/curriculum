@@ -29,7 +29,7 @@ Destructuring is very useful when working with arrays.
 We can use destructuring to easily copy an array when combining it with the spread operator:
 
 ```javascript
-var myArray;
+let myArray;
 [...myArray] = [1, 2, 3];
 // myArray=[1,2,3]
 ```
@@ -37,8 +37,8 @@ var myArray;
 If the source object to use for destructuring contains more values than you need you don’t necessarily have to use all of them either:
 
 ```javascript
-var myArray = [1, 2, 3, 4];
-var [x, y, z] = myArray;
+let myArray = [1, 2, 3, 4];
+let [x, y, z] = myArray;
 //x=1, y=2, z=3;
 ```
 
@@ -68,14 +68,14 @@ console.log(z)
 // z == 15
 ```
 
-- x,
-- ,
-- z
-- x
-- y
-- ,y
-- y,
-- ,x
+- `x,`
+- `,`
+- `z`
+- `x`
+- `y`
+- `,y`
+- `y,`
+- `,x`
 
 
 ---
@@ -92,16 +92,16 @@ let x, y, z;
 // z = ???
 ```
 
-- 10
-- undefined
-- 30
-- 20
-- [20]
-- [10, 30]
-- [10, 20]
-- [20, 30]
-- [10, 20, 30]
-- null
-- [10]
-- [30]
+- `10`
+- `undefined`
+- `30`
+- `20`
+- `[20]`
+- `[10, 30]`
+- `[10, 20]`
+- `[20, 30]`
+- `[10, 20, 30]`
+- `null`
+- `[10]`
+- `[30]`
  

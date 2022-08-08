@@ -49,7 +49,7 @@ Example:
 }
 ```
 
-**NOTE:** whenever the method has no `default` value, it return value must be specified on each usage.
+> ⚠️ Whenever the method has no `default` value, its return value must be specified on each usage.
 
 You can split all *annotations* into three types:
 
@@ -88,3 +88,4 @@ What is an annotation?
 
 - Metadata about a piece of code which can be understood by a compiler or JVM
 - It is an interface which has to be implemented in order to
+ 

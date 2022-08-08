@@ -39,7 +39,7 @@ git commit -m "Fix typo in README"
 For a longer commit, you should leave a line after the subject and include more description in the body of the commit:
 
 ```bash
-git commit
+git commit -m
 # commit message editor
 Redirect user to the login form
 
@@ -60,8 +60,7 @@ You should stick to a convention that is consistent with the rest of the team.
 Commit the changes with the message "issue no.8 fixed":
 
 ```bash
-git ??? ??? 
-            ???
+git ??? ??? ???
 ```
 
 - `commit`
@@ -77,8 +76,7 @@ git ??? ???
 Commit the changes with the message "typo fixed":
 
 ```bash
-??? ??? 
-        ??? ???
+??? ??? ??? ???
 ```
 
 - `git`

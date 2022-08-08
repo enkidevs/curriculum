@@ -59,7 +59,7 @@ And this is the result:
 | **6**    | **Strawberry** | **15**   |
 | **NULL** | **Blueberry**  | **5**    |
 
-> ❗ When inserting data, **if you omit a column**, the inserted value will be `NULL`[2].
+> ⚠️ When inserting data, **if you omit a column**, the inserted value will be `NULL`[2].
 
 
 ---
@@ -131,3 +131,4 @@ When creating a table, you can define default values for your columns.
 Then, when you omit a column, the default value will be inserted instead of `NULL`.
 
 Don't worry about default values. We'll go over how they work in the Defining Data course.
+ 

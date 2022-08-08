@@ -28,34 +28,35 @@ To use it to full effect you have to know a little bit about regular expressions
 We will pretend that there's a filename called `data.txt` whose contents we're interested in modifying in various ways.  `sed` will read the contents of the file, modify the contents according to the rules we specify, and print out the modified content to the console.  
 If we want to save the output to a file we can use the `>` redirection operator.
 
-1. **Simple Text Replacement**
+### Simple Text Replacement
 
-   This will replace every instance of `apples` with `bananas`.
+This will replace every instance of `apples` with `bananas`.
 
-   ```shell
-   sed 's/apples/bananas/g' data.txt
-   ```
+```shell
+sed 's/apples/bananas/g' data.txt
+```
 
-   The general format for "search and replace" is `s/stuff-to-find/stuff-to-replace/flags`.  The `flags` allow us to specify different modes for the search and replace command.
+The general format for "search and replace" is `s/stuff-to-find/stuff-to-replace/flags`.  The `flags` allow us to specify different modes for the search and replace command.
 
-   Here `/g` tells `sed` to replace every instance of `apples` on a given line with `bananas`.  Without `/g` `sed` would replace only the first instance.
-2. **More Advanced Text Replacement**
+Here `/g` tells `sed` to replace every instance of `apples` on a given line with `bananas`.  Without `/g` `sed` would replace only the first instance.
 
-   This will remove any trailing whitespace from each line, i.e., any extra spaces or tabs at the end of a line.
+### More Advanced Text Replacement
 
-   ```shell
-   sed 's/[ \t]*$//' data.txt
-   ```
+This will remove any trailing whitespace from each line, i.e., any extra spaces or tabs at the end of a line.
 
-   We won't dive into the syntax here, but `[ \t]*$` is regular-expression-ese for "zero or more space or tab characters followed by the end of a line."
+```shell
+sed 's/[ \t]*$//' data.txt
+```
 
-   Likewise, this will remove any *leading* whitespace from each line, aligning all text flush left:
+We won't dive into the syntax here, but `[ \t]*$` is regular-expression-ese for "zero or more space or tab characters followed by the end of a line."
 
-   ```shell
-   sed 's/^[ \t]*//' data.txt
-   ```
+Likewise, this will remove any *leading* whitespace from each line, aligning all text flush left:
 
-   Here `^[ \t]*` is regular-expression-ese for "the beginning of a line followed by zero or more space or tab characters".
+```shell
+sed 's/^[ \t]*//' data.txt
+```
+
+Here `^[ \t]*` is regular-expression-ese for "the beginning of a line followed by zero or more space or tab characters".
 
 As you can see, `sed` offers powerful tools for manipulating text.  It's one of the most common tools if you want to transform the output of one program or the contents of a file according to some rule.  We've only touched the surface here.
 

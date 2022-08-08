@@ -5,7 +5,7 @@ category: feature
 links:
   - >-
     [React
-    Children](https://facebook.github.io/react/docs/top-level-api.html#reactchildren){website}
+    Children](https://reactjs.org/docs/react-api.html#reactchildren){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -53,7 +53,7 @@ React.Children.count(
 )
 ```
 
-Note: this method will not calculate the count of nested components, even if they are enclosed in `<React.Fragment>`
+> ⚠️ This method will not calculate the count of nested components, even if they are enclosed in `<React.Fragment>`
 
 Verifies that children has only one child (a React element) and returns it. Otherwise this method throws an error:
 
@@ -102,3 +102,4 @@ What method is used to invoke a function `fn` on every immediate child, but not 
 - `map`
 - `count`
 - `only`
+ 

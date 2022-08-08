@@ -67,6 +67,9 @@ c
 2
 ```
 
+> 🤔 Can we insert a `while` loop inside a `for` loop? Can you think of a scenario where we might need to?
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
 ---
 

@@ -59,7 +59,7 @@ Output:
 }
 ```
 
-**Note:** `$round: ["$initialPower"]` = `$round: ["$initialPower", 0]` 
+> ⚠️ `$round: ["$initialPower"]` = `$round: ["$initialPower", 0]` 
 
 If we wanted to round with any decimal point, we would write it as `$round: ["$initialPower", NUMBER_HERE]` 
 
@@ -120,3 +120,4 @@ Here are the documents we used in the previous insights:
   "initialPower": 50.80769230769231 
 }
 ```
+ 

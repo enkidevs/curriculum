@@ -36,41 +36,44 @@ Proxies are special objects, created with two parameters:
 
 - **target**: if the handler doesn’t intercept the operation then the operation is performed on the target.
 
+```javascript
+let target = {};
+let handler = {
+  get: function (receiver, name) {
+    return `Hello, ${name}!`;
+  }
+};
 
-    var target = {};
-    var handler = {
-      get: function (receiver, name) {
-        return `Hello, ${name}!`;
-      }
-    };
-
-    var proxy = new Proxy(target, handler);
-    console.log(proxy.world);
-    // Hello, world!
+let proxy = new Proxy(target, handler);
+console.log(proxy.world);
+// Hello, world!
+```
 
 However, because the handler doesn't implement a trap **set**(setting properties) alongside **get** trap, the following property can be created for the `target`:
-
-    proxy.myProp = 'abc';
-    console.log(target.myProp);
-    // abc
+```javascript
+proxy.myProp = 'abc';
+console.log(target.myProp);
+// abc
+```
 
 ES6 also lets you create proxies that can be switched off (**revoked**):
+```javascript
+let {proxy, revoke} =
+    Proxy.revocable(target, handler);
+// switch off by calling revoke()
+```
 
-    let {proxy, revoke} =
-        Proxy.revocable(target, handler);
-    // switch off by calling revoke()
-
-Warning: proxies are an advanced ES6 feature, but are not yet implemented by many browsers or transpilers.
-
+> ⚠️ Warning: proxies are an advanced ES6 feature, but are not yet implemented by many browsers or transpilers.
 
 ---
 
 ## Practice
 
 Complete the code snippet to create a proxy which can be switched off:
-
-    let {proxy, ???} = 
-        Proxy.???(target, handler);
+```javascript
+let {proxy, ???} = 
+    Proxy.???(target, handler);
+```
 
 - revoke
 - revocable

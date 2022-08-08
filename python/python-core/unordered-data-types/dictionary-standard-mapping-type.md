@@ -28,6 +28,15 @@ revisionQuestion:
 
 The **dictionary**, `dict`, is Python's main *mapping type*. Mapping objects are ones that contain *key-value pairs*. 
 
+Here's how you can create an empty dictionary:
+```python
+usingBrackets = {}
+
+usingDict = dict()
+```
+
+Here is an example of a populated dictionary:
+
 ```python
 my_dict = {
     'name': 'Jack', 
@@ -86,7 +95,6 @@ print(preferences)
 Fill in the following snippet so that it will return the value of `dog`:
 
 ```python
-
 animals = {
     'cat': 'persian', 
     'dog': 'pug'

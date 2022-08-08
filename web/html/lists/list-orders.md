@@ -18,7 +18,6 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -43,7 +42,7 @@ The `start` attribute was deprecated in HTML4 but reintroduced back in HTML5. Th
 
 Next, you can use the optional `start="value"` attribute to specify from which number/value the first item in the list starts counting from.
 
-**Note: No matter which numbering type your list is set to, whether its roman, letters, or any other numeral, when specifying a value for the start attribute, the value is always specified with a number.**
+> 💡 No matter which numbering type your list is set to, whether its roman, letters, or any other numeral, when specifying a value for the start attribute, the value is always specified with a number.**
 
 Example:
 
@@ -154,8 +153,6 @@ What does this code create? Choose the appropriate option.
   <li>Item C</li>
 </ol>
 ```
-
-???
 
 Option 1
 

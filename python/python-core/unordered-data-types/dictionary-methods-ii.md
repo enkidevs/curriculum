@@ -31,11 +31,9 @@ revisionQuestion:
 
 ```python
 square_numbers.keys()
-
 # dict_keys([1, 2, 3, 4, 5])
 
 square_numbers.values()
-
 # dict_values([1, 4, 9, 16, 25])
 ```
 
@@ -43,16 +41,15 @@ square_numbers.values()
 
 ```python
 square_numbers.pop(1)
-
 # 1
 
 print(square_numbers)
 # {2: 4, 3: 9, 4: 16, 5: 25}
 ```
 
-- `popitem()` removes the last item that was inserted in the dictionary, and returns it.
+- `popitem()` removes the last item that was inserted in the dictionary and returns it.
 
-> For versions prior to Python 3.7, `popitem()` removed an arbitrary item from the dictionary. For more information check out the links in the "Learn More" section.
+> For versions prior to Python 3.7, `popitem()` removed an arbitrary item from the dictionary. For more information, check out the links in the "Learn More" section.
 
 ```python
 square_numbers.popitem()
@@ -63,15 +60,30 @@ print(square_numbers)
 # {1: 1, 2: 4, 3: 9, 4: 16}
 ```
 
-- `fromkeys()` return a new **dictionary** with keys provided in the first argument, and values from the second argument:
+- `fromkeys()` can make a new dictionary from the given keys. For instance, we can provide names as keys and surname as the value to get a dictionary of famous_siblings.
 
 ```python
-square_numbers = {}.fromkeys([1,2,3], 0)
+names = ('Luke', 'Chris', 'Liam')
 
-print(square_numbers)
-# {1: 0, 2: 0, 3: 0}
+surname = ('Hemsworth')
+
+famous_siblings = dict.fromkeys(names, surname)
+
+print(famous_siblings)
+# {'Luke': 'Hemsworth', 'Chris': 'Hemsworth', 'Liam': 'Hemsworth'}
 ```
 
+> 💡 Alongside `dict.fromkeys`, you can also use the alternative `{}.fromkeys` to generate a new dictionary with the given keys.
+
+If we update the `famous_siblings` example, we'd get the same result:
+
+```python
+# ...
+famous_siblings = {}.fromkeys(names, surname)
+
+print(famous_siblings)
+# {'Luke': 'Hemsworth', 'Chris': 'Hemsworth', 'Liam': 'Hemsworth'}
+```
 
 ---
 
@@ -80,8 +92,7 @@ print(square_numbers)
 Suppose we want to create a dictionary using the `fromkeys` method. Fill in the gaps accordingly:
 
 ```python
-new_dictionary = ???.???(
-  [1, 2, 3, 4, 5], ???)
+new_dictionary = ???.???([1, 2, 3, 4, 5], ???)
 
 print(new_dictionary)
 # {1: 0, 2: 0, 3: 0, 4: 0, 5: 0}

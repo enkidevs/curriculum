@@ -47,7 +47,7 @@ When we print `firstSeries` we get this output:
 dtype: int64
 ```
 
-> ❗ It is possible to create a `Series` from more than one data type thanks to type coercion[1].
+> ⚠️ It is possible to create a `Series` from more than one data type thanks to type coercion[1].
 
 ### DataFrames
 
@@ -153,3 +153,4 @@ dtype: object
 ```
 
 Which shows its `dtype` is an `object`.
+ 

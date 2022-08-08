@@ -57,7 +57,7 @@ Output:
 { "_id": "Water", "sumOfPowers": 1467 }
 ```
 
-**Note:** If the expression can't evaluate a valid number (the number is missing), it will return `null`.
+> ⚠️ If the expression can't evaluate a valid number (the number is missing), it will return `null`.
 
 ### `$floor`
 
@@ -106,3 +106,4 @@ What is the difference between the `$floor` and `$ceil` aggregation operators?
 - The $ceil operator rounds down, whereas the $floor operator rounds up.
 - There is no difference.
 - The $floor operator can only be used on an array of values, whereas the $ceil operator can only be used on an integer.
+ 

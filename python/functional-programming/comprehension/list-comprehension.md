@@ -97,16 +97,15 @@ Use list comprehension to add one and divide by two [(x + 1) / 2] for all elemen
 
 ```python
 l = [1,2,3,4,5]
-x = [((x+1)/2) ??? x % 2 \
-    ??? x ??? x in ???]
+x = [((x+1)/2) ??? x % 2 ??? x ??? x in ???]
 ```
 
-- if
-- else
-- for
-- l
-- x
-- while
+- `if`
+- `else`
+- `for`
+- `l`
+- `x`
+- `while`
 
 
 ---
@@ -122,8 +121,8 @@ x = [x if x % 2 for x in l]
 
 ???
 
-- [1,3,5]
-- [1,3]
-- [2, 4]
-- [1,2,3,4,5]
+- `[1,3,5]`
+- `[1,3]`
+- `[2, 4]`
+- `[1,2,3,4,5]`
  

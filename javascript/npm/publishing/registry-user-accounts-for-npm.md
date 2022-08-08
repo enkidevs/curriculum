@@ -61,12 +61,14 @@ Note that `npm login` is an alias for `npm adduser` and works in exactly the sam
 
 For what command is `npm login` an alias?
 
-???
+```bash
+npm ???
+```
 
-- npm adduser
-- npm signup
-- npm signin
-- npm add
+- adduser
+- signup
+- signin
+- add
 
 
 ---
@@ -75,9 +77,11 @@ For what command is `npm login` an alias?
 
 For what command is `npm login` an alias?
 
-???
+```bash
+npm ???
+```
 
-- npm adduser
-- npm signup
-- npm signin
-- npm add
+- adduser
+- signup
+- signin
+- add

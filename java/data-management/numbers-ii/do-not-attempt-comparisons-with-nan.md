@@ -4,7 +4,7 @@ type: normal
 category: best-practice
 links:
   - >-
-    [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM07-J.+Do+not+attempt+comparisons+with+NaN){website}
+    [Comparisons With NaN](https://wiki.sei.cmu.edu/confluence/display/java/NUM07-J.+Do+not+attempt+comparisons+with+NaN){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -82,16 +82,16 @@ What value will `x` have here?
 
 ```java
 double x = Math.tan(1/0.0);
-```
 
-???
+System.out.println(x);
+// ???
+```
 
 - `NaN`
 - `0`
 - `pi`
 - `Math.PI`
 - `3.14`
-
 
 ---
 

@@ -39,7 +39,7 @@ Result:
 
 Using the `find()` method without any parameters will retrieve all the documents from the selected collection.
 
-**Note** that `find({})` and `find()` both work the same way.
+> 💡 `find({})` and `find()` both work the same way.
 
 You can also add different parameters to `find()` for a more specific search.
 

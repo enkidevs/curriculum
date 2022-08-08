@@ -102,12 +102,12 @@ let reader??? = {
 };
 ```
 
-- Array<Book>
-- : BookReader
-- satisfy BookReader
-- []Book
-- = BookReader
-- Array<string>
+- `Array<Book>`
+- `: BookReader`
+- `satisfy BookReader`
+- `[]Book`
+- `= BookReader`
+- `Array<string>`
 
 ---
 

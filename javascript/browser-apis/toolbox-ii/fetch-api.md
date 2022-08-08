@@ -33,9 +33,9 @@ It provides a more powerful and flexible interface than `XMLHttpRequest`.
 Example of fetch response handling:
 
 ```javascript
-var myHeaders = new Headers();
+let myHeaders = new Headers();
 
-var myOptions = { method: 'GET',
+let myOptions = { method: 'GET',
                headers: myHeaders,
                mode: 'cors',
                cache: 'default' };

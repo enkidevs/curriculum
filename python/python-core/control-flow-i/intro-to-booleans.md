@@ -25,7 +25,7 @@ Beneath the magic of an `if` statement is another Python data type, `bool`, the 
 
 Python uses *booleans* to evaluate conditions. 
 
-> A boolean variable can take on one of two values, `True` or `False`. 
+> 💡 A boolean variable can take on one of two values, `True` or `False`. 
 
 Using a comparison operator to check whether a condition has been met, such as `x > 2`, returns a boolean value.
 
@@ -42,14 +42,14 @@ This means that once an `if` statement condition evaluates to `True`, the indent
 hungry = 'very'
 
 if hungry == 'very':
-    print('Get some food!')
+  print('Get some food!')
 else:
-    print("I bet you're hungry now!")
+  print("I bet you're hungry now!")
 ```
 
 Here, `'Get some food!'` is printed because the condition above evaluates to `True`.
 
-> Note: Python booleans must be *capitalized*, and they belong to the `bool` class.
+> ⚠️ Python booleans must be *capitalized*, and they belong to the `bool` class.
 
 ```python
 type(True)
@@ -93,4 +93,5 @@ type(False)
 - `boolean`
 - `Boolean`
 - `Bool`
+ 
  

@@ -5,7 +5,7 @@ category: must-know
 stub: true
 tags:
   - deep
-links: null
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -36,7 +36,7 @@ The HTML `<dfn>`, or the **Definition** element, is used to specify a term that'
 
 ![element-dfn](https://img.enkipro.com/a4baae13adcf71436592b38eae34faa9.png)
 
-**Note:** The `<dfn>` elements main purpose is to provide semantic meaning. Other than that, it has no special functionality.
+> 💡 The `<dfn>` elements main purpose is to provide semantic meaning. Other than that, it has no special functionality.
 
 Also, the `<dfn>` element has a `title` attribute. If the `title` attribute is present, the content of the `<dfn>` element, which is the value of the `title` attribute, has to be the term being defined and nothing else.
 

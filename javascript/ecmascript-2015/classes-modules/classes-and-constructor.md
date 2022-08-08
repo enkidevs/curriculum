@@ -45,7 +45,7 @@ We can create a `class` in JavaScript with the following syntax:
 class Person {
 }
 
-var p = new Person();
+let p = new Person();
 ```
 
 ### Constructor
@@ -61,7 +61,7 @@ class Person {
   }
 };
 
-var p = new Person("Enki");
+let p = new Person("Enki");
 p.name; //Enki
 ```
 
@@ -107,7 +107,7 @@ console.log(myRec.length)
 
 ## Revision
 
-How would you assign a variable `volume` passed to the constructor to a class?
+How would you assign a variable `volume` passed to the constructor to a class member variable?
 
 ```javascript
 class Sphere() {

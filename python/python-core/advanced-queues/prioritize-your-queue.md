@@ -94,12 +94,12 @@ temp.put(Order(1000))
 # 1000 / 10 / 1
 ```
 
-- priority
+- `priority`
 - `__lt__`
 - `>`
-- PriorityQueue()
+- `PriorityQueue()`
 - `<`
-- queue
+- `queue`
 - `__order__`
 
 

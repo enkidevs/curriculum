@@ -29,7 +29,7 @@ revisionQuestion:
 
 Similar to other programming languages, Python uses standard arithmetic operators.
 
-The four standard operators are `+`, `-`, `*` and `/`. These allow us to add, subtract, mutiply and divide.
+The four standard operators are `+`, `-`, `*` and `/`. These allow us to add, subtract, multiply and divide.
 
 Here they are in use:
 
@@ -56,7 +56,7 @@ If you want to perform floor division to return an `int`, use the `//` operator:
 # 6
 ```
 
-When using the `//` operator, you only return the whole number part of the division. Any digits after the decimal point will be removed.
+When using the `//` operator, you only return the whole number part of the division. Digits after the decimal point are removed.
 
 
 ---

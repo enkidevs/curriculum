@@ -74,7 +74,7 @@ Match the image code with the path descriptions:
 `<img src="../../logo.svg">`: ???
 `<img src="../images/logo.svg">`: ???
 
-Select the reason relative links are **not** considered the best for images and files within a website.
+Can relative paths be used to link to images and files located on other web servers?
 
 ???
 
@@ -84,8 +84,8 @@ Select the reason relative links are **not** considered the best for images and 
 - Within the folder above the current folder.  
 - Within two folders above the current folder.  
 - Within the folder above the current folder and then into the images folder.
-- the web pages are protected from others linking to them.
-- easy for local management
+- No 
+- yes
 
 
 ---

@@ -54,7 +54,7 @@ In this case, because we didn't include a condition, **all the records** will be
 | 4  | Marsupials |
 | 4  | Primate    |
 
-> ❗ You should take care when updating data. One missed condition could lead to irreversible changes.
+> ⚠️ You should take care when updating data. One missed condition could lead to irreversible changes.
 
 ### Strict Condition
 
@@ -138,3 +138,4 @@ Here is the `mammals` table
 | 2    | Bats       |
 | 3    | Marsupials |
 | NULL | Primate    |
+ 

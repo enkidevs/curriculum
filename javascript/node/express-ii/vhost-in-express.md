@@ -32,7 +32,7 @@ npm install vhost
 And imported:
 
 ```javascript
-var vhost = require('vhost');
+let vhost = require('vhost');
 ```
 
 The constructor has two parameters: `hostname` and `handler`. The former can be a string or a **RegExp** object.
@@ -40,7 +40,7 @@ The constructor has two parameters: `hostname` and `handler`. The former can be 
 After the host is matched and the request is sent to the `handler`, the `req.vhost` property will be populated with an object that will have numeric properties corresponding to every wildcard and `hostname`.
 
 ```javascript
-var app = connect();
+let app = connect();
 app.use(vhost('ex.example.com', exApp));
 //vhost routing to main app for ex
 ```

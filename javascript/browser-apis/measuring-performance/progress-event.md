@@ -50,7 +50,7 @@ A usage example, measuring the progress of an *`XMLHttpRequest`*.
 // progress on transfers - server to client
 function updateProgress (oEvent) {
   if (oEvent.lengthComputable) {
-    var percentDone = oEvent.loaded /
+    let percentDone = oEvent.loaded /
                           oEvent.total;
     // ...
   } else {

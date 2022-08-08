@@ -5,7 +5,7 @@ category: feature
 links:
   - >-
     [React.memo Official
-    Documentation](https://facebook.github.io/react/docs/react-api.html#reactmemo){website}
+    Documentation](https://reactjs.org/docs/react-api.html#reactmemo){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
