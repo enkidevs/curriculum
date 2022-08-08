@@ -6,7 +6,7 @@ tags:
 
 type: normal
 
-category: coding
+category: must-know
 
 revisionQuestion:
   formats:
