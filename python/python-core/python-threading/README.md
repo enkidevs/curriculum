@@ -10,6 +10,5 @@ insights:
   - threading-with-join-2
 
 aspects:
-  - new
   - obscura
   - workout
