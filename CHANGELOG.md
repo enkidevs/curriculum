@@ -53,6 +53,11 @@ Types of change:
 ### Added
 - [Python - Threading - Add workout](https://github.com/enkidevs/curriculum/pull/2689)
 
+## August 9th 2022
+
+### Fixed
+- [Python Data Analysis - TVShow Ratings - Remove empty answer](https://github.com/enkidevs/curriculum/pull/3099)
+
 ## August 1st 2022
 
 ### Fixed

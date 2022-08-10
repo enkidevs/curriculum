@@ -100,7 +100,6 @@ Group the `people` `DataFrame` by its `Age` column. Count the number of rows for
 - `Count By Age`
 - `count by age`
 - `age`
-- 
 
 ---
 
