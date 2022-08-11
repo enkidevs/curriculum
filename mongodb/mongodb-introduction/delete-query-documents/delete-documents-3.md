@@ -9,7 +9,7 @@ practiceQuestion:
   context: standalone
 ---
 
-# findOneAndUpdate()
+# findOneAndDelete()
 
 
 ---

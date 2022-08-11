@@ -48,14 +48,53 @@ Types of change:
 
 ### Fixed
 
-
-## June 13th 2022
+## August 11th 2022
 
 ### Changed
 - [SQL - SQL NOT Example - Update question answers](https://github.com/enkidevs/curriculum/pull/3091)
 
+## August 9th 2022
+
+### Fixed
+- [Python Data Analysis - TVShow Ratings - Remove empty answer](https://github.com/enkidevs/curriculum/pull/3099)
+
+## August 1st 2022
+
+### Fixed
+- [MongoDB - Find One And Delete - Fix wrong headline](https://github.com/enkidevs/curriculum/pull/3098)
+
+## July 29th 2022
+
+- [TypeScript - TSC Any Void Null Undefined - Replace deprecated links](https://github.com/enkidevs/curriculum/pull/3096)
+
+## July 20th 2022
+
+### Changed
+- [Linux - Input and Output Redirection With And - Shorten names in RQ](https://github.com/enkidevs/curriculum/pull/3067)
+
+## July 13th 2022
+
+### Fixed
+- [Data Analysis - Key Metrics - Minor grammar improvement](https://github.com/enkidevs/curriculum/pull/3095)
+
+## July 4th 2022
+
+### Fixed
+- [JavaScript - Yield - Add missing semicolons in RQ](https://github.com/enkidevs/curriculum/pull/3089)
+
+## June 16th 2022
+
+### Fixed
+- [Git - Cherry Pick A Commit - Replace broken link with a working one](https://github.com/enkidevs/curriculum/pull/3092)
+
 ### Changed
 
+## June 30th 2022
+
+### Fixed
+- [Python - Why Functional Programming - Fix typo in footnote](https://github.com/enkidevs/curriculum/pull/3093)
+
+### Changed
 - [Curriculum - README - Update emails](https://github.com/enkidevs/curriculum/pull/3069)
 
 ## May 18th 2022
