@@ -1,4 +1,15 @@
----
+---inprint uplink data insert copy over Roger ten four over copy that insert imprint 
+
+
+Alpha alt control 🛂🎛️ insert gogogaget go 
+DDI
+DDL DODI si si si ccc
+Alt control insert mainframe
+Dlm
+Dlm
+DOWN Low Low 🔅
+Hehehe 😜
+A
 author: kapnobatai136
 type: normal
 category: must-know
