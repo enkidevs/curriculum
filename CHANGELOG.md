@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 31st 2022
+
+### Fixed
+- [Styling - controlling cellpadding and cellspacing in css - Replace 404 link](https://github.com/enkidevs/curriculum/pull/3105)
+
 ## August 9th 2022
 
 ### Fixed
