@@ -8,7 +8,7 @@ tags:
 links:
   - >-
     [Difference between Cellpadding &
-    Cellspacing](http://www.htmlcodetutorial.com/tables/index_famsupp_29.html){website}
+    Cellspacing](https://byjus.com/gate/difference-between-cell-padding-and-cell-spacing/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
