@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## August 30th 2022
+
+### Fixed
+- [Python - Method Overriding - Replace 404 link](https://github.com/enkidevs/curriculum/pull/3104)
+
 ## August 9th 2022
 
 ### Fixed
