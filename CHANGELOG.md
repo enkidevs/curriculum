@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 15th 2022
+
+### Added
+- [Python - Threading - Add workout](https://github.com/enkidevs/curriculum/pull/2689)
+
 ## August 30th 2022
 
 ### Fixed
@@ -1025,6 +1030,7 @@ Types of change:
 
 ### Fixed
 - [Javascript - Closures - Fix typo](https://github.com/enkidevs/curriculum/pull/2690)
+- [Python Data Analysis - Analysis Environments - Fix Footnote number](https://github.com/enkidevs/curriculum/pull/2692)
 
 ### Changed
 - [Python - Meet Python - Add code-oriented questions; other improvements](https://github.com/enkidevs/curriculum/pull/2681)
