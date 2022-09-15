@@ -48,10 +48,15 @@ Types of change:
 
 ### Fixed
 
-## August 8th 2022
+## September 15th 2022
 
 ### Added
 - [Python - Threading - Add workout](https://github.com/enkidevs/curriculum/pull/2689)
+
+## August 30th 2022
+
+### Fixed
+- [Python - Method Overriding - Replace 404 link](https://github.com/enkidevs/curriculum/pull/3104)
 
 ## August 9th 2022
 
