@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## September 16th 2022
+
+### Fixed
+- [Python - Threading - Fix Workout Name](https://github.com/enkidevs/curriculum/pull/3106)
+
 ## September 15th 2022
 
 ### Added
