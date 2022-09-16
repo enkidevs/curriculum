@@ -1,4 +1,4 @@
-name: Introduction
+name: Threading
 
 description: Intro to Threading.
 
