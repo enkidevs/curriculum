@@ -1,5 +1,5 @@
 ---
-author: emmab
+author: falaj
 tags:
   - introduction
 type: normal
@@ -30,8 +30,8 @@ Python uses variables to store data in memory. Think of variables as *containers
 For example:
 
 ```python
+number = 1000
 number = 10
-number = 100
 ```
 
 Initially, the value of `number` was `10`. Later it was changed to `100`.
@@ -82,4 +82,5 @@ A variable is a ??? for ???.
 - data
 - function
 - values
-
+- print (name)
+- print dydanajah
