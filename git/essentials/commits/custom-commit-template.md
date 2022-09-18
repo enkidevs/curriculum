@@ -27,7 +27,7 @@ revisionQuestion:
 
 You can add a commit message template to git, to help you write clear messages.
 
-First, you create a template file `template.txt`:
+First, you create a template file `.template.txt`:
 
 ```plain-text
 subject line (50 chars)
