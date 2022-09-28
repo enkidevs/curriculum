@@ -81,6 +81,8 @@ Here's the operation depiction:
 
 An *INNER JOIN* is a type of join that only returns rows for which the joined field (`id` for `ability` and `ability_id` for `ability_effect_text`) are common.
 
+> 💡 `JOIN` and `INNER JOIN` are the same in SQL. When you write just `JOIN`, the `INNER` is implied.
+
 If there were some abilities without an effect text or some effects not describing an ability, they wouldn't be included in query result.
 
 So, if the `ability` table has `251` records and the `ability_effect_text` has `191` records, the total number of returned rows after the inner join operation will be `191`. This is because there would be no matches for the extra `60` records in the `ability table`.  
