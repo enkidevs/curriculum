@@ -52,6 +52,8 @@ The short and long ability descriptions can be found inside the `ability_effect_
 
 What if we wanted to write a query that shows the `name` of an ability and its description? This is where `JOIN`s come in.
 
+> 💡 `JOIN` and `INNER JOIN` are the same in SQL. When you write just `JOIN`, the `INNER` is implied.
+
 To match records from both tables you need to find a column that has the same values **for both tables**.
 
 In our case, we have the `id` column in the `ability` table and the `ability_id` column in the `ability_effect_text` table.
@@ -62,7 +64,7 @@ Knowing that, here is how you do an inner join:
 SELECT ability.name,
   ability_effect_text.effect
 FROM ability
-INNER JOIN ability_effect_text ON
+JOIN ability_effect_text ON -- you don't need the word INNER before JOIN because it's implied
 ability.id = ability_effect_text.ability_id;
 ```
 
@@ -79,9 +81,7 @@ Here's the operation depiction:
 
 ![inner](https://img.enkipro.com/95135d7d0e142beccf7aa4ca6924530d.png)
 
-An *INNER JOIN* is a type of join that only returns rows for which the joined field (`id` for `ability` and `ability_id` for `ability_effect_text`) are common.
-
-> 💡 `JOIN` and `INNER JOIN` are the same in SQL. When you write just `JOIN`, the `INNER` is implied.
+An *INNER JOIN* is a type of join that only returns rows for which the joined fields (`id` for `ability` and `ability_id` for `ability_effect_text`) are shared.
 
 If there were some abilities without an effect text or some effects not describing an ability, they wouldn't be included in query result.
 
