@@ -1,4 +1,4 @@
-name: Output Words Longer than N Characters
+name: Words Length
 
 description: Create a program to only output words longer than N characters from a string.
 
