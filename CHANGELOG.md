@@ -48,6 +48,16 @@ Types of change:
 
 ### Fixed
 
+## September 28th 2022
+
+### Changed
+- [Playgroud workouts names are more succinct](https://github.com/enkidevs/curriculum/pull/3110)
+
+## September 28th 2022
+
+### Fixed
+- [SQL - Inner Join - Explain Inner join and Join are the same thing](https://github.com/enkidevs/curriculum/pull/3109)
+
 ## September 16th 2022
 
 ### Fixed
