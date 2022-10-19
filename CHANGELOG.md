@@ -48,6 +48,13 @@ Types of change:
 
 ### Fixed
 
+
+
+## October 19th 2022
+
+### Added
+- [Linux - Command to shutdown or restart the system - Add additional information](https://github.com/enkidevs/curriculum/pull/3114)
+
 ## September 28th 2022
 
 ### Changed
