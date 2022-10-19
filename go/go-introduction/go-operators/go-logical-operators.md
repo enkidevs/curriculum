@@ -82,13 +82,13 @@ Which group of operators do `&&`, `||` and `!` fall into?
 Match the name with the operator.
 
 ```plain-text
-&& - ???
-|| - ???
-!  - ???
+AND - ???
+OR  - ???
+NOT - ???
 ```
 
-- AND
-- OR
-- NOT
-- WITH
-- IF
+- `&&`
+- `||`
+- `!`
+- `&`
+- `^^`
