@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 19th 2022
+
+### Changed
+- [Golang - Logical Operators - Switch answers around so different capitalizations dont make the answer wrong](https://github.com/enkidevs/curriculum/pull/3115)
+
 ## September 28th 2022
 
 ### Changed
