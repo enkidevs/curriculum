@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 20th 2022
+
+### Changed
+- [Sql - SQL NOT Example - Fix revision answers so people dont get it wrong due to different ordering](https://github.com/enkidevs/curriculum/pull/3116)
+
 ## October 19th 2022
 
 ### Changed
