@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 21st 2022
+
+### Fixed
+- [SQL - Group By Clause - fix markdown issue](https://github.com/enkidevs/curriculum/pull/3117)
+
 ## October 20th 2022
 
 ### Changed
