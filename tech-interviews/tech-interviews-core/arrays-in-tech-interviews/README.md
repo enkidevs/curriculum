@@ -11,3 +11,4 @@ insights:
   - array-operations
   - array-edge-cases
   - how-to-know-code-efficiency
+  - array-interview-tips
