@@ -6,10 +6,6 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
 ---
 
 # Arrays Operations
@@ -47,18 +43,6 @@ The exception is removing from either edge being O(1) as no shifting is needed.
 ## Practice
 
 What's the Big-O for finding an element in an array if you don't know its position?
-
-???
-
-- O(N)
-- O(N²)
-- O(log N)
-- O(1)
-
----
-## Practice
-
-What's the Big-O for removing an element from the middle of an array?
 
 ???
 
