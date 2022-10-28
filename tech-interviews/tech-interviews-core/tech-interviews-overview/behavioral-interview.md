@@ -27,8 +27,6 @@ Be honest but strategic in your approach. You should demonstrate what happened a
 
 A common answering technique to use for these is the STAR method. Let's run through an example.
 
---- 
-
 ### ⭐ STAR Method
 
 > 💡 STAR stands for: Situation, Task, Action, Result.
@@ -37,31 +35,23 @@ Here's a sample question:
 
 *"Tell me about a time you were new to a job or school. How did you adapt?"*
 
----
-
 #### 📋 Situation: Set the scene
 
 *"When I started my last job, I had never worked as a full-time software engineer and knew I had a lot to learn."*
-
----
 
 #### 🗳️ Task: Describe your responsibility in that situation
 
 *"Everyone seemed to know what they were doing, and I felt somewhat lost, so I decided to put in extra time and effort to adjust to my new role."*
 
----
 
 #### 💪 Action: Explain the steps you took to address it
 
 *"I made sure to read the team docs, ask questions from senior coworkers, and take notes about what I learned. On the weekends, I spent a few hours learning Python online."*
 
----
-
 #### ✅ Result: What outcomes did your actions achieve
 
 *"Six months into the job, I became comfortable with the codebase and shipped my first feature. It was a button you press to receive an invoice for your order!*
 
----
 
 > 💬 Your turn! How would you answer the same question using the STAR method? Feel free to suggest other questions and engage the community! 
 >
