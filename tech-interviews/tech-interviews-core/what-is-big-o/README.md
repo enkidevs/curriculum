@@ -9,8 +9,6 @@ aspects:
   
 learnType: GROKKING
 
-section: '1'
-
 insights:
   - how-to-know-code-efficiency
   - big-o-notation
