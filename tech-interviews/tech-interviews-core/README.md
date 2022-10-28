@@ -13,8 +13,3 @@ sections:
     - big-o-tips
   '2':
     - arrays-in-tech-interviews
-#    - maps
-#    - lists
-#    - trees
-#  '3'
-#    - getting-shortlisted
