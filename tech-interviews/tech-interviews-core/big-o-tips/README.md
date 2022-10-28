@@ -6,10 +6,9 @@ slug: big-o-tips
 
 aspects:
   - introduction
+  - workout
 
 learnType: GROKKING
-
-section: '1'
 
 insights:
   - linear-complexity
