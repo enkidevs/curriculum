@@ -10,8 +10,6 @@ aspects:
 
 learnType: GROKKING
 
-section: '0'
-
 insights:
   - practice-your-intro
   - example-introduction
