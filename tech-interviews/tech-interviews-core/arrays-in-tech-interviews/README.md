@@ -6,10 +6,9 @@ slug: arrays-in-tech-interviews
 
 aspects:
   - introduction
+  - workout
 
 learnType: GROKKING
-
-section: '1'
 
 insights:
   - why-data-structures-matter
