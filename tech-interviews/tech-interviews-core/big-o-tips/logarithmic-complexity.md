@@ -1,5 +1,5 @@
 ---
-author: Stefan-Stojanovic
+author: nemanjaenki
 category: tip
 type: normal
 practiceQuestion:
