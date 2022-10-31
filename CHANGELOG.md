@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 31st 2022
+
+### Changed
+- [Python - Even or odd - revert name](https://github.com/Stefan-Stojanovic/curriculum/pull/1)
+
 ## October 21st 2022
 
 ### Fixed
