@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 31st 2022
+
+### Fixed
+- [Web - Use em instead of px for sizes - Remove type in the gap as it can cause correct answers to be incorrect](https://github.com/enkidevs/curriculum/pull/3122)
+
 ## October 21st 2022
 
 ### Fixed
