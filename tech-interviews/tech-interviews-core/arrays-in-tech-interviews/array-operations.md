@@ -50,3 +50,4 @@ What's the Big-O for finding an element in an array if you don't know its positi
 - O(N²)
 - O(log N)
 - O(1)
+ 
