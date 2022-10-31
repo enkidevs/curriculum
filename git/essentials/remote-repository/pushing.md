@@ -32,10 +32,10 @@ The basic syntax of the `git push` command is:
 git push [remote-name] [branch-name]
 ```
 
-If you want to push all your local commits to the `origin` server on the `master` branch (both automatically named) you can use:
+If you want to push all your local commits to the `origin` server on the `main` branch (both automatically named) you can use:
 
 ```bash
-git push origin master
+git push origin main
 ```
 
 You can also run `git push` without arguments to push to the upstream of your current local branch. 
