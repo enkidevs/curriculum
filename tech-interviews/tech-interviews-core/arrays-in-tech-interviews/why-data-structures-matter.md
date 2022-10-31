@@ -24,3 +24,4 @@ It's crucial to become confident in fundamental data structures if you want to e
 > 💡 Along with Big-O, Lists and Trees, Arrays will give you a great foundation for language-agnostic problem solving.
 
 Let's get started!
+ 

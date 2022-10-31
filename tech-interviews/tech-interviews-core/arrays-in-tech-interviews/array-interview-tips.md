@@ -30,7 +30,7 @@ Sometimes it's more suitable to go through the array from the end instead of the
 ---
 
 #### Sorting the array
-
+ 
 Sorting the array first may simplify the problem. 
 
 Note that this makes your program at least an O(NlogN)[1]. If you're creating a new sorted array, you're also adding O(N) space complexity to hold that array.
@@ -97,3 +97,4 @@ function program(input) {
   // ...
 }
 ```
+ 
