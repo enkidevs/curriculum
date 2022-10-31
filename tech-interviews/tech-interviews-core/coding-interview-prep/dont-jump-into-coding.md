@@ -54,7 +54,6 @@ Imagine you're asked to write a palindrome checker. Before coding, come up with 
 ---
 ## Practice
 
-
 Imagine you're on a call with an interviewer and they open a Google Doc and write out the following problem:
 
 ```js
@@ -75,7 +74,6 @@ What's an example of a good question to ask?
 
 ---
 ## Revision
-
 
 Imagine you're on a call with an interviewer and they open a Google Doc and write out the following problem:
 
