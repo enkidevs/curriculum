@@ -1,4 +1,4 @@
-name: Core
+name: Blah blah
 
 description: The fundamentals of Python. No skin shedding needed.
 
