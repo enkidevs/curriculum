@@ -1,5 +1,5 @@
 ---
-author: Stefan-Stojanovic
+author: abdullah
 category: discussion
 type: normal
 practiceQuestion:
@@ -11,7 +11,7 @@ revisionQuestion:
     - fill-in-the-gap
   context: standalone
 links:
-  - '[Take-Home Projects Are the New Resume](https://coderpad.io/blog/interviewing/take-homes-are-the-new-resume/){blog}'
+	- '[Take-Home Projects Are the New Resume](https://coderpad.io/blog/interviewing/take-homes-are-the-new-resume/){blog}'
 
 ---
 
@@ -30,6 +30,8 @@ The flip side is that take-home tests are usually difficult and will take a whil
 
 > 💡 Start as soon as you can to give yourself time for any surprises or delays.
 
+---
+
 #### 💡 Tips
 
 The most important aspect of a take home project is that your solution is correct and clear to whoever reviews it.
@@ -44,6 +46,7 @@ The most important aspect of a take home project is that your solution is correc
 
 - If you have time, **add an extra feature or a visual demo** to stand out and show your passion for the job.
 
+---
 
 > 💬 How do you think take-home interviews compare to whiteboard ones? Which do you prefer?
 >
