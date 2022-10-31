@@ -1,6 +1,6 @@
 ---
 author: Stefan-Stojanovic
-category: must-know
+category: discussion
 type: normal
 practiceQuestion:
   formats:
