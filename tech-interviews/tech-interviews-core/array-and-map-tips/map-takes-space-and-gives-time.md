@@ -64,7 +64,7 @@ If you wanted to speed up your solution, the first data structure that should co
 ---
 ## Footnotes
 
-[3: Constant Factors]
+[1: Constant Factors]
 O(N), O(2N) and O(1337N) are all O(N). Constant factors don't affect Big-O.
 
 But they're still important, especially if they're large. If you had O(100¹⁰⁰N) it would be quite a lot slower than O(N).
