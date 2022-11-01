@@ -52,7 +52,7 @@ Types of change:
 
 ### Added
 - [Tech interviews - Core course - Add topic](https://github.com/Stefan-Stojanovic/curriculum/pull/6)
-
+- [Tech interviews - Core course - Redo readmes](https://github.com/Stefan-Stojanovic/curriculum/pull/7)
 
 ## October 31st 2022
 
