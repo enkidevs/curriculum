@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 31st 2022
+
+### Changed
+- [Git - Pushing - Replace master branch name with main](https://github.com/enkidevs/curriculum/pull/3121)
+
 ## October 21st 2022
 
 ### Fixed
