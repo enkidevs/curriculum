@@ -11,7 +11,7 @@ revisionQuestion:
     - fill-in-the-gap
   context: standalone
 links:
-	- '[How To Answer "Why Are You Interested In This Job?"](https://www.workitdaily.com/answer-why-you-want-this-job/what-is-the-best-way-to-answer-why-are-you-interested-in-this-position){article}'
+  - '[How To Answer "Why Are You Interested In This Job?"](https://www.workitdaily.com/answer-why-you-want-this-job/what-is-the-best-way-to-answer-why-are-you-interested-in-this-position){article}'
 
 ---
 

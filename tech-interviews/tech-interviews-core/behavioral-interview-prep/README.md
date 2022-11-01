@@ -1,10 +1,12 @@
 name: Behavioral Interview Prep
+
 description: Be ready for the soft skills test
-slug: behavioral-interview-prep
+
 aspects:
   - introduction
+
 learnType: GROKKING
-section: '0'
+
 insights:
   - practice-your-intro
   - example-introduction
