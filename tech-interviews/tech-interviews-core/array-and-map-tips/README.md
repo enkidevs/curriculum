@@ -1,6 +1,6 @@
-name: What's Big-O?
+name: Array & Map Tips
 
-description: Learn how to evaluate code efficiency
+description: Best practices for efficient solutions
 
 aspects:
   - introduction
