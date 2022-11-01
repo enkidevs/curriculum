@@ -13,6 +13,7 @@ revisionQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
+
 ---
 
 # What's a Map?
@@ -34,7 +35,7 @@ Adding value to and removing values from a map are also unaffected by map size a
 
 > 💡 A Map is different from an array because it can typically contain anything as the key whereas arrays can only use numbers (usually called indexes).
 
---
+---
 ## Practice
 
 Adding an element into a map is ???
