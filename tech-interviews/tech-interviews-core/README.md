@@ -11,4 +11,5 @@ sections:
     - coding-interview-prep
     - what-is-big-o
     - big-o-tips
-    - arrays-in-tech-interviews
+    - arrays-and-maps
+    - array-and-map-tips
