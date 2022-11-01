@@ -24,7 +24,7 @@ A Map is a data structure that links keys to values.
 
 > 💡 Note that a dictionary or an associative array are different names for the same data structure i.e. a key-value store. 
 
-Finding a value by its key is O(1) because, no matter how big a map is, it takes the same time to do it. [1]
+Finding a value by its key is O(1) because, no matter how big a map is, it takes the same time to do it.[1]
 
 ![map-get-banana](https://img.enkipro.com/207792353e00a4117cbbc62594a8788f.gif)
 
