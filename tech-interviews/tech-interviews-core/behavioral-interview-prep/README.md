@@ -9,6 +9,5 @@ insights:
   - practice-your-intro
   - example-introduction
   - come-prepared-with-questions
-  - big-companies-vs-startups
   - common-soft-skill-questions
   - common-soft-skill-questions-2

@@ -10,5 +10,5 @@ insights:
   - what-is-array
   - array-operations
   - array-edge-cases
-  - how-to-know-code-efficiency
+  - static-vs-dynamic-arrays
   - array-interview-tips
