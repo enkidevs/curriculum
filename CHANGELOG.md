@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## November 1st 2022
+
+### Added
+- [Tech interviews - Core course - Add topic](https://github.com/Stefan-Stojanovic/curriculum/pull/6)
+
+
 ## October 31st 2022
 
 ### Changed
