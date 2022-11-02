@@ -1,5 +1,5 @@
 ---
-author: nemanjaenki
+author: abd147
 category: discussion
 type: normal
 practiceQuestion:
@@ -22,7 +22,7 @@ links:
 ---
 ## Content
 
-In a typical whiteboard interview setting, you solve a problem on the spot by writing code or drawing diagrams on a whiteboard. The interviewing team observes and asks you follow-up questions.
+In a typical whiteboard interview setting, you solve a problem on the spot by writing code or drawing diagrams on a whiteboard. Then the interviewing team observes and asks you follow-up questions.
 
 ![whiteboard interview](https://img.enkipro.com/531ca1fb09862f631c203de8afb0a697.jpeg)
 
@@ -32,7 +32,7 @@ The interviewers want to see how you approach a problem you haven't seen before,
 
 If you feel stuck or make a mistake, don't worry! 
 
-**Take a deep breath, ask questions, and most importantly, explain your thought process out loud.**
+**Take a deep breath, ask questions, and, most importantly, explain your thought process out loud.**
 
 > 💡 The interviewers are often more interested in learning how you approach a problem than whether you solve it successfully. 
 
@@ -40,7 +40,7 @@ If you feel stuck or make a mistake, don't worry!
 
 Buy a whiteboard and **simulate the whole experience at home**. 
 
-Practice using up the whiteboard space efficiently and thinking out loud when solving the questions.
+Practice using the whiteboard space efficiently and thinking aloud when solving the questions.
 
 The point is to have a productive back-and-forth with your interviewer.
 
@@ -58,7 +58,7 @@ There are also websites out there that let you practice mock interviews online.[
 ---
 ## Practice
 
-If you are stuck during a whiteboard interview, what is something you should NOT do?
+If you are stuck during a whiteboard interview, what is something you should ****NOT**** do?
 
 ???
 
@@ -86,4 +86,4 @@ What is a good thing to do when you are stuck during a whiteboard interview?
 
 [interviewing.io](https://interviewing.io) provides anonymous practice technical interviews with Google and Facebook engineers, which can lead to real jobs and internships. 
 
-[pramp.com](https://pramp.com) pairs you up with another peer who is also a job seeker, and both of you take turns to assume the role of interviewer and interviewee.
+[pramp.com](https://pramp.com) pairs you up with another peer who is also a job seeker, and both of you take turns assuming the role of interviewer and interviewee.

@@ -1,5 +1,5 @@
 ---
-author: nemanjaenki
+author: abd147
 category: discussion
 type: normal
 practiceQuestion:
@@ -20,11 +20,11 @@ links:
 ---
 ## Content
 
-Almost always the first questions you'll get in a tech interview will be something like: 
+Almost always, the first questions you'll get in a tech interview will be something like: 
 
 *"Tell me about your journey so far. How did you get interested in coding, and why is this role a good fit for you?"*
 
-This is a chance for you to tell your story. But since you won't have a lot of time, you must be clear and *to the point*!
+This is a chance for you to tell your story. But since you won't have much time, you must be clear and *to the point*!
 
 > 💡 You want the intro to feel natural and genuine. Practice by writing it out or saying it to a friend.
 
@@ -32,7 +32,7 @@ The interviewer wants to know what you are doing these days, how you got here, a
 
 Think about what got you into tech and answer honestly. 
 
-Put yourself in their shoes. **What are aspects of your career so far that would impress you if you heard them from someone else?**
+Put yourself in their shoes. **What aspects of your career so far would impress you if you heard them from someone else?**
 
 Make sure to emphasize any skills you have that are relevant to the company - for instance, experience with their tech stack.
 
@@ -49,7 +49,7 @@ Imagine an interviewer asked you the following question:
 
 *"Why do you think you'd succeed in this role?"*
 
-What is NOT a great example of something you might mention immediately in your answer?
+What is **NOT** a great example of something you might mention immediately in your answer?
 
 ???
 
@@ -65,7 +65,7 @@ Imagine an interviewer asked you the following question:
 
 *"Why are you interested in this role?"*
 
-What is NOT a great example of something you might mention immediately in your answer?
+What is **NOT** a great example of something you might mention immediately in your answer?
 
 ???
 

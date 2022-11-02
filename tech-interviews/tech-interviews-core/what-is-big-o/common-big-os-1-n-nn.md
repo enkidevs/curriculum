@@ -42,7 +42,7 @@ O(N²) means your program will take (at most) 10,000 steps for 100 items.
 ---
 ## Practice
 
-Picture a bookstore with N books and each book has P pages.
+Picture a bookstore with N books, and each book has P pages.
 
 Finding if the word "enki" is mentioned in a given book is: ???
 
@@ -57,7 +57,7 @@ Opening a book on page 35 is: ???
 ---
 ## Revision
 
-Picture a bookstore with N books and each book has P pages.
+Picture a bookstore with N books, and each book has P pages.
 
 Finding if the word "enki" is mentioned in a given book is: ???
 

@@ -17,7 +17,7 @@ revisionQuestion:
 ---
 ## Content
 
-In interviews, using a map is the most common example of sacrificing space to gain time i.e. sacrificing memory to create a map such that your code can have fast lookups.
+In interviews, using a map is the most common example of sacrificing space to gain time, i.e. sacrificing memory to create a map such that your code can have fast lookups.
 
 > 💡 Sacrificing space for time is an essential technique to make your solution faster.
 
@@ -54,7 +54,7 @@ A map is a data structure that lets us write more efficient code by trading ??? 
 ---
 ## Revision
 
-If you wanted to speed up your solution, the first data structure that should come to mind is ???
+If you want to speed up your solution, the first data structure that should come to mind is ???
 
 - a map
 - a list

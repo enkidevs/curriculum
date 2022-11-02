@@ -23,7 +23,7 @@ revisionQuestion:
 
 A Map is a data structure that links keys to values.
 
-> 💡 Note that a dictionary or an associative array are different names for the same data structure i.e. a key-value store. 
+> 💡 Note that a dictionary or an associative array are different names for the same data structure, i.e. a key-value store. 
 
 Finding a value by its key is O(1) because, no matter how big a map is, it takes the same time to do it[1].
 
@@ -54,7 +54,7 @@ Removing an element from a map is the same.
 ---
 ## Revision
 
-A map key can be ??? but array key can only be ???
+A map key can be ???, but an array key can only be ???.
 
 - any type
 - an integer

@@ -20,11 +20,11 @@ We're glad you're here - the right job in tech can change your life!
 
 #### What you'll learn
 
-This Enki course will help you prep for a tech interview and land yur dream job.
+This Enki course will help you prep for a tech interview and land your dream job.
 
 > 💡 We cover best practices and advice to know about well before you start the actual interview process!
 
-The content has been reviewed by top software engineers and is optimized to teach you what matters, and fast. 
+The content has been reviewed by top software engineers and is optimized to teach you what matters quickly. 
 
 You'll learn:
 
@@ -41,7 +41,7 @@ From workout 4, we deep-dive into what will be your best prep for interview prob
 
 #### Leverage other resources
 
-One important note - if you intend to get a coding job, you must, obviously, get pretty good at coding in a specific language. 
+One important note - if you intend to get a coding job, you must get pretty good at coding in a specific language. 
 
 Alongside Tech Interviews, you might want to go through our [Coding Intro](https://app.enki.com/skill/coding-intro) or our language-specific courses like [Python](https://app.enki.com/skill/python), [JavaScript](https://app.enki.com/skill/javascript) or [Java](https://app.enki.com/skill/coding-intro).
 
