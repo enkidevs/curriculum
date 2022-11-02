@@ -56,6 +56,7 @@ Types of change:
 - [interview - topic - add topic](https://github.com/Stefan-Stojanovic/curriculum/pull/12)
 - [Interview Topic - Whole topic - Grammar improvements, author name reverted back to original author](https://github.com/Stefan-Stojanovic/curriculum/pull/13)
 - [interview topic - Big o tips - minor improvement](https://github.com/Stefan-Stojanovic/curriculum/pull/14)
+- [interview topic - Big o tips - shortening](https://github.com/Stefan-Stojanovic/curriculum/pull/15)
 
 ## November 1st 2022
 
