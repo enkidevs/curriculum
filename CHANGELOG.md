@@ -53,7 +53,7 @@ Types of change:
 ### Changed
 - [Tech - Tech - test readme change ](https://github.com/Stefan-Stojanovic/curriculum/pull/10)
 - [tech - topic - remove topic](https://github.com/Stefan-Stojanovic/curriculum/pull/11)
-
+- [interview - topic - add topic](https://github.com/Stefan-Stojanovic/curriculum/pull/12)
 ## November 1st 2022
 
 ### Added
