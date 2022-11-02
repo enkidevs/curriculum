@@ -1,5 +1,5 @@
 ---
-author: nemanjaenki
+author: abd147
 category: discussion
 type: normal
 practiceQuestion:
@@ -22,7 +22,7 @@ links:
 
 Most interviews end by offering the candidate a few minutes to ask questions.
 
-This is a great chance to learn more about the company and see if you'd like working there. 
+This is a great chance to learn more about the company and see if you'd like to work there. 
 
 Not having questions makes it seem you're not that interested in the role, or you're not too proactive in general.
 
@@ -32,7 +32,7 @@ Let's look at an example question for each category:
 
 #### Ask about work projects
 
-*"What is the most exciting, or challenging project you've worked on here so far?"*
+*"What is the most exciting or challenging project you've worked on here so far?"*
 
 ---
 
@@ -69,7 +69,7 @@ This last one might be more suitable if the interviewer has a managerial role in
 ---
 ## Practice
 
-What is NOT a great question to ask about the team culture?
+What is **NOT** a great question to ask about the team culture?
 
 ???
 
@@ -81,7 +81,7 @@ What is NOT a great question to ask about the team culture?
 ---
 ## Revision
 
-What is NOT a great question to ask about the team culture?
+What is **NOT** a great question to ask about the team culture?
 
 ???
 

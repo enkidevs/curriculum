@@ -1,5 +1,5 @@
 ---
-author: nemanjaenki
+author: abd147
 category: discussion
 type: normal
 practiceQuestion:
@@ -84,7 +84,7 @@ Imagine you're on a call with an interviewer and they open a Google Doc and writ
 // return indices of the two numbers such that they add up to the target.
 ```
 
-What is something you should probably NOT do straightaway?
+What is something you should probably **NOT** do straightaway?
 
 ???
 

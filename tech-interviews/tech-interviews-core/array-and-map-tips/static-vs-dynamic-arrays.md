@@ -1,5 +1,5 @@
 ---
-author: nemanjaenki
+author: abd147
 category: tip
 type: normal
 practiceQuestion:
@@ -26,7 +26,7 @@ Different programming languages implement arrays differently, which can affect t
 
 In C++ or Java, arrays are **static** and have a fixed size you set when creating an array.
 
-Adding or removing an item takes as many steps as the size of the array i.e. O(N) because you need to create a new array with the changed size and copy all the items over.
+Adding or removing an item takes as many steps as the size of the array, i.e. O(N), because you need to create a new array with the changed size and copy all the items over.
 
 An exception to this is if the position to be inserted/removed is at the end of the array.
 

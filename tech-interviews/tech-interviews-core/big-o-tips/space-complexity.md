@@ -28,7 +28,7 @@ A real-life example would be washing the dishes. If you're putting the clean dis
 
 One of the best ways to make your interview solutions faster is to sacrifice space to store the input data in a way such that it can be retrieved more efficiently.
 
-Imagine that somebody gives you a box of unsorted books and your goal is to make it easy to find a book by its name. A way you could make that task fast is to move and sort them onto a labelled shelf.
+Imagine that somebody gives you a box of unsorted books, and your goal is to make it easy to find a book by its name. A way to make that task fast is to move and sort them onto a labelled shelf.
 
 > 💡 If you're not sure how to make your solution faster, trade space to gain time!
 

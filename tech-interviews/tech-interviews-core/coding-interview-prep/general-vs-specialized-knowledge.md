@@ -1,5 +1,5 @@
 ---
-author: nemanjaenki
+author: abd147
 category: tip
 type: normal
 practiceQuestion:

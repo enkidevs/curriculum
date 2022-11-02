@@ -73,7 +73,7 @@ What's the space complexity for a program that takes in an array of length N, co
 ## Footnotes
 
 [1: Sorting is logarithmic]
-The best sorting algorithms like QuickSort or MergeSort have O(NlogN) complexity.
+The best sorting algorithms, like QuickSort or MergeSort, have O(NlogN) complexity.
 
 [2: Traverse more than once is O(N)]
 

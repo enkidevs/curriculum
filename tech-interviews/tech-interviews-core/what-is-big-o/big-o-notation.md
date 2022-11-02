@@ -25,7 +25,7 @@ To gauge how efficient a program is, we want to estimate how it would worsen as 
 
 #### Time Complexity
 
-We get this by answering: **what are the most units of execution i.e. steps our code could take when given N items?**
+We get this by answering: **what are the most units of execution, i.e. steps our code could take when given N items?**
 
 Is it N steps? Or maybe N² steps?
 
@@ -73,7 +73,7 @@ Estimating how many seconds a program will run or how many kilobytes it would ta
 Instead, Big-O denotes efficiency in terms of the input data count.
 
 [2: Units of Memory]
-By *units* we don't mean bytes, but individual pieces. When it comes to Big-O, memory is measured in terms of the input data N.
+By *units*, we don't mean bytes but individual pieces. When it comes to Big-O, memory is measured in terms of the input data N.
 
 [3: Constant Factors]
 O(N), O(2N) and O(1337N) are all O(N). Constant factors don't affect Big-O.

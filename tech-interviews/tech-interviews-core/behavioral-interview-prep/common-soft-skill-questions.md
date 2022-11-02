@@ -1,5 +1,5 @@
 ---
-author: nemanjaenki
+author: abd147
 tags:
   - introduction
 type: normal
@@ -22,12 +22,12 @@ revisionQuestion:
 
 Many software engineering candidates tend to struggle with behavioral questions that come up in the middle of technical interviews. 
 
-Here are some common questions, and tips for how to answer them:
+Here are some common questions and tips for how to answer them:
 
 
 1. *Q: "Why this company?"*
 
-This is a standard question. Answering poorly can hurt your chances of getting the job. 
+This is a standard question. But, unfortunately, answering poorly can hurt your chances of getting the job. 
 
 Try to avoid a generic answer - you should have 2-3 unique points about the company prepared beforehand. 
 
@@ -51,7 +51,7 @@ Go for a real weakness and address how you're working on it.
 ---
 ## Practice
 
-What is something you might NOT want to say for why you left your last company?
+What is something you might **NOT** want to say about why you left your last company?
 
 ???
 
@@ -63,7 +63,7 @@ What is something you might NOT want to say for why you left your last company?
 ---
 ## Revision
 
-What is something you might NOT want to say for why you left your last company?
+What is something you might **NOT** want to say about why you left your last company?
 
 ???
 

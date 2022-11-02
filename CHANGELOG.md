@@ -54,6 +54,8 @@ Types of change:
 - [Tech - Tech - test readme change ](https://github.com/Stefan-Stojanovic/curriculum/pull/10)
 - [tech - topic - remove topic](https://github.com/Stefan-Stojanovic/curriculum/pull/11)
 - [interview - topic - add topic](https://github.com/Stefan-Stojanovic/curriculum/pull/12)
+- [Interview Topic - Whole topic - Grammar improvements, author name reverted back to original author](https://github.com/Stefan-Stojanovic/curriculum/pull/13)
+
 ## November 1st 2022
 
 ### Added

@@ -1,5 +1,5 @@
 ---
-author: nemanjaenki
+author: abd147
 category: discussion
 type: normal
 
@@ -25,7 +25,7 @@ This part is more company-specific but generally focuses on your soft skills. Fo
 
 The rest of this workout will cover some key tips for every type of interview or test you might expect.
 
-> 💬 Do you have an interview coming up or are you just interested in learning? Share your goals with the community.
+> 💬 Do you have an interview coming up, or are you just interested in learning? Share your goals with the community.
 >
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
@@ -33,7 +33,7 @@ The rest of this workout will cover some key tips for every type of interview or
 ## Footnotes
 
 [1: Whiteboard Interviews]
-A whiteboard interview takes place in the interviewing company's office and typically involves writing code and sometimes diagrams on a whiteboard while the interviewing team observes and asks you further questions. They usually take 2-4 hours.
+A whiteboard interview takes place in the interviewing company's office. It typically involves writing code and sometimes diagrams on a whiteboard while the interviewing team observes and asks you further questions. They usually take 2-4 hours.
 
 ![whiteboard interview](https://img.enkipro.com/689d80a9bc20c4e3e27e40f5aa994c89.jpeg)
 *Silicon Valley Season 1, Episode 2 Review - Culturefly

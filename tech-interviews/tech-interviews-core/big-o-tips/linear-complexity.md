@@ -18,11 +18,11 @@ revisionQuestion:
 ---
 ## Content
 
-Imagine you're part of the soccer and chess clubs and you're going through the school high-fiving your teammates.
+Imagine you're part of the soccer and chess clubs and going through the school, high-fiving your teammates.
 
 The complexity of this is linear, but it's not O(N).
 
-It's O(S + C) where S is the number of soccer teammates and C is the number of chess teammates.
+It's O(S + C), where S is the number of soccer teammates and C is the number of chess teammates.
 
 Linear solutions are decently fast for interview problems.
 

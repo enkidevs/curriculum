@@ -1,5 +1,5 @@
 ---
-author: nemanjaenki
+author: abd147
 category: discussion
 type: normal
 
@@ -22,7 +22,7 @@ We've commented on why each part is good!
 
 > 💡 This is an example of an **impactful achievement** that is functional and stands out.
 
-*"Typically I code apps in Kotlin but I built this one using Flutter because I wanted to learn a different modern dev tool."*
+*"Typically, I code apps in Kotlin, but I built this one using Flutter because I wanted to learn a different modern dev tool."*
 
 > 💡 This highlights skills in modern Android technologies, as well as passion for learning new ones.
 
@@ -32,6 +32,6 @@ We've commented on why each part is good!
 
 ---
 
-> 💬 Now it's your turn to show us what is a good intro for your dream position. Open the comment section and show everyone how it's done! (Keep it professional and helpful to others please :)
+> 💬 Now it's your turn to show us what is a good intro for your dream position. Open the comment section and show everyone how it's done! Keep it professional and helpful to others, please. :)
 >
 > Leave a comment or view some of the other comments for inspiration before moving on.

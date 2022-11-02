@@ -24,7 +24,7 @@ For each employee, you have to find their place in line by starting from the mid
 
 The complexity of this is logarithmic, but it's not O(logN). It's O(NlogN), because, for every employee (of which there're N), we're dividing the line in 2 over and over.
 
-Logarithimic solutions are typically most efficient answers for interview problems.
+Logarithmic solutions are typically the most efficient answers for interview problems.
 
 > 💡 If a piece of code divides your input over and over, it most likely has logarithmic complexity.
 
@@ -41,7 +41,7 @@ An indicator of logarithmic complexity is if a program ??? the input on every st
 ---
 ## Revision
 
-Fastest sorting algorithms are ???
+The fastest sorting algorithms are ???
 
 - O(NlogN)
 - O(N)

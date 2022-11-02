@@ -1,5 +1,5 @@
 ---
-author: nemanjaenki
+author: abd147
 category: discussion
 type: normal
 links:
@@ -21,7 +21,7 @@ The size of the company you're applying to impacts not only your career prospect
 
 Big companies pay high salaries and have established brand names, so they get hundreds or even thousands of applicants for any job. 
 
-This requires them to have standardized and rigorous interview processes, led by a dedicated department for that purpose i.e. the HR department.
+This requires them to have standardized and rigorous interview processes led by a dedicated department for that purpose, i.e. the HR department.
 
 They'll usually explain the structure of the interview beforehand as well as give you resources to learn from and prepare. 
 
@@ -35,9 +35,9 @@ Startups have small teams and typically don't have a strict structure to their i
 
 Everybody is wearing many hats, many times without a full-time hiring manager, and so often the process is more disorganized.
 
-The flip side is that it's also more casual and there's room for you to impact the direction of the interview and show off your strengths.
+The flip side is that it's also more casual, and there's room for you to impact the direction of the interview and show off your strengths.
 
-You'll probably be interviewed by people across the team and in different roles, including the CEO. The process should take a couple weeks.
+You'll probably be interviewed by people across the team and in different roles, including the CEO. The process should take a couple of weeks.
 
 ---
 

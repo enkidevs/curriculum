@@ -26,7 +26,7 @@ Logarithmic complexity means that your programs slows down linearly as N grows e
 
 An O(log N) program will take ~7 steps for 100 items and ~20 steps for 1 million items. 
 
-Imagine that you want to find a book named "Enki" on a shelf that has many books, alphabetically sorted.
+Imagine that you want to find a book named "Enki" on a shelf with many alphabetically sorted books.
 
 You start from the middle (i.e. from "M") and go left or right into smaller and smaller sections based on the book's alphabetical position until you eventually find it. 
 
@@ -34,7 +34,7 @@ With each step, you have half as many options left.
 
 ![find-book-sorted-shelf](https://img.enkipro.com/f986408ff4d12724c6a9a678f00e46e2.gif)
 
-Even if the bookstore had a billion books, you can still find your book in ~30 division steps.
+Even if the bookstore had a billion books, you could still find your book in ~30 division steps.
 
 ---
 ## Practice

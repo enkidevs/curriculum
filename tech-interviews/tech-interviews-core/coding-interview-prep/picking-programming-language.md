@@ -1,5 +1,5 @@
 ---
-author: nemanjaenki
+author: abd147
 category: discussion
 type: normal
 practiceQuestion:
@@ -60,7 +60,7 @@ Modern languages like Python and JavaScript are popular choices these days due t
 ---
 ## Practice
 
-When picking a programming language, which one of these is NOT a great reason to learn a new language:
+When picking a programming language, which one of these is **NOT** a great reason to learn a new language:
 
 ???
 

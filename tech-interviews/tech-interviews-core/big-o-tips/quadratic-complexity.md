@@ -18,9 +18,9 @@ revisionQuestion:
 ---
 ## Content
 
-Imagine that you have a list of cities and you want to find all mentions of each city in a pile of magazines.
+Imagine that you have a list of cities and want to find all mentions of each city in a pile of magazines.
 
-The complexity of this is quadratic, but it's not O(N²). It's O(C * M) where C is the number of cities and M is the number of magazines.
+This complexity is quadratic, but it's not O(N²). Instead, it's O(C * M), where C is the number of cities and M is the number of magazines.
 
 Although sometimes you can't do better than it, quadratic performance is considered slow.
 
