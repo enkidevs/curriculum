@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 2nd 2022
+
+### Changed
+- [Tech - Tech - test readme change ](https://github.com/Stefan-Stojanovic/curriculum/pull/10)
+
 ## November 1st 2022
 
 ### Added
