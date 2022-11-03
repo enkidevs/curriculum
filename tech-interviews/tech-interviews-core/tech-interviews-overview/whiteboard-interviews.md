@@ -58,7 +58,7 @@ There are also websites out there that let you practice mock interviews online.[
 ---
 ## Practice
 
-If you are stuck during a whiteboard interview, what is something you should ****NOT**** do?
+If you are stuck during a whiteboard interview, what is something you should **NOT** do?
 
 ???
 
