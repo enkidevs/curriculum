@@ -11,7 +11,7 @@ revisionQuestion:
     - fill-in-the-gap
   context: standalone
 links:
-	- '[Take-Home Projects Are the New Resume](https://coderpad.io/blog/interviewing/take-homes-are-the-new-resume/){blog}'
+    - '[Take-Home Projects Are the New Resume](https://coderpad.io/blog/interviewing/take-homes-are-the-new-resume/){blog}'
 
 ---
 
