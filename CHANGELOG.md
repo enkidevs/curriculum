@@ -52,6 +52,7 @@ Types of change:
 
 ### Added
 - [Tech Interviews - Topic - Add new topic](https://github.com/enkidevs/curriculum/pull/3124)
+- [Tech Interviews - Topic - Minor improvement](https://github.com/enkidevs/curriculum/pull/3127)
 
 ## October 31st 2022
 
