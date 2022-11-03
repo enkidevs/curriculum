@@ -5,7 +5,7 @@ type: normal
 links:
   - '[People in tech are happier than other industries](https://skillcrush.com/blog/happy-tech-jobs/){blog}'
   - '[Software Developer is one of the best jobs in America](https://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs){article}'
-  - '[Developers make $110,140 on average]([Software Developers made a median salary of $110,140 in 2020](https://money.usnews.com/careers/best-jobs/software-developer)){article}'
+  - '[Developers make $110,140 on average](https://money.usnews.com/careers/best-jobs/software-developer){article}'
 
 ---
 
