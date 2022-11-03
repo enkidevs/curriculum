@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 3rd 2022
+
+### Added
+- [Tech Interviews - Topic - Add new topic](https://github.com/enkidevs/curriculum/pull/3124)
+
 ## October 31st 2022
 
 ### Changed
