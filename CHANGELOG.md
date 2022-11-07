@@ -48,9 +48,11 @@ Types of change:
 
 ### Fixed
 
+
 ## November 7th 2022
 
 ### Fixed
+- [Styling - Hexadecimal color system - Remove type in the gap as some correct answers are considered wrong](https://github.com/enkidevs/curriculum/pull/3129)
 - [Tech interviews - Welcome to tech interviews - Replace duplicate coding intro skill link with the java one](https://github.com/enkidevs/curriculum/pull/3130)
 
 ## November 3rd 2022
@@ -63,6 +65,7 @@ Types of change:
 
 ### Changed
 - [Git - Pushing - Replace master branch name with main](https://github.com/enkidevs/curriculum/pull/3121)
+- [Web - Use em instead of px for sizes - Remove type in the gap as it can cause correct answers to be incorrect](https://github.com/enkidevs/curriculum/pull/3122)
 
 ## October 21st 2022
 
