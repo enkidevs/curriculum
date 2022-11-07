@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+
+## November 7th 2022
+
+### Fixed
+- [Styling - Hexadecimal color system - Remove type in the gap as some correct answers are considered wrong](https://github.com/enkidevs/curriculum/pull/3129)
+
 ## November 3rd 2022
 
 ### Added
