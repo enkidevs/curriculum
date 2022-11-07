@@ -15,7 +15,7 @@ practiceQuestion:
 
 ## Content
 
-Charts are very useful to help **understand large quantities of data** that would otherwise be difficult do individually analyze. You can represent thousands of data points in a chart.
+Charts are very useful to help **understand large quantities of data** that would otherwise be difficult to individually analyze. You can represent thousands of data points in a chart.
 
 Another good example is detecting patterns and understanding results in a more clear way.
 
