@@ -64,6 +64,7 @@ Types of change:
 
 ### Changed
 - [Git - Pushing - Replace master branch name with main](https://github.com/enkidevs/curriculum/pull/3121)
+- [Web - Use em instead of px for sizes - Remove type in the gap as it can cause correct answers to be incorrect](https://github.com/enkidevs/curriculum/pull/3122)
 
 ## October 21st 2022
 
