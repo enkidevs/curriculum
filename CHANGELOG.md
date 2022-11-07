@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 7th 2022
+
+### Fixed
+- [Tech interviews - Welcome to tech interviews - Replace duplicate coding intro skill link with the java one](https://github.com/enkidevs/curriculum/pull/3130)
+
 ## November 3rd 2022
 
 ### Added
