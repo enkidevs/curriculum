@@ -1,6 +1,6 @@
 name: Tech Interview Overview
 
-description: How its structured and tips for acing it
+description: Intro to each interview step, and tips for acing them
 
 aspects:
   - introduction
