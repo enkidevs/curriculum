@@ -53,6 +53,7 @@ Types of change:
 
 ### Fixed
 - [Styling - Hexadecimal color system - Remove type in the gap as some correct answers are considered wrong](https://github.com/enkidevs/curriculum/pull/3129)
+- [Tech interviews - Welcome to tech interviews - Replace duplicate coding intro skill link with the java one](https://github.com/enkidevs/curriculum/pull/3130)
 
 ## November 3rd 2022
 

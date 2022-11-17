@@ -43,6 +43,6 @@ From workout 4, we deep-dive into what will be your best prep for interview prob
 
 One important note - if you intend to get a coding job, you must get pretty good at coding in a specific language. 
 
-Alongside Tech Interviews, you might want to go through our [Coding Intro](https://app.enki.com/skill/coding-intro) or our language-specific courses like [Python](https://app.enki.com/skill/python), [JavaScript](https://app.enki.com/skill/javascript) or [Java](https://app.enki.com/skill/coding-intro).
+Alongside Tech Interviews, you might want to go through our [Coding Intro](https://app.enki.com/skill/coding-intro) or our language-specific courses like [Python](https://app.enki.com/skill/python), [JavaScript](https://app.enki.com/skill/javascript) or [Java](https://app.enki.com/skill/java).
 
 With that - let's get started!
