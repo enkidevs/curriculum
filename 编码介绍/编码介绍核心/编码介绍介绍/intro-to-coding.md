@@ -17,7 +17,7 @@ revisionQuestion:
 ---
 ## Content
 
-If you want to learn to code, this course is the best place to start, before digging later into your language of choice. 
+If you want to learn to code, this course_ is the best place to start, before digging later into your language of choice. 
 
 We'll cover the core features everyone should know before starting to program. And we'll emphasize a few key themes and tools that'll be useful as you learn.
 
