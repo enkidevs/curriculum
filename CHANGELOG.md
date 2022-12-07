@@ -49,6 +49,11 @@ Types of change:
 ### Fixed
 
 
+## December 7th 2022
+
+### Fixed
+- [Python - Creating Threads - Remove unnecessary whitespace in output code block](https://github.com/enkidevs/curriculum/pull/3134)
+
 ## November 7th 2022
 
 ### Fixed
