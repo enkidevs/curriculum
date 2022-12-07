@@ -10,7 +10,6 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -74,17 +73,23 @@ Other Python data types that you'll soon learn about are:
 
 ## Practice
 
-What class does the following return?
+Match the value to its type.
 
 ```python
->>> type('Learning Python')
-# <class '???'>
+type(???)
+# <class 'float'>
+
+type(???)
+# <class 'str'>
+
+type(???)
+# <class 'int'>
 ```
 
-- str
-- string
-- text
-- data
+- 15.0
+- 'Hello World'
+- 17
+- True
 
 ---
 
