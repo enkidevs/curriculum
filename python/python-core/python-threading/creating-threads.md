@@ -50,7 +50,6 @@ firstThread.start()
 Which gives us this output:
 ```plain-text
 I am a thread!!!
-
 I am a thread!!!
 I am a thread!!!
 I am a thread!!!

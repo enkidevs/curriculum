@@ -53,6 +53,11 @@ Types of change:
 ### Changed
 - [Python - Python Data Types - Remove type in the gap and reorder question so different correct answers cannot be evaluated as a wrong answer](https://github.com/enkidevs/curriculum/pull/3132)
 
+## December 7th 2022
+
+### Fixed
+- [Python - Creating Threads - Remove unnecessary whitespace in output code block](https://github.com/enkidevs/curriculum/pull/3134)
+
 ## November 7th 2022
 
 ### Fixed
