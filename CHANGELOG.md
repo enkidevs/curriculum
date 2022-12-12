@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 12th 2022
+
+### Fixed
+- [Go - Go Data Types - Remove type in the gap as there is more than one way to answer correctly](https://github.com/enkidevs/curriculum/pull/3136)
+
 ## November 17th 2022
 
 ### Changed
