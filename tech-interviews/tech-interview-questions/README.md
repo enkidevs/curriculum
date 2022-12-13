@@ -4,7 +4,7 @@ description: Questions to improve your coding skills.
 
 sections:
   '0':
-    - binary-search
+    - binary-search-exercise
     - list-permutation
     - coding-with-enki
     - concatenation-of-a-list

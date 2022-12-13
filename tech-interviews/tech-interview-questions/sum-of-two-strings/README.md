@@ -6,4 +6,4 @@ aspects:
   - workout
 
 insights:
-  - find-the-non-duplicate-value-exercise
+  - sum-of-two-strings
