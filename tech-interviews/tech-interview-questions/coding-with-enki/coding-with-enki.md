@@ -14,10 +14,10 @@ setupCode:
     # Write a program that generates a new string list from the given numbers list.
 
     # Conditions
-    If a number is divisible by both 2 and 4, replace it with "I'm".
-    If a number is not divisible by any number but 1 or itself (i.e. a prime number), replace it with "Enki".
-    If a number is divisible by 7, replace with "with".
-    If a number is divisible by both 3 and 5, replace with "coding".
+    # If a number is divisible by both 2 and 4, replace it with "I'm".
+    # If a number is not divisible by any number but 1 or itself (i.e. a prime number), replace it with "Enki".
+    # If a number is divisible by 7, replace with "with".
+    # If a number is divisible by both 3 and 5, replace with "coding".
 
     # Sample lists to use:
     numbers = [12, 21, 15, 17]
