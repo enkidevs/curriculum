@@ -15,8 +15,8 @@ setupCode:
 
     # Sample program:
     numbers = [7, 3, 7]
-    nums = build_nums_list(numbers)
-    # nums should become [7, 3, 7, 7, 3, 7]
+    build_nums_list(numbers)
+    # [7, 3, 7, 7, 3, 7]
 
     # Type your code here:
 
