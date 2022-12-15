@@ -14,8 +14,8 @@ setupCode:
     # Write a function that finds and returns the longest substring with no repeating characters from a given string.
 
     # Sample program:
-    string1 = "asgegsagefasg"
-    find_longest_substring(string1)
+    str = "asgegsagefasg"
+    find_longest_substring(str)
     # "gef"
 
     # Sample strings:
