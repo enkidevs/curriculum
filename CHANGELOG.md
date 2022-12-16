@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 16th 2022
+
+### Added
+- [Python - Tech Interview Exercises - add 25 exercises](https://github.com/enkidevs/curriculum/pull/3140)
+
 ## December 12th 2022
 
 ### Fixed
