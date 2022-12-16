@@ -1,4 +1,4 @@
-name: Most frequent element.
+name: Most frequent element
 
 description: Return the most frequent element from a list.
 
