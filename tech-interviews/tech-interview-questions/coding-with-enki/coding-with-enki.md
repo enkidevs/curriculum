@@ -41,7 +41,7 @@ Conditions:
   - If a number is divisible by both 3 and 5, replace with "coding".
 
 For instance, if the input list was:
-```pytho
+```python
 numbers = [17, 19, 23, 29]
 ```
 
