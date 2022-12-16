@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 16th 2022
+
+### Added
+- [JavaScript - Tech Interview Exercises - add 25 exercises](https://github.com/enkidevs/curriculum/pull/3141)
+
 ## December 12th 2022
 
 ### Fixed
