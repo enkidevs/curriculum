@@ -14,4 +14,5 @@ sections:
     - arrays-and-maps
     - array-and-map-tips
     
-next:tech-interview-questions
+next:
+  - tech-interviews:tech-interview-questions
