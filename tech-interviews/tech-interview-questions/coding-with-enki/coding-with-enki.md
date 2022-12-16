@@ -40,6 +40,18 @@ Conditions:
   - If a number is divisible by 7, replace with "with".
   - If a number is divisible by both 3 and 5, replace with "coding".
 
+For instance, if the input list was:
+```pytho
+numbers = [17, 19, 23, 29]
+```
+
+The result would be:
+```python
+newList = ["Enki", "Enki", "Enki", "Enki"]
+```
+
+Since all of these numbers satisfy the second condition.
+
 ---
 
 Give it an honest try, and feel free to share your solution!
