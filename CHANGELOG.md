@@ -48,7 +48,10 @@ Types of change:
 
 ### Fixed
 
-## December 13th 2022
+## December 16th 2022
+
+### Fixed
+- [Tech Interviews - Tech Interview Exercises - Make exercises go after the preparation course](https://github.com/enkidevs/curriculum/pull/3142)
 
 ### Added
 - [Tech Interviews - Tech Interview Exercises - Add 25 exercises](https://github.com/enkidevs/curriculum/pull/3139)
