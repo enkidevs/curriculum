@@ -13,3 +13,5 @@ sections:
     - big-o-tips
     - arrays-and-maps
     - array-and-map-tips
+    
+next:tech-interview-questions
