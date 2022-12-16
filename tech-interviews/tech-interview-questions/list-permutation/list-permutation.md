@@ -11,12 +11,11 @@ category: coding
 setupCode:
   startingPoint: |
     # Welcome to the Python coding playground.
-    # Write a function that takes in list of intengers and returns a new list for each possible permutation.
+    # Write a function that takes in list of intengers and returns a new list of each possible permutation.
 
     # Sample program:
     # ints = [4, 7]
-    # [4, 7]
-    # [7, 4]
+    newList = [[4, 7], [7, 4]]
 
     # Sample list to use:
     ints = [4, 0, 1, 2, 3, 5]
@@ -39,12 +38,7 @@ ints = [4, 0, 7]
 ``` 
 the function should return:
 ```python
-# [4, 0, 7]
-# [4, 7, 0]
-# [0, 7, 4]
-# [0, 4, 7]
-# [7, 4, 0]
-# [7, 0, 4]
+newList = [[4, 0, 7], [4, 7, 0], [0, 7, 4], [0, 4, 7], [7, 4, 0], [7, 0, 4]]
 ```
 
 ---
