@@ -50,6 +50,9 @@ Types of change:
 
 ## December 16th 2022
 
+### Changed
+- [Tech Interviews - Tech Interview Exercises - Change name](https://github.com/enkidevs/curriculum/pull/3143)
+
 ### Fixed
 - [Tech Interviews - Tech Interview Exercises - Make exercises go after the preparation course](https://github.com/enkidevs/curriculum/pull/3142)
 
