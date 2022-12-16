@@ -49,10 +49,7 @@ print(find_indices_of_target_sum(numbers, target2))
 # (2, 3)
 ```
 
-To solve this, try using the following concepts:
-- function definition (`def x(): ...`)
-- built-in methods (`len()`)
-- flow control (`if (age > 30) ...`, `for x in y...`)
+---
 
 Give it an honest try, and feel free to share your solution!
 
