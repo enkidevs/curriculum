@@ -6,4 +6,4 @@ aspects:
   - workout
 
 insights:
-  - binary-search-exercise-js
+  - binary-search-js
