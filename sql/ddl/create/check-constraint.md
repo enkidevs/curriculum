@@ -32,7 +32,7 @@ CREATE TABLE voters (
 );
 ```
 
-Now, if you were to insert a record which had a value for the `age` column less that 18, you would get an error. 
+Now, if you were to insert a record which had a value for the `age` column less than 18, you would get an error. 
 
 What if you wanted to constrain the value of two columns at the same time? This is possible by creating a table check constraint. Let's say that for some reason you also want only names that start with `'T'`. In this case, your table definition would look like:
 
