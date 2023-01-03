@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 3rd 2023
+
+### Fixed
+- [SQL - Check constraint - Fix typo](https://github.com/enkidevs/curriculum/pull/3148)
+
 ## December 16th 2022
 
 ### Changed
