@@ -1,4 +1,4 @@
-name: Intro to NFTs
+name: Introduction
 
 description: Fundamental Guide to NFTs for Beginners
 
