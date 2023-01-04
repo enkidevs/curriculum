@@ -21,7 +21,7 @@ practiceQuestion:
 
 **R** is a popular programming language and software environment for statistical computing[1] and graphics[2]. It is widely used among statisticians, data scientists, and researchers in academia and industry.
 
-**R** is a high-level language, which means it has a relatively simple syntax that is easy to read and write. Here's an example of how you might plot a line graph in **R**:
+**R** is a high-level language, which means it has a relatively simple syntax. Here's an example of how you might plot a line graph in **R**:
 
 ```r
 x <- c(1, 2, 3, 4, 5)

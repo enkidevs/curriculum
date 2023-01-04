@@ -19,16 +19,19 @@ practiceQuestion:
 
 ## Content
 
-In `R`, dictionaries are known as lists. A list is an ordered collection of elements, where each element can be of a different data type. Lists are created using the `list()` function.
 
-Here is an example of a list:
+In **R**, a dictionary is a collection of key-value pairs, similar to a **map** or **hash** table in other programming languages. You can use dictionaries to store data that you want to access by a unique identifier (the key) rather than an index.
+
+In `R`, you can create dictionaries similarly to lists.
+
+Here is an example of a dictionary:
 ```r
-fruits <- list(apple = "red", orange = "orange", banana = "yellow")
+fruits <- c(apple = "red", orange = "orange", banana = "yellow")
 ```
 
-The elements in a list are called components, and each component has a name and a value. The names are called keys, and the values are called the elements of the list.
+Difference between a dictionary and a list in R is that elements in a Dictionary have a name (key). 
 
-To access an element in a list, you can use either the `[[]]`, `[]` or the `$` operator. 
+To access an element in a dictionary, you can use either the `[[]]` or `[]` operator for indices or the key. 
 
 For example:
 ```r
@@ -36,9 +39,14 @@ fruits[[1]]
 # "red"
 
 fruits[1]
+# apple 
 # "red"
 
-fruits$apple
+fruits["apple"]
+# apple 
+# "red" 
+
+fruits[["apple"]]
 # "red"
 ```
 
@@ -62,13 +70,13 @@ Which of the following is **NOT** a way to access an element in a list in **R**?
 
 - `list.key`
 - `list[[1]]`
-- `list$key`
+- `list[["pear"]]`
 - `list[1]`
 
 ---
 ## Revision
 
-What function can be used to get the number of elements in a list in R?
+What function can be used to get the number of elements in a list in **R**?
 
 ???
 

@@ -23,7 +23,7 @@ practiceQuestion:
 
 Consider the following dictionary:
 ```r
-square_numbers <- list(
+square_numbers <- c(
   1: 1,
   2: 4,
   3: 9, 
@@ -40,19 +40,6 @@ print(square_numbers)
 # NULL
 ```
 
-`duplicate()` returns a copy of the dictionary
-```r
-new_squares <- duplicate(square_numbers)
-
-print(new_squares)
-# 1: 1
-# 2: 4
-# 3: 9
-# 4: 16
-# 5: 25
-
-```
-
 names() returns the names of the elements in the dictionary as a character vector
 
 ```r
@@ -60,7 +47,6 @@ names(square_numbers)
 
 print(names(square_numbers))
 # "1" "2" "3" "4" "5"
-
 ```
 
 

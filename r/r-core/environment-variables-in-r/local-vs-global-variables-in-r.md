@@ -13,15 +13,12 @@ practiceQuestion:
 
 ---
 
-# Basic Data Types in R
+# Local vs Global Variables
 
 ---
 
 ## Content
 
-In **R**, a global environment is a place where all the objects you create are stored. When you start an **R** session, a global environment is created automatically.
-
-On the other hand, a local environment is a place where the objects you create within a function are stored. When you define a function, a local environment is created automatically.
 
 Global variables can be accessed from anywhere in your **R** session, while local variables can only be accessed within the function where they are defined.
 
@@ -67,8 +64,8 @@ Which of the following is **NOT** true about global and local variables in **R**
 
 ???
 
-- The <<- operator is generally recommended for creating global variables in **R**.
-- The <<- operator can be used to create a global variable within a function.
+- The `<<-` operator is generally recommended for creating global variables in **R**.
+- The `<<-` operator can be used to create a global variable within a function.
 - Local variables can only be accessed within the function where they are defined.
 - Global variables can be accessed from anywhere in your **R** session.
 
