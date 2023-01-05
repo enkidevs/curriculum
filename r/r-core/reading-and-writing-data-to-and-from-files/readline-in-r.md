@@ -43,9 +43,26 @@ In this example, we use the `readline` function to read a line of text from the 
 ---
 ## Practice
 
+Fill in the gap to read a line of text from the console and store it inside the `x` variable:
 
+```r
+??? <- ???("Enter a value for x: ")
+```
 
+- `x`
+- `readline`
+- `y`
+- `input`
+- `scan`
 
 ---
 ## Revision
 
+Which of the following lines of code will read a line of text from the console and store it in the `y` variable, with the prompt `"Enter a value for y: "`?
+
+???
+
+- `y <- readline("Enter a value for y: ")`
+- `y <- read("Enter a value for y: ")`
+- `y <- scan("Enter a value for y: ")`
+- `y <- input("Enter a value for y: ")`

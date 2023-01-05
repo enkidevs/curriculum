@@ -30,14 +30,14 @@ for (variable in sequence) {
 
 The `variable` is a placeholder for the current value or element in the sequence. The sequence can be any object that can be iterated over, such as a vector, list, or data frame.
 
-Here is an example of a for loop that prints the numbers from 1 to 10:
+Here is an example of a `for` loop that prints the numbers from 1 to 10:
 ```r
 for (i in 1:10) {
   print(i)
 }
 ```
 
-You can also use a for loop to iterate over the elements of a character vector:
+You can also use a `for` loop to iterate over the elements of a character vector:
 ```r
 for (word in c("apple", "banana", "cherry")) {
   print(word)
@@ -61,12 +61,21 @@ for (??? in ???) {
 ---
 ## Revision
 
-What is the basic data type for a vector of categorical variables in **R**?
+What is the output of the following code?
+
+
+```r
+for (word in c("apple", "banana", "cherry")) {
+  print(word)
+}
+
+# ???
+# ???
+# ???
+```
 
 ???
 
-- `factor`
-- `character`
-- `numeric`
-- `logical`
-- `NULL`
+- `"apple"`
+- `"banana"`
+- `"cherry"`

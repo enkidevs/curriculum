@@ -45,31 +45,37 @@ paste("The colors are", z)  # "The colors are red green blue"
 
 
 
+---
+## Practice
 
--------------------------------------
-The paste function has several optional arguments that allow you to customize the output. For example, you can use the collapse argument to specify a separator to use between the elements of a vector:
-```r
-z <- c("red", "green", "blue")
-paste(z, collapse = ", ")  # "red, green, blue"
-```
-
-You can also use the sep and collapse arguments together to specify different separators for different levels of the input:
-```r
-z <- list(c("red", "green"), "blue")
-paste(z, sep = ":", collapse = ", ")  # "red:green, blue"
-```
-
-Finally, you can use the quote argument to specify whether or not to surround the output with quotation marks:
-
+Fill in the gap to combine the strings `"Hello"` and `"world!"` into a single string:
 
 ```r
-paste("Hello", "world!", quote = TRUE)  # "\"Hello\" \"world!\""
-paste("Hello", "world!", quote = FALSE)  # "Hello world!"
+paste(???, ???)  # "Hello world!"
+```
+
+- `"Hello"`
+- `"world!"`
+- `"Hello!", "world"`
+- `"Hi", "world!"`
+
+
+
+---
+## Revision
+
+
+Which of the following lines of code will combine the strings `"Hello"` and `"world!"` into a single string, separated by a space?
+
+
+```r
+???
 ```
 
 
-
-
-
+- `paste("Hello", "world!", sep = " ")`
+- `paste("Hello", "world!", sep = "-")`
+- `paste("Hello", "world!", sep = ",")`
+- `paste("Hello", "world!", sep = ":")`
 
 

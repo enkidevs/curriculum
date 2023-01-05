@@ -27,8 +27,6 @@ x <- 5
 y <- 10
 ```
 
-You can also use the `=` operator, but it is generally recommended to use `<-` as it is easier to read and less prone to errors.
-
 To access the value of a variable, you can type the name of the variable inside a `print()`:
 ```r
 print(x)

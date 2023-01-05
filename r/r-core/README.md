@@ -1,6 +1,6 @@
 name: Core
 
-description: The fundamentals of Python. No skin shedding needed.
+description: The fundamentals of R.
 
 core: true
 
@@ -9,10 +9,11 @@ sections:
     - intro-to-r
     - variables-and-data-types
     - unordered-data-types-r
+    - data-type-conversions
     - conditional-statements-in-r
     - functions-in-r
+    - environment-variables-in-r
     - loops-in-r
     - looping-techniques-in-r
-    - environment-variables-in-r
-    - reading-and-writting-data-to-and-from-files
+    - reading-and-writing-data-to-and-from-files
     - programs-in-r

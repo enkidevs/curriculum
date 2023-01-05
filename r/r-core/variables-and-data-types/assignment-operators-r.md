@@ -21,7 +21,7 @@ practiceQuestion:
 
 In R, you can use assignment operators to assign values to variables.
 
-The most common assignment operator is the <- operator, which is used to assign a value to a variable:
+The most common assignment operator is the `<-` operator, which is used to assign a value to a variable:
 ```r
 x <- 5
 y <- 10
@@ -33,7 +33,8 @@ print(y)
 # 10
 ```
 
-You can also use the = operator for assignment:
+You can also use the `=` operator, but it is generally recommended to use `<-` as it is easier to read and less prone to errors.
+
 ```r
 x = 5
 y = 10

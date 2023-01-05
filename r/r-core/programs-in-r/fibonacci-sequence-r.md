@@ -20,18 +20,32 @@ practiceQuestion:
 
 ## Content
 
-Next you need to define similar functions for the other calculations that you want to support (e.g. subtraction, multiplication, division).
+This program generates the Fibonacci sequence up to a given number of terms:
 ```r
-subtract <- function(x, y) {
-  return(x - y)
-}
-multiply <- function(x, y) {
-  return(x * y)
-}
-divide <- function(x, y) {
-  return(x / y)
+# Read the number of terms from the user
+n <- readline("Enter the number of terms: ")
+n <- as.numeric(n)
+
+# Initialize the first two terms
+a <- 0
+b <- 1
+
+# Print the first two terms
+print(a)
+print(b)
+
+# Loop through the remaining terms
+for (i in 3:n) {
+  # Calculate the next term
+  c <- a + b
+  # Print the term
+  print(c)
+  # Shift the variables
+  a <- b
+  b <- c
 }
 ```
+
 
 
 

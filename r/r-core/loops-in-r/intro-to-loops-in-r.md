@@ -13,7 +13,7 @@ practiceQuestion:
 
 ---
 
-# Basic Data Types in R
+# Intro to Loops
 
 ---
 
@@ -40,7 +40,9 @@ for (word in c("apple", "banana", "cherry")) {
 }
 ```
 
-A while loop allows you to execute a block of code as long as a certain condition is TRUE. You can use a while loop to perform an action until a certain condition is met, or to perform an action indefinitely. For example:
+### While
+
+A `while` loop allows you to execute a block of code as long as a certain condition is TRUE. You can use a while loop to perform an action until a certain condition is met, or to perform an action indefinitely. For example:
 ```r
 # Print the numbers from 1 to 10
 i <- 1
@@ -54,7 +56,10 @@ while (TRUE) {
   print("Hello, World!")
 }
 ```
-A repeat loop is similar to a while loop, but the condition is checked at the end of the loop instead of at the beginning. You can use a repeat loop to perform an action indefinitely or until a certain condition is met. For example:
+
+### Repeat
+
+A `repeat` loop is similar to a while loop, but the condition is checked at the end of the loop instead of at the beginning. You can use a `repeat` loop to perform an action indefinitely or until a certain condition is met. For example:
 ```r
 # Print the numbers from 1 to 10
 i <- 1
@@ -66,30 +71,14 @@ repeat {
   }
 ```
 
-
-
 ---
 ## Practice
 
-Which of the following is a basic data type in **R**?
+Which of these is not a loop type in R?
 
 ???
 
-- `numeric`
-- `integer`
-- `matrix`
-- `function`
-- `data frame`
-
----
-## Revision
-
-What is the basic data type for a vector of categorical variables in **R**?
-
-???
-
-- `factor`
-- `character`
-- `numeric`
-- `logical`
-- `NULL`
+- `until`
+- `repeat`
+- `for`
+- `while`
