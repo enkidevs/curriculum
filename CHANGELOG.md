@@ -48,6 +48,16 @@ Types of change:
 
 ### Fixed
 
+## January 4th 2023
+
+### Added
+- [Intro to NFT - Topic - Add new topic](https://github.com/enkidevs/curriculum/pull/3147)
+
+## January 3rd 2023
+
+### Fixed
+- [SQL - Check constraint - Fix typo](https://github.com/enkidevs/curriculum/pull/3148)
+
 ## December 16th 2022
 
 ### Changed
