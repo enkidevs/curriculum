@@ -32,14 +32,13 @@ cat("Hello, world!")
 ---
 ## Practice
 
-Which of the following is the correct way to store the value `5` in a variable `x`?
+Print a message to the console without adding a newline character after the message:
+```r
+???("Hello, world!")
+```
 
-???
-
-- x <- 5
-- x = 5
-- x < 5
-- x =< 5
+- `cat`
+- `print`
 
 ---
 ## Footnotes

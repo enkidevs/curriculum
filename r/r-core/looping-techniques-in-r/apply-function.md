@@ -10,7 +10,11 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+  
 ---
 
 # apply Function
@@ -77,29 +81,26 @@ apply(matrix, c(1, 2), sum)
 
 You should consider using the `apply` function only when it is significantly faster than alternative approaches, such as looping through the elements one at a time.
 
-
 ---
 ## Practice
 
-Which of the following is a basic data type in R?
+Which of the following is the correct syntax for the apply function?
 
 ???
 
-- `numeric`
-- `integer`
-- `matrix`
-- `function`
-- `data frame`
+- `apply(X, MARGIN, FUN, ...)`
+- `apply(X, FUN, MARGIN, ...)`
+- `apply(MARGIN, X, FUN, ...)`
+- `apply(X, MARGIN, ..., FUN)`
 
 ---
 ## Revision
 
-What is the basic data type for a vector of categorical variables in R?
+Which of the following will apply the `sum` function to each row of the matrix matrix?
 
 ???
 
-- `factor`
-- `character`
-- `numeric`
-- `logical`
-- `NULL`
+- `apply(matrix, 1, sum)`
+- `apply(matrix, 2, sum)`
+- `apply(matrix, c(1, 2), sum)`
+- `apply(matrix, c(2, 1), sum)`

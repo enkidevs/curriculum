@@ -10,7 +10,11 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Another Way to Create Dictionaries
@@ -67,26 +71,38 @@ You can also loop over the key-value pairs in a dictionary using the map() funct
 map(my_dict1, print)  # prints the key-value pairs in my_dict1
 ```
 
-
-
 ---
 ## Practice
 
-Which of the following is **NOT** a way to access an element in a list in **R**?
+Create a dictionary using the `dictionary()` method from the "purrr" package:
 
-- `list.key`
-- `list[[1]]`
-- `list$key`
-- `list[1]`
+```r
+my_dict ??? ???(
+  a = 1,
+  b = 2,
+  c = 3
+)
+```
+
+- `<-` 
+- `dictionary`
+- `dictionary(`
+- `<--`
 
 ---
 ## Revision
 
-What function can be used to get the number of elements in a list in R?
+Create a dictionary using the `dict()` method from the "hash":
 
-???
+```r
+my_dict ??? ???(
+  a = 1,
+  b = 2,
+  c = 3
+)
+```
 
-- `length()`
-- `size()`
-- `count()`
-- `lengths()`
+- `<-` 
+- `dict`
+- `dict(`
+- `<--`

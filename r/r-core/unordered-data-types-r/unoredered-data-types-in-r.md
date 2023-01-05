@@ -10,7 +10,11 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Unordered Data Types in R
@@ -80,14 +84,14 @@ A ??? is a ??? array of data elements of ??? data type.
 ---
 ## Revision
 
-Finish the code to create a *numeric* vector called `numers`:
+Finish the code to create a *character* vector called `numers`:
 ```r
 ??? <- ???(
-  1, 2, 3, 4, 5
+  "1", "2", "3", "4", "5"
 )
 
 print(numbers)
-# [1] 1 2 3 4 5
+# "1" "2" "3" "4" "5"
 ```
 
 - `numbers`

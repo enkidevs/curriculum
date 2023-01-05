@@ -11,6 +11,11 @@ practiceQuestion:
     - fill-in-the-gap
     - type-in-the-gap
   context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 
 ---
 
@@ -33,7 +38,7 @@ file(description, open = "", blocking = TRUE)
 
 The `file` function returns a file object that you can use to read or write data to the file.
 
-Here is an example of how to use the file function to open a file for reading:
+Here is an example of how to use the `file` function to open a file for reading:
 ```r
 file <- file("test.txt", "r")
 ```
@@ -47,26 +52,20 @@ close(file)
 
 In this example, we open the file `"test.txt"` for reading using the `file` function, and store the file object in the variable `file`. We then use the `readline` function to read a line of text from the file, and store it in the variable `line`. Finally, we close the file using the `close` function.
 
-
-
 ---
 ## Practice
 
-To open a file for reading, you can use the file function with the open argument set to ???."
+To open a file for reading, you can use the `file` function with the `open` argument set to "???".
 
-???
-
-- `"r"`
-- `"w"`
-- `"a"`
+- `r`
+- `w`
+- `a`
 
 ---
 ## Revision
 
-"To open a file for writing, you can use the file function with the open argument set to ???."
+To open a file for writing, you can use the `file` function with the `open` argument set to "???".
 
-???
-
-- `"w"`
-- `"r"`
-- `"a"`
+- `w`
+- `r`
+- `a`

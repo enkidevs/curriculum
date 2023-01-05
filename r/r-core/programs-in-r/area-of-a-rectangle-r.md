@@ -6,12 +6,6 @@ tags:
   - discussion
 type: normal
 category: must-know
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-    - type-in-the-gap
-  context: standalone
-
 ---
 
 # Area of a rectangle
@@ -64,36 +58,3 @@ area <- calculate_area(length, width)
 
 print(paste("The area of the rectangle is", area))
 ```
-
----
-## Practice
-
-Complete the code to finish the program:
-
-```r
-calculate_area <- function(length, width) {
-  return(length * width)
-}
-
-length <- 8
-width <- 5
-
-area <- calculate_area(length, width)
-
-print(paste("The area of the rectangle is", area))
-```
-
-
-
----
-## Revision
-
-What is the basic data type for a vector of categorical variables in R?
-
-???
-
-- `factor`
-- `character`
-- `numeric`
-- `logical`
-- `NULL`

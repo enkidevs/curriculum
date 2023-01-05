@@ -11,7 +11,11 @@ practiceQuestion:
     - fill-in-the-gap
     - type-in-the-gap
   context: standalone
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # as.logical & as.vector
@@ -84,6 +88,8 @@ v <- as.vector(c("True", "False", "True"))
 v <- as.logical(c("True", "False", "True"))
 ```
 
+???
+
 - `D)`
 - `A)`
 - `B)`
@@ -107,6 +113,8 @@ v <- as.character(c(1, 0, 1))
 # D) 
 v <- as.vector(c(1, 0, 1))
 ```
+
+???
 
 - `A)`
 - `D)`

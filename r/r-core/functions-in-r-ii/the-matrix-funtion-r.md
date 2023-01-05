@@ -10,6 +10,10 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 
 ---
 
@@ -18,7 +22,6 @@ practiceQuestion:
 ---
 
 ## Content
-
 
 The `matrix` function is a useful function in R that allows you to create a matrix, or a two-dimensional array, of data. Matrices are useful for storing and manipulating tabular data, and are often used for statistical and mathematical operations.
 

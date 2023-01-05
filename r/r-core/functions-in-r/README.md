@@ -8,7 +8,6 @@ insights:
   - function-methods-in-r-ii
   - the-paste-function-in-r
   - the-paste-function-in-r-ii
-  - the-matrix-function-r
 
 
 aspects:

@@ -9,6 +9,12 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
   context: standalone
 
 ---
@@ -49,29 +55,28 @@ print(names(square_numbers))
 # "1" "2" "3" "4" "5"
 ```
 
-
 ---
 ## Practice
 
-Complete the following code snippet to make a duplicate of the variable `my_house` called `new_house`:
+Complete the following code snippet remove all elements from the variable `my_house`:
 
 ```r
-my_house <- list(bedrooms: 2, bathrooms: 2, garden: TRUE)
+???(my_house)
 
-new_house <- ???.???
+print(my_house)
+# NULL
 ```
 
-- my_house
-- duplicate()
-- clone()
-- copy()
-- duplicate
+- `rm`
+- `remove`
+- `clone`
+- `copy`
+- `delete`
 
 ---
 ## Revision
 
 What function can be used to return the names of the elements in a dictionary as a character vector?
-
 
 ```r
 english_to_french <- list(apple: 'pomme', orange: 'orange')
@@ -80,11 +85,7 @@ english_to_french.???
 # "orange" "apple"
 ```
 
-- names()
-- keys()
-- contents()
-- items()
-
----
-## Footnotes
-
+- `names()`
+- `keys()`
+- `contents()`
+- `items()`

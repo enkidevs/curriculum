@@ -12,6 +12,7 @@ sections:
     - data-type-conversions
     - conditional-statements-in-r
     - functions-in-r
+    - functions-in-r-ii
     - environment-variables-in-r
     - loops-in-r
     - looping-techniques-in-r

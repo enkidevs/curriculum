@@ -6,11 +6,6 @@ tags:
   - discussion
 type: normal
 category: must-know
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-    - type-in-the-gap
-  context: standalone
 
 ---
 
@@ -21,7 +16,6 @@ practiceQuestion:
 ## Content
 
 In **R**, it is often necessary to convert data from one type to another. For example, you may need to convert a string to a number, or a vector to a matrix. Here are some common functions for converting data types in **R**:
-
 
 - `as.numeric`: Converts an object to numeric (integer or double) type.
 - `as.integer`: Converts an object to integer type.
@@ -39,36 +33,3 @@ Another way to check which data type a value has is with the `typeof()` method.
 
 We will discuss some examples on how to use them in the following insights.
 
-
----
-## Practice
-
-Complete the code to finish the program:
-
-```r
-calculate_area <- function(length, width) {
-  return(length * width)
-}
-
-length <- 8
-width <- 5
-
-area <- calculate_area(length, width)
-
-print(paste("The area of the rectangle is", area))
-```
-
-
-
----
-## Revision
-
-What is the basic data type for a vector of categorical variables in R?
-
-???
-
-- `factor`
-- `character`
-- `numeric`
-- `logical`
-- `NULL`

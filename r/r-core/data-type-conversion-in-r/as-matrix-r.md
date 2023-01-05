@@ -11,6 +11,11 @@ practiceQuestion:
     - fill-in-the-gap
     - type-in-the-gap
   context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 
 ---
 
@@ -50,7 +55,6 @@ print(m)
 
 Which of the following will create a 3x3 matrix from a numeric vector?
 
-
 ```r
 # A) 
 m <- matrix(c(1, 2, 3, 4, 5, 6, 7, 8, 9), nrow = 3, ncol = 3)
@@ -64,6 +68,8 @@ m <- as.matrix(c(1, 2, 3, 4, 5, 6, 7, 8, 9), nrow = 2, ncol = 4)
 # D) 
 m <- matrix(c(1, 2, 3, 4, 5, 6, 7, 8, 9), nrow = 2, ncol = 4)
 ```
+
+???
 
 - `B)`
 - `A)`
@@ -90,6 +96,8 @@ m <- matrix(c("a", "b", "c", "d", "e", "f", "g", "h"), nrow = 2, ncol = 4)
 # D) 
 m <- matrix(c("a", "b", "c", "d", "e", "f", "g", "h"), nrow = 4, ncol = 2)
 ```
+
+???
 
 - `B)`
 - `A)`

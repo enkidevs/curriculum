@@ -38,11 +38,10 @@ plot(x, y)
 ---
 ## Practice
 
-Let's try some **R** code! Do you remember how to print a message to the console?
+Let's try some **R** code! Do you know how to print a message to the console?
 
 Don't worry; this is to get you comfortable with code.
 You'll learn all about how this works in the upcoming lessons.
-
 
 ```r
 message <- "Hello, world!"

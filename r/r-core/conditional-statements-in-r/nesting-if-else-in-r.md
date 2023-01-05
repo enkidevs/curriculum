@@ -90,10 +90,10 @@ result <- ifelse(x > 0, ifelse(x > 10, "x is greater than 10", "x is between 1 a
 
 # Print the result
 print(result)
-# ???
+# "???"
 ```
 
-- `"x is between 1 and 10"`
-- `"x is greater than 10"`
-- `"x is 0 or negative"`
+- `x is between 1 and 10`
+- `x is greater than 10`
+- `x is 0 or negative`
 - `Error`
