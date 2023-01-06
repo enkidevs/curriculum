@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 6th 2023
+
+### Added
+- [Intro to R - Topic - Add new topic](https://github.com/enkidevs/curriculum/pull/3150)
+
 ## January 4th 2023
 
 ### Added

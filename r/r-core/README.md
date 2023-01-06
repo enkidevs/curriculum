@@ -9,7 +9,7 @@ sections:
     - intro-to-r
     - variables-and-data-types
     - unordered-data-types-r
-    - data-type-conversions
+    - data-type-conversions-in-r
     - conditional-statements-in-r
     - functions-in-r
     - functions-in-r-ii

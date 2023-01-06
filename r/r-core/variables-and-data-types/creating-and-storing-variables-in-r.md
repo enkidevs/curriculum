@@ -68,7 +68,7 @@ Which of the following is **NOT** a way to create a variable in **R**?
 - `z = c(x, y)`
 
 ---
-## Practice
+## Revision
 
 Finish the code to create a new variable called `z` by summing the values of the `x` and `y` variables. Print the new variable.
 ```r

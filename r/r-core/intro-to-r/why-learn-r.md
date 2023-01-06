@@ -9,11 +9,6 @@ type: normal
 
 category: must-know
 
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
-
 ---
 
 # Why It's Good to Learn R

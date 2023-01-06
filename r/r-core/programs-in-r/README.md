@@ -6,7 +6,7 @@ insights:
   - area-of-a-rectangle-r
   - fizz-buzz-r
   - calculator-r
-  - fibonacci-sequence-in-r
+  - fibonacci-sequence-r
   - prime-number-checker-r
   - factorial-r
   - reverse-a-string-r
