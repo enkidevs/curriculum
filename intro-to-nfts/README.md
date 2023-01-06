@@ -1,6 +1,6 @@
 name: Intro to NFTs
 
-icon: 'https://img.enkipro.com/db79b7f9f0366f0c0e4183480a71fb91.png'
+icon: 'https://img.enkipro.com/5978c30944938649dce922e2d89eb1a3.png'
 
 color: 'ffe0a6'
 
