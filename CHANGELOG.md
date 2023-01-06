@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 6th 2023
+
+### Changed
+- [Intro To NFTs - Topic Icon - Replace icon](https://github.com/enkidevs/curriculum/pull/3151)
+
 ## January 4th 2023
 
 ### Added
