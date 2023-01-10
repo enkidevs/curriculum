@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 10th 2023
+
+### Changed
+- [Comp sci - What is jitter - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3152)
+
 ## January 6th 2023
 
 ### Changed
