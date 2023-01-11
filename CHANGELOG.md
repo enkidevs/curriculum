@@ -48,10 +48,25 @@ Types of change:
 
 ### Fixed
 
-## January 4th 2023
+## January 11th 2023
 
 ### Fixed
 - [Comp Sci - Dijkstras Algorithm - Remove broken link and add new ones](https://github.com/enkidevs/curriculum/pull/3149)
+
+## January 6th 2023
+
+### Changed
+- [Intro To NFTs - Topic Icon - Replace icon](https://github.com/enkidevs/curriculum/pull/3151)
+
+## January 4th 2023
+
+### Added
+- [Intro to NFT - Topic - Add new topic](https://github.com/enkidevs/curriculum/pull/3147)
+
+## January 3rd 2023
+
+### Fixed
+- [SQL - Check constraint - Fix typo](https://github.com/enkidevs/curriculum/pull/3148)
 
 ## December 16th 2022
 
