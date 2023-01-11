@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 11th 2023
+
+### Fixed
+- [Comp Sci - Dijkstras Algorithm - Remove broken link and add new ones](https://github.com/enkidevs/curriculum/pull/3149)
+
 ## January 6th 2023
 
 ### Changed
