@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 12th 2023
+
+### Changed
+- [Coding intro - Lets use a variable - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3153)
+
 ## January 11th 2023
 
 ### Fixed
