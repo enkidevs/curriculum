@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+### January 17th 2023
+
+### Fixed
+-[Html - comments - fix typos](https://github.com/enkidevs/curriculum/pull/3154)
+
 ## January 12th 2023
 
 ### Changed
