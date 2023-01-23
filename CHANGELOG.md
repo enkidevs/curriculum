@@ -50,6 +50,9 @@ Types of change:
 
 ## January 23rd 2023
 
+### Changed
+- [Typescript - Classes and Interfaces - remove type in teh gap](https://github.com/enkidevs/curriculum/pull/3157)
+
 ### Added
 - [Tech Interviews - Topic - Add workout aspect](https://github.com/enkidevs/curriculum/pull/3155)
 
