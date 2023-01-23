@@ -48,10 +48,15 @@ Types of change:
 
 ### Fixed
 
+## January 23rd 2023
+
+### Added
+- [Tech Interviews - Topic - Add workout aspect](https://github.com/enkidevs/curriculum/pull/3155)
+
 ## January 17th 2023
 
 ### Fixed
--[Html - comments - fix typos](https://github.com/enkidevs/curriculum/pull/3154)
+- [Html - comments - fix typos](https://github.com/enkidevs/curriculum/pull/3154)
 
 ## January 12th 2023
 
