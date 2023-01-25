@@ -51,6 +51,9 @@ Types of change:
 
 ## January 23rd 2023
 
+### Changed
+- [Typescript - Classes and Interfaces - remove type in teh gap](https://github.com/enkidevs/curriculum/pull/3157)
+
 ### Fixed
 - [Blockchain - Multiple Insights - Update domain for anders.com links ](https://github.com/enkidevs/curriculum/pull/3156)
 
