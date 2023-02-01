@@ -48,6 +48,8 @@ Types of change:
 
 ### Fixed
 
+## February 1st 2023
+- [Coding Intro - Accessing Dictionary Elements - Update Question](https://github.com/enkidevs/curriculum/pull/3158)
 
 ## January 23rd 2023
 
