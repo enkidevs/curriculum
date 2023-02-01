@@ -62,14 +62,12 @@ my_dog = {
   color: "yellow"
 }
 
-my_dog??????
+my_dog???
 // "yellow"
 ```
 
-- .
-- color
-- ,
-- "yellow"
+- .color
+- ["yellow"]
 
 
 ---
