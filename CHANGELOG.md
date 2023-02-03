@@ -53,6 +53,10 @@ Types of change:
 ### Changed
 - [Comp sci - What is jitter - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3152)
 
+### Added
+- [JavaScript - Tech Interview Exercises - add 25 exercises](https://github.com/enkidevs/curriculum/pull/3141)
+- [Python - Tech Interview Exercises - add 25 exercises](https://github.com/enkidevs/curriculum/pull/3140)
+
 ## February 1st 2023
 - [Coding Intro - Accessing Dictionary Elements - Update Question](https://github.com/enkidevs/curriculum/pull/3158)
 
@@ -106,8 +110,6 @@ Types of change:
 - [Tech Interviews - Tech Interview Exercises - Make exercises go after the preparation course](https://github.com/enkidevs/curriculum/pull/3142)
 
 ### Added
-- [JavaScript - Tech Interview Exercises - add 25 exercises](https://github.com/enkidevs/curriculum/pull/3141)
-- [Python - Tech Interview Exercises - add 25 exercises](https://github.com/enkidevs/curriculum/pull/3140)
 - [Tech Interviews - Tech Interview Exercises - Add 25 exercises](https://github.com/enkidevs/curriculum/pull/3139)
 
 ### Fixed
