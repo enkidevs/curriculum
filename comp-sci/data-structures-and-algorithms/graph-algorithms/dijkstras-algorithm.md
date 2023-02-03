@@ -4,8 +4,9 @@ type: normal
 category: must-know
 links:
   - >-
-    [Step-by-step, interactive Dijkstra`s algorithm
-    application](https://www-m9.ma.tum.de/graph-algorithms/spp-dijkstra/index_en.html){website}
+    [Dijkstra's algorithm](https://algorithms.discrete.ma.tum.de/graph-algorithms/spp-dijkstra/index_en.html){website}
+  - >-
+    [Dijkstra's algorithm video](https://www.youtube.com/watch?v=GazC3A4OQTE){video}
 revisionQuestion:
   formats:
     - fill-in-the-gap
