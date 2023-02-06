@@ -16,7 +16,7 @@ The robot instructions are almost done! We're getting hungry.
 
 Let's do the part 3 of our recipe[1] now, the grilling of the sandwich:
 
-```plain-text
+```pseudo
 FUNCTION grill_sandwich
   INPUT sandwich, pan, plate
   INSTRUCT heated_pan = preheat_the_pan(pan)

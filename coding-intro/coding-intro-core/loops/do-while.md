@@ -26,7 +26,7 @@ In a `DO..WHILE` loop, you start by running the code for the first time, followe
 
 Going back to our sandwiches, let's say you want to make sure there is always one sandwich available.
 
-```plain-text
+```pseudo
 hungry = true
 sandwiches_made = 0
 
@@ -68,7 +68,7 @@ In a `DO..WHILE` loop, which happens first?
 
 What is the value of the variable `sandwiches_made` when the code stops running?
 
-```plain-text
+```pseudo
 sandwiches_made = 0
 
 DO (
