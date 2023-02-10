@@ -70,25 +70,26 @@ The bug here is that the `while` condition will always evaluate `True` and the p
 
 ## Practice
 
-Fill in the output of the `counter(3)` function:
-
+Given the following code:
 ```python
-1 def counter(x):
-2   print("Line 2:", x)
-3   while x > 0:
-4     print(x)
-5     x -= 1
-6   print("Line 6:", x)
+def counter(x):
+  print("Initial value:", x)
+  while x > 0:
+    print(x)
+    x -= 1
+  print("Final value:", x)
 ```
+
+What would the output be if we plug in `3` into the `counter()` function?
 
 ```py
 counter(3)
 
-# Line 2: 3
+# Initial value: 3
 # ???
 # ???
 # ???
-# Line 6: ???
+# Final value: ???
 ```
 
 - 3
