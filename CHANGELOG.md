@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 6th 2023
+
+### Changed
+- [Coding intro - Whole topic - Add new syntax highlighter and update two insights](https://github.com/enkidevs/curriculum/pull/3159)
+
 ## February 3rd 2023
 
 ### Changed
