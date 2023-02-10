@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 10th 2023
+
+### Fixed
+- [Python Data Analysis - Couple Insights - Fix broken links](https://github.com/enkidevs/curriculum/pull/3161)
+
 ## February 3rd 2023
 
 ### Changed
