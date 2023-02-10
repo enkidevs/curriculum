@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 10th 2023
+
+### Changed
+- [Python - Debugging With Print - Update question](https://github.com/enkidevs/curriculum/pull/3160)
+
 ## February 3rd 2023
 
 ### Changed
