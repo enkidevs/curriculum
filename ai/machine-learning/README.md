@@ -8,8 +8,8 @@ sections:
   '0':
     - welcome
     - learning-through-examples
-    - learning-by-doing
-    - learning-by-chasing-a-reward
+    - learn-by-doing
+    - learn-by-chasing-a-reward
     - in-practice
     - models-and-methods
     - neural-networks
