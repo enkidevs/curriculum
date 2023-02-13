@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 13th 2023
+
+### Changed
+- [Python - Intro To Modules Discussion - Add comment for import statement](https://github.com/enkidevs/curriculum/pull/3163)
+
 ## February 6th 2023
 
 ### Changed
