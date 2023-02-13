@@ -1,6 +1,6 @@
 name: Welcome
 
-description: What’s ML all about?
+description: What's ML all about?
 
 insights:
   - why-is-ml-important

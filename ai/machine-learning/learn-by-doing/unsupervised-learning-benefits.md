@@ -23,7 +23,7 @@ This is useful when dealing with complex datasets where labeled data may be diff
 
 For example, imagine you have a dataset of customer purchase behavior and you want to understand the underlying patterns. 
 
-Unsupervised clustering can help you group customers into 'frequent buyers' or 'occasional buyers' without you needing to create labeled examples.
+Unsupervised clustering can help you group customers into '*frequent buyers*' or '*occasional buyers*' without you needing to create labeled examples.
 
 > 💡 This saves time and resources compared to supervised learning
 

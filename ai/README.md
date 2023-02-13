@@ -1,6 +1,6 @@
-name: Ai
+name: AI
 
-description: Ai's and Machine Learning
+description: Learn how intelligent systems work, and use them to solve real-world problems.
 
 color: 0984E3
 

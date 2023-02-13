@@ -17,7 +17,9 @@ AI is a broader term encompassing a range of technologies that can make machines
 
 An example would be a computer system[1] that can drive a car.
 
-> AI is a system that is capable of intelligent tasks. ML are the techniques that system uses to learn.
+> 💡 AI is a system that is capable of intelligent tasks. ML are the techniques that system uses to learn.
+
+![AI vs ML](https://img.enkipro.com/886d64f9c909883e99b4135aa3a7eb7d.png)
 
 ---
 ## Footnotes

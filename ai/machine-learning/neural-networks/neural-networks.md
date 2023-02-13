@@ -34,7 +34,7 @@ How much it turns on, between dim or bright, depends on its sensitivity to diffe
 > 💡 The sensitivity of a neuron to a feature is called a **weight**[3]
 
 ---
-### Practice
+## Practice
 
 The baseline activation level of a neuron is called a ???.
 

@@ -14,7 +14,7 @@ revisionQuestion:
 
 A real-world example of reinforcement learning is your social media feed. 
 
-Each time you like an Instagram post, watch a TikTok video, or retweet a Tweet, you’re effectively rewarding the algorithm to serve you more of that kind of content.
+Each time you like an Instagram post, watch a TikTok video, or retweet a Tweet, you're effectively rewarding the algorithm to serve you more of that kind of content.
 
 Similarly, each time you dislike a post, skip a video, or report a tweet, you're "punishing" the algorithm to stop serving you such content.
 

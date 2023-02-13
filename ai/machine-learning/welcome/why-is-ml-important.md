@@ -11,9 +11,9 @@ category: discussion
 
 Machine learning is everywhere around us.
 
-- Google uses it to provide the best search results for you
-- Instagram uses it to sort your photo feed
-- NASA uses it to navigate the Mars rover
+- 🔎 Google uses it to provide the best search results for you
+- 🤳 Instagram uses it to sort your photo feed
+- 🚀 SpaceX uses it to navigate their rockets
 
 It powers technologies such as self-driving cars, cancer detection machines, and weather forecasting systems.
 

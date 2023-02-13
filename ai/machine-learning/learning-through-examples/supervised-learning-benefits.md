@@ -20,7 +20,7 @@ Since a supervised learning model is trained on known labeled outcomes, it has h
 
 A model trained on thousands of spam examples would have high accuracy in recognizing spam.
 
-![spam not spam](https://img.enkipro.com/ee9fb2486c98b0dd5d78563f6e8afc01.png)
+![spam not spam](https://img.enkipro.com/40f15e50c6a01c5bf5790f9a96a02784.png)
 
 This model would also be efficient at producing results because it has a clear target and consistent examples.
 

@@ -1,6 +1,6 @@
-name: Introduction to ML
+name: Intro to ML
 
-description: Explore various types of machine learning algorithms such as supervised learning, unsupervised learning, and more.
+description: Understand how machines can learn and make decisions just like humans!
 
 core: true
 

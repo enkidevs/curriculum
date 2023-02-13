@@ -33,6 +33,22 @@ This is similar to how we combine the predictions of multiple models to produce 
 > Leave a comment or view other comments for inspiration before moving on.
 
 ---
+## Practice
+
+Consider a scenario where you have 10 different weather forecasters who each make daily predictions about the temperature in your city. 
+
+You can combine their individual predictions to make a single, more accurate prediction about the temperature. 
+
+This can be done in a number of ways, such as taking the average of their predictions, or weighting some forecasters more heavily than others based on their past accuracy.
+
+Techniques for combining machine learning models to make more accurate predictions are called ???.
+
+- ensemble methods
+- aggregation pipelines
+- organization tools
+- model grouping
+
+---
 ## Revision
 
 Consider a scenario where you have 10 different weather forecasters who each make daily predictions about the temperature in your city. 

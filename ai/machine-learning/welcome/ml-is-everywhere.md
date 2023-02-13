@@ -11,23 +11,23 @@ category: discussion
 
 Machine learning is all around us:
 
-### Image recognition
+### 📸 Image recognition
 
 Used in security cameras, self-driving cars, and social media photo tagging.
 
-### Natural Language Processing (NLP)
+### 💬 Natural Language Processing (NLP)
 
 Used in language translation, speech recognition, and sentiment analysis.
 
-### Recommender systems
+### ⭐ Recommender systems
 
 Used in movie and music recommendations, product recommendations, and news recommendations.
 
-### Fraud detection
+### 💸 Fraud detection
 
 Used in credit card fraud detection and anti-money laundering.
 
-### Healthcare
+### 🏥 Healthcare
 
 Used in cancer diagnosis, drug discovery, and personalized medicine.
 
