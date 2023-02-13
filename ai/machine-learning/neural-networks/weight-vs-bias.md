@@ -1,7 +1,7 @@
 ---
 author: nemanjaenki
-type: tip
-category: must-know
+type: normal
+category: tip
 ---
 
 # Weight vs Bias
