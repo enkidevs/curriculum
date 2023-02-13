@@ -48,6 +48,8 @@ Types of change:
 
 ### Fixed
 
+- [Machine Learning - Topic - Add new content](https://github.com/enkidevs/curriculum/pull/3162)
+
 ## February 6th 2023
 
 ### Changed
