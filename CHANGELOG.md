@@ -50,6 +50,9 @@ Types of change:
 
 ## February 14th 2023
 
+### Changed
+- [Python - Debugging With Print - Update question](https://github.com/enkidevs/curriculum/pull/3160)
+
 ### Fixed
 - [Python Data Analysis - Initializing & Cleaning a Dataset - Fix wording for columns and rows](https://github.com/enkidevs/curriculum/pull/3164)
 
