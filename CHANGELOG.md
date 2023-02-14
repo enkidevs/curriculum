@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 14th 2023
+
+### Fixed
+- [Python Data Analysis - Initializing & Cleaning a Dataset - Fix wording for columns and rows](https://github.com/enkidevs/curriculum/pull/3164)
+
 ## February 13th 2023
 
 ### Changed
