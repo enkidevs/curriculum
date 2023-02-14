@@ -46,7 +46,7 @@ To check the total number of rows and columns in your dataset, add `.shape` to y
 
 This dataset has 6234 rows and 12 columns.
 
-Rows start from 0 instead of 1. This is why the last rows index is 6233 instead of 6234.
+Rows start from 0 instead of 1. That is why the last row's index is 6233 instead of 6234.
 
 > We will remove the columns we don't need for our analysis and leave the ones we will use in this workout.
 
