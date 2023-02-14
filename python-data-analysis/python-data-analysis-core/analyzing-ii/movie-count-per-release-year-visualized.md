@@ -7,7 +7,7 @@ category: how-to
 
 links:
   - >-
-    [Line Styles](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.plot.html){documentation}
+    [Line Styles](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html){documentation}
 
 practiceQuestion:
   formats:
