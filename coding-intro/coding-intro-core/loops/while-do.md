@@ -28,7 +28,7 @@ The rule is that you **must** check the condition first, and only after that can
 
 Let's take a look at an example:
 
-```plain-text
+```pseudo
 hungry = true
 sandwiches_made = 0
 
@@ -58,7 +58,7 @@ We created a complex condition: if the `hungry` variable is equal to `true` **an
 
 Complete this loop such that it runs only if `number` is between `1` and `100` (inclusive):
 
-```plain-text
+```pseudo
 ??? (
   number ??? 1 
   AND ??? <= 100

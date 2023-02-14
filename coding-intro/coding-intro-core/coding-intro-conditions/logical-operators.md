@@ -32,7 +32,7 @@ Since we're not using them at the moment, let's use groups of numbers for the *p
 
 To do this, we'll have to use the `AND` logical operator:
 
-```plain-text
+```pseudo
 IF (input == 0) THEN
   INSTRUCT do_nothing()
 ELSE IF (
@@ -83,7 +83,7 @@ Which of these is **not** a logical operator?
 
 Fill in the gaps:
 
-```plain-text
+```pseudo
 ??? - negates the condition
 ??? - all conditions must evaluate to true
 ??? - any condition must evaluate to true

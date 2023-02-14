@@ -48,10 +48,23 @@ Types of change:
 
 ### Fixed
 
-## February 10th 2023
+## February 14th 2023
 
 ### Changed
 - [Python - Debugging With Print - Update question](https://github.com/enkidevs/curriculum/pull/3160)
+
+### Fixed
+- [Python Data Analysis - Initializing & Cleaning a Dataset - Fix wording for columns and rows](https://github.com/enkidevs/curriculum/pull/3164)
+
+## February 13th 2023
+
+### Changed
+- [Python - Intro To Modules Discussion - Add comment for import statement](https://github.com/enkidevs/curriculum/pull/3163)
+
+## February 6th 2023
+
+### Changed
+- [Coding intro - Whole topic - Add new syntax highlighter and update two insights](https://github.com/enkidevs/curriculum/pull/3159)
 
 ## February 3rd 2023
 
