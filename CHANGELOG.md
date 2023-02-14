@@ -55,6 +55,7 @@ Types of change:
 
 ### Fixed
 - [Python Data Analysis - Initializing & Cleaning a Dataset - Fix wording for columns and rows](https://github.com/enkidevs/curriculum/pull/3164)
+- [Python Data Analysis - Couple Insights - Fix broken links](https://github.com/enkidevs/curriculum/pull/3161)
 
 ## February 13th 2023
 
@@ -65,6 +66,7 @@ Types of change:
 
 ### Changed
 - [Coding intro - Whole topic - Add new syntax highlighter and update two insights](https://github.com/enkidevs/curriculum/pull/3159)
+
 
 ## February 3rd 2023
 

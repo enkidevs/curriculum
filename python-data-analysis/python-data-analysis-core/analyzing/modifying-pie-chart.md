@@ -9,7 +9,7 @@ links:
   - >-
     [Matplotlib Modules](https://matplotlib.org/stable/py-modindex.html){documentation}
   - >-
-    [Pyplot Module](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html#module-matplotlib.pyplot){documentation}
+    [Pyplot Module](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html){documentation}
   - >-
     [String Formatting](https://thepythonguru.com/python-string-formatting/){documentation}
 
