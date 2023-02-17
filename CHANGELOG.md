@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 17th 2023
+
+### Changed
+- [Linux - Using Find to search by file name - Change tilde to home directory in question](https://github.com/enkidevs/curriculum/pull/3165)
+
 ## February 14th 2023
 
 ### Changed
