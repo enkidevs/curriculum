@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 20th 2023
+
+### Changed
+- [Python - While Loops - Update answer](https://github.com/enkidevs/curriculum/pull/3166)
+
 ## February 14th 2023
 
 ### Changed
