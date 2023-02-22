@@ -15,4 +15,4 @@ In addition to the data types mentioned earlier, such as numbers, strings, and b
 
 These are Tables, Maps/Dictionaries, Sets and Arrays.
 
-Note that Maps, Sets, and Arrays are all a type of Table.
+Note that Maps/Dictionaries, Sets, and Arrays are all a type of Table.

@@ -14,7 +14,7 @@ Lua is a lightweight and fast programming language that can be used for a wide r
 
 **Extensibility**: great for scripting and extending other applications.
 
-**Simplicity**: simple and consistent syntax that's easy to learn.
+**Simplicity**: simple and consistent syntax.
 
 **Performance**: fast and efficient, making it ideal for performance-critical applications.
 

@@ -13,7 +13,7 @@ revisionQuestion:
 
 ---
 
-# Functions in Lua II
+# More on Functions
 
 ---
 ## Content

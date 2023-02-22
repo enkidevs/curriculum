@@ -80,8 +80,7 @@ Finish the code to iterate over a dictionary called `people` and print out each 
   John = "Lawyer"
 }
 
-
-for ???, value in pairs(???) do
+??? ???, value in pairs(???) do
     print(key, ???)
 end
 ```

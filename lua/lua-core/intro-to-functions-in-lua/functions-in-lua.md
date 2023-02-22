@@ -33,7 +33,6 @@ This function is called `greetings`, and when it is executed, it prints the stri
 greetings()
 ```
 
-
 ---
 ## Practice
 

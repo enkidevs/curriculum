@@ -13,7 +13,7 @@ revisionQuestion:
 
 ---
 
-# More on Functions 
+# Assigning Functions to Variables 
 
 ---
 ## Content

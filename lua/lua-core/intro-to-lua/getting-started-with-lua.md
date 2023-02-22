@@ -15,11 +15,11 @@ Lua is a great language for beginners who want to get started with programming. 
 
 **Install Lua**: Before you can start coding in Lua, you need to install it on your computer. You can download the Lua interpreter from the official Lua website.
 
-**Choose a text editor**: To write your Lua code, you need a text editor. There are many options to choose from, including Sublime Text, Atom, and Notepad++. Choose the one that you're most comfortable with.
+**Choose a text editor**: To write your Lua code, you need a text editor. There are many options to choose from, including Sublime Text, Atom, Notepad++, VSCode and more. Choose the one that you're most comfortable with.
 
-**Learn the basics**: Once you have Lua installed and a text editor set up, it's time to start learning the basics of the language. You can start with the official Lua documentation, which includes a tutorial that will walk you through the basics.
+**Learn the basics**: Once you have Lua installed and a text editor set up, it's time to start learning the basics of the language.
 
-**Practice with examples**: As you learn, try writing some small Lua programs on your own. You can find plenty of example code online to get you started.
+**Practice with examples**: As you learn, try writing some small Lua programs on your own. You can find plenty of example code throughout this course as well as online.
 
 **Join the community**: Lua has a friendly and supportive community of users and developers. Joining a Lua forum or mailing list can be a great way to get help when you need it and to connect with other Lua programmers.
 
