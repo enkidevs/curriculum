@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 22nd 2023
+
+### Changed
+- [Java - altering format string output by changing a format specifiers argument index - update question](https://github.com/enkidevs/curriculum/pull/3144)
+
 ## February 20th 2023
 
 ### Changed
