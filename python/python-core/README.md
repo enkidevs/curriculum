@@ -42,6 +42,7 @@ sections:
     - more-on-dictionaries
     - python-recipes
     - deep-into-collections
+    - python-threading
     - advanced-queues
   '3':
     - classes-iii

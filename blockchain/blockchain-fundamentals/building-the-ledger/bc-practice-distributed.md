@@ -1,8 +1,8 @@
 ---
 author: mihaiberq
 type: exercise
-link: 'https://anders.com/blockchain/distributed.html'
-linkType: anders
+link: 'https://andersbrownworth.com/blockchain/distributed'
+linkType: andersbrownworth
 answer: 00008e599d1733a484631fca41fd8fcd0a39d9c08f87f95bfdadf8101c6189f6
 links:
   - '[Demo for the website](https://youtu.be/_160oMzblY8?t=559){video}'

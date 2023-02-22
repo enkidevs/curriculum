@@ -1,6 +1,6 @@
-name: Miles To Kilometres
+name: Miles to Kilometres
 
-description: Create a program to transform Miles to Kilometres or vice versa.
+description: Create a program to transform miles to kilometres or vice versa.
 
 aspects:
   - workout

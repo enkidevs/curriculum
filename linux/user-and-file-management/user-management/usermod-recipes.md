@@ -84,8 +84,7 @@ As you've already seen, there are multiple ways to achieve the same result. It's
 Add the user `user` to the group `root`:
 
 ```bash
-??? ??? ???
-      root user
+??? ??? ??? root user
 ```
 
 - `usermod`

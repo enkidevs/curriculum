@@ -88,15 +88,15 @@ The `<header>` element is encouraged to do which of the following?
 Which container is best to organize the top of a web page or content section?
 
 ```html
-???
+<???>
 ```
 
-- `<header>`
-- `<head>`
-- `<top>`
-- `<section>`
-- `<main>`
-- `<nav>`
+- `header`
+- `head`
+- `top`
+- `section`
+- `main`
+- `nav`
 
 
 ---

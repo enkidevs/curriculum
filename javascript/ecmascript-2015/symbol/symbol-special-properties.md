@@ -126,8 +126,8 @@ console.log(
 // ???
 ```
 
-- []
-- ['Symbol()']
-- ['Symbol(enki)']
-- ['Symbol()', 'Symbol(enki)']
+- `[]`
+- `['Symbol()']`
+- `['Symbol(enki)']`
+- `['Symbol()', 'Symbol(enki)']`
  

@@ -21,7 +21,7 @@ revisionQuestion:
 
 Now, knowing that `0` means "do nothing", we'll want the robot to take an action if `input` has any other value:
 
-```plain-text
+```pseudo
 IF (input == 0) THEN
   INSTRUCT do_nothing()
 ELSE
@@ -51,7 +51,7 @@ The next step is to create different *paths*:
 
 As a reminder, here is the instruction that led to making a grilled cheese sandwich:
 
-```plain-text
+```pseudo
 INSTRUCT make_a_grill_cheese_sandwich(cheese, grater, bowl, bread, butter, pan, plate)
 ```
 
@@ -59,7 +59,7 @@ To make the sandwich with a different type of bread, we'll create a variable nam
 
 To make the type change depending on the `input` value we would type:
 
-```plain-text
+```pseudo
 IF (input == 0) THEN
   INSTRUCT do_nothing()
 ELSE IF (input == 1) THEN
@@ -91,7 +91,7 @@ You can chain multiple conditions using `ELSE IF`. If the `input` is `1` then th
 
 Complete the condition such that you only make a sandwich if you're hungry:
 
-```plain-text
+```pseudo
 hungry = ???
 
 ??? (??? == true) THEN
@@ -119,7 +119,7 @@ hungry = ???
 
 Complete the following condition chain:
 
-```plain-text
+```pseudo
 ??? condition_1 THEN
   INSTRUCT do_something()
 ??? condition_2 THEN

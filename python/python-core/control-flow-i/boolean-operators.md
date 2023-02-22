@@ -62,7 +62,7 @@ When using the `or` operator, *at least one of the conditions* must evaluate to 
 
 ## Practice
 
-Complete the code snippet so that both conditions must evaluate to `True` for the word `'yes'` to be printed:
+Complete the code snippet so that **both** conditions must evaluate to `True` for the word `'yes'` to be printed:
 
 ```python
 x = 6
@@ -85,7 +85,7 @@ else:
 
 ## Revision
 
-Complete the code snippet so that at least one of the conditions must evaluate to `True` for the word `'yes'` to be printed:
+Complete the code snippet so that **at least one** of the conditions must evaluate to `True` for the word `'yes'` to be printed:
 
 ```python
 x = 6

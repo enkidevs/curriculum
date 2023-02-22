@@ -92,21 +92,21 @@ FROM pokedex_name;
 
 ## Revision
 
-Consider the following table and the following query. Fill the gaps such that we will have no duplicates in the resulting table:
+Consider the following table named `GRADES` with the following query. Fill the gaps such that we will have no duplicate `NAME`s in the resulting table:
 
-| NAME      | GRADES |
-|-----------|--------|
-| John      | 56%    |
-| Sebastian | 68%    |
-| Doris     | 56%    |
-| Alice     | 88%    |
-| Stefan    | 68%    |
-| Raul      | 50%    |
+| NAME      | GRADE_PERC |
+|-----------|------------|
+| John      | 56%        |
+| Sebastian | 68%        |
+| Doris     | 56%        |
+| Alice     | 88%        |
+| Stefan    | 68%        |
+| Raul      | 50%        |
 
 ```sql
 SELECT ???
 FROM ???
-??? BY GRADES;
+??? BY GRADE_PERC;
 ```
 
 - `DISTINCT name`

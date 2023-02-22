@@ -32,12 +32,13 @@ To solve this, try using the following concepts:
 - importing modules (`import`, `from...import`...)
 - function creation (`def...`)
 
-As for the file name, add it as a comment at the top of the code block where you've defined the function.
+As for the file name and import statement, add them as a comment at the top of the code block where you've defined the function.
 
 For instance:
 
 ```py
 # my_first_module.py
+# import ...
 
 # code here
 ```

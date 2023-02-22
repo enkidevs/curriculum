@@ -60,13 +60,13 @@ FROM pokemon JOIN attack
 Notice that the query makes references to both tables and then also states the **joining condition**[1] (`pokemon.id = attack.id`). 
 This query returns the following:
 
-| name       | route |
-| ---------- | ----- |
-| venusaur   | NULL  |
-| charmeleon | 4     |
-| pikachu    | 4     |
-| squirtle   | 25    |
-| magikarp   | 6     |
+| name       | type1    |
+|------------|----------|
+| venusaur   | grass    |
+| charmeleon | fire     |
+| pikachu    | electric |
+| squirtle   | water    |
+| magikarp   | water    |
 
 > 💡 There are many different types of joins, with different implementations and different results. These are covered in the following few workouts.
 

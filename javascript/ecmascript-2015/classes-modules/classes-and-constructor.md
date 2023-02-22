@@ -107,7 +107,7 @@ console.log(myRec.length)
 
 ## Revision
 
-How would you assign a variable `volume` passed to the constructor to a class?
+How would you assign a variable `volume` passed to the constructor to a class member variable?
 
 ```javascript
 class Sphere() {
