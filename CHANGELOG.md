@@ -399,7 +399,6 @@ Types of change:
 ### Fixed
 - [SQL - The Roles That Joins Play - Replace wrong output table with the correct one](https://github.com/enkidevs/curriculum/pull/3044)
 
-
 ## February 7th 2022
 
 ### Fixed
