@@ -48,9 +48,10 @@ Types of change:
 
 ### Fixed
 
-## February 22nd 2023
+## February 22th 2023
 
 ### Changed
+- [Linux - Using Find to search by file name - Change tilde to home directory in question](https://github.com/enkidevs/curriculum/pull/3165)
 - [Java - altering format string output by changing a format specifiers argument index - update question](https://github.com/enkidevs/curriculum/pull/3144)
 
 ## February 20th 2023
