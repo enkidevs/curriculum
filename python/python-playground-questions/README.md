@@ -34,3 +34,6 @@ sections:
     - pascals-triangle
     - beginning-and-end-pairs
     - harmonic-series
+
+next:
+  - python:tech-interview-questions-py

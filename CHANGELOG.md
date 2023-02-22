@@ -48,10 +48,89 @@ Types of change:
 
 ### Fixed
 
-## December 20th 2022
+## February 22nd 2023
 
 ### Changed
 - [Java - altering format string output by changing a format specifiers argument index - update question](https://github.com/enkidevs/curriculum/pull/3144)
+
+## February 20th 2023
+
+### Changed
+- [Python - While Loops - Update answer](https://github.com/enkidevs/curriculum/pull/3166)
+
+## February 14th 2023
+
+### Changed
+- [Python - Debugging With Print - Update question](https://github.com/enkidevs/curriculum/pull/3160)
+
+### Fixed
+- [Python Data Analysis - Initializing & Cleaning a Dataset - Fix wording for columns and rows](https://github.com/enkidevs/curriculum/pull/3164)
+- [Python Data Analysis - Couple Insights - Fix broken links](https://github.com/enkidevs/curriculum/pull/3161)
+
+## February 13th 2023
+
+### Changed
+- [Python - Intro To Modules Discussion - Add comment for import statement](https://github.com/enkidevs/curriculum/pull/3163)
+
+## February 6th 2023
+
+### Changed
+- [Coding intro - Whole topic - Add new syntax highlighter and update two insights](https://github.com/enkidevs/curriculum/pull/3159)
+
+
+## February 3rd 2023
+
+### Changed
+- [Comp sci - What is jitter - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3152)
+
+### Added
+- [JavaScript - Tech Interview Exercises - add 25 exercises](https://github.com/enkidevs/curriculum/pull/3141)
+- [Python - Tech Interview Exercises - add 25 exercises](https://github.com/enkidevs/curriculum/pull/3140)
+
+## February 1st 2023
+- [Coding Intro - Accessing Dictionary Elements - Update Question](https://github.com/enkidevs/curriculum/pull/3158)
+
+## January 23rd 2023
+
+### Changed
+- [Typescript - Classes and Interfaces - remove type in teh gap](https://github.com/enkidevs/curriculum/pull/3157)
+
+### Fixed
+- [Blockchain - Multiple Insights - Update domain for anders.com links ](https://github.com/enkidevs/curriculum/pull/3156)
+
+### Added
+- [Tech Interviews - Topic - Add workout aspect](https://github.com/enkidevs/curriculum/pull/3155)
+
+## January 17th 2023
+
+### Fixed
+- [Html - comments - fix typos](https://github.com/enkidevs/curriculum/pull/3154)
+
+## January 12th 2023
+
+### Changed
+- [Coding intro - Lets use a variable - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3153)
+
+## January 11th 2023
+
+### Fixed
+- [Comp Sci - Dijkstras Algorithm - Remove broken link and add new ones](https://github.com/enkidevs/curriculum/pull/3149)
+
+## January 6th 2023
+
+### Changed
+- [Intro To NFTs - Topic Icon - Replace icon](https://github.com/enkidevs/curriculum/pull/3151)
+
+## January 4th 2023
+
+### Added
+- [Intro to NFT - Topic - Add new topic](https://github.com/enkidevs/curriculum/pull/3147)
+
+## January 3rd 2023
+
+### Fixed
+- [SQL - Check constraint - Fix typo](https://github.com/enkidevs/curriculum/pull/3148)
+
 
 ## December 16th 2022
 
@@ -63,6 +142,9 @@ Types of change:
 
 ### Added
 - [Tech Interviews - Tech Interview Exercises - Add 25 exercises](https://github.com/enkidevs/curriculum/pull/3139)
+
+### Fixed
+- [Tech Interviews - Tech Interview Exercises - Make exercises go after the preparation course](https://github.com/enkidevs/curriculum/pull/3142)
 
 ## December 12th 2022
 

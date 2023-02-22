@@ -56,13 +56,13 @@ To do this, you need to use the special `print()` function.
 
 Here is how you would print the test `"Enki"`:
 
-```py
+```python
 print("Enki")
 ```
 
 And here is how you would print a collection's element:
 
-```py
+```python
 print(my_collection[0])
 ```
 
@@ -70,7 +70,7 @@ print(my_collection[0])
 
 There are many ways in which you can tackle this. For example, you could create a list that stores weekdays:
 
-```plain-text
+```python
 days = [
   "Monday",
   "Tuesday",
@@ -85,7 +85,7 @@ days = [
 
 Here is a reminder of how you can access the items:
 
-```plain-text
+```python
 days[0]
 // "Monday"
 ```
