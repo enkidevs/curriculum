@@ -50,6 +50,9 @@ Types of change:
 
 ## February 22th 2023
 
+### Fixed
+- [JavaScript - Sum And Product Of Two Arrays Exercise - Fix spelling of Summed in question](https://github.com/enkidevs/curriculum/pull/3039)
+
 ### Changed
 - [Linux - Using Find to search by file name - Change tilde to home directory in question](https://github.com/enkidevs/curriculum/pull/3165)
 - [Java - altering format string output by changing a format specifiers argument index - update question](https://github.com/enkidevs/curriculum/pull/3144)
