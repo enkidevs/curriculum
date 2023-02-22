@@ -131,7 +131,6 @@ Types of change:
 ### Fixed
 - [SQL - Check constraint - Fix typo](https://github.com/enkidevs/curriculum/pull/3148)
 
-
 ## December 16th 2022
 
 ### Changed
