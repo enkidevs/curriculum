@@ -2,6 +2,14 @@
 author: Stefan-Stojanovic
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # While Loops
@@ -9,7 +17,7 @@ type: normal
 ---
 ## Content
 
-In Lua, a `while` loop allows you to execute a block of code repeatedly as long as a certain condition is true. The basic structure of a while loop in Lua looks like this:
+A `while` loop allows you to execute a block of code repeatedly as long as a certain condition is true. The basic structure of a while loop in Lua looks like this:
 
 ```lua
 while condition do
@@ -44,5 +52,38 @@ The output would look like this:
 ---
 ## Practice
 
+What will the output of the following code be?
+
+```lua
+i = 1
+while i <= 3 do
+  print(i)
+  i = i + 1
+end
+
+-- ???
+```
+
+- `1 2 3`
+- `3 2 1`
+- `1`
+- `1 2`
+
+
 ---
 ## Revision
+
+Finish the code to write a `while` loop that prints out numbers from 0 to 4:
+```lua
+i = 0
+??? ??? ???
+  print(i)
+  i = i + 1
+end
+```
+
+- `while`
+- `i < 5`
+- `do`
+- `i <=5`
+- `until`

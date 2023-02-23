@@ -2,8 +2,10 @@
 author: Stefan-Stojanovic
 category: must-know
 type: normal
-
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Sets
@@ -33,7 +35,7 @@ else
 end
 ```
 
-You can also use a `for` loop to iterate over the values in the set. Since the values are not used as keys in the table, you can use the ipairs function to iterate over the table.
+You can also use a `for` loop to iterate over the values in the set. Since the values are not used as keys in the table, you can use the `ipairs` function to iterate over the table.
 
 Here's an example of iterating over the set:
 

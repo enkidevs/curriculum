@@ -5,7 +5,6 @@ type: normal
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -28,22 +27,19 @@ bool = true
 bool2 = false
 ```
 
-
+Note that `True` is not the same as `true`, this also applies to `false`.
 
 ---
 ## Practice
 
-Write a Lua program that creates a `my_number` variable and prints its value to the console.
+How do you create a boolean variable in Lua?
 
-```lua
-??? = 42
-???(my_number)
-```
+Using ???.
 
-- my_number
-- print
-- write
-- myNumber
+- `true` or `false` keywords
+- `var` keyword
+- `bool` keyword
+- `boolean` keyword
 
 
 ---

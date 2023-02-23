@@ -28,7 +28,7 @@ ages = {
 }
 ```
 
-Let's use the dot notation to add or remove values from a dictionary:
+Let's use the **dot notation** to add or remove values from a dictionary:
 ```lua
 -- add a new key-value pair using dot notation
 ages.Jessica = 24
@@ -48,7 +48,7 @@ end
 -- Alice	32
 ```
 
-Both notations are valid in Lua and can be used interchangeably.However, there are some cases where one notation might be preferred over the other. 
+Both notations are valid in Lua and can be used interchangeably. However, there are some cases where one notation might be preferred over the other. 
 
 For example, if you have a key that contains spaces or special characters, you'll need to use the square bracket notation to access it. 
 

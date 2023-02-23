@@ -2,7 +2,14 @@
 author: Stefan-Stojanovic
 category: must-know
 type: normal
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 
 ---
 
@@ -49,7 +56,7 @@ my_array = {1, 2, 3, 4, 5}
 my_array = {1; 2; 3; 4; 5}
 ```
 
-???
+???)
 
 - b
 - a
@@ -61,8 +68,8 @@ my_array = {1; 2; 3; 4; 5}
 What is the result of the following code in Lua?
 
 ```lua
-my_other_array = {[1] = 10, [2] = 20, [3] = 30}
-print(my_other_array[2])
+my_array = {[1] = 10, [2] = 20, [3] = 30}
+print(my_array[2])
 -- ???
 ```
 

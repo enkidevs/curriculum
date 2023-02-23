@@ -10,11 +10,6 @@ revisionQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-links:
-  - '[Big-O Cheat Sheet](https://www.bigocheatsheet.com/){website}'
-  - '[Do you use Big-O complexity evaluation in the "real world"?](https://stackoverflow.com/questions/1248509/do-you-use-big-o-complexity-evaluation-in-the-real-world){discussion}'
-  - '[Big O: How Code Slows as Data Grows](https://www.youtube.com/watch?v=Ee0HzlnIYWQ){video}'
-
 ---
 
 # repeat Loop Example
@@ -45,22 +40,68 @@ repeat
 until guess == "7"
 ```
 
+**Note**: We will learn more about `io.read()` in a following workout.
+
 ---
 ## Practice
 
-Is O(logN) more or less efficient than O(N²)?
+Finish the loop that asks a user for their guess:
 
+```lua
+-- initialize a variable to keep track of the user's input
+??? = ""
+
+-- keep prompting the user for their guess until they get it right
 ???
+  -- prompt the user for their guess
+  print("Guess a number between 1 and 10:")
 
-- more
-- less
+  -- read in the user's guess from standard input
+  ??? = io.read()
+
+  -- check if the guess is correct
+  if ??? == "9" then
+    print("Congratulations, you guessed correctly!")
+  else
+    print("Sorry, that was incorrect. Please try again.")
+  end
+??? guess == "9"
+```
+
+- guess
+- repeat
+- guess
+- guess
+- until
+- end
+- while
+- do
 
 ---
 ## Revision
 
-Is O(logN) more or less efficient than O(N)?
+Given the code:
 
-???
+```lua
+guess = ""
 
-- more
-- less
+repeat
+  print("Guess a number between 1 and 10:")
+
+  guess = io.read()
+
+  if guess == "7" then
+    print("Congratulations, you guessed correctly!")
+  else
+    print("Sorry, that guess was incorrect. Please try again.")
+  end
+until guess == "7"
+```
+
+Which of these options is **NOT** true about this code?
+
+- will end when users guesses wrong
+- keep prompting the user for their guess until they get it right
+- prompt the user for their guess
+- it reads user's guess
+- check if the users guess is correct

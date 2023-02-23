@@ -2,7 +2,15 @@
 author: Stefan-Stojanovic
 category: must-know
 type: normal
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 
 ---
 
@@ -42,14 +50,17 @@ Which of the following is the correct way to assign a function to a table in Lua
 my_table.my_function = function () 
   print("Hello World!") 
 end
+
 -- B)
 my_table = function () 
   print("Hello World!") 
 end
+
 -- C)
 function my_table.my_function () 
   print("Hello World!") 
 end
+
 -- D)
 my_table = { 
   my_function = function () 

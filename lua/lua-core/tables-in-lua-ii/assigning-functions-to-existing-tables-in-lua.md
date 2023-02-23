@@ -2,7 +2,16 @@
 author: Stefan-Stojanovic
 category: must-know
 type: normal
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 
 ---
 
@@ -11,7 +20,7 @@ type: normal
 ---
 ## Content
 
-Next to creating tables with funcitons as values we can also define new functions and add them to an existing table.
+Next to creating tables with functions as values we can also define new functions and add them to an existing table.
 
 Take a look at this example:
 ```lua
@@ -74,17 +83,17 @@ function ???(???)
 end
 ```
 
-- createPlayer
-- name
-- player
-- incrementScore
-- 1
-- player
+- `createPlayer`
+- `name`
+- `player`
+- `incrementScore`
+- `1`
+- `player`
 
 ---
 ## Revision
 
-Write a function named `createEmployee` that takes a `name` and a `salary` and returns a table with the following keys: `name` (a string), `salary` (a number), and `getSalary` (a function that returns the salary key).
+Write a function named `createEmployee` that takes a `name` and a `salary` and returns a table with the following keys: `name` (a string), `salary` (a number), and `getSalary` (a function that returns the `salary` key).
 
 ```lua
 function ???(???, ???)
@@ -99,9 +108,9 @@ function ???(???, ???)
 end
 ```
 
-- createEmployee
-- name
-- salary
-- getSalary
-- function
-- salary
+- `createEmployee`
+- `name`
+- `salary`
+- `getSalary`
+- `function`
+- `salary`
