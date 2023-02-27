@@ -1,18 +1,10 @@
-name: Preparation
+name: Lua in Wow
 
-description: Prepare in the best way for tech interviews
-
-core: true
+description: 
 
 sections:
   '0':
-    - tech-interviews-overview
-    - behavioral-interview-prep
-    - coding-interview-prep
-    - what-is-big-o
-    - big-o-tips
-    - arrays-and-maps
-    - array-and-map-tips
+    - creating-a-flashing-spell-addon-in-wow-with-lua
+    - lua-in-games
     
-next:
-  - tech-interviews:tech-interview-questions
+
