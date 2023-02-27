@@ -12,5 +12,5 @@ insights:
   - more-data-types-in-lua
   - tables-in-lua
   - arrays-in-lua
-  - matrics-in-lua
-  - matrics-in-lua-ii
+  - matrices-in-lua
+  - matrices-in-lua-ii

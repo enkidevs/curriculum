@@ -14,4 +14,4 @@ insights:
   - logical-operators-in-lua
   - relational-operators-in-lua
   - length-operators-in-lua
-  - concatenation-operators-in-lua
+  - concatenation-operator-in-lua

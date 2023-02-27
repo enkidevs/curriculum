@@ -15,7 +15,7 @@ In Lua, three dots `...` is a syntactic construct called a vararg expression.
 
 It represents a variable number of arguments passed to a function. When used as a parameter in a function definition, it allows the function to accept any number of arguments. 
 
-The vararg expression is often used in Lua's standard library functions, such as `table.concat` and `string.format`.
+The vararg expression is often used in functions.
 
 For example, the following function definition uses the vararg expression to accept any number of arguments and print them to the console:
 ```lua

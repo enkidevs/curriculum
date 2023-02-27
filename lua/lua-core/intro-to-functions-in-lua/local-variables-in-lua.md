@@ -3,6 +3,15 @@ author: Stefan-Stojanovic
 category: must-know
 type: normal
 
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+
 
 ---
 

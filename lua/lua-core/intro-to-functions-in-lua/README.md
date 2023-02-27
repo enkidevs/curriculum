@@ -13,3 +13,4 @@ insights:
   - functions-in-lua-ii
   - local-variables-in-lua
   - assigning-functions-to-variables-in-lua
+  - vararg-expression-in-lua

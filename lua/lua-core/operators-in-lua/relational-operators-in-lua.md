@@ -1,7 +1,7 @@
 ---
 author: Stefan-Stojanovic
 category: must-know
-type: norma
+type: normal
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -13,7 +13,7 @@ revisionQuestion:
 
 ---
 
-# 
+# Relational Operators
 
 ---
 ## Content

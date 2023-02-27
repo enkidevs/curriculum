@@ -2,6 +2,16 @@
 author: Stefan-Stojanovic
 category: must-know
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+
 ---
 
 # if-else Statements
