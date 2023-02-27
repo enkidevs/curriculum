@@ -40,7 +40,7 @@ repeat
 until guess == "7"
 ```
 
-**Note**: We will learn more about `io.read()` in a following workout.
+**Note**: We will learn how `io.read()` works in a following workout.
 
 ---
 ## Practice

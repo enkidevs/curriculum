@@ -1,15 +1,16 @@
-name: What's Big-O?
+name: Tables
 
-description: Learn how to evaluate code efficiency
+description: Tables are a fundamental data structure used to represent arrays, lists, sets, and more!
 
 aspects:
   - introduction
+  - workout
 
 learnType: GROKKING
 
 insights:
-  - how-to-know-code-efficiency
-  - big-o-notation
-  - common-big-os-1-n-nn
-  - common-big-os-logn
-  - big-o-visualized
+  - more-data-types-in-lua
+  - tables-in-lua
+  - arrays-in-lua
+  - matrics-in-lua
+  - matrics-in-lua-ii

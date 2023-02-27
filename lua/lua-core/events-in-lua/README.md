@@ -1,6 +1,6 @@
-name: What's Big-O?
+name: Events
 
-description: Learn how to evaluate code efficiency
+description: Learn what events are and how to use them.
 
 aspects:
   - introduction

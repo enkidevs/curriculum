@@ -1,18 +1,22 @@
-name: Preparation
+name: Lua
 
-description: Prepare in the best way for tech interviews
+description: A lightweight, flexible programming language designed for embedding in other applications, featuring dynamic typing, garbage collection, and powerful data structures like tables.
 
 core: true
 
 sections:
   '0':
-    - tech-interviews-overview
-    - behavioral-interview-prep
-    - coding-interview-prep
-    - what-is-big-o
-    - big-o-tips
-    - arrays-and-maps
-    - array-and-map-tips
+    - intro-to-lua
+    - variables-and-data-types-in-lua
+    - operators-in-lua
+    - conditional-statements-in-lua
+    - loops-in-lua
+    - intro-to-functions-in-lua
+    - tables-in-lua
+    - maps-and-dictionaries-in-lua
+    - tables-in-lua-ii
+    - io-operations-in-lua
+    - events-in-lua
     
 next:
-  - tech-interviews:tech-interview-questions
+  - lua:lua-in-wow

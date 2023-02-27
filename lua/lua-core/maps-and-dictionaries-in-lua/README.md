@@ -1,15 +1,14 @@
-name: What's Big-O?
+name: Maps / Dictionaries
 
-description: Learn how to evaluate code efficiency
+description: Learn how to create Maps/Dictionaries using tables in Lua.
 
 aspects:
   - introduction
+  - workout
 
 learnType: GROKKING
 
 insights:
-  - how-to-know-code-efficiency
-  - big-o-notation
-  - common-big-os-1-n-nn
-  - common-big-os-logn
-  - big-o-visualized
+  - maps-or-dictionaries-in-lua
+  - map-methods-in-lua
+  - map-methods-in-lua-ii

@@ -1,15 +1,17 @@
-name: What's Big-O?
+name: Variables & Data types
 
-description: Learn how to evaluate code efficiency
+description: Learn how to create variables and what data types Lua offers.
 
 aspects:
   - introduction
+  - workout
 
 learnType: GROKKING
 
 insights:
-  - how-to-know-code-efficiency
-  - big-o-notation
-  - common-big-os-1-n-nn
-  - common-big-os-logn
-  - big-o-visualized
+  - what-are-variables-in-lua
+  - different-types-of-variables-in-lua
+  - numbers-in-lua
+  - booleans-in-lua
+  - strings-in-lua
+  - nil-in-lua

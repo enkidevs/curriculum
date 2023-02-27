@@ -1,15 +1,14 @@
-name: What's Big-O?
+name: More on Tables
 
-description: Learn how to evaluate code efficiency
+description: Learn how to store and assign functions to a table.
 
 aspects:
   - introduction
+  - workout
 
 learnType: GROKKING
 
 insights:
-  - how-to-know-code-efficiency
-  - big-o-notation
-  - common-big-os-1-n-nn
-  - common-big-os-logn
-  - big-o-visualized
+  - sets-in-lua
+  - tables-can-store-functions-in-lua
+  - assigning-functions-to-existing-tables-in-lua

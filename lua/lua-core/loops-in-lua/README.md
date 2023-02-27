@@ -1,6 +1,6 @@
-name: What's Big-O?
+name: Loops
 
-description: Learn how to evaluate code efficiency
+description: Learn about the different types of loops Lua offers.
 
 aspects:
   - introduction
@@ -8,8 +8,8 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - how-to-know-code-efficiency
-  - big-o-notation
-  - common-big-os-1-n-nn
-  - common-big-os-logn
-  - big-o-visualized
+  - what-are-loops-in-lua
+  - for-loops-in-lua
+  - while-loops-in-lua
+  - repeat-loops-in-lua
+  - more-on-repeat-loops-in-lua
