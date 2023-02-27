@@ -1,6 +1,6 @@
 name: Lua
 
-description: A lightweight, flexible programming language designed for embedding in other applications, featuring dynamic typing, garbage collection, and powerful data structures like tables.
+description: Learn about variables, conditional statements, loops, events and more!
 
 core: true
 
@@ -19,4 +19,4 @@ sections:
     - events-in-lua
     
 next:
-  - lua:lua-in-wow
+  - lua:lua-wow
