@@ -5,7 +5,6 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -28,7 +27,7 @@ To get us started, let's say that we have the text `"Enki"` as our data, and we 
 
 In programming, putting data into a variable is usually done with the `=` sign:
 
-```plain-text
+```python
 study_buddy = "Enki"
 ```
 
@@ -45,7 +44,7 @@ Putting data into a variable is called **an assignment**.
 
 Define a variable named `best_user` that stores `"You"`:
 
-```plain-text
+```python
 ??? ??? ???
 ```
 

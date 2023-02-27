@@ -1,8 +1,8 @@
 ---
 author: mihaiberq
 type: exercise
-link: 'https://anders.com/blockchain/public-private-keys/transaction.html'
-linkType: anders
+link: 'https://andersbrownworth.com/blockchain/public-private-keys/transaction'
+linkType: andersbrownworth
 links:
   - '[Demo for the website](https://youtu.be/xIDL_akeras?t=153){video}'
   - >-

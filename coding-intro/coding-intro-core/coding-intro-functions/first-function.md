@@ -35,7 +35,7 @@ We can think of a function as divided into three parts.
 
 Here's how you can write the `multiplyTwoNumbers` function using our own made-up[1] language:
 
-```plain-text
+```pseudo
 FUNCTION multiplyTwoNumbers
   INPUT num1, num2
   INSTRUCT result = multiply(num1, num2)
@@ -44,7 +44,7 @@ FUNCTION multiplyTwoNumbers
 
 To call this function we write its name, followed by a pair of `()`.
 
-```plain-text
+```pseudo
 INSTRUCT multiplyTwoNumbers(5, 3)
 ```
 
@@ -65,7 +65,7 @@ A function is made out of three parts:
 
 Match the definitions with their name:
 
-```plain-text
+```pseudo
 1. ???
 2. ???
 3. ???

@@ -33,7 +33,7 @@ item1 <- -> item2 <- -> item3
 
 Sometimes we can see lists written using square brackets `[ ]`, with the values separated by commas inside.
 
-```plain-text
+```python
 users = ["Andrei", "Catalin", "Mihai"]
 ```
 
