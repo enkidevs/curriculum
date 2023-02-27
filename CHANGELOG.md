@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+
+## February 27th 2023
+
+### Fixed
+- [Data Analysis - Intro To Spreadsheets - Replace broken linke](https://github.com/enkidevs/curriculum/pull/3168)
+
 ## February 22th 2023
 
 ### Fixed
