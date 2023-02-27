@@ -17,7 +17,7 @@ revisionQuestion:
 
 ---
 
-# Local Variables in R
+# Local Variables
 
 ---
 
@@ -49,41 +49,6 @@ add(5, 10)
 # 15
 ```
 
-To access the value of a local variable, you can type the name of the variable:
-
-```r
-add <- function(x, y) {
-  z <- x + y
-  print(z)
-}
-
-add(5, 10)
-# 15
-```
-
-You can also use the `get()` function to access the value of a local variable:
-```r
-add <- function(x, y) {
-  assign("z", x + y)
-  print(get("z"))
-}
-
-add(5, 10)
-# 15
-```
-
-To remove a local variable, you can use the `rm()` function:
-```r
-add <- function(x, y) {
-  z <- x + y
-  rm(z)
-  print(z)
-}
-
-add(5, 10)
-# Error: object 'z' not found
-```
-
 ---
 ## Practice
 
@@ -91,19 +56,27 @@ Which of the following is **NOT** a way to create a local variable in a function
 
 ???
 
+- `rm("z", x + y)`
 - `z <- x + y`
 - `assign("z", x + y)`
-- `get("z") <- x + y`
-- `rm("z", x + y)`
 
 ---
 ## Revision
 
-What function can be used to remove a local variable in a function in **R**?
+**Without** using `assign()`, create a local variable called `z` that sums up the two arguments. Also print the variable.
 
-???
+```r
+add <- function(x, y) {
+  z ??? ???
+  print(???)
+}
 
-- `delete()`
-- `remove()`
-- `erase()`
-- `rm()`
+add(5, 10)
+```
+
+- `<-`
+- `x + y`
+- `z`
+- `"z"`
+- `assign()`
+- `x - y`

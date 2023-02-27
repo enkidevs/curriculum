@@ -35,7 +35,7 @@ apply(X, MARGIN, FUN, ...)
 - `FUN` is the function that you want to apply to the matrix or array.
 - `...` are any additional arguments that you want to pass to the function.
 
-Here is an example of how to use the `apply` function to apply a function to each row of a matrix:
+Here is an example of how to use the `apply` function to apply a `sum` function to each row of a matrix:
 ```r
 matrix <- matrix(1:9, 3, 3)
 print(matrix)
@@ -48,38 +48,6 @@ print(matrix)
 apply(matrix, 1, sum)
 # 12 15 18
 ```
-
-Here is an example of how to use the `apply` function to apply a function to each column of a matrix:
-```r
-matrix <- matrix(1:9, 3, 3)
-print(matrix)
-#      [,1] [,2] [,3]
-# [1,]    1    4    7
-# [2,]    2    5    8
-# [3,]    3    6    9
-
-apply(matrix, 2, sum)
-# 6 15 24
-```
-
-Here is an example of how to use the `apply` function to apply a function to all elements of a matrix:
-```r
-matrix <- matrix(1:9, 3, 3)
-print(matrix)
-#      [,1] [,2] [,3]
-# [1,]    1    4    7
-# [2,]    2    5    8
-# [3,]    3    6    9
-
-
-apply(matrix, c(1, 2), sum)
-# 45
-```
-
-
-**Note**: you should be careful when using the `apply` function, because it can result in code that is less readable and more difficult to debug. 
-
-You should consider using the `apply` function only when it is significantly faster than alternative approaches, such as looping through the elements one at a time.
 
 ---
 ## Practice

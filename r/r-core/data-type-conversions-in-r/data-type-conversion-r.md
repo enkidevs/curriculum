@@ -25,7 +25,7 @@ In **R**, it is often necessary to convert data from one type to another. For ex
 - `as.vector`: Converts an object to vector type.
 - `as.matrix`: Converts an object to matrix type.
 
-Note: Each of these methods has an `is.name` methods. For instance, `is.numeric`, `is.double` and so on. They are used to check if the value is the appropriate type.
+Note: Each of these methods has an `is.name` method. For instance, `is.numeric`, `is.double` and so on. They are used to check if the value is the appropriate type.
 
 They return `TRUE` or `FALSE`.
 

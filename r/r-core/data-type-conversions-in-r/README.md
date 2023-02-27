@@ -4,9 +4,12 @@ description: Learn how to convert data from one data type into another.
 
 insights:
   - data-type-conversion-r
-  - as-numeric-and-integer-r
-  - as-double-and-character-r
-  - as-logical-and-vector-r
+  - as-numeric-r
+  - as-integer-r
+  - as-double-r
+  - as-character-r
+  - as-logical-r
+  - as-vector-r
   - as-matrix-r
 
 aspects:

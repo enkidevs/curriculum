@@ -23,7 +23,6 @@ revisionQuestion:
 
 ## Content
 
-
 Global variables can be accessed from anywhere in your **R** session, while local variables can only be accessed within the function where they are defined.
 
 Here is an example that illustrates the difference between global and local variables:

@@ -25,9 +25,6 @@ revisionQuestion:
 
 ## Content
 
-
-### as.matrix
-
 The `as.matrix` converts an object to matrix type.
 
 ```r

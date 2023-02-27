@@ -18,7 +18,7 @@ revisionQuestion:
 
 ---
 
-# Functions in R
+# Functions
 
 ---
 

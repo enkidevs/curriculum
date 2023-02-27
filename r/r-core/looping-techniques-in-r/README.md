@@ -7,7 +7,8 @@ insights:
   - what-is-vectorization
   - statistical-functions-for-vectorization-in-r
   - math-functions-for-vectorization-in-r
-  - apply-function
+  - apply-function-in-r
+  - how-to-use-the-apply-function-in-r
   - the-lapply-and-sapply-functions-in-r
 
 aspects:

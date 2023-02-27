@@ -46,7 +46,6 @@ repeat {
   i <- i + 1
 }
 ```
-You can use the `break` and `next` statements to control the flow of a repeat loop. The `break` statement breaks out of the loop and terminates it, while the `next` statement skips the rest of the current iteration and goes to the next one.
 
 Here is an example of a repeat loop that uses the `break` statement to exit the loop when the value of `i` is `5`:
 ```r

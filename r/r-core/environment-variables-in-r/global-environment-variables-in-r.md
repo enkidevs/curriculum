@@ -18,7 +18,7 @@ revisionQuestion:
 
 ---
 
-# Global Environment Variables in R
+# Global Environment Variables
 
 ---
 
@@ -87,7 +87,7 @@ Which of the following is **NOT** a way to list all objects in the global enviro
 ---
 ## Revision
 
-What function can be used to remove a global environment variable in R?
+What function can be used to remove a global environment variable?
 
 ???
 

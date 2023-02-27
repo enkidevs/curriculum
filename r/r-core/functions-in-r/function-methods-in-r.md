@@ -18,7 +18,7 @@ revisionQuestion:
 
 ---
 
-# Function Methods in R
+# Function Methods
 
 ---
 

@@ -19,34 +19,12 @@ revisionQuestion:
 
 ---
 
-# as.character & as.double
+# as.character
 
 ---
 
 ## Content
 
-
-### as.double
----
-
-The `as.double` converts an object to double (floating point) type.
-```r
-# Convert a number to a double
-x <- 123
-x <- as.double(x)
-print(x)  
-# 123.0
-
-# Convert a vector of numbers to a vector of doubles
-v <- c(1, 2, 3)
-v <- as.double(v)
-print(v)  
-# 1.0 2.0 3.0
-```
-
-
-### as.character
----
 
 The `as.character` converts an object to character (string) type.
 
@@ -64,18 +42,17 @@ print(v)
 # "1" "2" "3"
 ```
 
-
 ---
 ## Practice
 
 Convert the following logical vector to a character vector using the `as.character` function:
 
 ```r
-x <- c(TRUE, FALSE, TRUE, TRUE)
+x <- c(TRUE, TRUE, FALSE, TRUE)
 
 x <- as.???(???)
 print(x) 
-# "TRUE" "FALSE" "TRUE" "TRUE
+# "TRUE" "TRUE" "FALSE" "TRUE
 ```
 
 - `character`
@@ -86,16 +63,18 @@ print(x)
 ---
 ## Revision
 
-Convert the following character vector to a double type using the `as.double` function:
+Convert the following logical vector to a character vector using the `as.character` function:
 
 ```r
-x <- c(1,2, 345)
+y <- c(TRUE, FALSE, FALSE, TRUE)
 
-x <- ???
-print(x) 
-# 1.0 2.0 345.0
+y <- ???.???(???)
+print(y) 
+# "TRUE" "FALSE" "FALSE" "TRUE
 ```
 
-- `as.double(x)`
-- `as a double`
-- `x.as.double`
+- `as`
+- `character`
+- `y`
+- `x`
+- `number`

@@ -18,7 +18,7 @@ revisionQuestion:
 
 ---
 
-# For loops in R
+# For loops
 
 ---
 

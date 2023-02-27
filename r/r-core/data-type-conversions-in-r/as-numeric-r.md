@@ -19,15 +19,11 @@ revisionQuestion:
 
 ---
 
-# as.numeric & as.integer
+# as.numeric
 
 ---
 
 ## Content
-
-
-### as.numeric
----
 
 The `as.numeric` function converts an object to numeric (integer or double) type.
 
@@ -47,26 +43,6 @@ print(v)
 ```
 
 
-### as.integer
----
-
-`as.integer`: Converts an object to integer type.
-
-```r
-# Convert a number to an integer
-x <- 123.45
-x <- as.integer(x)
-print(x)  
-# 123
-
-# Convert a vector of numbers to a vector of integers
-v <- c(1.5, 2.5, 3.5)
-v <- as.integer(v)
-print(v)  
-# 1 2 3
-```
-
-
 ---
 ## Practice
 
@@ -75,11 +51,12 @@ Convert the following character vector to a numeric vector using the `as.numeric
 ```r
 x <- c("1", "2", "3", "4", "5")
 
-x <- as.???(???)
+x <- ???.???(???)
 print(x) 
 # 1 2 3 4 5
 ```
 
+- `as`
 - `numeric`
 - `x`
 - `y`
@@ -88,16 +65,18 @@ print(x)
 ---
 ## Revision
 
-Convert the following character vector to a integer type using the `as.integer` function:
+Convert the following character vector to a numeric vector using the `as.numeric` function:
 
 ```r
-x <- c("1", "2", "3", "4", "5")
+y <- c("11", "13", "16", "33", "51")
 
-x <- ???
-print(x) 
-# 1 2 3 4 5
+y <- ???.???(???)
+print(y) 
+# 11 116 3 33 51
 ```
 
-- `as.integer(x)`
-- `as an integer`
-- `x.asInteger`
+- `as`
+- `numeric`
+- `y`
+- `x`
+- `number`
