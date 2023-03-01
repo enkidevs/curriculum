@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## March 1st 2023
+
+### Changed
+- [Java - prefix and postfix of increment operators - update pq](https://github.com/enkidevs/curriculum/pull/3169)
 
 ## February 27th 2023
 
