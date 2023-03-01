@@ -17,6 +17,8 @@ sections:
     - tables-in-lua-ii
     - io-operations-in-lua
     - events-in-lua
+    - wow-addons
+    - show-gold-addon-wow
     
 next:
   - lua:lua-wow

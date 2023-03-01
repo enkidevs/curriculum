@@ -6,7 +6,7 @@ type: normal
 
 ---
 
-# More WoW Addons
+# Experience Addon Wow
  
 ---
 ## Content
