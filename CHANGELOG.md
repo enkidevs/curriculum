@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 1st 2023
+
+### Added
+- [Lua - Topic - Add lua](https://github.com/enkidevs/curriculum/pull/3167)
+
 ## February 14th 2023
 
 ### Changed
