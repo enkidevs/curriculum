@@ -15,4 +15,4 @@ insights:
   - show-gold-addon-wow-iii
   - show-gold-addon-wow-iv
   - show-gold-addon-wow-v
-  - full-show-gold-addon-wow
+  - full-show-gold-addon-code

@@ -19,6 +19,3 @@ sections:
     - events-in-lua
     - wow-addons
     - show-gold-addon-wow
-    
-next:
-  - lua:lua-wow
