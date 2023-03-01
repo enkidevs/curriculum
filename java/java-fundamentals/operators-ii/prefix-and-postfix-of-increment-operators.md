@@ -63,7 +63,7 @@ We've only talked about incrementing, but the same applies to decrementing (`--`
 
 ## Practice
 
-How would you rewrite this code using shorthand notation?
+How would you rewrite the second two lines of this code using shorthand notation?
 
 ```java
 int i = 0;
