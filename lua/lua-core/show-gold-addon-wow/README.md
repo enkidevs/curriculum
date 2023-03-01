@@ -10,7 +10,6 @@ learnType: GROKKING
 
 insights:
   - show-gold-addon-wow
-  - show-gold-addon-wow-i
   - show-gold-addon-wow-ii
   - show-gold-addon-wow-iii
   - show-gold-addon-wow-iv
