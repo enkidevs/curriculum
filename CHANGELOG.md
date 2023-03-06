@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 6th 2023
+
+### Fixed
+- [Comp Sci - 3 insights - Replace old domain with new one for 3 links](https://github.com/enkidevs/curriculum/pull/3170)
+
 ## February 14th 2023
 
 ### Changed
