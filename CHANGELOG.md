@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Comp Sci - 3 insights - Replace old domain with new one for 3 links](https://github.com/enkidevs/curriculum/pull/3170)
+- [Javascript - Types Strings - Update PQ](https://github.com/enkidevs/curriculum/pull/3172)
 
 ## February 27th 2023
 
