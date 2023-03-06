@@ -48,10 +48,12 @@ Types of change:
 
 ### Fixed
 
+
 ## March 6th 2023
 
 ### Fixed
 - [Comp Sci - 3 insights - Replace old domain with new one for 3 links](https://github.com/enkidevs/curriculum/pull/3170)
+- [Python - Writing files - Fix PQ](https://github.com/enkidevs/curriculum/pull/3171)
 - [Javascript - Types Strings - Update PQ](https://github.com/enkidevs/curriculum/pull/3172)
 
 ## February 27th 2023
