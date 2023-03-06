@@ -1,15 +1,11 @@
 ---
 author: Stefan-Stojanovic
-
-tags:
-  - introduction
-  - discussion
 type: normal
 category: must-know
 
 ---
 
-# Basic Data Types in R
+# Reverse A String
 
 ---
 

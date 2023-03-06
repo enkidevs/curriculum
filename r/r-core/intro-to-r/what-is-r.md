@@ -1,9 +1,5 @@
 ---
 author: Stefan-Stojanovic
-
-tags:
-  - introduction
-  - discussion
 type: normal
 category: must-know
 practiceQuestion:
@@ -28,6 +24,8 @@ x <- c(1, 2, 3, 4, 5)
 y <- c(1, 4, 9, 16, 25)
 plot(x, y)
 ```
+
+![basic-plot](https://img.enkipro.com/3c8221e34bd83ad566107e6acd2e285a.png)
 
 **R** also has a vast community of users and developers, which has led to the creation of a large number of packages that extend its functionality. This means that **R** is capable of handling a wide range of tasks, from data manipulation and visualization to machine learning and data analysis.
 

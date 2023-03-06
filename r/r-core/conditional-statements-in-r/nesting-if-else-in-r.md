@@ -1,8 +1,6 @@
 ---
 author: Stefan-Stojanovic
-tags:
-  - introduction
-  - discussion
+
 type: normal
 category: must-know
 

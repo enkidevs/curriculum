@@ -1,9 +1,5 @@
 ---
 author: Stefan-Stojanovic
-
-tags:
-  - introduction
-  - discussion
 type: normal
 category: must-know
 practiceQuestion:
@@ -18,7 +14,7 @@ revisionQuestion:
 
 ---
 
-# Basic Data Types in R
+# repeat Loops
 
 ---
 

@@ -1,9 +1,5 @@
 ---
 author: Stefan-Stojanovic
-
-tags:
-  - introduction
-  - discussion
 type: normal
 category: must-know
 practiceQuestion:
@@ -53,25 +49,24 @@ print(y)
 ---
 ## Practice
 
-Which of the following is a basic data type in R?
+The most common assignment operator in R is ???.
 
-???
-
-- `numeric`
-- `integer`
-- `matrix`
-- `function`
-- `data frame`
+- `<-`
+- `->`
+- `==`
+- `is`
 
 ---
 ## Revision
 
-What is the basic data type for a vector of categorical variables in R?
+Which of these variables uses the recommended way of assigning values in **R**?
+
+```r
+x <- 5
+y = 10
+```
 
 ???
 
-- `factor`
-- `character`
-- `numeric`
-- `logical`
-- `NULL`
+- x
+- y
