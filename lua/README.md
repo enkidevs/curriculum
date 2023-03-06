@@ -1,6 +1,6 @@
 name: Lua
 
-icon: 'https://img.enkipro.com/db79b7f9f0366f0c0e4183480a71fb91.png'
+icon: 'https://img.enkipro.com/a1684a7df81e84eb0167ccc76379011b.png'
 
 color: 'ffe0a6'
 
