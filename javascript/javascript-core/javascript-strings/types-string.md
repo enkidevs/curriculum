@@ -61,8 +61,11 @@ There are also special characters that can be used by preceding the character wi
 What special character is used to add a `new line` to strings denoted with quotes?
 
 ```javascript
-let myString = 'this will ???
-  be displayed on two lines';
+let myString = 'this will ??? be displayed on two lines';
+
+// Output:
+// this will 
+//  be displayed on two lines
 ```
 
 - `\n`
