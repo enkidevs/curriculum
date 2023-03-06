@@ -63,7 +63,7 @@ What special character is used to add a `new line` to strings denoted with quote
 ```javascript
 let myString = 'this will ??? be displayed on two lines';
 
-// Output:
+console.log(myString);
 // this will 
 //  be displayed on two lines
 ```
