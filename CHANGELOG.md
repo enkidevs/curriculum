@@ -53,6 +53,25 @@ Types of change:
 ### Fixed
 - [Comp Sci - 3 insights - Replace old domain with new one for 3 links](https://github.com/enkidevs/curriculum/pull/3170)
 
+## February 27th 2023
+
+### Fixed
+- [Data Analysis - Intro To Spreadsheets - Replace broken linke](https://github.com/enkidevs/curriculum/pull/3168)
+
+## February 22th 2023
+
+### Fixed
+- [JavaScript - Sum And Product Of Two Arrays Exercise - Fix spelling of Summed in question](https://github.com/enkidevs/curriculum/pull/3039)
+
+### Changed
+- [Linux - Using Find to search by file name - Change tilde to home directory in question](https://github.com/enkidevs/curriculum/pull/3165)
+- [Java - altering format string output by changing a format specifiers argument index - update question](https://github.com/enkidevs/curriculum/pull/3144)
+
+## February 20th 2023
+
+### Changed
+- [Python - While Loops - Update answer](https://github.com/enkidevs/curriculum/pull/3166)
+
 ## February 14th 2023
 
 ### Changed

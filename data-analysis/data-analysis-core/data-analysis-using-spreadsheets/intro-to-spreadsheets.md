@@ -13,7 +13,7 @@ links:
     Sheets](https://tallyfy.com/microsoft-excel-vs-google-sheets/){website}
   - >-
     [Data Analysis
-    Functions](https://excelwithbusiness.com/blog/15-excel-data-analysis-functions-need/){website}
+    Functions](https://www.linkedin.com/pulse/15-excel-data-analysis-functions-you-need-know-akerele){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
