@@ -1,6 +1,6 @@
 name: Control Flow 
 
-description: Learn about conditional statements.
+description: Control Flow teaches you how to use conditional statements in programming.
 
 insights:
   - what-are-conditional-statements-r

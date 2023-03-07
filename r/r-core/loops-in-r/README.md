@@ -1,6 +1,6 @@
 name: for Loops
 
-description: Learn what loops are and how to use them.
+description: Learn what loops are and how to use the for loop.
 
 insights:
   - intro-to-loops-in-r

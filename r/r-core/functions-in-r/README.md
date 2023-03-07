@@ -1,6 +1,6 @@
-name: Intro to Functions
+name: Functions Intro
 
-description: Function basics.
+description: Learn the basics of functions; how to define and call them, and more.
 
 insights:
   - functions-in-r
