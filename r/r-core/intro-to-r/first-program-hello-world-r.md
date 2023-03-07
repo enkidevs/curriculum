@@ -45,8 +45,6 @@ Which function is used to print text to the screen in R?
 ???("Hello, World!")
 ```
 
-???
-
 - `print`
 - `printout`
 - `echo`
