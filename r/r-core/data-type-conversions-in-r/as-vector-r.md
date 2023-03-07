@@ -10,7 +10,6 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -72,9 +71,10 @@ v <- as.character(c(1, 0, 1))
 
 # D
 v <- as.vector(c(1, 0, 1))
+
+# ???
 ```
 
-???
 
 - `D`
 - `A`

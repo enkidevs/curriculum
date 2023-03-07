@@ -5,7 +5,6 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -60,7 +59,7 @@ v <- as.vector(c("True", "False", "True"))
 # D
 v <- as.logical(c("True", "False", "True"))
 
-# ???)
+# ???
 ```
 
 

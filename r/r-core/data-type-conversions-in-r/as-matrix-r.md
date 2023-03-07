@@ -10,7 +10,6 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 
 ---
@@ -88,9 +87,8 @@ m <- matrix(c("a", "b", "c", "d", "e", "f", "g", "h"), nrow = 2, ncol = 4)
 # D
 m <- matrix(c("a", "b", "c", "d", "e", "f", "g", "h"), nrow = 4, ncol = 2)
 
-# ???)
+# ???
 ```
-
 
 - `B`
 - `A`
