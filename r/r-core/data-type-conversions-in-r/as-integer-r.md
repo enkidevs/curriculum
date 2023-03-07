@@ -41,7 +41,7 @@ print(v)
 ---
 ## Practice
 
-Convert the following character vector to a integer type using the `as.integer` function:
+Convert the following character vector to an integer type using the `as.integer` function:
 
 ```r
 x <- ???("1", "2", "3", "4", "5")
@@ -60,14 +60,13 @@ print(x)
 ---
 ## Revision
 
-Convert the following character vector to a integer type using the `as.integer` function:
+Convert the following number to an integer type using the `as.integer` function:
 
 ```r
-x <- c("1", "2", "3", "4", "5")
-
+x <- 13.57
 x <- ???
-print(x) 
-# 1 2 3 4 5
+print(x)  
+# 13
 ```
 
 - `as.integer(x)`

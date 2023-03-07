@@ -41,12 +41,16 @@ You should see the text "Hello, World!" printed to the screen.
 
 Which function is used to print text to the screen in R?
 
+```r
+???("Hello, World!")
+```
+
 ???
 
-- `print()`
-- `printout()`
-- `echo()`
-- `display()`
+- `print`
+- `printout`
+- `echo`
+- `display`
 
 ---
 ## Revision

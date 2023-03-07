@@ -48,12 +48,12 @@ c) Iterate over a sequence of values
 d) None of the above
 ```
 
-???
+???)
 
-- `a)`
-- `b)`
-- `c)`
-- `d)`
+- `a`
+- `b`
+- `c`
+- `d`
 
 ---
 ## Revision

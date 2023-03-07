@@ -1,6 +1,6 @@
-name: Intro to Functions
+name: More on Functions
 
-description: Function basics.
+description: The matrix, reduce and sum functions.
 
 insights:
   - the-matrix-function-r

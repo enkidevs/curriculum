@@ -10,7 +10,7 @@ category: must-know
 
 ## Content
 
-In this tutorial, we will write a program in R that calculates the area of a rectangle.
+In this insight, we will write a program in R that calculates the area of a rectangle.
 
 First, we will define a function `calculate_area()` that takes in two arguments: `length` and `width`. The function will return the area of the rectangle, which is calculated by multiplying the `length` and `width`.
 ```r

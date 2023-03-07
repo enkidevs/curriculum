@@ -21,7 +21,6 @@ revisionQuestion:
 
 ## Content
 
-
 The `as.character` converts an object to character (string) type.
 
 ```r

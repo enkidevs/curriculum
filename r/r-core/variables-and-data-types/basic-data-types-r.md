@@ -70,7 +70,6 @@ Which of the following is a basic data type in R?
 ???
 
 - `numeric`
-- `integer`
 - `matrix`
 - `function`
 - `data frame`

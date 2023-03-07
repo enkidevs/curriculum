@@ -48,20 +48,20 @@ print(m)
 Which of the following will create a logical vector from a character vector?
 
 ```r
-# A)
+# A
 v <- as.vector(c(TRUE, FALSE, TRUE))
 
-# B)
+# B
 v <- as.logical(c(TRUE, FALSE, TRUE))
 
-# C)
+# C
 v <- as.vector(c("True", "False", "True"))
 
-# D)
+# D
 v <- as.logical(c("True", "False", "True"))
 ```
 
-???)
+???
 
 - `D`
 - `A`

@@ -20,7 +20,7 @@ revisionQuestion:
 
 ## Content
 
-The `as.numeric` function is a useful function that converts an object to a numeric data type.
+As mentioned in a previous insight, the `as.numeric` function converts an object to a numeric data type.
 
 You can use the `readline` function in combination with the `as.numeric` function to read a number from the console, or from a file. Here is an example of how to do this:
 ```r

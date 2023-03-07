@@ -2,9 +2,9 @@ name: R
 
 description: A programming language for statistical computing and graphics.
 
-color: D2FFA6
+color: A9D0FF
 
-icon: https://img.enkipro.com/c3e32170cfa371e46883a17a8ccc057c.png
+icon: https://img.enkipro.com/ddf9da3da671b9073e995f1bb129d8f2.png
 
 language: r
 

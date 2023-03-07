@@ -47,9 +47,7 @@ message <- "Hello, world!"
 ```
 
 - print
-- write
-- output
-- cat
+- no i don't
 
 ---
 ## Footnotes

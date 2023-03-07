@@ -1,6 +1,6 @@
 name: Environment Variables
 
-description: Learn about the local and global environment variables.
+description: Local versus global environment variables.
 
 insights:
   - global-environment-variables-in-r

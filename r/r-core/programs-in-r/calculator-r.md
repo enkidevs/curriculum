@@ -11,18 +11,11 @@ category: must-know
 
 ## Content
 
-In this workout, we will create a calculator program.
-
 Creating a calculator program in R requires only a few lines of code. This tutorial will show you how to create a basic calculator program that can perform addition, subtraction, multiplication, and division.
 
-To create a calculator program in R, we will do the following in a couple of insights:
+To create the calculator, we will do the following:
 
-1. Define a function that takes two numbers as arguments and returns the result of the desired calculation. For example, to create a function that performs addition, you could use the following code:
-```r
-add <- function(x, y) {
-  return(x + y)
-}
-```
+1. Define a function that takes two numbers as arguments and returns the result of the desired calculation.
 
 2. Define similar functions for the other calculations that you want to support (e.g. subtraction, multiplication, division).
 
@@ -59,6 +52,33 @@ tokens <- strsplit(input, " ")[[1]]
 # Extract the operation and the numbers
 operation <- tokens[1]
 x <- as.numeric(tokens[2])
-y <- as
+y <- as.numeric(tokens[3])
 
+# Perform the calculation and print the result
+if (operation == "+") {
+  result <- add(x, y)
+} else if (operation == "-") {
+  result <- subtract(x, y)
+} else if (operation == "*") {
+  result <- multiply(x, y)
+} else if (operation == "/") {
+  result <- divide(x, y)
+} else {
+  print("Invalid operation")
+}
+
+if (!is.na(result)) {
+  print(paste(x, operation, y, "=", result))
+}
+```
+
+This code defines functions for addition, subtraction, multiplication, and division, reads user input from the command line, extracts the operation and numbers from the input, performs the appropriate calculation based on the operation, and prints the result to the command line.
+
+If our `input` was:
+```r
+input <- "+ 3 4"
+```
+the output would look like this:
+```plain-text
+[1] "3 + 4 = 7"
 ```
