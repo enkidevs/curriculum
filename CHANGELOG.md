@@ -48,10 +48,19 @@ Types of change:
 
 ### Fixed
 
-## February 27th 2023
+## March 7th 2023
 
 ### Added
-- [Intro to R - Topic - Add new topic](https://github.com/enkidevs/curriculum/pull/3150)
+- [R - Topic - Add new topic](https://github.com/enkidevs/curriculum/pull/3150)
+
+## March 6th 2023
+
+### Fixed
+- [Comp Sci - 3 insights - Replace old domain with new one for 3 links](https://github.com/enkidevs/curriculum/pull/3170)
+- [Python - Writing files - Fix PQ](https://github.com/enkidevs/curriculum/pull/3171)
+- [Javascript - Types Strings - Update PQ](https://github.com/enkidevs/curriculum/pull/3172)
+
+## February 27th 2023
 
 ### Fixed
 - [Data Analysis - Intro To Spreadsheets - Replace broken linke](https://github.com/enkidevs/curriculum/pull/3168)

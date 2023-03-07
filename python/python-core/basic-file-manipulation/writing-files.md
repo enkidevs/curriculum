@@ -63,7 +63,7 @@ text.close()
 
 ## Practice
 
-What will the output look like?
+What will the file `name.txt` contain after we run this code?
 
 ```python
 file = open('name.txt', 'w+')
@@ -78,8 +78,8 @@ file.close()
 
 ???
 
-- Nothing will be generated
 - JohnChris
+- Will be empty
 - Chris
 - John
 
