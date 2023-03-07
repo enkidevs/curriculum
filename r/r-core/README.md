@@ -15,6 +15,7 @@ sections:
     - functions-in-r-ii
     - environment-variables-in-r
     - loops-in-r
+    - loops-in-r-ii
     - looping-techniques-in-r
     - reading-and-writing-data-to-and-from-files
     - programs-in-r
