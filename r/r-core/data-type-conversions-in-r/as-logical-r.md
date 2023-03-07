@@ -59,9 +59,10 @@ v <- as.vector(c("True", "False", "True"))
 
 # D
 v <- as.logical(c("True", "False", "True"))
+
+# ???)
 ```
 
-???
 
 - `D`
 - `A`

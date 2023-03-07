@@ -59,6 +59,8 @@ Note: the `sum` function is not vectorized, which means that it cannot operate o
 
 Which of the following statements is true about the `sum` function in **R**?
 
+???
+
 - All of the above.
 - The sum function returns the sum of all elements in an input vector.
 - The sum function only works on vectors of numeric data.
@@ -76,7 +78,6 @@ vec3 <- c(7, 8, 9)
 print(sum(vec1, vec2, vec3))
 # ???
 ```
-
 
 - `45`
 - `21`

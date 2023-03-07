@@ -6,9 +6,7 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
-
 ---
 
 # Nesting ifelse Statements

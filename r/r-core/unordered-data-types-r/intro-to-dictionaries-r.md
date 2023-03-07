@@ -68,6 +68,8 @@ length(fruits)
 
 Which of the following is **NOT** a way to access an element in a list in **R**?
 
+???
+
 - `list.key`
 - `list[[1]]`
 - `list[["pear"]]`

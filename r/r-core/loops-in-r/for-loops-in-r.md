@@ -64,7 +64,6 @@ for (??? in ???) {
 
 What is the output of the following code?
 
-
 ```r
 for (word in c("apple", "banana", "cherry")) {
   print(word)

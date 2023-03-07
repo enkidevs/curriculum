@@ -61,12 +61,23 @@ Note that the use of the `<<-` operator is generally discouraged as it can lead 
 
 Which of the following is **NOT** true about global and local variables in **R**?
 
+```plain-text
+A)
+Local variables can only be accessed within the function where they are defined.
+B)
+The `<<-` operator can be used to create a global variable within a function.
+C)
+The `<<-` operator is generally recommended for creating global variables.
+D)
+Global variables can be accessed from anywhere in your R session.
+```
+
 ???
 
-- The `<<-` operator is generally recommended for creating global variables in **R**.
-- The `<<-` operator can be used to create a global variable within a function.
-- Local variables can only be accessed within the function where they are defined.
-- Global variables can be accessed from anywhere in your **R** session.
+- `C`
+- `A`
+- `B`
+- `D`
 
 ---
 ## Revision

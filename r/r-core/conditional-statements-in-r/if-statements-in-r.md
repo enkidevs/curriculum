@@ -49,15 +49,16 @@ Add the missing pieces of code for the `if` statement:
 ```r
 x <- 5
 y <- 3
-if (???) {
+if (??? ??? ???) {
   print('x is greater than y')
 }
 ```
 
-- `x > y`
-- `x < y`
 - `x`
+- `>` 
 - `y`
+- `x < y`
+- `<`
 
 ---
 ## Revision

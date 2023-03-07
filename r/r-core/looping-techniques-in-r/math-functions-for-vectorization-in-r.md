@@ -70,17 +70,24 @@ However, you should be careful when using vectorization, because it can result i
 ---
 ## Practice
 
-Complete the following code snippet to double the elements of the `vector` variable:
+Complete the following code snippet to take the square root of each element of the `vector` variable:
 
 ```r
-vector <- 1:10
-vector <- ??? ??? 2
+vector <- 1:9
+
+print(vector)
+# 1 2 3 4 5 6 7 8 9
+
+print(???(vector))
+
+#  1.000000 1.414214 1.732051 2.000000 2.236068 2.449490 2.645751 2.828427 3.000000
+
 ```
 
-- `vector`
-- `*`
-- `matrix`
-- `/`
+- `sqrt`
+- `square`
+- `double`
+- `root`
 
 ---
 ## Revision
@@ -88,13 +95,18 @@ vector <- ??? ??? 2
 What is the output of the following code?
 
 ```r
-vector <- 1:10
-vector <- vector * 2 + 1
+numbers <- -6:-1
+
+print(numbers)
+# -6 -5 -4 -3 -2 -1
+
+print(abs(numbers))
+#  ???
 ```
 
 ???
 
-- `3 5 7 9 11 13 15 17 19 21`
-- `1 3 5 7 9 11 13 15 17 19`
-- `2 4 6 8 10 12 14 16 18 20`
-- `1 2 3 4 5 6 7 8 9 10`
+- `6 5 4 3 2 1`
+- `1 2 3 4 5 6`
+- `-6 -5 -4 -3 -2 -1`
+- `-1 -2 -3 -4 -5 -6`

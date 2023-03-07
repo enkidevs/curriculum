@@ -49,8 +49,6 @@ print(???)
 # 1 3 2 4
 ```
 
-???
-
 - `matrix`
 - `as`
 - `vector`
@@ -63,20 +61,20 @@ print(???)
 
 Which of the following will create a vector called `v` from numbers?
 ```r
-# A) 
+# A
 v <- as.character(c(TRUE, FALSE, TRUE))
 
-# B) 
+# B
 v <- as.vector(c("True", "False", "True"))
 
-# C) 
+# C
 v <- as.character(c(1, 0, 1))
 
-# D) 
+# D
 v <- as.vector(c(1, 0, 1))
 ```
 
-???)
+???
 
 - `D`
 - `A`

@@ -42,16 +42,17 @@ In this example, the code block associated with the value `"A"` is executed, and
 What does the `switch` statement do?
 
 ```plain-text
-a) Select one of several code blocks to execute based on a value
-b) Return a value based on a condition
+a) Return a value based on a condition
+b) Select one of several code blocks to execute based on a value
 c) Iterate over a sequence of values
 d) None of the above
 ```
 
-???)
+???
 
-- `a`
+
 - `b`
+- `a`
 - `c`
 - `d`
 
@@ -60,7 +61,7 @@ d) None of the above
 
 Which of the following is a valid way to use the switch statement in R?
 
-A)
+A
 ```r
 x <- "A"
 switch(x) {
@@ -70,7 +71,7 @@ switch(x) {
 }
 ```
 
-B)
+B
 ```r
 x <- "A"
 switch(x)
@@ -79,7 +80,7 @@ switch(x)
   case "C": print("You selected C")
 ```
 
-C)
+C
 ```r
 x <- "A"
 switch(x) {
@@ -89,7 +90,7 @@ switch(x) {
 }
 ```
 
-D)
+D
 ```r
 x <- "A"
 switch(x)
@@ -100,7 +101,7 @@ switch(x)
 
 ???
 
-- `A)`
-- `B)`
-- `C)`
-- `D)`
+- `A`
+- `B`
+- `C`
+- `D`

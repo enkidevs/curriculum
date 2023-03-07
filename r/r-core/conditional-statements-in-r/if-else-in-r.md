@@ -72,9 +72,9 @@ print(result)
 ```
 
 - `ifelse`
+- `x`
 - `if`
 - `else`
-- `x`
 
 ---
 ## Revision

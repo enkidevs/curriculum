@@ -49,7 +49,7 @@ vector ^ 2
 ```
 
 
-You can use vectorization to improve the performance of your R code, especially when working with large data sets. However, you should be careful when using vectorization, because it can result in code that is less readable and more difficult to debug.
+You can use vectorization to improve the performance of your **R** code, especially when working with large data sets. However, you should be careful when using vectorization, because it can result in code that is less readable and more difficult to debug.
 
 
 ---
