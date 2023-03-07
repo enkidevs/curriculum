@@ -29,13 +29,13 @@ Say we want to fetch a list of pokemon and their types in the `pokedex` database
 
 `pokemon`
 
-| id | name       | health | attack |
-|----|------------|--------|--------|
-| 1  | venusaur   | 53     | 1      |
-| 2  | charmeleon | 41     | 2      |
-| 3  | pikachu    | 50     | 3      |
-| 4  | squirtle   | 39     | 4      |
-| 5  | magikarp   | 25     | 5      |
+| id | name       | health | attack_id |
+|----|------------|--------|-----------|
+| 1  | venusaur   | 53     | 1         |
+| 2  | charmeleon | 41     | 2         |
+| 3  | pikachu    | 50     | 3         |
+| 4  | squirtle   | 39     | 4         |
+| 5  | magikarp   | 25     | 5         |
 
 `attack`
 
@@ -55,7 +55,7 @@ SELECT
   attack.type1
     
 FROM pokemon JOIN attack
-  ON pokemon.id = attack.id;
+  ON  attack.id = pokemon.attack_id;
 ```
 Notice that the query makes references to both tables and then also states the **joining condition**[1] (`pokemon.id = attack.id`). 
 This query returns the following:
