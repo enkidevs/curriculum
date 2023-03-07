@@ -49,6 +49,11 @@ Types of change:
 ### Fixed
 
 
+## March 7th 2023
+
+### Fixed
+- [SQL - Joins Role - Update Tables](https://github.com/enkidevs/curriculum/pull/3173)
+
 ## March 6th 2023
 
 ### Fixed
