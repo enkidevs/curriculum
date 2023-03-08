@@ -32,7 +32,7 @@ print(y)
 # 10
 ```
 
-You can also use the `=` operator, but it is generally recommended to use `<-` as it is easier to read and less prone to errors.
+You can also use the `=` operator:
 
 ```r
 x = 5
@@ -45,6 +45,18 @@ print(y)
 # 10
 ```
 
+However, the `<-` operator is the recommended way to assign values to variables, while the `=` operator is generally used for argument passing in function calls.
+```r
+multiply <- function(a, b){
+  a * b
+}
+
+# pass 5 for a and 10 for b in the multiply function
+result = multiply(a = 5, b = 10)
+
+print(result)
+# Output: [1] 50
+```
 
 ---
 ## Practice
