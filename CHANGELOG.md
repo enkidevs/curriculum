@@ -61,6 +61,11 @@ Types of change:
 ### Fixed
 - [R - Topic - Refference missing workout in readme](https://github.com/enkidevs/curriculum/pull/3174) 
 
+## March 7th 2023
+
+### Fixed
+- [SQL - Joins Role - Update Tables](https://github.com/enkidevs/curriculum/pull/3173)
+
 ## March 6th 2023
 
 ### Fixed
