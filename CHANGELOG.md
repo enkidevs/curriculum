@@ -48,6 +48,13 @@ Types of change:
 
 ### Fixed
 
+## March 7th 2023
+
+### Added
+- [R - Topic - Add new topic](https://github.com/enkidevs/curriculum/pull/3150)
+
+### Fixed
+- [R - Topic - Refference missing workout in readme](https://github.com/enkidevs/curriculum/pull/3174) 
 
 ## March 7th 2023
 
