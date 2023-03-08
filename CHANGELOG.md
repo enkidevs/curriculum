@@ -48,10 +48,25 @@ Types of change:
 
 ### Fixed
 
-## March 1st 2023
+## March 8th 2023
 
 ### Added
 - [Lua - Topic - Add lua](https://github.com/enkidevs/curriculum/pull/3167)
+
+## March 7th 2023
+
+### Added
+- [R - Topic - Add new topic](https://github.com/enkidevs/curriculum/pull/3150)
+
+### Fixed
+- [R - Topic - Refference missing workout in readme](https://github.com/enkidevs/curriculum/pull/3174) 
+
+## March 6th 2023
+
+### Fixed
+- [Comp Sci - 3 insights - Replace old domain with new one for 3 links](https://github.com/enkidevs/curriculum/pull/3170)
+- [Python - Writing files - Fix PQ](https://github.com/enkidevs/curriculum/pull/3171)
+- [Javascript - Types Strings - Update PQ](https://github.com/enkidevs/curriculum/pull/3172)
 
 ## February 27th 2023
 
