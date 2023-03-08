@@ -55,6 +55,12 @@ print(cities)
 # Levels: Chicago New York San Francisco
 ```
 
+When creating `factor` variables, all unique values are stored as **Levels** and can be accessed using the `levels()` function:
+```r
+print(levels(cities))
+# "Chicago" "New York" "San Francisco"
+```
+
 `NULL`: represents an empty object
 ```r
 empty <- NULL

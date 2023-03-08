@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 8th 2023
+
+### Fixed
+- [R - Variables And Data Types - Add missing info, remove subjective info](https://github.com/enkidevs/curriculum/pull/3175)
+
 ## March 7th 2023
 
 ### Added
