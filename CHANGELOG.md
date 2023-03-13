@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+
+## March 10th 2023
+
+### Fixed
+- [Javascript - Compilation - Add missing word in PQ](https://github.com/enkidevs/curriculum/pull/3176)
+
 ## March 8th 2023
 
 ### Fixed
