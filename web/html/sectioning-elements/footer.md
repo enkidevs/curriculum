@@ -73,15 +73,15 @@ The `<footer>` element is encouraged to contain which of the following?
 Which container is best to organize the bottom of a web page or content section?
 
 ```html
-???
+<???>
 ```
 
-- `<footer>`
-- `<foot>`
-- `<bottom>`
-- `<section>`
-- `<main>`
-- `<nav>`
+- `footer`
+- `foot`
+- `bottom`
+- `section`
+- `main`
+- `nav`
 
 
 ---

@@ -68,7 +68,7 @@ You can use **JSX** expressions anywhere. For example, you can:
 - `return` them
 - use them in `for` loops
 - use them in `if` statements
-- accept them as `function` arguments
+- accept them as `function` parameters
 - etc.
 
 Although writing `React.createElement` statements is perfectly valid, the main reason developers prefer to use JSX is the familiarity of HTML-like syntax.

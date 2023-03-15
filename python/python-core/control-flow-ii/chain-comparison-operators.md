@@ -8,7 +8,7 @@ tags:
   - operators
 links:
   - >-
-    [stackoverflow.com](http://stackoverflow.com/questions/101268/hidden-features-of-python){website}
+    [Chaining Comparison Operators](https://mathspp.com/blog/pydonts/chaining-comparison-operators){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

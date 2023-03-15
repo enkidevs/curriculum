@@ -52,8 +52,8 @@ Considering the following class and its instantiation:
 
 ```python
 class Enki:
-    def f(self):
-        return "Python"
+  def f(self):
+    return "Python"
 
 enki = Enki()
 
@@ -126,8 +126,8 @@ Store in variable `x` a method object from the `Test` class:
 
 ```python
 class Test:
-   def p(self):
-       return “p method”
+  def p(self):
+    return “p method”
 ??? = Test()
 x = test.???
 ```

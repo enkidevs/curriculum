@@ -63,12 +63,12 @@ To make this easier to understand consider the following example:
 
 ```python
 def f():
-    s = 'A local variable'
-    print(s) # print() is built-in
-    def g():
-        x = 'An enclosed variable'
-        print(x) # print() is built-in
-    g()
+  s = 'A local variable'
+  print(s) # print() is built-in
+  def g():
+    x = 'An enclosed variable'
+    print(x) # print() is built-in
+  g()
 
 
 r = 'A global variable'
@@ -93,7 +93,7 @@ Consider the following snippet. In what scope do you think `z` is in?
 
 ```python
 def foo(x):
-    return x*x
+  return x*x
 
 z = foo(4)
 ```
@@ -114,8 +114,8 @@ Is the variable `a` still in scope when it is printed?
 
 ```python
 def foo():
-    a = "Hello World"
-    return a
+  a = "Hello World"
+  return a
 
 b = foo()
 print(a)

@@ -43,7 +43,7 @@ If a company's goal is to *make more money*, it might want to focus on **sales g
 
 If a company's goal is to *drive engagement*, it might want to focus on things like **daily active users/monthly active users (DAU/MAU)**, **pageviews** and **average session duration**.
 
-If a company's goal is *customer satisafaction*, it might want to focus on **NPS (Net Promoter Score)**[1] or **customer retention rate**.
+If a company's goal is *customer satisfaction*, it might want to focus on **NPS (Net Promoter Score)**[1] or **customer retention rate**.
 
 If a company wants to attract new customers by *creating a great brand*, it might focus on **brand equity** and **brand awareness**.
 

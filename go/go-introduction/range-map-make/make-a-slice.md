@@ -75,8 +75,8 @@ Create an integer slice called `slice` with a length of `0` and a capacity of `7
 ??? := make(???, ???, ???)
 ```
 
-- slice 
-- []int
-- 0
-- 7
-- ()int
+- `slice` 
+- `[]int`
+- `0`
+- `7`
+- `()int`

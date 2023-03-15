@@ -49,7 +49,7 @@ Suppose the following annotation. Complete the snippet so it will be included in
 
 ```java
 @???
-@Enki
+@Enki {
   String enki = "enki";
 }
 ```

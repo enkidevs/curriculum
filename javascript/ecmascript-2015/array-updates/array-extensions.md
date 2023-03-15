@@ -93,20 +93,20 @@ console.log(???.value)
 // ???
 ```
 
-- entries
-- next
-- value
-- 1
-- second
-- [1, 1]
-- [1, 4]
-- [0, 1]
-- first
-- keys
-- iterator
-- toIterator
-- key
-- 2
-- 3
-- 0
+- `entries`
+- `next`
+- `value`
+- `1`
+- `second`
+- `[1, 1]`
+- `[1, 4]`
+- `[0, 1]`
+- `first`
+- `keys`
+- `iterator`
+- `toIterator`
+- `key`
+- `2`
+- `3`
+- `0`
  
