@@ -86,7 +86,7 @@ class new_context_manager:
     # deal with unmanaged resources
 
 with new_context_manager as custom_name
-   # work with resources
+  # work with resources
 ```
 
 - `__enter__`
