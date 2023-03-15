@@ -1,8 +1,8 @@
 ---
 author: mihaiberq
 type: exercise
-link: 'https://anders.com/blockchain/public-private-keys/keys.html'
-linkType: anders
+link: 'https://andersbrownworth.com/blockchain/public-private-keys/keys'
+linkType: andersbrownworth
 answer: >-
   42b698a0f0a4041b77e63488ad48c23e8e8838dd1fb7520408b121697b782ef222ee976351a7fe808101c7e79b040e5cb16afe6aa152b87e398d160c306a31bac
 links:

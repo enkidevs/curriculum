@@ -26,22 +26,53 @@ revisionQuestion:
 
 ## Content
 
-To shutdown:
+There are several ways to shut down or restart your Linux system.
 
+First, we have these commands:
 ```bash
-sudo shutdown -h now 
-sudo halt
 sudo poweroff
-sudo init 0 
+
+sudo reboot
 ```
 
-To restart:
-
+Next, we have `init` commands that tell the system to change the current *run level*[1]:
 ```bash
-sudo reboot
-sudo shutdown -r now
+# To shutdown:
+sudo init 0 
+
+# To restart:
 sudo init 6
 ```
+
+
+Next, a `halt` command can stop all CPU functions.
+```bash
+sudo halt
+```
+
+Finally, we can also use these commands:
+
+```bash
+# To shutdown
+sudo shutdown -h now 
+
+# or you can set a shutdown in 30 seconds:
+sudo shutdown -h -t30
+
+
+# the -h means "halt the system after shutdown"
+# while the -r means "restart the system after shutdown"
+
+# To restart:
+sudo shutdown -r now
+
+# you can also add a time:
+# erestart at 14:20
+sudo shutdown -r 14:20
+
+```
+
+Note: you can also use `--help` to view additional options for the shutdown command.
 
 
 ---
@@ -64,13 +95,21 @@ What is the command to make the system start the restart process `now`?
 ## Revision
 
 What is the command to shutdown the system `now`?
+
 ```bash
 ???
 ```
-
-
 
 - `sudo shutdown -h now`
 - `sudo reboot`
 - `sudo init 6`
 - `sudo shutdown -r now`
+
+
+---
+
+## Footnotes
+
+[1: Run Levels]
+
+A run level is a software configuration which allows only a selected group of processes to exist. They determine which program can execute after the OS boots up.

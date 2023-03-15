@@ -27,7 +27,7 @@ Let's write some code to tell our robot how to make a sandwich!
 
 To get us started, start with the preparation of the ingredients first.
 
-```plain-text
+```pseudo
 FUNCTION prepare_ingredients
   INPUT cheese, grater, bowl, bread
   INSTRUCT cheese_bowl = grate_cheese_in_the_bowl(grater, cheese, bowl)

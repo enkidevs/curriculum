@@ -39,8 +39,8 @@ Example:
 <!-- Single line comment -->
 
 <!--
-<h1 Some header</h1>
-<p>Random paragraph.</p>
+<h1> Some header </h1>
+<p> Random paragraph. </p>
 <a
   href="https://www.enki.com">
   This is a link
@@ -53,7 +53,7 @@ Example:
 
 ## Practice
 
-In regards to HTML comments, which of the following is true?:
+In regards to HTML comments, which of the following is true?
 
 ???
 

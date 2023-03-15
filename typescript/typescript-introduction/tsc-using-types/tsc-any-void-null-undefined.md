@@ -5,13 +5,13 @@ category: must-know
 links:
   - >-
     [Any
-    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#any){documentation}
+    Type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any){documentation}
   - >-
     [Void
-    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#void){documentation}
+    Type](https://www.typescriptlang.org/docs/handbook/2/functions.html#void){documentation}
   - >-
     [Null &
-    Undefined](https://www.typescriptlang.org/docs/handbook/basic-types.html#null-and-undefined){documentation}
+    Undefined](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined){documentation}
 practiceQuestion:
   formats:
     - fill-in-the-gap

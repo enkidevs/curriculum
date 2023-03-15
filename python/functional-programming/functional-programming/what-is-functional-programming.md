@@ -40,9 +40,9 @@ This is a way to define functions in a one-line fashion. Functions defined with 
 
 ```py
 foo = [1, 2, 3, 4, 5, 6]
-print(list(filter(
-      lambda x: x % 2 == 0,foo))
-      )
+print(list(filter( \
+  lambda x: x % 2 == 0,foo
+)))
 
 # Output: [2, 4, 6]
 ```
@@ -108,10 +108,9 @@ Can you predict what the output will be?
 ```py
 foo = list(range(1,10))
 
-result = list(
-       filter(
-       lambda x: x / 2 == 1 ,foo
-       ))
+result = list(filter( \
+  lambda x: x / 2 == 1 ,foo
+))
 
 print(result)
 

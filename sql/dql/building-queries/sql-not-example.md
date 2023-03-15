@@ -104,12 +104,11 @@ FROM pokemon
 ???;
 ```
 
-- `WHERE`
-- `name = 'bulbasaur' OR`
+- `WHERE name = 'bulbasaur'`
+- `OR`
 - `name = 'ivysaur' OR`
 - `name = 'venusaur'`
 - `name IS`
-- `OR`
 - `name IN`
 - `'ivysaur'`
 - `'bulbasaur'`

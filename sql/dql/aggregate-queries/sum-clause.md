@@ -86,7 +86,7 @@ FROM
 
 ## Revision
 
-We have a table called `items` that contains the name and cost of every item in Pokeland. We want to know how much it would cost to buy all items...
+We have a table called `item` that contains the name and cost of every item in Pokeland. We want to know how much it would cost to buy all items...
 
 | id | cost | name        |
 | -- | ---- | ----------- |

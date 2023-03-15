@@ -34,7 +34,7 @@ number = 10
 number = 100
 ```
 
-Initially the value of `number` was `10`. Later it was changed to `100`.
+Initially, the value of `number` was `10`. Later it was changed to `100`.
 
 ```python
 print(number)

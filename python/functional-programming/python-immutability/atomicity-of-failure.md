@@ -33,8 +33,7 @@ Take a look at this simple class, `MutableShoppingBasket`, representing a user's
 class MutableShoppingBasket:
   def __init__(self, itemcount):
     if itemcount < 0:
-      raise ValueError("""You can't have
-    less than zero items in the basket!""")
+      raise ValueError("""You can't have less than zero items in the basket!""")
     self.itemcount = itemcount
 
   def increment_items(self):
@@ -44,8 +43,7 @@ class MutableShoppingBasket:
     self.itemcount -=1
 
   def __repr__(self):
-    return("Shopping Basket with " +
-     str(self.itemcount) + " items.")
+    return("Shopping Basket with " + str(self.itemcount) + " items.")
 ```
 
 Can you see how this constraint could be broken? Let's do it:
@@ -92,9 +90,7 @@ What is the code snippet below an example of?
 (Remember that the `Connection` class defaults to the last HTTP method used if one is not specified in `request()`. See the footnotes in the insight for more information.)
 
 ```python
-conn = Connection(
-  http.client.HTTPConnection(
-              "httpbin.org", 80))
+conn = Connection(http.client.HTTPConnection("httpbin.org", 80))
 r1 = conn.request("POST")
 r2 = conn.request("", "text=hello")
 ```

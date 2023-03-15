@@ -43,7 +43,7 @@ not (x < y)
 
 We use this approach in our daily lives a lot!
 
-When we make grocery lists, we don't usually go through everything in the fridge. We just check each item straight away. Like this: If milk is `not` there, buy milk!
+When we make grocery lists, we don't usually go through everything in the fridge. Instead, we check each item straight away. Like this: If milk is `not` there, buy milk!
 
 > 🤔 Can you think of a real-life example where you use the not approach to save your time?
 >
@@ -60,7 +60,7 @@ word = 'list'
 sentence = 'we know about numbers, strings and booleans'
 
 ??? word ??? in sentence:
-    print("Let's learn some more data types!")
+  print("Let's learn some more data types!")
 ```
 
 - `if`

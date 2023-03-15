@@ -46,16 +46,18 @@ If there is a lack of heap space, then a `java.lang.OutOfMemoryError: Java Heap 
 
 ## Practice
 
-Stack memory is used to store ???, ???, and ???.
+??? memory is used to store ??? variables, ??? calls, and references to objects stored in ??? memory.
 
-Heap memory is used to store ???.
+??? memory is used to store ???.
 
-- local variables
-- method calls
-- references to objects stored in heap memory
+- Stack
+- local
+- method
+- heap
+- Heap
 - objects
-- global variables
-
+- global
+- stack
 
 ---
 

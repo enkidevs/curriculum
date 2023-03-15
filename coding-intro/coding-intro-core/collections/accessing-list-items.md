@@ -31,7 +31,7 @@ Accessing an item in an array is practically instant because there's no searchin
 
 Here's how you'd get the third element from the array `users`:
 
-```plain-text
+```python
 users = ["Andrei", "Catalin", "Mihai"]
 
 users[2]
@@ -49,7 +49,7 @@ users[2]
 
 Given the following list, access the second element:
 
-```plain-text
+```python
 work_days = [
   "Mon",
   "Tue",
@@ -75,7 +75,7 @@ work_days = [
 
 Complete the gap with the element found at that index:
 
-```plain-text
+```python
 spring = [
   "March",
   "April",
