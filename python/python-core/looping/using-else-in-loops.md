@@ -29,10 +29,10 @@ For example, an `else` statement integrated into a `while` loop:
 ```python
 x = 0
 while (x < 3):
-    print(x)
-    x = x + 1
+  print(x)
+  x = x + 1
 else:
-    print(x, "is too big!")
+  print(x, "is too big!")
 ```
 
 Gives the following output:
@@ -48,9 +48,9 @@ Also, an `else` statement integrated into a `for` loop in a similar example:
 
 ```python
 for x in range(0, 5):
-    print(x)
+  print(x)
 else:
-    print(x, "is range's upper limit")
+  print(x, "is range's upper limit")
 ```
 
 Gives the following output:
@@ -68,12 +68,12 @@ If a loop exits because of a `break` clause, the `else` clause will be skipped:
 
 ```python
 for i in range(0, 2):
-    if i == 1:
-        print("a")
-        break
-    print("b")
+  if i == 1:
+    print("a")
+    break
+  print("b")
 else:
-    print("c")
+  print("c")
 ```
 
 With the output:
@@ -93,10 +93,10 @@ Fill in the following snippet such that it will print `"Computation Done"` when 
 ```python
 x = 0
 while x ??? 3:
-    print("running")
-    x = x + 1
+  print("running")
+  x = x + 1
 ???:
-    ???("Computation Done")
+  ???("Computation Done")
 ```
 
 - `<`
@@ -130,12 +130,12 @@ An `else` statement is used in loops when the loop's ??? is evaluated to ???.
 
 ```python
 for i in [1, 2]:
-    if i == 1:
-        print("a")
-        break
-    print("b")
+  if i == 1:
+    print("a")
+    break
+  print("b")
 else:
-    print("c")
+  print("c")
 ```
 
  ???

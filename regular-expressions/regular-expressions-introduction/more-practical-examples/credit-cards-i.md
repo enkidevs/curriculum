@@ -62,10 +62,10 @@ Imagine that we don't want to include hyphens or spaces in our pattern for Visa 
 
 ???
 
-- [-\s]?
-- [-\s]
-- ?
-- \d
+- `[-\s]?`
+- `[-\s]`
+- `?`
+- `\d`
 
 
 ---
@@ -78,10 +78,10 @@ Imagine that we don't want to include hyphens or spaces in our pattern for Ameri
 
 ???
 
-- [-\s]?
-- [-\s]
-- ?
-- \d
+- `[-\s]?`
+- `[-\s]`
+- `?`
+- `\d`
 
 
 ---

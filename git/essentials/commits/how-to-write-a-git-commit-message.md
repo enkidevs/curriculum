@@ -39,7 +39,7 @@ git commit -m "Fix typo in README"
 For a longer commit, you should leave a line after the subject and include more description in the body of the commit:
 
 ```bash
-git commit
+git commit -m
 # commit message editor
 Redirect user to the login form
 

@@ -70,7 +70,7 @@ What does the garbage collector actually do?
 ???
 
 - steps in and marks the memory address as free
-- delets variables
+- deletes variables
 - removes values from variables
 
 

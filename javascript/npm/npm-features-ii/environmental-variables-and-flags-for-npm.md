@@ -55,7 +55,7 @@ Suppose your application relies on the `env NODE_PATH ./` trick, but also on oth
 
 ## Practice
 
-How would you add an environmental variable called `API_KEY` that's equal to `xyz` at the runtime of you node application? Suppose the main file of you application is `index.js`
+How would you add an environmental variable called `API_KEY` that's equal to `xyz` at the runtime of your node application? Suppose the main file of your application is `index.js`
 
 ```bash
 ??? ??? ??? ??? ???

@@ -12,7 +12,6 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -102,12 +101,12 @@ let reader??? = {
 };
 ```
 
-- Array<Book>
-- : BookReader
-- satisfy BookReader
-- []Book
-- = BookReader
-- Array<string>
+- `Array<Book>`
+- `: BookReader`
+- `satisfy BookReader`
+- `[]Book`
+- `= BookReader`
+- `Array<string>`
 
 ---
 

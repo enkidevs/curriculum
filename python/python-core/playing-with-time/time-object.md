@@ -112,8 +112,7 @@ from ??? import date, time
 
 t = time()
 print(t == time.???) # True
-print(t.???(23,59,59,999999)
-                      == time.???) # True
+print(t.???(23,59,59,999999) == time.???) # True
 
 d = ???(1991, 12, 25)
 print(d.???) # 12

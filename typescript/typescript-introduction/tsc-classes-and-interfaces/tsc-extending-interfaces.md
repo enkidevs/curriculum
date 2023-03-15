@@ -57,7 +57,7 @@ console.log(
 
 This allows you to combine information from one interface into another and organize the types into reusable shapes that makes the most sense for your program.
 
-In fact, more than one interface can be extended:
+In fact, more than one interface can be extended by writing them one after another separated by a comma:
 
 ```ts
 interface Skill {
@@ -71,9 +71,7 @@ interface Habit {
 // to master a skill
 // we need to build a habit
 // of practicing it
-interface SkillMastery
-  extends Skill,
-    Habit {
+interface SkillMastery extends Skill, Habit {
   isFun: boolean;
 }
 

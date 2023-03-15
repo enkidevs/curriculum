@@ -4,14 +4,7 @@ type: normal
 category: must-know
 links:
   - >-
-    [Number
-    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#number){documentation}
-  - >-
-    [String
-    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#string){documentation}
-  - >-
-    [Boolean
-    Type](https://www.typescriptlang.org/docs/handbook/basic-types.html#boolean){documentation}
+    [Number, Boolean, String Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html){documentation}
 practiceQuestion:
   formats:
     - fill-in-the-gap

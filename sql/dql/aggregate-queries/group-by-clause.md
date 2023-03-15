@@ -92,10 +92,10 @@ Output:
 
 ## Revision
 
-`item` is a table with the following columns:  
-`id` - unique id of the item  
-`cost` - item's cost  
-`item_category_id` - ID category  
+`item` is a table with the following columns:
+`id` - unique id of the item
+`cost` - item's cost
+`item_category_id` - ID category
 `name` - item's name
 
 Find the _average cost of items in each category_.

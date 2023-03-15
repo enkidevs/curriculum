@@ -47,9 +47,9 @@ Python has multiple techniques for looping over data structures.
 ```python
 my_dict = {'first': 'a', 'second': 'b'}
 for k, v in my_dict.items():
-    print(k, v)
-#first a
-#second b
+  print(k, v)
+# first a
+# second b
 ```
 
 The `enumerate()` function allows looping with both `index` and `value` through any **sequence**:
@@ -57,7 +57,7 @@ The `enumerate()` function allows looping with both `index` and `value` through 
 ```python
 my_list = ['a', 'b']
 for i, v in enumerate(my_list):
-    print(i, v)
+  print(i, v)
 # 0 a
 # 1 b
 ```
@@ -68,7 +68,7 @@ for i, v in enumerate(my_list):
 first_list = ['a', 'b']
 second_list = ['one', 'two']
 for f, s in zip(first_list, second_list):
-    print(f, s)
+  print(f, s)
 # a one
 # b two
 ```
@@ -78,7 +78,7 @@ To loop in a sorted order, use the `sorted()` function:
 ```python
 my_list = ['b', 'c', 'a']
 for f in sorted(my_list):
-    print(f)
+  print(f)
 # a
 # b
 # c
@@ -105,20 +105,23 @@ Complete the code snippet to pair the sequences in order and loop over them both
 list_a = ['a', 'b', 'c']
 list_one = ['one', 'two', 'three']
 for k, v in ???(list_a, list_one):
-    print(???)
+  print(???, ???)
 
-//Expected output:
-// a one
-// b two
-// c three
+# Expected output:
+# a one
+# b two
+# c three
 ```
 
 - `zip`
-- `k, v`
-- `f, s`
+- `k` 
+- `v`
+- `f`
+- `s`
 - `pair`
 - `parallel`
-- `list_a, list_one`
+- `list_a`
+- `list_one`
 
 
 ---
@@ -130,7 +133,7 @@ Complete the code snippet to loop through the list in reverse and then print it 
 ```python
 enki_list = ['i', 'k', 'n', 'e']
 for w in ???(???):
-    ???(w)   
+  ???(w)
 
 ```
 

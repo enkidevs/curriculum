@@ -1,8 +1,8 @@
 ---
 author: mihaiberq
 type: exercise
-link: 'https://anders.com/blockchain/block.html'
-linkType: anders
+link: 'https://andersbrownworth.com/blockchain/block'
+linkType: andersbrownworth
 answer: 3996
 links:
   - '[Demo for the website](https://www.youtube.com/watch?v=_160oMzblY8){video}'

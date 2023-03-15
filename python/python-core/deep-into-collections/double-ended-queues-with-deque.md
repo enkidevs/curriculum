@@ -64,8 +64,8 @@ Starting from Python `3.1` you can limit the maximum numbers of elements in a `d
 d = deque(maxlen=3)
 deque([], maxlen=3)
 for i in range(4):
-    d.append(i)
-    print(d)
+  d.append(i)
+  print(d)
 ...
 # Output:
 deque([0], maxlen=3)

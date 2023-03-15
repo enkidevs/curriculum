@@ -70,13 +70,16 @@ Let's imagine we are comparing the bill totals for two customers. Fill in the bl
 bill1 = [2.5, 3, 16, 18]
 bill2 = [4.5, 4.5, 18, 18, 3.99]
 
-print(bill1 if ??? > ??? else bill2)
+sum1 = ???
+sum2 = ???
+
+print(sum1 if ??? > ??? else sum2)
 ```
 
 - sum(bill1, 8)
 - sum(bill2, 8)
-- sum(bill1)
-- sum(bill2)
+- sum1
+- sum2
 - sum(bill1, bill2)
 - sum(bill2, bill1)
 

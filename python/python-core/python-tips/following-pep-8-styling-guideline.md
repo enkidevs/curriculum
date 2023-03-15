@@ -23,10 +23,10 @@ revisionQuestion:
 
 ## Content
 
-The most common and standard styling guideline for Python is known as PEP 8.
-It is designed to improve readability.
+Python's most common and standard styling guideline is PEP 8, designed to improve readability.
 
-It can however be quite strict (e.g. in the case of whitespaces).
+It can, however, be quite strict (e.g. in the case of whitespaces).
+
 For instance, this is OK in PEP 8:
 
 ```python
@@ -47,8 +47,7 @@ Raymond Hettinger's word of wisdom:
 "Do not PEP 8 unto others; only PEP 8 thy self.
 Don't let PEP 8 make you insanely intolerant of other people's code."
 
-To PEP 8 yourself, use a linter and an autoformatter. These
-exist for all the popular editors.
+To PEP 8 yourself, use a linter and an autoformatter. These exist for all the popular editors.
 
 
 ---

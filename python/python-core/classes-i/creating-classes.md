@@ -25,7 +25,7 @@ Classes are defined with the `class` keyword and use Python's block structure[2]
 
 ```python
 class Employee:
-   count = 0
+  count = 0
 ```
 
 To create an instance of a class (also called to "instantiate") is done like so:
@@ -61,8 +61,7 @@ Once the `__init__` method has been taken care of, other methods can be defined 
 class Employee:
   # the code above
   def print_idnum(self):
-    print("{0} is employee no. {1}"
-      .format(self.name, self.idnum))
+    print("{0} is employee no. {1}".format(self.name, self.idnum))
 ```
 
 > 💡 On the other hand, when calling methods, you do not need to pass `self` as a parameter, Python does that for you automatically.

@@ -33,7 +33,6 @@ Consider the following example:
 import unittest
 
 class SimplisticTest(unittest.TestCase):
-
   def test_True(self):
     self.assertTrue(True)
 

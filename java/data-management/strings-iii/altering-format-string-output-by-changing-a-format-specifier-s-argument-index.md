@@ -12,7 +12,6 @@ notes: 'Gamified insight. Static Workout. '
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -71,8 +70,8 @@ result = String.format(
 // result = ???
 ```
 
-- `bca`
-- `abc`
-- `aaa`
-- `cab`
-- `bac`
+- `b c a`
+- `a b c`
+- `a a a`
+- `c a b`
+- `b a c`

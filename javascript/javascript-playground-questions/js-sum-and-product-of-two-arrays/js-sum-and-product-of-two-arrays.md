@@ -29,7 +29,7 @@ setupCode:
 > 👩‍💻 Your task is to define a function that:
 > - **takes two arrays as input**
 > - **sums up the values in each array**
-> - **multiplies the sumed values**
+> - **multiplies the summed values**
 > - **outputs the result**
 
 Example arrays:
