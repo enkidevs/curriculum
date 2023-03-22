@@ -66,15 +66,11 @@ logical_vector[-1]
 ---
 ## Practice
 
-A ??? is a ??? array of data elements of ??? data type.
+A vector is a ??? array of data elements of ??? data type.
 
-???
-
-- `vector`
 - `one-dimensional`
 - `the same`
 - `different`
-- `list`
 - `two-dimensional`
 
 ---
