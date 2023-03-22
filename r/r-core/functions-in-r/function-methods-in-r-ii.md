@@ -31,17 +31,21 @@ args(add)
 # x, y
 ```
 
-The `source()` function reads in the source code of a function and returns it as a character string:
+The `source()` function reads the source code from a file and evaluates it in the current **R** environment, allowing functions, variables, and other code defined in the file to be used in the current session:
 ```r
+# If you have this code saved in a file called addFunction.R:
 add <- function(x, y) {
   x + y
 }
 
-deparse(add)
-# "function (x, y) 
-# {
-#   x + y
-# }"
+# You can load it:
+source("addFunction.R")
+
+# Then the add() function becomes available in your R session:
+
+result <- add(2, 3)
+print(result)
+# [1] 5
 ```
 
 The `deparse()` function returns a character string representation of an object:
@@ -51,10 +55,9 @@ add <- function(x, y) {
 }
 
 deparse(add)
-# "function (x, y) 
-# {
-#   x + y
-# }"
+# "function (x, y) " "{"
+#   "x + y"
+# "}"
 ```
 
 The `is.primitive()` function returns `TRUE` if an object is a primitive function and `FALSE` otherwise:
