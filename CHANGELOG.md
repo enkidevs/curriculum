@@ -48,11 +48,11 @@ Types of change:
 
 ### Fixed
 
-
 ## March 22nd 2023
 
 ### Fixed
 - [R - Function Methods in R II - Fix duplicate example](https://github.com/enkidevs/curriculum/pull/3177)
+- [R - Type In The Gap Questions - Fix missing answer field](https://github.com/enkidevs/curriculum/pull/3178)
 
 
 ## March 10th 2023
