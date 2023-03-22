@@ -41,7 +41,7 @@ add <- function(x, y) {
 # You can load it:
 source("addFunction.R")
 
-# Then the add() f unction becomes available in your R session:
+# Then the add() function becomes available in your R session:
 
 result <- add(2, 3)
 print(result)
