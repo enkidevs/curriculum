@@ -108,9 +108,11 @@ Which of the following is **NOT** a way to add an element to a list in **R**?
 
 What function can be used to remove an element from a list by its key in **R**?
 
-???
+```r
+???()
+```
 
-- `rm()`
-- `remove()`
-- `delete()`
-- `erase()`
+- `rm`
+- `remove`
+- `delete`
+- `erase`
