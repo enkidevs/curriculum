@@ -49,6 +49,12 @@ Types of change:
 ### Fixed
 
 
+## March 22nd 2023
+
+### Fixed
+- [R - Function Methods in R II - Fix duplicate example](https://github.com/enkidevs/curriculum/pull/3177)
+
+
 ## March 10th 2023
 
 ### Fixed
