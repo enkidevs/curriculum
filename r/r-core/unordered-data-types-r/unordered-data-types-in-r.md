@@ -76,7 +76,7 @@ A vector is a ??? array of data elements of ??? data type.
 ---
 ## Revision
 
-Finish the code to create a *character* vector called `numers`:
+Finish the code to create a *character* vector called `numbers`:
 ```r
 ??? <- ???(
   "1", "2", "3", "4", "5"
