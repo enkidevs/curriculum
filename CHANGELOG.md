@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 23rd 2023
+
+### Fixed
+- [R - Unordered Data Types - Fix typo ](https://github.com/enkidevs/curriculum/pull/3179)
+
 ## March 22nd 2023
 
 ### Fixed
