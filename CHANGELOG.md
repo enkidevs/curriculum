@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 24th 2023
+
+### Fixed 
+- [R - Multiple Insights - Remove extra question gaps](https://github.com/enkidevs/curriculum/pull/3180)
+
 ## March 23rd 2023
 
 ### Fixed
