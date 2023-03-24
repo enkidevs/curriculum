@@ -75,9 +75,9 @@ What is the output of the following code?
 ```r
 vector <- 1:10
 vector <- vector * 2 + 1
+# ???
 ```
 
-???
 
 - `3 5 7 9 11 13 15 17 19 21`
 - `1 3 5 7 9 11 13 15 17 19`

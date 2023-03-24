@@ -94,9 +94,9 @@ What is the output of the following code?
 ```r
 scores <- c(100, 90, 80, 70, 60)
 mean(scores)
+# ???
 ```
 
-???
 
 - `80`
 - `85`
