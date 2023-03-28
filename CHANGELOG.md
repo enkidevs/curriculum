@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## March 28th 2023
+
+### Fixed
+- [JavaScript - 2 insights - Replace broken links](https://github.com/enkidevs/curriculum/pull/3181)
+
 ## March 24th 2023
 
 ### Fixed 
