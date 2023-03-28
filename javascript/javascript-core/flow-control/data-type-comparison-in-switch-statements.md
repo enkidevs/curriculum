@@ -4,7 +4,7 @@ type: normal
 category: caveats
 links:
   - >-
-    [16 Common JavaScript
+    [Common JavaScript
     Gotchas](https://www.digitalocean.com/community/tutorials/js-gotchas){website}
   - '[== vs ===](https://youtu.be/kVOmc7NK1M0){video}'
 practiceQuestion:
