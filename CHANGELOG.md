@@ -48,7 +48,11 @@ Types of change:
 
 ### Fixed
 
+
 ## April 3rd 2023
+
+### Changed
+- [Python - Data Types - Change insight type to discussion](https://github.com/enkidevs/curriculum/pull/3182)
 
 ### Fixed
 - [R - Combining Variables - Fix incorrect output in code block](https://github.com/enkidevs/curriculum/pull/3183)

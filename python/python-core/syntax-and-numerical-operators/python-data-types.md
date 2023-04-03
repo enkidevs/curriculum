@@ -3,7 +3,7 @@ author: emmab
 tags:
   - introduction
 type: normal
-category: must-know
+category: discussion
 links:
   - >-
     [Pythonic](https://stackoverflow.com/questions/25011078/what-does-pythonic-mean){website}
