@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+
+## April 3rd 2023
+
+### Changed
+- [Python - Data Types - Change insight type to discussion](https://github.com/enkidevs/curriculum/pull/3182)
+
 ## March 28th 2023
 
 ### Fixed
