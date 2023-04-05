@@ -1,4 +1,4 @@
-name: AI
+name: Prompt Engineering
 
 description: Learn how intelligent systems work, and use them to solve real-world problems.
 

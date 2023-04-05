@@ -1,6 +1,6 @@
 name: ChatGPT
 
-description: The fundamentals of R.
+description: Prompt engineering with ChatGPT!
 
 core: true
 
