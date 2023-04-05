@@ -66,21 +66,17 @@ logical_vector[-1]
 ---
 ## Practice
 
-A ??? is a ??? array of data elements of ??? data type.
+A vector is a ??? array of data elements of ??? data type.
 
-???
-
-- `vector`
 - `one-dimensional`
 - `the same`
 - `different`
-- `list`
 - `two-dimensional`
 
 ---
 ## Revision
 
-Finish the code to create a *character* vector called `numers`:
+Finish the code to create a *character* vector called `numbers`:
 ```r
 ??? <- ???(
   "1", "2", "3", "4", "5"

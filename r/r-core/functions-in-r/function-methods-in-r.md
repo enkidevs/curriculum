@@ -81,8 +81,10 @@ Which function can be used to return the body of a function as an expression in 
 
 Which function can be used to call a function with a list of arguments in **R**?
 
-???
+```r
+???()
+```
 
-- `call()`
-- `formals()`
-- `body()`
+- `call`
+- `formals`
+- `body`

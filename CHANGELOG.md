@@ -48,6 +48,46 @@ Types of change:
 
 ### Fixed
 
+## April 5th 2023
+
+### Fixed
+- [R - Function in R - Fix PQ](https://github.com/enkidevs/curriculum/pull/3184)
+
+## April 3rd 2023
+
+### Changed
+- [Python - Data Types - Change insight type to discussion](https://github.com/enkidevs/curriculum/pull/3182)
+
+### Fixed
+- [R - Combining Variables - Fix incorrect output in code block](https://github.com/enkidevs/curriculum/pull/3183)
+
+## March 28th 2023
+
+### Fixed
+- [JavaScript - 2 insights - Replace broken links](https://github.com/enkidevs/curriculum/pull/3181)
+
+## March 24th 2023
+
+### Fixed 
+- [R - Multiple Insights - Remove extra question gaps](https://github.com/enkidevs/curriculum/pull/3180)
+
+## March 23rd 2023
+
+### Fixed
+- [R - Unordered Data Types - Fix typo ](https://github.com/enkidevs/curriculum/pull/3179)
+
+## March 22nd 2023
+
+### Fixed
+- [R - Function Methods in R II - Fix duplicate example](https://github.com/enkidevs/curriculum/pull/3177)
+- [R - Type In The Gap Questions - Fix missing answer field](https://github.com/enkidevs/curriculum/pull/3178)
+
+
+## March 10th 2023
+
+### Fixed
+- [Javascript - Compilation - Add missing word in PQ](https://github.com/enkidevs/curriculum/pull/3176)
+
 ## March 8th 2023
 
 ### Fixed
@@ -473,6 +513,8 @@ Types of change:
 ### Changed
 - [Html - Link Relative Paths - Change part of PQ as it wasn't worder properly](https://github.com/enkidevs/curriculum/pull/2985)
 - [Python - Format Text Paragraphs With Textwrap - Make the fill method more clear](https://github.com/enkidevs/curriculum/pull/2981)
+- [Python - Classes III - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2994)
+- [Python - Advanced Referencing - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2989)
 - [Python - Python Recipes - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3009)
 - [Python - Is Your Python Healthy - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2999)
 - [Python - Memory Allocation - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces, grammar improvements](https://github.com/enkidevs/curriculum/pull/3002)

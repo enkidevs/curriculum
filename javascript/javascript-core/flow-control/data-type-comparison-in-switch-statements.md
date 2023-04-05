@@ -4,8 +4,8 @@ type: normal
 category: caveats
 links:
   - >-
-    [16 Common JavaScript
-    Gotchas](http://www.standardista.com/javascript/15-common-javascript-gotchas){website}
+    [Common JavaScript
+    Gotchas](https://www.digitalocean.com/community/tutorials/js-gotchas){website}
   - '[== vs ===](https://youtu.be/kVOmc7NK1M0){video}'
 practiceQuestion:
   formats:

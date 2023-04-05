@@ -80,9 +80,11 @@ Which of the following is **NOT** a way to access an element in a list in **R**?
 
 What function can be used to get the number of elements in a list in **R**?
 
-???
+```r
+???()
+```
 
-- `length()`
-- `size()`
-- `count()`
-- `lengths()`
+- `length`
+- `size`
+- `count`
+- `lengths`
