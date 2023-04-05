@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 6th 2023
+
+### Added
+- [Ai - ChatGPT - Add chatGPT course to AI topic](https://github.com/enkidevs/curriculum/pull/3185)
+
 ## April 5th 2023
 
 ### Fixed
