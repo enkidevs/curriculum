@@ -19,12 +19,11 @@ practiceQuestion:
 
 ChatGPT can provide varius forms of entertainment including, but not limited to:
 - Telling jokes
-- Generating stories
-- Providing informatin about a topic
+- Generating stories, poems, songs
+- Generating in the style of a pirate, a famous singer, and more
 - Playing games
+- and so on
 
-Let's play some games with it.
+Let's play some games with it. We will first try a popular game like Tic Tac Toe. 
 
-Let's try a popular game like Hangman. In the following example, ChatGPT makes a few mistakes but we manage to work around it with different promts to get to the desired outcome.
-
-
+![lets-play-tic-tac-toe][https://img.enkipro.com/7b8d9cab53c5a25874ff2751b175faf2.png]

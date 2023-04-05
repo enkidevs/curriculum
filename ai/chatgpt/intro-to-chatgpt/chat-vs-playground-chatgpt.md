@@ -24,3 +24,5 @@ practiceQuestion:
 On the other hand, **OpenAI** Playground is a web-based interface that provides users with a more structured environment to experiment with **OpenAI**'s language models. It allows users to input prompts or questions and receive a response from the model, as well as to tweak various parameters to fine-tune the output.
 
 While both tools use **OpenAI**'s language models, **OpenAI** Chat is more suitable for real-time interactions, such as customer support or personal assistance, while **OpenAI** Playground is more suitable for experimentation, testing, or research purposes. Depending on your needs, you can choose the tool that best fits your use case.
+
+Throughout this course, we will be using the **OpenAI** chat.

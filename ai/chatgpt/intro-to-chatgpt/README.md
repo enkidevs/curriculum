@@ -1,13 +1,14 @@
-name: Intro to R
+name: Intro to ChatGPT
 
-description: Get familiar with R.
+description: Learn how to start using ChatGPT, and the benefits it can provide.
 
 insights:
-  - what-is-r
-  - why-learn-r
-  - installing-r-locally
-  - first-program-hello-world-r
+  - what-is-chatgpt
+  - why-learn-chatgpt
+  - how-to-start-using-chatgpt
+  - chat-vs-playground-chatgpt
+  - using-chatgpt-first-time
 
 aspects:
   - workout
-  - deep
+  - introduction
