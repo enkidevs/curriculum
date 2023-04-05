@@ -1,12 +1,12 @@
 name: More Prompt Techniques
 
-description: 
+description: Useful prompt techniques.
 
 insights:
   - leveraging-tables-in-chatgpt
   - act-like-a
   - graph-outputs
-  - explain-like-im-5-chatgpt
+  - explain-like-im-five-chatgpt
   - rewrite-my-code
 
 aspects:

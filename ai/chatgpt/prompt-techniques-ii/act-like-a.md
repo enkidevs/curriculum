@@ -2,10 +2,7 @@
 author: Stefan-Stojanovic
 type: normal
 category: discussion
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
+ 
 
 ---
 
