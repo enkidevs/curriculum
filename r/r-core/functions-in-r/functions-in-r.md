@@ -68,7 +68,7 @@ print(result)
 ---
 ## Practice
 
-Which of the following is **NOT** a way to define a function in **R**?
+Which of the following is the correct way to define a function in **R**?
 
 ???
 
