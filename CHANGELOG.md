@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+
+## April 6th 2023
+
+### Fixed
+- [Linux - Using find to search by file size - minor grammar change](https://github.com/enkidevs/curriculum/pull/3186)
+
 ## April 5th 2023
 
 ### Fixed
