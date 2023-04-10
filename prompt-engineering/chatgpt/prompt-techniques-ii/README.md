@@ -8,6 +8,7 @@ insights:
   - graph-outputs
   - explain-like-im-five-chatgpt
   - rewrite-my-code
+  - render-markdown-images
 
 aspects:
   - workout

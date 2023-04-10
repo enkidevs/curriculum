@@ -23,4 +23,4 @@ Once you're logged in, you can start interacting with **ChatGPT** by entering pr
 As you experiment with **ChatGPT**, you'll likely discover new ways to make the most of this powerful AI tool.
 
 Here's an example:
-![meaning-of-life](https://img.enkipro.com/a84207a4de1a7f3c22bfe9650ed70c4c.gif)
+![meaning-of-life](https://img.enkipro.com/4fdfa43fe842031d62e3b959d4c18cc5.png)
