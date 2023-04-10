@@ -28,7 +28,7 @@ This will find all files at least 100MB or larger in the current directory:
 find . -type f -size +100M
 ```
 
-The `+` in `+100M` signifies "at least 100MB".  If instead we used `-size 100MB`, `find` would only match files which are 100MB large (rounded to the nearest MB).
+The `+` in `+100M` signifies "at least 100MB".  If instead we used `-size 100M`, `find` would only match files which are 100MB large (rounded to the nearest MB).
 
 The output of this command will be a simple list of filenames without any size information.
 
