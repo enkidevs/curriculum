@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## April 10th 2023
+
+### Fixed
+- [Python - String Formatting - Replace outaded formatting with f strings](https://github.com/enkidevs/curriculum/pull/3189)
 
 ## April 6th 2023
 
