@@ -51,6 +51,7 @@ Types of change:
 ## April 10th 2023
 
 ### Fixed
+- [Git - Useful Stashing Options - Fix question](https://github.com/enkidevs/curriculum/pull/3188)
 - [Python - String Formatting - Replace outaded formatting with f strings](https://github.com/enkidevs/curriculum/pull/3189)
 
 ## April 6th 2023
