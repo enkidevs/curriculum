@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 10th 2023
+
+### Fixed
+- [Git - Useful Stashing Options - Fix question](https://github.com/enkidevs/curriculum/pull/3188)
+
 ## April 5th 2023
 
 ### Fixed
