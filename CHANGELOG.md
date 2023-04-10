@@ -52,6 +52,12 @@ Types of change:
 
 ### Fixed
 - [Git - Useful Stashing Options - Fix question](https://github.com/enkidevs/curriculum/pull/3188)
+- [Python - String Formatting - Replace outaded formatting with f strings](https://github.com/enkidevs/curriculum/pull/3189)
+
+## April 6th 2023
+
+### Fixed
+- [Linux - Using find to search by file size - minor grammar change](https://github.com/enkidevs/curriculum/pull/3186)
 
 ## April 5th 2023
 
