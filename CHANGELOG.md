@@ -50,6 +50,9 @@ Types of change:
 
 ## April 10th 2023
 
+### Changed
+- [Coding Intro - Why Learn To Code - Change insight to discussion](https://github.com/enkidevs/curriculum/pull/3187)
+
 ### Fixed
 - [Git - Useful Stashing Options - Fix question](https://github.com/enkidevs/curriculum/pull/3188)
 - [Python - String Formatting - Replace outaded formatting with f strings](https://github.com/enkidevs/curriculum/pull/3189)
