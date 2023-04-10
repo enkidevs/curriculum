@@ -62,13 +62,15 @@ stash@{0}: On master: new feature
 
 Select the `git stash` option that stashes:
 
-tracked and untracked files ???  
+```plain-text
+tracked and untracked files ??? 
 unstaged files ???  
 interactively ???  
+```
 
-- -u
-- --keep-index
-- --patch
+- `-u`
+- `--keep-index`
+- `--patch`
 
 
 ---
