@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 10th 2023
+
+### Changed
+- [Coding Intro - Why Learn To Code - Change insight to discussion](https://github.com/enkidevs/curriculum/pull/3187)
+
 ## April 5th 2023
 
 ### Fixed
