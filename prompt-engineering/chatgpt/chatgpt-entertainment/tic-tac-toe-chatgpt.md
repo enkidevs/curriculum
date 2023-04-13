@@ -6,7 +6,7 @@ category: must-know
 
 ---
 
-# Tic Tac Toe II
+# Tic Tac Toe
 
 ---
 

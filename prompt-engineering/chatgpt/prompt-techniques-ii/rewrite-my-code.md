@@ -24,7 +24,7 @@ Here are a few more examples:
 
 ![arrow-function](https://img.enkipro.com/807d78d5cfe4d1f8bcf119f85d27fa81.png)
 
-We can also use tell it to simplify: 
+We can also tell it to simplify: 
 
 ![simplify](https://img.enkipro.com/6be65969b4c4cb5dc99e4cdaca165595.png)
 

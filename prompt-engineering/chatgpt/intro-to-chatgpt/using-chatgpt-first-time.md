@@ -28,5 +28,3 @@ The examples are buttons you can click to copy that message to the chat and hit 
 
 Here's an example prompt:
 ![how-are-you-chatgpt](https://img.enkipro.com/1ad6b40aae719dbe61818e4525f2056d.png)
-
-

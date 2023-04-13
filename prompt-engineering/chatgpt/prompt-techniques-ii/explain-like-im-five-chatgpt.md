@@ -22,12 +22,12 @@ Here's an example without this prompt:
 
 Now explain like im 5:
 
-![explain-like-im-5-distributed-system](https://img.enkipro.com/058386a1246f0d428230b406eccff77f.png)
+![explain-like-im-5-distributed-system](https://img.enkipro.com/c975edf7006af5179d6672c73a016aac.png)
 
-In this case, the **Explain like im 5** used puzzles to explain what distributed systems are. 
+In this case, the **Explain like im 5** used Legos to explain what distributed systems are. 
 
-However, what if we are not satisfied with that explanation as we aren't aware of what puzzles do? Let's ask it:
+However, what if we are not satisfied that it used Lego's in the explanation? We can tell it explain again without using that concept:
 
-![explanation-without-puzzles](https://img.enkipro.com/46e454bd007ba73bb56e0deed8e37380.png)
+![explanation-without-lego](https://img.enkipro.com/46e454bd007ba73bb56e0deed8e37380.png)
 
-As you can see, we can continuously modify how it responds to us until we are satisfied with the answer.
+We can continuously modify how it responds to us until we are satisfied with the response.

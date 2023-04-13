@@ -29,3 +29,5 @@ Here are couple more examples:
 
 Here are "2 cats fighting":
 ![fighting-cats-ascii](https://img.enkipro.com/8068e4cbf37bd8997ac852a406ef65fb.png)
+
+Occasionally, like in the above image, the result might not be what we want, so we have to regenerate our response until we are satisfied.
