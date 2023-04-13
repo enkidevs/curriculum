@@ -6,7 +6,6 @@ insights:
   - what-is-chatgpt
   - why-learn-chatgpt
   - how-to-start-using-chatgpt
-  - chat-vs-playground-chatgpt
   - using-chatgpt-first-time
 
 aspects:

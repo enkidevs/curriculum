@@ -14,10 +14,21 @@ category: must-know
 
 ---
 
-**Prompt engineering** is a relatively new technique used in natural language processing (NLP) to improve the performance of language models.
+**Prompt engineering** is a new method used in natural language processing (NLP)[1] that improves language models. 
 
-You provide well-designed prompts or inputs that guide the model's response towards a specific task or goal. 
+It works by giving the model specific instructions that guide its response towards a particular task or goal.
 
-By carefully selecting the wording, phrasing, and sentence structure of prompts, the model can produce more accurate and relevant responses. 
+By choosing the right words and structure, i.e. making a good prompt, the model can produce more precise and relevant answers.
 
-**Prompt engineering** has the potential to enable more focused and targeted conversations, and to improve the model's ability to perform specific NLP tasks such as language translation and sentiment analysis.
+---
+
+## Footnotes
+
+[1: NLP]
+**NLP**, which stands for **Natural Language Processing**, is a type of technology that helps computers understand human language. It's like teaching a computer to speak a new language!
+
+Computers can process information really quickly, but they don't understand language the way people do. That's where **NLP** comes in. By using algorithms and models, **NLP** can help computers process and analyze large amounts of natural language data, like text, speech, and even images that have words on them.
+
+There are many different ways that **NLP** can be used, like translating languages, analyzing people's feelings from their social media posts, and even helping doctors diagnose diseases by analyzing patient notes. These tasks are broken down into smaller tasks, like figuring out what kind of word it is (noun, verb, etc.), identifying who or what is being talked about, and even understanding the overall meaning of a sentence.
+
+In short, **NLP** is a really cool technology that helps computers understand and use human language in a way that can be helpful to us in many different ways.
