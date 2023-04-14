@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+
+## April 14th 2023
+
+### Changed
+- [Python - Accross Topic - Replace older string format with f strings](https://github.com/enkidevs/curriculum/pull/3192)
+
 ## April 10th 2023
 
 ### Changed

@@ -32,7 +32,7 @@ def get_fahrenheit(method):
   # methods, pass self as a parameter
   def wrapper(self):
     # "self" argument is passed
-    return "{0} F".format(method(self) * 1.8 + 32)
+    return f"{method(self) * 1.8 + 32} F"
   return wrapper
 
 class Temperature(object):
@@ -52,9 +52,9 @@ We got it now working for methods. But what if we are looking to decorate method
 
 ```python
 def get_fahrenheit(method):
-  # exepect any number of args/named args
+  # expect any number of args/named args
   def wrapper(*args, **kwargs):
-    return "{0} F".format(method(*args,**kwargs)*1.8+32)
+    return f"{method(*args, **kwargs) * 1.8 + 32} F"
   return wrapper
 
 class Temperature(object):
@@ -62,13 +62,15 @@ class Temperature(object):
     self.degrees = celsius
 
   @get_fahrenheit
-  #two extra arguments expected here
-  def get_temp(self, extra1, extra2 = 0, extra3 = 0):
+  # two extra arguments expected here
+  def get_temp(self, extra1, extra2=0, extra3=0):
     return self.degrees + extra1 + extra2 + extra3
+
 temp = Temperature(15)
 # self is passed by default
-print(temp.get_temp(3, extra2 = 1))
+print(temp.get_temp(3, extra2=1))
 # 66.2 F (instead of 59.0F)
+
 ```
 
 
