@@ -68,7 +68,7 @@ Inside the loop, multiply the `result` by each number in the loop.
 
 Example print:
 ```python
-print ("The factorial of {0} is {1} ".format(number,factorial))
+print(f"The factorial of {number} is {factorial}")
 ```
 Output:
 ```plain-text
