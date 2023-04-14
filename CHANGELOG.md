@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 14th 2023
+
+### Fixed
+- [Multiple Topics - Multiple Insights - Enclose answers that start with a dash in backticks](https://github.com/enkidevs/curriculum/pull/3191) 
+
 ## April 10th 2023
 
 ### Changed
