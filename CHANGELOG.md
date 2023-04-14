@@ -48,8 +48,10 @@ Types of change:
 
 ### Fixed
 
-
 ## April 14th 2023
+
+### Fixed
+- [Data Analysis - Intro to product analytics - replace broken link](https://github.com/enkidevs/curriculum/pull/3190)
 
 ### Changed
 - [Python - Accross Topic - Replace older string format with f strings](https://github.com/enkidevs/curriculum/pull/3192)
