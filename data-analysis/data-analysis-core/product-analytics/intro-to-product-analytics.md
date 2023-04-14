@@ -7,7 +7,7 @@ category: must-know
 links:
   - >-
     [Product vs Marketing
-    Analytics](http://upflow.co/l/Yem9/blog/2020/05/27/the-difference-between-product-analytics-and-marketing-analytics-and-why-you-need-both){website}
+    Analytics](https://mixpanel.com/blog/the-difference-between-product-analytics-and-marketing-analytics-and-why-you-need-both/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
