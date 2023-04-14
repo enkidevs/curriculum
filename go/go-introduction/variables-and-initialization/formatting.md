@@ -69,9 +69,9 @@ Format the `file-name.go` package using the `gofmt` command.
 ??? ??? ???
 ```
 
-- gofmt
-- -w
-- file-name.go
+- `gofmt`
+- `-w`
+- `file-name.go`
 
 
 ---
@@ -84,7 +84,7 @@ Format the `file-name.go` package found in the `/path/to/directory` using the `g
 ??? ??? ???
 ```
 
-- go 
-- fmt
-- /path/to/directory
+- `go`
+- `fmt`
+- `/path/to/directory`
   

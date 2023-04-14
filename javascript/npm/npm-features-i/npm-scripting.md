@@ -95,19 +95,19 @@ One called `test` which will run `jest` and another called `test:ci` which will 
 }
 ```
 
-- scripts
-- test
-- jest
-- test:ci
-- npm run test
-- -- runInBand
-- script
-- node-scripts
-- testing
-- test --
-- runInBand
-- run test
-- npm
+- `scripts`
+- `test`
+- `jest`
+- `test:ci`
+- `npm run test`
+- `-- runInBand`
+- `script`
+- `node-scripts`
+- `testing`
+- `test --`
+- `runInBand`
+- `run test`
+- `npm`
 
 
 ---
