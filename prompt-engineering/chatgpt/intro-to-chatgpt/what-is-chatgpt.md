@@ -17,9 +17,9 @@ category: discussion
 
 **ChatGPT** is an AI language model created by **OpenAI** that simulates human-like conversations using text-based chat. 
 
-![soup-recipe](https://img.enkipro.com/3117cbc21b83d101443700acb43ea92d.png)
-
 It is trained on a vast dataset of internet text, including books and articles, and has many applications, such as customer service, language translation, and more.
+
+![dog-ate-my-homework](https://img.enkipro.com/b452867dafce4d53c1eeec1558447b9b.png)
 
 > 💬 Why are you interested in **ChatGPT**?
 > 
