@@ -49,7 +49,7 @@ filters.
 
 You can use `tcpdump` to listen to traffic passing through a *specific interface* by using the ??? flag.
 
-- -i
-- -v
-- -e
-- -a
+- `-i`
+- `-v`
+- `-e`
+- `-a`

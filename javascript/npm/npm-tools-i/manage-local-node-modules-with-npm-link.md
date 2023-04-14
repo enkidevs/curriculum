@@ -89,9 +89,9 @@ Which npm command can you use to make you application use your local version of 
 npm ???
 ```
 
-- link myLibrary
-- link
-- --use-local:myLibrary
-- --local:myLibrary
-- --use-local=myLibrary
-- --local=myLibrary
+- `link myLibrary`
+- `link`
+- `--use-local:myLibrary`
+- `--local:myLibrary`
+- `--use-local=myLibrary`
+- `--local=myLibrary`

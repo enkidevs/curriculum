@@ -80,15 +80,15 @@ How would you initialize an npm project within the `@enki` scope?
 ??? ??? ???=???
 ```
 
-- npm
-- init
-- -scope
-- enki
-- install
-- --global
-- @enki
-- -s
-- node
+- `npm`
+- `init`
+- `-scope`
+- `enki`
+- `install`
+- `--global`
+- `@enki`
+- `-s`
+- `node`
 
 
 ---
@@ -97,7 +97,7 @@ How would you initialize an npm project within the `@enki` scope?
 
 A scoped package's name is preceded by ???.
 
-- @scope/
-- scope/
-- @/
-- nothing
+- `@scope/`
+- `scope/`
+- `@/`
+- `nothing`
