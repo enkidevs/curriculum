@@ -52,6 +52,10 @@ Types of change:
 
 ### Fixed
 - [Multiple Topics - Multiple Insights - Enclose answers that start with a dash in backticks](https://github.com/enkidevs/curriculum/pull/3191) 
+- [Data Analysis - Intro to product analytics - replace broken link](https://github.com/enkidevs/curriculum/pull/3190)
+
+### Changed
+- [Python - Accross Topic - Replace older string format with f strings](https://github.com/enkidevs/curriculum/pull/3192)
 
 ## April 10th 2023
 

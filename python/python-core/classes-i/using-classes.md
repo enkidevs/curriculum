@@ -30,7 +30,7 @@ class Employee:
     self.name = name
     self.idnum = Employee.count
   def print_idnum(self):
-    print("{0} is employee no. {1}".format(self.name, self.idnum))
+    print(f"{self.name} is employee no. {self.idnum}")
 ```
 
 To create an instance of the class:
@@ -66,7 +66,7 @@ class Employee:
     self.name = name
     self.idnum = Employee.count
   def print_idnum(self):
-    print("{0} is employee no. {1}".format(self.name, self.idnum))
+    print(f"{self.name} is employee no. {self.idnum}")
 
 steve = ???('???')
 ```
