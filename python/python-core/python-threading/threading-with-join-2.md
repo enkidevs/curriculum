@@ -84,7 +84,7 @@ Complete the missing code to initiate a thread on the `s()` function. Don't forg
 ```python
 import threading, time
 
-def x():
+def s():
   # Print a message
   print("Hello!")
 
@@ -94,14 +94,12 @@ def x():
   # Print a message
   print("Why are you ignoring me?")
 
-myThread = 
-  ???.???(
-    ???=???
-  )
+myThread = ???.???(???=???)
+
 print("I'm not!")
 
-thread1.start()
-thread1.???
+myThread.start()
+myThread.???
 ```
 
 - threading
