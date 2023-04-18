@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+
+## April 18th 2023
+
+### Changed
+- [Java - Polymorphism - Change function names](https://github.com/enkidevs/curriculum/pull/3193) 
+
 ## April 14th 2023
 
 ### Fixed
