@@ -79,7 +79,7 @@ I am a bird
 To extend the functionality of a parent's class method, but not override it, you can use which function?
 
 ```python
-???
+???()
 ```
 
 - `super`
