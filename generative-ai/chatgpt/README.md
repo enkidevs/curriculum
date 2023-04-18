@@ -14,4 +14,4 @@ sections:
     - tokens
 
 next:
-  - prompt-engineering:machine-learning
+  - generative-ai:machine-learning
