@@ -55,7 +55,7 @@ Types of change:
 - [Java - Polymorphism - Change function names](https://github.com/enkidevs/curriculum/pull/3193) 
 
 ### Fixed
-- [Python - Threading With Join Continued - Fix code in PQ](https://github.com/enkidevs/curriculum/pull/3196)
+- [Python - Threading Workout - Fix broken code](https://github.com/enkidevs/curriculum/pull/3196)
 
 ## April 14th 2023
 
