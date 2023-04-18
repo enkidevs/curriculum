@@ -36,10 +36,7 @@ def someFunction():
       print("I am a thread!!!")
 
 # First Thread
-firstThread = 
-  threading.Thread(
-    target=someFunction
-  )
+firstThread = threading.Thread(target=someFunction)
 ```
 
 After creating it, we need to start it using the built-in `start()` method:
@@ -91,10 +88,7 @@ def f():
       print("I am a thread!!!")
 
 # Thread
-myThread = 
-  ???.???(
-    ???=f
-  )
+myThread = ???.???(???=f)
 
 myThread.???
 ```
