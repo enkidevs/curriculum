@@ -2,7 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
- 
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 
 ---
 
@@ -31,3 +34,14 @@ summarization:
 and dialogue generation:
 
 ![dialogue-prompt](https://img.enkipro.com/e658eb1c427d2026a46522f31f53cb34.png)
+
+
+---
+## Practice
+
+With Zero-shot prompting, you ??? to give additional data because the ai ??? trained on a large corpus of text.
+
+- do not have
+- was
+- wasn't
+- have

@@ -2,7 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
- 
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 
 ---
 
@@ -42,6 +45,17 @@ Summarize our plan:
 - Conversation simulations[3]
 - Creative tasks[4]
 
+
+---
+
+## Practice
+
+COT or ??? prompting, encourages the model to ???. 
+
+- Chain-of-thought
+- maintain context throughout a series of prompts
+- MOUSE
+- learn how to operate a computer mouse.
 
 ---
 ## Footnotes

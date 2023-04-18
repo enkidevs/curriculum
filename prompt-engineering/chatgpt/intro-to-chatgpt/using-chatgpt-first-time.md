@@ -26,5 +26,4 @@ It gives you a short summary of its limitations and capabilities as well as some
 
 The examples are buttons you can click to copy that message to the chat and hit enter to get a response. Alternatively, you can write a prompt yourself using the chat underneath.
 
-Here's an example:
 ![how-are-you-chatgpt](https://img.enkipro.com/1ad6b40aae719dbe61818e4525f2056d.png)

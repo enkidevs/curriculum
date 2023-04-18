@@ -2,6 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
  
 
 ---
@@ -38,6 +42,14 @@ Here are examples on sentiment analysis and text classification:
 
 ![sentiment-analysis-and-text-classification](https://img.enkipro.com/2ddb08d1bf5a0b14b886ec20fa245a63.png)
 
+
+---
+## Practice
+
+Few-shot prompting fine-tunes a model on ??? data to generate output.
+
+- small
+- large
 
 ---
 ## Footnotes
