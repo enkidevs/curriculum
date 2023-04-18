@@ -50,12 +50,12 @@ def someFunction():
   print("Why are you ignoring me?")
 
 # Thread
-thread1 = threading.Thread(target=someFunction)
+myThread = threading.Thread(target=someFunction)
 
 # Start thread
-thread1.start()
+myThread.start()
 # Join thread
-thread1.join()
+myThread.join()
 
 # Outside of the function we will also print a message
 print("Third Message")
@@ -178,7 +178,7 @@ Third Message
 
 Then we added:
 ```python
-thread1.start()
+myThread.start()
 # -----> HERE <------
 print("Third Message")
 ```
