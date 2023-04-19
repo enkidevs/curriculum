@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+
+## April 19th 2023
+
+### Fixed
+- [Python - How To Open A File Object - Improve PQ](https://github.com/enkidevs/curriculum/pull/3194)
+
 ## April 14th 2023
 
 ### Fixed
