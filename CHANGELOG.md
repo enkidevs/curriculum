@@ -48,6 +48,13 @@ Types of change:
 
 ### Fixed
 
+## April 19th 2023
+
+### Fixed
+- [Python - Method Overriding - Add missing parentheses](https://github.com/enkidevs/curriculum/pull/3195)
+
+### Changed
+- [Python - Class VS Instance Variable - Improve PQ](https://github.com/enkidevs/curriculum/pull/3197)
 
 ## April 18th 2023
 
