@@ -48,10 +48,12 @@ Types of change:
 
 ### Fixed
 
+
 ## April 19th 2023
 
 ### Fixed
 - [Python - Method Overriding - Add missing parentheses](https://github.com/enkidevs/curriculum/pull/3195)
+- [Python - How To Open A File Object - Improve PQ](https://github.com/enkidevs/curriculum/pull/3194)
 
 ### Changed
 - [Python - Class VS Instance Variable - Improve PQ](https://github.com/enkidevs/curriculum/pull/3197)
