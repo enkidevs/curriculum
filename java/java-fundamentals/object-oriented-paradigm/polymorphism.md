@@ -27,39 +27,39 @@ To demonstrate a polymorphic feature, let `FamilyCar` extend the `Car` class. Be
 
 ```java
 public FamilyCar extends Car {
-  int noSeats;
+  int numSeats;
 
-  public FamilyCar(... int newNoSeats) {
+  public FamilyCar(... int seatCapacity) {
     super(...);
-    noSeats = newNoSeats;
+    numSeats = seatCapacity;
   }
 
   void start() {
-    System.out.println("The " + noSeats
+    System.out.println("The " + numSeats
      + " seat car starts!");
   }
 }
+
 ```
 
 At the same time, we can have a `SportsCar`. For this particular class, it would help to know if the engine is turbo charged or not:
 
 ```java
 public SportsCar extends Car {
-  boolean turboCharged;
+  boolean hasTurbo;
 
-  public SportsCar(... boolean charged) {
+  public SportsCar(... boolean turboEnabled) {
     super(...);
-    turboCharged = charged;
+    hasTurbo = turboEnabled;
   }
 
   void start() {
-    if (turboCharged == true) {
+    if (hasTurbo) {
       System.out.println("The turbocharged"
        + " car starts!");
     }
   }
 }
-
 ```
 
 In both cases, a new field has been added on top of the existing ones and `start()` method has been overridden to display these fields.
@@ -69,16 +69,16 @@ Here is a test program that creates three `Car` objects:
 ```java
 public class TestCar {
   public static void main(String[] args) {
-    Car car, fCar, sCar;
-    car = new Car("awsomeCar","XC603",
+    Car genericCar, familyCar, sportsCar;
+    genericCar = new Car("awesomeCar","XC603",
          "blue",4);
-    fCar = new FamilyCar("familyCar",
+    familyCar = new FamilyCar("familyCar",
          "324AB","grey",4, 7);
-    sCar = new SportsCar("sportsCar",
+    sportsCar = new SportsCar("sportsCar",
          "RAG12", "red", 2, true);
-    car.start(); 
-    fCar.start(); 
-    sCar.start();
+    genericCar.start(); 
+    familyCar.start(); 
+    sportsCar.start();
   }
 }
 ```

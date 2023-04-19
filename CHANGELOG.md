@@ -53,6 +53,11 @@ Types of change:
 ### Fixed
 - [Python - Method Overriding - Add missing parentheses](https://github.com/enkidevs/curriculum/pull/3195)
 
+## April 18th 2023
+
+### Changed
+- [Java - Polymorphism - Change function names](https://github.com/enkidevs/curriculum/pull/3193) 
+
 ## April 14th 2023
 
 ### Fixed
