@@ -50,12 +50,12 @@ def someFunction():
   print("Why are you ignoring me?")
 
 # Thread
-thread1 = threading.Thread(target=someFunction)
+myThread = threading.Thread(target=someFunction)
 
 # Start thread
-thread1.start()
+myThread.start()
 # Join thread
-thread1.join()
+myThread.join()
 
 # Outside of the function we will also print a message
 print("Third Message")
@@ -84,7 +84,7 @@ Complete the missing code to initiate a thread on the `s()` function. Don't forg
 ```python
 import threading, time
 
-def x():
+def s():
   # Print a message
   print("Hello!")
 
@@ -94,14 +94,12 @@ def x():
   # Print a message
   print("Why are you ignoring me?")
 
-myThread = 
-  ???.???(
-    ???=???
-  )
+myThread = ???.???(???=???)
+
 print("I'm not!")
 
-thread1.start()
-thread1.???
+myThread.start()
+myThread.???
 ```
 
 - threading
@@ -180,7 +178,7 @@ Third Message
 
 Then we added:
 ```python
-thread1.start()
+myThread.start()
 # -----> HERE <------
 print("Third Message")
 ```
