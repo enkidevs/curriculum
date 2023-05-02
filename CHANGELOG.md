@@ -49,6 +49,11 @@ Types of change:
 ### Fixed
 
 
+## May 2nd 2023
+
+### Fixed
+- [Web - HTML/CSS Code - Fix bug in content](https://github.com/enkidevs/curriculum/pull/3198)
+
 ## April 19th 2023
 
 ### Fixed
