@@ -7,7 +7,7 @@ category: must-know
 links:
   - >-
     [Statistical
-    Significance](https://mixpanel.com/topics/statistical-significance/){website}
+    Significance](https://mixpanel.com/blog/statistical-significance/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
