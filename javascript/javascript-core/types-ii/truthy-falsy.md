@@ -35,7 +35,6 @@ Here are the common falsy values:
 - `""` (empty string)
 - `undefined`
 - `NaN` (Not A Number)
-- `-0` (negative zero)	
 
 > 💡 There're two more falsy values that are less common, `-0` and `0n`.*
 
