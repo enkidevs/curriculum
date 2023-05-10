@@ -50,6 +50,9 @@ Types of change:
 
 
 ## May 10th 2023
+
+### Fixed
+- [Web - HTML Basics - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3201)
 - [Data Analysis - More Terminology - Replace broken link](https://github.com/enkidevs/curriculum/pull/3200)
 
 ## May 3rd 2023
