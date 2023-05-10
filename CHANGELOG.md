@@ -54,6 +54,11 @@ Types of change:
 ### Fixed
 - [Web - HTML Basics - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3201)
 
+## May 3rd 2023
+
+### Fixed
+- [JavaScript - Truthy Falsy - Remove duplicate mention of negative 0](https://github.com/enkidevs/curriculum/pull/3199)
+
 ## May 2nd 2023
 
 ### Fixed
