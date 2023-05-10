@@ -49,6 +49,9 @@ Types of change:
 ### Fixed
 
 
+## May 10th 2023
+- [Data Analysis - More Terminology - Replace broken link](https://github.com/enkidevs/curriculum/pull/3200)
+
 ## May 2nd 2023
 
 ### Fixed
