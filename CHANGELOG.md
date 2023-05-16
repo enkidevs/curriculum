@@ -48,7 +48,12 @@ Types of change:
 
 ### Fixed
 
-## Nay 11th 2023
+## May 16th 2023
+
+### Changed
+- [Python - Data Types - Remove type n the gap](https://github.com/enkidevs/curriculum/pull/3203)
+
+## May 11th 2023
 
 ### Changed
 - [Python - Arithmetic Operators - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3202)
