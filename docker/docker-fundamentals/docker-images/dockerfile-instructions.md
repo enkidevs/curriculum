@@ -58,8 +58,8 @@ A Dockerfile contains instructions the Docker daemon uses to build containers.
 
 ???
 
-- false
 - true
+- false
 
 ---
 
