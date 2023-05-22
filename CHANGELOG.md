@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+
+## May 22nd 2023
+
+### Fixed
+- [JavaScript - Weakmap - Replace mistake in PQ code](https://github.com/enkidevs/curriculum/pull/3205)
+
 ## May 16th 2023
 
 ### Changed
