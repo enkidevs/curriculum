@@ -27,7 +27,8 @@ Math tutor:
 
 ![act-like-a](https://img.enkipro.com/2fd8dcbf15ddf159052dc01a196a875f.png)
 
-SQL Terminal
+SQL Terminal:
+
 ![act-like-a](https://img.enkipro.com/a657838c4a44808f3888b55c5fe0b1ba.png)
 
 There are many applications with the **Act as/like a** prompt. Feel free to explore and tinker with the ai to create your own unique prompts.

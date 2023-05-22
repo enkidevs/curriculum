@@ -11,7 +11,8 @@ sections:
     - prompt-techniques
     - prompt-techniques-ii
     - chatgpt-entertainment
-    - tokens
+    - coding-with-chatgpt
 
 next:
   - generative-ai:machine-learning
+  

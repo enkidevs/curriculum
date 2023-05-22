@@ -5,6 +5,7 @@ description: Learn what prompt engineering is, what nlp is and what the structur
 insights:
   - what-is-prompt-engineering
   - what-is-a-good-prompt
+  - prompt-components
   - first-prompts
 
 aspects:

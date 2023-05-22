@@ -4,9 +4,9 @@ description: Learn how to start using ChatGPT, and the benefits it can provide.
 
 insights:
   - what-is-chatgpt
+  - chatgpt-vs-other-llms
   - why-learn-chatgpt
-  - how-to-start-using-chatgpt
-  - using-chatgpt-first-time
+  - limitiation-with-chatgpt
 
 aspects:
   - workout

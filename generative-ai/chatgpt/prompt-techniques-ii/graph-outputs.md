@@ -1,7 +1,7 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: must-know
+category: discussion
  
 
 ---
@@ -21,7 +21,6 @@ Here's an example input:
 
 Response graph:
 ![ai-graph-response](https://img.enkipro.com/cd34b77397f8aeced230437ed3764a19.png)
-
 
 Even though the graphs are not of great quality, you can use this feature to get a rough estimate.
 

@@ -1,7 +1,7 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: must-know
+category: discussion
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -26,22 +26,34 @@ A good prompt consists of several key components; context, instructions, output.
 
 **Output** is how it gives us the output. Can be in a tabular format, code blocks, lists, comma-separated values, and more.
 
+Take a look at this prompt:
+```plain-text
+"Can you provide me with a list of popular vegetarian restaurants in New York City?"
+```
+
+Let's break it down.
+
+The context is the location "New York City".
+
+The input is the list of vegetarian restaurants.
+
+The output would be the `list` keyword which tells the ai to formulate the output as a list.
+
+![top-10-restauraunts-in-nyc](https://img.enkipro.com/ad454511021ab6e378ce82c124925f96.png)
+
 Additionally, a good prompt is never only a few words. The more data we provide, the easier it will be for the ai to produce an accurate response.
 
-It's important to note that not every prompt will require all of these components, and in some cases, only one or two may be necessary depending on the task at hand.
+> 💬 Do you have any prompt ideas?
+> 
+> Leave a comment or view some of the other comments for inspiration before moving on.
 
-Let's start writing prompts in the next insight!
 
 ---
 
 ## Practice 
 
-True or false?
+The three main components of a prompt are ???, input/instructions and output.
 
-We always have to provide context, instructions and give data to be able to get a response.
-
-???
-
-- False
-- True
-
+- context
+- ideas
+- format
