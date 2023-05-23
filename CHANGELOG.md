@@ -49,6 +49,10 @@ Types of change:
 ### Fixed
 
 
+## May 23rd 2023
+
+### Added
+- [Coding Intro - Topic - Add 28 new workouts, 5 in core course, 23 in a separate course](https://github.com/enkidevs/curriculum/pull/3206)
 ## May 22nd 2023
 
 ### Fixed
