@@ -12,7 +12,6 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: relative
 revisionQuestion:
   formats:

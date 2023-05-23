@@ -49,6 +49,11 @@ Types of change:
 ### Fixed
 
 
+## May 23rd 2023
+
+### Changed
+- [Linux - Using Find To Search By Filename - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3207)
+
 ## May 22nd 2023
 
 ### Fixed
