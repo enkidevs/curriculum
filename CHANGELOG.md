@@ -48,9 +48,11 @@ Types of change:
 
 ### Fixed
 
-### May 22nd 2023
+
+## May 22nd 2023
 
 ### Fixed
+- [JavaScript - Weakmap - Replace mistake in PQ code](https://github.com/enkidevs/curriculum/pull/3205)
 - [Docker - Dockerfile Instructions - Fix Question](https://github.com/enkidevs/curriculum/pull/3204)
 
 ## May 16th 2023
