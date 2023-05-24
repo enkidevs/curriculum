@@ -49,7 +49,7 @@ When initialized, if they aren't given any values, each primitive type will defa
 |   short   |       0       | 2^16 |
 |    int    |       0       | 2^32 |
 |    long   |       0L      | 2^64 |
-|   float   |     0.00f     | 2^64 |
+|   float   |     0.00f     | 2^32 |
 |   double  |     0.00d     | 2^64 |
 |  boolean  |     false     | 2    |
 |    char   |    '\u0000'   | 2^16 |
