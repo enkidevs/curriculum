@@ -22,7 +22,7 @@ setupCode:
 
 ---
 
-# Collection Exercise
+# Function Exercise
 
 ---
 
