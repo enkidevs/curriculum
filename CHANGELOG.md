@@ -49,10 +49,19 @@ Types of change:
 ### Fixed
 
 
-## May 23rd 2023
+## May 29th 2023
 
 ### Added
 - [Coding Intro - Topic - Add 28 new workouts, 5 in core course, 23 in a separate course](https://github.com/enkidevs/curriculum/pull/3206)
+
+### Fixed
+- [Python - Method Objects - Fix PQ & RQ](https://github.com/enkidevs/curriculum/pull/3209)
+
+## May 23rd 2023
+
+### Changed
+- [Linux - Using Find To Search By Filename - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3207)
+
 ## May 22nd 2023
 
 ### Fixed
