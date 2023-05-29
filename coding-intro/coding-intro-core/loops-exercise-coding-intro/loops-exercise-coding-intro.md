@@ -20,7 +20,7 @@ setupCode:
 
 ---
 
-# Collection Exercise
+# Loop Exercise
 
 ---
 
