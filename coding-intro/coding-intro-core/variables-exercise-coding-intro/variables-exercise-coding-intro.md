@@ -34,7 +34,7 @@ setupCode:
 
 Challenge yourself to complete this task and practice your programming skills. Even if you encounter difficulties, keep trying and learn from the experience.
 
-That being said, if you're not sure how to get started, check out this footnote[1].
+That being said, if you're not sure how to get started, check out this footnote[2].
 
 When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
 
