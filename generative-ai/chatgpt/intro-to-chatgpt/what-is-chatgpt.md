@@ -39,6 +39,6 @@ These include:
 ---
 ## Footnote
 
-[1: ChatGPT Training Data]
+[1:ChatGPT Training Data]
 
 ChatGPT is trained on a vast dataset of text sourced from the internet, including books, Wikipedia and many articles.
