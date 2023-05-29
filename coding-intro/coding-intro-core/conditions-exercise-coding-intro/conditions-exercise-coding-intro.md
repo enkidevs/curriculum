@@ -26,7 +26,7 @@ setupCode:
 
 ---
 
-# Collection Exercise
+# Condition Exercise
 
 ---
 
@@ -58,7 +58,6 @@ Remember, learning is more effective when we do it with others.
 [1: Hints]
 
 Here's an example to help you get started:
-
 
 Start by creating two variables, num1 and num2, and assign any numerical values to them.
 ```python
