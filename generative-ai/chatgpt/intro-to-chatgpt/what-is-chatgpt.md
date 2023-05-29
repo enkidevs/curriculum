@@ -37,8 +37,8 @@ These include:
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
 ---
-## Footnote
+## Footnotes
 
-[1:ChatGPT Training Data]
+[1: ChatGPT Training Data]
 
 ChatGPT is trained on a vast dataset of text sourced from the internet, including books, Wikipedia and many articles.
