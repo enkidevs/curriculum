@@ -14,18 +14,23 @@ category: discussion
 
 ---
 
-**ChatGPT** is an AI language model created by **OpenAI** that simulates human-like conversations using text-based chat. You provide a text-based input ( a prompt ) and it uses the data it was trained on[1] to generate an output.
+**ChatGPT** is an AI language model created by **OpenAI** that simulates human-like conversations using text-based chat. 
 
-![e-commerce](https://img.enkipro.com/dc395b86aa9e59615a1a179bd9564fb9.png)
+You provide a text-based input, or **prompt**, and it uses the data it is trained on[1] to generate an output.
 
-In this course we will cover many different ways you can use ChatGPT to enhance your experience. These insights include:
-- Prompt components / How to structure good prompts
+![how-does-chat-gpt-work](https://img.enkipro.com/f1ca8562f40096c28428e1848b1ebe9c.png)
+
+In this course, we'll cover the must-knows, techniques and tips to maximize your value from ChatGPT. 
+
+These include:
+- How to structure good prompts
 - Prompting techniques (Cot, Few-shot & Zero-shot)
-- Making ChatGPT act like a terminal, person, and others
-- Code review, code generation, code debugging, and more
-- Formatting outputs (Tabular, graph, ...)
+- Making ChatGPT act like a terminal or type of person
+- Reviewing, generating and debugging code
+- Formatting outputs (with tables, graphs, etc.)
 - and more...
 
+**Note:** All the techniques covered in this course can be applied to other text-based AI tools like Bard and Claude.
 
 > 💬 Why are you interested in **ChatGPT**?
 > 
@@ -36,4 +41,4 @@ In this course we will cover many different ways you can use ChatGPT to enhance 
 
 [1: ChatGPT Training Data]
 
-It is trained on a vast dataset of internet text, including books and articles, and has many applications, such as customer service, language translation, and more.
+ChatGPT is trained on a vast dataset of text sourced from the internet, including books, Wikipedia and many articles.

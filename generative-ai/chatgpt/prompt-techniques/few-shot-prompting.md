@@ -1,7 +1,7 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: discussion
+category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -18,11 +18,11 @@ practiceQuestion:
 
 ---
 
-**Few-shot** prompting is a technique in which a language model is fine-tuned on a small amount of data (usually with limited labeled examples) in order to generate a specific output. 
+In **Few-shot** prompting, the language model is fine-tuned on a small amount of data (usually with limited labelled examples) to generate a specific output. 
 
-In machine learning it falls under the category of transfer learning.
+In machine learning, it falls under the category of **transfer learning**.
 
-So, the model is pre-trained on a large dataset, then fine-tuned on a smaller dataset with a limited number of examples to perform a new task.
+The model is pre-trained on a large dataset, then fine-tuned on a smaller dataset with a limited number of examples to perform a new task.
 
 Let's look at some examples:
 
@@ -55,7 +55,7 @@ Few-shot prompting fine-tunes a model on ??? data to generate output.
 ## Footnotes
 
 [1: Gradient descent]
-A first-order optimization algorithm commonly used for updating the weights of a machine learning model. It aims to minimize the cost function by iteratively adjusting the parameters in the direction of the negative gradient of the function.
+A first-order optimization algorithm is commonly used for updating the weights of a machine learning model. It aims to minimize the cost function by iteratively adjusting the parameters in the direction of the negative gradient of the function.
 
 [2: Meta-learning]
 A machine learning technique where a model learns to learn, by using experience gained from solving a variety of tasks to improve its ability to learn new tasks quickly and efficiently.

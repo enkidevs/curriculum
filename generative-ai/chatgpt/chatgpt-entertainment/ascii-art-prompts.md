@@ -1,7 +1,7 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: discussion
+category: must-know
  
 
 ---
@@ -16,15 +16,15 @@ category: discussion
 
 One way to have fun with ChatGPT is to ask it to create ASCII art.
 
-ASCII art uses a combination of characters to potray pictures or art.
+ASCII art uses a combination of characters to portray pictures or art.
 
-Here's how we can tell ChatGPT to be an ASCII writter:
+Here's how we can tell ChatGPT to be an ASCII writer:
 
 ![dog-ascii](https://img.enkipro.com/929f9a0c768652b28294c35c905873bd.png)
 
-Now it knows how to respond, so we can only send the objects name.
+Now it knows how to respond, so we can only send the object's name.
 
-Here are couple more examples:
+Here are a couple more examples:
 ![mouse-and-cat-ascii](https://img.enkipro.com/dfdf6552936487c8125e44394fb42c95.png)
 
 Here are "2 cats fighting":

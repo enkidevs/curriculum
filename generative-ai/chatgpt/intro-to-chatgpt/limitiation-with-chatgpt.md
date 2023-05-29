@@ -6,7 +6,7 @@ category: discussion
 
 ---
 
-# ChatGPT Limitationss
+# ChatGPT Limitations
 
 ---
 
@@ -14,38 +14,37 @@ category: discussion
 
 ---
 
-Keep in mind that **ChatGPT** has limitations, and its responses may vary depending on the prompts you give it.
+Keep in mind that **ChatGPT** can sometimes make mistakes or give strange responses depending on the prompts you give it.
 
-Sometimes, ChatGPT hallucinates[1] and confidently provides the wrong response. After all, it is a more complex and intelligent auto-complete[2].
+Sometimes, ChatGPT hallucinates[1] and confidently gives a wrong response. It might be very smart and advanced, but it is a fancy auto-complete[2] after all.
 
-Some of those limitations include:
+Some limitations to keep in mind:
 
-### Lack of Emotional Intelligence
 
-This means the ai may not always be able to recognize or respond appropriately to emotions expressed in text input.
+### Arithmetic and puzzles
 
-### Needs Human Oversight
+It may sometimes generate inaccurate or inappropriate responses. It struggles with arithmetic and puzzles in particular.
 
-Occasionally, it may generate inaccurate, inappropriate or even offensive responses. Therefore, it is important to have human oversight and intervention when using AI language models to ensure that the responses are appropriate and accurate.
-
-Here's an example where the AI hallucinates and provides a wrong answer:
+Here's an example of a hallucination:
 
 ![list-of-words-with-select-letters](https://img.enkipro.com/40d030c590c998b67b32b4312ba0c35e.png)
 
+### No Emotional Intelligence
+
+This means the AI may not always be able to recognize or respond appropriately to emotions expressed in text input.
+
 ### Contextual Understanding
 
-While ChatGPT can generate responses based on the text input it receives, it may not always fully understand the context or underlying meaning of a question. This can sometimes result in responses that are not relevant or accurate.
+ChatGPT may not always understand the context or underlying meaning of a question properly:
 
-![quantum-computing](https://img.enkipro.com/b9718e51faacdb520bc17794f035246a.png)
+![quantum-computing](https://img.enkipro.com/451536ac3abadb294e6582641bc427e4.png)
 
 
 ### Knowledge Limitations
 
-While ChatGPT was trained on a vast amount of text data, it still has some limitations in terms of the knowledge it can access. It may not have access to the most up-to-date information, especially in rapidly evolving fields.
+ChatGPT has some limitations with up-to-date information, and rapidly evolving topics in particular:
 
 ![covid-19](https://img.enkipro.com/7a98fbe1ba4646751e01ccce7bdd0d08.png)
-
-As you experiment with it, you'll discover new ways to make the most of this powerful AI tool.
 
 
 ---

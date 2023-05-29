@@ -18,17 +18,17 @@ practiceQuestion:
 
 ---
 
-A good prompt consists of several key components; context, instructions, output.
+A good prompt consists of several key components: **context, instructions, and output**.
 
-**Context** is the information used to steer the ai in a specific direction
+**Context** is the information used to steer the AI in a specific direction
 
-**Instruction/input data** is what you want the ai to do. For instance, answer a question, evaluate an equation, give a joke, write an essay, determine differences between x and y, and so on.
+**Instruction/input data** is what you want the AI to do. For example - answer a question, evaluate an equation, say a joke, write an essay, determine differences between x and y, and so on.
 
-**Output** is how it gives us the output. Can be in a tabular format, code blocks, lists, comma-separated values, and more.
+**Output** is how it gives us the output. It can be in a tabular format, code blocks, lists, comma-separated values, and more.
 
 Take a look at this prompt:
 ```plain-text
-"Can you provide me with a list of popular vegetarian restaurants in New York City?"
+"Can you give me a list of popular vegetarian restaurants in New York City?"
 ```
 
 Let's break it down.
@@ -43,7 +43,7 @@ The output would be the `list` keyword which tells the ai to formulate the outpu
 
 Additionally, a good prompt is never only a few words. The more data we provide, the easier it will be for the ai to produce an accurate response.
 
-> 💬 Do you have any prompt ideas?
+> 💬 What are your favorite prompts with the structure above?
 > 
 > Leave a comment or view some of the other comments for inspiration before moving on.
 

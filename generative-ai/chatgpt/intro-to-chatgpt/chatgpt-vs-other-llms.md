@@ -14,21 +14,29 @@ category: discussion
 
 ---
 
-Compared to other chat-based ai's, ChatGPT has an advantage thanks to its advanced transformer architecture[1] and vast training dataset.
+ChatGPT generates human-like responses, is highly customizable, and can be fine-tuned for specific tasks or industries.
 
-It generates more human-like responses, is highly customizable and can be fine-tuned for specific tasks or industries, making it a versatile tool.
+But there are several other great chat-based AI assistants which are similar - including Bard and Claude. Let's quickly cover their pluses and minuses.
 
-However, some chat-based assistants may be more specialized for specific industries or tasks.
+### Bard
 
-For instance, Google's **Dialogflow** ai is great for creating conversational interfaces for customer services[2].
+Google's Bard uses transformer architecture[1] just like ChatGPT. It's great at mimicking natural language and excels at open-ended conversations.
 
-On the other hand, when it comes to processing transactions, **IBM Watson Assistant** is particularly well suited in this area[3]. 
+Its key benefit is that it's 100% free, and it also has access to the latest info from the internet.
 
-🔑 Key Takeaway: While ChatGPT's versatility and human-like responses make it a powerful AI chatbot, the ultimate choice of a chat-based AI assistant should be guided by your specific needs and goals, as some AI assistants may be better suited for particular tasks or industries.
+But it's reported to be weaker than ChatGPT at summarization and paragraph writing.
 
-> 💬 What would you use **ChatGPT** for?
+### Claude
+
+Claude is also a great assistant and excels at entertainment, geography, and history.
+
+Claude's main weakness is multi-language programming support.
+
+**Note:** There are some chat-based assistants that may be more specialized for specific industries or tasks[2].
+
+> 💬 Have you tried any other chat-based AI assistants - what did you think of them?
 > 
-> Leave an example in the comments or view some of the other comments for inspiration.
+> Leave a comment or view some of the others for inspiration.
 
 
 ---
@@ -36,17 +44,19 @@ On the other hand, when it comes to processing transactions, **IBM Watson Assist
 
 [1: Transformer Architecture]
 
-The transformer architecture is a type of deep learning model used in natural language processing tasks, such as language translation and text generation.
+The transformer architecture is a type of deep learning model used in natural languages processing tasks, such as language translation and text generation.
 
-It is based on the concept of attention, which is a mechanism that allows the model to focus on specific parts of the input text that are relevant for generating the output.
+It's based on the concept of attention, which is a mechanism that allows the model to focus on specific parts of the input text that are relevant for generating the output.
 
 Unlike models that process text sequentially, the transformer architecture processes the entire input text at once, making it more efficient and effective for handling long sequences of text.
 
 
-[2: Dialogflow]
+[2: Other Chat-Based Assistants]
 
-Dialog flow is great for custommer services as it has pre-built templates as well as the ability to create your custom ones, which chatGPT doesn't have.
+Google's **Dialogflow** AI is great for creating conversational interfaces for customer services.
 
-[3: IBM Watson Assistant]
+It's great for custommer services as it has pre-built templates as well as the ability to create custom ones, which ChatGPT might not have.
 
-The IBM Watson allows the creation of custom intents and entities specific to a product or service, making it more accurate and effective in handling transactions.
+For processing transactions, **IBM Watson Assistant** is very well suited in this area. 
+
+It allows the creation of custom intents and entities specific to a product or service, making it more accurate and effective in handling transactions.

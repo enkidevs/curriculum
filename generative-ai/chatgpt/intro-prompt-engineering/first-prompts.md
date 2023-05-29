@@ -21,27 +21,23 @@ revisionQuestion:
 
 ---
 
-The first thing to keep in mind, the more precise we are with our prompts, the more precise the output will be.
+Keep in mind: **the more precise we are with our prompts, the more precise the output will be**!
 
-This means, the more context we provide it, the easier it is for the AI to know what we mean and produce a more accurate result.
+Here's an example of a vague prompt:
 
-For instance, here's an example of a vague prompt:
+![vague-prompt](https://img.enkipro.com/3bc2c3dbecd6408ba631d6045eaafafd.png)
 
-![vague-prompt](https://img.enkipro.com/ac3eaca0e38b46731d659f472f4c4d98.png)
+Since we didn't specify any details, the AI had to make some assumptions and gave some general steps on how to fix a problem.
 
-"How do I fix my computer?" can mean many things. Since we didn't specify what we mean, the ai assumed we meant, the ai gave some general steps on how to fix a problem.
+Here's another example with more context:
 
-Here's another example where we give it more context:
+![more-context-prompt](https://img.enkipro.com/8564b7c6a3c1835e2095dca3e1513c01.png)
 
-![more-context-prompt](https://img.enkipro.com/50c52a27c0791a187c9c70d5a65562c0.png)
+In the second example, we clearly state what issue we need to fix - giving us a more accurate response.
 
-The difference between these two is, one is a vague prompt that can mean more than 1 thing, so the ai has to assume in order to give an answer. Whereas in the other one, we clearly state what issue we need to fix, so it gives a more accurate response.
-
-To summarize, the quality of the output is largely dependent on the quality of the input. 
-
-> 💬 Have any prompt ideas?
+> 💬 Share your prompt ideas!
 >
-> Can you create 2 prompts; one that is vague, and one with more context? 
+> What are your best examples of a vague prompt and one that is powerful because of its good context? 
 >
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
@@ -50,16 +46,18 @@ To summarize, the quality of the output is largely dependent on the quality of t
 
 ## Practice 
 
-Giving more context in prompts produces more ??? responses. 
+The quality of an AI ??? is largely dependent on the given ???.
 
-- accurate
-- vague
+- response
+- context
+- size
+- speed
 
 ---
 
 ## Revision
 
-The quality of an ai ??? is largely dependent on the given ???.
+The quality of an AI ??? is largely dependent on the given ???.
 
 - response
 - context

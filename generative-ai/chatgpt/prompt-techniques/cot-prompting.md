@@ -1,7 +1,7 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: discussion
+category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,7 +21,7 @@ practiceQuestion:
 
 This method encourages the model to maintain context throughout a series of prompts, simulating a more natural thought process. 
 
-Let's look at an example where we ask it to plan a small event, then continue instructing it further.
+Let's look at an example where we ask it to plan a small event, and then continue instructing it further.
 
 Initial prompt:
 ![plan-a-small-event](https://img.enkipro.com/f8f406b06861ddb2ab62d0971dc1a258.png)
@@ -50,7 +50,7 @@ Summarize our plan:
 
 ## Practice
 
-COT or ??? prompting, encourages the model to ???. 
+COT or ??? prompting encourages the model to ???. 
 
 - Chain-of-thought
 - maintain context throughout a series of prompts
@@ -67,7 +67,7 @@ Tasks that involve multiple steps or stages of reasoning to reach a conclusion o
 When a problem requires breaking down into smaller, more manageable parts or a step-by-step approach, COT prompting can be helpful. It enables the model to generate responses in a structured manner, addressing each aspect of the problem sequentially.
 
 [3: Conversation simulations]
-In conversational AI applications, COT prompting can be useful to maintain context and coherency throughout the conversation. The technique allows the model to keep track of previous responses and generate relevant, context-aware replies.
+In conversational AI applications, COT prompting can be useful for maintaining context and coherency throughout the conversation. The technique allows the model to keep track of previous responses and generate relevant, context-aware replies.
 
 [4: Creative tasks]
 COT prompting can be beneficial for creative tasks like story-writing or brainstorming. The model can progressively generate ideas or story elements, with each prompt building on the previous response, leading to a more coherent and cohesive output.

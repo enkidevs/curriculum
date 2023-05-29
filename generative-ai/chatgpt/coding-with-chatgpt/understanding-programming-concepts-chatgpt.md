@@ -16,7 +16,7 @@ category: discussion
 
 Learning programming concepts can be challenging, especially when dealing with complex topics or unfamiliar terminologies. 
 
-ChatGPT can help you understand programming concepts more effectively using its clear explanations and examples on a wide range of programming concepts.
+ChatGPT can help you understand programming concepts more effectively by using its clear explanations and examples on a wide range of programming concepts.
 
 You can request explanations on a variety of topics like:
 ```plain-text

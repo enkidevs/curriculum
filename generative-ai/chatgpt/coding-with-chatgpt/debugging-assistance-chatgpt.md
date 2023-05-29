@@ -12,7 +12,7 @@ category: discussion
 
 ---
 
-With ChatGPT, you have a powerful ally whilst debugging.
+With ChatGPT, you have a powerful ally while debugging.
 
 You can use it to detect errors, troubleshoot techniques, save time, and more.
 

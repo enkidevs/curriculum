@@ -1,7 +1,7 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: discussion
+category: must-know
  
 
 ---
@@ -16,9 +16,9 @@ category: discussion
 
 Let's continue playing the game.
 
-Note: Throughout the game chatGPT makes a mistake and wrongfully finished the game. So we will teach it that it didn't end and make it restart from the point of the mistake using prompts.
+Note: Throughout the game, chatGPT makes a mistake and wrongfully finished the game. So we will teach it that it didn't end and make it restart from the point of the mistake using prompts.
 
-Here we make a first move and gpt makes their first move:
+Here we make a first move, and the ai makes its first move:
 
 ![first-move](https://img.enkipro.com/95f3e80e680d750ba0656f1807e1844e.png)
 
@@ -33,5 +33,5 @@ It wrongfully assumed the game ended. So we will tell it to revert back to the p
 
 ![correcting-chatgpt](https://img.enkipro.com/60477e5134a6ac02f19b862d319be9cb.png)
 
-Then it makes a move and we finish the game:
+Then it makes a move, and we finish the game:
 ![finish-tic-tac-toe-chatgpt](https://img.enkipro.com/10062c4947e29f8ab2f757f15dcba734.png)

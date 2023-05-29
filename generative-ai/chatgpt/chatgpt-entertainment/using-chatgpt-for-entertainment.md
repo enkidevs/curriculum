@@ -1,7 +1,7 @@
 ---
 author: Stefan-Stojanovic
 type: normal
-category: discussion
+category: must-know
  
 
 ---
@@ -14,7 +14,7 @@ category: discussion
 
 ---
 
-ChatGPT can provide varius forms of entertainment including, but not limited to:
+ChatGPT can provide various forms of entertainment including, but not limited to:
 - Telling jokes
 - Generating stories, poems, songs
 - Generating in the style of a pirate, a famous singer, and more
