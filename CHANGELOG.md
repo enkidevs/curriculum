@@ -49,6 +49,12 @@ Types of change:
 ### Fixed
 
 
+
+## May 29th 2023
+
+### Fixed
+- [Python - Method Objects - Fix PQ & RQ](https://github.com/enkidevs/curriculum/pull/3209)
+
 ## May 23rd 2023
 
 ### Changed
