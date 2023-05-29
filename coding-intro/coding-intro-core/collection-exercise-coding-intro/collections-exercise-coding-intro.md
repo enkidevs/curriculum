@@ -28,11 +28,11 @@ setupCode:
 > 👩‍💻 Your task is to:
 > - **create a dictionary**
 > - **access one of its values using its key**
-> - **and finally print the value**
+> - **and finally print[1] the value**
 
 Challenge yourself to complete this task and practice your programming skills. Even if you encounter difficulties, keep trying and learn from the experience.
 
-That being said, if you're not sure how to get started, check out this footnote[1].
+That being said, if you're not sure how to get started, check out this footnote[2].
 
 When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
 
@@ -48,7 +48,18 @@ Remember, learning is more effective when we do it with others.
 
 ## Footnotes
 
-[1: Hints]
+[1: Print]
+Printing usually refers to displaying a piece of text, a number, a collection, or something else.
+
+To do this, you need to use the special `print()` function.
+
+Here is how you would print the string `"Enki"`:
+
+```python
+print("Enki")
+```
+
+[2: Hints]
 
 Here's an example to help you get started:
 
