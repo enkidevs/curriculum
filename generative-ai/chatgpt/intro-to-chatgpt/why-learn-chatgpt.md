@@ -21,7 +21,7 @@ Learning how to master **ChatGPT** can help you in many ways, for example:
 
 ChatGPT can help generate high-quality written content - including reports, articles, or emails.
 
-![craft-sales-report-email](https://img.enkipro.com/72277da6d83bdbc4ad8d6ecb57092ea7.png)
+![craft-sales-report-email](https://img.enkipro.com/6eb7f5e7b27852dbad23be693d45fd1a.png)
 
 
 ### Learning
@@ -37,14 +37,14 @@ You can leverage ChatGPT to learn about lots of topics! You can use it as a priv
 
 ChatGPT can also help you brainstorm, generate fresh ideas, or even write comprehensive plans.
 
-![mobile-app-ideas](https://img.enkipro.com/2985ccbc8527daffa53b894c861b9206.png)
+![mobile-app-ideas](https://img.enkipro.com/0d0e0499e1bd5967b8a7ac454fd8d83a.png)
 
 ### Use its API
 ---
 
 ChatGPT is not just a standalone tool. It has an API that allows you to integrate it into applications. For example, Enki's AI mentor uses OpenAI's API.
 
-![building-your-own-ai-with-chatgpt-api](https://img.enkipro.com/9336450211d48033657e6fff1f80c2a4.png)
+![building-your-own-ai-with-chatgpt-api](https://img.enkipro.com/3b60d982086f1297c275cec8f7bee5bf.png)
 
 
 ### And a lot more!

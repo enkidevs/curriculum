@@ -38,7 +38,7 @@ However, when creating complex prompts, in order to get an accurate response, yo
 
 Take a look at these example with, and without, context:
 
-![context-vs-no-context](https://img.enkipro.com/3b9e909e5409953267c2a87d1df85aee.png)
+![context-vs-no-context](https://img.enkipro.com/d82c380ce3eea9c7e0203362ce622baf.png)
 
 > 💬 Can you think of good prompts without the three key components?
 > 
