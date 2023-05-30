@@ -53,6 +53,7 @@ Types of change:
 
 ### Fixed
 - [Python - Pretty Print Data Structures - Add missing info to PQ](https://github.com/enkidevs/curriculum/pull/3210) 
+- [Data Analysis - Basic Terminology 1 - Fix PQ](https://github.com/enkidevs/curriculum/pull/3212)
 
 ### Added
 - [Coding Intro - Topic - Add 28 new workouts, 5 in core course, 23 in a separate course](https://github.com/enkidevs/curriculum/pull/3206)
