@@ -50,6 +50,11 @@ Types of change:
 
 
 
+## May 30th 2023
+
+### Fixed
+- [Python - Pretty Print Data Structures - Add missing info to PQ](https://github.com/enkidevs/curriculum/pull/3210) 
+
 ## May 29th 2023
 
 ### Fixed
