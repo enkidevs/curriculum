@@ -88,7 +88,7 @@ print(num2, 'is larger than' ,num1)
 ```
 
 If neither condition is true (i.e., num1 and num2 are equal), print "num1 and num2 are equal".
-For this you will need two `if` conditions:
+For this you will need two conditions:
 ```python
 if num1 > num2:
   # print
