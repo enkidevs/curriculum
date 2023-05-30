@@ -8,7 +8,6 @@ notes: ''
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -73,7 +72,7 @@ In addition, a `PrettyPrinter` object can be created.
 
 ## Practice
 
-Pretty `print` the following 2D array:
+Pretty `print` the following 2D array by formatting into a string:
 
 ```python
 import ???
