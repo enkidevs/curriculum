@@ -54,6 +54,7 @@ Types of change:
 
 ### Fixed
 - [Python - Pretty Print Data Structures - Add missing info to PQ](https://github.com/enkidevs/curriculum/pull/3210) 
+- [Tech Interviews / Intro To Nft - README - Remove unused aspect](https://github.com/enkidevs/curriculum/pull/3211) 
 
 ## May 29th 2023
 
