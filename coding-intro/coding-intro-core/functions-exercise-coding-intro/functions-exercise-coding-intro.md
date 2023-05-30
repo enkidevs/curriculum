@@ -1,5 +1,5 @@
 ---
-author: kapnobatai136
+author: Stefan-Stojanovic
 
 tags:
   - discussion
@@ -11,7 +11,7 @@ category: coding
 setupCode:
   startingPoint: |
     # Hey there
-    # Welcome to your first Python function creation exercise
+    # Welcome to your first Python function exercise
 
     # Start by creating a function with a name parameter
 
