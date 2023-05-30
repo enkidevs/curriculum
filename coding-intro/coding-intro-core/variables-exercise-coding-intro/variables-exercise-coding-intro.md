@@ -16,7 +16,7 @@ setupCode:
     # Create different variables and assign values to each of them
     # For instance, Numeric, Boolean, String
     
-    # Print the values using Print()
+    # Print the values using print()
 
 
 ---
