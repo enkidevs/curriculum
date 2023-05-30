@@ -1,5 +1,5 @@
 ---
-author: kapnobatai136
+author: Stefan-Stojanovic
 
 tags:
   - discussion
@@ -11,7 +11,7 @@ category: coding
 setupCode:
   startingPoint: |
     # Hey there
-    # Welcome to your first Python dictionary exercise
+    # Welcome to your first Python collection exercise
 
     # Start by creating a dictionary here
 
