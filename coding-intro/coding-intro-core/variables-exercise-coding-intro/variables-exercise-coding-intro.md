@@ -1,8 +1,8 @@
 ---
-author: kapnobatai136
+author: Stefan-Stojanovic
 
 tags:
-  - discussion
+  - coding
 
 type: normal
 
@@ -11,27 +11,28 @@ category: coding
 setupCode:
   startingPoint: |
     # Hey there
-    # Welcome to your first coding exercise
+    # Welcome to your first Python variable creation exercise
 
-    # Start by creating a list here
+    # Create different variables and assign values to each of them
+    # For instance, Numeric, Boolean, String
+    
+    # Print the values using print()
 
-    # Then, use the print() function to display one of the list's elements
-    print()
 
 ---
 
-# Collection Exercise
+# Variable Exercise
 
 ---
 
 ## Content
 
 > 👩‍💻 Your task is to:
-> - **create a list**
-> - **access one of its elements**
-> - **and finally print[1] the element**
+> - **create different variables**
+> - **assign values to each variable**
+> - **print[1] the values of all variables**
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Challenge yourself to complete this task and practice your programming skills. Even if you encounter difficulties, keep trying and learn from the experience.
 
 If you're not sure how to get started, check out this footnote[2].
 
@@ -54,39 +55,34 @@ Printing usually refers to displaying a piece of text, a number, a collection, o
 
 To do this, you need to use the special `print()` function.
 
-Here is how you would print the test `"Enki"`:
+Here is how you would print the string `"Enki"`:
 
 ```python
 print("Enki")
 ```
 
-And here is how you would print a collection's element:
-
-```python
-print(my_collection[0])
-```
-
 [2: Hints]
 
-There are many ways in which you can tackle this. For example, you could create a list that stores weekdays:
+Here's an example to help you get started:
 
+Create some variables:
 ```python
-days = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday"
-]
+# String variable
+name = "John"
+
+# Numeric variables
+age = 25
+height = 180.5
 ```
 
-
-Here is a reminder of how you can access the items:
-
+Then output them:
 ```python
-days[0]
-# "Monday"
-```
+print("Hello, my name is", name)
+# Hello, my name is John
 
+print(f'Hello, my name is {name}')
+# Hello, my name is John
+
+print(name)
+# John
+```

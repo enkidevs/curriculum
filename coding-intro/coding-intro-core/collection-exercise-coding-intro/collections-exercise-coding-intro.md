@@ -1,8 +1,8 @@
 ---
-author: kapnobatai136
+author: Stefan-Stojanovic
 
 tags:
-  - discussion
+  - coding
 
 type: normal
 
@@ -11,12 +11,11 @@ category: coding
 setupCode:
   startingPoint: |
     # Hey there
-    # Welcome to your first coding exercise
+    # Welcome to your first Python collection exercise
 
-    # Start by creating a list here
+    # Start by creating a dictionary here
 
-    # Then, use the print() function to display one of the list's elements
-    print()
+    # Then, use the print() function to display one of the dictionary elements
 
 ---
 
@@ -27,11 +26,11 @@ setupCode:
 ## Content
 
 > 👩‍💻 Your task is to:
-> - **create a list**
-> - **access one of its elements**
-> - **and finally print[1] the element**
+> - **create a dictionary**
+> - **access one of its values using its key**
+> - **and finally print[1] the value**
 
-Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
+Challenge yourself to complete this task and practice your programming skills. Even if you encounter difficulties, keep trying and learn from the experience.
 
 If you're not sure how to get started, check out this footnote[2].
 
@@ -54,39 +53,37 @@ Printing usually refers to displaying a piece of text, a number, a collection, o
 
 To do this, you need to use the special `print()` function.
 
-Here is how you would print the test `"Enki"`:
+Here is how you would print the string `"Enki"`:
 
 ```python
 print("Enki")
 ```
 
-And here is how you would print a collection's element:
-
-```python
-print(my_collection[0])
-```
-
 [2: Hints]
 
-There are many ways in which you can tackle this. For example, you could create a list that stores weekdays:
+Here's an example to help you get started:
+
+You can create a dictionary that stores the weekdays and their corresponding numbers:
 
 ```python
-days = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday"
-]
+weekdays = {
+  1: 'Monday',
+  2: 'Tuesday',
+  3: 'Wednesday',
+  4: 'Thursday',
+  5: 'Friday',
+  6: 'Saturday',
+  7: 'Sunday'
+}
 ```
 
 
-Here is a reminder of how you can access the items:
+To access the value associated with a specific key in Python, use the following syntax:
 
 ```python
-days[0]
-# "Monday"
+print(weekdays[1])
+# Monday
+print(weekdays.get(1))
+# Monday
 ```
 

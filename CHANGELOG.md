@@ -49,11 +49,13 @@ Types of change:
 ### Fixed
 
 
-
 ## May 30th 2023
 
 ### Fixed
 - [Python - Pretty Print Data Structures - Add missing info to PQ](https://github.com/enkidevs/curriculum/pull/3210) 
+
+### Added
+- [Coding Intro - Topic - Add 28 new workouts, 5 in core course, 23 in a separate course](https://github.com/enkidevs/curriculum/pull/3206)
 
 ## May 29th 2023
 

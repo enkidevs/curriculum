@@ -8,7 +8,9 @@ category: coding
 setupCode:
   startingPoint: |
     # Who did you meet today?
+    # Replace the ??? with your values
     # Note: One of the print statements has an error!
+    
     name = "???"
     age = ???
   
