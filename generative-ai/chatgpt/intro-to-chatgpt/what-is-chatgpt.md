@@ -24,7 +24,7 @@ In this course, we'll cover the must-knows, techniques and tips to maximize your
 
 These include:
 - How to structure good prompts
-- Prompting techniques (Cot, Few-shot & Zero-shot)
+- Prompting techniques
 - Making ChatGPT act like a terminal or type of person
 - Reviewing, generating and debugging code
 - Formatting outputs (with tables, graphs, etc.)

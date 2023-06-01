@@ -22,14 +22,17 @@ There are several prompting techniques to be aware of for training or guiding an
 Three useful techniques are called **few-shot** prompting, **zero-shot** prompting and **chain-of-thought** prompting.
 
 ### Few-Shot
+---
 
 **Few-shot** prompting refers to giving an AI a limited number of examples and expecting it to perform a task correctly on new, unseen inputs.
 
 ### Zero-Shot
+---
 
 **Zero-shot** prompting doesn't rely on examples. It is expected from the AI to understand and execute a task based on the given textual description. The model is expected to use its pre-existing knowledge.
 
 ### Chain-Of-Thought
+---
 
 **Chain-of-thought** prompting is a technique where the AI model generates a sequence of coherent responses to achieve a specific goal or complete a task. 
 

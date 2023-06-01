@@ -28,7 +28,7 @@ A good prompt consists of several key components: **context, instructions, and o
 
 Take a look at this prompt:
 ```plain-text
-"Can you give me a list of popular vegetarian restaurants in New York City?"
+"Can you provide me with a list of popular vegetarian restaurants in New York City?"
 ```
 
 Let's break it down.

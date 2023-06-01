@@ -58,7 +58,7 @@ Entertainment:
 
 Personal assistance:
 
-![pivot-tables](https://img.enkipro.com/66c98e3831751a4248b4bcebe5c62b82.png)
+![pivot-tables](https://img.enkipro.com/b84de14d07b5361c7282bca502ecddb2.png)
 
 > 💬 What will you use **ChatGPT** for most?
 > 

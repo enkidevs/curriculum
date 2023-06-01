@@ -19,6 +19,7 @@ ChatGPT generates human-like responses, is highly customizable, and can be fine-
 But there are several other great chat-based AI assistants which are similar - including Bard and Claude. Let's quickly cover their pluses and minuses.
 
 ### Bard
+---
 
 Google's Bard uses transformer architecture[1] just like ChatGPT. It's great at mimicking natural language and excels at open-ended conversations.
 
@@ -27,6 +28,7 @@ Its key benefit is that it's 100% free, and it also has access to the latest inf
 But it's reported to be weaker than ChatGPT at summarization and paragraph writing.
 
 ### Claude
+---
 
 Claude is also a great assistant and excels at entertainment, geography, and history.
 
