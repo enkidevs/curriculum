@@ -45,8 +45,9 @@ p { color: red; }
 h2 { font-size: 24px; }
 ```
 
-In the **HTML** example above, we create a heading and paragraph elements.  
-In the **CSS** example above, we set the **HTML** `<p>` elements content to the color `red`, and the font size of the `<h2>` elements content to 24 pixels.
+In the **HTML** example, we create a heading and a paragraph element.
+
+In the **CSS** one, we set the **HTML** `<p>` elements content to the color `red`, and the font size of the `<h2>` elements content to 24 pixels.
 
 
 ---

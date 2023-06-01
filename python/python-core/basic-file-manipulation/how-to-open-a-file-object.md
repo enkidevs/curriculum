@@ -77,7 +77,7 @@ print("The file mode is: ", obj.mode)
 
 ## Practice
 
-Suppose we want to append something to a file. Fill the gaps accordingly:
+Suppose we want to open a file for both `reading` and `appending`. Fill the gaps accordingly:
 
 ```python
 file = ???('practice.py', '???')

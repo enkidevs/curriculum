@@ -93,10 +93,10 @@ What default permission would a _new file_ have if the `umask` is `314` (which t
 
 ???
 
-- r--rw--w-
-- r--r--r--
-- -wx-wx-w-
-- --x--x-wx
+- `r--rw--w-`
+- `r--r--r--`
+- `-wx-wx-w-`
+- `--x--x-wx`
 
 ---
 

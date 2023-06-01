@@ -51,15 +51,17 @@ print(new.inst) # '0.2.41' (unique/instance)
 
 ## Revision
 
-Is `my_var` a class or instance variable?
-
-```plain-text
-???
-```
+In the following code snippet:
 
 ```python
 class Test:
   my_var = ‘enki’
+```
+
+is `my_var` a class or instance variable?
+
+```plain-text
+??? variable
 ```
 
 - `class`

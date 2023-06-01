@@ -52,9 +52,9 @@ What would be the output of `System.out.println(7 & 5);`, 7 = 0111, 5 = 0101?
 
 ???
 
-- 5
-- 0
-- -5
+- `5`
+- `0`
+- `-5`
 
 
 ---

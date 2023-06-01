@@ -49,8 +49,8 @@ Complete the following code snippet to partially stage a file:
 ??? ??? ???
 ```
 
-- git
-- add
-- -p
-- -patch
-- stage
+- `git`
+- `add`
+- `-p`
+- `-patch`
+- `stage`

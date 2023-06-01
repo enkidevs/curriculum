@@ -20,51 +20,29 @@ revisionQuestion:
 
 ## Content
 
-Python can use two different methods for string formatting.
+Python provides a concise and efficient way to format strings using f-strings. An f-string is a string that is prefixed with the letter "f" or "F". Inside the string, you can include expressions that will be replaced with their values when the string is formatted.
 
-The first, and older, method is similar to how the language C creates new and formatted strings.
-
-The `%` operator formats a set of variables enclosed in a tuple, which is a fixed size list, alongside a format string which holds normal text with special symbols such as `%s` and `%d`. These are known as *argument specifiers*:
-
-- `%s` is for a String
-- `%d` is for Integers
-- `%f` is for Floats
-
-For instance, say you have some variables. This is how you would print them:
-
+Here is an example:
 ```python
 app = 'Enki'
 workout_number = 3
-print('Learning Python with %s, workout number %d.' % (app, workout_number))
-# Learning Python with Enki, workout number 3.
-```
-
-Although useful when working with a low number of variables, you can see how readability decreases as the number of variables used increases.
-
-Since Python 2.6, a new method of string formatting has been introduced. You can now call the `str.format()` method on any string. The functionality is similar, but instead of `%s`, `%d`, or `%f`, you now have to use curly brackets `{}`.
-
-```py
-app = 'Enki'
-workout_number = 3
-a_string = 'Learning Python with {}, workout number {}.'.format(app, workout_number)
-
-print(a_string)
+print(f'Learning Python with {app}, workout number {workout_number}.')
 # Output:
 # Learning Python with Enki, workout number 3.
 ```
 
-As you can see, the `format` method takes in the replacements as arguments and returns the formatted string. Another useful feature of this method is that you can decide which argument is replaced by using indexes:
+In this example, the variables `app` and `workout_number` are included in the f-string by enclosing them in curly braces `{}`. The variables are then replaced with their values when the string is formatted.
 
-```py
-app = 'Enki'
-workout_number = 3
-another_string = 'Learning Python with {1}, workout number {0}.'.format(app, workout_number)
-
-print(another_string)
+F-strings also support expressions inside the curly braces, such as arithmetic operations and function calls. Here is an example that demonstrates how to use expressions in an f-string:
+```python
+x = 10
+y = 5
+print(f'The sum of {x} and {y} is {x + y}.')
 # Output:
-# Learning Python with 3, workout number Enki.
+# The sum of 10 and 5 is 15.
 ```
 
+To summarize, f-strings provide a more readable and efficient way to format strings compared to the older `%` operator or the `str.format()` method. By using f-strings, you can easily include variables and expressions inside strings, making your code more concise and easier to understand.
 
 ---
 
@@ -75,28 +53,40 @@ Complete the code snippet to print the output:
 ```py
 replace = 'Enki'
 
-print('??? is fun!' % (replace))
+print(f'{???} is fun!')
 
-'??? is fun!'.format(replace)
-
-# Output in both cases:
 # Enki is fun!
 ```
 
-- %s
-- {}
-- %d
-- {2}
+- `replace`
+- `Enki`
+- `'replace'`
+- `print`
 
 
 ---
 
 ## Revision
 
-When you want to use two or more argument specifiers, what must you use in order to print them?
+Fill in the code for the outputs to be correct:
 
-???
+```python
+x = 42
+y = 3.14
+z = "Hello"
 
-- A tuple
-- A function
-- A string
+print(f"What is the value of x? ???")
+# What is the value of x? 42
+
+print(f"??? is approximately equal to ???")
+# y is approximately equal to 3.14
+
+print(f"???, world!")
+# Hello, world!
+```
+
+- `{x}`
+- `y`
+- `{y}`
+- `{???}`
+- `z`

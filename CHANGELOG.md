@@ -48,10 +48,101 @@ Types of change:
 
 ### Fixed
 
-## April 6th 2023
+
+## June 1st 2023
 
 ### Added
-- [Ai - ChatGPT - Add chatGPT course to AI topic](https://github.com/enkidevs/curriculum/pull/3185)
+- [Generative AI - Topic/Course - Add chatGPT and machine learning courses to Generative AI topic](https://github.com/enkidevs/curriculum/pull/3185)
+
+## May 30th 2023
+
+### Fixed
+- [Python - Pretty Print Data Structures - Add missing info to PQ](https://github.com/enkidevs/curriculum/pull/3210) 
+- [Data Analysis - Basic Terminology 1 - Fix PQ](https://github.com/enkidevs/curriculum/pull/3212)
+
+### Added
+- [Coding Intro - Topic - Add 28 new workouts, 5 in core course, 23 in a separate course](https://github.com/enkidevs/curriculum/pull/3206)
+
+## May 29th 2023
+
+### Fixed
+- [Python - Method Objects - Fix PQ & RQ](https://github.com/enkidevs/curriculum/pull/3209)
+
+## May 23rd 2023
+
+### Changed
+- [Linux - Using Find To Search By Filename - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3207)
+
+## May 22nd 2023
+
+### Fixed
+- [JavaScript - Weakmap - Replace mistake in PQ code](https://github.com/enkidevs/curriculum/pull/3205)
+
+## May 16th 2023
+
+### Changed
+- [Python - Data Types - Remove type n the gap](https://github.com/enkidevs/curriculum/pull/3203)
+
+## May 11th 2023
+
+### Changed
+- [Python - Arithmetic Operators - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3202)
+
+## May 10th 2023
+
+### Fixed
+- [Web - HTML Basics - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3201)
+- [Data Analysis - More Terminology - Replace broken link](https://github.com/enkidevs/curriculum/pull/3200)
+
+## May 3rd 2023
+
+### Fixed
+- [JavaScript - Truthy Falsy - Remove duplicate mention of negative 0](https://github.com/enkidevs/curriculum/pull/3199)
+
+## May 2nd 2023
+
+### Fixed
+- [Web - HTML/CSS Code - Fix bug in content](https://github.com/enkidevs/curriculum/pull/3198)
+
+## April 19th 2023
+
+### Fixed
+- [Python - Method Overriding - Add missing parentheses](https://github.com/enkidevs/curriculum/pull/3195)
+- [Python - How To Open A File Object - Improve PQ](https://github.com/enkidevs/curriculum/pull/3194)
+
+### Changed
+- [Python - Class VS Instance Variable - Improve PQ](https://github.com/enkidevs/curriculum/pull/3197)
+
+## April 18th 2023
+
+### Changed
+- [Java - Polymorphism - Change function names](https://github.com/enkidevs/curriculum/pull/3193) 
+
+### Fixed
+- [Python - Threading Workout - Fix broken code](https://github.com/enkidevs/curriculum/pull/3196)
+
+## April 14th 2023
+
+### Fixed
+- [Multiple Topics - Multiple Insights - Enclose answers that start with a dash in backticks](https://github.com/enkidevs/curriculum/pull/3191) 
+- [Data Analysis - Intro to product analytics - replace broken link](https://github.com/enkidevs/curriculum/pull/3190)
+
+### Changed
+- [Python - Accross Topic - Replace older string format with f strings](https://github.com/enkidevs/curriculum/pull/3192)
+
+## April 10th 2023
+
+### Changed
+- [Coding Intro - Why Learn To Code - Change insight to discussion](https://github.com/enkidevs/curriculum/pull/3187)
+
+### Fixed
+- [Git - Useful Stashing Options - Fix question](https://github.com/enkidevs/curriculum/pull/3188)
+- [Python - String Formatting - Replace outaded formatting with f strings](https://github.com/enkidevs/curriculum/pull/3189)
+
+## April 6th 2023
+
+### Fixed
+- [Linux - Using find to search by file size - minor grammar change](https://github.com/enkidevs/curriculum/pull/3186)
 
 ## April 5th 2023
 

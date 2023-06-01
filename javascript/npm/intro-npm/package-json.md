@@ -84,11 +84,11 @@ This file is what makes some code a *package*.
 
 Will create the default *package.json* file.
 
-- npm
-- init
-- -y
-- install
-- -i
+- `npm`
+- `init`
+- `-y`
+- `install`
+- `-i`
 
 
 ---

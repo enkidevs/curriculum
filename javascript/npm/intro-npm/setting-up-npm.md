@@ -64,14 +64,14 @@ How would you update npm to the latest version? Place the flag at the end of the
 npm ??? ??? ???
 ```
 
-- install
-- npm
-- -g
-- latest
-- -l
-- add
-- remove
-- --latest
+- `install`
+- `npm`
+- `-g`
+- `latest`
+- `-l`
+- `add`
+- `remove`
+- `--latest`
 
 
 ---
@@ -84,9 +84,9 @@ Install the *react* package locally:
 ??? ??? ???
 ```
 
-- npm
-- install
-- react
-- -l
-- -g
-- node
+- `npm`
+- `install`
+- `react`
+- `-l`
+- `-g`
+- `node`

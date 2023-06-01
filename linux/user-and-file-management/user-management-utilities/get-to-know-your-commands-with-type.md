@@ -78,10 +78,10 @@ You can call ???
 
 alongside another command to find out its alias, functions, builtins and keywords.
 
-- type
-- desc
-- -type
-- —desc
+- `type`
+- `desc`
+- `-type`
+- `—desc`
 
 
 ---
