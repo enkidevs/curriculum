@@ -59,9 +59,9 @@ Using the list above, the median is 10.
 
 As the temperature goes down, ice cream sales also go down. This is an example of ???.
 
+- negative correlation
 - positive correlation
 - no correlation
-- negative correlation
 
 
 ---

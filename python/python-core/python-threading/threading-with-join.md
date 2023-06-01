@@ -29,10 +29,7 @@ revisionQuestion:
 Previously, we created a thread using `someFunction`[1]:
 
 ```python
-firstThread = 
-  threading.Thread(
-    target=someFunction
-  )
+firstThread = threading.Thread(target=someFunction)
 ```
 
 Now, let's import the `time` module and use a different function to create one.
@@ -70,16 +67,13 @@ What this means is, when we join a thread, the main thread stops executing until
 
 Let's create it:
 ```python
-thread1 = 
-  threading.Thread(
-    target=someFunction
-  )
+myThread =threading.Thread(target=someFunction)
 ```
 
 First, we will start the thread without `.join()`.
 
 ```python
-thread1.start()
+myThread.start()
 ```
 
 Add this code above the last print but outside of the function:
@@ -98,7 +92,6 @@ Why are you ignoring me
 ```
 
 > Let's continue in the next insight.
-
 
 ---
 
@@ -119,10 +112,7 @@ def x():
   # Print a message
   print("Why are you ignoring me")
 
-myThread = 
-  ???.???(
-    ???=???
-  )
+myThread = ???.???(???=???)
 
 myThread.???
 ```
@@ -156,12 +146,9 @@ def f():
 
 print("Heyyyy")
 
-??? = 
-  threading.???(
-    ???=???
-  )
+??? = threading.???(???=???)
 
-myThread.???
+myThread.start()
 ```
 
 - time

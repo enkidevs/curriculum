@@ -58,8 +58,8 @@ docker container run \
   ??? ???:??? nginx
 ```
 
-- -v
-- ~/local/data
-- /data
-- -b
-- --bind
+- `-v`
+- `~/local/data`
+- `/data`
+- `-b`
+- `--bind`

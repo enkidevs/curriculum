@@ -30,7 +30,7 @@ You've got this generic function:
 
 ```python
 def say_hello(name):
-  return "Hello, {0}!".format(name)
+  return f"Hello, {name}!"
 ```
 
 Say you need to wrap the output of the function in *heading tags*, like this:
@@ -43,16 +43,17 @@ You could always define another function that makes use of `say_hello`:
 
 ```python
 def hello_heading(name):
-  return "<h2>{0}</h2>".format(say_hello(name))
+  return f"<h2>{say_hello(name)}</h2>"
 ```
 
 Which is perfectly acceptable, but you'd be giving away the opportunity of making your code extensible. What if you are going to need a `say_goodbye` function, formatted in the same way? You'd have to create two more functions:
 
 ```python
 def say_goodbye(name):
-  return "Goodbye, {0}!".format(name)
+  return f"Goodbye, {name}!"
+
 def goodbye_heading(name):
-  return "<h2>{0}</h2>".format(say_goodbye(name))
+  return f"<h2>{say_goodbye(name)}</h2>"
 ```
 
 This is not ideal, since all you had done, for each function, was to **decorate** (enhance, manipulate or extend) their output. What if you could write a function that wraps any function's output in `<h2>` tags?
@@ -60,7 +61,7 @@ This is not ideal, since all you had done, for each function, was to **decorate*
 ```python
 def h2_decorate(string_function):
   def func_wrapper(name):
-    return "<h2>{0}</h2>".format(string_function(name))
+    return f"<h2>{string_function(name)}</h2>"
   return func_wrapper
 ```
 
@@ -102,14 +103,14 @@ Which of the following examples represent a decorator?
 
 ```python
 def say_hello(name):
-  return "Hello, {0}!".format(name)
+  return f"Hello, {name}!"
 # A
 def hello_heading(name):
-  return "<h2>{0}</h2>".format(say_hello(name))
+  return f"<h2>{say_hello(name)}</h2>"
 # B
 def hello_heading(func):
   def func_wrapper(name):
-    return "<h2>{0}</h2>".format(func(name))
+    return f"<h2>{func(name)}</h2>"
   return func_wrapper
 ```
 

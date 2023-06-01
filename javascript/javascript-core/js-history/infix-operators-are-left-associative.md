@@ -62,13 +62,13 @@ console.log(x);
 // ???
 ```
 
-- 68
-- -28
-- 192
-- 0
-- undefined
-- -68
-- -192
+- `68`
+- `-28`
+- `192`
+- `0`
+- `undefined`
+- `-68`
+- `-192`
 
 
 ---
@@ -77,7 +77,7 @@ console.log(x);
 
 The processing of operations starts with the ??? operator if no parentheses are used.
 
-- left-most
-- right-most
-- middle
+- `left-most`
+- `right-most`
+- `middle`
  

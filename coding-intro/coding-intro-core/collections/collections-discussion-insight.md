@@ -33,7 +33,7 @@ setupCode:
 
 Learning is best when we give it an honest try. Even if we make a mistake, we'll remember it and do better next time.
 
-That being said, if you're not sure how to get started, check out this footnote[2].
+If you're not sure how to get started, check out this footnote[2].
 
 When you're finished, feel free to share your solution with the community, join in on discussions and upvote solutions from your fellow learners!
 
@@ -87,6 +87,6 @@ Here is a reminder of how you can access the items:
 
 ```python
 days[0]
-// "Monday"
+# "Monday"
 ```
 

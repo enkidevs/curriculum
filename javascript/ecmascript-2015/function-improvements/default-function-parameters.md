@@ -52,16 +52,16 @@ function cube(??? ??? ???) {
 cube() // 0
 ```
 
-- number
-- =
-- 0
-- 1
-- default
-- n
-- int
-- const
-- let
-- -1
+- `number`
+- `=`
+- `0`
+- `1`
+- `default`
+- `n`
+- `int`
+- `const`
+- `let`
+- `-1`
 
 
 ---
@@ -79,9 +79,9 @@ console.log(square());
 // ???
 ```
 
-- 1
-- 2
-- error
-- undefined
-- null
+- `1`
+- `2`
+- `error`
+- `undefined`
+- `null`
  

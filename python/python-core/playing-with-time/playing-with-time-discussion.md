@@ -29,7 +29,7 @@ How would you create a program where you create a date using the `datetime` modu
 To solve this, try using the following concepts:
 - learned modules (`time`, `datetime`)
 - importing modules(`import`, `from...import`)
-- string format(`strftime()`, `%d`, `%a`, `%b`, `%Y`, `%H`,`%M`,`%S`)
+- string format(`strftime()`, `f-strings` `%d`, `%a`, `%b`, `%Y`, `%H`,`%M`,`%S`)
 
 
 If you're not sure what to do, check out this footnote[1].
@@ -86,34 +86,42 @@ format = '%d %a %b %Y %H:%M:%S'
 
 # Single formatted print
 print(today.strftime(format))
-# 09 Tue Feb 2021 13:02:53
+# 14 Fri Apr 2023 11:47:16
+
+# formatted using f-strings
+print(f"{today:%d %a %b %Y %H:%M:%S}")
+# 14 Fri Apr 2023 11:47:16
+
 ```
 
 ```python
 # Example 3
-timestamp = 1612876225
+timestamp = 1681474626
 
-dt_from_timestamp = datetime\
-          .fromtimestamp(timestamp)
+dt_from_timestamp = datetime.fromtimestamp(timestamp)
 
-d = date_time.strftime("%d")
-a = date_time.strftime("%a")
-b = date_time.strftime("%b")
-y = date_time.strftime("%Y")
-h = date_time.strftime("%H")
-m = date_time.strftime("%M")
-s = date_time.strftime("%S")
+d = dt_from_timestamp.strftime("%d")
+a = dt_from_timestamp.strftime("%a")
+b = dt_from_timestamp.strftime("%b")
+y = dt_from_timestamp.strftime("%Y")
+h = dt_from_timestamp.strftime("%H")
+m = dt_from_timestamp.strftime("%M")
+s = dt_from_timestamp.strftime("%S")
+hms = dt_from_timestamp.strftime("%H:%M:%S")
 
-hms = date_time.strftime("%H:%M:%S")
 
 print(d, a, b, y, hms)
-# 09 Tue Feb 2021 14:10:25
+# 14 Fri Apr 2023 12:17:06
 print(a)
-# Tue
+# Fri
 print(b)
-# Feb
+# Apr
 print(y)
-# 2021
+# 2023
 print(hms)
-# 14:10:25
+# 12:17:06
+
+formatted = f"{d} {a} {b} {y} {h}:{m}:{s}"
+print(formatted)
+# 14 Fri Apr 2023 12:17:06
 ```

@@ -33,8 +33,7 @@ class Order(object):
     self.name = name
     self.number = number
   def __repr__(self):
-    return '({}, {})'.format(self.name,
-    self.number)
+    return f'({self.name}, {self.number})'
 
 list = [Order('tom', 22),
         Order('bob', 55),
