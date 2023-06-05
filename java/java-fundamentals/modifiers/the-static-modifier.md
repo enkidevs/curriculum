@@ -31,7 +31,7 @@ For example:
 public class Car{
   private static int piecesSold = 0;
   public Car(){
-    piecesSold = piecesSold + 1:
+    piecesSold = piecesSold + 1;
   }
 
   public static void printSold(){
@@ -77,7 +77,7 @@ What would the following snippet print to the console?
 public class Person {
   public static String lastPerson;
   public String name;
-  public Person(name) {
+  public Person(String name) {
     this.name = name;
     this.lastPerson = name;
   }
