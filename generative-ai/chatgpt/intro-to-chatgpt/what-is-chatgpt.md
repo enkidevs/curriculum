@@ -30,7 +30,7 @@ These include:
 - Formatting outputs (with tables, graphs, etc.)
 - and more...
 
-**Note:** All the techniques covered in this course can be applied to other text-based AI tools like Bard and Claude.
+**Note:** All the techniques covered in this course can be applied to other text-based AI tools like Bard and Claude, and even our own Enki AI!
 
 > 💬 Why are you interested in **ChatGPT**?
 > 
