@@ -22,15 +22,15 @@ By formulating clear and concise prompts, you can leverage ChatGPT's knowledge t
 
 Let's say you need to create a factorial of a given number. We can ask the ai to do that for us:
 
-![factorial-of-a-number](https://img.enkipro.com/a9ac191fcba73460d556cba45e2eff8e.png)
+![factorial-of-a-number](https://img.enkipro.com/e8ce4eb2228c9b4d3e8fa3cd1bd76ede.png)
 
 If you do not understand how the code works, you can always ask it to explain it:
 
-![elaborate-on-the-factorial-code](https://img.enkipro.com/45799050359a699ee1750f59d3dbc54f.png)
+![elaborate-on-the-factorial-code](https://img.enkipro.com/e8ce4eb2228c9b4d3e8fa3cd1bd76ede.png)
 
 We can also generate larger code blocks. It is important to structure the prompt carefully to get the desired output:
 
-![larger-snippet](https://img.enkipro.com/529b112deb8a13addd47e5ac5bc135da.png)
+![larger-snippet](https://img.enkipro.com/c639cda3e3a3d91043322e1d35cb6190.png)
 
 You can find the full code snippet here[1].
 

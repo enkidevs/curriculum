@@ -34,11 +34,11 @@ Let's look at some examples.
 
 Identifying errors in Python code:
 
-![identify-error-python](https://img.enkipro.com/bd95bdb6ca44e668edd32a50bb168bb3.png)
+![identify-error-python](https://img.enkipro.com/5067f934912f3f2f276da3e2851c3174.png)
 
 Debugging JavaScript code:
 
-![debug-this-js-code](https://img.enkipro.com/1430d50b38d7e1c23e5337d74fce57e7.png)
+![debug-this-js-code](https://img.enkipro.com/b3856b896eb7eeeb74c9d13a81bafd7b.png)
 
 Troubleshoot techniques:
 
@@ -58,6 +58,6 @@ fetchData("https://api.example.com/data");
 
 Response:
 
-![troubleshoot-techniques](https://img.enkipro.com/0f33883c2f00e8ad5e54d28b4cb3a049.png)
+![troubleshoot-techniques](https://img.enkipro.com/3b85a806b0f95f8b9fac0c61ca39add0.png)
 
 In conclusion, ChatGPT is an invaluable debugging assistant that empowers developers to overcome challenges and streamline their workflow. Harness the power of ChatGPT to elevate your programming skills and unlock new levels of coding mastery.
