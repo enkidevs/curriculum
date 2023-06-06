@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [SQL - Update Syntax - Fix grammar](https://github.com/enkidevs/curriculum/pull/3216)
+- [Data Analysis - Basic Terminology 1 - Fix PQ](https://github.com/enkidevs/curriculum/pull/3217)
 
 ## May 30th 2023
 
