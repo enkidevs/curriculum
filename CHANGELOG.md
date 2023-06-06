@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## June 6th 2023
+
+### Fixed
+- [SQL - Update Syntax - Fix grammar](https://github.com/enkidevs/curriculum/pull/3216)
 
 ## May 30th 2023
 
