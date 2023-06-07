@@ -57,11 +57,11 @@ Using the list above, the median is 10.
 
 ## Practice
 
-As the temperature goes down, ice cream sales also go down. This is an example of ???.
+As the temperature goes up, ice cream sales also go up. This is an example of ??? correlation.
 
-- positive correlation
-- no correlation
-- negative correlation
+- positive
+- negative
+- no
 
 
 ---
