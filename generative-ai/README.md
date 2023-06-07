@@ -10,4 +10,3 @@ language: Python
 
 availableAspects:
   - introduction
-  - workout
