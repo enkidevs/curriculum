@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+
+## June 7th 2023
+
+### Changed
+- [Multiple Topics - Readmes - Update subtopic names](https://github.com/enkidevs/curriculum/pull/3213)
+
 ## June 6th 2023
 
 ### Fixed
