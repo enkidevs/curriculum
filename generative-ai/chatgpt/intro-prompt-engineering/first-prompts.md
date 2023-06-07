@@ -25,13 +25,13 @@ Keep in mind: **the more precise we are with our prompts, the more precise the o
 
 Here's an example of a vague prompt:
 
-![vague-prompt](https://img.enkipro.com/3bc2c3dbecd6408ba631d6045eaafafd.png)
+![vague-prompt-how-do-i-fix-my-computer](https://img.enkipro.com/3bc2c3dbecd6408ba631d6045eaafafd.png)
 
 Since we didn't specify any details, the AI had to make some assumptions and gave some general steps on how to fix a problem.
 
 Here's another example with more context:
 
-![more-context-prompt](https://img.enkipro.com/8564b7c6a3c1835e2095dca3e1513c01.png)
+![more-context-prompt-fix-dns-server-not-responding-error](https://img.enkipro.com/8564b7c6a3c1835e2095dca3e1513c01.png)
 
 In the second example, we clearly state what issue we need to fix - giving us a more accurate response.
 

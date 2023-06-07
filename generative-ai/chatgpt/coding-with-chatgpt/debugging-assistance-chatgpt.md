@@ -34,11 +34,11 @@ Let's look at some examples.
 
 Identifying errors in Python code:
 
-![identify-error-python](https://img.enkipro.com/5067f934912f3f2f276da3e2851c3174.png)
+![identify-errors-in-python-code-and-suggest-fixes](https://img.enkipro.com/5067f934912f3f2f276da3e2851c3174.png)
 
 Debugging JavaScript code:
 
-![debug-this-js-code](https://img.enkipro.com/b3856b896eb7eeeb74c9d13a81bafd7b.png)
+![debug-a-javascript-function-that-doesnt-produce-output](https://img.enkipro.com/b3856b896eb7eeeb74c9d13a81bafd7b.png)
 
 Troubleshoot techniques:
 

@@ -37,7 +37,7 @@ console.log(getFullName(user));
 
 Here's the response:
 
-![refactored-js-code-1](https://img.enkipro.com/83a412045b351c5b0ef8d874b1961058.png)
+![refactored-javascript-code](https://img.enkipro.com/83a412045b351c5b0ef8d874b1961058.png)
 
 
 Here's another performance improvement prompt:
@@ -64,7 +64,7 @@ const evenNumbers = filterArray(numbers, isEven);
 console.log(evenNumbers);
 ```
 
-![refactored-js-code-2](https://img.enkipro.com/2d75572a952a7d0df9b64ee9c5fd8f7e.png)
+![improve-the-performance-of-this-javascript-code](https://img.enkipro.com/2d75572a952a7d0df9b64ee9c5fd8f7e.png)
 
 Here's one where we want to adhere to best practices and have a more efficient algorithm:
 
@@ -87,6 +87,6 @@ console.log(`Target found at index: ${index}`);
 ```
 
 Response:
-![more-efficient-algorithm](https://img.enkipro.com/3be328abf7a7c3052c58fd8efe777067.png)
+![suggest-a-more-efficient-search-algorithm](https://img.enkipro.com/3be328abf7a7c3052c58fd8efe777067.png)
 
 To conclude, ChatGPT offers an excellent platform for code optimization, providing programmers with a valuable resource to improve their code's performance and efficiency.

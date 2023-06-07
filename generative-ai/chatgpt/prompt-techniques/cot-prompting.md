@@ -27,16 +27,16 @@ Initial prompt:
 ![plan-a-small-event](https://img.enkipro.com/f8f406b06861ddb2ab62d0971dc1a258.png)
 
 Instruction 1:
-![instruction-1](https://img.enkipro.com/cfd7d8af6464013ecc4b0b98b0e99f54.png)
+![plan-a-small-event-instruction-1](https://img.enkipro.com/cfd7d8af6464013ecc4b0b98b0e99f54.png)
 
 Instruction 2:
-![instruction-2](https://img.enkipro.com/727ccaf5a8e3a3775f649fecba9bfa1c.png)
+![plan-a-small-event-instruction-2](https://img.enkipro.com/727ccaf5a8e3a3775f649fecba9bfa1c.png)
 
 Instruction 3:
-![instruction-3](https://img.enkipro.com/a2a245d37a35a41c39a9fb806c9da86f.png)
+![plan-a-small-event-instruction-3](https://img.enkipro.com/a2a245d37a35a41c39a9fb806c9da86f.png)
 
 Summarize our plan:
-![summarized-plan](https://img.enkipro.com/b24b9bda7bcec348fbdc4e2a383b6845.png)
+![summarized-plan-for-small-event](https://img.enkipro.com/b24b9bda7bcec348fbdc4e2a383b6845.png)
 
 
 **COT** prompting is mostly used in these situations:

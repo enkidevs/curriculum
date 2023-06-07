@@ -39,7 +39,7 @@ The input is the list of vegetarian restaurants.
 
 The output would be the `list` keyword which tells the ai to formulate the output as a list.
 
-![top-10-restauraunts-in-nyc](https://img.enkipro.com/ad454511021ab6e378ce82c124925f96.png)
+![top-10-restauraunts-in-nyc-prompt](https://img.enkipro.com/ad454511021ab6e378ce82c124925f96.png)
 
 Additionally, a good prompt is never only a few words. The more data we provide, the easier it will be for the ai to produce an accurate response.
 

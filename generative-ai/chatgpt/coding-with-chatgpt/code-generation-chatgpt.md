@@ -30,7 +30,7 @@ If you do not understand how the code works, you can always ask it to explain it
 
 We can also generate larger code blocks. It is important to structure the prompt carefully to get the desired output:
 
-![larger-snippet](https://img.enkipro.com/c639cda3e3a3d91043322e1d35cb6190.png)
+![python-larger-snippet-example](https://img.enkipro.com/c639cda3e3a3d91043322e1d35cb6190.png)
 
 You can find the full code snippet here[1].
 

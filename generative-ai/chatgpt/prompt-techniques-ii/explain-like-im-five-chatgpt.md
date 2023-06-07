@@ -28,6 +28,6 @@ In this case, the **Explain like im 5** used Legos to explain what distributed s
 
 However, what if we are not satisfied that it used Legos in the explanation? We can tell it explain again without using that concept:
 
-![explanation-without-lego](https://img.enkipro.com/46e454bd007ba73bb56e0deed8e37380.png)
+![distributed-system-explanation-without-lego](https://img.enkipro.com/46e454bd007ba73bb56e0deed8e37380.png)
 
 We can continuously modify how it responds to us until we are satisfied with the response.

@@ -25,15 +25,15 @@ The key benefit of **zero-shot** prompting is that it allows for generating outp
 
 It can be used in various applications, such as language translation:
 
-![translation-prompt](https://img.enkipro.com/23dc4d5c1a4340910aff4cadbe1e5447.png)
+![language-translation-prompt](https://img.enkipro.com/23dc4d5c1a4340910aff4cadbe1e5447.png)
 
 summarization:
 
-![summarization-prompt](https://img.enkipro.com/49d49240a1e8bce77dabb11445ab7e35.png)
+![summarize-the-following-text-prompt](https://img.enkipro.com/49d49240a1e8bce77dabb11445ab7e35.png)
 
 and dialogue generation:
 
-![dialogue-prompt](https://img.enkipro.com/e658eb1c427d2026a46522f31f53cb34.png)
+![generate-dialogue-prompt](https://img.enkipro.com/e658eb1c427d2026a46522f31f53cb34.png)
 
 
 ---

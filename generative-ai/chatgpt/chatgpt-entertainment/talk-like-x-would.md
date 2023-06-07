@@ -20,8 +20,8 @@ For instance, let's say you are a chef and would like to know how it feels to be
 
 We can tell the AI to respond like that person would:
 
-![reply-like-gordon](https://img.enkipro.com/efe437def6289d0f3ba32e5c8be137f6.png)
+![tell-ai-to-reply-like-gordon-ramsey-would](https://img.enkipro.com/efe437def6289d0f3ba32e5c8be137f6.png)
 
 We tell the AI what food we are going to make, how we made it, and wait for its reply:
 
-![gordon-response](https://img.enkipro.com/503e0d0ab6ebb1249227769bfcefd38f.png)
+![ai-response-in-gordon-ramsey-style](https://img.enkipro.com/503e0d0ab6ebb1249227769bfcefd38f.png)

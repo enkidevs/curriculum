@@ -30,7 +30,7 @@ Let's look at some examples:
 
 Now the model should know what to respond with when we provide other abbreviations without having to repeat what it should do:
 
-![few-shot-abbreviations-continued](https://img.enkipro.com/105e6c55b99be01339b35612b7611d39.png)
+![few-shot-abbreviations-more-examples](https://img.enkipro.com/105e6c55b99be01339b35612b7611d39.png)
 
 The key benefit of **few-shot** prompting is that it allows for quickly training a model to perform a new task with only a few examples, making it useful in scenarios where there is limited data available.
 

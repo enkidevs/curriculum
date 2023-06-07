@@ -21,13 +21,13 @@ These are powerful prompts that allow you to teach the AI to act as something or
 Here are several examples:
 
 Grammar checker:
-![act-like-a](https://img.enkipro.com/3ad6c16987bcc5f011fe3007e08cff71.png)
+![act-like-a-grammar-checker](https://img.enkipro.com/3ad6c16987bcc5f011fe3007e08cff71.png)
 
 Math tutor:
-![act-like-a](https://img.enkipro.com/2fd8dcbf15ddf159052dc01a196a875f.png)
+![act-like-a-math-tutor](https://img.enkipro.com/2fd8dcbf15ddf159052dc01a196a875f.png)
 
 SQL Terminal
-![act-like-a](https://img.enkipro.com/a657838c4a44808f3888b55c5fe0b1ba.png)
+![act-like-an-sql-terminal](https://img.enkipro.com/a657838c4a44808f3888b55c5fe0b1ba.png)
 
 There are many applications with the **Act as/like a** prompt. Feel free to explore and tinker with the AI to create your own unique prompts.
 
