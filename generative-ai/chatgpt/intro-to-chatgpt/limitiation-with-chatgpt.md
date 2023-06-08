@@ -11,8 +11,6 @@ category: discussion
 
 ## Content
 
----
-
 Keep in mind that **ChatGPT** can sometimes make mistakes or give strange responses depending on the prompts you give it.
 
 Sometimes, ChatGPT hallucinates[1] and confidently gives a wrong response. It might be very smart and advanced, but it is a fancy auto-complete[2] after all.

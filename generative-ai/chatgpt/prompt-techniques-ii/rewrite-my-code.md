@@ -12,8 +12,6 @@ category: must-know
 
 ## Content
 
----
-
 Did you know ChatGPT can rewrite your code for you?
 
 Here's an example:

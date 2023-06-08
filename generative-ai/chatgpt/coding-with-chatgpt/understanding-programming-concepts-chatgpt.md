@@ -12,8 +12,6 @@ category: discussion
 
 ## Content
 
----
-
 Learning programming concepts can be challenging, especially when dealing with complex topics or unfamiliar terminologies. 
 
 Ai can help you understand programming concepts more effectively by using its clear explanations and examples on a wide range of programming concepts.

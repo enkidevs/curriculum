@@ -12,8 +12,6 @@ category: discussion
 
 ## Content
 
----
-
 Learning how to master **ChatGPT** can help you in many ways, for example:
 
 ### Better Writing and Content

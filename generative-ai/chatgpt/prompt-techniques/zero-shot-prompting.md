@@ -15,8 +15,6 @@ practiceQuestion:
 
 ## Content
 
----
-
 **Zero-shot** prompting is a technique in which a language model is able to generate language output for tasks it has not been explicitly trained on, without any additional training or fine-tuning. 
 
 **Zero-shot** prompting is possible because language models are trained on a large corpus of text, and they can learn to understand the relationships between different concepts and topics.

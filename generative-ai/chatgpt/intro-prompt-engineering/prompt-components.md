@@ -16,8 +16,6 @@ practiceQuestion:
 
 ## Content
 
----
-
 Not every prompt requires all three key components (context, instructions, and output). 
 
 In some cases, only one or two may be necessary.

@@ -12,8 +12,6 @@ category: must-know
 
 ## Content
 
----
-
 ChatGPT can provide various forms of entertainment including, but not limited to:
 - Telling jokes
 - Generating stories, poems, songs

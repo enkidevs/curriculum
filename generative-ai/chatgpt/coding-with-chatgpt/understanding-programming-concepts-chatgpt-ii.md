@@ -12,8 +12,6 @@ category: discussion
 
 ## Content
 
----
-
 Let's look at some examples of how AI can help us learn.
 
 What do all programming languages have in common:

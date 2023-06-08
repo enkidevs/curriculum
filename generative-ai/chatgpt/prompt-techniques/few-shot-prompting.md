@@ -16,8 +16,6 @@ practiceQuestion:
 
 ## Content
 
----
-
 In **Few-shot** prompting, the language model is fine-tuned on a small amount of data (usually with limited labelled examples) to generate a specific output. 
 
 In machine learning, it falls under the category of **transfer learning**.

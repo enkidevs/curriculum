@@ -12,8 +12,6 @@ category: must-know
 
 ## Content
 
----
-
 Now, let's see how we can generate stories in different styles.
 
 Here's an example of a story with less than 200 words that rhyme in Eminem style:

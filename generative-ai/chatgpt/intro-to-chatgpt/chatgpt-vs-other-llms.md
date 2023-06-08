@@ -12,8 +12,6 @@ category: discussion
 
 ## Content
 
----
-
 ChatGPT generates human-like responses, is highly customizable, and can be fine-tuned for specific tasks or industries.
 
 But there are several other great chat-based AI assistants which are similar - including Bard and Claude. Let's quickly cover their pluses and minuses.
