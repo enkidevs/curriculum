@@ -48,7 +48,6 @@ Types of change:
 
 ### Fixed
 
-
 ## June 8th 2023
 
 ### Added
@@ -59,6 +58,7 @@ Types of change:
 - [Tech Interviews / Intro To Nft - README - Remove unused aspect](https://github.com/enkidevs/curriculum/pull/3211) 
 - [Generative AI - Intro - Add spacing between image and headline](https://github.com/enkidevs/curriculum/pull/3220) 
 - [Generative AI - Topic - Resolve YAML issue](https://github.com/enkidevs/curriculum/pull/3222)
+- [Generative AI - README - Retrigger ](https://github.com/enkidevs/curriculum/pull/3223)
 
 ## June 7th 2023
 

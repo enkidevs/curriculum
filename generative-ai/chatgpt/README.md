@@ -15,4 +15,3 @@ sections:
 
 next:
   - generative-ai:machine-learning
-  
