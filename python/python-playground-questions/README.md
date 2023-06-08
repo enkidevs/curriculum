@@ -1,4 +1,4 @@
-name: Python Exercises
+name: Exercises
 
 description: Questions to improve your coding skills.
 

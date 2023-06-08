@@ -48,10 +48,17 @@ Types of change:
 
 ### Fixed
 
+
+## June 8th 2023
+
+### Fixed
+- [Python - Nested List Comprehensions - Fix PQ Answer](https://github.com/enkidevs/curriculum/pull/3219)
+- [Tech Interviews / Intro To Nft - README - Remove unused aspect](https://github.com/enkidevs/curriculum/pull/3211) 
+
 ## June 7th 2023
 
 ### Changed
-- [Tech Interviews / Intro To Nft - README - Remove unused aspect](https://github.com/enkidevs/curriculum/pull/3211) 
+- [Multiple Topics - Readmes - Update subtopic names](https://github.com/enkidevs/curriculum/pull/3213)
 
 ## June 6th 2023
 
