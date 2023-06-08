@@ -51,6 +51,9 @@ Types of change:
 
 ## June 8th 2023
 
+### Added
+- [Generative AI - Topic/Course - Launch chatGPT and machine learning courses in Generative AI topic](https://github.com/enkidevs/curriculum/pull/3185)
+
 ### Fixed
 - [Python - Nested List Comprehensions - Fix PQ Answer](https://github.com/enkidevs/curriculum/pull/3219)
 - [Tech Interviews / Intro To Nft - README - Remove unused aspect](https://github.com/enkidevs/curriculum/pull/3211) 
