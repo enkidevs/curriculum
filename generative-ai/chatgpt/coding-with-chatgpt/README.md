@@ -12,3 +12,4 @@ insights:
 aspects:
   - workout
   - deep
+  
