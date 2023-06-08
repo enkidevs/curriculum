@@ -26,6 +26,7 @@ Some limitations to keep in mind:
 It may sometimes generate inaccurate or inappropriate responses. It struggles with arithmetic and puzzles in particular.
 
 Here's an example of a hallucination:
+
 ![ai-hallucinates-and-generates-words-that-contain-letters-outside-of-the-given-z-h-i-a-o-l-k-u-r-f-letters](https://img.enkipro.com/40d030c590c998b67b32b4312ba0c35e.png)
 
 ### No Emotional Intelligence
