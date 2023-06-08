@@ -26,8 +26,7 @@ Some limitations to keep in mind:
 It may sometimes generate inaccurate or inappropriate responses. It struggles with arithmetic and puzzles in particular.
 
 Here's an example of a hallucination:
-
-![generated-list-of-words-with-provided-letters](https://img.enkipro.com/40d030c590c998b67b32b4312ba0c35e.png)
+![ai-hallucinates-and-generates-words-that-contain-letters-outside-of-the-given-z-h-i-a-o-l-k-u-r-f-letters](https://img.enkipro.com/40d030c590c998b67b32b4312ba0c35e.png)
 
 ### No Emotional Intelligence
 ---
@@ -46,7 +45,7 @@ ChatGPT may not always understand the context or underlying meaning of a questio
 
 ChatGPT has some limitations with up-to-date information, and rapidly evolving topics in particular:
 
-![covid-19-lack-of-data-prompt](https://img.enkipro.com/7a98fbe1ba4646751e01ccce7bdd0d08.png)
+![covid-19-2023-statistics-prompt-with-no-answer-as-it-lacks-data-due-to-cutoff-knowledge-at-2021](https://img.enkipro.com/7a98fbe1ba4646751e01ccce7bdd0d08.png)
 
 
 ---

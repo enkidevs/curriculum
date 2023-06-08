@@ -34,7 +34,7 @@ Let's look at some examples.
 
 Identifying errors in Python code:
 
-![identify-errors-in-python-code-and-suggest-fixes](https://img.enkipro.com/5067f934912f3f2f276da3e2851c3174.png)
+![identify-errors-in-python-code-and-suggest-fixes-response-contains-calculate-average-function-that-has-a-string-in-the-list-of-numbers](https://img.enkipro.com/5067f934912f3f2f276da3e2851c3174.png)
 
 Debugging JavaScript code:
 

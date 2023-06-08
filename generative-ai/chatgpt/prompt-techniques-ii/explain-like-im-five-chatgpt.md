@@ -22,12 +22,12 @@ Here's an example without this prompt:
 
 Now explain like I'm 5:
 
-![explain-like-im-5-distributed-system](https://img.enkipro.com/c975edf7006af5179d6672c73a016aac.png)
+![explain-like-im-5-what-distributed-systems-are](https://img.enkipro.com/c975edf7006af5179d6672c73a016aac.png)
 
 In this case, the **Explain like im 5** used Legos to explain what distributed systems are. 
 
 However, what if we are not satisfied that it used Legos in the explanation? We can tell it explain again without using that concept:
 
-![distributed-system-explanation-without-lego](https://img.enkipro.com/46e454bd007ba73bb56e0deed8e37380.png)
+![the-same-distributed-system-explanation-but-without-lego-analogy  ](https://img.enkipro.com/46e454bd007ba73bb56e0deed8e37380.png)
 
 We can continuously modify how it responds to us until we are satisfied with the response.

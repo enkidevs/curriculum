@@ -26,7 +26,7 @@ Let's say you need to create a factorial of a given number. We can ask the ai to
 
 If you do not understand how the code works, you can always ask it to explain it:
 
-![elaborate-on-the-factorial-code](https://img.enkipro.com/e8ce4eb2228c9b4d3e8fa3cd1bd76ede.png)
+![elaborate-on-the-factorial-code](https://img.enkipro.com/334eb91a2730689674b288b4d40d44f3.png)
 
 We can also generate larger code blocks. It is important to structure the prompt carefully to get the desired output:
 
