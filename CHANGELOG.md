@@ -59,6 +59,7 @@ Types of change:
 - [Generative AI - Intro - Add spacing between image and headline](https://github.com/enkidevs/curriculum/pull/3220) 
 - [Generative AI - Topic - Resolve YAML issue](https://github.com/enkidevs/curriculum/pull/3222)
 - [Generative AI - README - Retrigger ](https://github.com/enkidevs/curriculum/pull/3223)
+- [Generative AI - READMES - Retrigger all readmes ](https://github.com/enkidevs/curriculum/pull/3224)
 
 ## June 7th 2023
 
