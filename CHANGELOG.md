@@ -49,6 +49,11 @@ Types of change:
 ### Fixed
 
 
+## June 8th 2023
+
+### Fixed
+- [Python - Nested List Comprehensions - Fix PQ Answer](https://github.com/enkidevs/curriculum/pull/3219)
+
 ## June 7th 2023
 
 ### Changed
