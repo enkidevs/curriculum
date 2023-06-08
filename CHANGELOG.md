@@ -58,7 +58,7 @@ Types of change:
 - [Python - Nested List Comprehensions - Fix PQ Answer](https://github.com/enkidevs/curriculum/pull/3219)
 - [Tech Interviews / Intro To Nft - README - Remove unused aspect](https://github.com/enkidevs/curriculum/pull/3211) 
 - [Generative AI - Intro - Add spacing between image and headline](https://github.com/enkidevs/curriculum/pull/3220) 
-- [Generative AI - Intro - Remove extra spacing in metadata](https://github.com/enkidevs/curriculum/pull/3221)
+- [Generative AI - Topic - Resolve YAML issue](https://github.com/enkidevs/curriculum/pull/3222)
 
 ## June 7th 2023
 
