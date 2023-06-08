@@ -71,7 +71,7 @@ l = [??? for x in range(10)\
 ```
 
 - (x,y)
-- x % 2
+- x % 2 == 1
 - range(10)
 - x % 2 == 0
 - range(11)
