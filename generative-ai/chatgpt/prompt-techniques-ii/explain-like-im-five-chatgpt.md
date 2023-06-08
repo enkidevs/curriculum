@@ -12,8 +12,6 @@ category: must-know
 
 ## Content
 
----
-
 The **Explain like I'm 5** is a very useful prompt technique. It tells the AI to reply to your prompts through simple explanations, even if the question requires a complicated and long explanation.
 
 Here's an example without this prompt:

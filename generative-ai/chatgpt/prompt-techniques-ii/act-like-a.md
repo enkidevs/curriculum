@@ -12,8 +12,6 @@ category: discussion
 
 ## Content
 
----
-
 The **Act as** prompt is a great way of teaching the AI to act like or respond as a rapper, singer, writer, teacher, grammar checker, terminal, or even Excel sheet!
 
 These are powerful prompts that allow you to teach the AI to act as something or someone.

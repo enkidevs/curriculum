@@ -15,8 +15,6 @@ practiceQuestion:
 
 ## Content
 
----
-
 **COT** or **Chain-of-thought** prompting is a technique where the AI model generates a sequence of coherent responses to achieve a specific goal or complete a task. 
 
 This method encourages the model to maintain context throughout a series of prompts, simulating a more natural thought process. 

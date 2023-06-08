@@ -15,8 +15,6 @@ practiceQuestion:
 
 ## Content
 
----
-
 There are several prompting techniques to be aware of for training or guiding an AI to perform tasks.
 
 Three useful techniques are called **few-shot** prompting, **zero-shot** prompting and **chain-of-thought** prompting.

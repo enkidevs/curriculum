@@ -12,8 +12,6 @@ category: must-know
 
 ## Content
 
----
-
 Although ChatGPT can't create normal graphs, you can instruct it to create them using ASCII art.
 
 Here's an example input:

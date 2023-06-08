@@ -12,8 +12,6 @@ category: discussion
 
 ## Content
 
----
-
 **Prompt engineering** is a novel approach in natural language processing (NLP)[1]. 
 
 In prompt engineering, the description of the task that the AI is supposed to accomplish is embedded in the input - for example, as a question (or "prompt") - instead of it being explicitly given.

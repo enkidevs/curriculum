@@ -12,8 +12,6 @@ category: must-know
 
 ## Content
 
----
-
 Let's continue playing the game.
 
 Note: Throughout the game, chatGPT makes a mistake and wrongfully finished the game. So we will teach it that it didn't end and make it restart from the point of the mistake using prompts.

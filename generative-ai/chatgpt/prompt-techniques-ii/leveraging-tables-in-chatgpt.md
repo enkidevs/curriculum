@@ -12,8 +12,6 @@ category: must-know
 
 ## Content
 
----
-
 ChatGPT has the ability to produce different types of outputs. It can give you code blocks, lists, tables and more. Let's see how that looks:
 
 ![comparison-operators-in-python-list](https://img.enkipro.com/2b5585351005b57ed7e2880bb3a81f62.png)

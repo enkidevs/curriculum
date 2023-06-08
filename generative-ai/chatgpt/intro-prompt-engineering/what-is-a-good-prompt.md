@@ -16,8 +16,6 @@ practiceQuestion:
 
 ## Content
 
----
-
 A good prompt consists of several key components: **context, instructions, and output**.
 
 **Context** is the information used to steer the AI in a specific direction

@@ -12,8 +12,6 @@ category: must-know
 
 ## Content
 
----
-
 We can tell the AI to only respond as a specific person would.
 
 For instance, let's say you are a chef and would like to know how it feels to be criticised for your mistakes by Gordon Ramsay.

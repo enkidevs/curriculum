@@ -12,8 +12,6 @@ category: discussion
 
 ## Content
 
----
-
 ChatGPT can be a valuable resource when optimizing code and improving performance.
 
 You can use it to suggest performance enhancements, code refactoring, and efficient algorithms, as well as use it to maintain a clean code, adhere to best practices, and more.

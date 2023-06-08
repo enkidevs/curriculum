@@ -12,8 +12,6 @@ category: must-know
 
 ## Content
 
----
-
 One way to have fun with ChatGPT is to ask it to create ASCII art.
 
 ASCII art uses a combination of characters to portray pictures or art.

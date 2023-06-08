@@ -19,8 +19,6 @@ revisionQuestion:
 
 ## Content
 
----
-
 Keep in mind: **the more precise we are with our prompts, the more precise the output will be**!
 
 Here's an example of a vague prompt:
