@@ -23,6 +23,8 @@ setupCode:
 
 ## Content
 
+**Note:** All Coding Intro exercises use the Python playground - it’s the simplest one to get started with!
+
 > 👩‍💻 Your task is to write a program that **adds or subtracts two numbers and outputs the result**.
 
 It's up to you to choose which operation to use and what the message will be.
