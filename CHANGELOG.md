@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## June 9th 2023
+
+### Fixed
+- [Java - Static Modifier - Fix bug in code](https://github.com/enkidevs/curriculum/pull/3215)
 
 ## May 30th 2023
 
