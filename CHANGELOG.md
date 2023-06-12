@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 9th 2023
+
+### Changed
+- [Generative Ai - Topic Icon - Replace the topic icon](https://github.com/enkidevs/curriculum/pull/3225)
+
 ## June 8th 2023
 
 ### Added
