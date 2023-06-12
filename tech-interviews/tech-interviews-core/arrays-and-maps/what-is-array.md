@@ -9,9 +9,9 @@ type: normal
 ---
 ## Content
 
-Arra is an ordered collection of items, accessible by their position in constant time[1].
+An Array is an ordered collection of items, accessible by their position in constant time[1].
 
-> 💡 In most languages, all items of an array have to be the same type
+> 💡 In most languages, all items of an array have to be the same type.
 
 They're useful when the order of elements matters or finding elements by their position happens often.
 

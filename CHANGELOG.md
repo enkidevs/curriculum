@@ -48,10 +48,43 @@ Types of change:
 
 ### Fixed
 
-## June 9th 2023
+
+
+## June 12th 2023
 
 ### Fixed
+- [Generative AI - Intro To ML - Fix 2 broken questions](https://github.com/enkidevs/curriculum/pull/3227)
 - [Java - Static Modifier - Fix bug in code](https://github.com/enkidevs/curriculum/pull/3215)
+
+## June 9th 2023
+
+### Changed
+- [Generative Ai - Topic Icon - Replace the topic icon](https://github.com/enkidevs/curriculum/pull/3225)
+
+## June 8th 2023
+
+### Added
+- [Generative AI - Topic/Course - Launch chatGPT and machine learning courses in Generative AI topic](https://github.com/enkidevs/curriculum/pull/3185)
+
+### Fixed
+- [Python - Nested List Comprehensions - Fix PQ Answer](https://github.com/enkidevs/curriculum/pull/3219)
+- [Tech Interviews / Intro To Nft - README - Remove unused aspect](https://github.com/enkidevs/curriculum/pull/3211) 
+- [Generative AI - Intro - Add spacing between image and headline](https://github.com/enkidevs/curriculum/pull/3220) 
+- [Generative AI - Topic - Resolve YAML issue](https://github.com/enkidevs/curriculum/pull/3222)
+- [Generative AI - README - Retrigger ](https://github.com/enkidevs/curriculum/pull/3223)
+- [Generative AI - READMES - Retrigger all readmes ](https://github.com/enkidevs/curriculum/pull/3224)
+
+## June 7th 2023
+
+### Changed
+- [Multiple Topics - Readmes - Update subtopic names](https://github.com/enkidevs/curriculum/pull/3213)
+
+## June 6th 2023
+
+### Fixed
+- [SQL - Update Syntax - Fix grammar](https://github.com/enkidevs/curriculum/pull/3216)
+- [Data Analysis - Basic Terminology 1 - Fix PQ](https://github.com/enkidevs/curriculum/pull/3217)
+- [Data Analysis - Basic Terminology 1 - Change PQ](https://github.com/enkidevs/curriculum/pull/3218)
 
 ## May 30th 2023
 
