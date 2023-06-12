@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 12th 2023
+
+### Fixed
+- [Generative AI - Intro To ML - Fix 2 broken questions](https://github.com/enkidevs/curriculum/pull/3227)
+
 ## June 9th 2023
 
 ### Changed
