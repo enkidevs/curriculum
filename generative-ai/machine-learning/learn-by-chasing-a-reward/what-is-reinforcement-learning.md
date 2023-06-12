@@ -35,13 +35,15 @@ This is one way you learn not to touch a cactus or to grab a blanket when you're
 
 The goal of reinforcement learning is to maximize rewards and minimize punishments.
 
+???
+
 - True
 - False
 
 ---
 ## Revision
 
-The goal of ??? is to maximize rewards and minimize punishments.
+The goal of ??? learning is to maximize rewards and minimize punishments.
 
 - reinforcement
 - supervised
