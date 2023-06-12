@@ -34,10 +34,10 @@ The data given to a **supervised** learning program must be ???.
 Teaching an ML program is usually referred to as ???
 
 - labeled
+- training a model
 - unlabeled
 - numerical
 - audio-based
-- training a model
 - tuning a function
 - optimizing a goal
 
