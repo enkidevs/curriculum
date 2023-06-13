@@ -49,6 +49,10 @@ Types of change:
 ### Fixed
 
 
+## June 13th 2023
+
+### fixed
+- [Machine Learning - Unsupervised Learning - Fix RQ](https://github.com/enkidevs/curriculum/pull/3229)
 
 ## June 12th 2023
 
