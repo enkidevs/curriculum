@@ -49,7 +49,11 @@ Types of change:
 ### Fixed
 
 
+
 ## June 13th 2023
+
+### Changed
+- [Python - Packages - Update Question](https://github.com/enkidevs/curriculum/pull/3228)
 
 ### fixed
 - [Machine Learning - Unsupervised Learning - Fix RQ](https://github.com/enkidevs/curriculum/pull/3229)

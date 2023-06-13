@@ -97,13 +97,13 @@ def foo(x):
 
 ## Revision
 
-Say the `Hotel` package exposes the `available_rooms()` method. Complete the following code snippet such that only that function will be imported:
+Say the `Hotel` package exposes the `available_rooms()` method. Complete the following code snippet to import and use that method:
 
 ```python
 ??? Hotel import ???
 
 def foo(x):
-  return ???.available(x)
+  return ???(x)
 ```
 
 - `from`
