@@ -58,6 +58,7 @@ Types of change:
 
 ### Fixed
 - [Generative AI - Intro To ML - Fix 2 broken questions](https://github.com/enkidevs/curriculum/pull/3227)
+- [Java - Static Modifier - Fix bug in code](https://github.com/enkidevs/curriculum/pull/3215)
 
 ## June 9th 2023
 
