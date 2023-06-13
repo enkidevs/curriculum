@@ -55,10 +55,14 @@ Types of change:
 ### Changed
 - [Python - Packages - Update Question](https://github.com/enkidevs/curriculum/pull/3228)
 
+### fixed
+- [Machine Learning - Unsupervised Learning - Fix RQ](https://github.com/enkidevs/curriculum/pull/3229)
+
 ## June 12th 2023
 
 ### Fixed
 - [Generative AI - Intro To ML - Fix 2 broken questions](https://github.com/enkidevs/curriculum/pull/3227)
+- [Java - Static Modifier - Fix bug in code](https://github.com/enkidevs/curriculum/pull/3215)
 
 ## June 9th 2023
 
