@@ -131,7 +131,7 @@ ReactDOM.render(
 - `setState`
 - `value`
 - `onChange`
-- `e`
+- `(e)`
 - `handle`
 - `handleChange`
 - `state`
