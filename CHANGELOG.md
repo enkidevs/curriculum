@@ -49,6 +49,10 @@ Types of change:
 ### Fixed
 
 
+## June 19th 2023
+
+### Changed
+- [React - React Forms - Update PQ](https://github.com/enkidevs/curriculum/pull/3230)
 
 ## June 13th 2023
 
