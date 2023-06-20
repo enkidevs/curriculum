@@ -22,7 +22,7 @@ The paint: this is CSS.
 
 The engine, wiring, and everything under the hood: this is JavaScript. 
 
-JavaScript is Everywhere!
+JavaScript is everywhere!
 
 Every time you refresh your Twitter feed or search for a pair of skinny jeans on Amazon, you interact with JavaScript.
 
