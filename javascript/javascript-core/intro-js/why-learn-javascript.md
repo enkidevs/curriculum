@@ -74,5 +74,5 @@ JavaScript has been the most widely used programming language in the world for t
 Node.js is a tool that allows you to run JavaScript without your code being attached to an HTML file.
 
 [3: Javascript Usage]
-[!Statista_Popular_Languages](https://img.enkipro.com/21314c0f349267942234c15e076c4f85.png)
+![Statista_Popular_Languages](https://img.enkipro.com/21314c0f349267942234c15e076c4f85.png)
 > source: [Statista](https://www.statista.com/statistics/793628/worldwide-developer-survey-most-used-languages/)
