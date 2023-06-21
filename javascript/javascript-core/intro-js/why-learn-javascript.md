@@ -35,7 +35,7 @@ JavaScript has the largest programming community in the world[1]. Any problem yo
 JavaScript developers are needed by small and large companies. The average salary for Node.js[2] developers in the US is about $[106,121](https://www.glassdoor.com/Salaries/software-engineer-nodejs-salary-SRCH_KO0,24.htm).
 
 
-> 💡There are over 1.8 Billion websites globally, and JavaScript is used on 95% of them.
+> 💡There are over 1.8 Billion websites globally, and JavaScript is used on 95% of them. [3]
 
 
 ---
@@ -73,7 +73,5 @@ JavaScript has been the most widely used programming language in the world for t
 [2: Node.js]
 Node.js is a tool that allows you to run JavaScript without your code being attached to an HTML file.
 
-[!Statista_Popular_Languages](https://img.enkipro.com/21314c0f349267942234c15e076c4f85.png)
+[3: Javascript Usage]
 > source: [Statista](https://www.statista.com/statistics/793628/worldwide-developer-survey-most-used-languages/)
-
-If you want to expand your skillset, Enki can help you level up in other popular skills such as [HTML/CSS](https://app.enki.com/skill/web) or [SQL](https://app.enki.com/skill/sql).
