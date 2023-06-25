@@ -8,7 +8,12 @@ category: must-know
 links:
   - >-
     [Exact Instructions Challenge](https://youtube.com/watch?v=Ct-lOOUqmyY){video}
-  
+
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+
 ---
 
 # Programs & Data
@@ -16,27 +21,65 @@ links:
 ---
 ## Content
 
-Let's quickly introduce the building blocks we'll cover in this course.
-
-### Program
-
-Today you woke up with a plan, a to-do list, which is essentially your program for the day. Similarly, we give the computers a set of commands to carry out, one after the other. That too is known as a program.
-
-The only difference being that computers require specific instructions. (Don't tell anyone we said this, but machines are actually pretty dumb… sssh!)
-
-> 💡 Scroll down to see a hilarious real life example of this in the Learn more section 😆
+The two pillars of building software are programs and data. 
 
 
-### Data: Variables
+### Programs
 
-Data is information and information needs to be stored somewhere. That’s where variables come in. For instance, when you meet someone new you could store their `name = "Batman"` and `age = 24` as two separate pieces of information.
+Today you woke up with a plan, a to-do list, which is essentially your program for the day. Similarly, we give the computers a set of extremely specific commands to carry out, one after the other.
 
-In this case, `name` and `age` would be the variables that store information.
 
-### Data: Types
+> 💡 Scroll down to the Learn more section to see a hilarious example of how specific of instructions computers need 😆
 
-It’s easy to divide 24 by 2 and get 12. However, dividing “Batman” by 2 might land you in jail. To avoid going to jail, we group information into distinct *data types* depending on whether the values they hold are numbers, texts, or something else.
 
-These *data types* save us from attempting number related operations on texts and vice versa.
+### Data
 
-For instance, what is the square root of `cat`?
+Data is the information that our programs work with. In code, we most often store these in variables.
+
+For instance, when you meet someone new you could store their info like this[1]:
+```python
+name = "Batman"
+age = 30
+```
+
+In this case, `name` and `age` would be the variables that store data.
+
+### Types
+
+Now remember, computers are extremely stupid machines! If you write a program to divide "Batman" by 2, it is going to try(and fail) to do that.
+
+That's why we group our data into distinct **data types** depending on what kind of information they hold. The three main ones are:
+
+|Type|Examples|
+|____|________|
+|String|"Hello World", "Batman"
+|Number|5, -0.5|
+|Boolean|True, False|
+
+
+Types make it easy for our programs to work with data efficiently and correctly!
+
+--
+
+## Practice
+
+Identify the types of the following variables
+```python
+raining = True
+temperature = 42
+forecast = "Today it is 42 degrees and raining"
+```
+raining is a ???, temperature is a ???, forecast is a ???
+
+- Boolean
+- Number
+- String
+
+
+--
+## Footnotes
+
+[1: What language is this?]
+Every language has its own slightly different way of creating variables. The examples in this insight are all in python
+
+
