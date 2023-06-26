@@ -15,23 +15,15 @@ It's time to introduce the core tools for making logical decisions and repeating
 
 ### Conditions
 
-In computers, there's no maybe. Every question is answered with a *yes* or a *no*[1]. Every choice with a *do* or *don't*.
+In computers, there's no maybe. Every question is answered with a *True* or a *False*[1]. 
 
-We make these choices using what's known as an if statement.
-
-Imagine that you were writing an app to control a lightbulb. Our code might look this:
+We can use if statements to only run a code when a condition is true:
 ```python
 if switch_is_on:
     turn_on_light()
 ```
 
-Here `switch_is_on` is a boolean variable. That means it is either True or False.
-
-If `switch_is_on` is true, then we turn on the light.
-
-Some other examples of conditions we might put in an if statement:
-- `age > 10`
-- `password = "MySecretPassword123"`
+Here `switch_is_on` is a boolean variable. That means it is either true or false. 
 
 
 ### Loops
@@ -44,3 +36,10 @@ Love that song? Put the `play` command inside a loop. Want to do the same calcul
 
 Could a loop continue forever? 🙀
 
+---
+## Footnotes
+
+[1: Computers think in binary]
+The language of computers is made up of only two letters, `0` and `1`.
+
+Even though computers have such a simple alphabet, [they can still do incredible things](https://www.reddit.com/r/explainlikeimfive/comments/3x7czk/eli5how_can_a_bunch_of_0s_and_1s_create/cy255mw/), like show you this text that you're reading right now.

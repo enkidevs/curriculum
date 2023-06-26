@@ -37,19 +37,18 @@ Similarly, we give the computers a to-do list of extremely specific commands, to
 
 Data is the information that our programs work with. In code, we store these in variables.
 
-For instance, when you meet someone new you could store their info like this[1]:
+For instance, we could store someone's `name` and `age` in variables[1]:
 ```python
 name = "Batman"
 age = 30
 ```
 
-In this case, `name` and `age` would be the variables that store data.
 
 ### Types
 
 Now remember, computers are extremely stupid machines! If you write a program to divide "Batman" by 2, it is going to try(and fail) to do that.
 
-That's why we group our data into distinct **data types** depending on what kind of information they hold. The three main ones are:
+That's why we group our data into distinct **data types**, the three main ones being:
 
 | Type    | Examples    |
 | ------- | ----------- |
@@ -57,8 +56,6 @@ That's why we group our data into distinct **data types** depending on what kind
 | Number  | 5,-0.5.     |
 | Boolean | True, False |
 
-
-Types make it easy for our programs to work with data efficiently and correctly!
 
 ---
 ## Footnotes
