@@ -26,7 +26,9 @@ The two pillars of building software are programs and data.
 
 ### Programs
 
-Today you woke up with a plan, a to-do list, which is essentially your program for the day. Similarly, we give the computers a set of extremely specific commands to carry out, one after the other.
+Today you might have woken up with a to-do list, which is essentially your program for the day.
+
+Similarly, we give the computers a to-do list of extremely specific commands, together called a program, to carry out.
 
 
 > 💡 Scroll down to the Learn more section to see a hilarious example of how specific of instructions computers need 😆
@@ -34,7 +36,7 @@ Today you woke up with a plan, a to-do list, which is essentially your program f
 
 ### Data
 
-Data is the information that our programs work with. In code, we most often store these in variables.
+Data is the information that our programs work with. In code, we store these in variables.
 
 For instance, when you meet someone new you could store their info like this[1]:
 ```python
@@ -52,7 +54,7 @@ That's why we group our data into distinct **data types** depending on what kind
 
 |Type|Examples|
 |____|________|
-|String|"Hello World", "Batman"
+|String|"Hello World", "Batman"|
 |Number|5, -0.5|
 |Boolean|True, False|
 
@@ -60,26 +62,27 @@ That's why we group our data into distinct **data types** depending on what kind
 Types make it easy for our programs to work with data efficiently and correctly!
 
 --
+## Footnotes
+
+[1: What language is this?]
+Every language has its own slightly different way of creating variables. The examples in this insight are all in python
+
+
+--
 
 ## Practice
 
-Identify the types of the following variables
+In the code below, raining is a ???, temperature is a ???, and forecast is a ???.
 ```python
 raining = True
 temperature = 42
 forecast = "Today it is 42 degrees and raining"
 ```
-raining is a ???, temperature is a ???, forecast is a ???
 
 - Boolean
 - Number
 - String
 
 
---
-## Footnotes
-
-[1: What language is this?]
-Every language has its own slightly different way of creating variables. The examples in this insight are all in python
 
 

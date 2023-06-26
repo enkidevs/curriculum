@@ -18,11 +18,11 @@ revisionQuestion:
 ---
 ## Content
 
-Functions are on the most powerful tools that a programmer can use.
+Functions are one of the most powerful tools that a programmer can use.
 
 Imagine we're coding a robot chef 🤖. There might be 50 different scenarios where it needs to turn on the oven! 
 
-Making a function for turning on the oven can make our life much easier for a number of reasons:
+Making a function for turning on the oven can make our life much easier for several reasons:
 
 - **Reusability**
   Instead of rewriting all the oven instructions 50 times, we can write one function and just call that function whenever we need
@@ -41,4 +41,5 @@ put_in_tray()
 ```
 We can easily see what is going on from the function names.
 
-Without the functions, we might instead of hundreds of lines of code that are hard to decipher!
+Without the functions, we might instead have hundreds of lines of code that are hard to decipher!
+

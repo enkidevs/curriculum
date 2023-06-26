@@ -44,10 +44,3 @@ Love that song? Put the `play` command inside a loop. Want to do the same calcul
 
 Could a loop continue forever? 🙀
 
----
-## Footnotes
-
-[1: Computers think in binary]
-The language of computers is made up of two letters, the `0` and the `1`.
-
-Even though computers have such a simple alphabet, [they can still do incredible things](https://www.reddit.com/r/explainlikeimfive/comments/3x7czk/eli5how_can_a_bunch_of_0s_and_1s_create/cy255mw/), like show you this text that you're reading right now.
