@@ -53,6 +53,7 @@ Types of change:
 
 ### Changed
 - [Python - Using else in loops - Update question](https://github.com/enkidevs/curriculum/pull/3233)
+- [Python - While loops - Fix wording](https://github.com/enkidevs/curriculum/pull/3232)
 
 ## June 19th 2023
 
