@@ -51,16 +51,16 @@ Now remember, computers are extremely stupid machines! If you write a program to
 
 That's why we group our data into distinct **data types** depending on what kind of information they hold. The three main ones are:
 
-|Type|Examples|
-|____|________|
-|String|"Hello World", "Batman"|
-|Number|5, -0.5|
-|Boolean|True, False|
+| Type    | Examples    |
+| ------- | ----------- |
+| String  | "Batman"    |
+| Number  | 5,-0.5.     |
+| Boolean | True, False |
 
 
 Types make it easy for our programs to work with data efficiently and correctly!
 
---
+---
 ## Footnotes
 
 [1: What language is this?]
