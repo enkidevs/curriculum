@@ -49,6 +49,11 @@ Types of change:
 ### Fixed
 
 
+## June 26th 2023
+
+### Changed
+- [Python - Using else in loops - Update question](https://github.com/enkidevs/curriculum/pull/3233)
+
 ## June 19th 2023
 
 ### Changed
