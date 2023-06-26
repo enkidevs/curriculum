@@ -92,17 +92,17 @@ Fill in the following snippet such that it will print `"Computation Done"` when 
 
 ```python
 x = 0
-while x ??? 3:
+while ??? < 3:
   print("running")
   x = x + 1
 ???:
   ???("Computation Done")
 ```
 
-- `<`
+- `x`
 - else
 - print
-- `>`
+- `X`
 - if
 - elif
 
