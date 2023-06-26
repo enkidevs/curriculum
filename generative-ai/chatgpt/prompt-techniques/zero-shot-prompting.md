@@ -37,9 +37,12 @@ and dialogue generation:
 ---
 ## Practice
 
-With Zero-shot prompting, you ??? to give additional data because the ai ??? trained on a large corpus of text.
+True or False:
 
-- do not have
-- was
-- wasn't
-- have
+With Zero-shot prompting, you do not have to give additional data because the ai was trained on a large corpus of text.
+
+???
+
+- True
+- False
+
