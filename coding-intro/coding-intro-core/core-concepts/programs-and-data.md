@@ -8,7 +8,6 @@ category: must-know
 links:
   - >-
     [Exact Instructions Challenge](https://youtube.com/watch?v=Ct-lOOUqmyY){video}
-
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -68,7 +67,7 @@ Types make it easy for our programs to work with data efficiently and correctly!
 Every language has its own slightly different way of creating variables. The examples in this insight are all in python
 
 
---
+---
 
 ## Practice
 
