@@ -22,7 +22,7 @@ revisionQuestion:
 
 Functions allow us to break up our program into mini-programs, each for a specific task that we need. 
 
-For instance, suppose we are simulating a human being that is addicted to coffee! 
+For instance, suppose we are simulating a human being that loves coffee! 
 
 For every cup of coffee, they need to:
 
