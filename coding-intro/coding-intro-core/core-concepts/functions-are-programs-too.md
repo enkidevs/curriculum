@@ -18,13 +18,19 @@ revisionQuestion:
 ---
 ## Content
 
-Another way to think of functions is as mini-programs within a program.
+Functions allow us to break up our program into mini-programs, each for a specific task that we need. 
 
-If a program is the list of tasks for a computer, the function will be the instructions to do each of those tasks. For instance, a person's plan for the day could be the program; cooking, cleaning, and making coffee could be the functions.
+For instance, we are simulating a human being that loves coffee, so much that he makes 10 cups a day. For every cup of coffee, he would need to do the following:
 
-A program is essentially the central function in which we use other functions.
+1. find a clean cup
+2. boil water
+3. open the packet
+4. mix the coffee with the boiling water.
+5. drink (gulp, gulp)
 
-We can even use functions as programs within our programs!
+That's so much work! Instead, imagine if we had one function `make_coffee` with all of these instructions. Every time we want coffee, we write `make_coffee` and, voila! - the work is done.
+
+We can even use other people's programs as functions!
 
 Perhaps someone wrote a smart program called `shortest_path` that calculates the quickest path from point A to point B. 
 

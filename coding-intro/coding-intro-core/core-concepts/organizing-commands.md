@@ -1,30 +1,40 @@
 ---
-author: kapnobatai136
+author: liorb-d
+
+tags:
+  - discussion
 
 type: normal
 
 category: must-know
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Functions
+# Functions are powerful
 
 ---
 ## Content
 
-Functions allow us to make little snippets of code, each for a separate task that we do within our program. For instance, we are simulating a human being that loves coffee, so much that he makes 10 cups a day. For every cup of coffee he would need to do the following:
+Functions are one of the most powerful tools that a programmer has.
 
-1. find a clean cup
-2. boil water
-3. open the packet
-4. mix the coffee with the boiling water.
-5. drink (gulp, gulp)
+Imagine we're coding a robot chef 🤖. Making a function for turning on the oven can make our life much easier for several reasons:
 
-That's so much work! Instead, imagine if we had one function `make_coffee` with all of these instructions. Every time we want coffee, we write `make_coffee` and, voila! - the work is done.
+- **Reusability**
+  Instead of rewriting all the oven instructions 50 times, we can write one function and just call that function whenever we need
 
-### Easier to read
+- **Parameters**
+  Sometimes we want the oven at 350 degrees, and sometimes we want it at 400. We can have our oven function take in a temperature variable as input.
 
-Functions give the program structure and make them easy to understand. `make_bed`, `brush_teeth`, and `read_book` would be a lot easier to understand rather than a series of steps laid out one after the other.
-> 💡 You should give your functions explanatory names to make it easier for the reader to understand what they do.
+  Then we can use the same function for every temperature! We call these inputs *parameters*.
 
-Can you think of 3 other functions straight out of your everyday life?
+
+- **Readability**
+Functions, with helpful names, can make reading our code much easier. Take for instance:
+```python
+turn_on_oven(temperature=350)
+put_in_tray()
+```
+We can easily see what is going on from the function names.
