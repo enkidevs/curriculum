@@ -11,10 +11,6 @@ category: must-know
 ---
 ## Content
 
-It's time to introduce the core tools for making logical decisions and repeating commands within programs.
-
-
-### Conditions
 
 In computers, there's no maybe. Every question is answered with a *True* or a *False*[1]. 
 
@@ -24,7 +20,7 @@ if switch_is_on:
     turn_on_light()
 ```
 
-> 😵‍💫 Woah...Don't worry if the code looks like gibberish right now! After a conditions workouts you're going to be a pro!
+> 😵‍💫 Woah...Don't worry if the code looks like gibberish right now! After the conditions workouts you're going to be a pro!
 
 Here `switch_is_on` is a boolean variable. That means it is either true or false. 
 

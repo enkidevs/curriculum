@@ -31,6 +31,6 @@ for i in range(0, 50):
 
 Any command you put in a loop will keep repeating for as long as you need it to.
 
-> 💡 The two most common kinds of loops are while loops and for loops. You'll learn all about them in the Loops workout!
+The two most common kinds of loops are while loops and for loops. You'll learn all about them in the Loops workout!
 
 Could a loop continue forever? 🙀

@@ -53,7 +53,7 @@ That's why we group our data into distinct **data types**, the three main ones b
 | Type    | Examples    |
 | ------- | ----------- |
 | String  | "Batman"    |
-| Number  | 5,-0.5.     |
+| Number  | 5,-0.5     |
 | Boolean | True, False |
 
 What would we get if we tried to take the square root of `"cat"`?

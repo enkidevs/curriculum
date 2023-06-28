@@ -18,9 +18,11 @@ revisionQuestion:
 ---
 ## Content
 
+### Using functions as mini programs
+
 Functions allow us to break up our program into mini-programs, each for a specific task that we need. 
 
-For instance, we are simulating a human being that loves coffee, so much that he makes 10 cups a day. For every cup of coffee, he would need to do the following:
+For instance, suppose we are simulating a human being that is addicted to coffee! For every cup of coffee, he would need to do the following:
 
 1. find a clean cup
 2. boil water
@@ -29,6 +31,8 @@ For instance, we are simulating a human being that loves coffee, so much that he
 5. drink (gulp, gulp)
 
 That's so much work! Instead, imagine if we had one function `make_coffee` with all of these instructions. Every time we want coffee, we write `make_coffee` and, voila! - the work is done.
+
+### Using programs as functions
 
 We can even use other people's programs as functions!
 
