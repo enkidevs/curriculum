@@ -30,7 +30,7 @@ Today you might have woken up with a to-do list, which is essentially your progr
 Similarly, we give the computers a to-do list of extremely specific commands, together called a program, to carry out.
 
 
-> 💡 Scroll down to the Learn more section to see a hilarious example of how specific of instructions computers need 😆
+> 💡 Scroll down to the Learn more section to see a hilarious example of how specific instructions computers need 😆
 
 
 ### Data
