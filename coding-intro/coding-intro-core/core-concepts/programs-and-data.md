@@ -46,7 +46,7 @@ age = 30
 
 ### Types
 
-Now remember, computers are extremely stupid machines! If you write a program to divide "Batman" by 2, it is going to try(and fail) to do that.
+Now remember, computers are extremely stupid machines! If you write a program to divide "Batman" by 2, it is going to try (and fail) to do that.
 
 That's why we group our data into distinct **data types**, the three main ones being:
 
