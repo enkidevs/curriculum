@@ -1,5 +1,5 @@
 ---
-author: liorb-d
+author: lior-bd
 
 tags:
   - discussion
@@ -7,10 +7,6 @@ tags:
 type: normal
 
 category: must-know
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
 ---
 
 # Functions are powerful
