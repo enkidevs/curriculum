@@ -18,11 +18,13 @@ revisionQuestion:
 ---
 ## Content
 
-### Using functions as mini programs
+### Using functions as mini-programs
 
 Functions allow us to break up our program into mini-programs, each for a specific task that we need. 
 
-For instance, suppose we are simulating a human being that is addicted to coffee! For every cup of coffee, he would need to do the following:
+For instance, suppose we are simulating a human being that is addicted to coffee! 
+
+For every cup of coffee, they need to:
 
 1. find a clean cup
 2. boil water
