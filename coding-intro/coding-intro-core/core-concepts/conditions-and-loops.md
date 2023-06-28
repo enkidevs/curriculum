@@ -17,7 +17,7 @@ It's time to introduce the core tools for making logical decisions and repeating
 
 In computers, there's no maybe. Every question is answered with a *True* or a *False*[1]. 
 
-We can use if statements to only run a code when a condition is true:
+We can use if statements to only run code when a condition is true:
 ```python
 if switch_is_on:
     turn_on_light()
