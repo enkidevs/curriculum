@@ -90,7 +90,8 @@ forecast = "Today it is 42 degrees and raining"
 
 ## Revision
 
-Can we divide a string by a number?
+Does a computer know how to divide a string by a number?
+
 ???
 
 - No
