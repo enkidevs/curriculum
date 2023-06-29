@@ -47,7 +47,7 @@ age = 30
 
 ### Types
 
-It’s easy to divide 24 by 2 and get 12. However, dividing “Batman” by 2 might land you in jail.
+It’s easy to divide 24 by 2 and get 12. However, dividing "Batman" by 2 might land you in jail.
 
 That's why we group our data into distinct **data types**, the three main ones being:
 
