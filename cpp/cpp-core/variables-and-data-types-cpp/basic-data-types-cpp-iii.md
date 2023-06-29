@@ -34,3 +34,32 @@ double number = 10.5;
 std::cout << number; 
 // 10.5
 ```
+
+---
+## Practice
+
+Complete the following code snippet by declaring a floating-point variable named `pi` and assigning it a value of `"3.14"`.
+
+```csharp
+??? pi = "???";
+```
+
+- `double`
+- `3.14`
+- `pi`
+- `int`
+
+---
+## Revision
+
+Complete the following code snippet by declaring an `int` variable named `age` and assigning it a value of `17`.
+
+```csharp
+??? ??? = 17;
+```
+
+- `int`
+- `age`
+- `integer`
+- `AGE`
+- `double`

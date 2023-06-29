@@ -42,15 +42,3 @@ int main() {
 > 💬 Why are you interested in **C++**?
 > 
 > Leave a comment or view some of the other comments for inspiration before moving on.
-
----
-## Practice
-
-
-```cpp
-string message = "Hello, world!";
-cout << ??? << endl;
-```
-
-- message
-- no i don't

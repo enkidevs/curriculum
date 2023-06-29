@@ -3,7 +3,7 @@ name: Logical Operators
 description: 
 
 insights:
-  - what-are-logical-operator-php
+  - what-are-logical-operators-php
   - and-php
   - and-precedence-php
   - or-php

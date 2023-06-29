@@ -3,7 +3,7 @@ name: Logical Operators
 description: 
 
 insights:
-  - what-are-logical-operator-csharp
+  - what-are-logical-operators-csharp
   - and-csharp
   - or-csharp
   - not-csharp
