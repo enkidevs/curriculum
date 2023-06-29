@@ -59,7 +59,7 @@ That's why we group our data into distinct **data types**, the three main ones b
 
 These data types save us from attempting number-related operations on texts and vice versa.
 
-> <emoji> <question>
+> 🐈 Can a computer tell us what's the square root of "cat"?
 >
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
