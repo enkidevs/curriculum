@@ -6,6 +6,10 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 
 ---
 
@@ -20,7 +24,7 @@ In PHP, you can use the `echo` language construct to output messages:
 echo "Hello, world!";
 ```
 
-If you want to print a message and move to a new line, you can use the newline character `\n`. 
+If you want to print[1] a message and move to a new line, you can use the newline character `\n`. 
 
 **Note** that the newline character only works in double-quoted strings:
 
@@ -50,7 +54,8 @@ Print a message to the console without adding a newline character after the mess
 - `output`
 
 ---
-## Practice
+
+## Revision
 
 Print a message to the console and move to a new line:
 ```php
