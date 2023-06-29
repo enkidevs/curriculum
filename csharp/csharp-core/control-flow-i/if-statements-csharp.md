@@ -1,5 +1,5 @@
 ---
-author: emmab
+author: Stefan-Stojanovic
 tags:
   - introduction
 type: normal
@@ -14,7 +14,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# If...else Statements
+# If Statements
 
 ---
 
@@ -37,14 +37,3 @@ if (num > 0) {
 }
 ```
 The code above will print '3 is a positive number'.
-
----
-
-## Practice
-
-
-
----
-
-## Revision
-

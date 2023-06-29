@@ -1,5 +1,5 @@
 ---
-author: emmab
+author: Stefan-Stojanovic
 tags:
   - introduction
 type: normal
@@ -41,4 +41,4 @@ The output of the above is:
 ```plain-text
 3 is a positive number
 ```
-  
+
