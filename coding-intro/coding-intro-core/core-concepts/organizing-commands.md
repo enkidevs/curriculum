@@ -1,11 +1,10 @@
 ---
 author: lior-bd
-tags:
-  - discussion
+
 
 type: normal
 
-category: must-know
+category: discussion
 ---
 
 # Functions are powerful

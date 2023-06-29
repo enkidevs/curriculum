@@ -1,12 +1,9 @@
 ---
 author: kapnobatai136
 
-tags:
-  - discussion
-
 type: normal
 
-category: must-know
+category: discussion
 revisionQuestion:
   formats:
     - fill-in-the-gap

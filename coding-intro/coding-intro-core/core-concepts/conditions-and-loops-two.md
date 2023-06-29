@@ -3,7 +3,6 @@ author: lior-bd
 category: discussion
 type: normal
 
-category: must-know
 
 ---
 # Loops
