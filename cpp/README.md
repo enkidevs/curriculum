@@ -1,8 +1,8 @@
-name: 
+name: C++
 
 description:
 
-color: A9D0FF
+color: 
 
 icon: 
 
@@ -10,6 +10,3 @@ language:
 
 availableAspects:
   - introduction
-  - workout
-  - deep
-  - obscura
