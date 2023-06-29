@@ -1,7 +1,6 @@
 ---
 author: lior-bd
-tags:
-  - discussion
+category: discussion
 type: normal
 
 category: must-know
