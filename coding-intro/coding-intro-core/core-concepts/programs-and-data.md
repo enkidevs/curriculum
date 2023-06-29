@@ -74,6 +74,7 @@ Every language has its own slightly different way of creating variables. The exa
 ## Practice
 
 In the code below, raining is a ???, temperature is a ???, and forecast is a ???.
+
 ```python
 raining = True
 temperature = 42
