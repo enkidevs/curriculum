@@ -1,6 +1,7 @@
 ---
 author: kapnobatai136
-
+tags:
+  - discussion
 type: normal
 
 category: must-know
@@ -12,7 +13,10 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Programs & Data
@@ -25,10 +29,7 @@ Let's introduce the building blocks we'll cover in this course.
 
 ### Programs
 
-Today you might have woken up with a to-do list, which is essentially your program for the day.
-
-Similarly, we give the computers a to-do list of extremely specific commands, together called a program, to carry out.
-
+Just like you start your day with a to-do list, we give computers their own to-do lists, known as programs, filled with very specific tasks to complete.
 
 > 💡 Scroll down to the Learn more section to see a hilarious example of how specific instructions computers need 😆
 
@@ -46,7 +47,7 @@ age = 30
 
 ### Types
 
-Now remember, computers are extremely literal machines! If you write a program to divide "Batman" by 2, it is going to try (and fail) to do that.
+It’s easy to divide 24 by 2 and get 12. However, dividing “Batman” by 2 might land you in jail.
 
 That's why we group our data into distinct **data types**, the three main ones being:
 
@@ -56,9 +57,13 @@ That's why we group our data into distinct **data types**, the three main ones b
 | Number  | 5,-0.5     |
 | Boolean | True, False |
 
-What would we get if we tried to take the square root of `"cat"`?
+These data types save us from attempting number-related operations on texts and vice versa.
 
----
+> <emoji> <question>
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.
+
+
 ## Footnotes
 
 [1: What language is this?]
@@ -79,6 +84,17 @@ forecast = "Today it is 42 degrees and raining"
 - Boolean
 - Number
 - String
+
+
+---
+
+## Revision
+
+Can we divide a string by a number?
+???
+
+- No
+- Yes
 
 
 

@@ -1,6 +1,5 @@
 ---
 author: lior-bd
-
 tags:
   - discussion
 
@@ -25,9 +24,15 @@ Imagine we're coding a robot chef 🤖. Making a function for turning on the ove
   Sometimes we want the oven at 350 degrees, and sometimes we want it at 400. We can have our oven function take in a temperature variable as input.
 
 - **Readability**
-Functions, with helpful names, can make reading our code much easier. Take for instance:
+You should give your functions explanatory names to make it easier for the reader to understand what they do. 
+
+Take for instance:
 ```python
 turn_on_oven(temperature=350)
 put_in_tray()
 ```
-We can easily see what is going on from the function names.
+
+
+> 💬 Can you think of a function from your everyday life? What's its name and what steps does it contain?
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.

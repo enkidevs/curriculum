@@ -1,6 +1,7 @@
 ---
 author: lior-bd
-
+tags:
+  - discussion
 type: normal
 
 category: must-know
@@ -33,4 +34,6 @@ Any command you put in a loop will keep repeating for as long as you need it to.
 
 The two most common kinds of loops are while loops and for loops. You'll learn all about them in the Loops workout!
 
-Could a loop continue forever? 🙀
+> Could a loop continue forever? 🙀
+>
+> Leave a comment or view some of the other comments for inspiration before moving on.
