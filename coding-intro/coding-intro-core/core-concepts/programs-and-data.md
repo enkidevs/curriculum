@@ -66,7 +66,7 @@ These data types save us from attempting number-related operations on texts and 
 ## Footnotes
 
 [1: What language is this?]
-Every language has its own slightly different way of creating variables. The examples in this insight are all in python
+Every language has its own slightly different way of creating variables. The examples in this insight are all in python.
 
 
 ---
