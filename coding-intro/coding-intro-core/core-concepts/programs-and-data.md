@@ -54,6 +54,7 @@ We group our data into distinct **data types**[2] to stop us from attempting num
 >
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
+--
 
 ## Footnotes
 
@@ -75,7 +76,7 @@ The three main data types are:
 
 ## Practice
 
-In software, ??? are extremely specific lists of tasks that computers complete
+In software, ??? are extremely specific lists of tasks that computers complete.
 
 ???
 
