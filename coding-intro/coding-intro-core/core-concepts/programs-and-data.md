@@ -48,15 +48,7 @@ age = 30
 
 It’s easy to divide 24 by 2 and get 12. However, dividing "Batman" by 2 might land you in jail.
 
-That's why we group our data into distinct **data types**, the three main ones being:
-
-| Type    | Examples    |
-| ------- | ----------- |
-| String  | "Batman"    |
-| Number  | 5,-0.5     |
-| Boolean | True, False |
-
-These data types save us from attempting number-related operations on texts and vice versa.
+We group our data into distinct **data types**[2] to stop us from attempting number-related operations on texts and vice versa.
 
 > 🐈 Can a computer tell us what's the square root of "cat"?
 >
@@ -68,23 +60,28 @@ These data types save us from attempting number-related operations on texts and 
 [1: What language is this?]
 Every language has its own slightly different way of creating variables. The examples in this insight are all in python.
 
+[2: Data Types]
+
+The three main data types are:
+
+| Type    | Examples    |
+| ------- | ----------- |
+| String  | "Batman"    |
+| Number  | 5,-0.5     |
+| Boolean | True, False |
+
 
 ---
 
 ## Practice
 
-In the code below, raining is a ???, temperature is a ???, and forecast is a ???.
+In software, ??? are extremely specific lists of tasks that computers complete
 
-```python
-raining = True
-temperature = 42
-forecast = "Today it is 42 degrees and raining"
-```
+???
 
-- Boolean
-- Number
-- String
-
+- Programs
+- Data
+- Data Types
 
 ---
 

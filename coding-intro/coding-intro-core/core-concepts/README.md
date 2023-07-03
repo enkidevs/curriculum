@@ -11,6 +11,6 @@ insights:
   - do-it-yourself
   - conditions-and-loops
   - conditions-and-loops-two
-  - functions-are-programs-too
   - organizing-commands
+  - functions-are-programs-too
   - think-like-a-coder

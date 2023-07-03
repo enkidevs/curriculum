@@ -1,36 +1,35 @@
 ---
-author: lior-bd
-
+author: kapnobatai136
 
 type: normal
 
 category: discussion
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Functions are powerful
+# Organizing Commands With Functions
 
 ---
 ## Content
 
-Functions are one of the most powerful tools that a programmer has.
+### Using functions as mini-programs
 
-Imagine we're coding a robot chef 🤖. Making a function for turning on the oven can make our life much easier for several reasons:
+Functions allow us to break up our program into mini-programs, each for a specific task that we need. 
 
-- **Reusability**
-  Instead of rewriting all the oven instructions 50 times, we can write one function and just call that function whenever we need
+For instance, suppose we are simulating a human being that loves coffee! 
 
-- **Take Input**
-  Sometimes we want the oven at 350 degrees, and sometimes we want it at 400. We can have our oven function take in a temperature variable as input.
+For every cup of coffee, they need to:
 
-- **Readability**
-You should give your functions explanatory names to make it easier for the reader to understand what they do. 
+1. find a clean cup
+2. boil water
+3. open the packet
+4. mix the coffee with the boiling water.
+5. drink (gulp, gulp)
 
-Take for instance:
-```python
-turn_on_oven(temperature=350)
-put_in_tray()
-```
-
+That's so much work! Instead, imagine if we had one function `make_coffee` with all of these instructions. Every time we want coffee, we write `make_coffee` and, voila! - the work is done.
 
 > 💬 Can you think of a function from your everyday life? What's its name and what steps does it contain?
 >
