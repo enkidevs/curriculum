@@ -50,7 +50,7 @@ One iteration done, **three** left to do. The process is the same, so we'll jump
 
 ## Practice
 
-The Bellman-Ford algorithm initializes the distance of the source node to be.
+The Bellman-Ford algorithm initializes the distance of the source node to be ???.
 
 - 0
 - 1
