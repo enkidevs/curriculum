@@ -62,10 +62,11 @@ Every language has its own slightly different way of creating variables. The exa
 
 [2: Data Types]
 The three main data types are:
+
 | Type    | Examples    |
 | ------- | ----------- |
 | String  | "Batman"    |
-| Number  | 5,-0.5     |
+| Number  | 5,-0.5      |
 | Boolean | True, False |
 
 

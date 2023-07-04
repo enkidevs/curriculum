@@ -12,8 +12,6 @@ category: discussion
 ---
 ## Content
 
-### Using functions as mini-programs
-
 Functions allow us to break up our program into mini-programs, each for a specific task that we need. 
 
 For instance, suppose we are simulating a human being that loves coffee! 

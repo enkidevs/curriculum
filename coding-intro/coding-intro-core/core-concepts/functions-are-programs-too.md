@@ -15,8 +15,6 @@ revisionQuestion:
 ---
 ## Content
 
-### Using programs as functions
-
 We can even use other people's programs as functions!
 
 Perhaps someone wrote a smart program called `shortest_path` that calculates the quickest path from point A to point B. 
