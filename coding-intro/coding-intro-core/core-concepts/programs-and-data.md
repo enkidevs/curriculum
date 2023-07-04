@@ -62,9 +62,7 @@ We group our data into distinct **data types**[2] to stop us from attempting num
 Every language has its own slightly different way of creating variables. The examples in this insight are all in python.
 
 [2: Data Types]
-
 The three main data types are:
-
 | Type    | Examples    |
 | ------- | ----------- |
 | String  | "Batman"    |
