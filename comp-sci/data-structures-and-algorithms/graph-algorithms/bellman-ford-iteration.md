@@ -19,7 +19,7 @@ revisionQuestion:
 
 ## Content
 
-Let's apply the algorithm on the following graph, with *A* as our starting node. As we would normally do for Dijkstra's, we initalized the distance to *A* to be `0` and every other distance to be a very large number (or `inf`):
+Let's apply the algorithm on the following graph, with *A* as our starting node. As we would normally do for Dijkstra's, we initialized the distance to *A* to be `0` and every other distance to be a very large number (or `inf`):
 
 ![bfinit](https://img.enkipro.com/1f144ac123593085cd818fca3f951cf2.png)
 
@@ -50,12 +50,11 @@ One iteration done, **three** left to do. The process is the same, so we'll jump
 
 ## Practice
 
-Bellman-Ford algorithm uses ??? approach.
+The Bellman-Ford algorithm initializes the distance of the source node to be ???.
 
-- `no specific`
-- `greedy`
-- `dynamic`
-- `binary search`
+- 0
+- 1
+- `inf`
 
 
 ---
