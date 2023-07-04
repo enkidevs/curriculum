@@ -58,7 +58,7 @@ We group our data into distinct **data types**[2] to stop us from attempting num
 ## Footnotes
 
 [1: What language is this?]
-Every language has its own slightly different way of creating variables. The examples in this insight are all in python.
+Every language has its own slightly different way of creating variables. The examples in this insight are all in Python.
 
 [2: Data Types]
 The three main data types are:
@@ -76,7 +76,6 @@ The three main data types are:
 
 In software, ??? are extremely specific lists of tasks that computers complete.
 
-???
 
 - Programs
 - Data

@@ -22,7 +22,7 @@ if switch_is_on:
     turn_on_light()
 ```
 
-> 😵‍💫 Woah...Don't worry if the code looks like gibberish right now! After the conditions workouts you're going to be a pro!
+> 😵‍💫 Woah...Don't worry if the code looks like gibberish right now! After the conditions workout you're going to be a pro!
 
 Here `switch_is_on` is a boolean variable. That means it is either true or false. 
 
