@@ -4,10 +4,7 @@ author: kapnobatai136
 type: normal
 
 category: discussion
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
+
 ---
 
 # Organizing Commands With Functions
