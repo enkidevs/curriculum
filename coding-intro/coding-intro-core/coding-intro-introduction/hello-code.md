@@ -9,7 +9,10 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Hello Code
@@ -35,4 +38,11 @@ The ??? varies from one programming language to another, but the ??? remain the 
 - syntax
 - concepts
 
+---
+## Revision
+
+The ??? varies from one programming language to another, but the ??? remain the same.
+
+- syntax
+- concepts
 
