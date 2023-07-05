@@ -9,10 +9,6 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
 
 ---
 
@@ -34,17 +30,9 @@ When you finish this course and move on to specific programming languages, you'l
 ---
 ## Practice
 
-Learning the fundamentals of coding will enable you to ???.
-
-- learn any programming language
-- get to school faster
-- be a better gamer 
-
-
----
-## Revision
-
 The ??? varies from one programming language to another, but the ??? remain the same.
 
 - syntax
 - concepts
+
+
