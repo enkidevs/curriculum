@@ -9,7 +9,8 @@ aspects:
 insights:
   - programs-and-data
   - do-it-yourself
+  - conditions-and-loops
+  - conditions-and-loops-two
   - organizing-commands
   - functions-are-programs-too
-  - conditions-and-loops
   - think-like-a-coder
