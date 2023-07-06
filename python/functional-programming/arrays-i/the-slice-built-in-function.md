@@ -25,19 +25,24 @@ revisionQuestion:
 
 ## Content
 
-The `slice` built-in is a constructor which creates a *slice object* representing the set of indices specified by a given range. It can be used to get substrings, subtuples and sublists from their respective sequence objects. The general syntax is of the form:
+Functional programming is a style of programming where we use functions as self-contained multi-purpose formulas.
 
+We'll delve into Python's functions like `slice`, `reverse`, `zip`, `sum`, and `all` to show how clean and powerful Functional Programming can be!
+
+### Slice
+
+The `slice` built-in function creates index ranges that we can use to extract components from lists and strings:
+
+You can slice in two ways:
 ```python
 slice(stop)
 # or
 slice(start, stop, step)
 ```
-
-Where the arguments are all integers. Passing only one integer argument causes it to default the other arguments to `None` and take the integer as a 'stop' value. These values mean the following:
-
-- **start** - the starting integer where the slice starts. Giving only one integer argument defaults this to `None`, which means the slice starts at index 0, or the beginning of the sequence.
-- **stop** - the integer value of the index where the slice ends. The slice stops on the index `stop - 1`. If only one integer is given Python assumes it to be the `stop` index.
-- **step** - the integer value which determines the increment between each index of the slice, i.e. a step of 2 increments the index included in the slice by 2, each step. Giving only one integer argument defaults this to `None`, which means a step of 1.
+Where the different parameters are:
+- **start** - the index where the slice starts. Defaults to 0
+- **stop** - the index where the slice ends. The slice stops on the index `stop - 1`. If only one integer is given to the function Python assumes it to be the `stop` index.
+- **step** - the increment between each index of the slice, i.e. a step of 2 increments the index included in the slice by 2, each step. Defaults to 1.
 
 Consider the following example, where we use `slice` to extract a substring from a string.
 
@@ -54,7 +59,7 @@ print(ourString[sObject])
 # Result: rigp
 ```
 
-We can also use **negative numbers** as arguments to `slice`, which creates a slice with the elements in the reverse order, i.e. index -1 would be the last element in the sequence, -2 would be the second-last, etc.[1]
+We can also use **negative numbers** as arguments to `slice`, which will count indexes in reverse order.[1]
 
 ```python
 ourString = 'learning-python'
@@ -63,7 +68,7 @@ print(ourString[sObject])
 # Result: nohtyp
 ```
 
-This concept can be extended to work on tuples, lists, strings etc. in an analogous fashion. Here is an example of extracting sublists and subtuples:
+You can also use `slice` on lists and tuples:
 
 ```python
 eList = ['E', 'N', 'K', 'I']
