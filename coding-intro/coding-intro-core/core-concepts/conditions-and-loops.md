@@ -14,7 +14,7 @@ category: must-know
 
 In computers, there's no maybe. Every question is answered with a *True* or a *False*[1]. 
 
-We can use if statements to only run code when a condition is true.
+We can use `if` statements to only run code when a condition is true.
 
 For instance, this code will only turn the light on if the switch is on:
 ```python
@@ -22,7 +22,7 @@ if switch_is_on:
     turn_on_light()
 ```
 
-> 😵‍💫 Woah...Don't worry if the code looks like gibberish right now! After the conditions workout you're going to be a pro!
+> 😵‍💫 Woah...Don't worry if the code looks like gibberish right now! Soon you'll learn all about conditions!
 
 Here `switch_is_on` is a boolean variable. That means it is either true or false. 
 

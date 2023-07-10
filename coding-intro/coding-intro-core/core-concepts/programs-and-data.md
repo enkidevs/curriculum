@@ -30,7 +30,7 @@ Let's introduce the building blocks we'll cover in this course.
 
 Just like you start your day with a to-do list, we give computers their own to-do lists, known as programs, filled with very specific tasks to complete.
 
-> 💡 Scroll down to the Learn more section to see a hilarious example of how specific instructions computers need 😆
+> 💡 Scroll down to the Learn more section to see a hilarious example of how specific of instructions computers need 😆
 
 
 ### Data
