@@ -18,7 +18,7 @@ links:
 
 ## Content
 
-The `zip` built-in function can be used to combine multiple lists into a single list of tuples.
+The `zip` built-in function can be used to combine multiple lists into a single list of tuples[1].
 
 This is best understood by example:
 
