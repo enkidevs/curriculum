@@ -1,4 +1,4 @@
-name: ArraysThree
+name: filter and reduce functions
 description: Built-in functions for analyzing arrays.
 insights:
   - filter-built-in

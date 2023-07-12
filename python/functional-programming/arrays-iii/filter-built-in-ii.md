@@ -20,7 +20,7 @@ filter(function, iterable)
 
 If we don't provide a function to `filter`, such as by putting `None` in the place of the function, `filter` assumes the identity function.
 
-Since Python evaluates `0`, `None` and the empty string as `False`, `filter` with `None` as its function will not return these objects if they occur in the iterable object:
+Since Python evaluates `0`, `None` and the empty string as `False`, `filter` with `None` as its function will not return these objects:
 
 ```python
 raw_names = ["Joe", "Bela", "", "Alex"]

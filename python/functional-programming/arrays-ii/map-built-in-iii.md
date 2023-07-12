@@ -72,5 +72,7 @@ print(newscores)
 - `[1, 1, 1, 1, 1, 0, 4, 5]`
 
 ---
+## Footnotes
+
 [1: Lambda functions]
 Lambda functions in Python are small, anonymous functions that are defined using the lambda keyword, rather than the traditional def keyword. They can take any number of arguments but can only have one expression, making them ideal for simple, quick functions that are used on-the-fly in places like function arguments.

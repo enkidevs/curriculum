@@ -31,22 +31,17 @@ sum(iterable, start)
 
 Where `start` is an optional argument that lets us start the sum from a specific value. 
 
-For example:
+For example: [1]
 
 ```python
 numbers = [1, 4, 2.5, 2.5]
 print(sum(numbers))
 # result is 10.0
 print(sum(numbers, 10))
-# result is 20.0
+# result is 20.0 
 ```
 
-There are several ways to achieve the same result as a `sum` operation, but `sum` will usually be the most efficient and legible way to go about the task.[1]
-
-
-
-*N.B. Notice how the result of our `sum` is of type `float` as opposed to `int` since Python automatically converts `float` and `int` addition results to `float`s to avoid loss of precision. This is not specific to `sum` but happens whenever we do arithmetic operations on mixed number types.*
-
+There are several ways to achieve the same result as a `sum` operation, but `sum` will usually be the most efficient and legible way to go about the task.[2]
 
 ---
 
@@ -93,7 +88,9 @@ print(sum1 if ??? > ??? else sum2)
 ---
 
 ## Footnotes
+[1: Why is the result a float?]
+Notice how the result of our `sum` is of type `float` as opposed to `int` since Python automatically converts `float` and `int` addition results to `float`s to avoid loss of precision. This is not specific to `sum` but happens whenever we do arithmetic operations on mixed number types.
 
-[1:Alternatives to `sum`]
-*An example of a rare case where an alternative method is superior to `sum` is when adding floating point values. When precision is important, it is better to use `math.fsum()` which deliberately avoids loss of precision. For more information, see the Python Docs in the Learn More section.*
+[2:Alternatives to `sum`]
+An example of a rare case where an alternative method is superior to `sum` is when adding floating point values. When precision is important, it is better to use `math.fsum()` which deliberately avoids loss of precision. For more information, see the Python Docs in the Learn More section.
  

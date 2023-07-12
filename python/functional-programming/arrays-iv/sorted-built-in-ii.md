@@ -31,7 +31,7 @@ revisionQuestion:
 The `sorted` function takes the general form:
 
 ```python
-sorted(iterable, key, reverse])
+sorted(iterable, key, reverse)
 ```
 
 Where:
@@ -94,5 +94,5 @@ print(sorted([0, 2, 3, 1, 'a', 'b', 'A', 'B']))
 ## Footnotes
 
 [1:Timsort]
-*Technically, the sort algorithm in Python since version 2.3 has been Timsort, named after creator Tim Peters. It is derived from a hybrid approach of merge sort and insertion sort. Timsort finds subsequences of the data that are already sorted and uses the information found there to sort the rest of the list more effectively. For more information, see the Wikipedia page in the Learn More section titled 'Timsort'.*
+Technically, the sort algorithm in Python since version 2.3 has been Timsort, named after creator Tim Peters. It is derived from a hybrid approach of merge sort and insertion sort. Timsort finds subsequences of the data that are already sorted and uses the information found there to sort the rest of the list more effectively. For more information, see the Wikipedia page in the Learn More section titled 'Timsort'.
  

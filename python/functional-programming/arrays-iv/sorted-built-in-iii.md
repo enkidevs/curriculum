@@ -38,7 +38,7 @@ class Order(object):
   def __init__(self, name, number):
     self.name = name
     self.number = number
-  def __repr__(self):[1]
+  def __repr__(self):
     return f'({self.name}, {self.number})'
 
 list = [Order('tom', 22),
@@ -55,7 +55,7 @@ print(sorted(list, key=getNum))
 # [(alice, 10), (tom, 22),
 #  (bob, 55), (sam, 60)]
 ```
-
+[1]
 
 
 ---

@@ -18,7 +18,7 @@ links:
 
 Functional programming is a style of programming where we use functions as self-contained multi-purpose formulas.
 
-We'll delve into Python's functions like `slice`, `reverse`, `zip`, `sum`, and `all` to show how clean and powerful Functional Programming can be!
+We'll delve into Python's functions like `slice`, `reverse`, and `zip` to show how clean and powerful Functional Programming can be!
 
 ### Slice
 

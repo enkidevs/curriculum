@@ -24,7 +24,7 @@ links:
 As the name might suggest, `filter` takes a function and an iterable object and returns only the elements in the iterable object for which the given function returns `true`[1]:
 
 
-For example, consider the following code fragment:
+For example, consider the following code:
 
 ```python
 prices = (1.29, 1.99, 2.30, 2.99, 1.80)
@@ -48,5 +48,5 @@ Finally, we apply `filter` on the two and receive back only those prices less th
 
 
 [1:true]
-*There is also a complementary function `itertools.filterfalse()` which only returns elements of the iterable object if the function returns false on them. Alternatively, you could negate the return value of the function passed to `filter` to achieve the same result.*
+There is also a complementary function `itertools.filterfalse()` which only returns elements of the iterable object if the function returns false on them. Alternatively, you could negate the return value of the function passed to `filter` to achieve the same result.
  

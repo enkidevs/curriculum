@@ -51,6 +51,8 @@ To do this, we define a function, `totalUsableSpace`, which only adds the storag
 Fill in the code gaps to achieve this.
 
 ```python
+from functools import reduce
+
 class Storage:
   ... #truncated
 class StorageCollection:
@@ -95,6 +97,8 @@ print(???(???, ???))
 What is calculated as a result of the following code execution?
 
 ```python
+from functools import reduce
+
 numbers = [100, 2, 2, 5]
 print(reduce(lambda x, y: x / y, numbers))
 ```
@@ -114,5 +118,5 @@ print(reduce(lambda x, y: x / y, numbers))
 ## Footnotes
 
 [1:Functional Programming]
-*The style of programming that eschews imperative loops such as for loops is called functional programming. For more information about functional programming and Python, see the related workout, since the topic is too broad to cover in one lesson.*
+The style of programming that eschews imperative loops such as for loops is called functional programming. For more information about functional programming and Python, see the related workout, since the topic is too broad to cover in one lesson.
  

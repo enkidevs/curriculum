@@ -6,6 +6,8 @@ sections:
   '0':
     - arrays-i
     - arrays-ii
+    - arrays-iii
+    - arrays-iv
     - comprehension
     - decorators
     - functional-programming

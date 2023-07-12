@@ -35,9 +35,9 @@ zip(*zippedList)
 where `(*zippedList)` denotes the one input zipped list of tuples preceded by the `*` operator. Below is an illustration of unzipping:
 
 ```python
-a = ['a1', 'a2', 'a3', 'a4', 'a5']
-b = ['b1', 'b2', 'b3', 'b4', 'b5']
-c = ['c1', 'c2', 'c3', 'c4', 'c5']
+a = ['a1', 'a2', 'a3']
+b = ['b1', 'b2', 'b3']
+c = ['c1', 'c2', 'c3']
 
 result = zip(a, b, c)
 
@@ -47,18 +47,12 @@ print(y)
 print(z)
 
 # result:
-# x = ('a1', 'a2', 'a3', 'a4', 'a5')
-# y = ('b1', 'b2', 'b3', 'b4', 'b5')
-# z = ('c1', 'c2', 'c3', 'c4', 'c5')
+# x = ('a1', 'a2', 'a3')
+# y = ('b1', 'b2', 'b3')
+# z = ('c1', 'c2', 'c3')
 ```
 
-Note that when unzipping, Python returns **tuples** instead of **lists**:
-
-```py
-type(x)
-# result:
-# <type 'tuple'>
-```
+Note that when unzipping, Python returns **tuples** instead of **lists**!
 
 
 

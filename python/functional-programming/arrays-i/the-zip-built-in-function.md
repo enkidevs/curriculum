@@ -23,23 +23,23 @@ The `zip` built-in function can be used to combine multiple lists into a single 
 This is best understood by example:
 
 ```python
-a = ['a1', 'a2', 'a3', 'a4', 'a5']
-b = ['b1', 'b2', 'b3', 'b4', 'b5']
-c = ['c1', 'c2', 'c3', 'c4', 'c5']
+a = ['a1', 'a2', 'a3']
+b = ['b1', 'b2', 'b3']
+c = ['c1', 'c2', 'c3']
 
 print(list(zip(a, b, c)))
 
 #result:
 #[('a1', 'b1', 'c1'),
 # ('a2', 'b2', 'c2'),
-# ('a3', 'b3', 'c3'),
-# ('a4', 'b4', 'c4'),
-# ('a5', 'b5', 'c5')]
+# ('a3', 'b3', 'c3')]
 ```
 
 If we pass three lists into a `zip` function, it returns an iterator of tuples. 
 
-If our three lists have 10 elements each, then the tuples returned by the iterator are 3-tuples, where the first tuple returned contains the first element of each input list. The second returned contains the second element of each input list, etc.
+If our three lists have 10 elements each, then the tuples returned by the iterator are 3-tuples, where the first tuple returned contains the first element of each input list. 
+
+The second returned contains the second element of each input list, etc.
 
 ---
 

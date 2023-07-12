@@ -48,7 +48,6 @@ For example:
 - non-zero numbers and non-empty strings will evaluate as `True`. 
 - `0` and `""` will be evaluated as `False`.
 
-The full details of truthiness are outside the scope of this lesson. For more information, see the Learn More section.
 
 
 ---
