@@ -62,7 +62,7 @@ fmt.Println("emptySlice3 ", emptySlice3)
 Slices can ???
 
 - contain any type.
-- only contain an array
+- only contain integers
 
 
 ---
