@@ -52,7 +52,7 @@ fmt.Println("emptySlice3 ", emptySlice3)
 // emptySlice3 [0 0 0]
 ```
 
-> 💡 A slice can contain any type, not just an array. It can also contain other slices.
+> 💡 A slice can contain any type, not just integers. It can also contain other slices.
 
 
 ---
