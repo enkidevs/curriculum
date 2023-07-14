@@ -26,7 +26,8 @@ revisionQuestion:
 
 ## Content
 
-The star operator `*` can be used with `zip` to do the opposite action -- unzip a list. This action takes an iterator of tuples and returns a tuple for each of the originally zipped lists[1]:
+The star operator `*` can be used with `zip` to do the opposite action -- unzip a list.
+This action takes an iterator of tuples and returns a tuple for each of the originally zipped lists[1]:
 
 ```python
 a = ['a1', 'a2', 'a3']

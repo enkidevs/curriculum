@@ -41,7 +41,7 @@ print(list(reversed(ourTuple)))
 # Result: ["World", "Hello"]
 ```
 
-We can even use `reversed` on custom objects![1]
+We can even use `reversed` on custom objects! [1]
 
 ---
 

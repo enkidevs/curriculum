@@ -16,11 +16,9 @@ links:
 
 ## Content
 
-
-
 Think of Functional Programming like a cook using recipes: each recipe (function) is self-contained and can be used in multiple meals (programs). 
 
-We're going to explore some of Python's 'recipes' like slice, reverse, and zip, to show you the beauty of the Functional Programming kitchen!
+We're going to explore some of Python's 'recipes' like `slice`, `reverse`, and `zip`, to show you the beauty of the Functional Programming kitchen!
 
 ### Slice
 
@@ -29,12 +27,13 @@ We're going to explore some of Python's 'recipes' like slice, reverse, and zip, 
 ```python
 ourString = 'learning-python'
 
+# Slice up to the 8th character
 sObject = slice(8)
-# Equivalent to slice(None, 8, None)
 print(ourString[sObject])
 # Result: learning
 
 sObject = slice(3, 11, 2)
+# Slice every other character from the 3rd to 11th character
 print(ourString[sObject])
 # Result: rigp
 ```

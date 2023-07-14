@@ -25,7 +25,7 @@ revisionQuestion:
 ## Content
 
 
-We can also use **negative numbers** as arguments to `slice`, which will count indexes in reverse order.[1]
+We can also use **negative numbers** as arguments to `slice`, which will count indexes in reverse order.
 
 ```python
 ourList = ["A", "B", "C", "D", "E"]
@@ -37,7 +37,7 @@ print(ourList[sObject])
 The above code: 
 - Starts at `-1`, which will be the last element, `"E"`.
 - Stops before `-4`, which will be the fourth to last element, `"B"`.
-- Increments at `-1`, which means it iterates `1` to the left each time.
+- Increments at `-1`, which means it iterates `1` to the left[1] each time.
 
 ---
 
@@ -106,6 +106,9 @@ print(a[::-1])
 
 ## Footnotes
 
-[1:Negative Numbers]
-*Notice how when negative numbers are given as arguments to `slice` its behavior can be made to be analogous to the `reversed` built-in function. Depending on the context, one function may be more suitable than the other in terms of efficiency, legibility or modularity.*
+[1:Negative Increments]
+Negative steps iterate backwards through the list, instead of forwards.
+
+Since a step of `2` iterates every other element to the right, a step of `-2` iterates every other element to the left.
+
  
