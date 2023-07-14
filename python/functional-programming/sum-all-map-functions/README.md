@@ -1,8 +1,8 @@
 name: Sum, All, & Map Functions
 description: Built-in functions for manipulating arrays.
 insights:
-  - sum-built-in
-  - all-built-in
+  - the-sum-built-in
+  - the-all-built-in
   - the-map-built-in
 exercises:
   - py-practice-functional-features
