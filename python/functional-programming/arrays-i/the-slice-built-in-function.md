@@ -32,8 +32,8 @@ sObject = slice(8)
 print(ourString[sObject])
 # Result: learning
 
-sObject = slice(3, 11, 2)
 # Slice every other character from the 3rd to 11th character
+sObject = slice(3, 11, 2)
 print(ourString[sObject])
 # Result: rigp
 ```
