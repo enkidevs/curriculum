@@ -5,6 +5,7 @@ description: Why Python is a functional language and how to take advantage of it
 sections:
   '0':
     - arrays-i
+    - sum-all-map-functions
     - arrays-ii
     - comprehension
     - decorators
