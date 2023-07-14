@@ -39,6 +39,8 @@ The above code:
 - Stops before `-4`, which will be the fourth to last element, `"B"`.
 - Increments at `-1`, which means it iterates `1` to the left each time.
 
+---
+
 ## Practice
 
 Use `slice` to extract the substring 'spam' from 'spam-eggs-ham-chips' by filling in the gaps.
