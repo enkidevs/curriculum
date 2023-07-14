@@ -1,4 +1,4 @@
-name: max and sorted functions
+name: Max and Sorted Functions
 description: Built-in functions for analyzing arrays.
 insights:
   - max-built-in

@@ -1,4 +1,4 @@
-name: filter and reduce functions
+name: Filter and Reduce Functions
 description: Built-in functions for analyzing arrays.
 insights:
   - filter-built-in

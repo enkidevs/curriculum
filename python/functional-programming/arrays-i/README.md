@@ -1,4 +1,4 @@
-name: slice, reversed, and zip functions
+name: Slice, Reversed, and Zip Functions
 description: Built-in functions for manipulating arrays.
 insights:
   - the-slice-built-in-function

@@ -1,4 +1,4 @@
-name: sum, all, & map functions
+name: Sum, All, & Map Functions
 description: Built-in functions for analyzing arrays.
 insights:
   - sum-built-in
