@@ -41,12 +41,7 @@ print(list(reversed(ourTuple)))
 # Result: ["World", "Hello"]
 ```
 
-For `reversed` to work, the object passed in must either:
-- implement the `__reversed__()` method
-- implement both the `__len__()` and `__getitem__()` methods with integer arguments.[1]
-
-
-Notice how we could create custom classes that implement the `__reversed__()` method and then use `reversed` on them to quickly and efficiently reverse their ordering. 
+We can even use `reversed` on custom objects![1]
 
 ---
 
@@ -97,5 +92,10 @@ print(list(reversed(c)))
 ## Footnotes
 
 [1:`__len__ and __getitem__`]
-*Supporting these two methods is called supporting sequence protocol in Python. These two methods allow Python to find the total length of the given sequence and access elements arbitrarily inside the sequence. Knowing the total size of the sequence allows Python to access the element at the end of the list and move backward toward the beginning of the sequence.*
+For `reversed` to work, the object passed in must either:
+- implement the `__reversed__()` method
+- implement both the `__len__()` and `__getitem__()` methods with integer arguments.
+
+
+Notice how we could create custom classes that implement the `__reversed__()` method and then use `reversed` on them to quickly and efficiently reverse their ordering. 
  

@@ -26,13 +26,7 @@ revisionQuestion:
 
 ## Content
 
-The star operator `*` can be used with `zip` to do the opposite action -- unzip a list. This action takes an iterator of tuples and returns a tuple for each field in the tuples[1]. Unzipping has the syntax:
-
-```python
-zip(*zippedList)
-```
-
-where `(*zippedList)` denotes the one input zipped list of tuples preceded by the `*` operator. Below is an illustration of unzipping:
+The star operator `*` can be used with `zip` to do the opposite action -- unzip a list. This action takes an iterator of tuples and returns a tuple for each of the originally zipped lists[1]:
 
 ```python
 a = ['a1', 'a2', 'a3']
@@ -42,18 +36,12 @@ c = ['c1', 'c2', 'c3']
 result = zip(a, b, c)
 
 x, y, z = zip(*result)
-print(x)
-print(y)
-print(z)
 
-# result:
+# Result:
 # x = ('a1', 'a2', 'a3')
 # y = ('b1', 'b2', 'b3')
 # z = ('c1', 'c2', 'c3')
 ```
-
-Note that when unzipping, Python returns **tuples** instead of **lists**!
-
 
 
 ---

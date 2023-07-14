@@ -28,30 +28,16 @@ revisionQuestion:
 We can also use **negative numbers** as arguments to `slice`, which will count indexes in reverse order.[1]
 
 ```python
-ourString = 'learning-python'
-sObject = slice(-1, -7, -1)
-print(ourString[sObject])
-# Result: nohtyp
+ourList = ["A", "B", "C", "D", "E"]
+sObject = slice(-1, -4, -1)
+print(ourList[sObject])
+# Result: ["E", "D", "C"]
 ```
-
-You can also use `slice` on lists and tuples:
-
-```python
-eList = ['E', 'N', 'K', 'I']
-eTuple = ('E', 'N', 'K', 'I')
-
-sObject = slice(3)
-print(eList[sObject])
-# Result: ['E', 'N', 'K']
-
-sObject = slice(1, 5, 2)
-print(eTuple[sObject])
-# Result: ('N', 'I')
-```
-
-
-
 ---
+The above code: 
+- Starts at `-1`, which will be the last element, `"E"`.
+- Stops before `-4`, which will be the fourth to last element, `"B"`.
+- Increments at `-1`, which means it iterates `1` to the left each time.
 
 ## Practice
 

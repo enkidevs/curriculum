@@ -35,12 +35,6 @@ print(list(zip(a, b, c)))
 # ('a3', 'b3', 'c3')]
 ```
 
-If we pass three lists into a `zip` function, it returns an iterator of tuples. 
-
-If our three lists have 10 elements each, then the tuples returned by the iterator are 3-tuples, where the first tuple returned contains the first element of each input list. 
-
-The second returned contains the second element of each input list, etc.
-
 ---
 
 ## Footnotes
