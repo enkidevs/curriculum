@@ -33,7 +33,7 @@ sObject = slice(-1, -4, -1)
 print(ourList[sObject])
 # Result: ["E", "D", "C"]
 ```
----
+
 The above code: 
 - Starts at `-1`, which will be the last element, `"E"`.
 - Stops before `-4`, which will be the fourth to last element, `"B"`.
