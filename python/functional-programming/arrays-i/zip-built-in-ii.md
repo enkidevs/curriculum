@@ -9,7 +9,16 @@ links:
   - >-
     [Python
     zip()](https://www.programiz.com/python-programming/methods/built-in/zip){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Edge cases of zip
@@ -36,6 +45,41 @@ print(list(zip()))
 # Result: []
 ```
 
+
+---
+
+## Practice
+
+What will be the output of the following code?
+```python
+a = ['a1']
+b = ['b1', 'b2', 'b3']
+
+print(list(zip(a,b)))
+```
+???
+
+- `[('a1', 'b1')]`
+- `('a1', 'b1')`
+- `[('a1', 'b1'), ('b2', 'b3')]`
+
+---
+
+## Revision
+
+What will be the output of the following code?
+```python
+a = ['a1', 'a2']
+b = ['b1', 'b2']
+
+print(list(zip(a,b)))
+```
+???
+
+- - `[('a1', 'b1'), ('a2', 'b2')]`
+- `[('a1', 'b1')]`
+- `('a1', 'b1')`
+- `[('a1', 'b1'), ('b2', 'b3')]`
 
 ---
 
