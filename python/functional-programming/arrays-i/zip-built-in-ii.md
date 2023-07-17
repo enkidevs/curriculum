@@ -12,12 +12,10 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -76,7 +74,7 @@ print(list(zip(a,b)))
 ```
 ???
 
-- - `[('a1', 'b1'), ('a2', 'b2')]`
+- `[('a1', 'b1'), ('a2', 'b2')]`
 - `[('a1', 'b1')]`
 - `('a1', 'b1')`
 - `[('a1', 'b1'), ('b2', 'b3')]`

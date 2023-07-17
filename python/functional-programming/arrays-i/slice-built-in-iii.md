@@ -9,12 +9,10 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
@@ -52,10 +50,11 @@ sObject = ???(???)
 print(ourString[sObject])
 ```
 
-- slice
+- `slice`
 - 4
 - 5
 - 3
+- `list`
 
 
 ---
