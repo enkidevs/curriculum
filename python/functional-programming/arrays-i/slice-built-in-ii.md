@@ -34,7 +34,7 @@ Where the different parameters are:
 - **stop** - the index where the slice ends. The slice stops on the index `stop - 1`.
 - **step** - the increment between each index of the slice. i.e., a `step` of 2 indexes every other element.
 
-![slice-diagram](https://img.enkipro.com/bc3158f381a01a1c3569d67bf7064e91.png)
+![visualization for ourList[slice(1,6,2)=["B", "D", "F"]]](https://img.enkipro.com/bc3158f381a01a1c3569d67bf7064e91.png)
 
 ---
 
