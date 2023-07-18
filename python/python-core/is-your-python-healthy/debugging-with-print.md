@@ -2,10 +2,6 @@
 author: SebaRaba
 type: normal
 category: must-know
-links:
-  - >-
-    [More About
-    Debugging](https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
