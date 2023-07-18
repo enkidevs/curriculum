@@ -1,6 +1,7 @@
 name: Slice, Reversed, & Zip Functions
 description: Built-in functions for manipulating arrays.
 insights:
+  - functional-programming-preface
   - the-slice-built-in-function
   - slice-built-in-ii
   - slice-built-in-iii

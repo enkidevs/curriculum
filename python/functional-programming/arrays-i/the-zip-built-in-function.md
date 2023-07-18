@@ -35,6 +35,8 @@ print(list(zip(a, b, c)))
 # ('a3', 'b3', 'c3')]
 ```
 
+![zip-diagram](https://img.enkipro.com/f49672bdbfd0cf09e3dd23af61740d26.png)
+
 ---
 
 ## Footnotes

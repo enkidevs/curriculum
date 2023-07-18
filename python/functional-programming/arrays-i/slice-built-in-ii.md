@@ -34,6 +34,7 @@ Where the different parameters are:
 - **stop** - the index where the slice ends. The slice stops on the index `stop - 1`.
 - **step** - the increment between each index of the slice. i.e., a `step` of 2 indexes every other element.
 
+![slice-diagram](https://img.enkipro.com/5c14a0a3cc76bf5d721d41b8ce0adc59.png)
 
 ---
 
