@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [Nose
-    introduction](http://pythontesting.net/framework/nose/nose-introduction/){website}
+    introduction](https://nose.readthedocs.io/en){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
