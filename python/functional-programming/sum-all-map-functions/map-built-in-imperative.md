@@ -2,16 +2,6 @@
 author: stefkn
 type: normal
 category: must-know
-links:
-  - >-
-    [Functional Programming in Python: built-in
-    functions](https://docs.python.org/3/howto/functional.html#built-in-functions){website}
-  - >-
-    [map, filter, and
-    reduce](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php){website}
-  - >-
-    [Lambda, filter, reduce and
-    map](http://www.python-course.eu/lambda.php){website}
 ---
 
 # The map Function
@@ -43,6 +33,6 @@ These issues can make imperative programming[1] hard to work with.
 
 
 [1:Imperative Programming]
-Imperative programming, as opposed to declarative programming (of which functional programming is a subtype) is the programming paradigm where statements are used to change a program's state. Imperative style requires certain mechanisms such as direct data modification (mutability) and looping statements. These mechanisms sometimes detrimentally affect readability and efficiency.
+Imperative programming, as opposed to declarative programming (of which functional programming is a subtype), is the programming paradigm where statements are used to change a program's state. Imperative style requires certain mechanisms such as direct data modification (mutability) and looping statements. These mechanisms sometimes detrimentally affect readability and efficiency.
 
 An easy rule of thumb is that imperative programming specifies **how** (what steps are taken during execution) a program should operate. This is in contrast to declarative languages which focus on **what** is to be computed instead.

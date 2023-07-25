@@ -9,9 +9,6 @@ links:
   - >-
     [map, filter, and
     reduce](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php){website}
-  - >-
-    [Lambda, filter, reduce and
-    map](http://www.python-course.eu/lambda.php){website}
 ---
 
 # The map Function
@@ -26,7 +23,7 @@ The `map` built-in applies a given function to all elements of a given iterable.
 
 This allows us to avoid imperative programming[1], often resulting in more easily legible code. 
 
-In the functional programming style[3], we can achieve the previous code with:
+In the functional programming style[2], we can achieve the previous code with:
 
 ```python
 def addTwo(x):
@@ -35,10 +32,6 @@ scores = [1, 0, 4, 5]
 print(list(map(addTwo, scores)))
 # Result: [3,2,6,7]
 ```
-
-
-
-
 
 
 ---

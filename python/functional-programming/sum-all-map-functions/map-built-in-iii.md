@@ -12,23 +12,23 @@ revisionQuestion:
   context: standalone
 ---
 
-# lambda functions with map
+# Lambda functions with map
 
 ---
 
 ## Content
 
-We can also use *lambda functions*[1] with `map`:
+We can even use *lambda functions*[1] with `map`:
 
 ```python
 scores = [1, 0, 4, 5]
-newscores = list(map(lambda x: x+2, scores))
+print(list(map(lambda x: x+2, scores)))
 # Result: [3, 2, 6, 7]
 ```
 
 The above lambda function adds 2 to each number in our list.
 
-*Remember, in functional programming, functions can take functions. So, instead of a list of data, `map` may take a list of functions, and output a list of new functions. This gives a sense of how versatile and useful the `map` function can be.*
+> Remember, in functional programming, functions can take functions. So, instead of a list of data, `map` may take a list of functions, and output a list of new functions. This gives a sense of how versatile and useful the `map` function can be.
 
 ---
 
