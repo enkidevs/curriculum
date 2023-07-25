@@ -3,7 +3,7 @@ description: Built-in functions for analyzing arrays.
 insights:
   - the-sum-built-in
   - the-all-built-in
-  - the-map-built-in-function
+  - the-map-built-in
   - map-built-in-ii
   - map-built-in-iii
 aspects:
