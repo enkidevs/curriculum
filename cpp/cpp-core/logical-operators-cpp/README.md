@@ -1,6 +1,6 @@
 name: Logical Operators
 
-description: 
+description: Learn about C++'s logical operators
 
 insights:
   - what-are-logical-operators-cpp

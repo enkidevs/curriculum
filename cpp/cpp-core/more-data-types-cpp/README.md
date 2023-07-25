@@ -1,6 +1,6 @@
 name: More Data Types
 
-description: 
+description: Master arrays and vectors in C++!
 
 insights:
   - arrays-cpp
