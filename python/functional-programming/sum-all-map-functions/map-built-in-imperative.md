@@ -21,23 +21,19 @@ links:
 
 ## Content
 
-
-The `map` built-in applies a given function to all elements of a given iterable. 
-
-This allows us to avoid imperative programming[1], often resulting in more easily legible code. 
-
-In the functional programming style[3], we can achieve the previous code with:
+Let's say we have a list of point scores in a game, and we want to add 2 to every score. In the imperative programming style, we would do something like this:
 
 ```python
-def addTwo(x):
-  return x + 2
 scores = [1, 0, 4, 5]
-print(list(map(addTwo, scores)))
-# Result: [3,2,6,7]
+for i in range(0, len(scores)):
+  scores[i] = scores[i] + 2
 ```
 
+But what if we want to apply this transformation to another list?
 
+How can we keep track of whether the transformation has been applied or not?
 
+These issues can make imperative programming[1] hard to work with.
 
 
 
@@ -50,7 +46,3 @@ print(list(map(addTwo, scores)))
 Imperative programming, as opposed to declarative programming (of which functional programming is a subtype) is the programming paradigm where statements are used to change a program's state. Imperative style requires certain mechanisms such as direct data modification (mutability) and looping statements. These mechanisms sometimes detrimentally affect readability and efficiency.
 
 An easy rule of thumb is that imperative programming specifies **how** (what steps are taken during execution) a program should operate. This is in contrast to declarative languages which focus on **what** is to be computed instead.
-
-[2:Functional Programming]
-As explained in the above footnote, functional programming is a type of declarative language, which focus on **what** is to be computed. Functional programming eschews the idea of state from imperative programming and instead reduces a program down into functions applied to immutable data (data that cannot be directly modified). Notice how in the code example, we use `map` to apply our lambda function to each element in the list, but the items in the original list itself are **not** modified. We take each output from the lambda function and create a new copy of the original list with our new answers. This is the essence of *immutability*, one of the most important concepts of functional languages.
- 

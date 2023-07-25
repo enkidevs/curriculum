@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-We can also use *lambda functions*[1] with `map` to contain our function in one line:
+We can also use *lambda functions*[1] with `map`:
 
 ```python
 scores = [1, 0, 4, 5]

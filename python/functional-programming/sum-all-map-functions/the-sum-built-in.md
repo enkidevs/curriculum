@@ -41,7 +41,7 @@ print(sum(numbers, 10))
 # result is 20.0 
 ```
 
-There are several ways to achieve the same result as a `sum` operation, but `sum` will usually be the most efficient and legible way to go about the task.[2]
+`sum` will usually be the most efficient and legible way to go about summation![2]
 
 ---
 

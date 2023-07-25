@@ -17,14 +17,7 @@ links:
 
 ## Content
 
-The basic syntax of `map` looks like this:
-
-```python
-map(function_here, input_list,
-  optional_another_input_list, ...)
-```
-
-Notice that we can pass more than one iterable `input_list` to `map` at once! 
+We can even pass more than one iterable `input_list` to `map` at once! 
 
 If we have a function that takes multiple parameters, we can iterate through different lists for the parameters in parallel:
 
