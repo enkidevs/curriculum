@@ -26,4 +26,4 @@ print(all([True, True, False]))
 #result = False
 ```
 
-> Can you think of a situation where you would want to use the `all` function?
+> 💡 Can you think of a situation where you would want to use the `all` function?
