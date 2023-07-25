@@ -1,7 +1,7 @@
 ---
 author: stefkn
 type: normal
-category: must-know
+category: discussion
 links:
   - >-
     [Python 3 Documentation -
@@ -25,3 +25,5 @@ Take for example:
 print(all([True, True, False]))
 #result = False
 ```
+
+> Can you think of a situation where you would want to use the `all` function?

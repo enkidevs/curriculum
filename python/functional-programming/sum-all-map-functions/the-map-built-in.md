@@ -1,7 +1,7 @@
 ---
 author: stefkn
 type: normal
-category: must-know
+category: discussion
 links:
   - >-
     [Functional Programming in Python: built-in
@@ -32,6 +32,9 @@ scores = [1, 0, 4, 5]
 print(list(map(addTwo, scores)))
 # Result: [3,2,6,7]
 ```
+
+
+> 🥳 Today is 5 of your users' birthdays! Will you use a `for` loop or the `map` function to increment their ages?
 
 
 ---
