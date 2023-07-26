@@ -28,7 +28,7 @@ print(list(map(lambda x: x+2, scores)))
 
 The above lambda function adds 2 to each number in our list.
 
-> Remember, in functional programming, functions can take functions. So, instead of a list of data, `map` may take a list of functions, and output a list of new functions. This gives a sense of how versatile and useful the `map` function can be.
+> 💡 Remember, instead of a list of data, `map` may take a list of functions, and output a list of new functions. 
 
 ---
 
