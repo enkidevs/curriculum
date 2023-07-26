@@ -26,7 +26,6 @@ std::cout << number;
 ```
 
 ### double
----
 
 Floating-point numbers (double) are numbers that contain a decimal point.
 ```cpp
