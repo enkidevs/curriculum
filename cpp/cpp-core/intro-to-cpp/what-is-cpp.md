@@ -15,7 +15,7 @@ category: discussion
 
 C++ is a highly efficient, flexible, open-source programming language.
 
-C++ includes features that allow more direct control over the system hardware, making it great for everything from creating operating systems to conducting advanced physics research.
+C++ includes features that allow more direct control over the system hardware, making it great for everything from creating operating systems to conducting advanced physics research!
 
 Here's an example of C++ code:
 ```cpp
@@ -33,7 +33,7 @@ int main() {
 
 ```
 
-> Do not worry if you do not understand the code, we'll dive deeper later on.
+> Don't worry if you don't understand the code, we'll dive deeper later on.
 
 > 💬 Why are you interested in **C++**?
 > 
