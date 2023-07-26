@@ -33,6 +33,7 @@ These issues can make imperative programming[1] hard to work with.
 
 
 [1:Imperative Programming]
-Imperative code specifies each step towards computing a result.
 
-Declarative code specifies the result but not each individual step.
+Imperative and Declarative programming are two paradigms for how people write code.
+
+An easy rule of thumb is that imperative programming specifies **how** (what steps are taken during execution) a program should operate. This is in contrast to declarative languages which focus on **what** is to be computed instead.
