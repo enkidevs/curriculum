@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 tags:
   - introduction
 type: normal
-category: must-know
+category: discussion
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,38 +21,26 @@ revisionQuestion:
 
 ## Content
 
-In PHP, we can have an `if-else` statement inside another `if-else` statement. This is called nesting.
-
-Nested `if-else` statements can be used to perform complex decision making.
+In C++, we can also have an `if-else` statement inside another `if-else` statement. This is called nesting.
 
 Here's a basic example:
-```php
-$age = 20;
+```cpp
+int age = 20;
 
-if($age >= 18){
-  if($age <= 60){
-    echo "You are an adult.";
+if(age >= 18){
+  if(age <= 60){
+    std::cout << "You are an adult." << std::endl;
   }
   else{
-    echo "You are a senior.";
+    std::cout << "You are a senior." << std::endl;
   }
 }
 else{
-  echo "You are not an adult.";
+  std::cout << "You are not an adult." << std::endl;
 }
 ```
 
-In this example, the program first checks if `age` is greater than or equal to 18. 
-
-If true, it enters the next level of the `if` statement and checks if `age` is less than or equal to 60. 
-
-If true, it outputs `"You are an adult."` 
-
-If false, it outputs `"You are a senior."` 
-
-If the first `if` condition is false, it outputs `"You are not an adult."`.
-
-
+> Can you decipher the code? What will happen if `age = 65`?
 
 ---
 

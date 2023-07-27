@@ -13,7 +13,7 @@ category: must-know
 
 ## Content
 
-The flow of a program depends on the order in which individual commands are executed. Control flow statements like the `if` statement allow us to manage the order using conditions.
+Control flow statements, like the `if` statement, allow us to conditionally execute code:
 
 ```cpp
 if (condition) {
@@ -21,17 +21,12 @@ if (condition) {
 }
 ```
 
-The program will only execute the code if the condition has been met.
-
+For example, this if statement checks if a number is positive:
 ```cpp
 int num = 3;
 if (num > 0) {
   cout << num << " is a positive number";
 }
-```
-
-The output of the above is:
-```plain-text
-3 is a positive number
+// 3 is a positive number
 ```
 

@@ -20,11 +20,8 @@ revisionQuestion:
 
 ## Content
 
-Comparison operators can be used to compare various types of data, including numbers, strings, and booleans. 
 
-**C++**'s comparison operators are flexible and can handle different data types appropriately.
-
-Here's a table of comparison operators you can use:
+**C++** includes all the standard comparison operators you would expect:
 
 | Operator |             Name            |
 |:--------:|:---------------------------:|
@@ -36,26 +33,15 @@ Here's a table of comparison operators you can use:
 | >=       | is greater than or equal to |
 
 ```cpp
-int num = 1;
-if (num == 1) { // true
-  std::cout << "num is equal to " << num << std::endl;
-}
-// num is equal to 1
-
 if (num >= 1) { // true
-  std::cout << "num is greater than or equal to " << num << std::endl;
+  std::cout << "num is greater than or equal to 1" << std::endl;
 }
 // num is greater than or equal to 1
 
-if (num < 5) { // true
-  std::cout << "num is less than " << num << std::endl;
+if (num < 5 && num > 0) { // true
+  std::cout << "num is between 0 and 5 " << std::endl;
 }
-// num is less than 5
-
-if (num != 2) { // true
-  std::cout << "num doesn't equal " << num << std::endl;
-}
-// num doesn't equal 2
+// num is between 0 and 5
 
 // ...
 ```
