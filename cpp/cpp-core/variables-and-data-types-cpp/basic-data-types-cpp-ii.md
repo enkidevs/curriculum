@@ -22,17 +22,16 @@ revisionQuestion:
 
 ```cpp
 char letter = 'a';
-printf(letter);
+std::cout << letter;
 // a
 ```
 
-### string
-
-`strings` represent a sequence of characters, such as "hello" or "Enki":
-
+Unfortunately, `string` functionality is not included out of the box, so we first need to import its library:
 ```cpp
+#include <string>;
+
 std::string greeting = "Hello, world!";
-printf(greeting);
+std::cout << greeting;
 // Hello, world!
 ```
 

@@ -22,8 +22,6 @@ revisionQuestion:
 
 ## Content
 
-To run the program, let's first save that to a script file with the `.cpp` extension.
-
 Assuming you named it `hello.cpp`, we can then compile our C++ program with:
 ```bash
 g++ -o helloProgram hello.cpp # For Mac/Linux

@@ -30,3 +30,5 @@ int main() {
 
 // Hello, World!
 ```
+
+Let's first save that to a script file with the `.cpp` extension.

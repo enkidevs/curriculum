@@ -23,28 +23,8 @@ In C++, we can also use the `printf()` function from the C Standard Library to p
 
 ```cpp
 #include <cstdio>
-
-int main() {
-  printf("Hello, world!");
-  return 0;
-}
-```
-
-To print a message and move on to a new line:
-```cpp
-printf("Hello, world!\n");
-printf("Hello, world!\n");
-
-// Hello, world!
-// Hello, world!
-```
-
-If you do not want to move onto a new line, you can remove the `\n`:
-```cpp
 printf("Hello, world!");
-printf("Hello, world!");
-
-// Hello, world!Hello, world!
+// Hello, world!
 ```
 
 To output a value from a variable:
@@ -54,7 +34,6 @@ printf("Stefan is %d years old.", age);
 
 // Stefan is 30 years old.
 ```
-
 
 ---
 ## Practice
