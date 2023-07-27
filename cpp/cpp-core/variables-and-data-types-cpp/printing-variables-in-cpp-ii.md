@@ -19,7 +19,7 @@ revisionQuestion:
 
 ## Content
 
-In C++, we can also use the `printf()` function from the C Standard Library to print[1] messages to the console. This  allows us to format strings in a way similar to placeholders:
+In C++, we can also use the `printf()` function from the C Standard Library to print messages to the console. This  allows us to format strings in a way similar to placeholders:
 
 ```cpp
 #include <cstdio>
@@ -62,8 +62,4 @@ Print a message to the console and add a newline character after the message:
 - `\nextLine`
 
 
----
-## Footnotes
 
-[1: Printing]
-Printing messages in **C++** is useful for debugging and for communicating information to the user.
