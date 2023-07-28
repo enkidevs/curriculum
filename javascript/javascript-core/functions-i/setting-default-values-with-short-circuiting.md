@@ -75,11 +75,14 @@ function title(t) {
 
 ## Practice
 
-"Short circuit" the following code:
+Complete both functions so `shortCirA` and `shortCirB` return `'John Doe'` and `'Jane Doe'` respectively on Undefined. If `name` is defined, then the function should just return the name:
 
 ```javascript
-function shortCir(name){
-  return ??? ??? 'John Doe';
+function shortCirA(name){
+  return ??? || 'John Doe';
+}
+function shortCirB(name){
+  return name ??? 'Jane Doe';
 }
 ```
 
