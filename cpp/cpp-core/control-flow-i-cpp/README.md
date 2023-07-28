@@ -5,7 +5,6 @@ description: Explore C++'s fundamental control flow.
 insights:
   - if-statements-cpp
   - comparison-operators-cpp
-  - comparison-operators-ii
   - if-else-statements-cpp
   - nested-if-else-statements-cpp
 

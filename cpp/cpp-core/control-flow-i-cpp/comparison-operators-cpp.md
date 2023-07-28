@@ -4,6 +4,14 @@ tags:
   - introduction
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Comparison Operators
@@ -24,3 +32,42 @@ category: must-know
 | >        | is greater than             |
 | >=       | is greater than or equal to |
 
+---
+
+## Practice
+
+Finish the code to output "num is greater than or equal to 3" if the condition evaluates to `true`.
+
+```cpp
+int num = 1;
+if (??? ??? 1) { // true
+  std::cout << "num is greater than or equal to " << num;
+}
+// num is greater than or equal to 1
+```
+
+- num
+- >=
+- <=
+- 1
+
+
+---
+
+## Revision
+
+Finish the code to to make the comment true:
+
+```cpp
+int num = 3;
+if (num ??? 2) {
+  std::cout << ??? << num << std::endl;
+}
+// num doesn't equal 2
+
+```
+
+- !=
+- "num doesn't equal "
+- "num equals "
+- ==

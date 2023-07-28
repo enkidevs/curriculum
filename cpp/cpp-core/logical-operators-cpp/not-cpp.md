@@ -72,6 +72,7 @@ if(!a) {
 }
 // Output: ???
 ```
+???
 
-- "a is true"
-- "a is false"
+- "a is true."
+- "a is false."

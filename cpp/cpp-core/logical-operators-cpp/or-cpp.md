@@ -51,6 +51,7 @@ if(a || b) {
 }
 // Output: ???
 ```
+???
 
 - "Either a, b or both a and b are true."
 - "Both a and b is false."
@@ -72,6 +73,7 @@ if(a || b) {
 }
 // Output: ???
 ```
+???
 
 - "Both a and b is false."
 - "Either a, b or both a and b are true."

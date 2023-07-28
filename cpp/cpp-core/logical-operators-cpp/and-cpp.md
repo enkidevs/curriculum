@@ -46,6 +46,7 @@ bool b = false;
 
 bool result = a && b;
 ```
+???
 
 - false
 - true
