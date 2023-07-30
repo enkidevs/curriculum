@@ -75,7 +75,11 @@ function title(t) {
 
 ## Practice
 
-Complete both functions so `shortCirA` and `shortCirB` return `'John Doe'` and `'Jane Doe'` respectively on Undefined. If `name` is defined, then the function should just return the name:
+Complete both functions. 
+
+When `name` is undefined, `shortCirA` and `shortCirB` should return `'John Doe'` and `'Jane Doe'` respectively. 
+
+If `name` is defined, then each function should return the name:
 
 ```javascript
 function shortCirA(name){
