@@ -19,32 +19,19 @@ revisionQuestion:
 
 ## Content
 
-A `while` loop continues executing the code block as long as the condition is true. 
-
-Here's a `while` loop example that prints the numbers from 1 to 5:
+A `while` loop continues executing the code block as long as the condition is true:
 ```cpp
-#include <stdio.h>
-
-int main() {
-  int i = 1;
-  while(i <= 5) {
-    printf("%d\n", i);
+int i = 1;
+while(i <= 5) {
+    printf(i);
     i++;
-  }
-  return 0;
 }
-// Output: 
-// 1
-// 2
-// 3
-// 4
-// 5
+// Output: 12345
 ```
 
 In the example above, the condition `i <= 5` is checked before each iteration. If it's true, the loop continues; otherwise, it stops. 
 
-**Note** that the increment operation `i++` is inside the loop.
-
+> When would you prefer a `while` loop over a `for` loop?
 
 ---
 ## Practice
