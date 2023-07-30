@@ -75,27 +75,26 @@ function title(t) {
 
 ## Practice
 
-Complete both functions. 
+Complete both functions:
 
-When `name` is undefined, `shortCirA` and `shortCirB` should return `'John Doe'` and `'Jane Doe'` respectively. 
+1. When `name` is any falsy value, `getPlanet` should return `'Earth'`.
 
-If `name` is defined, then each function should return the name:
+2. When `name` is `undefined` or `null`, `getGalaxy` should return `'Milky Way'`. 
 
 ```javascript
-function shortCirA(name){
-  return ??? || 'John Doe';
+function getPlanet(name){
+  return name ??? 'Earth';
 }
-function shortCirB(name){
-  return name ??? 'Jane Doe';
+
+function getGalaxy(name){
+  return name ??? 'Milky Way';
 }
 ```
 
-- name
 - ||
+- ??
 - &&
 - ==
-
-
 ---
 
 ## Revision
