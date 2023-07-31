@@ -79,5 +79,5 @@ print(all([" ", 'abc', 12, 145, '']))
 ## Footnotes
 
 [1:Python Truthiness]
-Using the `bool` built-in function, we can check the truthiness of any object in Python. The truthiness rules can be examined at length in the Learn More section. Truthiness can be a useful shortcut when performing operations on non-boolean types.
+Using the `bool` built-in function, we can check the truthiness of any object in Python. The truthiness rules can be examined at length in the Learn More section. 
  
