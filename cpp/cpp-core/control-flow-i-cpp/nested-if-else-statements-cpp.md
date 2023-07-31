@@ -7,7 +7,6 @@ category: discussion
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -40,30 +39,29 @@ else{
 }
 ```
 
-> Can you decipher the code? What will happen if `age = 65`?
-
+> 💬 Can you decipher the code? What will happen if `age = 65`?
 ---
 
 ## Practice
 
 What is the output of the following code?
 
-```php
-$age = 70;
+```cpp
+age = 70;
 
-if($age >= 18){
-  if($age <= 60){
-    echo "You are an adult.";
+if(age >= 18){
+  if(age <= 60){
+    std::cout << "You are an adult.";
   }
   else{
-    echo "You are a senior.";
+   std::cout << "You are a senior.";
   }
 }
 else{
-  echo "You are not an adult.";
+  std::cout << "You are not an adult.";
 }
-// Output: ???
 ```
+???
 
 - You are a senior.
 - You are not an adult.
@@ -75,22 +73,22 @@ else{
 
 What is the output of the following code?
 
-```php
-$age = 15;
+```cpp
+age = 15;
 
-if($age >= 18){
-  if($age <= 60){
-    echo "You are an adult.";
+if(age >= 18){
+  if(age <= 60){
+    std::cout << "You are an adult.";
   }
   else{
-    echo "You are a senior.";
+   std::cout << "You are a senior.";
   }
 }
 else{
-  echo "You are not an adult.";
+  std::cout << "You are not an adult.";
 }
-// Output: ???
 ```
+???
 
 - You are not an adult.
 - You are a senior.

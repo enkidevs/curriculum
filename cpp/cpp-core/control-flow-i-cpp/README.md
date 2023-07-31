@@ -7,6 +7,5 @@ insights:
   - comparison-operators-cpp
   - if-else-statements-cpp
   - nested-if-else-statements-cpp
-
 aspects:
   - introduction

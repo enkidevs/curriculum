@@ -30,7 +30,7 @@ do {
 // Output: 12345
 ```
 
-In the example, the loop will start at 0 `i = 0`, continue as long as `i` is less than 5 `i < 5`, and `i` will increase by 1 each time the loop runs `i++`.
+The loop will start at `i = 0`, increase `i` by 1 each time the loop runs, and continue as long as `i <= 5`.
 
 
 

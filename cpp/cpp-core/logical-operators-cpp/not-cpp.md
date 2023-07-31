@@ -37,7 +37,7 @@ if(!a) {
 
 ## Practice
 
-Finish the code to output 'a is false'?
+Finish the code to output `"a is false"`?
 
 ```cpp
 bool a = false;
@@ -47,13 +47,11 @@ if(???) {
 } else {
   printf("a is true")
 }
-// Output: ???
 ```
 
-- !a
-- "a is false"
-- "a is true"
-- a
+- `!a`
+- `a && !a`
+- `a`
 
 
 ---

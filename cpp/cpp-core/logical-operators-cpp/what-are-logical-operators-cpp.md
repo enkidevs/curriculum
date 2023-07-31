@@ -20,6 +20,6 @@ The logical operators provided by C++ include:
 
 | Operator | Name |
 |:--------:|:----:|
-| &&       | AND  |
-| \|\|     | OR   |
-| !        | NOT  |
+| `&&`     | AND  |
+| `||`     | OR   |
+| `!`      | NOT  |

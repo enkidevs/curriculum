@@ -36,7 +36,7 @@ printf("%d\n", numbers[1]);
 
 ## Practice
 
-Given the `nums` array, use the built-in method to add the number 7 to it:
+Given the `nums` vector, use the built-in method to add the number 7 to it:
 ```cpp
 #include <vector>
 

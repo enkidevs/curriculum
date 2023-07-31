@@ -22,4 +22,4 @@ int numbers[4] = {1, 2, 3, 4};
 
 In this example, `numbers` is an array that can hold 4 integers.
 
-**Note:** Arrays in **C++** are fixed in size. If you need a collection that isn't fixed, you can use `Vectors` (more on this in the next insight).
+> Arrays in **C++** are fixed in size. If you need a collection that isn't fixed, you can use `Vectors` (more on this in the next insight).

@@ -31,8 +31,9 @@ while(i <= 5) {
 
 In the example above, the condition `i <= 5` is checked before each iteration. If it's true, the loop continues; otherwise, it stops. 
 
-> When would you prefer a `while` loop over a `for` loop?
-
+> 💬 When would you prefer a `while` loop over a `for` loop?
+>
+> Leave a comment or view other comments for inspiration before moving on.
 ---
 ## Practice
 

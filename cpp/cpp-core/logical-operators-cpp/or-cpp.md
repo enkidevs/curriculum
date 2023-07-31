@@ -71,7 +71,6 @@ if(a || b) {
 } else {
   printf("Both a and b are false.")
 }
-// Output: ???
 ```
 ???
 

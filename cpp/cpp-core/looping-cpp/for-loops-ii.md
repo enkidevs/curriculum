@@ -22,7 +22,7 @@ revisionQuestion:
 You can also run `for` loops in descending order:
 
 ```cpp
-#include <iostream>
+#include <stdio.h>
 
 int main() {
   for(int i = 10; i >= 1; i--) {

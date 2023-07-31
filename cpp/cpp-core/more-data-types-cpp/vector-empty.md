@@ -17,7 +17,6 @@ category: must-know
 
 Here are some examples:
 ```cpp
-
 std::vector<int> numbers;
 
 printf(numbers.empty);  

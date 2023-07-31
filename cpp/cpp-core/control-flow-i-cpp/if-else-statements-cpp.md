@@ -48,6 +48,8 @@ if (num == 0) {
 }
 ```
 
+???
+
 - num is not zero
 - num is zero
 
@@ -57,7 +59,7 @@ if (num == 0) {
 
 What does the following code snippet print?
 
-```php
+```cpp
 int num = 3;
 if (num < 0) {
   cout << "num is negative";
@@ -65,6 +67,7 @@ if (num < 0) {
   cout << "num is positive";
 }
 ```
+???
 
 - num is positive
 - num is negative

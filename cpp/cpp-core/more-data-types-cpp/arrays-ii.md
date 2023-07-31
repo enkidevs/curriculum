@@ -20,7 +20,7 @@ revisionQuestion:
 
 ## Content
 
-And to access an element in the array, use the index of that element (keep in mind that indexing starts at 0):
+To access an element in the array, use the index of that element (keep in mind that indexing starts at 0):
 ```cpp
 int numbers[5] = {1, 2, 3, 4, 5};
 printf("%d\n", numbers[0]);

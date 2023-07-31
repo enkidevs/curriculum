@@ -13,7 +13,7 @@ A `for` loop is used when we know beforehand how many times we want to execute a
 
 Here's a basic `for` loop that prints the numbers from 1 through 10:
 ```cpp
-#include <iostream>
+#include <stdio.h>
 
 int main() {
   for(int i = 1; i <= 10; i++) {
