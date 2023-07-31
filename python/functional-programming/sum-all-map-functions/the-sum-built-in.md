@@ -37,8 +37,8 @@ For example: [1]
 numbers = [1, 4, 2.5, 2.5]
 print(sum(numbers))
 # result is 10.0
-print(sum(numbers, 10))
-# result is 20.0 
+print(sum(numbers, 3))
+# result is 13.0 (3 + 10.0) 
 ```
 
 ---

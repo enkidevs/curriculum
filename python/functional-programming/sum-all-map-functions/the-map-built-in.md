@@ -23,7 +23,7 @@ The `map` built-in applies a given function to all elements of a given iterable.
 
 This allows us to avoid imperative programming, often resulting in more easily legible code. 
 
-In the functional programming style[1], we can achieve the previous code with:
+In the functional programming style[1], we can achieve the previous code[2] with:
 
 ```python
 def addTwo(x):
@@ -47,7 +47,13 @@ print(list(map(addTwo, scores)))
 [1:Functional Programming]
 Functional programming is declarative, which means it lets us describe the result without needing to specify each step for how to get it.
 
-It's focus is on **what** is to be computed. 
+Its focus is on **what** is to be computed. 
 
 Functional programming reduces a program down into functions applied to immutable data (data that cannot be directly modified).
- 
+
+[2: Imperative Implementation]
+ ```python
+scores = [1, 0, 4, 5]
+for i in range(0, len(scores)):
+  scores[i] = scores[i] + 2
+```
