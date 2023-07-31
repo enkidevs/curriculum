@@ -12,8 +12,7 @@ revisionQuestion:
   context: standalone
 links:
   - >-
-    [map, filter, and
-    reduce](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php){website}
+    [map, filter, and, reduce](http://www.bogotobogo.com/python/python_fncs_map_filter_reduce.php){website}
 ---
 
 # Multiple iterables with map
