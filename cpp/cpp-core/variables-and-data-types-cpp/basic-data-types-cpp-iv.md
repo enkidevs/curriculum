@@ -8,7 +8,7 @@ practiceQuestion:
   context: standalone
 ---
 
-# Basic Data Types (bool)
+# Booleans
 
 ---
 

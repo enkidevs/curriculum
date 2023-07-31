@@ -46,18 +46,19 @@ std::cout << age;
 
 Print a message to the console without adding a newline character after the message:
 ```cpp
-??? << "Hello, world!"
+??? << "Hello, world!";
 ```
 
 - `std::cout`
 - `output`
+- `print`
 
 ---
 ## Revision
 
 Print a message to the console with a newline character after the message:
 ```cpp
-std::cout << "Hello, worlds!\n";
+std::cout << ???;
 ```
 
 - `"Hello, worlds!\n"`

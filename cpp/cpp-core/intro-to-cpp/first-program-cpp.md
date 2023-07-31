@@ -15,7 +15,7 @@ category: must-know
 
 Ready for some code?
 
-It's time to create our first program! Let's create a `"Hello, World!"` one.
+It's time to create our first program! 
 
 `"Hello, World!"` is a simple program that prints the text `"Hello, World!"` to the screen. 
 
@@ -31,4 +31,4 @@ int main() {
 // Hello, World!
 ```
 
-Let's first save that to a script file with the `.cpp` extension.
+Let's save that to a script file with the `.cpp` extension.

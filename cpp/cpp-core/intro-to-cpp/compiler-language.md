@@ -15,7 +15,10 @@ category: must-know
 
 When you write C++ code, it doesn't run directly; instead, it goes through a special translator called a compiler. 
 
-The compiler reads your C++ code, translates it into machine code that your computer can understand, and creates an executable file! 
+The compiler:
+1. Reads your C++ code
+2. Translates C++ into machine code (which your computer can understand)
+3. Creates an executable file! 
 
 Voilà! Your program is ready to party! 🎊
 

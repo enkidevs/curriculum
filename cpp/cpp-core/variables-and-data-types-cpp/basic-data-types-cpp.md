@@ -33,14 +33,14 @@ Here are some basic data types in **C++**:
 ---
 ## Practice
 
-Which of the following is a basic data type in **C++**?
+Which of the following data types should we use for `0.5` in **C++**?
 
 ???
 
+- `double`
 - `int`
-- `array`
 - `class`
-- `vector`
+- `bool`
 
 ---
 ## Revision

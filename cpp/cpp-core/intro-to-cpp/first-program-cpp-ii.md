@@ -27,7 +27,7 @@ Assuming you named it `hello.cpp`, we can then compile our C++ program with:
 g++ -o helloProgram hello.cpp # For Mac/Linux
 g++ -o helloProgram.exe hello.cpp # For Windows
 ```
-This will create an executable called `helloProgram.exe`
+This will create an executable called `helloProgram.exe`.b
 We can then run our compiled C++ code in the console with:
 ```bash
 ./helloProgram # For Mac/Linux

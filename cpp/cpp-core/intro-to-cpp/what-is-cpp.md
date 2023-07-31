@@ -19,18 +19,10 @@ C++ includes features that allow more direct control over the system hardware, m
 
 Here's an example of C++ code:
 ```cpp
-#include<iostream>
-
-int main() {
-    int* ptr = new int;  // dynamically allocate memory
-    *ptr = 10;  // assign value to allocated memory
-
-    std::cout << *ptr; // print value
-
-    delete ptr;  // deallocate memory
-    return 0;
-}
-
+int* ptr = new int;  // dynamically allocate memory
+*ptr = 10;  // assign value to allocated memory
+std::cout << *ptr; // print value
+delete ptr;  // deallocate memory
 ```
 
 > Don't worry if you don't understand the code, we'll dive deeper later on.

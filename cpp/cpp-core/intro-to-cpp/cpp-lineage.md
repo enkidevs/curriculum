@@ -13,7 +13,7 @@ category: must-know
 
 ## Content
 
-If you've worked with C, Java, or C#, the C++ code might look familiar to you.
+If you've worked with C, Java, or C# before, C++ syntax might look familiar to you.
 
 That's because all of these languages are part of one big happy family! 👪
 

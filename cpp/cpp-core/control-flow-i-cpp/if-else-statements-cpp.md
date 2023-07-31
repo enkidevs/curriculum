@@ -23,11 +23,11 @@ revisionQuestion:
 We can extend the `if` statement to include an `else` clause, which will be executed if the condition is not met.
 
 ```cpp
-int num = 1;
-if (num == 0) {
-  cout << "Zero";
+int num = -6;
+if (num >= 0) {
+  cout << "Positive or Zero Number";
 } else {
-  cout << "Positive number";
+  cout << "Negative Number";
 }
 
 // Positive Number
@@ -39,7 +39,7 @@ if (num == 0) {
 
 What does the following code snippet print?
 
-```php
+```cpp
 int num = 3;
 if (num == 0) {
   cout << "num is zero";

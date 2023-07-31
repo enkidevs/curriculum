@@ -21,7 +21,7 @@ if (condition) {
 }
 ```
 
-For example, this if statement checks if a number is positive:
+For example, this `if` statement checks if a number is positive:
 ```cpp
 int num = 3;
 if (num > 0) {

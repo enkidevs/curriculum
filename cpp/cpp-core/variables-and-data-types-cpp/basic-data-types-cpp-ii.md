@@ -12,13 +12,13 @@ revisionQuestion:
   context: standalone
 ---
 
-# Basic Data Types (char, string)
+# Char and String
 
 ---
 
 ## Content
 
-`char` is used to represent a single character, such as 'a', 'Z', '2':
+`char` is used to represent a single character, such as `'a'`, `'Z'`, or `'2'`:
 
 ```cpp
 char letter = 'a';
@@ -40,13 +40,13 @@ std::cout << greeting;
 
 Complete the following code snippet by declaring a `string` variable named `name` and assigning it a value of `"Enki"`.
 
-```csharp
+```cpp
 ??? name = "???";
 ```
 
 - `std::string`
 - `Enki`
-- `enki`
+- `String`
 - `char`
 
 ---
