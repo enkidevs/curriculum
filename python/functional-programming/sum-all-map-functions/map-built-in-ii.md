@@ -23,7 +23,7 @@ links:
 
 We can also pass more than one iterable `input_list` to `map` at once! 
 
-If we have a function that takes multiple parameters, we can iterate through different lists for the parameters in parallel:
+This lets us combine values from each list into a new list. Here's an example of adding two lists of numbers:
 
 ```python
 def add(a,b):
