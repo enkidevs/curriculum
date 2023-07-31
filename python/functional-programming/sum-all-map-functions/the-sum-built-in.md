@@ -87,4 +87,10 @@ print(sum1 if ??? > ??? else sum2)
 
 ## Footnotes
 [1: Why is the result a float?]
-Notice how the result of our `sum` is of type `float` as opposed to `int` since Python automatically converts `float` and `int` addition results to `float`s to avoid loss of precision. This is not specific to `sum` but happens whenever we do arithmetic operations on mixed number types.
+The result of our `sum` is of type `float` because Python automatically converts `float` and `int` addition results to `float`s to avoid loss of precision. 
+
+```py
+2 + 3.0 # 5.0
+```
+
+This is not specific to `sum` but happens whenever we do arithmetic operations on mixed number types.
