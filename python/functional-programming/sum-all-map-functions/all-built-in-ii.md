@@ -37,7 +37,7 @@ This is called *truthiness*[1] in Python. Each type has specific rules regarding
 
 For example:
 - non-zero numbers and non-empty strings will evaluate as `True`. 
-- `0` and `""` will be evaluated as `False`.
+- `0` and `""` will evaluate as `False`.
 
 
 ---
