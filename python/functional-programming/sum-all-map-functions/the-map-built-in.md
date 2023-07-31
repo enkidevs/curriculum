@@ -43,7 +43,9 @@ print(list(map(addTwo, scores)))
 
 
 [1:Functional Programming]
-As explained in the above footnote, functional programming is a type of declarative style, which focus on **what** is to be computed. 
+Functional programming is declarative, which means it lets us describe the result without needing to specify each step for how to get it.
+
+It's focus is on **what** is to be computed. 
 
 Functional programming reduces a program down into functions applied to immutable data (data that cannot be directly modified).
  
