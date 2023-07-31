@@ -4,6 +4,7 @@ tags:
   - introduction
 type: normal
 category: discussion
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -40,6 +41,7 @@ else{
 ```
 
 > 💬 Can you decipher the code? What will happen if `age = 65`?
+
 ---
 
 ## Practice
