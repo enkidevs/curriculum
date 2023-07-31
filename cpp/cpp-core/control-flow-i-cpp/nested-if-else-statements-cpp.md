@@ -60,8 +60,9 @@ if(age >= 18){
 else{
   std::cout << "You are not an adult.";
 }
+// Output: ???
 ```
-???
+
 
 - You are a senior.
 - You are not an adult.
@@ -87,8 +88,9 @@ if(age >= 18){
 else{
   std::cout << "You are not an adult.";
 }
+// Output: ???
 ```
-???
+
 
 - You are not an adult.
 - You are a senior.

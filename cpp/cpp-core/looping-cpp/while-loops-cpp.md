@@ -34,6 +34,7 @@ In the example above, the condition `i <= 5` is checked before each iteration. I
 > 💬 When would you prefer a `while` loop over a `for` loop?
 >
 > Leave a comment or view other comments for inspiration before moving on.
+
 ---
 ## Practice
 
