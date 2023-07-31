@@ -62,9 +62,9 @@ What does the following code snippet print?
 ```cpp
 int num = 3;
 if (num < 0) {
-  cout << "num is negative";
+  std::cout << "num is negative";
 } else {
-  cout << "num is positive";
+  std::cout << "num is positive";
 }
 ```
 ???

@@ -28,7 +28,6 @@ int main() {
     return 0;
 }
 
-// Hello, World!
 ```
 
 Let's save that to a script file with the `.cpp` extension.

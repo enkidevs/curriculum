@@ -43,7 +43,7 @@ Great work! You're well on your way to becoming a C++ master!
 
 Which command is used to run a script file called `hello.cpp` in **C++**?
 
-```cpp
+```bash
 ??? hello.cpp
 ```
 
@@ -55,13 +55,13 @@ Which command is used to run a script file called `hello.cpp` in **C++**?
 ---
 ## Revision
 
-Which function is used to print text to the screen in **C++**?
+Which command is used to run a script file called `hello.cpp` in **C++**?
 
-```r
-???("Hello, World!")
+```bash
+??? hello.cpp
 ```
 
-- `std::cout`
-- `printout`
-- `echo`
-- `display`
+- `g++`
+- `run++`
+- `execute`
+- `c++`
