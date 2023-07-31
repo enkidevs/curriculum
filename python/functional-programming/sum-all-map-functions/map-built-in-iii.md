@@ -34,7 +34,9 @@ The above lambda function adds 2 to each number in our list.
 
 ## Practice
 
-Let's say we have a list, called `promises`. We want to `make_good` on all our promises, where `make_good` is a previously-defined function that takes a string. Fill in the blanks in the code below to apply `make_good` to all elements in `promises`.  
+Let's say we have a list, called `promises`. We want to `make_good` on all our promises, where `make_good` is a previously-defined function that takes a string. 
+
+Fill in the blanks in the code below to apply `make_good` to all elements in `promises`.  
 
 ```python
 promises = ['learn css', 'learn js', 'buy milk', 'be excellent to each other']
