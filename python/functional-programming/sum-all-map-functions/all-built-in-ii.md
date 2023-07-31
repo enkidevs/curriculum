@@ -33,7 +33,7 @@ print(all(["", 'abc']))
 # Result = False
 ```
 
-This is called *truthiness*[1] in Python. Each type has specific rules regarding what boolean value they evaluate as. 
+This is called *truthiness*[1] in Python. Each type has specific rules regarding what boolean value it evaluate as. 
 
 For example:
 - non-zero numbers and non-empty strings will evaluate as `True`. 
