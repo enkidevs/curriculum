@@ -17,19 +17,12 @@ Vectors come with several built-in methods!
 For example, `size()` returns the number of elements in the vector:
 
 ```cpp
-#include <vector>
-#include <cstdio>
+std::vector<int> numbers;
 
-int main() {
-  std::vector<int> numbers;
+printf("Size: %d\n", numbers.size());
+// Output: Size: 0
 
-
-  printf("Size: %d\n", numbers.size());
-  // Output: Size: 0
-
-
-  numbers.push_back(1);
-  printf("Size: %d\n", numbers.size());  
-  // Output: Size: 1
-}
+numbers.push_back(1);
+printf("Size: %d\n", numbers.size());  
+// Output: Size: 1
 ```
