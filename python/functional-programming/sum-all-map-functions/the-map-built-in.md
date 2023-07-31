@@ -35,6 +35,8 @@ print(list(map(addTwo, scores)))
 
 
 > 🥳 Today is 5 of your users' birthdays! Will you use a `for` loop or the `map` function to increment their ages?
+>
+> Leave a comment or view other comments for inspiration before moving on.
 
 
 ---
