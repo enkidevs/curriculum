@@ -19,7 +19,7 @@ revisionQuestion:
 
 ## Content
 
-If you want to print a message and move to a new line, you can use `std::endl` or `\n`:
+If you want to print[1] a message and move to a new line, you can use `std::endl` or `\n`:
 ```cpp
 std::cout << "Hello, world!" << std::endl;
 std::cout << "Hello, worlds!\n";
