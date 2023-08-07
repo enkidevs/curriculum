@@ -19,7 +19,7 @@ They mainly involve boolean values and they return a boolean value as a result.
 The logical operators provided by C++ include:
 
 | Operator | Name |
-|:--------:|:----:|
+|----------|------|
 | `&&`     | AND  |
-| `||`     | OR   |
+| `⎮⎮`     | OR   |
 | `!`      | NOT  |

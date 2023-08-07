@@ -24,7 +24,7 @@ revisionQuestion:
 **C++** includes all the standard comparison operators you would expect:
 
 | Operator |             Name            |
-|:--------:|:---------------------------:|
+|----------|-----------------------------|
 | ==       | is equal to                 |
 | !=       | is not equal to             |
 | <        | is less than                |

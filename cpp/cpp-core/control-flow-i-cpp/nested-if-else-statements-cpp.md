@@ -51,15 +51,15 @@ What is the output of the following code?
 ```cpp
 age = 70;
 
-if(age >= 18){
-  if(age <= 60){
+if(age >= 18) {
+  if(age <= 60) {
     std::cout << "You are an adult.";
   }
-  else{
+  else {
    std::cout << "You are a senior.";
   }
 }
-else{
+else {
   std::cout << "You are not an adult.";
 }
 // Output: ???
@@ -79,15 +79,15 @@ What is the output of the following code?
 ```cpp
 age = 15;
 
-if(age >= 18){
-  if(age <= 60){
+if(age >= 18) {
+  if(age <= 60) {
     std::cout << "You are an adult.";
   }
-  else{
+  else {
    std::cout << "You are a senior.";
   }
 }
-else{
+else {
   std::cout << "You are not an adult.";
 }
 // Output: ???
