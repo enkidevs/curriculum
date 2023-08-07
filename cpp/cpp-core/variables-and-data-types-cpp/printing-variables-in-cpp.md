@@ -13,17 +13,11 @@ revisionQuestion:
 
 ---
 
-# Printing
+# Advanced Printing
 
 ---
 
 ## Content
-
-In C++, we use the `std::cout` along with the insertion operator `<<` to print[1] messages to the console:
-```cpp
-#include <iostream>
-std::cout << "Hello, world!";
-```
 
 If you want to print a message and move to a new line, you can use `std::endl` or `\n`:
 ```cpp

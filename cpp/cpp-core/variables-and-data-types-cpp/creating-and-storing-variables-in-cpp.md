@@ -18,7 +18,7 @@ int x = 5;
 double y = 10.0;
 ```
 
-To access the value of a variable, you can use the `std::cout <<` operator followed by your variable:
+To print the value of a variable, you can use the `std::cout <<` operator followed by your variable:
 ```cpp
 std::cout << x;
 // Outputs: 5

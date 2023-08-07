@@ -26,7 +26,7 @@ std::cout << letter;
 // a
 ```
 
-Unfortunately, `string` functionality is not included out of the box, so we first need to import its library:
+To store sequences of characters, also called *strings*, we first need to import its library:
 ```cpp
 #include <string>;
 
