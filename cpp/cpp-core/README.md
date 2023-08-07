@@ -8,8 +8,8 @@ sections:
   '0':
     - intro-to-cpp
     - first-cpp-program
-    - variables-and-printing
-    - data-types
+    - variables-and-printing-cpp
+    - data-types-cpp
     - control-flow-i-cpp
     - logical-operators-cpp
     - looping-cpp
