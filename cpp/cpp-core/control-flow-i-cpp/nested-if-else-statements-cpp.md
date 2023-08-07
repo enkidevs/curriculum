@@ -27,15 +27,15 @@ Here's a basic example:
 ```cpp
 int age = 20;
 
-if(age >= 18){
-  if(age <= 60){
+if(age >= 18) {
+  if(age <= 60) {
     std::cout << "You are an adult." << std::endl;
   }
-  else{
+  else {
     std::cout << "You are a senior." << std::endl;
   }
 }
-else{
+else {
   std::cout << "You are not an adult." << std::endl;
 }
 ```

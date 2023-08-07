@@ -1,4 +1,4 @@
-name: Variables & Data Types
+name: Variables
 
 description: Learn about variables and printing in C++.
 

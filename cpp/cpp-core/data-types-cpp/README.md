@@ -1,5 +1,4 @@
-name: Variables & Data Types
-
+name: C++
 description: Learn about basic data types in C++.
 
 insights:
