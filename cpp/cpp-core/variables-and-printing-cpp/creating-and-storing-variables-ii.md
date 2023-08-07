@@ -28,12 +28,6 @@ std::cout << a;
 // Outputs: 15
 ```
 
-Note that variables are case-sensitive. These are three different variables:
-```cpp
-int number = 1;
-int nUmber = 1;
-int numbeR = 1;
-```
 
 ---
 ## Practice
