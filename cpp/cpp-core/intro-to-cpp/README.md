@@ -8,9 +8,6 @@ insights:
   - why-learn-cpp
   - cpp-lineage
   - compiler-language
-  - installing-cpp-locally
-  - first-program-cpp
-  - first-program-cpp-ii
 aspects:
   - workout
   - deep

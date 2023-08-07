@@ -7,8 +7,10 @@ core: true
 sections:
   '0':
     - intro-to-cpp
-    - variables-and-data-types-cpp
+    - first-cpp-program
+    - variables-and-printing
+    - data-types
     - control-flow-i-cpp
     - logical-operators-cpp
     - looping-cpp
-    - more-data-types-cpp
+    - vectors-cpp
