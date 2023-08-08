@@ -9,7 +9,8 @@ sections:
     - intro-to-cpp
     - first-cpp-program
     - variables-and-printing-cpp
-    - data-types-cpp
+    - data-types-cpp-i
+    - data-types-cpp-ii
     - control-flow-i-cpp
     - logical-operators-cpp
     - looping-cpp
