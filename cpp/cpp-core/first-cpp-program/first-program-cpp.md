@@ -4,7 +4,14 @@ author: Stefan-Stojanovic
 type: normal
 
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Let's Create Our First Program!
@@ -31,3 +38,25 @@ int main() {
 ```
 
 Let's save that to a script file with the `.cpp` extension.
+
+---
+
+## Practice
+
+C++ code is stored in ??? files
+
+- `.cpp`
+- `.c++`
+- `.cplus`
+- `.csharp`
+
+---
+
+## Revision
+
+C++ code is stored in ??? files
+
+- `.cpp`
+- `.c++`
+- `.cplus`
+- `.csharp`
