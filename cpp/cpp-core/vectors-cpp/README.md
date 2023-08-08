@@ -1,4 +1,4 @@
-name: More Data Types
+name: Vectors
 
 description: Master arrays and vectors in C++!
 

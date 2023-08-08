@@ -1,4 +1,4 @@
-name: C++
+name: Data Types
 description: Learn about basic data types in C++.
 
 insights:
