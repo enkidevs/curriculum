@@ -22,4 +22,4 @@ The compiler:
 
 Voilà! Your program is ready to party! 🎊
 
-> You'll compile your first C++ program at the end of the workout!
+> You'll compile your first C++ program at the end of the next workout!
