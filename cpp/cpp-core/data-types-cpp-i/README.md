@@ -8,5 +8,4 @@ insights:
 
 
 aspects:
-  - workout
-  - deep
+  - introduction

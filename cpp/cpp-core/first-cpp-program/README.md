@@ -7,5 +7,4 @@ insights:
   - first-program-cpp
   - first-program-cpp-ii
 aspects:
-  - workout
-  - deep
+  - introduction

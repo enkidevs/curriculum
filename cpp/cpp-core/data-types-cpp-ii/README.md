@@ -7,5 +7,4 @@ insights:
   - arrays-ii
 
 aspects:
-  - workout
-  - deep
+  - introduction
