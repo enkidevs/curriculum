@@ -8,6 +8,8 @@ insights:
   - or-csharp
   - not-csharp
   - xor-csharp
+  - short-circuits-csharp
+  - short-circuits-csharp-ii
 
 aspects:
   - introduction

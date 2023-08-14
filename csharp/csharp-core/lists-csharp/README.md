@@ -1,10 +1,8 @@
 name: More Data Types
 
-description: Master C# arrays!
+description: Master C# lists!
 
 insights:
-  - arrays-csharp
-  - array-methods-csharp
   - lists-csharp
   - list-methods-csharp
   - for-each-csharp

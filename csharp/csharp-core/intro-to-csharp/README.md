@@ -5,9 +5,10 @@ description: See what C# is all about!
 insights:
   - what-is-csharp
   - why-learn-csharp
-  - installing-csharp-locally
-  - first-program-csharp
+  - how-csharp-works
+  - what-is-dotnet
+  - what-is-xamarin
+  - what-is-blazor
 
 aspects:
-  - workout
-  - deep
+  - introduction
