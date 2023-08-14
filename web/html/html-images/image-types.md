@@ -65,19 +65,11 @@ Match the image category with the most accurate description.
 ??? = best for photographs and other information-dense images.
 ??? = best for Logos, icons, and simple image patterns.
 
-Graphics that are created in the SVG format are defined by?
-
-???
 
 - raster
 - vector
-- XML
-- compound
 - stereo
-- CSS
-- HTML
-- SVX
-- Graphical data
+
 
 
 ---

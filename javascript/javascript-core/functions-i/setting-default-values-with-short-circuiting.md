@@ -75,20 +75,26 @@ function title(t) {
 
 ## Practice
 
-"Short circuit" the following code:
+Complete both functions:
+
+1. When `name` is any falsy value, `getPlanet` should return `'Earth'`.
+
+2. When `name` is `undefined` or `null`, `getGalaxy` should return `'Milky Way'`. 
 
 ```javascript
-function shortCir(name){
-  return ??? ??? 'John Doe';
+function getPlanet(name){
+  return name ??? 'Earth';
+}
+
+function getGalaxy(name){
+  return name ??? 'Milky Way';
 }
 ```
 
-- name
 - ||
+- ??
 - &&
 - ==
-
-
 ---
 
 ## Revision
