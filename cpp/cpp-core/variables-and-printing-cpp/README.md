@@ -11,5 +11,4 @@ insights:
   - printing-variables-in-cpp-ii
 
 aspects:
-  - workout
-  - deep
+  - introduction

@@ -9,5 +9,4 @@ insights:
   - cpp-lineage
   - compiler-language
 aspects:
-  - workout
-  - deep
+  - introduction
