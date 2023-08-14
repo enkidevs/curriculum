@@ -1,6 +1,6 @@
 name: Introduction
 
-description: 
+description: See what C# is all about!
 
 insights:
   - what-is-csharp

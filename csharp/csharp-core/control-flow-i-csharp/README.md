@@ -1,6 +1,6 @@
 name: Control Flow I
 
-description: Explore Csharp's fundamental control flow.
+description: Explore C#'s fundamental control flow.
 
 insights:
   - if-statements-csharp

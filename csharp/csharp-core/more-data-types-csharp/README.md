@@ -1,6 +1,6 @@
 name: More Data Types
 
-description: 
+description: Master C# arrays!
 
 insights:
   - arrays-csharp

@@ -1,5 +1,5 @@
 name: Looping
-description: How to loop
+description: Start using loops in C#!
 insights:
   - what-are-loops-csharp
   - for-loops-csharp

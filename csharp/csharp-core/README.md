@@ -1,6 +1,6 @@
 name: Core
 
-description: 
+description: Learn the basics of C#!
 
 core: true
 
