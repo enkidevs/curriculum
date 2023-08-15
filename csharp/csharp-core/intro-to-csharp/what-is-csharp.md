@@ -15,7 +15,7 @@ category: discussion
 
 **C#** (C-Sharp) is a object-oriented programming language developed by Microsoft. 
 
-One of the standout features of **C#** is its strong emphasis on type-safety, garbage collection, and interoperability.
+It's a versatile language used for Desktop, Mobile, Web, and even Game Development.
 
 Here's an example of C# code where we find out how many pizzas two superheroes ate combined:
 ```csharp
@@ -24,7 +24,7 @@ int batman = 5;
 Console.WriteLine("Together, they ate " + (spiderman + batman) + " pizzas!");
 ```
 
-> Do not worry if you do not understand the code, this is just an example to get you confortable with the syntax. We will dive deeper into it later on.
+> Do not worry if you don't understand the code, we will dive deeper into it later on.
 
 > 💬 Why are you interested in **C#**?
 > 
