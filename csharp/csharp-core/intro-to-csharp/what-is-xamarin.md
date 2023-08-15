@@ -4,7 +4,7 @@ author: Stefan-Stojanovic
 type: normal
 
 category: must-know
-category: must-know
+
 practiceQuestion:
   formats:
     - fill-in-the-gap
