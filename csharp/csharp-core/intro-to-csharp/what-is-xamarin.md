@@ -7,40 +7,37 @@ category: must-know
 
 ---
 
-# What is C-Sharp?
+# What is Xamarin?
 
 ---
 
 ## Content
 
-**C#** (C-Sharp) is a modern, general-purpose, object-oriented programming language developed by Microsoft. It's fully integrated with the **.NET** library, which provides a large range of libraries and frameworks for varied tasks.
+Xamarin is a framework that empowers C# developers to craft cross-platform mobile apps. 
 
-One of the standout features of **C#** is its strong emphasis on type-safety, garbage collection, and interoperability with other languages on the **.NET** platform.
+Using a single C# codebase, Xamarin allows you to develop apps for iOS, Android, and more. 
 
-Here's an example of **C#** properties, which serve as a way of encapsulating instance variables:
-```csharp
-public class Rectangle
-{
-  private double length;
-  private double width;
+It integrates seamlessly with native APIs, ensuring your apps have the look and feel of native applications while leveraging the power and familiarity of C#. 📱
 
-  public double Length
-  {
-    get { return length; }
-    set { length = value; }
-  }
+---
 
-  public double Width
-  {
-    get { return width; }
-    set { width = value; }
-  }
-}
-```
+## Practice
 
-> Do not worry if you do not understand the code, this is just an example to get you confortable with the syntax. We will dive deeper into it later on.
+In the C# ecosystem, you can use ??? to make 3d video games, and ??? to make web applications. 
 
-> 💬 Why are you interested in **C#**?
-> 
-> Leave a comment or view some of the other comments for inspiration before moving on.
+- Unity
+- Blazor
+- Xamarin
+- Flutter
 
+---
+
+## Revision
+
+
+In the C# ecosystem, you can use ??? to make 3d video games, and ??? to make web applications. 
+
+- Unity
+- Blazor
+- Xamarin
+- Flutter

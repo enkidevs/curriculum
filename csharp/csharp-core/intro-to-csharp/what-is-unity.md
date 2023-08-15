@@ -7,40 +7,21 @@ category: must-know
 
 ---
 
-# What is C-Sharp?
+# What is Unity?
 
 ---
 
 ## Content
 
-**C#** (C-Sharp) is a modern, general-purpose, object-oriented programming language developed by Microsoft. It's fully integrated with the **.NET** library, which provides a large range of libraries and frameworks for varied tasks.
+One of C#'s most common purposes is for Game Development! 🎮
 
-One of the standout features of **C#** is its strong emphasis on type-safety, garbage collection, and interoperability with other languages on the **.NET** platform.
+Unity is a powerful game development engine that utilizes C# for scripting. 
 
-Here's an example of **C#** properties, which serve as a way of encapsulating instance variables:
-```csharp
-public class Rectangle
-{
-  private double length;
-  private double width;
+As a C# programmer, you'll use the language to define game mechanics, control character behaviors, and interact with Unity's API. 
 
-  public double Length
-  {
-    get { return length; }
-    set { length = value; }
-  }
+It's a dynamic platform where your C# skills breathe life into 3D and 2D worlds, enabling creative and interactive gaming experiences. 🖥️🚀
 
-  public double Width
-  {
-    get { return width; }
-    set { width = value; }
-  }
-}
-```
-
-> Do not worry if you do not understand the code, this is just an example to get you confortable with the syntax. We will dive deeper into it later on.
-
-> 💬 Why are you interested in **C#**?
+> 💬 Popular games likes Cuphead, Pokemon GO, and Rust were all made with unity! 
+> What's your favorite video game?
 > 
 > Leave a comment or view some of the other comments for inspiration before moving on.
-

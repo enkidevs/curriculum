@@ -1,10 +1,10 @@
-name: Control Flow I
+name: First Program
 
-description: Explore C#'s fundamental control flow.
+description: Write your first C# Program
 
 insights:
-  - if-else-statements-csharp
-  - nested-if-else-csharp
+  - installing-csharp-locally
+  - first-program-csharp
 
 aspects:
   - introduction

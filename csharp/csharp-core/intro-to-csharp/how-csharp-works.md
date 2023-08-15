@@ -4,43 +4,66 @@ author: Stefan-Stojanovic
 type: normal
 
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# What is C-Sharp?
+# How does C# work?
 
 ---
 
 ## Content
 
-**C#** (C-Sharp) is a modern, general-purpose, object-oriented programming language developed by Microsoft. It's fully integrated with the **.NET** library, which provides a large range of libraries and frameworks for varied tasks.
 
-One of the standout features of **C#** is its strong emphasis on type-safety, garbage collection, and interoperability with other languages on the **.NET** platform.
+When you write C# code, it doesn't run directly; instead, it undergoes a transformative process using a compiler.
 
-Here's an example of **C#** properties, which serve as a way of encapsulating instance variables:
-```csharp
-public class Rectangle
-{
-  private double length;
-  private double width;
+The compiler:
 
-  public double Length
-  {
-    get { return length; }
-    set { length = value; }
-  }
+1.  Reads your C# code
+2. Translates C# into Common Intermediate Language (CIL)
+3. When executed, the Just-In-Time (JIT) compiler[1] turns CIL into machine code.
 
-  public double Width
-  {
-    get { return width; }
-    set { width = value; }
-  }
-}
-```
+Voilà! Your program is ready to groove! 🎊
 
-> Do not worry if you do not understand the code, this is just an example to get you confortable with the syntax. We will dive deeper into it later on.
+Next, will dive into some of the most popular tools in the **C#** ecosystem.
 
-> 💬 Why are you interested in **C#**?
-> 
-> Leave a comment or view some of the other comments for inspiration before moving on.
+---
 
+## Practice
+
+The Just-In-Time compiler turns ??? into machine code, which the computer can understand.
+
+- Common Intermediate Language(CIL)
+- C#
+- C++
+- C
+
+---
+
+## Revision
+
+The Just-In-Time compiler turns ??? into machine code, which the computer can understand.
+
+- Common Intermediate Language(CIL)
+- C#
+- C++
+- C
+
+
+---
+
+## Footnotes
+
+[1: Just-In-Time Compiler]
+
+The "Just-In-Time" name indicates the timing of the compilation. 
+ 
+Instead of compiling the entire application's CIL code to machine code at once, the JIT compiler does this "just in time" for execution, converting individual methods or functions as they are called. 
+ 
+This approach has both advantages and disadvantages. One advantage is that the JIT compiler can optimize the machine code for the specific hardware it's running on. However, there's also an initial performance cost due to the time it takes for JIT compilation.

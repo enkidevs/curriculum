@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: must-know
+category: discussion
 
 ---
 
@@ -13,29 +13,15 @@ category: must-know
 
 ## Content
 
-**C#** (C-Sharp) is a modern, general-purpose, object-oriented programming language developed by Microsoft. It's fully integrated with the **.NET** library, which provides a large range of libraries and frameworks for varied tasks.
+**C#** (C-Sharp) is a object-oriented programming language developed by Microsoft. 
 
-One of the standout features of **C#** is its strong emphasis on type-safety, garbage collection, and interoperability with other languages on the **.NET** platform.
+One of the standout features of **C#** is its strong emphasis on type-safety, garbage collection, and interoperability.
 
-Here's an example of **C#** properties, which serve as a way of encapsulating instance variables:
+Here's an example of C# code where we find out how many pizzas two superheroes ate combined:
 ```csharp
-public class Rectangle
-{
-  private double length;
-  private double width;
-
-  public double Length
-  {
-    get { return length; }
-    set { length = value; }
-  }
-
-  public double Width
-  {
-    get { return width; }
-    set { width = value; }
-  }
-}
+int spiderman = 3;
+int batman = 5;
+Console.WriteLine("Together, they ate " + (spiderman + batman) + " pizzas!");
 ```
 
 > Do not worry if you do not understand the code, this is just an example to get you confortable with the syntax. We will dive deeper into it later on.

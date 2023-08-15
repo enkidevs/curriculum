@@ -7,40 +7,19 @@ category: must-know
 
 ---
 
-# What is C-Sharp?
+# What is .NET?
 
 ---
 
 ## Content
 
-**C#** (C-Sharp) is a modern, general-purpose, object-oriented programming language developed by Microsoft. It's fully integrated with the **.NET** library, which provides a large range of libraries and frameworks for varied tasks.
+If you find yourself using **C#**, you'll probably also be using the **.NET** framework.
 
-One of the standout features of **C#** is its strong emphasis on type-safety, garbage collection, and interoperability with other languages on the **.NET** platform.
+Imagine .NET as a toolbox filled with various tools for building software. 
 
-Here's an example of **C#** properties, which serve as a way of encapsulating instance variables:
-```csharp
-public class Rectangle
-{
-  private double length;
-  private double width;
+C# is the skilled craftsman, adept at using these tools. 
 
-  public double Length
-  {
-    get { return length; }
-    set { length = value; }
-  }
+When C# needs to create a button for a desktop application, it picks the appropriate tool from the .NET toolbox. 
 
-  public double Width
-  {
-    get { return width; }
-    set { width = value; }
-  }
-}
-```
-
-> Do not worry if you do not understand the code, this is just an example to get you confortable with the syntax. We will dive deeper into it later on.
-
-> 💬 Why are you interested in **C#**?
-> 
-> Leave a comment or view some of the other comments for inspiration before moving on.
+C# determines the button's behavior, while .NET provides the look and basic functionality. Together, they construct seamless software solutions! 🛠️💻🎉
 
