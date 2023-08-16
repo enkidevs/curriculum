@@ -5,15 +5,6 @@ type: normal
 
 category: must-know
 
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
-  
 ---
 
 # Let's Create Our First Program!
@@ -24,30 +15,18 @@ revisionQuestion:
 
 Ready for some code?
 
-It's time to create our first program!
+Remember, we'll write out code in the `Program.cs` file.
 
-`"Hello, World!"` is a simple program that prints the text `"Hello, World!"` to the screen. It is often used as a starting point when learning a new programming language.
+In **C#**, you can print text to the screen using the `Console.WriteLine` method:
 
-In **C#**, you can print text to the screen using the `Console.WriteLine` method. Here is an example:
-```cpp
-using System;
-
-class Program
-{
-  static void Main()
-  {
-    Console.WriteLine("Hello, World!");
-  }
-}
+```csharp
+Console.WriteLine("Hello, World!");
 // Hello, World!
 ```
 
-To run the program, you can write the code into the **C-Sharp** console, or you can save it to a script file with the `.cs` extension, for instance `hello.cs` and run it using this command in your command line:
-```csharp
-csc hello.cs
-```
+Compiling and Executing our code is as simple as pressing the Run button VSCode!
 
-You should see the text "Hello, World!" printed to the screen.
+If all is working, you should see `"Hello World"` printed to the console!
 
 ---
 ## Practice

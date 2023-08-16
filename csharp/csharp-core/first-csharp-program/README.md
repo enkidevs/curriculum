@@ -3,7 +3,9 @@ name: First Program
 description: Write your first C# Program
 
 insights:
-  - installing-csharp-locally
+  - visual-studio-setup
+  - visual-studio-setup-install
+  - csharp-projects
   - first-program-csharp
 
 aspects:
