@@ -79,6 +79,11 @@ format = '%d %a %b %Y %H:%M:%S'
 # formatted
 print(today.strftime(format))
 # 28 Wed Jun 2017 12:46:33
+
+# formatted using f-strings
+print(f"{today:%d %a %b %Y %H:%M:%S}")
+# 14 Fri Apr 2023 11:47:16
+
 ```
 
 

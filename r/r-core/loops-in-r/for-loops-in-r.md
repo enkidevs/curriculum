@@ -74,7 +74,6 @@ for (word in c("apple", "banana", "cherry")) {
 # ???
 ```
 
-???
 
 - `"apple"`
 - `"banana"`

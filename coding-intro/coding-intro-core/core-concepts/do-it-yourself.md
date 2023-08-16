@@ -8,7 +8,9 @@ category: coding
 setupCode:
   startingPoint: |
     # Who did you meet today?
+    # Replace the ??? with your values
     # Note: One of the print statements has an error!
+    
     name = "???"
     age = ???
   
@@ -38,8 +40,26 @@ Recall the following concepts:
 
 Don't worry too much about understanding every part of the code; see if you can solve it as is, but things will become clearer as you go along.
 
-> 💡 The [comments](https://enki.com/glossary/general/comment) might help you find what's wrong.
+> 💡 The comments[1] might help you find what's wrong.
 
 Give it an honest try, and feel free to share your solution!
 
 😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
+
+---
+## Footnotes
+
+[1: Comments]
+Comments are used to explain the code. They do not have any effect on the execution. Depending on the programming language, there are multiple ways to create a *comment*:
+
+```py
+# I am a Python comment!
+```
+
+```js
+// I am a JavaScript comment!
+```
+
+```html
+<!-- I am an HTML comment! -->
+```

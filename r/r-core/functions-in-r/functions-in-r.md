@@ -68,7 +68,7 @@ print(result)
 ---
 ## Practice
 
-Which of the following is **NOT** a way to define a function in **R**?
+Which of the following is the correct way to define a function in **R**?
 
 ???
 
@@ -82,9 +82,11 @@ Which of the following is **NOT** a way to define a function in **R**?
 
 Which function can be used to specify the value that a function should return in **R**?
 
-???
+```r
+???()
+```
 
-- `return()`
-- `result()`
-- `output()`
-- `value()`
+- `return`
+- `result`
+- `output`
+- `value`

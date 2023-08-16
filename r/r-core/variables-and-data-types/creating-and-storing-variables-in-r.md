@@ -39,9 +39,9 @@ print(y)
 
 You can also use the `assign()` function to create and store a variable:
 ```r
-assign("z", c(x, y))
+assign("z", 6)
 print(z)
-# 5 10
+# 6
 ```
 
 Or you can create variables using other variables:

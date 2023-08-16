@@ -62,7 +62,7 @@ ls -t | tail -n3
 
 The flag of `tail` that will make it keep printing lines as they are appended to a file is ???.
 
-- -f
-- -a
-- -n
-- -r
+- `-f`
+- `-a`
+- `-n`
+- `-r`

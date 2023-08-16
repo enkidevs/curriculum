@@ -9,8 +9,8 @@ tags:
   - workout
 links:
   - >-
-    [15 Common JavaScript
-    Gotchas](http://www.standardista.com/javascript/15-common-javascript-gotchas/){website}
+    [Common JavaScript
+    Gotchas](https://www.digitalocean.com/community/tutorials/js-gotchas){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

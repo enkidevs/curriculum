@@ -89,9 +89,9 @@ List all the tags for a package:
 npm ??? ??? [<pkg>]
 ```
 
-- dist-tag
-- ls
-- rm
-- --tag
-- add
-- tags
+- `dist-tag`
+- `ls`
+- `rm`
+- `--tag`
+- `add`
+- `tags`

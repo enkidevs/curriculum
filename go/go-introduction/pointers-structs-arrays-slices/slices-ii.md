@@ -62,14 +62,13 @@ fmt.Println("length=", len(num))
 fmt.Println("capacity=", cap(num))
 // capacity= 6 
 
-num = num[:5]
+num = num[3:]
 fmt.Println(num)
-// [2 4 8 16 32]
+// [16 32 64]
 fmt.Println("length=", len(num))
-// length= 5
+// length= 3
 fmt.Println("capacity=", cap(num))
-// capacity= 6
-
+// capacity= 3
 ```
 
 

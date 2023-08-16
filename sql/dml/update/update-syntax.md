@@ -35,7 +35,7 @@ WHERE
   condition;
 ```
 
-The first thing to do is tell SQL which table it should upload by writing `UPDATE table_name`.
+The first thing to do is tell SQL which table it should update by writing `UPDATE table_name`.
 
 Using the `SET` keyword, you tell SQL which **columns' value** it should update, and the updated value.
 

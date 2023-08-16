@@ -3,11 +3,10 @@ author: catalin
 type: normal
 category: must-know
 links:
-  - '[Forms](https://reactjs.org/docs/forms.html){website}'
+  - '[Forms](https://react.dev/reference/react-dom/components#form-components){website}'
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -131,7 +130,7 @@ ReactDOM.render(
 - `setState`
 - `value`
 - `onChange`
-- `e`
+- `(e)`
 - `handle`
 - `handleChange`
 - `state`

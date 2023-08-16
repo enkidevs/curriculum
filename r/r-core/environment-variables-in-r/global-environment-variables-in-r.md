@@ -85,9 +85,11 @@ Which of the following is **NOT** a way to list all objects in the global enviro
 
 What function can be used to remove a global environment variable?
 
-???
+```r
+???()
+```
 
-- `rm()`
-- `delete()`
-- `remove()`
-- `erase()`
+- `rm`
+- `delete`
+- `remove`
+- `erase`

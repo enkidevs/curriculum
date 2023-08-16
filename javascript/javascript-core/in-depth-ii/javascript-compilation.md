@@ -59,7 +59,7 @@ Find the variable scopes in the following code:
 
 ```javascript
 var flag = true; 
-// flag is ???
+// flag is in ???
 
 function test() {
    var x;

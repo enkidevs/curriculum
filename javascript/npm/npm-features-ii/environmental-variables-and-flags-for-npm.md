@@ -88,15 +88,15 @@ In `package.json`, define a script that runs `node index.js`. Add to it the `--h
 }
 ```
 
-- API_KEY
-- abc
-- node
-- index.js
-- --harmony
-- add
-- run
-- scripts
-- npm
-- --har
-- -h
-- "abc"
+- `API_KEY`
+- `abc`
+- `node`
+- `index.js`
+- `--harmony`
+- `add`
+- `run`
+- `scripts`
+- `npm`
+- `--har`
+- `-h`
+- `"abc"`

@@ -48,11 +48,6 @@ Types of change:
 
 ### Fixed
 
-## March 8th 2023
-
-### Added
-- [Lua - Topic - Add lua](https://github.com/enkidevs/curriculum/pull/3167)
-
 ## March 7th 2023
 
 ### Added
@@ -60,6 +55,11 @@ Types of change:
 
 ### Fixed
 - [R - Topic - Refference missing workout in readme](https://github.com/enkidevs/curriculum/pull/3174) 
+
+## March 7th 2023
+
+### Fixed
+- [SQL - Joins Role - Update Tables](https://github.com/enkidevs/curriculum/pull/3173)
 
 ## March 6th 2023
 
@@ -468,6 +468,8 @@ Types of change:
 ### Changed
 - [Html - Link Relative Paths - Change part of PQ as it wasn't worder properly](https://github.com/enkidevs/curriculum/pull/2985)
 - [Python - Format Text Paragraphs With Textwrap - Make the fill method more clear](https://github.com/enkidevs/curriculum/pull/2981)
+- [Python - Classes III - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2994)
+- [Python - Advanced Referencing - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2989)
 - [Python - Python Recipes - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/3009)
 - [Python - Is Your Python Healthy - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces](https://github.com/enkidevs/curriculum/pull/2999)
 - [Python - Memory Allocation - Move single-line commands to a single line, update indentation in codeblocks from 4 to 2 spaces, grammar improvements](https://github.com/enkidevs/curriculum/pull/3002)

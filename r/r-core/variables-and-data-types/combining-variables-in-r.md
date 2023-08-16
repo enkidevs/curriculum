@@ -43,8 +43,8 @@ print(matrix1)
 matrix2 <- cbind(z, y)
 print(matrix2)
 #      z  y
-# [1,] 5 10
-# [2,]10 10
+#      z  y
+# [1,] 10 10
 ```
 
 Alternatively, you can use the `rbind()` function to combine variables vertically (i.e., one on top of the other) into a matrix. For example:

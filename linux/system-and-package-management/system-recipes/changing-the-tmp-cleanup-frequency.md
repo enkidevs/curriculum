@@ -72,7 +72,7 @@ The default `TMPTIME`  (which clears tmp directory after every reboot) value is
 
 ??? .
 
-- 0
-- -1
-- 1
-- 7
+- `0`
+- `-1`
+- `1`
+- `7`

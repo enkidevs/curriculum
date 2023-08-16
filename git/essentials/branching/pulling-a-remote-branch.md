@@ -86,7 +86,7 @@ git pull -a
 
  ???
 
-- --append
-- --amend
-- --all
-- --autostash
+- `--append`
+- `--amend`
+- `--all`
+- `--autostash`

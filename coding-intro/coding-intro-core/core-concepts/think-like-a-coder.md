@@ -1,12 +1,9 @@
 ---
 author: abdullah
 
-tags:
-  - discussion
-
 type: normal
 
-category: must-know
+category: discussion
 
 ---
 
@@ -25,11 +22,11 @@ You could make a function, `pick_coins`, with five commands and use it three tim
 
 ```python
 def pick_coins():
-  # Grab the first coin
-  # Grab the second coin
-  # Grab the third coin
-  # Grab the fourth coin
-  # Grab the fifth coin
+  grab_1st_coin()
+  grab_2nd_coin()
+  grab_3rd_coin()
+  grab_4th_coin()
+  grab_5th_coin()
 
 pick_coins()
 pick_coins()
@@ -44,4 +41,4 @@ Maybe you could put a loop inside `pick_coins` to repeat the grab coin command 1
 
 There has to be a better way! What else can we do?
 
-Can we put a loop inside another loop? A [loop-de-loop](https://www.youtube.com/watch?v=Yhnx1q1_Bko&ab_channel=TheFabulousEchoes-Topic)? Could that solve our problem? 
+> 💬 Can we put a loop inside another loop? A [loop-de-loop](https://www.youtube.com/watch?v=Yhnx1q1_Bko&ab_channel=TheFabulousEchoes-Topic)? Could that solve our problem? 

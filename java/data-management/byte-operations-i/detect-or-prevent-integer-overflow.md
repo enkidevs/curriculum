@@ -51,10 +51,10 @@ If the `byte` type occupies 1 byte of data and has a range from *-128 to 127* (-
 
 ???
 
-- -2^15 to 2^15–1
-- -2^13 to 2^13–1
-- -2^18 to 2^18
-- -2^8 to 2^8–1
+- `-2^15 to 2^15–1`
+- `-2^13 to 2^13–1`
+- `-2^18 to 2^18`
+- `-2^8 to 2^8–1`
 
 
 ---

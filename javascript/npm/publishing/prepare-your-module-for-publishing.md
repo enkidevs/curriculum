@@ -74,17 +74,17 @@ How would you publish **publicly** your scoped npm package?
 npm ??? ??? ??? ???
 ```
 
-- publish
-- --access
-- =
-- public
-- private
-- allow
-- open
-- ssl
-- pub
-- install
-- &&
+- `publish`
+- `--access`
+- `=`
+- `public`
+- `private`
+- `allow`
+- `open`
+- `ssl`
+- `pub`
+- `install`
+- `&&`
 
 
 ---

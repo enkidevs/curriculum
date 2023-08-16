@@ -34,6 +34,8 @@ paste(z, sep = ":", collapse = ", ")
 # "red:green, blue"
 ```
 
+**Note:** The `collapse` argument in `paste()` is used to combine the elements of a vector into a single string, while the `sep` argument is used to specify the separator between the elements being concatenated together, i.e., `sep` separates the entries within the concatenated pairs.
+
 Finally, you can use the `quote` argument to specify whether or not to surround the output with quotation marks:
 
 ```r
@@ -54,8 +56,8 @@ paste(z, ??? = ", ")
 # "red, green, blue"
 ```
 
-- `sep`
 - `collapse`
+- `sep`
 - `quote`
 - `combine`
 

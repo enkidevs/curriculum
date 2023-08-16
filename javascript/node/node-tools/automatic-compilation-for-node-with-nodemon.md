@@ -60,11 +60,11 @@ Which flag must be used to enable debugging?
 
 ???
 
-- --debug
-- debug
-- -debug
-- debugging
-- --debugger
+- `--debug`
+- `debug`
+- `-debug`
+- `debugging`
+- `--debugger`
 
 
 ---
@@ -75,8 +75,8 @@ Which flag must be used to enable debugging?
 
 ???
 
-- --debug
-- debug
-- -debug
-- debugging
-- --debugger
+- `--debug`
+- `debug`
+- `-debug`
+- `debugging`
+- `--debugger`
