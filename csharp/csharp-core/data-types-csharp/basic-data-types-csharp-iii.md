@@ -27,7 +27,7 @@ Console.WriteLine(letter);
 ```
 
 ### string
----
+
 
 A `string` type represents a sequence of characters, such as "Hello, world" or "Enki":
 

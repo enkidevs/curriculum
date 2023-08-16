@@ -4,7 +4,9 @@ description: Master C# arrays!
 
 insights:
   - arrays-csharp
-  - array-methods-csharp
+  - arrays-csharp-ii
+  - arrays-csharp-iii
+  - array-length-csharp
 
 
 aspects:

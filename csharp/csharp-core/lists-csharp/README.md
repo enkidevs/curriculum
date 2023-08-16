@@ -1,10 +1,13 @@
-name: More Data Types
+name: Lists
 
 description: Master C# lists!
 
 insights:
   - lists-csharp
-  - list-methods-csharp
+  - lists-csharp-ii
+  - list-csharp-count
+  - list-csharp-remove
+  - list-csharp-contains
 
 
 aspects:

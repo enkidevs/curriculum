@@ -20,7 +20,7 @@ revisionQuestion:
 
 
 ### int 
----
+
 
 
 Integers are whole numbers such as `1`, `2`, `-30`, `9999`:
@@ -31,7 +31,7 @@ Console.WriteLine(number);
 ```
 
 ### double
----
+
 
 The `double` type represents floating-point numbers, which is any number that contains a decimal point.
 ```cpp
