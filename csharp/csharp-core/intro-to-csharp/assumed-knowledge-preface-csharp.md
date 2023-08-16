@@ -13,6 +13,8 @@ category: must-know
 
 ## Content
 
+Hi there
+
 Ready for a thrilling dive into C#? 
 
 It's a fan favorite for making everything from video games to web apps!
