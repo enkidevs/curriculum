@@ -29,7 +29,7 @@ Console.WriteLine(letter);
 ### string
 ---
 
-A `string` type represents a sequence of characters, such as "Hello, world" or "Enki".
+A `string` type represents a sequence of characters, such as "Hello, world" or "Enki":
 
 ```csharp
 string greeting = "Hello, world!";

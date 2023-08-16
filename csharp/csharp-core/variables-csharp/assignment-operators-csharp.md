@@ -18,9 +18,8 @@ revisionQuestion:
 
 ## Content
 
-In C#, assignment operators are used to assign values to variables.
+In C#, assignment operators are used to assign values to variables:
 
-The most common assignment operator is the = operator, which is used to assign a value to a variable:
 ```csharp
 int x = 3;
 int y = 15;
@@ -37,14 +36,8 @@ C# also includes compound assignment operators such as `+=`, `-=`, `*=`, and `/=
 // equivalent to x = x + 5
 x += 5;
 
-Console.WriteLine(x); 
-// Outputs: 8
-
 // equivalent to y = y / 3
 y /= 3;
-
-Console.WriteLine(y);
-// Outputs: 5
 ```
 
 ---
@@ -64,7 +57,7 @@ Which operator is used to assign a value to a variable in **C#**?
 
 Which of these variables uses the recommended way of assigning values in **C#**?
 
-```r
+```csharp
 int x = 10;
 y = 2;
 ```

@@ -26,7 +26,6 @@ To also move to a new line after printing, you can use the `Console.WriteLine()`
 Console.WriteLine("Hello, world!");
 ```
 
-
 To output a value from a variable you can do:
 ```csharp
 int num = 5;

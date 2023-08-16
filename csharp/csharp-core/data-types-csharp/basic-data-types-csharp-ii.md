@@ -12,7 +12,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Basic Data Types (int & double)
+# int & double
 
 ---
 
@@ -22,7 +22,8 @@ revisionQuestion:
 ### int 
 ---
 
-The `int` data type represents any whole number (integers), such as 1, 2, 3, 10, 1000, 999999.
+
+Integers are whole numbers such as `1`, `2`, `-30`, `9999`:
 ```cpp
 int number = 10;
 Console.WriteLine(number);
