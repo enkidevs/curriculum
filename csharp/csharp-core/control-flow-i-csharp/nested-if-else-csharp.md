@@ -22,8 +22,6 @@ revisionQuestion:
 
 In C#, we can have an `if-else` statement inside another `if-else` statement. This is called nesting.
 
-Nested `if-else` statements can be used to perform complex decision making.
-
 Here's a basic example:
 
 ```csharp
@@ -44,15 +42,7 @@ else{
 // You are an adult
 ```
 
-In this example, the program first checks if `age` is greater than or equal to `18`.
-
-If true, it enters the next level of the `if` statement and checks if age is less than or equal to 60.
-
-If true, it outputs `"You are an adult."`
-
-If false, it outputs `"You are a senior."`
-
-If the first `if` condition is false, it outputs `"You are not an adult."`.
+> 💬 Can you decipher the code? What will happen if `age = 65`?
 
 ---
 

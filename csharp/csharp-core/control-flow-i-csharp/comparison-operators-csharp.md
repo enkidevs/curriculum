@@ -20,11 +20,7 @@ revisionQuestion:
 
 ## Content
 
-Comparison operators can be used to compare various types of data, including numbers, strings, and booleans. 
-
-**C++**'s comparison operators are flexible and can handle different data types appropriately.
-
-Here's a table of comparison operators you can use:
+**C#** includes all the standard comparison operators you would expect:
 
 | Operator |             Name            |
 |:--------:|:---------------------------:|
@@ -35,32 +31,6 @@ Here's a table of comparison operators you can use:
 | >        | is greater than             |
 | >=       | is greater than or equal to |
 
-```cpp
-int num = 1;
-
-if (num == 1) { // true
-  Console.WriteLine("num is equal to " + num);
-}
-// Output: num is equal to 1
-
-if (num >= 1) { // true
-  Console.WriteLine("num is greater than or equal to " + num);
-}
-// Output: num is greater than or equal to 1
-
-if (num < 5) { // true
-  Console.WriteLine("num is less than " + num);
-}
-// Output: num is less than 5
-
-if (num != 2) { // true
-  Console.WriteLine("num doesn't equal " + num);
-}
-// Output: num doesn't equal 2
-
-// ...
-```
-
 
 ---
 
@@ -68,7 +38,7 @@ if (num != 2) { // true
 
 Finish the code to output "num is greater than or equal to 3" if the condition evaluates to `true`.
 
-```php
+```csharp
 int num = 3;
 if (??? ??? 3) { // true
   Console.WriteLine("num is greater than or equal to " + num);
@@ -88,7 +58,7 @@ if (??? ??? 3) { // true
 
 Finish the code to to make the comment true:
 
-```php
+```csharp
 int ??? = 3;
 if (num ??? 2) {
   Console.WriteLine("num doesn't equal " + num);

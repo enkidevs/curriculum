@@ -4,89 +4,32 @@ tags:
   - introduction
 type: normal
 category: must-know
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
 ---
 
-# OR (||) operator
+# Short Circuiting
 
 ---
 
 ## Content
 
-The `||` operator, also known as the logical `OR` operator, is used to perform a logical disjunction on two boolean expressions.
+In C#, the `||` (OR) and `&&` (AND) operators utilize short-circuiting. 
 
-If at least one of the expressions evaluates to true, the whole expression evaluates to true. Only if both expressions evaluate to false, does the whole expression evaluate to false.
+With short-circuiting, if the first condition is sufficient to determine the overall result, the second condition won't be evaluated. 
 
-Here's an examples:
+For instance, in a condition using ||, if the first operand is true, it doesn't evaluate the second operand:
 ```csharp
-bool a = true;
-bool b = false;
-
-if(a || b)
+if (true || SomeMethod())
 {
-  Console.WriteLine("At least one of the variables is true.");
+    // SomeMethod() won't be called.
 }
-else
-{
-  Console.WriteLine("Both variables are false.");
-}
-// Output: "At least one of the variables is true."
 ```
 
-
----
-
-## Practice
-
-Fill in the code with the appropriate OR operator to match the output.
+Similarly, for &&, if the first operand is false, the second one is skipped:
 
 ```csharp
-bool a = ???;
-bool b = false;
-
-if(a ??? b)
+if (false && SomeMethod())
 {
-  Console.WriteLine("At least one of the variables is true.");
+    // SomeMethod() won't be called.
 }
-else
-{
-  Console.WriteLine("Both variables are false.");
-}
-// Output: At least one of the variables is true.
 ```
 
-- `true`
-- `||`
-- `false`
-- `!`
-
----
-
-## Revision
-
-What is the output of the following code?
-
-```csharp
-bool a = false;
-bool b = false;
-
-if(a || b)
-{
-  Console.WriteLine("At least one of the variables is true.");
-}
-else
-{
-  Console.WriteLine("Both variables are false.");
-}
-// Output: ???
-```
-
-- Both variables are false.
-- Either a, b or both variables are true.

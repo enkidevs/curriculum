@@ -19,12 +19,9 @@ revisionQuestion:
 
 ## Content
 
-The `while` loop is used when you want to repeat a block of code an unknown number of times until a condition is met.
+A `while` loop continues executing the code block as long as the condition is true:
 
-Here's an example of a `while` loop:
-
-Example:
-```php
+```csharp
 int i = 0;
 
 while(i < 5)
@@ -42,7 +39,7 @@ This loop will print the numbers from `0` to `4`. It will continue to run as lon
 
 Fill in the blank to output the numbers 1 to 10:
 
-```php
+```csharp
 int i = 0;
 
 (i ???)
@@ -62,7 +59,7 @@ int i = 0;
 
 Fill in the blank to output the numbers 1 to 5:
 
-```php
+```csharp
 int i = 0;
 
 (i ???)

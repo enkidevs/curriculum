@@ -20,11 +20,9 @@ revisionQuestion:
 
 ## Content
 
-The `!` operator, also known as the logical `NOT` operator, is used to invert the value of a boolean expression. 
+The `!` operator returns the inverse of the operand's boolean value. If the operand is true, it returns false, and vice versa:
 
-If the expression is true, `!` will make it false, and vice versa.
 
-Here's an example:
 ```cpp
 bool a = true;
 
@@ -39,7 +37,6 @@ else
 // Output: "a is true."
 ```
 
-In the example above, `!a` is `false`, because it reverses the original `a` that is `true`. Therefore, the else block executes.
 
 ---
 

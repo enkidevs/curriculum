@@ -12,7 +12,7 @@ category: must-know
 
 ## Content
 
-The flow of a program depends on the order in which individual commands are executed. Control flow statements like the `if` statement allow us to manage the order using conditions.
+Control flow statements, like the `if` statement, allow us to conditionally execute code:
 
 ```csharp
 if (condition) {
@@ -20,12 +20,12 @@ if (condition) {
 }
 ```
 
-The program will only execute the code if the condition has been met.
+For example, this `if` statement checks if a number is positive:
 
 ```csharp
 int num = 3;
 if (num > 0) {
   Console.WriteLine(num + " is a positive number");
 }
+// 3 is a positive number
 ```
-The code above will print '3 is a positive number'.

@@ -17,10 +17,12 @@ revisionQuestion:
 ---
 
 ## Content
+A `do-while` loop is similar to a `while` loop, but with a crucial difference:
 
-The `do-while` loop is similar to the `while` loop, but the difference is that the `do-while` loop will execute the block of code at least once, and then it will repeat the loop as long as the condition is true.
+The code block is executed at least once, regardless of the condition. 
 
-Here's an example:
+Only after the code block is executed, the condition is checked. If it's true, the loop continues; otherwise, it stops:
+
 ```csharp
 int i = 0;
 

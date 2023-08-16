@@ -17,7 +17,11 @@ revisionQuestion:
 ---
 ## Content
 
-The `for` loop is used when you know in advance how many times the script should run. It is defined with three parameters: the initialization, the condition, and the increment.
+A `for` loop is used when we know beforehand how many times we want to execute a block of code.
+It is defined with three parameters: 
+1. The initialization
+2. The condition
+3. The increment.
 
 Here's an example of a `for` loop:
 

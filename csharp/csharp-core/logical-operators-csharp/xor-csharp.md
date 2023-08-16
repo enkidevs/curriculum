@@ -40,8 +40,6 @@ else
 // Output: "Exactly one of a or b is true."
 ```
 
-In the example above, since exactly one of `a` or `b` is true, the `if` block executes.
-
 ---
 
 ## Practice
