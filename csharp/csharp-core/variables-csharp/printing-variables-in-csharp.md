@@ -55,9 +55,3 @@ Print a message to the console and move to a new line:
 
 - `Console.WriteLine`
 - `Console.Write`
-
----
-## Footnotes
-
-[1: Printing]
-Printing messages in **C#** is useful for debugging and for communicating information to the user.
