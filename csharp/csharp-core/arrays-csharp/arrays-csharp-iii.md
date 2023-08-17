@@ -12,7 +12,7 @@ category: must-know
 
 ## Content
 
-We can also reassign values of an array directly::
+We can also reassign values of an array directly:
 ```csharp
 int[] numbers = new int[] {1, 2, 3, 4, 5};
 Console.WriteLine(numbers[0]);  

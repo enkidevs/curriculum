@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-The `char` type represents a single character, such as 'a', `z` or '9':
+The `char` type represents a single character, such as `'a'`, `'z'` or `'9'`:
 
 ```csharp
 char letter = 'a';
@@ -48,7 +48,6 @@ Complete the following code snippet by declaring a `string` variable named `name
 
 - `string`
 - `Enki`
-- `enki`
 - `char`
 
 ---
@@ -62,5 +61,4 @@ Complete the following code snippet by declaring a `char` variable named `c` and
 
 - `char`
 - `A`
-- `a`
 - `string`

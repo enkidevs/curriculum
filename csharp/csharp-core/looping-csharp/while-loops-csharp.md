@@ -42,7 +42,7 @@ Fill in the blank to output the numbers 1 to 10:
 ```csharp
 int i = 0;
 
-(i ???)
+???(i ???)
 {
   Console.WriteLine(i);
   i++;

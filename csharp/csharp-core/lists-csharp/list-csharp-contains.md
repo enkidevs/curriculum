@@ -46,15 +46,16 @@ Given the `nums` array:
 List<int> nums = new List<int>();
 ```
 
-Fill in the code to add 13 to it:
+Fill in the code to add 13 to it then check if it has that value:
 ```csharp
 ???.???(13);
+Console.WriteLine("Has 13: " + numbers.(13));
 ```
 
 - nums
 - Add
-- push
-- numbers
+- Contains
+- has
 
 ---
 

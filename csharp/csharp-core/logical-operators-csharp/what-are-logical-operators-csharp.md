@@ -20,7 +20,7 @@ The logical operators provided by **C#** include:
 
 | Operator | Name |
 | :------: | :--: |
-|    &&    | AND  |
-|   \|\|   |  OR  |
-|    ^     | XOR  |
-|    !     | NOT  |
+|    `&&`    | AND  |
+|   `⎮⎮`   |  OR  |
+|    `^`     | XOR  |
+|    `!`     | NOT  |

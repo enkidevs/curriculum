@@ -33,7 +33,7 @@ Console.WriteLine(numbers[0]);
 
 ## Practice
 
-Given the `nums` array:
+Given the `nums` list:
 
 ```csharp
 List<int> nums = new List<int>();

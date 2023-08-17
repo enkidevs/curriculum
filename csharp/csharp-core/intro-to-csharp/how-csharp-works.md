@@ -25,9 +25,9 @@ When you write C# code, it doesn't run directly; instead, it undergoes a transfo
 
 The compiler:
 
-1.  Reads your C# code
-2. Translates C# into Common Intermediate Language (CIL)
-3. When executed, the Just-In-Time (JIT) compiler[1] turns CIL into machine code.
+-  Reads your C# code
+- Translates C# into Common Intermediate Language (CIL)
+- When executed, the Just-In-Time (JIT) compiler[1] turns CIL into machine code.
 
 Voilà! Your program is ready to groove! 🎊
 

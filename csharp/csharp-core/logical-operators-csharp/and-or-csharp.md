@@ -20,37 +20,30 @@ revisionQuestion:
 
 ## Content
 
-The `&&` operator returns true if both operands are true. Otherwise, it returns false:
+The `&&` operator returns true if both operands are true:
 
 ```csharp
-bool a = true;
-bool b = true;
-
-if(a && b)
+if(true && false)
 {
-  Console.WriteLine("Both a and b are true.");
+  // This won't execute
 }
-// Output: ""Both a and b are true.."
 ```
 
 ## OR
 The `||` operator returns true if at least one of the operands is true. If both are false, it returns false:
 
 ```csharp
-bool a = true;
-bool b = false;
-
-if(a || b)
+if(true && false)
 {
-  Console.WriteLine("At least one of the variables is true.");
+  // This will execute
 }
-// Output: "At least one of the variables is true."
 ```
 
 ---
 
 ## Practice
 
+What will this code block output?
 
 ```csharp
 bool a = true;

@@ -24,18 +24,15 @@ We can remove the first occurance of an element using `.Remove(element)`, or rem
 
 ```csharp
 List<int> numbers = new List<int>();
-numbers.Add(1);
-Console.WriteLine("Count: " + numbers.Count);
-// Output: Count: 1
-
-numbers.Remove(1);
-Console.WriteLine("Count: " + numbers.Count);
-// Output: Count: 0
 
 numbers.Add(1);
 numbers.Add(3)
 Console.WriteLine("Count: " + numbers.Count);
 // Output: Count: 2
+
+numbers.Remove(3);
+Console.WriteLine("Count: " + numbers.Count);
+// Output: Count: 1
 
 numbers.Clear()
 Console.WriteLine("Count: " + numbers.Count);
@@ -52,35 +49,37 @@ Given the `nums` array:
 
 ```csharp
 List<int> nums = new List<int>();
+nums.Add(5); 
+nums.Add(0);
 ```
 
-Fill in the code to add 13 to it:
+Fill in the code to remove the element `0` from it:
 ```csharp
-???.???(13);
+nums.???(???);
 ```
 
-- nums
-- Add
-- push
-- numbers
+- `Remove`
+- `0`
+- `1`
+- `clear`
 
 ---
 
 ## Revision
-
 Given the `nums` array:
 
 ```csharp
 List<int> nums = new List<int>();
+nums.Add(5); 
+nums.Add(0);
 ```
 
-Fill in the code to add 13 to it then check if it has that value:
+Fill in the code to remove the element `0` from it:
 ```csharp
-???.???(13);
-Console.WriteLine("Has 13: " + numbers.(13));
+nums.???(???);
 ```
 
-- nums
-- Add
-- Contains
-- has
+- `Remove`
+- `0`
+- `1`
+- `clear`

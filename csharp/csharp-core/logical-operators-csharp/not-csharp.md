@@ -24,8 +24,6 @@ The `!` operator returns the inverse of the operand's boolean value. If the oper
 
 
 ```cpp
-bool a = true;
-
 if(!a)
 {
   Console.WriteLine("a is false.");
@@ -34,7 +32,6 @@ else
 {
   Console.WriteLine("a is true.");
 }
-// Output: "a is true."
 ```
 
 

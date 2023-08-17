@@ -46,10 +46,10 @@ if (??? ??? 3) { // true
 // num is greater than or equal to 3
 ```
 
-- num
-- >=
-- <=
-- 1
+- `num`
+- `>=`
+- `<=`
+- `1`
 
 
 ---

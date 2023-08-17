@@ -15,7 +15,7 @@ practiceQuestion:
 
 ## Content
 
-In **C#**, you can use the `Console.Write()` method to print[1] a message to the console without moving to a new line:
+In **C#**, you can use the `Console.Write()` method to print a message to the console without moving to a new line:
 ```csharp
 Console.Write("Hello, world!");
 ```

@@ -32,7 +32,7 @@ Console.WriteLine("Hello, World!");
 // Hello, World!
 ```
 
-Compiling and Executing our code is as simple as pressing the Run button VSCode!
+Compiling and Executing our code is as simple as pressing the Run button in VSCode!
 
 If all is working, you should see `"Hello World"` printed to the console!
 
