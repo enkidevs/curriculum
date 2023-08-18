@@ -2,11 +2,11 @@ name: Understanding Roblox Studio
 
 description: Learn about the basics of roblox studio!
 
-aspects;
+aspects:
     - introduction
     - workout
 
-insights;
+insights:
     - studio-interface
     - explorer-interface
     - adding-your-first-object
