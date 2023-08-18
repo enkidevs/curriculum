@@ -29,27 +29,27 @@ The main focus will be on the **appearance** section.
 
 ### Brickcolor
 
-Changes the color of the object.
+Changes the *color* of the object.
 
 ### CastShadow
 
-Determines whether the object will cast a shadow if there is a light source nearby.
+Determines whether the object will *cast a shadow* if there is a light source nearby.
 
 ### Color
 
-Similar to Brickcolor but provides a wider variety of colors.
+Similar to Brickcolor but provides a *wider variety of colors*.
 
 ### Material
 
-Changes the look of the object.
+Changes the *look/texture* of the object.
 
 ### Reflectance
 
-Changes how reflective the object is when a light source is nearby.
+Changes how *reflective* the object is when a light source is nearby.
 
 ### Transparency
 
-Changes how transparent the object is. 
+Changes how *transparent* the object is. 
 
 ---
 
