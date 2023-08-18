@@ -34,7 +34,7 @@ Displays instances of the entire game in a **hierarchical** system, known as `se
 
 ### Properties
 
-Displays the **properties** of an object or class.
+Displays the **properties** of an object or class.  ok.
 
 ### Output
 
