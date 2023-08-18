@@ -40,7 +40,7 @@ Displays the **properties** of an object or class.  ok.
 
 Where your print statements and error messages will show.
 
-> We'll be going over the explorer and properties interfaces in this workout.
+> We'll be going over the explorer and properties interfaces later in this workout.
 ---
 
 ## Practice
