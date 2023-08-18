@@ -6,4 +6,4 @@ core: true
 
 sections: 
     '0': 
-        - understanding-studio
+- understanding-studio
