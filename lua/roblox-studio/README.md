@@ -7,3 +7,4 @@ core: true
 sections: 
     '0': 
 - understanding-studio
+- beginner-scripting-on-studio
