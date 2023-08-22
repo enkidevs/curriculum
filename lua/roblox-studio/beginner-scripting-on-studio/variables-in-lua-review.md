@@ -19,6 +19,14 @@ revisionQuestion:
 ## Content
 
 
+```lua
+a = "Is this thing on?"
+b = 1
+
+print(a) -- we can print variables holding strings
+print(b + 2) -- we can also print calculations using variables
+```
+
 ---
 
 ## Practice
