@@ -17,7 +17,7 @@ revisionQuestion:
 ---
 
 ## Content
-Functions are an essential part of coding, and remains true for Roblox Studio. In studio, functions can be used to run code in a specific manner and is accessible to numerous uses with different parameters.
+Functions are an essential part of coding, and remains true for Roblox Studio. In studio, functions can be used to run code in a specific manner and is **accessible to numerous uses with different parameters**.
 
 For instance, a developer could create a function that adds tax to every purchase in an in-game store:
 
@@ -29,7 +29,7 @@ purchaseCostTotal = 50
 taxGST = 1.13
 addTax(purchaseCostTotal,taxGST)  -- returns the total cost that adds tax to every purchase
 ```
-Studio also provides built-in functions in the form of methods: a type of function that uses the object, self, as an argument and a colon to call the method. 
+**Studio also provides built-in functions** in the form of `methods`: a type of function that uses the *object, self*, as an argument and a *colon* to call the method. 
 
 ```lua
 baseplateVariable = game.Workspace.BasePlate
