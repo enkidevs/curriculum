@@ -9,6 +9,6 @@ insights:
 - print-function-review
 - variables-in-lua-review
 - accessing-elements-with-variables
-- functions-in-studio
+- functions-and-methods
 - the-wait-function
 
