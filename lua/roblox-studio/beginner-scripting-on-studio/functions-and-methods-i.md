@@ -26,44 +26,35 @@ function addTax(a, b)
   return a * b
 end
 purchaseCostTotal = 50
-taxGST = 1.13
-addTax(purchaseCostTotal,taxGST)  -- returns the total cost that adds tax to every purchase
+taxCanadaGST = 1.13
+addTax(purchaseCostTotal,taxGST)  -- returns the total cost including tax 
+
+
+--What makes functions so versatile is that we can repeat the same code, but with different parameters
+--This can be useful for various things in Roblox, such as determining the drop rate of an item based on its rarity
+
+purchaseCostTotal = 75  --update the cost variable
+taxAustraliaGST = 1.1 --declare a different country's tax
+addTax(purchaseCostTotal, taxAustraliaGST) -- returns total cost including tax in Australia
 ```
-**Studio also provides built-in functions** in the form of `methods`: a type of function that uses the *object, self*, as an argument and a *colon* to call the method. 
-
-```lua
-baseplateVariable = game.Workspace.BasePlate
-baseplateVariable:Destroy()
---the object (self) is the variable, and the Desroy method is called using the colon
--- the Destroy method deletes the baseplate.
-```
-
-These built-in functions can be found in the object browser.
-
-![object-browser-simple-infographic](https://img.enkipro.com/a6647a6fa5097bd5111f6105e1b9e807.png)
 ---
 
 ## Practice
 
-A method is a type of function that uses the ??? as an argument, and a ??? to call the method itself.
+Complete the code below such that the function called "addBonusDamage" will combine the original damage with bonus damage.
 
-- object itself
-- colon
-- script
-- period
-- semi-colon
-- event
+```lua
+function ???(a,b)
+  return ???
+end
+```
+- addBonusDamage
+- a + b
+- a - a
+- addDamage
 
 
 ---
 
 ## Revision
 
-A method is a type of function that uses the ??? as an argument, and a ??? to call the method itself.
-
-- object itself
-- colon
-- script
-- period
-- semi-colon
-- event
