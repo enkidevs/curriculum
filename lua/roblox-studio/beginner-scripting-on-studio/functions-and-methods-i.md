@@ -53,8 +53,18 @@ end
 - a - a
 - addDamage
 
-
 ---
 
 ## Revision
 
+Complete the code below such that the function called "addBonusDamage" will multiply the original damage with bonus damage.
+
+```lua
+function ???(a,b)
+  return ???
+end
+```
+- addBonusDamage
+- a * b
+- a + a
+- addDamage
