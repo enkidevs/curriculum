@@ -2,7 +2,7 @@ name: Roblox Studio
 
 description: Learn about how to use Roblox Studio and combine it with Lua script!
 
-core: true
+core: false
 
 sections: 
     '0': 
