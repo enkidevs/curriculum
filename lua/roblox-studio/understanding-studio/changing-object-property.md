@@ -25,7 +25,7 @@ If you haven't done so already, insert an object and click on it. You should see
 
 ![properties-interface](https://img.enkipro.com/b91edbdd0c8b20a222ae8c3450e3ac24.png)
 
-The main focus will be on the **appearance** section.
+In the properties interface, you can click on anything you'd like to change. The main focus will be on the **appearance** section.
 
 ### Brickcolor
 
