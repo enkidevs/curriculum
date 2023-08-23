@@ -2,6 +2,9 @@
 author: junoocha
 type: normal
 category: must-know
+links:
+  - >-
+    [Colors in Roblox Studio](https://create.roblox.com/docs/reference/engine/datatypes/BrickColor/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -16,13 +19,13 @@ revisionQuestion:
 
 ---
 ## Content
-To start, all properties are called by putting a period after the instance, followed by the property. Let's look at BrickColor for example, which controls the color of the part. To call BrickColor, we will write:
+To start, **all** properties can be called by putting a **period after the instance, followed by the property**. Let's look at `BrickColor` for example, which controls the color of the part. To call `BrickColor`, we will write:
 
 ```lua
 --This is the variable from the last insight. It holds the connection to the part.
 partVariable.BrickColor
 ```
-However, the syntax to change each property is different. If we consider BrickColor, there are 3 ways to change it and they all work.
+However, the **syntax to change each property is different**. If we consider` BrickColor`, there are *3* ways to change it and they all work.
 
 ```lua
 --Change BrickColor through a specific name.
