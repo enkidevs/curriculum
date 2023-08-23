@@ -7,8 +7,8 @@ aspects:
 
 insights:
 - intro-to-scripting-properties
-- appearance-i
-- appearance-ii
-- data
-- collision
+- appearance-properties-i
+- appearance-properties-ii
+- data-properties
+- collision-properties
 
