@@ -29,7 +29,7 @@ baseplateVariable:Destroy()
 --the Destroy method deletes the baseplate.
 ```
 
-These built-in functions can be found in the object browser.
+These built-in functions can be found in the object browser, that show all objects and instances available.
 
 ![object-browser-simple-infographic](https://img.enkipro.com/a6647a6fa5097bd5111f6105e1b9e807.png)
 

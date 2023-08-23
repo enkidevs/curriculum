@@ -17,7 +17,7 @@ revisionQuestion:
 ---
 
 ## Content
-As previously stated, variables are important in Roblox Studio as they **can directly store objects and elements**. By doing this, the **variable can act as an easy access point** to the object, so any actions/code that manipulates or references the variable will also affect the object.
+As previously stated, variables are important in Roblox Studio as they **can directly store objects and instances**. By doing this, the **variable can act as an easy access point** to the object, so any actions/code that manipulates or references the variable will also affect the object.
 
 ![variable-referencing-diagram](https://img.enkipro.com/cab77f31b9f8023a4369582118573e8f.png)
 
