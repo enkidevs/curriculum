@@ -35,7 +35,7 @@ In the image below, the "parents" are highlighted, which represent the path that
 
 ![hierarchy-example](https://img.enkipro.com/dd2dad3eab1a4a9b0c55fb24cd067533.png)
 
-> Remember that the explorer tab represents the entire game. Thus, the head in the system is `game`.
+> Remember that the explorer tab represents the entire game. Thus, the ancestor/head of the system is `game`.
 
 Finally, to properly connect the variable with the baseplate, *separate each parent with a period* and *end with the object you want to reference*. Remember that **lua is case-sensitive!**
 
