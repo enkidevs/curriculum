@@ -40,13 +40,14 @@ In the image below, the "parents" are highlighted, which represent the path that
 Finally, to properly connect the variable with the baseplate, *separate each parent with a period* and *end with the object you want to reference*. Remember that **lua is case-sensitive!**
 
 ```lua
+-- Baseplate is found in Workspace, which is found in game.
 baseplateVariable = game.Workspace.Baseplate
 ```
 
 ---
 
 ## Practice
-If we were to go a level deeper and access the texture thats in the BasePlate, we would write the following code:
+If we were to go a level deeper and access the texture that's in the BasePlate, we would write the following code:
 ```lua
 textureVariable = ???
 ```
