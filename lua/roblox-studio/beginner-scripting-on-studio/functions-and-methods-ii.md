@@ -21,10 +21,12 @@ revisionQuestion:
 **Studio also provides built-in functions** in the form of `methods`: a type of function that uses the *object, self*, as an argument and a *colon* to call the method. Using these methods may save some time as their code is already scripted into Studio itself.
 
 ```lua
+--here's an example using the Destroy method, which deletes the identified object.
+
 baseplateVariable = game.Workspace.BasePlate
 baseplateVariable:Destroy()
---the object (self) is the variable, and the Desroy method is called using the colon
--- the Destroy method deletes the baseplate.
+--the object (baseplate) is the variable, and the Destroy() method is called using the colon
+--the Destroy method deletes the baseplate.
 ```
 
 These built-in functions can be found in the object browser.
