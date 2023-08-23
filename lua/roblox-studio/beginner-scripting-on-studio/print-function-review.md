@@ -39,7 +39,7 @@ print("This player has eaten this many pies: "..20) --Finally, you can continue 
 --Output: This player has eaten this many pies: 20
 
 ```
-One important thing to take note of is that Roblox Studio will actually tell you the the *script name* holding the print function, as well as the *line number* of the print statement. For instance, with a script called "Testing" with two print functions on lines 1 and 4:
+One important thing to take note of is that Roblox Studio will actually tell you the the **script name** holding the print function, as well as the **line number** of the print statement. For instance, with a script called "Testing" with two print functions on lines 1 and 4:
 
 ![propteries-interface](https://img.enkipro.com/69a611c54f25a6cc58c090b0036d2fde.png)
 
