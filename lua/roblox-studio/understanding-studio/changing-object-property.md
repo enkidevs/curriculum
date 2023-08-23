@@ -29,7 +29,7 @@ In the properties interface, you can click on anything you'd like to change. The
 
 ### Brickcolor
 
-Changes the *color* of the object.
+Changes the *color* of the object. Clicking on the color will bring up a variety of color options.
 
 ### CastShadow
 
@@ -41,7 +41,7 @@ Similar to Brickcolor but provides a *wider variety of colors*.
 
 ### Material
 
-Changes the *look/texture* of the object.
+Changes the *look/texture* of the object. Clicking on the material will bring up a variety of options.
 
 ### Reflectance
 
