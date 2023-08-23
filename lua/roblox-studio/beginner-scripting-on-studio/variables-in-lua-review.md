@@ -24,7 +24,8 @@ Variables are an important aspect of Roblox Studio, as it allows quicker access 
 
 ```lua
 --variables names should be declared by typing a name for the variable, followed by an equal sign.
---though I only use letters here as variable names, it's suggested to use variable names to organize your code.
+--despite the variable names being only letters, it's suggested to use descriptive names to organize your code.
+--i.e. stringExample, or booleanExample
 
 a = "Yes, I am string." --variables can hold strings
 b = 1 --variables can hold integers
