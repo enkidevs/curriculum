@@ -20,15 +20,15 @@ revisionQuestion:
 
 Previously, we went over how properties can be changed manually in the first workout. Now, we'll focus on changing properties through scripting.
 
-> Throughout the properties workout, we'll by working with a part within the Workspace.
+> Throughout the properties workout, we'll by working with a `part` within the Workspace.
 
-To change a property, we must first access the part, which can be done through variables (if you're confused, refer back to the insight, "Accessing Elements with Variables" in the previous workout.).
+To change a property, we must **first access the part**. One way of accessing it can be done through *variables* (if you don't remember, refer back to the insight, "Accessing Elements with Variables" in the previous workout).
 
 ```lua
 partVariable = game.Workspace.Part
 --this variable now holds the part.
 ```
-Once we hold the part within a variable, we can now start applying property changes in the variable. To indicate that we want to access a property, we can simply add a period after the variable, followed by the property.
+Once we hold the part within a variable, we can* now start applying property changes to the variable*. To indicate that we want to access a property, we can simply **add a period after the variable, followed by the property**.
 
 ```lua
 --let's say we want to access the BrickColor property.
@@ -41,7 +41,24 @@ partVariable.Brickcolor
 
 ## Practice
 
+I want to access the "Transparency" property of variable "blockVariable". The following code grants us this access:
+```lua
+???.???
+```
+- blockVariable
+- Transparency
+- partVariable
+- newTransparency
 
 ---
 
 ## Revision
+
+I want to access the "Transparency" property of variable "blockVariable". The following code grants us this access:
+```lua
+???.???
+```
+- blockVariable
+- Transparency
+- partVariable
+- newTransparency
