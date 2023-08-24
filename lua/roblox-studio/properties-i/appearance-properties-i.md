@@ -40,6 +40,7 @@ partVariable.BrickColor = BrickColor.new(0.1, 0.2, 172)
 > The specific names and associated number of every color can be found in the Learn More section.
 
 When you run the script, the part should change colors accordingly.
+
 ---
 
 ## Practice
