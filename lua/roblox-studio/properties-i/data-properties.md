@@ -64,7 +64,6 @@ completedPartVariable.??? = game.Workspace.Baseplate.???
 - Locked
 - Name
 - Incomplete
-
 ---
 
 ## Revision

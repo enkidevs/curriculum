@@ -49,7 +49,6 @@ I want to access the "Transparency" property of variable "blockVariable". The fo
 - Transparency
 - partVariable
 - newTransparency
-
 ---
 
 ## Revision
