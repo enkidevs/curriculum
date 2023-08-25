@@ -32,6 +32,8 @@ The **Appearance** and **Transform** aspects deal with the visuals, such as colo
 
 > **Pivot** is an *extension of Transform*, and **Assembly** is something you shouldn't worry about for this course. 
 
+If you're curious, you can play around with each property. If you'd like to know more about a specific property, hover over the name and you'll find a quick summary.
+
 ---
 
 ## Practice
