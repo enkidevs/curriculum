@@ -29,7 +29,7 @@ A *private*[1] storage for your scripts[2], accessed through Studio only.
 
 Respectively *private* and *public*[3] storages for your objects.
 
-> Why do you think there’s a separate storage for objects? Why is the ScriptService private to begin with? 
+> Why do you think there’s a separate storage for objects? Why is the ScriptService and ServerStorage private to begin with? 
 
 ---
 
