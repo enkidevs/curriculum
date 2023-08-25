@@ -28,12 +28,10 @@ end
 purchaseCostTotal = 50
 taxCanadaGST = 1.13
 addTax(purchaseCostTotal,taxGST)  -- returns the total cost including tax 
-taxAustraliaGST = 1.1 --declare a different country's tax
-addTax(purchaseCostTotal, taxAustraliaGST) -- returns total cost including tax in Australia
-
---What makes functions so versatile is that we can repeat the same code, but with different parameters
---This can be useful for various things in Roblox, such as determining the drop rate of an item based on its rarity
 ```
+What makes functions so versatile is that we can repeat the same code, but with different parameters.
+> Useful for various things in Roblox, such as determining the drop rate of an item based on its rarity
+
 ---
 
 ## Practice
