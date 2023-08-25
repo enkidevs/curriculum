@@ -22,6 +22,10 @@ Finally, to properly connect the variable with the baseplate, *separate each par
 ```lua
 -- Baseplate is found in Workspace, which is found in game.
 baseplateVariable = game.Workspace.Baseplate
+
+-- Accessing player id: "RobloxSteve", found under Workspace when loading
+playerVariable = game.Workspace.RobloxSteve
+
 ```
 
 ---
