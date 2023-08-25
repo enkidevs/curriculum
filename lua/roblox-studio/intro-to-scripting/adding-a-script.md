@@ -20,5 +20,5 @@ In the new script file, you will notice the line:
 print("Hello World")
 ```
 Let’s run the game and see what happens.
-
+> Move on to the next insight after running the game
 ---
