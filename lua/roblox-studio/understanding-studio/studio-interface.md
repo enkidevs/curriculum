@@ -50,11 +50,12 @@ Where your print statements and error messages will show.
 ---
 ## Revision
 
-The services found in the explorer tab are organized in a ???
+??? displays the available services.
 
-- Hierarchical system.
-- A spiderweb-like system.
-- A linear system.
+- 'The explorer tab found in the view interface'
+- 'The view tab'
+- 'The game settings in the home tab'
+- 'The advanced settings in the models tab'
 
 ---
 
