@@ -17,7 +17,6 @@ Let’s finally add a script to our game! Hover over the **ServerScriptServer** 
 In the new script file, you will notice the line:
 
 ```lua
--- A simple print statement
 print("Hello World")
 ```
 Let’s run the game and see what happens.
