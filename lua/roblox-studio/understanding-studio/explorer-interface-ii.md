@@ -19,19 +19,15 @@ revisionQuestion:
 
 ## Content
 
-Throughout the course, there will be three other services that will be used often. 
+Throughout this introductory course, there are three other services that should be remembered. 
 
 ### ServerScriptService
 
-A *private* storage for your scripts[1], accessed through Studio only.
+A *private*[1] storage for your scripts[2], accessed through Studio only.
 
-### ServerStorage 
+### ServerStorage and ReplicatedStorage
 
-A *private* storage for your objects, accessed through Studio only.
-
-### ReplicatedStorage
-
-A *public* storage for your objects, accessed by both Studio and the client.
+Respectively *private* and *public*[3] storages for your objects.
 
 > Why do you think there’s a separate storage for objects? Why is the ScriptService private to begin with? 
 
@@ -59,6 +55,14 @@ A *public* storage for your objects, accessed by both Studio and the client.
 
 ## Footnotes
 
-[1: Scripts]
+[1: Private Storage]
+
+Accessible only through Roblox Studio.
+
+[2: Scripts]
 
 Scripts can be seen as the instructions written by the developer.
+
+[3: Public Storage]
+
+Accessible through both Roblox Studio and the user's Client.
