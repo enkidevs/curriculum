@@ -13,7 +13,7 @@ revisionQuestion:
 
 ---
 
-# Material and CastShadow
+# Appearance Property: Material and CastShadow
 ---
 
 ## Content

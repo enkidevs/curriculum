@@ -13,7 +13,7 @@ revisionQuestion:
 
 ---
 
-# BrickColor
+# Appearance Property: BrickColor
 ---
 
 ## Content
