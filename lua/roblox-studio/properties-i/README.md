@@ -7,7 +7,7 @@ aspects:
 
 insights:
 - intro-to-scripting-properties
-- brickcolor
-- reflectance-and-transparency
-- material-and-castshadow
+- appearance-property-i
+- appearance-property-ii
+- appearance-property-iii
 
