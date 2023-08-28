@@ -26,7 +26,7 @@ function addTax(a, b)
   return a * b
 end
 purchaseCostTotal = 50
-taxCanadaGST = 1.13
+taxGST = 1.13
 addTax(purchaseCostTotal,taxGST)  -- returns the total cost including tax 
 ```
 What makes functions so versatile is that we can repeat the same code, but with different parameters.
