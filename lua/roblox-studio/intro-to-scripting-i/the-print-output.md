@@ -41,11 +41,11 @@ Let's say you make a new game and put in a script in the ServerScriptServer. If 
 
 ## Revision
 
-Let's say you make a new game and put in a script in the ServerScriptServer. If you were to name the script: "FLYING" and change nothing else, you would see ???:??? at the very right of the output when you run the script.
+Let's say you make a new game and put in a script in the ServerScriptServer. If you were to name the script: "Lightning" and moved the print statement down by one line, you would see ???:??? at the very right of the output when you run the script.
 
+- Lightning
+- 2
+- Script
 - FLYING
 - 1
-- Script
-- script
-- 3
 - 4
