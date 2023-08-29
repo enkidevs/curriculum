@@ -29,11 +29,11 @@ In the image below, the **"parents"** are highlighted, which represent the path 
 ---
 
 ## Practice
-When testing the game, the user becomes an instance under Workspace. The user's parent is ???, while Workspace's parent is ???.
+When testing the game, a script adds a block under baseplate. The block's parent is ???, while baseplate's parent is ???.
 
+- baseplate
 - Workspace
 - game
-- baseplate
 - ServerScriptService
 
 ---
