@@ -12,5 +12,5 @@ sections:
 - intro-to-scripting-ii
 - properties-i
 - properties-ii
-- CFrames
+- cframes
 - properties-iii
