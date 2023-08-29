@@ -13,11 +13,11 @@ category: discussion
 ## Content
 Roblox, the hub of imagination, where you can create anything you wish. You excitedly hop onto Roblox Studio[1] to create the game of your dreams and… oh. How do I start? 
 
+Throughout this course, we will be walk you through how Roblox Studio works and how you can start coding and building your own Roblox game. By the end of this course, you should be able to create a simple obstacle course, AKA obbys on Roblox.
+
 > 💬 What was your first experience in trying to build a game? What made you want to learn in the first place? 
 >
 > Comment below or have a look at other comments to see why people started scripting in Roblox.
-
-Throughout this course, we will be walk you through how Roblox Studio works and how you can start coding and building your own Roblox game. By the end of this course, you should be able to create a simple obstacle course, AKA obbys on Roblox.
 
 ---
 
