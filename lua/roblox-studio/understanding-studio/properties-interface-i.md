@@ -14,7 +14,7 @@ category: must-know
 
 Properties refer to the **attributes of an object**. They can be changed using scripts or manually, but for now, we'll focus on manual changes.
 
-To prompt the property window, *add a part* first using the insert tool.
+To prompt the property window, *add a part* using the insert tool.
 
 ![insert-part](https://img.enkipro.com/7754da78b6515473cc31c74d0fc201cb.png)
 
