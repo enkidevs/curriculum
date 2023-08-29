@@ -32,10 +32,13 @@ Console.WriteLine("Hello, World!");
 // Hello, World!
 ```
 
-Compiling and Executing our code is as simple as pressing the Run button in VSCode!
+To compile and run our code from the command line, follow these steps:
 
-If all is working, you should see `"Hello World"` printed to the console!
+- Navigate to the directory containing your Program.cs using the command prompt or terminal.
+- Compile the code using the C# compiler (csc): csc Program.cs
+- Execute the generated executable: ./Program.exe on Windows or mono Program.exe on Linux/Mac.
 
+If everything goes smoothly, you should see the message "Hello World" displayed in your command line or terminal!
 ---
 ## Practice
 
@@ -63,3 +66,4 @@ Which command is used to run a script file called `calc` in **C#**?
 - `execute`
 - `run`
 - `go`
+

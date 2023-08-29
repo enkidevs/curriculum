@@ -1,12 +1,12 @@
 name: First Program
 
-description: Write your first C# Program
+description: Visual Studio
 
 insights:
   - visual-studio-setup
   - visual-studio-setup-install
   - csharp-projects
-  - first-program-csharp
+  - first-program-visual-studio
 
 aspects:
   - introduction

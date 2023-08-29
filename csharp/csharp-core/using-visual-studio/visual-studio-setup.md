@@ -14,7 +14,7 @@ category: tip
 
 Now since C# is a compiled language, using it is not as simple as writing a file and typing in a command.
 
-While you can techinically do all the building and compiling manually with the `.NET` SDK, it will make your life unneccesarily hard.
+While you can technically do all the building and compiling manually with the `.NET` SDK, it will make your life unneccesarily hard.
 
 The standard way to use C# is through the Visual Studio IDE[1].
 

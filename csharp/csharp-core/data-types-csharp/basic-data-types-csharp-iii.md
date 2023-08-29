@@ -12,7 +12,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Basic Data Types (char & string)
+# Char & String
 
 ---
 

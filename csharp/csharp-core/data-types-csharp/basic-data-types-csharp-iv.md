@@ -10,7 +10,7 @@ practiceQuestion:
 
 ---
 
-# Basic Data Types (bool)
+# bool
 
 ---
 

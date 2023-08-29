@@ -31,8 +31,6 @@ The compiler:
 
 Voilà! Your program is ready to groove! 🎊
 
-Next, will dive into some of the most popular tools in the **C#** ecosystem.
-
 ---
 
 ## Practice

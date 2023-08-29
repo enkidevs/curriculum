@@ -7,11 +7,12 @@ core: true
 sections:
   '0':
     - intro-to-csharp
-    - first-csharp-program
     - variables-csharp
     - data-types-csharp
     - control-flow-i-csharp
     - logical-operators-csharp
+    - using-visual-studio
     - arrays-csharp
     - looping-csharp
     - lists-csharp
+    - csharp-frameworks
