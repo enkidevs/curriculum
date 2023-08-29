@@ -27,5 +27,5 @@ There are many reasons why learning **C#** can be beneficial:
 
 ### Frameworks
 
-**C#** has frameworks to help you make Websites, Video Games (With Unity), and even cross-platform mobile apps!
+**C#** has frameworks to help you make websites, video games (With Unity), and even cross-platform mobile apps!
 

@@ -22,22 +22,22 @@ revisionQuestion:
 
 Ready for some code?
 
-Remember, we'll write out code in the `Program.cs` file.
+We'll write out code in the `Program.cs` file.
 
 In **C#**, you can print text to the screen using the `Console.WriteLine` method:
 
 ```csharp
-Console.WriteLine("Hello, World!");
+using System;
+
+class Program
+{
+  static void Main()
+  {
+    Console.WriteLine("Hello, World!");
+  }
+}
 // Hello, World!
 ```
-
-To compile and run our code from the command line, follow these steps:
-
-- Navigate to the directory containing your Program.cs using the command prompt or terminal.
-- Compile the code using the C# compiler (csc): csc Program.cs
-- Execute the generated executable: ./Program.exe on Windows or mono Program.exe on Linux/Mac.
-
-If everything goes smoothly, you should see the message "Hello World" displayed in your command line or terminal!
 
 ---
 
@@ -58,14 +58,9 @@ Which function is used to print text to the screen in **C#**?
 
 ## Revision
 
-Which command is used to run a script file called `calc` in **C#**?
+Which file extension is used for scripts written in **C#**? ???
 
-```csharp
-??? calc.cs 
-```
-
-- `csc`
-- `execute`
-- `run`
-- `go`
-
+- `.cs`
+- `.cpp`
+- `.csc`
+- `.csharp`
