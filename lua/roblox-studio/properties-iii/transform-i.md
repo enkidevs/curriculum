@@ -25,7 +25,7 @@ The **Size** property holds the **lengths** of an object in the **X, Y, and Z ax
 Set the variable to equal a **new Vector3**, where the *changes in size will be included in its parameter*.
 
 ```lua
-partVariable = Vector3.new(1, 1, 1)
+partVariable.Size = Vector3.new(1, 1, 1)
 --stretching all 3 dimensions by a value of 1
 ```
 ---
@@ -34,7 +34,7 @@ partVariable = Vector3.new(1, 1, 1)
 
 Finish the code below such that the object will increase in size by 4 in the Z direction.
 ```lua
-partVariable = ???.new(???)
+partVariable.Size = ???.new(???)
 ```
 - Vector3
 - 0, 0, 4
@@ -48,7 +48,7 @@ partVariable = ???.new(???)
 
 Finish the code below such that the object will increase in size by 2 in the X and Y direction.
 ```lua
-partVariable = ???.new(???)
+partVariable.Size = ???.new(???)
 ```
 - Vector3
 - 2, 2, 0
