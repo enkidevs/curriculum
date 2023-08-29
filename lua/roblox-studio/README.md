@@ -7,4 +7,10 @@ core: false
 sections: 
     '0': 
 - understanding-studio
-- beginner-scripting-on-studio
+- basic-modelling
+- intro-to-scripting-i
+- intro-to-scripting-ii
+- properties-i
+- properties-ii
+- CFrames
+- properties-iii
