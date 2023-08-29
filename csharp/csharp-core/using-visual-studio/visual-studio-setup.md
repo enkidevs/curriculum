@@ -18,7 +18,7 @@ While you can technically do all the building and compiling manually with the `.
 
 The standard way to use C# is through the Visual Studio IDE[1].
 
-> Note that the Visual Studio IDE is not the same as VSCode. VSCode is a rich text editor, but Visual Studio includes functionality to compile and run C# out of the box.
+> Note that the Visual Studio IDE is not the same as VSCode.[2] 
 
 
 
@@ -29,3 +29,8 @@ The standard way to use C# is through the Visual Studio IDE[1].
 [1: IDE]
 
 An Integrated Development Environment (IDE) is software that provides tools for coding, debugging, and testing, streamlining the development process. It combines code editor, compiler, debugger, and graphical user interface.
+
+
+[2: VSCode]
+
+VSCode is a rich text editor, but Visual Studio includes functionality to compile and run C# out of the box.

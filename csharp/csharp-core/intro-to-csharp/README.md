@@ -5,7 +5,7 @@ description: See what C# is all about!
 insights:
   - assumed-knowledge-preface-csharp
   - what-is-csharp
-  - how-csharp-works
+  - why-learn-csharp
   - first-program-csharp
 
 aspects:

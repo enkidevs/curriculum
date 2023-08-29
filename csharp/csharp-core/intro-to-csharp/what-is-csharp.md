@@ -13,7 +13,7 @@ category: discussion
 
 ## Content
 
-**C#** (C-Sharp) is a object-oriented programming language developed by Microsoft. 
+**C#** (C-Sharp) is a powerful[1] programming language developed by Microsoft. 
 
 It's a versatile language used for Desktop, Mobile, Web, and even Game Development.
 
@@ -29,4 +29,22 @@ Console.WriteLine("Together, they ate " + (spiderman + batman) + " pizzas!");
 > 💬 Why are you interested in **C#**?
 > 
 > Leave a comment or view some of the other comments for inspiration before moving on.
+
+
+
+---
+
+## Footnotes
+
+[1: C# as a Language]
+
+**C#** is an object-oriented, compiled language.
+
+That means when you write C# code, it doesn't run directly; instead, it undergoes a transformative process using a compiler.
+
+The compiler:
+
+-  Reads your C# code
+- Translates C# into Common Intermediate Language (CIL)
+- When executed, the Just-In-Time (JIT) compiler turns CIL into machine code.
 

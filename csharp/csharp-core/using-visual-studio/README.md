@@ -1,4 +1,4 @@
-name: First Program
+name: Visual Studio
 
 description: Visual Studio
 
