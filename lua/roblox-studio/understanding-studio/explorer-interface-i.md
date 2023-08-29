@@ -40,8 +40,9 @@ The services found in the explorer tab are organized in a ???
 
 ## Revision
 
-The services found in the explorer tab are organized in a ???
+Workspace is considered the most important, as it ???
 
-- Hierarchical system.
-- A spiderweb-like system.
-- A linear system.
+- Contains any instances physically in the game
+- Contains scripts that allow for unique interactions
+- Helps organize scripts in Studio
+- Automatically builds structures for your use
