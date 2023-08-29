@@ -1,7 +1,7 @@
 ---
 author: junoocha
 type: normal
-category: must-know
+category: discussion
 practiceQuestion:
   formats:
     - fill-in-the-gap
