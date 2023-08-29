@@ -12,5 +12,6 @@ sections:
 - intro-to-scripting-ii
 - properties-i
 - properties-ii
-- cframes-and-vector3
+- vector3
+- cframes
 - properties-iii

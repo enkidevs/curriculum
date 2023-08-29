@@ -13,16 +13,11 @@ revisionQuestion:
 
 ---
 
-# Vector3 Syntax
+# Continuation of Vector3 Syntax
 ---
 
 ## Content
-**Vector3** can be thought of as a **vector[1] in space**, hence the three which represents 3D space. Using this idea, a vector's magnitude/length and direction can be used to **dictate position and size**.
 
-To code it, you must set a variable equal to a **newly declared Vector3** .
-```lua
-partVariable = Vector3.new()
-```
 In the parameters, you put the **values for the X, Y, and Z axis** of a vector. In simple terms, the 3 values combined will create a single destination point.
 
 ```lua
@@ -35,13 +30,15 @@ partVariable = Vector3.new(5,0,0)
 
 ## Practice
 
-Vector3 utilizes the ideas of ??? to represent ???
-- vectors
-- 3D Space
-- lines
-- 2D Space
-- objects
+```lua
+partVariable.Size = Vector3.new(6, 4, 3)
+```
+The code above will ???
 
+- Changes the part's size
+- Changes the part's position
+- Changes the part's orientation
+- Changes the part's location in Workspace
 
 ---
 

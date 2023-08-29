@@ -17,13 +17,11 @@ revisionQuestion:
 ---
 
 ## Content
-Before moving on to the last 2 properties, I'd like to touch upon **CFrames** and **Vector3** so you don't get confused when one is used over the other. 
-
-**Vector3** is the data that deals with the **3D space and dimensions** of an object. For now, see it as a tool to *change* the **position** or **size** of an object.
+We learned previously that Vector3 can be used as a tool to *change* the **position** or **size** of an object using vectors in 3D space.
 
 On the other hand, **CFrames**, known as coordinate frames, acts as a data type that holds the **positional and orientation** data of an object. 
 
-> In the future, these topics will be more in depth, as there's a multitude of ways to use these two data types.
+> In the future, CFrames will be explored in depth, as there's a multitude of ways to use these. For now, we'll focus on the basics.
 
 ---
 
