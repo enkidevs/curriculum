@@ -21,6 +21,19 @@ You'll see red, blue, and green circles surrounding the block. These are axis of
 
 ## Practice
 
+While rotating an object, you will see red, green, and blue ??? surrounding the object.
+
+- 2D circles
+- Spheres
+- Arrows
+- Cubes
 ---
 
 ## Revision
+
+When rotating an object using the rotation tool, the block will rotate around ???
+
+- a set origin point, defaulted as its center
+- coordinates 0,0,0 in the game
+- the mouse cursor
+- the player's avatar

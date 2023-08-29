@@ -24,6 +24,20 @@ You will notice that the block is now covered in red, blue, and green arrows. By
 
 ## Practice
 
+The red, green, and blue arrows represent ???
+
+- The directions you can move your block in
+- The physics of the block
+- The velocity, where length dictates speed
+- The directions a block can be stretched
+
 ---
 
 ## Revision
+
+To make a block vertically without scripting, you should ???
+
+- Use the move tool
+- Drag the block carefully
+- Add another block and use it as a pedestal
+- give up, it's not possible without scripting
