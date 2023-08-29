@@ -31,11 +31,17 @@ baseplateVariable =
 ```
 ---
 ## Practice
-The reason why variables are so useful in studio is because they can provide a/an ??? to instances while scripting
+```lua
+coolVariable = x
+coolerVariable = x + 1
+whichOneIsCooler(x)
+```
+From the code above, the variables that were defined are ???
 
-- access point
-- extra property
-- form of communication with the players
+- coolVariable and coolerVariable
+- coolVariable
+- coolerVariable
+- whichOneIsCooler(x)
 
 ---
 ## Revision
