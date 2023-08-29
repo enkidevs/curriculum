@@ -12,7 +12,6 @@ revisionQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-  
 ---
 
 # Let's Create Our First Program!
@@ -39,7 +38,9 @@ To compile and run our code from the command line, follow these steps:
 - Execute the generated executable: ./Program.exe on Windows or mono Program.exe on Linux/Mac.
 
 If everything goes smoothly, you should see the message "Hello World" displayed in your command line or terminal!
+
 ---
+
 ## Practice
 
 Which function is used to print text to the screen in **C#**?
@@ -54,6 +55,7 @@ Which function is used to print text to the screen in **C#**?
 - `echo`
 
 ---
+
 ## Revision
 
 Which command is used to run a script file called `calc` in **C#**?
