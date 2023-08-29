@@ -33,4 +33,23 @@ These plugins can **provide extra tools**, such as terrain builders, edge smooth
 
 > I personally like F3X building tools, as its free and lets you model more efficiently with its keybinds. It's recommended to search up plugins before using them.
 
+---
 
+## Practice
+
+To find plugins and models other people made, you can find them through ???
+
+- The Toolbox
+- Third-party programs
+- The object browser
+- A script given by Roblox staff
+---
+
+## Revision
+
+??? are external Roblox Studio tools that provide extra tools while building a game.
+
+- Plugins
+- Models
+- Events
+- Functions

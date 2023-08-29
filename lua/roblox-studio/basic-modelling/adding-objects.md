@@ -23,3 +23,22 @@ If you'd like to change the shape of a part you already placed, this can be done
 ![property-change-shape](https://img.enkipro.com/daac3c193864f5881aaae6066b7247a0.png)
 
 ---
+
+## Practice
+
+To add simple shapes other than rectangles, the easiest way is to ???
+
+- open the dropdown menu below the part button
+- create your own shapes through modelling programs such as blender
+- take them from the toolbox
+- script their shape
+
+---
+
+## Revision
+
+To change the shape of a part you already placed, you must ???
+
+- access and change the shape property
+- you cannot change the shape of a part already placed
+- reshape it using modelling programs
