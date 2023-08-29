@@ -36,20 +36,20 @@ To start, when you open up Studio and login, choose the *classic* baseplate and 
 
 ??? displays the available services.
 
-- 'The explorer tab found in the view interface'
-- 'The view tab'
-- 'The game settings in the home tab'
-- 'The advanced settings in the models tab'
+- The explorer tab found in the view interface
+- The view tab
+- The properties display
+- The advanced settings in the models tab
 
 ---
 ## Revision
 
-??? displays the available services.
+??? displays any script outputs when the game is run.
 
-- 'The explorer tab found in the view interface'
-- 'The view tab'
-- 'The game settings in the home tab'
-- 'The advanced settings in the models tab'
+- The output display 
+- The explorer tab found in the view interface
+- The view tab
+- The properties display
 
 ---
 
