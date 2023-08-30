@@ -2,6 +2,9 @@
 author: junoocha
 type: normal
 category: must-know
+links:
+  - >-
+    [BrickColor](https://create.roblox.com/docs/reference/engine/datatypes/BrickColor){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
