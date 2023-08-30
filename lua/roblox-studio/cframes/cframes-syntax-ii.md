@@ -33,7 +33,25 @@ partVariable.CFrame = CFrame.Angles(x, math.rad(90), z)
 ---
 
 ## Practice
+Finish the code below such that the orientation changes by 75 degrees in the Z axis
+```lua
+partVariable.CFrame = CFrame.???(???)
+```
+- Angles
+- 0, 0, math.rad(75)
+- 0, math.rad(75), 0
+- new
+- math.rad(75), 0, 0
 
 ---
 
 ## Revision
+Finish the code below such that the orientation changes by 50 **radians**s in the X axis
+```lua
+partVariable.CFrame = CFrame.???(???)
+```
+- Angles
+- 50, 0, 0
+- 0, math.rad(50), 0
+- new
+- math.rad(50), 0, 0

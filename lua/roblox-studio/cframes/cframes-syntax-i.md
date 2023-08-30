@@ -25,11 +25,30 @@ If you're changing a position using CFrames, you would call a new CFrame, follow
 ```lua
 partVariable.CFrame = CFrame.new(x, y, z)
 ```
-
 ---
 
 ## Practice
+Finish the code below such that the new position changes by a value of -4 in the Y axis.
+```lua
+partVariable.CFrame = CFrame.???(???)
+```
 
+- new
+- 0, -4, 0
+- Angle
+- 0, 0, -4
+- -4, 0, 0
 ---
 
 ## Revision
+Finish the code below such that the new position changes by a value of -5 in the X axis and 4 in the Z axis.
+```lua
+partVariable.CFrame = ???.new(???)
+```
+
+- CFrame
+- -5, 0, 4
+- Angle
+- Vector3
+- 5, 0, -4
+- 4, 0, -5
