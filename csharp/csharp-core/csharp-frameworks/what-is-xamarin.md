@@ -6,7 +6,7 @@ type: normal
 category: must-know
 links:
   - >-
-  [Xamarin](https://dotnet.microsoft.com/en-us/apps/xamarin){website}
+    [Xamarin](https://dotnet.microsoft.com/en-us/apps/xamarin){website}
 
 practiceQuestion:
   formats:
