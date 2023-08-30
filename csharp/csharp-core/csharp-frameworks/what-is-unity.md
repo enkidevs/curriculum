@@ -6,8 +6,7 @@ type: normal
 category: discussion
 
 links:
-  - >-
-[Unity](https://unity.com/){website}
+  - >- [Unity](https://unity.com/){website}
 ---
 
 # What is Unity?

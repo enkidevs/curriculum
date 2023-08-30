@@ -7,7 +7,7 @@ category: must-know
 
 links:
   - >-
-[Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor){website}
+    [Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor){website}
 
 ---
 
