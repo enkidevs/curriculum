@@ -20,7 +20,7 @@ The standard way to use C# is through the Visual Studio IDE[1].
 
 > Note that the Visual Studio IDE is not the same as VSCode.[2] 
 
-
+![Visual Studio IDE](https://img.enkipro.com/da098d9d2aa0dac6a16bc9a15cd1ab22.png)
 
 ---
 

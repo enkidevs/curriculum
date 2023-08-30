@@ -23,6 +23,8 @@ revisionQuestion:
 
 Xamarin is a framework that empowers C# developers to craft cross-platform mobile apps. 
 
+![Xamarin Logo](https://img.enkipro.com/0d8178fd9ef1ca1609f1e74d81e7a2ba.png)
+
 Using a single C# codebase, Xamarin allows you to develop apps for iOS, Android, and more. 
 
 It integrates seamlessly with native APIs, ensuring your apps have the look and feel of native applications while leveraging the power and familiarity of C#. 📱
