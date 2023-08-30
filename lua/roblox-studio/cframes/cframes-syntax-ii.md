@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-Positions called CFrames using `new()`. However, if you're changing the orientation using CFrames, you would call an angle CFrame, followed by radian values in the X, Y, and Z dimensions.
+For position data, they called CFrames using `new()`. However, if you're *changing the orientation* using CFrames, you would call an **angle CFrame**, followed by radian values in the X, Y, and Z dimensions.
 
 ```lua
 partVariable.CFrame = CFrame.Angles(x, y, z)
@@ -29,7 +29,7 @@ I know radians can be difficult to work with as degrees is much easier to visual
 partVariable.CFrame = CFrame.Angles(x, math.rad(90), z)
 --If I want to change the orientation by 90 degrees in the y axis
 ```
-
+> If you're comfortable using radians, you can access pi using math.pi
 ---
 
 ## Practice

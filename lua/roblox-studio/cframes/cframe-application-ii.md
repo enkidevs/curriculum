@@ -18,14 +18,14 @@ revisionQuestion:
 
 ## Content
 
-
 Now that we have the basic skeleton set up for the infinite loop, let's now make changes to the actual part.
 
-Since we intend to have i be involved in changing the orientation, it'll have to act as one of the parameters in CFrame. This way, everytime the for loop activates, the orientation changes slightly.
+Since we intend to have `i` be **involved in changing the orientation**, it'll have to **act as one of the parameters** in CFrame. This way, everytime the *for loop* activates, the orientation *changes slightly*.
 
-Of course, don't forget to add a part and create the variable to associate it with. Play around with the block size for better visualization
+Of course, don't forget to add a part and create the variable to associate it with. Play around with the block size for better visualization.
 
-> You must add wait(), as without it, the code runs too fast and Studio gets overwhelmed, causing it to break.
+> You must add `wait()`, as without it, the code **runs too fast** and Studio gets overwhelmed, **causing it to break**.
+
 ```lua
 while true do
     for i = 1, 360 do
