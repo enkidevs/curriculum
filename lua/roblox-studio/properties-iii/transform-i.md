@@ -17,6 +17,8 @@ revisionQuestion:
 ---
 
 ## Content
+Now that we went over Vector3 and CFrame, we'll move on to the last 2 properties.
+
 The **Transform** properties involve changing the **position and orientation** of the **object itself**. 
 
 ### Size

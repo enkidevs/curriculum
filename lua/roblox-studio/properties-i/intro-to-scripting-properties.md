@@ -29,6 +29,8 @@ partVariable = game.Workspace.Part
 --let's say we want to access the BrickColor property.
 partVariable.Brickcolor
 ```
+
+> We'll be going through a few of the important properties for the next few workouts
 ---
 
 ## Practice
