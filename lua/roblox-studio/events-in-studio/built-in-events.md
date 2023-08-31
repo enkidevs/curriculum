@@ -17,11 +17,11 @@ revisionQuestion:
 ---
 
 ## Content
-As you may remember from the Lua workouts, events are provided and built-in by the Lua language. The same goes for Roblox Studio, except that all instances may not have access to the same events. 
+As you may remember from the Lua workouts, events are provided and built-in by the Lua language. The same goes for Roblox Studio, except that **all instances may not have access** to the same events. 
 
-Whenever you're working with instances and need to know what events they are applicable with, you can check through object browser[1].
+Whenever you're working with instances and need to know what events they are applicable with, you can check through **object browser**[1].
 
-Since we've been working with the part instance, we'll briefly look through its events. Click on part in the object browser, and scroll down in the list next to the instances. The events are the key words labeled with a lightning bolt.
+Since we've been working with the part instance, we'll briefly look through its events. Click on part in the object browser, and scroll down in the list next to the instances. The events are the key words labeled with a **lightning bolt**.
 
 ![object-browser-events](https://img.enkipro.com/9718369d6baf76025aae8abae79cf2ee.png)
 
