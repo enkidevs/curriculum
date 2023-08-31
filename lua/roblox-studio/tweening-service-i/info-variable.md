@@ -17,9 +17,9 @@ revisionQuestion:
 ---
 
 ## Content
-The Info variable is a local variable that contains data regarding the tween animation.
+The **Info variable** is a local variable that contains **data regarding the tween animation**.
 
-The syntax for this variable is very specific. Set the variable equal to TweenInfo.new(), and the new() parameter must hold these types of information: 
+The syntax for this variable is very specific. Set the variable equal to `TweenInfo.new()`, and the `new()` parameter must hold these types of information: 
 
 ```lua
 (time: number, easingStyle: EasingStyle, easingDirection: EasingDirection, repeatCount: number, reverses: boolean, delayTime: number)  
@@ -34,7 +34,29 @@ local info = TweenInfo.new(2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, -
 ---
 
 ## Practice
+```lua
+EasingStyle --option 1
+EasingDirection --option 2
+Time --option 3
+EasingTime --option 4
+```
+Of the 4 options, ??? is not a component of the TweenInfo.new() parameter.
+- option 4
+- option 1
+- option 2
+- option 3
 
 ---
 
 ## Revision
+```lua
+Reverses --option 1
+DelayTime --option 2
+Time --option 3
+TimeDelay--option 4
+```
+Of the 4 options, ??? is not a component of the TweenInfo.new() parameter.
+- option 4
+- option 1
+- option 2
+- option 3

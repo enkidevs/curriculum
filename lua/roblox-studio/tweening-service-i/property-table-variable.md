@@ -19,7 +19,7 @@ revisionQuestion:
 ## Content
 The **PropertyTable** is a local variable and an array or a table. 
 
-Each element in the array will hold the data for a changed property. 
+*Each element* in the array will *hold the data for a changed property*. 
 
 ```lua
 local PropertyTable = {
@@ -35,6 +35,31 @@ local PropertyTable = {
 
 ## Practice
 
+```lua
+local PropertyTable = {
+	Size = Vector3.new(30, 0, 30);
+}
+
+```
+
+In the code above, the property being changed is ???, and causes the part to increase/decrease in size in the X and Z axis
+- Size
+- Transparency
+- Color
+- Vector3
+
 ---
 
 ## Revision
+
+```lua
+local PropertyTable = {
+	Size = Vector3.new(30, 0, 30);
+}
+
+```
+In the code above, the property being changed is size, and causes the part to ???
+- increase/decrease in size in the X and Z axis
+- change orientation in the X and Z axis
+- increase/decrease in size in the X and Y axis
+- change orientation in the X and Y axis
