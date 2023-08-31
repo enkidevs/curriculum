@@ -23,7 +23,7 @@ However, most developers tend to use **TweenService** instead of making loops. I
 
 For instance, we can go from a transparency of 1 to 0.5, change an orientation little by little to a specific point, or even change colors!
 
-As long as there is a point A and a point B, tweening is a tool that is much **more efficient and flexible** than making loops.
+As long as there is a point A and a point B, tweening is a tool that is much **more efficient, flexible and smoother** than making loops.
 
 ---
 
