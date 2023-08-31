@@ -44,7 +44,7 @@ When you're ready, leave a comment here with your submission. If you don't want 
 
 > Here are some examples on how you can style your elements:
 
-Chaining css properties together.
+Chaining CSS properties together.
 
 ```css
 <element style="property1:value1;property2:value2">

@@ -27,35 +27,33 @@ revisionQuestion:
 
 ### Strikethrough Text
 
-The HTML `<s>`,  or the **Strikethrough Text** element, is used to create a strikethrough in a text. This is usually used to specify that some text is no longer correct or relevant.
-
-Example:
+The `<s>`,  or the **Strikethrough Text** element, is used to create a strikethrough in a text. This is usually used to specify that some text is no longer correct or relevant.
 
 ```html
 I have $40 left in my account.
 I have <s>$40</s> $35 left in my account
 ```
 
-Strikethrough Text Result:
+Strikethrough Result:
 
 ![editing-elements-s](https://img.enkipro.com/29c16ad8b52b7a27bd7837d87d7878ec.png)
 
 [View CodePen](https://codepen.io/enkidevs/pen/LBxVxz)
 
-**Notes:** If you want to indicate a document edit, don't use the `<s>` element, you should use the `<del>` and/or `<ins>` elements instead.
+> 💡 If you want to indicate a document edit, don't use the `<s>` element, you should use the `<del>` and/or `<ins>` elements instead.
 
 ### Deleted & Inserted Text
 
 Next, the `<del>`, or the **Deleted Text** element, is used to specify that some text has been deleted and the `<ins>`, or the **Inserted Text** element, is used to indicate that some text was inserted/added to the document.
 
-Both elements have the same 2 element-specific attributes:
+Both elements have the same two element-specific attributes:
 
 1. `cite`
 2. `datetime`
 
 The `cite` attribute is used to specify the URL which explains the change.
 
-The `datetime` attribute is used to indicate the time of the change and the date has to be properly specified (YYMMDD), otherwise it won't parse properly and the element won't have a time stamp.
+The `datetime` attribute is used to indicate the time of the change and the date has to be properly specified (YYMMDD), otherwise it won't parse and the element won't have a time stamp.
 
 The `<del>` element is usually rendered with strikethrough text, whereas the `<ins>` is usually rendered with underlined text.
 
