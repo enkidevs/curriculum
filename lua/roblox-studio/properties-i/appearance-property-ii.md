@@ -29,11 +29,22 @@ To access the color palette, either type or click on the new() parameters, and y
 
 ![color3-palette](https://img.enkipro.com/6bf24e7b3b7269e619e0afdc2ad0e662.png)
 
-
 ---
 
 ## Practice
+When choosing between BrickColor and Color, one should choose ??? for its option to open up a color palette.
 
+- Color
+- BrickColor
+- Colors
+- Color3
 ---
 
 ## Revision
+
+The ??? property may not proide a color palette, but it can provide specific color names that may be easier to memorize.
+
+- BrickColor
+- Color
+- Colors
+- Color3

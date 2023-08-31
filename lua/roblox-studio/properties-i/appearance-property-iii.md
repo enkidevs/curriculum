@@ -13,7 +13,7 @@ revisionQuestion:
 
 ---
 
-# Reflectance and Transparency
+# Appearance Property: Reflectance and Transparency
 ---
 
 ## Content
