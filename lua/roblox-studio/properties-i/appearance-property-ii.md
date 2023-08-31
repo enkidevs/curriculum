@@ -13,42 +13,27 @@ revisionQuestion:
 
 ---
 
-# Reflectance and Transparency
+# Appearance Property: Color 
 ---
 
 ## Content
+Why are there two colors you may ask? Well, BrickColor is for people that like naming stuff, Colors is primarily what you would use, as it follows RGB! 
 
-**Reflectance** and **transparency** are fairly simple. Once called, can be adjusted by setting the variable to be equal to a **number between 0 and 1**. The *higher the number*, the *more reflective/transparent* the part will become.
+But doesn't BrickColor also do RGB? Well you're not wrong, but Color has a nifty extension where you can use a color tool. This is not only convenient, but it automatically convers the 255 RGB values into values from 0 to 1.
 
 ```lua
-partVariable.Transparency = 0.9
-partVariable.Reflectance = 0.9
--- The part is now very transparent and reflective.
+partVariable.Color = Color3.new()
+--Declare Color3 when using the Color property
 ```
+To access the color palette, either type or click on the new() parameters, and you'll see both the current color and a color wheel. Pressing on the wheel opens up a color palette.
+
+![color3-palette](https://img.enkipro.com/6bf24e7b3b7269e619e0afdc2ad0e662.png)
+
+
 ---
 
 ## Practice
-To make an object only slightly transparent, you would need to write the following code:
-```lua
-partVariable = game.Workspace.Part
-partVariable.??? = ???
-```
-- Transparency
-- 0.2
-- Reflectance
-- BrickColor
-- 0.9
 
 ---
 
 ## Revision
-To make an object very reflective, you would need to write the following code:
-```lua
-partVariable = game.Workspace.Part
-partVariable.??? = ???
-```
-- Reflectance
-- 0.9
-- Transparency
-- BrickColor
-- 0.1
