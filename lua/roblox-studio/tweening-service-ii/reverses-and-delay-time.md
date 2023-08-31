@@ -26,6 +26,7 @@ For instance, let's say an animation starts with an object on the ground, then m
 **delayTime** is a variable that will *delay a tween animation by however many seconds* it is given in TweenInfo. 
 
 For instance, if delayTime holds a value of 5, the tween animation won't play until 5 seconds have passed.
+
 ---
 
 ## Practice
