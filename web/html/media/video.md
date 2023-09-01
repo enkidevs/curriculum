@@ -69,7 +69,7 @@ Complete the following snippet in order for it to be valid:
 ```html
 <??? ???="videofile.mp4"
      height="525"
-     width="360
+     width="360"
      controls>
 <???>
 ```
