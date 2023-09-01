@@ -26,6 +26,8 @@ partVariable.Locked = false
 --Useful in building games where players can build only in a set amount of time
 ```
 
+---
+
 ## Practice
 
 Louie is building a game where players must build their own base to protect them from enemies. Based on Louie's idea, finish the code below.
@@ -57,5 +59,3 @@ end
 - true
 - build
 - edit
-
----
