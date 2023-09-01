@@ -43,6 +43,7 @@ I want to change my part to "Bright Red". To do so, I'll write the following cod
 ```lua
 partVariable.??? = BrickColor.???
 ```
+
 - BrickColor
 - new("Bright Red")
 - Color
