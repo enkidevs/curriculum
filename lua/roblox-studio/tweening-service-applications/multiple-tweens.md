@@ -45,7 +45,7 @@ while true do
     --wait() is also important in ensuring the code doesn't run too fast
 end
 ```
-Now you've made a spinning block with various attributes! You can use this as a platform, kill obstacle, or even add more to it!
+Now you've made a spinning block with various attributes! You can use this as a platform, lava block, or even add more to it!
 
 ---
 
