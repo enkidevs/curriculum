@@ -30,12 +30,22 @@ local propertyTable = {
 	Orientation = Vector3.new(0, 359, 0) --only orientation in this element, so use vector3
 }
 ```
-Now the brick should start spinning and increase/decrease in length.
+Now the brick should start spinning and both increase and decrease in length.
 
 ---
 
 ## Practice
 
+When changing the Size property in the propertyTable, you should set them equal to ???
+- Vector3.new()
+- Vector3.Angles()
+- CFrame.new()
+- CFrame.Angles()
 ---
 
 ## Revision
+When changing the Orientation property in the propertyTable, you should set them equal to ???
+- Vector3.new()
+- Vector3.Angles()
+- CFrame.new()
+- CFrame.Angles()
