@@ -10,10 +10,10 @@ revisionQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-
 ---
 
 # Data Property: Parent
+
 ---
 
 ## Content
@@ -30,6 +30,7 @@ partVariable.Parent = game.Workspace.Baseplate
 The code is very reminiscent of creating a new instance.
 
 > Archivable Property should be ignored, as its usage is very niche and won't be used very often, if not at all.
+
 ---
 
 ## Practice
@@ -47,6 +48,7 @@ completedPartVariable.??? = game.Workspace.Baseplate.???
 - Locked
 - Name
 - Incomplete
+
 ---
 
 ## Revision

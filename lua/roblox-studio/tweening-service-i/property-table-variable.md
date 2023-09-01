@@ -1,4 +1,4 @@
-d---
+---
 author: junoocha
 type: normal
 category: must-know

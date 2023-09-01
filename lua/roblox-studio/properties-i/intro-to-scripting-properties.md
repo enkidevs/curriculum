@@ -31,6 +31,7 @@ partVariable.Brickcolor
 ```
 
 > We'll be going through a few of the important properties for the next few workouts
+
 ---
 
 ## Practice

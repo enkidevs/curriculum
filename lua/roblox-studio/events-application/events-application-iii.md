@@ -10,10 +10,10 @@ revisionQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-
 ---
 
 # Lava Block Conclusion
+
 ---
 
 ## Content
@@ -33,6 +33,7 @@ end)
 > Using an if statement ensures that the death will only be applied to models with the humanoid class, AKA user's avatars.
 
 Congratulations! You've understood how to create kill blocks! You can play with the shape or any other properties and use it as an obstacle in your game.
+
 ---
 
 ## Practice

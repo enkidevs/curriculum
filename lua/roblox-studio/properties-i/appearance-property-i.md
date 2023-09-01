@@ -13,10 +13,10 @@ revisionQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-
 ---
 
 # Appearance Property: BrickColor
+
 ---
 
 ## Content
@@ -35,6 +35,7 @@ partVariable.BrickColor = BrickColor.new(23)
 partVariable.BrickColor = BrickColor.new(0.1, 0.2, 172)
 ```
 > The specific names and associated number of every color can be found in the Learn More section.
+
 ---
 
 ## Practice

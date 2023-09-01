@@ -10,10 +10,10 @@ revisionQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-
 ---
 
 # Data Property: Locked
+
 ---
 
 ## Content
@@ -40,6 +40,7 @@ end
 - true
 - build
 - edit
+
 ---
 
 ## Revision
@@ -56,4 +57,5 @@ end
 - true
 - build
 - edit
+
 ---

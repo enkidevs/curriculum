@@ -14,6 +14,7 @@ revisionQuestion:
 ---
 
 # Info Variable
+
 ---
 
 ## Content
@@ -31,6 +32,7 @@ local info = TweenInfo.new(2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, -
 ```
 > Similarly to PropertyTable, info is a changeable name.
 > Easing will be touched upon next insight
+
 ---
 
 ## Practice

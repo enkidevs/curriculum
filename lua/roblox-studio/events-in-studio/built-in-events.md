@@ -10,10 +10,10 @@ revisionQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-
 ---
 
 # Built-In Events
+
 ---
 
 ## Content
@@ -26,6 +26,7 @@ Since we've been working with the part instance, we'll briefly look through its 
 ![object-browser-events](https://img.enkipro.com/9718369d6baf76025aae8abae79cf2ee.png)
 
 > If you're curious about creating your own events, this will be covered later on with bindable events
+
 ---
 
 ## Practice
