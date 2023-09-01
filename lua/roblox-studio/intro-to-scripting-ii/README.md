@@ -6,7 +6,7 @@ aspects:
 - workout
 
 insights:
-- functions
+- functions-in-studio
 - built-in-methods
 - wait-command
 - adding-instances-using-scripts-i
