@@ -41,7 +41,6 @@ local PropertyTable = {
 local PropertyTable = {
 	Size = Vector3.new(30, 0, 30);
 }
-
 ```
 In the code above, the property being changed is ???, and causes the part to increase/decrease in size in the X and Z axis
 
@@ -58,7 +57,6 @@ In the code above, the property being changed is ???, and causes the part to inc
 local PropertyTable = {
 	Size = Vector3.new(30, 0, 30);
 }
-
 ```
 In the code above, the property being changed is size, and causes the part to ???
 

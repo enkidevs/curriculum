@@ -38,6 +38,7 @@ partVariable.BrickColor = BrickColor.new(0.1, 0.2, 172)
 ---
 
 ## Practice
+
 I want to change my part to "Bright Red". To do so, I'll write the following code:
 
 ```lua
@@ -52,6 +53,7 @@ partVariable.??? = BrickColor.???
 ---
 
 ## Revision
+
 I want to change my part to "Bright Blue". To do so, I'll write the following code:
 
 ```lua

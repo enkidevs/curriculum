@@ -34,6 +34,7 @@ local info = TweenInfo.new(2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, -
 ---
 
 ## Practice
+
 ```lua
 EasingStyle --option 1
 EasingDirection --option 2
@@ -49,6 +50,7 @@ Of the 4 options, ??? is not a component of the TweenInfo.new() parameter.
 ---
 
 ## Revision
+
 ```lua
 Reverses --option 1
 DelayTime --option 2

@@ -33,6 +33,7 @@ The code is very reminiscent of creating a new instance.
 ---
 
 ## Practice
+
 Let's say I made a script that changes incomplete instances into complete ones, and I want to differentiate the incomplete ones from the complete ones by using different parents. 
 
 Finish the code that lets me change the parent of a newly completed instance to a parent called "Complete" in Baseplate.
