@@ -15,3 +15,8 @@ sections:
 - vector3
 - cframes
 - properties-iii
+- tweening-service-i
+- tweening-service-ii
+- tweening-service-applications
+- events-in-studio
+- events-application

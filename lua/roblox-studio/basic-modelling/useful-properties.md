@@ -22,6 +22,8 @@ For **size**, the *height, width, and length can be changed* by changing the X, 
 
 For **CFrame**, you can *change the position* by changing its coordinates, as well as its *degree of rotation* in the X, Y, and Z directions.
 
+The last useful property, **Anchored**, is in the **Part section**. The importance of this is that when true, it will be anchored in space and will not move, even if physically moved.
+
 ---
 
 ## Practice
