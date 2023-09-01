@@ -14,9 +14,11 @@ revisionQuestion:
 ---
 
 # PropertyTable
+
 ---
 
 ## Content
+
 The **PropertyTable** is a local variable and an array or a table. 
 
 *Each element* in the array will *hold the data for a changed property*. 
@@ -41,8 +43,8 @@ local PropertyTable = {
 }
 
 ```
-
 In the code above, the property being changed is ???, and causes the part to increase/decrease in size in the X and Z axis
+
 - Size
 - Transparency
 - Color
@@ -59,6 +61,7 @@ local PropertyTable = {
 
 ```
 In the code above, the property being changed is size, and causes the part to ???
+
 - increase/decrease in size in the X and Z axis
 - change orientation in the X and Z axis
 - increase/decrease in size in the X and Y axis
