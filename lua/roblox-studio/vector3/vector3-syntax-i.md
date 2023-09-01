@@ -33,6 +33,7 @@ Vector3 utilizes the ideas of vectors to represent ???
 - lines
 - 2D Space
 - objects
+
 ---
 
 ## Revision
@@ -43,3 +44,11 @@ Vector3 utilizes the ideas of ??? to represent 3D space
 - lines
 - 2D Space
 - objects
+
+---
+
+## Footnotes
+
+[1: Vectors]
+
+An object that has magnitude and a direction. Often represented as an arrow, as you can tell its direction by its head, and its magnitude by its length

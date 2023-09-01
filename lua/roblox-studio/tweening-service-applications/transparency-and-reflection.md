@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-For this insight, we'll be using TweenService to change the **transparency** and **reflection**. Before writing any code, manually change the transparency of the block to 0.2 and the reflectance to 015.
+For this insight, we'll be using TweenService to change the **transparency** and **reflection**. Before writing any code, manually change the transparency of the block to 0.2 and the reflectance to 0.15.
 
 In the propertyTable, let's change the transparency to 0 and the reflectance to 0.5. 
 

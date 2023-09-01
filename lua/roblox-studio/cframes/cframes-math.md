@@ -39,7 +39,7 @@ Variable.Property = CFrame.new() * Vector3.new()
 ## Practice
 Finish the code below such that an orientation CFrame and position CFrame is updated. Input the position CFrame first
 ```lua
-Variable.CFrame = CFrame.??? + CFrame.???
+Variable.CFrame = CFrame.??? * CFrame.???
 ```
 - new()
 - Angle()

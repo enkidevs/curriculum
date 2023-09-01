@@ -19,7 +19,9 @@ revisionQuestion:
 ## Content
 We now need to create a way to **identify and access a player's avatar**.
 
-If you may have noticed when testing various aspects, your avatar will show up as a model[1] in the workspace. Since any body part is considered a child of the avatar, we can use parent to access the avatar.
+In the Touched syntax, the function() parameter represents any part that triggers the Touched signal.
+
+Additionally, you may have noticed while testing that your avatar will show up as a model[1] in the workspace. Since any body part is considered a child of the avatar, we can use parent to access the avatar.
 
 ```lua
 lavaVar = game.Workspace.Lava

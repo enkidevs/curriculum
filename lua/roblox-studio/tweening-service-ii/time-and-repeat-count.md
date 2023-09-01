@@ -13,7 +13,7 @@ revisionQuestion:
 
 ---
 
-# Info Property: time and repeatCount
+# Info Property: Time and repeatCount
 ---
 
 ## Content

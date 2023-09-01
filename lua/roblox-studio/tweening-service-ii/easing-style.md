@@ -21,7 +21,6 @@ revisionQuestion:
 
 ## Content
 
-### Easing Style
 Easing style is **how movement is animated**. It can have *linear* movement, *exponential* movement, or even have a *bouncy* style of movement.
 
 > All types of movements can be found in the Learn More section. 

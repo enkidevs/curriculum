@@ -30,19 +30,19 @@ partVariable.CanTouch = true
 ---
 
 ## Practice
-Joe is creating a game that involves teleporting through several rooms using teleporters, with each room holding secret buttons. The following items should involve the CanTouch property: ???, ???
+Joe is creating a game that involves teleporting through several rooms using teleporters, with each room holding secret buttons. The following items should involve the CanTouch property: ???, secret buttons
 
 - teleporters
-- secret buttons
+- other players
 - floor
 - bed
 
 ---
 
 ## Revision
-Joe is creating a game that involves teleporting through several rooms using teleporters, with each room holding secret buttons. The following items should involve the CanTouch property: ???, ???
+Joe is creating a game that involves teleporting through several rooms using teleporters, with each room holding secret buttons. The following items should involve the CanTouch property: teleporters, ???
 
-- teleporters
 - secret buttons
 - floor
 - bed
+- other players

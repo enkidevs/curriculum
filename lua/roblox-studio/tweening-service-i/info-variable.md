@@ -31,7 +31,8 @@ Here's an example:
 local info = TweenInfo.new(2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, -1, true, 0)  
 ```
 > Similarly to PropertyTable, info is a changeable name.
-> Easing will be touched upon next insight
+
+> Easing will be touched upon in the next workout
 
 ---
 
