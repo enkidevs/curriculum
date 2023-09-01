@@ -37,6 +37,8 @@ Joe is creating a game that involves teleporting through several rooms using tel
 - floor
 - bed
 
+---
+
 ## Revision
 Joe is creating a game that involves teleporting through several rooms using teleporters, with each room holding secret buttons. The following items should involve the CanTouch property: ???, ???
 

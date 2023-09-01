@@ -10,10 +10,10 @@ revisionQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-
 ---
 
 # Continuation on Adding Instances using Scripts
+
 ---
 
 ## Content
@@ -47,6 +47,7 @@ newInstance.??? = ???
 - Script
 - Child
 - Gui
+
 ---
 
 ## Revision

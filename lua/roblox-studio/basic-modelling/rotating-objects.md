@@ -2,7 +2,14 @@
 author: junoocha
 type: normal
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Rotating Objects
@@ -27,6 +34,7 @@ While rotating an object, you will see red, green, and blue ??? surrounding the 
 - Spheres
 - Arrows
 - Cubes
+
 ---
 
 ## Revision
