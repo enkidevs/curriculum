@@ -36,13 +36,16 @@ partVariable.Brickcolor
 ## Practice
 
 I want to access the "Transparency" property of variable "blockVariable". The following code grants us this access:
+
 ```lua
 ???.???
 ```
+
 - blockVariable
 - Transparency
 - partVariable
 - newTransparency
+
 ---
 
 ## Revision
@@ -51,6 +54,7 @@ I want to access the "Transparency" property of variable "blockVariable". The fo
 ```lua
 ???.???
 ```
+
 - blockVariable
 - Transparency
 - partVariable
