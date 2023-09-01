@@ -31,6 +31,7 @@ partVariable.Locked = false
 ## Practice
 
 Louie is building a game where players must build their own base to protect them from enemies. Based on Louie's idea, finish the code below.
+
 ```lua
 buildBase(Wood)
 fortifyBase(Steel)
@@ -38,6 +39,7 @@ if editMode then
     editedBlock.Locked = ???
 end
 ```
+
 - false
 - true
 - build
@@ -48,6 +50,7 @@ end
 ## Revision
 
 Louie is building a game where players must build their own base to protect them from enemies. Based on Louie's idea, finish the code below.
+
 ```lua
 buildBase(Wood)
 fortifyBase(Steel)
@@ -55,6 +58,7 @@ if editMode then
     editedBlock.Locked = ???
 end
 ```
+
 - false
 - true
 - build
