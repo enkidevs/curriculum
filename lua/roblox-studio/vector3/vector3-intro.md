@@ -19,7 +19,7 @@ revisionQuestion:
 ## Content
 Before moving on to the last 2 properties, I'd like to touch upon **CFrames** and **Vector3** so you don't get confused when one is used over the other. We'll start with Vector3 before moving on to CFrames.
 
-**Vector3** is the data that deals with the **3D space and dimensions** of an object. For now, see it as a tool to *change* the **position** or **size** of an object.
+**Vector3** is the data that deals with the **3D space and dimensions** of an object. For now, see it as a tool to *change* the **position**, **orientation** or **size** of an object.
 
 ---
 

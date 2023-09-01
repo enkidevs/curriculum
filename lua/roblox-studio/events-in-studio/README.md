@@ -9,7 +9,3 @@ insights:
 - events-in-studio
 - built-in-events
 - events-syntax
-- events-application-i
-- events-application-ii
-- events-application-iii
-

@@ -28,10 +28,10 @@ partVariable = Vector3.new(5,0,0)
 Vector3 **orientation** follows the same exact syntax, except that **degrees are used in the syntax**.
 
 ```lua
-partVariable = Vector3.new(90, 180, 360)
+partVariable = Vector3.new(90, 180, 359)
 ```
 
->Note that **running this code by itself does nothing**, as you *only created a vector*. It only changes when its applied to a compatible property. I.e. `partVariable.Size = Vector3.new(5,0,0)`
+> Note that **running this code by itself does nothing**, as you *only created a vector*. It only changes when its applied to a compatible property. I.e. `partVariable.Size = Vector3.new(5,0,0)`
 
 ---
 
