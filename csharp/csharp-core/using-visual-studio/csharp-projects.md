@@ -15,7 +15,7 @@ category: must-know
 ## Content
 
 
-The bests way to learn code is to write some!
+The best way to learn code is to write some!
 
 Let's use Visual Studio to create a Console App called HelloWorld.
 

@@ -49,7 +49,7 @@ List<int> nums = new List<int>();
 Fill in the code to add 13 to it then check if it has that value:
 ```csharp
 ???.???(13);
-Console.WriteLine("Has 13: " + numbers.(13));
+Console.WriteLine("Has 13: " + numbers.Contains(13));
 ```
 
 - nums
@@ -70,7 +70,7 @@ List<int> nums = new List<int>();
 Fill in the code to add 13 to it then check if it has that value:
 ```csharp
 ???.???(13);
-Console.WriteLine("Has 13: " + numbers.(13));
+Console.WriteLine("Has 13: " + numbers.Contain(13));
 ```
 
 - nums

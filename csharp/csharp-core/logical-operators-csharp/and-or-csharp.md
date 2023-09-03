@@ -33,7 +33,7 @@ if(true && false)
 The `||` operator returns true if at least one of the operands is true. If both are false, it returns false:
 
 ```csharp
-if(true && false)
+if(true || false)
 {
   // This will execute
 }
