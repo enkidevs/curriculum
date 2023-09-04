@@ -23,7 +23,7 @@ If you recall, CFrames are also known as **coordinate frames**, as they use *coo
 If you're changing a position using CFrames, you would **call a new CFrame**, followed by X, Y, and Z values.
 
 ```lua
-partVariable.CFrame = CFrame.new(x, y, z)
+partVariable.CFrame = CFrame.new(X, Y, Z)
 ```
 ---
 
