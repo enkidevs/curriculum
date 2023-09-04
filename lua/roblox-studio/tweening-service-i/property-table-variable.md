@@ -33,7 +33,7 @@ local PropertyTable = {
 	Color = Color3.new(1, 0.596078, 0.243137) --Color3 is used due to its wider variety
 }
 ```
-> PropertyTable is a changeable name. You can change it to whatever as long as its used in the parameters.
+> PropertyTable is a changeable name. You can change it to whatever as long as its used in the parameters of Create().
 
 ---
 
