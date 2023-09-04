@@ -49,17 +49,17 @@ end
 
 ## Revision
 
-Louie is building a game where players must build their own base to protect them from enemies. Based on Louie's idea, finish the code below.
+Sharon is building a game where players are given a topic and they must build it within a time frame. Once time is up, they can no longer build and must judge the other buildings. Based on her idea, finish the code below. (Hint. Look at the condition before making your choice)
 
 ```lua
-buildBase(Wood)
-fortifyBase(Steel)
-if editMode then 
+intermission(30)
+endTime(300)
+if judgingPeriod then 
     editedBlock.Locked = ???
 end
 ```
 
-- false
 - true
 - build
 - edit
+- false
