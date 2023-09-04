@@ -27,7 +27,7 @@ To reference an element, we must *first declare a variable*. Let's create a vari
 
 ```lua
 baseplateVariable = 
---Declare variable
+--Declare variable 
 ```
 ---
 ## Practice
