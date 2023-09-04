@@ -13,7 +13,7 @@ revisionQuestion:
 
 ---
 
-# Transform Property: CFrame
+# Transform Property: CFrame Position
 ---
 
 ## Content
