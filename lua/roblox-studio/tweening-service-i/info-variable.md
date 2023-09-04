@@ -30,9 +30,9 @@ Here's an example:
 ```lua
 local info = TweenInfo.new(2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out, -1, true, 0)  
 ```
-> Similarly to PropertyTable, info is a changeable name.
+> Similarly to PropertyTable, info is a changeable name, as long as you keep it consistent in Create().
 
-> Easing will be touched upon in the next workout
+> Easing will be touched upon in the next workout.
 
 ---
 
