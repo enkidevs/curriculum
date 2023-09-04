@@ -23,6 +23,8 @@ The **PropertyTable** is a local variable and an array or a table.
 
 *Each element* in the array will *hold the data for a changed property*. 
 
+> Remember to put semi-colon after every element in the table!
+
 ```lua
 local PropertyTable = {
 	Position = Vector3.new(30,0,30); --Vector3 is used since orientation isn't used here
