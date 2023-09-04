@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-**Reflectance** and **transparency** are fairly simple. Once called, can be adjusted by setting the variable to be equal to a **number between 0 and 1**. The *higher the number*, the *more reflective/transparent* the part will become.
+**Reflectance** and **transparency** are fairly simple. Once called, they can be adjusted by setting the variable to be equal to a **number between 0 and 1**. The *higher the number*, the *more reflective/transparent* the part will become.
 
 ```lua
 partVariable.Transparency = 0.9
