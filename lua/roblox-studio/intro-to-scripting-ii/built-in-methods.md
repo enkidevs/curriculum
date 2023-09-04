@@ -35,23 +35,21 @@ These built-in functions can be found in the object browser, that show all objec
 
 ## Practice
 
-A method is a type of function that uses the ??? as an argument, and a ??? to call the method itself.
+A method is a type of function that uses the ??? as an argument, and a colon to call the method itself.
 
 - object itself
 - colon
 - script
 - period
 - semi-colon
-- event
 
 
 ---
 
 ## Revision
 
-A method is a type of function that uses the ??? as an argument, and a ??? to call the method itself.
+A method is a type of function that uses the object itself as an argument, and a ??? to call the method itself.
 
-- object itself
 - colon
 - script
 - period
