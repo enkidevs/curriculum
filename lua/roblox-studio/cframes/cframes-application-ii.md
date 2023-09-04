@@ -30,6 +30,7 @@ Of course, don't forget to add a part and create the variable to associate it wi
 while true do
     for i = 1, 360 do
         partVariable.CFrame = partVariable.CFrame * CFrame.Angles(0, math.rad(i), 0)
+        --starts at radian 1, and increments by 1 each loop
         wait()
     end
 end
