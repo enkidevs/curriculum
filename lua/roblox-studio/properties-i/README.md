@@ -1,4 +1,4 @@
-name: Properties i
+name: Properties I
 
 description: Learn how to adjust properties through code!
 

@@ -1,4 +1,4 @@
-name: TweeningService i
+name: TweeningService I
 
 description: Learn how to use TweenService in Roblox Studio!
 

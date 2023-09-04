@@ -1,4 +1,4 @@
-name: TweeningService ii
+name: TweeningService II
 
 description: Learn about the specific variables used in TweenInfo!
 

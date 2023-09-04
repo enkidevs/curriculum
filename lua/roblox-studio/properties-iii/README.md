@@ -1,4 +1,4 @@
-name: Properties iii
+name: Properties III
 
 description: Learn more on adjusting properties through code!
 

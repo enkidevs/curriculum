@@ -1,4 +1,4 @@
-name: Intro to Scripting on Studio i
+name: Intro to Scripting on Studio I
 
 description: Learn the basics of scripting!
 
