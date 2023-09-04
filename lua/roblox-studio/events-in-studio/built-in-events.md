@@ -25,7 +25,7 @@ Since we've been working with the part instance, we'll briefly look through its 
 
 ![object-browser-events](https://img.enkipro.com/9718369d6baf76025aae8abae79cf2ee.png)
 
-> If you're curious about creating your own events, this will be covered much later on with bindable events.
+> If you're curious about creating your own events, this will be covered much later in the intermediate workouts.
 
 ---
 
