@@ -18,15 +18,15 @@ revisionQuestion:
 
 ## Content
 
-For position data, they called CFrames using `new()`. However, if you're *changing the orientation* using CFrames, you would call an **angle CFrame**, followed by radian values in the X, Y, and Z dimensions.
+For position data, they called CFrames using `new()`. However, if you're *changing the orientation* using CFrames, you would call an **angle CFrame**, followed by **radian** values in the X, Y, and Z dimensions.
 
 ```lua
-partVariable.CFrame = CFrame.Angles(x, y, z)
+partVariable.CFrame = CFrame.Angles(X, Y, Z)
 ```
 I know radians can be difficult to work with as degrees is much easier to visualize. Thus, you can import a math model to convert degrees into radians.
 
 ```lua
-partVariable.CFrame = CFrame.Angles(x, math.rad(90), z)
+partVariable.CFrame = CFrame.Angles(X, math.rad(90), Z)
 --If I want to change the orientation by 90 degrees in the y axis
 ```
 > If you're comfortable using radians, you can access pi using math.pi
@@ -49,7 +49,7 @@ partVariable.CFrame = CFrame.??? (???)
 
 ## Revision
 
-Finish the code below such that the orientation changes by 50 **radians**s in the X axis
+Finish the code below such that the orientation changes by 50 **radians** in the X axis
 ```lua
 partVariable.CFrame = CFrame.??? (???)
 ```
