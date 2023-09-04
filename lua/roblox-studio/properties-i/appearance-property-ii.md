@@ -17,9 +17,9 @@ revisionQuestion:
 ---
 
 ## Content
-Why are there two colors you may ask? Well, BrickColor is for people that like naming stuff, Colors is primarily what you would use, as it follows RGB! 
+Why are there two color properties you may ask? Well, BrickColor is for people that like naming stuff, Colors is primarily what you would use, as it follows RGB! 
 
-But doesn't BrickColor also do RGB? Well you're not wrong, but Color has a nifty extension where you can use a color tool. This is not only convenient, but it automatically convers the 255 RGB values into values from 0 to 1.
+But doesn't BrickColor also do RGB? Well you're not wrong, but Color has a nifty extension where you can use a color tool. This is not only convenient, but it automatically converts the 255 RGB values into values from 0 to 1.
 
 ```lua
 partVariable.Color = Color3.new()
