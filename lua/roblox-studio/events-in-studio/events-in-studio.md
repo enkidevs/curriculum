@@ -15,5 +15,5 @@ Not only are you able to *connect functions to a specific event*, but events can
 
 > 💬 To help you understand events better in Roblox, comment down below an event that might be used in Roblox!
 >
-> For example, an event that triggers whenever a player goes past the boundary, a connected function sends them back to spawn
+> For example, an event that triggers whenever a player goes past the boundary, a connected function sends them back to spawn.
 
