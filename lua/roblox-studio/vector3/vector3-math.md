@@ -13,13 +13,13 @@ revisionQuestion:
 
 ---
 
-# Vector3 Math
+# Vector3 Math Operations
 ---
 
 ## Content
 If you're familiar with vectors in math, you'd know that vectors have a lot of math applications to it. In Roblox Studio, they work the same way.
 
-You can add, subtract, multiply, and divide Vector3's together, as well as multiply or divide a Vector3 by a number. Each operation is done only with their respective dimension (x values with x, y values with y, z values with z).
+You can add, subtract, multiply, and divide Vector3's together, as well as multiply or divide a Vector3 by a number. Each operation is done only with their respective dimension (X values with X, Y values with Y, Z values with Z).
 ```lua
 Var = Vector3.new() + Vector3.new() --add
 Var = Vector3.new() - Vector3.new() --subtract
