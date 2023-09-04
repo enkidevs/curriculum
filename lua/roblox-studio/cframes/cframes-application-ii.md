@@ -37,7 +37,7 @@ end
 ---
 
 ## Practice
-Josh wanted to create a spinning block using CFrames. However, he noticed that while using `i = 1,360` for his **for loop** condition, it is not fast enough. What could he write instead to make it spin faster?
+Josh wanted to create a spinning block using CFrames. However, he noticed that while using `i = 1,360` for his **for loop** condition, it is not fast enough. To make the block spin faster, he could write ???
 
 - `i = 1, 360, 6`
 - `i = 6, 360`

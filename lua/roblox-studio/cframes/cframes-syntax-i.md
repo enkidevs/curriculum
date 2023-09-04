@@ -30,7 +30,7 @@ partVariable.CFrame = CFrame.new(x, y, z)
 ## Practice
 Finish the code below such that the new position changes by a value of -4 in the Y axis.
 ```lua
-partVariable.CFrame = CFrame.???(???)
+partVariable.CFrame = CFrame.??? (???)
 ```
 
 - new
@@ -43,7 +43,7 @@ partVariable.CFrame = CFrame.???(???)
 ## Revision
 Finish the code below such that the new position changes by a value of -5 in the X axis and 4 in the Z axis.
 ```lua
-partVariable.CFrame = ???.new(???)
+partVariable.CFrame = ???.new (???)
 ```
 
 - CFrame

@@ -30,7 +30,7 @@ The Syntax for this direction is: `Enum.EasingDirection.Direction`, where you wi
 
 Finish the syntax for Easing Direction if the style should play in reverse
 
-`Enum.EasingDirection.???`
+`Enum.EasingDirection. ??? `
 
 - Out
 - In
@@ -42,7 +42,7 @@ Finish the syntax for Easing Direction if the style should play in reverse
 
 Finish the syntax for Easing Direction if the style should play forwards
 
-`Enum.EasingDirection.???`
+`Enum.EasingDirection. ??? `
 
 - In
 - Out
