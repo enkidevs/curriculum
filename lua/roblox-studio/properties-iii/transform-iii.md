@@ -32,7 +32,7 @@ partVariable.CFrame = CFrame.Angle(0,math.rad(90), 0)
 Finish the code below to change an object's orientation by 90 degrees in the Z direction.
 
 ```lua
-partVariable.CFrame = CFrame.???(???)
+partVariable.CFrame = CFrame.??? (???)
 ```
 - Angle
 - 0, 0, math.rad(90)
@@ -45,7 +45,7 @@ partVariable.CFrame = CFrame.???(???)
 Finish the code below to change an object's orientation by 90 degrees in the X direction.
 
 ```lua
-partVariable.CFrame = CFrame.???(???)
+partVariable.CFrame = CFrame.??? (???)
 ```
 - Angle
 - math.rad(90), 0, 0
