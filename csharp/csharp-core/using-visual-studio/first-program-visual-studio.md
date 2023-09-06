@@ -17,7 +17,7 @@ Ready for some code?
 
 Remember, we'll write out code in the `Program.cs` file.
 
-In **C#**, you can print text to the screen using the `Console.WriteLine` method:
+Remember, in **C#**, you can print text to the screen using the `Console.WriteLine` method:
 
 ```csharp
 Console.WriteLine("Hello, World!");

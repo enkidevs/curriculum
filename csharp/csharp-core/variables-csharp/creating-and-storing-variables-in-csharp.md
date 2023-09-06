@@ -19,7 +19,7 @@ int x = 5;
 double y = 10.0;
 ```
 
-To print the value of a variable, you can pass it into `Console.WriteLine()`:
+We can then print the variables by passing them into `Console.WriteLine()`:
 ```csharp
 Console.WriteLine(x);
 // Outputs: 5
