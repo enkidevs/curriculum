@@ -12,7 +12,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Assignment Operators in C#
+# Assignment Operators
 
 ---
 

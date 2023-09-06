@@ -4,7 +4,7 @@ type: normal
 category: must-know
 ---
 
-# Assignment Operators in C#
+# Null operator
 
 ---
 

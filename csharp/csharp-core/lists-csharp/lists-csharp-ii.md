@@ -11,7 +11,7 @@ practiceQuestion:
 
 ---
 
-# Lists
+# Manipulating Lists
 
 ---
 

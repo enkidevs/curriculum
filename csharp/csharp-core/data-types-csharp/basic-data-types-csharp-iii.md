@@ -27,7 +27,7 @@ Console.WriteLine(letter);
 ```
 
 ### string
-
+---
 
 A `string` type represents a sequence of characters, such as "Hello, world" or "Enki":
 
@@ -40,7 +40,7 @@ Console.WriteLine(greeting);
 ---
 ## Practice
 
-Complete the following code snippet by declaring a `string` variable named `name` and assigning it a value of `"Enki"`.
+Complete the following code snippet by declaring a `string` variable called `name` and assigning it a value of `"Enki"`.
 
 ```csharp
 ??? name = "???";

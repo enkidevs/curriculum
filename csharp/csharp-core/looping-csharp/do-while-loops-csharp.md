@@ -28,10 +28,11 @@ int i = 0;
 
 do
 {
-  Console.WriteLine(i);
+  Console.Write(i);
   i++;
 }
 while(i < 5);
+// 012345
 ```
 
 
@@ -45,11 +46,11 @@ int i = 1;
 
 ???
 {
-  Console.WriteLine(i);
+  Console.Write(i);
   i++;
 }
 ???(i ??? 7);
-
+// 1234567
 ```
 
 - do

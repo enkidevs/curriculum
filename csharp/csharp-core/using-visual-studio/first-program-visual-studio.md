@@ -4,14 +4,6 @@ author: Stefan-Stojanovic
 type: normal
 
 category: must-know
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
   
 ---
 
@@ -35,31 +27,3 @@ Console.WriteLine("Hello, World!");
 Compiling and Executing our code is as simple as pressing the Run button in Visual Studio!
 
 If all is working, you should see `"Hello World"` printed to the console!
-
----
-## Practice
-
-Which function is used to print text to the screen in **C#**?
-
-```csharp
-???("Hello, World!")
-```
-
-- `Console.WriteLine`
-- `WriteLine`
-- `printout`
-- `echo`
-
----
-## Revision
-
-Which command is used to run a script file called `calc` in **C#**?
-
-```csharp
-??? calc.cs 
-```
-
-- `csc`
-- `execute`
-- `run`
-- `go`

@@ -6,7 +6,7 @@ type: normal
 category: must-know
 ---
 
-# Lists
+# What are Lists
 
 ---
 

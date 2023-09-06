@@ -33,15 +33,13 @@ else
   Console.WriteLine("a is true.");
 }
 ```
-
-
 ---
 
 ## Practice
 
 Finish the code to output 'a is false'?
 
-```cpp
+```csharp
 bool a = ???;
 
 if(???) 
@@ -66,7 +64,7 @@ else
 
 What is the output of the following code?
 
-```cpp
+```csharp
 bool a = true;
 
 if(!a)

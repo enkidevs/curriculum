@@ -25,7 +25,7 @@ The `^` operator, also known as the logical `XOR` operator, is used for boolean 
 `XOR` stands for "exclusive or", meaning it returns true if exactly one (and only one) of the conditions is true.
 
 Here is an example:
-```php
+```csharp
 bool a = true;
 bool b = false;
 

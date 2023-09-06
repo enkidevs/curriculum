@@ -25,12 +25,12 @@ It is defined with three parameters:
 
 Here's an example of a `for` loop:
 
-Example:
 ```csharp
 for(int i = 0; i < 5; i++)
 {
-  Console.WriteLine(i);
+  Console.Write(i);
 }
+// 01234
 ```
 
 This loop will print the numbers from `0` to `4`. The variable `i` is initialized with `0` and incremented by 1 in each iteration. The loop will continue until `i` is no longer less than 5.
@@ -43,8 +43,9 @@ Finish the following code snippet to make the loop print numbers from 0 to 9.
 ```csharp
 ???(int i = 0; i ???; i++)
 {
-  Console.WriteLine(i);
+  Console.Write(i);
 }
+// 0123456789
 ```
 
 - for

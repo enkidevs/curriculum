@@ -27,10 +27,9 @@ int[] numbers = {0, 1, 2, 3, 4};
 
 foreach(int i in numbers)
 {
-  Console.WriteLine(i);
+  Console.Write(i);
 }
-
-// 0 1 2 3 4
+// 01234
 ```
 
 This loop will print the numbers from 0 to 4. It takes each element from the numbers array and prints it.
@@ -49,7 +48,9 @@ foreach(string ??? in ???)
 {
   Console.WriteLine(word);
 }
-
+// I
+// love
+// C#
 ```
 
 - word

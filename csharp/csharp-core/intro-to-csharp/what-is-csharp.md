@@ -22,6 +22,7 @@ Here's an example of C# code where we find out how many pizzas two superheroes a
 int spiderman = 3;
 int batman = 5;
 Console.WriteLine("Together, they ate " + (spiderman + batman) + " pizzas!");
+// Together, they ate 8 pizzas!
 ```
 
 > Do not worry if you don't understand the code, we will dive deeper into it later on.
