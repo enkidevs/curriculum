@@ -20,3 +20,5 @@ sections:
     - tweening-service-applications
     - events-in-studio
     - events-application
+    - building-obstacles-i
+    - building-obstacles-ii
