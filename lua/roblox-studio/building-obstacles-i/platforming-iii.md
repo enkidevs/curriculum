@@ -11,7 +11,7 @@ category: how-to
 
 ## Content
 
-Don't forget that you can change position and orientation! You can making platforms that shrink or grow, perhaps give them a spin, or be simplistic and have them function as rudementary elevators! I emphasize again, this is YOUR CHOICE.
+Don't forget that you can change position and orientation! You can making platforms that shrink or grow, perhaps give them a spin, or be simplistic and have them function as rudementary elevators! I emphasize again, this is **YOUR CHOICE**.
 
 For instance, to make a spinning brick:
 ```lua
@@ -31,4 +31,4 @@ while true do
 	wait(10) 
 end
 ```
-This is just a base, maybe add length adjustments or position changes? In fact, why not combine dynamic changes with physical changes such as changing collision and transparency? You are only limited by your imagination.
+This is just a base, maybe add length adjustments or position changes to add more flavor? In fact, why not combine dynamic changes with physical changes such as changing collision and transparency? You are only limited by your imagination.

@@ -11,7 +11,7 @@ category: how-to
 
 ## Content
 
-Sure, platforming sounds boring, but this is Roblox! Make it exciting by changing the properties! 
+Let's make platforming exciting by changing the properties! 
 
 Go for quick design changes by changing color, transparency, even reflection! Maybe try combining properties with specific behaviour, such as removing collision when a platform is fully transparent!
 
