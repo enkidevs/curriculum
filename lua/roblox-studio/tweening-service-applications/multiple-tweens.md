@@ -14,6 +14,7 @@ revisionQuestion:
 ---
 
 # Using Multiple Tweens
+
 ---
 
 ## Content
@@ -50,6 +51,7 @@ end
 Now you've made a spinning block with various attributes! You can use this as a platform, lava block, or even add more to it!
 
 > If you'd like the full code, please look at the next insight.
+
 ---
 
 ## Practice
