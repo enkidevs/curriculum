@@ -48,3 +48,22 @@ Through iterations, we are **no longer forced to create a copy of the script for
 
 ---
 
+## Practice 
+
+To iterate through a model, you need to use ???
+
+- pairs loops
+- for loops
+- if/else statements
+- various scripts
+
+---
+
+## Revision
+
+To access a model using variables in a script, you would access it through ???
+
+- the hierarchy system and going through the parents
+- naming the part "Model"
+- the hierarchy system
+- using Parent.()
