@@ -11,7 +11,7 @@ category: how-to
 
 ## Content
 
-Don't forget that you can change position and orientation! You can making platforms that shrink or grow, perhaps give them a spin, or be simplistic and have them function as rudementary elevators! I emphasize again, this is **YOUR CHOICE**.
+Don't forget that you can change position and orientation! You can making platforms that shrink or grow, perhaps give them a spin, or be simplistic and have them function as rudementary elevators! Once again, this is **YOUR CHOICE**.
 
 For instance, to make a spinning brick:
 ```lua

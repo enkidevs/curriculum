@@ -13,7 +13,9 @@ category: how-to
 
 Let's make platforming exciting by changing the properties! 
 
-Go for quick design changes by changing color, transparency, even reflection! Maybe try combining properties with specific behaviour, such as removing collision when a platform is fully transparent!
+Go for quick design changes by changing color, transparency, even reflection! Maybe try combining properties with specific behaviour, such as removing collision when a platform is fully transparent! 
+
+The code below will turn a block invisible, before turning it visible. When fully invisible, the block has no collision.
 
 ```lua
 partVar = game.Workspace.Part
