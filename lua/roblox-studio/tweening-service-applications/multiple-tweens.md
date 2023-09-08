@@ -23,6 +23,8 @@ This is when you would want to **use multiple tweens and a loop**! To do this, *
 
 Afterwards, create a while loop. Play the first animation and in the line after, make sure you wait the duration of the animation before playing the next. Repeat the wait command so it waits for the next animation.
 
+> While not changing the reverses and repeatCount value won't change much in this example, it's advised to do so for future tweening creations, as we want to play the next animation instead of repeating it.
+
 ```lua
 --create a new property table
 --keep orientation
@@ -47,6 +49,7 @@ end
 ```
 Now you've made a spinning block with various attributes! You can use this as a platform, lava block, or even add more to it!
 
+> If you'd like the full code, please look at the next insight.
 ---
 
 ## Practice
