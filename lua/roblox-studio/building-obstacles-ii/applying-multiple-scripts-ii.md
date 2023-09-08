@@ -19,7 +19,7 @@ revisionQuestion:
 
 ## Content
 
-Now that we have models, we will be using a pairs loop to iterate through every part in the model and apply the script to each part. 
+Now that we have models, we will be **using a pairs loop** to iterate through every part in the model and apply the script to each part. 
 
 For instance, let's code a script such that every part in a model will act as a kill brick.
 
@@ -44,7 +44,7 @@ for i,v in pairs(Model:GetChildren()) do
 	end
 end
 ```
-Through iterations, we are no longer forced to create a copy of the script for every part that needs the specific behaviour.
+Through iterations, we are **no longer forced to create a copy of the script for every part** that needs the specific behaviour.
 
 ---
 
