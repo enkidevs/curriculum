@@ -13,7 +13,11 @@ revisionQuestion:
 
 ---
 
-# Themes and Creativity
+# Applying Multiple Scripts Continuation
+
+---
+
+## Content
 
 Now that we have models, we will be using a pairs loop to iterate through every part in the model and apply the script to each part. 
 
@@ -41,10 +45,6 @@ for i,v in pairs(Model:GetChildren()) do
 end
 ```
 Through iterations, we are no longer forced to create a copy of the script for every part that needs the specific behaviour.
----
-
-## Content
-
 
 
 ---
