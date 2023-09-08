@@ -7,8 +7,9 @@ aspects:
 
 insights:
 - setting-up-tween
+- color
 - transparency-and-reflection
 - transform
-- color
 - multiple-tweens
+- example
 
