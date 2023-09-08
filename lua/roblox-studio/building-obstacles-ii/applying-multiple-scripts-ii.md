@@ -46,6 +46,5 @@ end
 ```
 Through iterations, we are no longer forced to create a copy of the script for every part that needs the specific behaviour.
 
-
 ---
 
