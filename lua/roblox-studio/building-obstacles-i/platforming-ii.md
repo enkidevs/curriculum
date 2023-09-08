@@ -1,15 +1,7 @@
 ---
 author: junoocha
 type: normal
-category: must-know
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
+category: how-to
 
 ---
 
@@ -51,16 +43,4 @@ while true do
 	--but don't forget that wait() is required for these types of loops
 end
 ```
-
----
-
-## Practice
-
----
-
-## Revision
-
-
----
-## Footnotes
 
