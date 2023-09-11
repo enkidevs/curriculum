@@ -13,19 +13,13 @@ revisionQuestion:
 
 ---
 
-# More on Property Interface
+# Concluding Property Interface
 
 ---
 
 ## Content
 
-If you scrolled through the property window, the amount of options may seem daunting. Don't fret! They're not as complicated as they seem.
-
-### Visual Aspects
-The **Appearance** and **Transform** aspects deal with the visuals, such as color and location in the game.
-
-### The Data Aspect
-**Data** serves a simple purpose of holding information about the part, such as its name and the parent its found under.
+Here are the remaining properties.
 
 ### The Physical Aspect
 **Collision** and **Part** focus on the physics of an object, such as whether it holds mass or if it's locked in place.
@@ -38,11 +32,11 @@ If you're curious, you can play around with each property. If you'd like to know
 
 ## Practice
 
-I should focus on the ??? and Transform properties if I want to change the visuals of an object.
+I should focus on the Collision and ??? properties if I want to change the physics of an object.
 
-- Appearance
+- Parts
 - Data
-- Collision
+- Assembly
 - Pivot
 
 ---

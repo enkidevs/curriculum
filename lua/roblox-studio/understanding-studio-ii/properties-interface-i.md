@@ -12,7 +12,9 @@ category: must-know
 
 ## Content
 
-Properties refer to the **attributes of an object**. They can be changed using scripts or manually, but for now, we'll focus on manual changes.
+Properties refer to the **attributes of an object**. They can be changed using scripts or manually.
+
+> For now, we'll focus on manual changes.
 
 To prompt the property window, *add a part* using the insert tool.
 

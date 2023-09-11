@@ -11,6 +11,5 @@ insights:
 - studio-interface
 - explorer-interface-i
 - explorer-interface-ii
-- properties-interface-i
-- properties-interface-ii
+
 
