@@ -42,7 +42,7 @@ Other methods include:
 
 - `console.warn("Warning")`
 - `console.error("Error!")`
-- `console.trace()`
+- `console.trace()` [1]
 
 > 🤔 When might `console.warn` be more useful than `console.log`?
 
