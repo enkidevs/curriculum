@@ -1,23 +1,28 @@
 ---
-author: kapnobatai136
-
-type: normal
+author: lior-bd
 
 category: coding
 
+type: normal
+
+
+
 setupCode:
-  startingPoint: |
-   // Welcome to the JavaScript coding playground.
-   // Update the statement with the first thing you'd log if you just landed on Mars!
-   
-   console.log("That's one small step for man, one giant leap for JavaScript!");
+  startingPoint: // Welcome to the JavaScript coding playground.
+// Update the statement with the first thing you'd log if you just landed on Mars!
+
+console.log("That's one small step for man, one giant leap for JavaScript!");
+
+
+
+links:
+
 
 ---
 
 # Hello Mars!
 
 ---
-
 ## Content
 
 Let's write our first JavaScript program!
@@ -37,3 +42,13 @@ Hello Mars!
 ```
 
 > As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the [*Skill Map*](https://app.enki.com/skill/selection) tab** to jump to the workouts most relevant for you.
+
+
+
+
+
+
+---
+## Footnotes
+
+

@@ -1,17 +1,21 @@
 ---
-author: abdullah
-tags:
-  - discussion
+author: lior-bd
+
+category: must-know
 
 type: normal
-category: must-know
+
+
+
+
+links:
+
 
 ---
 
 # Introduction
 
 ---
-
 ## Content
 
 JavaScript is Everywhere!
@@ -26,9 +30,18 @@ alert("Warning! 👖 no longer fit.");
 
 ![JavaScript_Jeans_Final](https://img.enkipro.com/bd7c491db166c1fcdc6144f145a186dc.png)
 
-
 JavaScript is essentially the language of the Web; Facebook, Google, Netflix, Microsoft, etc., all use it for one purpose or another.
 
 > 🤔 What purpose will you use it for?
 >
 > Leave a comment or view some of the other comments for inspiration before moving on.
+
+
+
+
+
+
+---
+## Footnotes
+
+

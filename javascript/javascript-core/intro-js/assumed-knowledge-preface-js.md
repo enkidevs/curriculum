@@ -1,16 +1,21 @@
 ---
 author: lior-bd
 
+category: must-know
+
 type: normal
 
-category: must-know
+
+
+
+links:
+
 
 ---
 
 # New to Coding?
 
 ---
-
 ## Content
 
 Ready for a thrilling dive into Javascript? 
@@ -22,5 +27,11 @@ But if those terms made you go, "Wait, what? 🤔", you should take a detour to 
 It'll give you the basics you need to navigate the world of Javascript.
 
 
+
+
+
+
+---
+## Footnotes
 
 

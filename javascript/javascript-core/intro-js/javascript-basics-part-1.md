@@ -1,26 +1,36 @@
 ---
-author: nem035
-type: normal
+author: lior-bd
+
 category: must-know
+
+type: normal
+
 practiceQuestion:
+  context: standalone
   formats:
     - fill-in-the-gap
-  context: standalone
+  preferredFormat: fill-in-the-gap
+
+
 revisionQuestion:
+  context: standalone
   formats:
     - fill-in-the-gap
-  context: standalone
+  preferredFormat: fill-in-the-gap
+
+
+
+links:
+
+
 ---
 
-# Basics I 
-
+# Variables
 
 ---
-
 ## Content
 
 Here we'll look at some fundamental syntax rules for JavaScript.
-
 
 ### Variables
 
@@ -49,29 +59,7 @@ firstName = "Changed"; // this works
 
 We'll learn more about the differences between `let`, `const`, and `var` later on.
 
-
-### Case Sensitivity
-
-Everything in JavaScript is case sensitive.
-
-```js
-let password;
-// Is not the same as
-let pasSword;
-// or
-let PASSWORD;
-```
-
-
-### Keywords
-
-Like most languages, there are a number of reserved words in JavaScript that you cannot use to name your functions and variables (e.g. `var`, `let`, `new`).
-
-
-> 💡 If you're unsure what a variable is, check out the [variables lesson](https://app.enki.com/insights/programs-and-data) in our [Coding Intro](https://app.enki.com/skill/coding-intro) topic.
-
 ---
-
 ## Practice
 
 Which snippet will throw an error?
@@ -103,14 +91,21 @@ answer = 'life';
 
 
 ---
-
 ## Revision
 
 Can we do the following declaration?
+
 ```js
 let new = "Keywords";
 ```
+
 ???
 
 - No
 - Yes
+
+
+---
+## Footnotes
+
+
