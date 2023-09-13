@@ -26,58 +26,25 @@ revisionQuestion:
 
 ## Content
 
-The `console.*` methods output information to a console.
-
-For example, `console.log` can print out a message:
+`console.*` methods display data to the console. For instance, `console.log` prints text or variables:
 
 ```js
-console.log("This is my message");
-// This is my message
+console.log("Message");
+// Message
 ```
-
-More commonly it is used to show the current value of a variable when debugging. In this example we are logging the value of a variable called `username`:
 
 ```js
 console.log("Username: " + username);
 // Username: enkilondon
 ```
 
-A few other useful console methods include:
+Other methods include:
 
-Sending a warning to the console.
+- `console.warn("Warning")`
+- `console.error("Error!")`
+- `console.trace()`
 
-```js
-console.warn("Resource not changed")
-```
-
-Sending an error message to the console.
-
-```js
-console.error("File not found!")
-```
-
-Viewing the current stack trace[1].
-
-```js
-console.trace()
-```
-
-In JavaScript, there is no specification for how `console.*` methods behave. Each environment adds its own methods and behavior.
-
-When creating a web application, the use of `console.*` is critical for quickly debugging problems. Whenever you need more information on a variable or would like to know where your code stops working, you should apply a console statement at the area in question. `console.*` statements can be viewed in Google Chrome by pressing `Ctrl+Shift+i`, and in Firefox by pressing `Ctrl+Shift+k`.
-
-In addition to this, `console.*` can be used to pipe information to `stdout` in NodeJS.
-
-**It is considered best practice to not include any `console.*` methods in production code.**
-
-
-> 🤔 Can you think of any scenario where `console.warn` might be more suitable than `console.log`?
->
-> Leave a comment or view some of the other comments for inspiration before moving on.
-
-
-> 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the [*Skill Map*](https://app.enki.com/skill/selection) tab** to jump to the workouts most relevant for you.
-
+> 🤔 When might `console.warn` be more useful than `console.log`?
 
 ---
 

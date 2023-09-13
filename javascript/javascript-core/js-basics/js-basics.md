@@ -42,31 +42,6 @@ let firstName = "Enki";
 Omitting a semicolon in certain situations can cause problems. So JavaScript has a feature called Automatic Semicolon Insertion (ASI) which means, if you omit a semicolon, JavaScript will automatically add it where it thinks it should go. [2]
 
 
-### Comments
-
-Comments can be created in 2 ways in JavaScript.
-
-As a single line comment:
-
-```js
-// I am a single line comment
-```
-
-You can also add single line comments to the same line as other code:
-
-```javascript
-let company="enki"; // define company
-```
-
-Or, if you have more text, you can use a block comment:
-
-```javascript
-/*
-I am a block comment
-*/
-```
-
-
 ---
 
 ## Practice
