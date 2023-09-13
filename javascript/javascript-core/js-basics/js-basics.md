@@ -19,13 +19,9 @@ revisionQuestion:
 
 ## Content
 
-Here are a couple more rules.
-
 ### Identifier naming rules
 
-When naming any function, property or variable, the first character must be a letter, $ sign or underscore.
-
-After the first character, you are free to use numbers, letters, dollar signs or underscores.
+When naming any function, property or variable, the first character must be a letter, $ sign or underscore:
 
 ```javascript
 let name = "Enki"; // valid
@@ -43,10 +39,7 @@ let firstName = "Enki";
 //                    ^
 ```
 
-Omitting a semicolon in certain situations can cause problems. So JavaScript has a feature called Automatic Semicolon Insertion (ASI) which means, if you omit a semicolon, JavaScript will automatically add it where it thinks it should go. 
-
-However, this can sometimes lead to unexpected results[2]. Thus, it's recommended to insert the `;` yourself or use a tool such as [Prettier](https://prettier.io) to do it for you.
-
+Omitting a semicolon in certain situations can cause problems. So JavaScript has a feature called Automatic Semicolon Insertion (ASI) which means, if you omit a semicolon, JavaScript will automatically add it where it thinks it should go. [2]
 
 
 ### Comments
