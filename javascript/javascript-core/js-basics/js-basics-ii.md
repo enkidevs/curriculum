@@ -4,14 +4,12 @@ type: normal
 category: must-know
 ---
 
-# Basics II
-
+# Comments
 
 ---
 
 ## Content
 
-### Comments
 
 Comments can be created in 2 ways in JavaScript.
 

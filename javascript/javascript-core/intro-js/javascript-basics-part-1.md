@@ -19,9 +19,9 @@ revisionQuestion:
 
 ## Content
 
-Variables are used to store information - each holds a value with a specific name. 
+The building blocks of Javascript are variables!
 
-We can also change the value a variable holds, if needed:
+We can create and change the value a variable like so:
 
 ```javascript
 let firstName = "Enki";
@@ -35,7 +35,7 @@ const firstName = "Enki";
 firstName = "Changed"; // Error!
 ```
 
-The final (and the oldest) way of declaring a variable in JavaScript is using `var`:
+The final (and the oldest) way of declaring a variable in JavaScript is by using `var`:
 
 ```javascript
 var firstName = "Enki";

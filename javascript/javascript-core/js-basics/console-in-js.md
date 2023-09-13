@@ -19,8 +19,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Output to the console 
-
+# Outputting to Console
 
 ---
 

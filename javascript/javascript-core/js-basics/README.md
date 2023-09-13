@@ -1,4 +1,4 @@
-name: Introducing JavaScript
+name: Basic Syntax
 
 description: Get familiar with one of the most popular programming languages.
 
