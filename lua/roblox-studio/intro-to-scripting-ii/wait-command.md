@@ -26,10 +26,10 @@ We can use boolean and loops that activate when a certain condition is met.
 
 ```lua
 wait()
-wait(3)
 --Without a parameter, wait() will cause the script to wait around 0.03 seconds before reading the next line
---If there is a parameter, wait() will wait that many seconds before reading the next line
---In this case, the script will wait 3 seconds.
+wait(3)
+--If there is a parameter, wait() will wait that many seconds before reading the next line. E.g. this will wait 3 seconds.
+
 
 ```
 
