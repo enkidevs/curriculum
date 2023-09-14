@@ -15,7 +15,13 @@ Let's make platforming exciting by changing the properties!
 
 Go for quick design changes by changing color, transparency, even reflection! Maybe try combining properties with specific behaviour, such as removing collision when a platform is fully transparent! 
 
-The code below will turn a block invisible, before turning it visible. When fully invisible, the block has no collision.
+The code in the footnote will turn the block invisible, before turning it visible. When fully invisible, the block has no collision. [1[]
+
+---
+
+## Footnotes
+
+[1: Code Example]
 
 ```lua
 partVar = game.Workspace.Part
@@ -45,4 +51,3 @@ while true do
 	--but don't forget that wait() is required for these types of loops
 end
 ```
-
