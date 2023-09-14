@@ -1,4 +1,4 @@
-name: Vector3 Basics
+name: Vector3 Basics I
 
 description: Learn the basics of Vector3!
 
@@ -9,5 +9,5 @@ insights:
 - vector3-intro
 - vector3-syntax-i
 - vector3-syntax-ii
-- vector3-math
+- vector3-syntax-iii
 

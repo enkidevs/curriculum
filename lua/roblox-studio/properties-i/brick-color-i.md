@@ -24,17 +24,13 @@ Brickcolor refers to the color of the part, and there are **3 ways to change** i
 
 > Note that the **syntax to change each property is different**. 
 
+The most common way is to change using specific color names.
+
 ```lua
 --Change BrickColor through a specific name.
 partVariable.BrickColor = BrickColor.new("Bright Blue")
-
---Change BrickColor through a color's associated number.
-partVariable.BrickColor = BrickColor.new(23)
-
---Change BrickColor through a color's rgb values. Must be from 0 to 1 however.
-partVariable.BrickColor = BrickColor.new(0.1, 0.2, 172)
 ```
-> The specific names and associated number of every color can be found in the Learn More section.
+> The specific names of every color can be found in the **Learn More** section.
 
 ---
 

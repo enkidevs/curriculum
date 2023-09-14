@@ -18,9 +18,11 @@ revisionQuestion:
 
 ## Content
 
-When considering the functionality of some functions, you should come to realize that not everything should happen at once. Hence, we can use boolean and loops that activate when a certain condition is met.
+When considering the functionality of some functions, you should come to realize that not everything should happen at once. 
 
-However, we should also consider **time** as one way to determine behaviour, especially in Roblox where time is often used to set off specific events. Hence, we introduce `wait()`.
+We can use boolean and loops that activate when a certain condition is met.
+
+**Time** is a good way to determine behaviour, especially in Roblox where time is often used to set off specific events. Hence, we introduce `wait()`.
 
 ```lua
 wait()
@@ -52,12 +54,13 @@ In the code above, the second print statement will occur after ???
 
 ```lua
 print("Hello World")
-wait(4)
+wait(5)
+wait(7)
 print("Well, say hello back")
 ```
 In the code above, the second print statement will occur after ???
 
-- 4 seconds have passed
-- 4 minutes have passed
-- 4 frames have passed
-- 4 players join the game
+- 12 seconds have passed
+- 5 seconds have passed
+- 7 seconds have passed
+- 35 seconds have passed

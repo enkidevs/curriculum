@@ -19,7 +19,7 @@ revisionQuestion:
 ## Content
 To access this tool, assign a variable that accesses the tweenservice. Simply set it equal to `game.TweenService`. 
 
-Now, to actually use tweenservice, follow the code below:
+Now, to actually use TweenService, follow the code below:
 ```lua
 TweenService = game.TweenService
 local Tween = TweenService:Create(Part, Info, PropertyTable)

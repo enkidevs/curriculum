@@ -26,6 +26,8 @@ In the image below, the **"parents"** are highlighted, which represent the path 
 
 > Remember that the explorer tab represents the entire game. Thus, the ancestor/head of the system is **game**.
 
+For instance, if we want to access a part called "Egg" under the baseplate, it can be accessed by setting a variable equal to `game.Workspace.Baseplate.Egg`.
+
 ---
 
 ## Practice

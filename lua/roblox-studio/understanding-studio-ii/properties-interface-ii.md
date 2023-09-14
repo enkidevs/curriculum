@@ -19,7 +19,7 @@ revisionQuestion:
 
 ## Content
 
-If you scrolled through the property window, the amount of options may seem daunting. Don't fret! They're not as complicated as they seem.
+If you scrolled through the property window, the amount of options may seem daunting. Don't fret! They're not as complicated as they seem. We'll briefly go over what they do.
 
 ### Visual Aspects
 The **Appearance** and **Transform** aspects deal with the visuals, such as color and location in the game.

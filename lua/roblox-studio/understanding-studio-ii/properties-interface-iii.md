@@ -34,7 +34,7 @@ If you're curious, you can play around with each property. If you'd like to know
 
 I should focus on the Collision and ??? properties if I want to change the physics of an object.
 
-- Parts
+- Part
 - Data
 - Assembly
 - Pivot

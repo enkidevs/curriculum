@@ -17,7 +17,6 @@ revisionQuestion:
 ---
 ## Content
 
-### Orientation
 Changing the orientation, is very similar to the syntax of changing the position. The only difference is that instead of declaring a new CFrame, we'll be **declaring an "angle" CFrame**, which holds the angle offset of the object.
 
 ```lua

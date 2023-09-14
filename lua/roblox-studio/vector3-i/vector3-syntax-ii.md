@@ -24,13 +24,6 @@ In the parameters, you put the **values for the X, Y, and Z axis** of a vector. 
 partVariable = Vector3.new(5,0,0)
 --Created a vector that has a length of 5 in the X direction
 ```
-
-Vector3 **orientation** follows the same exact syntax, except that **degrees are used in the syntax**.
-
-```lua
-partVariable = Vector3.new(90, 180, 359)
-```
-
 > Note that **running this code by itself does nothing**, as you *only created a vector*. It only changes when its applied to a compatible property. I.e. `partVariable.Size = Vector3.new(5,0,0)`.
 
 ---

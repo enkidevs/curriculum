@@ -1,4 +1,4 @@
-name: Basic Modelling
+name: Basic Modelling I
 
 description: Learn the basics of modelling!
 
@@ -10,6 +10,5 @@ insights:
 - moving-objects
 - scaling-objects
 - rotating-objects
-- useful-properties
-- external-tools
+
 

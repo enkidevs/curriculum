@@ -20,6 +20,8 @@ revisionQuestion:
 
 Collision properties are fairly straightforward, as they deal with *physical instances touching others*. 
 
+---
+
 ### CanCollide
 
 **CanCollide** is a **boolean property** that determines **if a part can collide with others**. If false, everything will go through it, otherwise, if true, it will have physical mass that can be touched. 
@@ -32,7 +34,7 @@ partVariable.CanCollide = false
 ---
 
 ## Practice
-Imagine two platforms connected by three blocks, each named leftPath, rightPath, and centerPath. Considering the code below, the correct path that allows the user to travel across is the ??? path.
+Imagine two platforms connected by three blocks named leftPath, rightPath, and centerPath. Considering the code below, the correct path that allows the user to travel across is the ??? path.
 
 ```lua
 leftPathVariable.CanCollide = false
@@ -46,7 +48,7 @@ centerPathVariable.CanCollide = false
 ---
 
 ## Revision
-Imagine two platforms connected by three blocks, each named leftPath, rightPath, and centerPath. Considering the code below, the correct path that allows the user to travel across is the ??? path.
+Imagine two platforms connected by three blocks named leftPath, rightPath, and centerPath. Considering the code below, the correct path that allows the user to travel across is the ??? path.
 
 ```lua
 leftPathVariable.CanCollide = true

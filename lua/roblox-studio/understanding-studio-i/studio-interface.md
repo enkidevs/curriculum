@@ -28,7 +28,7 @@ To start, when you open up Studio and login, choose the *classic* baseplate and 
 
 **Properties** displays the **properties** of an object or class.
 
-**Output** displays any **script outputs** such as print statements
+**Output** displays any **script outputs** such as print statements.
 
 ---
 

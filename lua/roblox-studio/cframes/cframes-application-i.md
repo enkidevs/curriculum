@@ -34,6 +34,14 @@ end
 ---
 
 ## Practice
+
+```lua
+while true do
+    for i = 1, 360 do
+    end
+end
+```
+
 In the example above, the reason why we set the condition to be `true` is ???
 
 - keep the loop active by never changing the boolean value

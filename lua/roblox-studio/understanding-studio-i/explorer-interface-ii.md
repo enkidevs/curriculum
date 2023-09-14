@@ -13,7 +13,7 @@ revisionQuestion:
 
 ---
 
-# Other Useful Services in Explorer Interface
+# Other Useful Explorer Interface Services
 
 ---
 
@@ -36,20 +36,20 @@ Respectively *private* and *public*[3] storages for your objects.
 ## Practice
 
 ??? is the service that serves as a public storage for your objects.
-- 'ReplicatedStorage'
-- 'ServerStorage'
-- 'ServerScriptService'
-- 'Workspace'
+- ReplicatedStorage
+- ServerStorage
+- ServerScriptService
+- Workspace
 
 
 ---
 ## Revision
 
 ??? is the service that serves as a private storage for your objects.
-- 'ServerScriptService'
-- 'ServerStorage'
-- 'ReplicatedStorage'
-- 'Workspace'
+- ServerScriptService
+- ServerStorage
+- ReplicatedStorage
+- Workspace
 
 ---
 

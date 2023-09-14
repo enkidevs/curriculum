@@ -16,7 +16,7 @@ revisionQuestion:
 ---
 
 ## Content
-Moving objects in Studio is fairly simple. You can simply **click the object and drag it** across the baseplate. 
+Moving objects in Studio is fairly simple. **Click on the object and you will be able to drag it** across the baseplate. 
 
 But what if you want to move your block *vertically*? Or if you need *pinpoint precision*? That's where the move tool comes in. While the block is selected, **press on move** in the **tools section**.
 
@@ -46,4 +46,4 @@ To make a block vertically without scripting, you should ???
 - Use the move tool
 - Drag the block carefully
 - Add another block and use it as a pedestal
-- give up, it's not possible without scripting
+- Give up, it's not possible without scripting

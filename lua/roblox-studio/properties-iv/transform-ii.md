@@ -19,6 +19,8 @@ revisionQuestion:
 ## Content
 As explained previously, CFrame holds the orientation and position of an object. 
 
+---
+
 ### Position
 To change the position, you can set the variable equal to a new CFrame. The parameter should hold how much you want to move the object in their respective direction (X, Y, Z)
 

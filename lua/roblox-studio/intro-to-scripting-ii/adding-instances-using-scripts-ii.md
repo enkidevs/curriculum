@@ -17,9 +17,11 @@ revisionQuestion:
 ---
 
 ## Content
-So, what happened? Did reality decide to break the laws and materialize an object out of thin air? Well, no, nothing should have happened.
+So, what happened? Did reality decide to break the laws and materialize an object out of thin air? Well, no, **nothing should have happened**.
 
-Why? Well, we created a new instance, but Studio doesn't know which service it will be placed in. Thus, it won't be placed at all within the game. As such, lets assign a parent to the new instance.
+Why? Well, we created a new instance, but Studio doesn't know which service it will be placed in. Thus, it won't be placed at all within the game. 
+
+This time, let's give the new instance a parent.
 
 ```lua
 newInstance = Instance.new("Part")   
@@ -28,7 +30,7 @@ newInstance = Instance.new("Part")
 newInstance.Parent = Workspace
 --set the Parent of the variable to workspace.
 ```
-With this, the new instance is placed in Workspace, which now places it in the game. 
+Finally, a new instance should be placed in Workspace and now shows up in-game.
 
 ---
 

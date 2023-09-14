@@ -7,7 +7,6 @@ aspects:
 
 insights:
 - intro-to-scripting-properties
-- appearance-property-i
-- appearance-property-ii
-- appearance-property-iii
-- appearance-property-iiii
+- how-to-change-property
+- brick-color-i
+- brick-color-ii

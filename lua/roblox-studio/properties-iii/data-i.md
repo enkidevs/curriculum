@@ -20,8 +20,10 @@ revisionQuestion:
 
 The data properties tend to act more as information you can use to identify the part, but there are still some properties that can be changed.
 
+---
+
 ### Name
-The `name` property holds the part's name. The name can be changed by setting the variable equal to the **new desired name in quotation marks**.
+The **name** property holds the part's name. The name can be changed by setting the variable equal to the **new desired name in quotation marks**.
 
 ```lua
 partVariable.Name = "Edited Part"

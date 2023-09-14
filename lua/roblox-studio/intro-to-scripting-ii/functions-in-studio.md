@@ -17,7 +17,7 @@ revisionQuestion:
 ---
 
 ## Content
-Functions are an essential part of coding, and remains true for Roblox Studio. In studio, functions can be used to run code in a specific manner and is **accessible to numerous uses with different parameters**.
+Functions are an essential part of coding and remains true for Studio. In Studio, functions can be used to **run code whenever called upon**.
 
 For instance, a developer could create a function that adds tax to every purchase in an in-game store:
 
@@ -29,14 +29,15 @@ purchaseCostTotal = 50
 taxGST = 1.13
 addTax(purchaseCostTotal,taxGST)  -- returns the total cost including tax 
 ```
-What makes functions so versatile is that we can repeat the same code, but with different parameters.
-> Useful for various things in Roblox, such as determining the drop rate of an item based on its rarity
+What makes functions so versatile is that we *can repeat the same code* with **different parameters**.
+
+> Useful for various things in Roblox, such as determining the drop rate of an item based on its rarity.
 
 ---
 
 ## Practice
 
-Complete the code below such that the function called "addBonusDamage" will combine the original damage with bonus damage.
+Complete the code below such that the function called "addBonusDamage" will **combine** the original damage with bonus damage.
 
 ```lua
 function ???(a,b)
@@ -52,7 +53,7 @@ end
 
 ## Revision
 
-Complete the code below such that the function called "addBonusDamage" will multiply the original damage with bonus damage.
+Complete the code below such that the function called "addBonusDamage" will **multiply** the original damage with bonus damage.
 
 ```lua
 function ???(a,b)

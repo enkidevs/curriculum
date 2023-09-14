@@ -16,7 +16,7 @@ revisionQuestion:
 ---
 
 ## Content
-Rotation is only slightly tricky, but seeing a visual will make it easier to comprehend. While selecting the block, press on **rotate in the tools** section.
+Rotation is only slightly tricky, but seeing a visual will make it easier to understand. While selecting the block, press on **rotate in the tools** section.
 
 You'll see **red, blue, and green circles** surrounding the block. These are **axis of rotation**, and by click and dragging one of the circles in their respective direction, the block will turn in that direction.
 
