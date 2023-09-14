@@ -21,11 +21,9 @@ What's probably the most important thing to get from toolbox would be **plugins*
 
 These plugins can **provide extra tools**, such as terrain builders, edge smootheners, and even automatic part mergers!
 
-> While most are payed for, some of the free plugins still work fine.
+> While most professional plugins require payment, some of the free plugins still work fine. It's recommended to do some research before downloading a plugin.
 
 I personally like *F3X building tools*, as its **free** and lets you **model efficiently** with keybinds. 
-
-> It's recommended to search up plugins before using them.
 
 ---
 
