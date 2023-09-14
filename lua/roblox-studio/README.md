@@ -17,7 +17,8 @@ sections:
     - properties-iii
     - vector3-i
     - vector3-ii
-    - cframes
+    - cframes-i
+    - cframes-ii
     - properties-iv
     - tweening-service-i
     - tweening-service-ii
