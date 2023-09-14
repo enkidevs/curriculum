@@ -12,7 +12,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# CFrames Syntax
+# CFrames Syntax: Orientation
 
 ---
 
@@ -23,7 +23,7 @@ For position data, they called CFrames using `new()`. However, if you're *changi
 ```lua
 partVariable.CFrame = CFrame.Angles(X, Y, Z)
 ```
-I know radians can be difficult to work with as degrees is much easier to visualize. Thus, you can import a math model to convert degrees into radians.
+If you'd like to use degrees instead of radians, you can import a math model to convert degrees into radians.
 
 ```lua
 partVariable.CFrame = CFrame.Angles(X, math.rad(90), Z)

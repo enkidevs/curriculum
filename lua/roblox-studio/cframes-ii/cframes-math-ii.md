@@ -13,17 +13,14 @@ revisionQuestion:
 
 ---
 
-# CFrames Math Applications
+# CFrames Math With Vector3 
 ---
 
 ## Content
-Unlike Vector3, the math is not so straightforward with CFrames. *To add* CFrames with other CFrames, you must use an **asterix**. An asterix is also used when you want to **include both position and orientiation data**. 
-```lua
-Variable.Property = CFrame.new() * CFrame.new()
-Variable.Property = CFrame.new() * CFrame.Angle()
 
-```
-There are **no specific syntax** for subtracting, multiplying, or dividing CFrames. However, there are situations when you would add, multiply, or subtract a CFrame with a Vector3. 
+There is **no specific syntaxes** for subtracting, multiplying, or dividing CFrames. 
+
+there are situations when you would add, multiply, or subtract a CFrame with a Vector3. 
 
 ```lua
 Variable.Property = CFrame.new() + Vector3.new() 
