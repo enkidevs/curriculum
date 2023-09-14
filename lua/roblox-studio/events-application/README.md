@@ -1,4 +1,4 @@
-name: Using Events in Roblox Studio
+name: Applying Events in Studio
 
 description: Learn how to make a kill block using events in Roblox Studio!
 

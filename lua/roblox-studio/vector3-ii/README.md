@@ -1,4 +1,4 @@
-name: Vector3 Basics I
+name: Vector3 Basics II
 
 description: Learn the basics of Vector3's math applications!
 
