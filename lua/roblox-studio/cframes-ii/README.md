@@ -6,10 +6,9 @@ aspects:
 - workout
 
 insights:
-- cframes-intro
-- cframes-syntax-i
-- cframes-syntax-ii
-- cframes-math
+
+- cframes-math-i
+- cframes-math-ii
 - cframes-application-i
 - cframes-application-ii
 
