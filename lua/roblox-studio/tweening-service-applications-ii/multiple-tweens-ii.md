@@ -41,7 +41,9 @@ Now you've made a spinning block with various attributes! You can use this as a 
 ---
 
 ## Practice
+
 In the spinning block example, everything but orientation was changed in the new propertyTable because ???
+
 - keeping orientation the same will maintain the direction of the rotation
 - there is no such thing as backwards rotation
 - changing too many variables at once will break TweenService
@@ -52,6 +54,7 @@ In the spinning block example, everything but orientation was changed in the new
 ## Revision
 
 The wait() is required for loops and tweens because it ???
+
 - prevents overlapping animations and maintaing code stability
 - maintains code stability
 - prevents overlapping animations
