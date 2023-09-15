@@ -1,4 +1,4 @@
-name: TweenService Applications
+name: TweenService Applications I
 
 description: Learn how to create animations with TweenService!
 
@@ -10,6 +10,5 @@ insights:
 - color
 - transparency-and-reflection
 - transform
-- multiple-tweens-i
-- multiple-tweens-ii
+
 
