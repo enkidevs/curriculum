@@ -42,12 +42,12 @@ Now you've made a spinning block with various attributes! You can use this as a 
 
 ## Practice
 
-In the spinning block example, everything but orientation was changed in the new propertyTable because ???
+In the spinning block example, everything but orientation was changed in the new propertyTable to ???
 
-- keeping orientation the same will maintain the direction of the rotation
-- there is no such thing as backwards rotation
-- changing too many variables at once will break TweenService
-- orientation does not affect the result that much
+- Maintain the direction of the rotation
+- Reverse the direction of the rotation
+- Simplify the propertyTable
+- Not overload the table
 
 ---
 
