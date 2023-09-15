@@ -10,6 +10,6 @@ insights:
 - color
 - transparency-and-reflection
 - transform
-- multiple-tweens
-- example
+- multiple-tweens-i
+- multiple-tweens-ii
 
