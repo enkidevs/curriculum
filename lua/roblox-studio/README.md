@@ -22,7 +22,8 @@ sections:
     - properties-iv
     - tweening-service-i
     - tweening-service-ii
-    - tweening-service-applications
+    - tweening-service-applications-i
+    - tweening-service-applications-ii
     - events-in-studio
     - events-application
     - building-obstacles-i
