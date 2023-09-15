@@ -59,5 +59,3 @@ The wait() is required for loops and tweens because it ???
 - maintains code stability
 - prevents overlapping animations
 - ensures that the coder won't find bugs
-
----
