@@ -55,7 +55,7 @@ In the spinning block example, everything but orientation was changed in the new
 
 The wait() is required for loops and tweens because it ???
 
-- prevents overlapping animations and maintaing code stability
+- prevents overlapping animations and maintaining code stability
 - maintains code stability
 - prevents overlapping animations
 - ensures that the coder won't find bugs
