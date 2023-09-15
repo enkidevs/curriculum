@@ -21,7 +21,7 @@ revisionQuestion:
 
 Now that we have models, we will be **using a pairs loop** to iterate through every part in the model and apply the script to each part. 
 
-For instance, let's code a script such that every part in a model will act as a kill brick: [1].
+For instance, let's code a script such that every part in a model will act as a kill brick using iterations: [1].
 
 Through iterations, we are **no longer forced to create a copy of the script for every part** that needs the specific behaviour.
 
@@ -50,6 +50,8 @@ To access a model using variables in a script, you would access it through ???
 ---
 
 ## Footnotes
+
+[1: Iterations to Apply Multiple Scripts]
 
 ```lua
 local Model = game.Workspace.Model 
