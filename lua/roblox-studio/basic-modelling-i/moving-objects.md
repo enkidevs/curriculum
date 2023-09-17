@@ -30,7 +30,7 @@ You will notice that the block is now covered in **red, blue, and green arrows**
 
 ## Practice
 
-The red, green, and blue arrows represent ???
+The red, green, and blue arrows represent... ???
 
 - The directions you can move your block in
 - The physics of the block
@@ -41,7 +41,7 @@ The red, green, and blue arrows represent ???
 
 ## Revision
 
-To make a block vertically without scripting, you should ???
+To make a block vertically without scripting, you should... ???
 
 - Use the move tool
 - Drag the block carefully

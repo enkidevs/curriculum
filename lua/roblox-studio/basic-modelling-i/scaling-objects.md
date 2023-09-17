@@ -27,12 +27,12 @@ This time, there'll be **red, blue, and green spheres** instead of arrows, indic
 
 ## Practice
 
-When using the scale tool, the shapes you'll see surrounding the parts are ???
+When using the scale tool, the shapes you'll see surrounding the parts are... ???
 
-- spheres
-- arrows
+- Spheres
+- Arrows
 - 2D circles
-- small cubes
+- Small cubes
 
 ---
 
@@ -40,7 +40,7 @@ When using the scale tool, the shapes you'll see surrounding the parts are ???
 
 The scale tool allows you to ??? and stretch an object in their respective direction.
 
-- compress
-- rotate
-- copy
-- destroy
+- Compress
+- Rotate
+- Copy
+- Destroy

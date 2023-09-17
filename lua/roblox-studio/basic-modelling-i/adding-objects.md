@@ -20,7 +20,7 @@ revisionQuestion:
 
 Previously, we added a brick to the game. I'm sure you thought that there must be other shapes, and you'd be right! 
 
-Similarly to before, go to the insert area with the "part" button. To choose the type of shape, press on the **triangle underneath Part**. This opens up a small menu where you can pick the type of object. 
+Similarly to before, go to the insert area with the "Part" button. To choose the type of shape, press on the **triangle underneath "Part"**. This opens up a small menu where you can pick the type of object. 
 
 ![placing-a-block](https://img.enkipro.com/44f1518e500976440b09e19c58140472.png)
 
@@ -32,19 +32,19 @@ If you'd like to change the shape of a part you already placed, this can be done
 
 ## Practice
 
-To add simple shapes other than rectangles, the easiest way is to ???
+To add simple shapes other than rectangles, the easiest way is to... ???
 
-- open the dropdown menu below the part button
-- create your own shapes through modelling programs such as blender
-- take them from the toolbox
-- script their shape
+- Open the dropdown menu below the part button
+- Create your own shapes through modelling programs such as blender
+- Take them from the toolbox
+- Script their shape
 
 ---
 
 ## Revision
 
-To change the shape of a part you already placed, you must ???
+To change the shape of a part you already placed, you must... ???
 
-- access and change the shape property
-- you cannot change the shape of a part already placed
-- reshape it using modelling programs
+- Access and change the shape property
+- You cannot change the shape of a part already placed
+- Reshape it using modelling programs

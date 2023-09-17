@@ -39,9 +39,9 @@ While rotating an object, you will see red, green, and blue ??? surrounding the 
 
 ## Revision
 
-When rotating an object using the rotation tool, the block will rotate around ???
+When rotating an object using the rotation tool, the block will rotate around... ???
 
-- a set origin point, defaulted as its center
-- coordinates 0,0,0 in the game
-- the mouse cursor
-- the player's avatar
+- A set origin point, defaulted as its center
+- Coordinates 0,0,0 in the game
+- The mouse cursor
+- The player's avatar
