@@ -13,7 +13,7 @@ revisionQuestion:
 
 ---
 
-# Introduction to Roblox Studio Interface
+# Intro to Roblox Studio Interface
 
 ---
 
@@ -57,4 +57,4 @@ To start, when you open up Studio and login, choose the *classic* baseplate and 
 
 [1: Service]
 
-A service is an object that contains built in properties, functions, events, and callbacks.
+A service is an object that contains built-in properties, functions, events, and callbacks.
