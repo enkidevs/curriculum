@@ -31,7 +31,7 @@ For **CFrame**, you can *change the position* by changing its coordinates, as we
 
 ## Practice
 
-If you want to quickly change the position of an object without caring about its exact position, you should ???
+If you want to quickly change the position of an object without caring about its exact position, you should... ???
 
 - Click on the object and drag it
 - Use the move tool
@@ -41,10 +41,10 @@ If you want to quickly change the position of an object without caring about its
 
 ## Revision
 
-If you want the most precision when scaling your object, you should ???
+If you want the most precision when scaling your object, you should... ???
 
-- change its properties
-- click on the object and drag it
-- use the move tool
+- Change its properties
+- Click on the object and drag it
+- Use the move tool
 
 

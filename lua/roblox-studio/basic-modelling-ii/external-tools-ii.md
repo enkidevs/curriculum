@@ -17,7 +17,7 @@ revisionQuestion:
 ---
 
 ## Content
-What's probably the most important thing to get from toolbox would be **plugins**! Next to the search bar, *press on models* to *open a list*, then *press on plugins*.
+The next important thing to get from toolbox would be **plugins**! Next to the search bar, *press on models* to *open a list*, then *press on plugins*.
 
 These plugins can **provide extra tools**, such as terrain builders, edge smootheners, and even automatic part mergers!
 
@@ -29,7 +29,7 @@ I personally like *F3X building tools*, as its **free** and lets you **model eff
 
 ## Practice
 
-To find plugins, you can find them through ???
+To find plugins, you can find them through... ???
 
 - The Toolbox
 - Third-party programs

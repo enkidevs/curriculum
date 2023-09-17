@@ -30,7 +30,7 @@ Inside, you will find structures, vehicles, light sources, even weapons!
 
 ## Practice
 
-To find models other people made, you can find them through ???
+To find models other people made, you can find them through... ???
 
 - The Toolbox
 - Third-party programs

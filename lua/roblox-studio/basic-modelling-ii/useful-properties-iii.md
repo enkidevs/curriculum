@@ -26,7 +26,7 @@ Other properties you could consider would be in the **Appearance section**, as t
 
 ## Practice
 
-If Liam places an object in the air and the anchored property is set to false, then the object will ???
+If Liam places an object in the air and the anchored property is set to false, then the object will... ???
 
 - Fall to the ground 
 - Stay suspended in the air
@@ -37,7 +37,7 @@ If Liam places an object in the air and the anchored property is set to false, t
 
 ## Revision
 
-If Liam places an object in the air and the anchored property is set to true, then the object will ???
+If Liam places an object in the air and the anchored property is set to true, then the object will... ???
 
 - Stay suspended in the air
 - Fall to the ground
