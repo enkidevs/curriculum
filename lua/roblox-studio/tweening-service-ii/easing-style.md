@@ -31,7 +31,7 @@ The syntax for this style is: `Enum.EasingStyle.TypeOfMovement`, where you will 
 
 ## Practice
 
-When creating the movement for a bouncy ball, the easing style used should be ???
+When creating the movement for a bouncy ball, the easing style used should be... ???
 - `Enum.EasingStyle.Bounce`
 - `Enum.EasingStyle.Sine`
 - `Enum.EasingStyle.Quad`
@@ -39,7 +39,7 @@ When creating the movement for a bouncy ball, the easing style used should be ??
 ---
 
 ## Revision
-When creating the movement for a simple moving platform, the easing style used should be ???
+When creating the movement for a simple moving platform, the easing style used should be... ???
 
 - `Enum.EasingStyle.Linear`
 - `Enum.EasingStyle.Exponential`

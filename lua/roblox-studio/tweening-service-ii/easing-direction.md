@@ -22,13 +22,13 @@ As for **EasingDirection**, it refers to *the direction the easing style will pl
 
 "**In**" will play the style *forwards*, "**Out**" will play the style in *reverse*, and "**InOut**" will play the style *forwards for the first half*, then *reverse for the second half*.
 
-The Syntax for this direction is: `Enum.EasingDirection.Direction`, where you will replace "Direction" with one of the three directions mentioned previously.
+The Syntax for this direction is: `Enum.EasingDirection.Direction`, where you will replace **"Direction"** with one of the three directions mentioned previously.
 
 ---
 
 ## Practice
 
-Finish the syntax for Easing Direction if the style should play in reverse
+Finish the syntax for Easing Direction if the style should play in reverse.
 
 `Enum.EasingDirection. ??? `
 
@@ -40,7 +40,7 @@ Finish the syntax for Easing Direction if the style should play in reverse
 
 ## Revision
 
-Finish the syntax for Easing Direction if the style should play forwards
+Finish the syntax for Easing Direction if the style should play forwards.
 
 `Enum.EasingDirection. ??? `
 
