@@ -29,7 +29,7 @@ As long as there is a point A and a point B, tweening is a tool that is much **m
 
 ## Practice
 
-Tweenservice is a tool that ???
+Tweenservice is a tool that... ???
 
 - Lets you go from point A to point B
 - Destroy objects
@@ -40,9 +40,9 @@ Tweenservice is a tool that ???
 
 ## Revision
 
-Daryl wants to create an object goes up and down. He should use ???
+Daryl wants to create an object goes up and down. He should use... ???
 
 - Tweenservice
-- for loops
-- while loops
-- multiple scripts that change positional value by a little bit
+- For loops
+- While loops
+- Multiple scripts that change positional value by a little bit

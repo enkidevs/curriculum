@@ -45,7 +45,7 @@ The ??? variable in the Create() paramaters of tweenservice represents the prope
 
 ## Revision
 
-the ??? variable in the Create() parameters of tweenservice represents that details about the tweening animation.
+The ??? variable in the Create() parameters of tweenservice represents that details about the tweening animation.
 
 - Info
 - Part

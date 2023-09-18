@@ -24,7 +24,7 @@ The syntax for this variable is very specific. Set the variable equal to `TweenI
 
 ```lua
 (time: number, easingStyle: EasingStyle, easingDirection: EasingDirection, repeatCount: number, reverses: boolean, delayTime: number)  
--- the effects of the tweening service : the type of data 
+-- The effects of the tweening service : the type of data. 
 ```
 Here's an example:
 ```lua
