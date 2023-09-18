@@ -45,8 +45,8 @@ Which of the options below is not a valid way to change BrickColor through codin
 -- RGB (0-1) -option 4
 ```
 
-- Option 4
 - Option 3
+- Option 4
 - Option 2
 - Option 1
 

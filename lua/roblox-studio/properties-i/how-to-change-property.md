@@ -24,11 +24,11 @@ To indicate that we want to access a property, we can simply **add a period afte
 
 ```lua
 partVariable = game.Workspace.Part
---let's say we want to access the BrickColor property.
+--Let's say we want to access the BrickColor property.
 partVariable.Brickcolor
 ```
 
-> We'll be going through a few of the important properties for the next few workouts
+> We'll be going through a few of the important properties for the next few workouts. Note that the method of changing each property requires different syntaxes.
 
 ---
 

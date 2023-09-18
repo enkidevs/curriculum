@@ -22,7 +22,7 @@ revisionQuestion:
 ## Content
 Brickcolor refers to the color of the part, and there are **3 ways to change** it for BrickColor. 
 
-> Note that the **syntax to change each property is different**. 
+> Remember that the **syntax to change each property is different**. 
 
 The most common way is to change using specific color names.
 
