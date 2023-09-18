@@ -17,6 +17,7 @@ revisionQuestion:
 ---
 
 ## Content
+
 Now that we went over Vector3 and CFrame, we'll move on to the last 2 properties.
 
 The **Transform** properties involve changing the **position and orientation** of the **object itself**. 
@@ -24,13 +25,14 @@ The **Transform** properties involve changing the **position and orientation** o
 ---
 
 ### Size
+
 The **Size** property holds the **lengths** of an object in the **X, Y, and Z axis**. To change the size, we'll be **using Vector3** since this only involves the 3D space and doesn't include orientation.
 
 Set the variable to equal a **new Vector3**, where the *changes in size will be included in its parameter*.
 
 ```lua
 partVariable.Size = Vector3.new(1, 1, 1)
---stretching all 3 dimensions by a value of 1
+--Stretching all 3 dimensions by a value of 1.
 ```
 ---
 
