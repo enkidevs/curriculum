@@ -28,7 +28,7 @@ On the other hand, **CFrames**, known as coordinate frames, acts as a data type 
 
 ## Practice
 
-??? is the data that holds the position of an object
+??? is the data that holds the position of an object.
 - Vector3
 - CFrames
 - Position
@@ -36,7 +36,7 @@ On the other hand, **CFrames**, known as coordinate frames, acts as a data type 
 ---
 
 ## Revision
-??? is the data that holds the positional and orientation of an object
+??? is the data that holds the positional and orientation of an object.
 - CFrames
 - Vector3
 - X, Y, Z Axis

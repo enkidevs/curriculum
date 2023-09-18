@@ -29,7 +29,7 @@ If you'd like to use degrees instead of radians, you can import a math model to 
 partVariable.CFrame = CFrame.Angles(X, math.rad(90), Z)
 --If I want to change the orientation by 90 degrees in the y axis
 ```
-> If you're comfortable using radians, you can access pi using math.pi
+> If you're comfortable using radians, you can access pi using `math.pi` .
 
 ---
 
