@@ -34,8 +34,8 @@ partVariable.Castshadow = ???
 
 ```
 
-- true
-- false
+- True
+- False
 - Plastic
 - Cobblestone
 - Texture
