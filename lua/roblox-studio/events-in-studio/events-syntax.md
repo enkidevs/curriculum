@@ -25,11 +25,11 @@ partVariable = game.Workspace.Part
 partVariable.Event:Connect(function()
 end)
 ```
-**Event** represents the specific event you'd like to apply and **function()** represents the function you'd like to connect with the event (***"function()" is included***, as you'll add the function after it). Now, unlike regular Lua code where you would connect functions and events through a colon, you **must use :Connect().**
+**Event** represents the specific event you'd like to apply and **function()** represents the function you'd like to connect with the event (***"function()" is included***, as you'll add the function after it). Now, unlike regular Lua code where you would connect functions and events through a colon, you **must use `:Connect()` .**
 
 ---
 ## Practice
-Finish the code below if the event was called "Changed" and the function to be connected it was alert()
+Finish the code below if the event was called "Changed" and the function to be connected it was `alert()` .
 ```lua
 alarmVariable = game.Workspace.Alarm
 alarmVariable.???:Connect(???
@@ -44,7 +44,7 @@ end)
 ---
 
 ## Revision
-Finish the code below if the event was called "Changed" and the function to be connected it was alert()
+Finish the code below if the event was called "Changed" and the function to be connected it was `alert()` .
 ```lua
 alarmVariable = game.Workspace.Alarm
 alarmVariable.Changed:???(???

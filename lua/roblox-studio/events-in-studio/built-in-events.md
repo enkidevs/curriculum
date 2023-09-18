@@ -31,23 +31,23 @@ Since we've been working with the part instance, we'll briefly look through its 
 
 ## Practice
 
-The symbol that represents events in the object browser is a ???
-- lightning bolt
-- blue cube
-- pink moving cube
-- weird thing with yellow, blue, and pink parts
+The symbol that represents events in the object browser is a... ???
+- Lightning bolt
+- Blue cube
+- Pink moving cube
+- Weird thing with yellow, blue, and pink parts
 
 ---
 
 ## Revision
 
 
-To find a specific event for an instance, you can ???
+To find a specific event for an instance, you can... ???
 
-- find the events using object browser
-- trial and error through all events before finding it
-- go to the properties of the instance
-- use a plugin that will search for it
+- Find the events using object browser
+- Trial and error through all events before finding it
+- Go to the properties of the instance
+- Use a plugin that will search for it
 
 ---
 
