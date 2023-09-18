@@ -5,7 +5,7 @@ category: how-to
 
 ---
 
-# Using Multiple Tweens III
+# Multiple Tweens: Full Example
 
 ---
 

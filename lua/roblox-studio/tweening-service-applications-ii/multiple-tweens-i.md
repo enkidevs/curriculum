@@ -15,8 +15,7 @@ If you've followed the examples, you'd notice that the *rectangle doesn't spin 3
 This is when you would want to **use multiple tweens and a loop**! To do this, *recreate another tween* (the tween variable and PropertyTable) and *reverse every change* you made in first tween **except orientation**, as we want to keep the rotation.
 
 ```lua
---create a new property table
---keep orientation
+--Create a new property table. Keep orientation.
 local PropertyTable2 = {
 	Color = Color3.new(0.666667, 0, 0),
 	Transparency = 0.2,

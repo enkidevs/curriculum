@@ -21,16 +21,16 @@ revisionQuestion:
 Now create a while loop to continously play the animations. Play the first animation and in the line after, make sure you wait the duration of the animation before playing the next. Repeat the wait command so it waits for the next animation.
 
 ```lua
---create a new Tween animation variable
+--Create a new Tween animation variable.
 local Tween2 = TweenService:Create(partVar, info, PropertyTable2)
 
---use a while loop to make the animations play infinitely
+--Use a while loop to make the animations play infinitely.
 while true do
 	Tween1:Play()
-	wait(10) --important to prevent animations from overlapping
+	wait(10) --Important to prevent animations from overlapping.
 	Tween2:Play()
 	wait(10) 
-    --wait() is also important in ensuring the code doesn't run too fast
+    --wait() is also important in ensuring the code doesn't run too fast.
 end
 ```
 
@@ -42,7 +42,7 @@ Now you've made a spinning block with various attributes! You can use this as a 
 
 ## Practice
 
-In the spinning block example, everything but orientation was changed in the new propertyTable to ???
+In the spinning block example, everything but orientation was changed in the new propertyTable to... ???
 
 - Maintain the direction of the rotation
 - Reverse the direction of the rotation
@@ -53,9 +53,9 @@ In the spinning block example, everything but orientation was changed in the new
 
 ## Revision
 
-The wait() is required for loops and tweens because it ???
+The wait() is required for loops and tweens because it... ???
 
-- prevents overlapping animations and maintaining code stability
-- maintains code stability
-- prevents overlapping animations
-- ensures that the coder won't find bugs
+- Prevents overlapping animations and maintaining code stability
+- Maintains code stability
+- Prevents overlapping animations
+- Ensures that the coder won't find bugs
