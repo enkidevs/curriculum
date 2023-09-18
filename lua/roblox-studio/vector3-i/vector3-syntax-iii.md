@@ -13,7 +13,7 @@ revisionQuestion:
 
 ---
 
-# Vector3 Syntax Conclusion
+# Vector3 Syntax III
 ---
 
 ## Content
@@ -31,7 +31,7 @@ partVariable.Orientation = Vector3.new(90, 180, 359)
 ```lua
 partVariable.Orientation = Vector3.new(6, 4, 3)
 ```
-The code above will ???
+The code above will... ???
 
 - Changes the part's orientation
 - Changes the part's position
@@ -47,8 +47,6 @@ Finish the code such that the orientation of the objet changes 240 degrees in th
 ```lua
 partVariable.Orientation = Vector3.new(???, ???, ???)
 ```
-
-The code above will ???
 
 - 79
 - 0

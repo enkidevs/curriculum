@@ -24,7 +24,7 @@ Before moving on to the last 2 properties, I'd like to touch upon **CFrames** an
 ---
 
 ## Practice
-??? is the data that holds the data of an object's position and size using vectors
+??? is the data that holds the data of an object's position and size using vectors.
 - Vector3
 - CFrames
 - Position
@@ -32,7 +32,7 @@ Before moving on to the last 2 properties, I'd like to touch upon **CFrames** an
 ---
 
 ## Revision
-Vector3 is the data that holds the data of an object's ??? using vectors
+Vector3 is the data that holds the data of an object's ??? using vectors.
 - Position and size
 - CFrames
 - Position

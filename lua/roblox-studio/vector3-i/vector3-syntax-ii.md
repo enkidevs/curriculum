@@ -13,7 +13,7 @@ revisionQuestion:
 
 ---
 
-# Continuation of Vector3 Syntax
+# Vector3 Syntax II
 ---
 
 ## Content
@@ -33,7 +33,7 @@ partVariable = Vector3.new(5,0,0)
 ```lua
 partVariable.Size = Vector3.new(6, 4, 3)
 ```
-The code above will ???
+The code above will... ???
 
 - Changes the part's size
 - Changes the part's position
@@ -48,7 +48,7 @@ The code above will ???
 partVariable = Vector3.new(6, 4, 3)
 
 ```
-The code above will ???
+The code above will... ???
 
 - Do nothing to the game, you only created a vector
 - Changes the part's position

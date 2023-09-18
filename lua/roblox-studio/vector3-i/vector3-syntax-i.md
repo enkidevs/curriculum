@@ -27,7 +27,7 @@ partVariable = Vector3.new()
 
 ## Practice
 
-Vector3 utilizes the ideas of vectors to represent ???
+Vector3 utilizes the ideas of vectors to represent... ???
 
 - 3D Space
 - lines
