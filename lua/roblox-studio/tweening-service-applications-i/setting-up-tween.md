@@ -19,7 +19,7 @@ revisionQuestion:
 ## Content
 Now that we've went over the components of TweenService, we'll now be combining them to create tween animation in Studio. 
 
-To properly set up Tweenservice, we'll need to **define variables** for the **instance that will be edited**, the **propertyTable**, **info**, and the **TweenService**.
+To properly set up Tweenservice, we'll need to **define variables** for the **instance that will be edited**: the **propertyTable**, **info**, and the **TweenService**.
 
 ```lua
 partVar = game.Workspace.Part --part
@@ -65,7 +65,7 @@ local info = TweenInfo.new(15, Enum.EasingStyle.Linear, Enum.EasingDirection.Out
 local Tween = TweenService:Create(partVar, info, propertyTable)
 Tween:Play() 
 ```
-In the above code, the Tween setup is missing a variable. The missing Tween variable is ???.
+In the above code, the Tween setup is missing a variable. The missing Tween variable is... ???.
 
 - propertyTable
 - TweenInfo

@@ -36,7 +36,7 @@ Now the brick should start spinning and both increase and decrease in length.
 
 ## Practice
 
-When changing the Size property in the propertyTable, you should set them equal to ???
+When changing the Size property in the propertyTable, you should set them equal to... ???
 - Vector3.new()
 - Vector3.Angles()
 - CFrame.new()
@@ -44,7 +44,7 @@ When changing the Size property in the propertyTable, you should set them equal 
 ---
 
 ## Revision
-When changing the Orientation property in the propertyTable, you should set them equal to ???
+When changing the Orientation property in the propertyTable, you should set them equal to... ???
 - Vector3.new()
 - Vector3.Angles()
 - CFrame.new()

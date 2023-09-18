@@ -29,24 +29,24 @@ local propertyTable = {
     Reflectance = 0.5
 }
 ```
-If you follow my example, you'll see the slightly transparent red block turn into a bright green block that has a slight reflectance and is no longer transparent. Of course, it'll turn back to a transparent red block.
+If you follow my example, you'll see the slightly transparent red block turn into a bright green block that has a slight reflectance and is no longer transparent. After, it'll turn back to a transparent red block.
 
 ---
 
 ## Practice
 
-If in the propertyTable, the transparency was set to 1, while the object has a transparency of 0 to begin with, the object will ???
-- become invisible by the end of the animation
-- become fully visible by the end of the animation
-- nothing changes
-- become partially invisible
+If in the propertyTable, the transparency was set to 1, while the object has a transparency of 0 to begin with, the object will... ???
+- Become invisible by the end of the animation
+- Become fully visible by the end of the animation
+- Nothing changes
+- Become partially invisible
 
 ---
 
 ## Revision
 
-If in the propertyTable, the reflectance was set to 1, while the object has a reflectance of 0 to begin with, the object will ???
-- become fully reflective, which removes the color
-- become fully reflective but maintains the color
-- lose all of its reflectance and loses its color
-- lose all of its reflectance but maintains the color
+If in the propertyTable, the reflectance was set to 1, while the object has a reflectance of 0 to begin with, the object will... ???
+- Become fully reflective, which removes the color
+- Become fully reflective but maintains the color
+- Lose all of its reflectance and loses its color
+- Lose all of its reflectance but maintains the color
