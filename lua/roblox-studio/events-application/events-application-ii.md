@@ -26,7 +26,7 @@ Additionally, you may have noticed while testing that your avatar will show up a
 ```lua
 lavaVar = game.Workspace.Lava
 lavaVar.Touched:Connect(function(part)
-  local avatar = part.Parent  --using local since its used only for this event function
+  local avatar = part.Parent  --Using local since its used only for this event function.
 end)
 ```
 ---
@@ -35,22 +35,22 @@ end)
 
 An avatar is a ???, so to access it, we must find the ??? of the part that touches the event object.
 
-- model
-- parent
-- child
-- part
-- character
-- script
+- Model
+- Parent
+- Child
+- Part
+- Character
+- Script
 
 ---
 
 ## Revision
 
-When creating a block that detects if a player has touched it, the first thing the event should do is ???
-- identify the part that touched it is a part of the player
-- activate the desired function right away
-- wait 5 seconds
-- turn itself off to save resources
+When creating a block that detects if a player has touched it, the first thing the event should do is... ???
+- Identify the part that touched it is a part of the player
+- Activate the desired function right away
+- Wait 5 seconds
+- Turn itself off to save resources
 
 ---
 

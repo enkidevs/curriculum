@@ -34,12 +34,12 @@ end)
 
 ## Practice
 
-The Touched event is an event that triggers when ???
+The Touched event is an event that triggers when... ???
 
-- another part touches the part associated with the event
-- the part associated with the event touches the baseplate
-- the part associated with the event spawns in
-- once the moment the game starts
+- Another part touches the part associated with the event
+- The part associated with the event touches the baseplate
+- The part associated with the event spawns in
+- Once the moment the game starts
 
 ---
 
