@@ -35,7 +35,7 @@ Var = Vector3.new() - Vector3.new() --subtract
 ```lua
 Variable.Position = Variable.Position + Vector3.new(5, 0, 0)
 ```
-If the position vector of an object is (0, 5, 0), the new vector is ???
+If the position vector of an object is (0, 5, 0), the new vector is... ???
 - (5, 5, 0)
 - (0, 5, 5)
 - (0, 5, 0)
@@ -48,7 +48,7 @@ If the position vector of an object is (0, 5, 0), the new vector is ???
 ```lua
 Variable.Position = Variable.Position + Vector3.new(5, 2, 2)
 ```
-If the position vector of an object is (2, 5, 1), the new vector is ???
+If the position vector of an object is (2, 5, 1), the new vector is... ???
 - (7, 7, 3)
 - (3, 3, 1)
 - (10, 10, 2)

@@ -34,7 +34,7 @@ Var = Vector3.new() / Vector3.new() -- divide
 ```lua
 Variable.Position = Variable.Position * Vector3.new(5, 0, 0)
 ```
-If the position vector of an object is (3, 1, 1), the new vector is ???
+If the position vector of an object is (3, 1, 1), the new vector is... ???
 - (15, 0, 0)
 - (15, 1, 1)
 - (8, 1, 1)
@@ -47,7 +47,7 @@ If the position vector of an object is (3, 1, 1), the new vector is ???
 ```lua
 Variable.Position = Variable.Position * Vector3.new(3, 2, 1)
 ```
-If the position vector of an object is (1, 2, 3), the new vector is ???
+If the position vector of an object is (1, 2, 3), the new vector is... ???
 - (3, 4, 3)
 - (4, 3, 4)
 - (4, 4, 4)
