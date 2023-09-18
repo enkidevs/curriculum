@@ -29,7 +29,7 @@ Collision properties are fairly straightforward, as they deal with *physical ins
 ```lua
 partVariable.CanCollide = false
 --Everything will now physically go through this part.
---Useful for creating secret doors or false paths, as players can slip right past them
+--Useful for creating secret doors or false paths, as players can slip right past them.
 ```
 ---
 
@@ -41,9 +41,9 @@ leftPathVariable.CanCollide = false
 rightPathVariable.CanCollide = true
 centerPathVariable.CanCollide = false
 ```
-- right path
-- left path
-- center path
+- Right path
+- Left path
+- Center path
 
 ---
 
@@ -55,6 +55,6 @@ leftPathVariable.CanCollide = true
 rightPathVariable.CanCollide = false
 centerPathVariable.CanCollide = false
 ```
-- left path
-- center path
-- right path
+- Left path
+- Center path
+- Right path

@@ -22,8 +22,8 @@ revisionQuestion:
 
 ```lua
 partVariable.Locked = false
---As soon as this line runs, the part becomes editable using in-game tools
---Useful in building games where players can build only in a set amount of time
+--As soon as this line runs, the part becomes editable using in-game tools.
+--Useful in building games where players can build only in a set amount of time.
 ```
 
 ---
@@ -40,16 +40,16 @@ if editMode then
 end
 ```
 
-- false
-- true
-- build
-- edit
+- False
+- True
+- Build
+- Edit
 
 ---
 
 ## Revision
 
-Sharon is building a game where players are given a topic and they must build it within a time frame. Once time is up, they can no longer build and must judge the other buildings. Based on her idea, finish the code below. (Hint. Look at the condition before making your choice)
+Sharon is building a game where players are given a topic and they must build it within a time frame. Once time is up, they can no longer build and must judge the other buildings. Based on her idea, finish the code below. (Hint. Look at the condition before making your choice).
 
 ```lua
 intermission(30)
@@ -59,7 +59,7 @@ if judgingPeriod then
 end
 ```
 
-- true
-- build
-- edit
-- false
+- True
+- Build
+- Edit
+- False

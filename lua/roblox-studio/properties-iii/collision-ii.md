@@ -22,7 +22,7 @@ revisionQuestion:
 
 ```lua
 partVariable.CanTouch = true
---This part will start sending signals the moment another part touches it
+--This part will start sending signals the moment another part touches it.
 ```
 
 > While we won't touch upon this topic for now, you should start thinking about why and how we can use these signals to our advantage.
@@ -32,17 +32,17 @@ partVariable.CanTouch = true
 ## Practice
 Joe is creating a game that involves teleporting through several rooms using teleporters, with each room holding secret buttons. The following items should involve the CanTouch property: ???, secret buttons
 
-- teleporters
-- other players
-- floor
-- bed
+- Teleporters
+- Other players
+- Floor
+- Bed
 
 ---
 
 ## Revision
 Joe is creating a game that involves teleporting through several rooms using teleporters, with each room holding secret buttons. The following items should involve the CanTouch property: teleporters, ???
 
-- secret buttons
-- floor
-- bed
-- other players
+- Secret buttons
+- Floor
+- Bed
+- Other players

@@ -27,8 +27,8 @@ The **name** property holds the part's name. The name can be changed by setting 
 
 ```lua
 partVariable.Name = "Edited Part"
---As soon as this line runs, the part's name is now Edited Part
---Useful if you need to identify changed parts while running a script
+--As soon as this line runs, the part's name is now Edited Part.
+--Useful if you need to identify changed parts while running a script.
 ```
 ---
 
