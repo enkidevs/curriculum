@@ -19,7 +19,7 @@ revisionQuestion:
 ## Content
 Don't confuse Color and BrickColor! They may have the same function, but their **syntax is different**.
 
-For Color, you will use **Color3** when declaring `new()`
+For Color, you will use **Color3** when declaring `new()` .
 
 ```lua
 partVariable.Color = Color3.new()
@@ -29,7 +29,7 @@ partVariable.Color = Color3.new()
 ---
 
 ## Practice
-When declaring new() for the Color property, you must use it in conjunction with ???
+When declaring new() for the Color property, you must use it in conjunction with... ???
 
 - Color3
 - Color_3
