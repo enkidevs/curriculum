@@ -12,7 +12,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# Continuation on Adding Instances using Scripts
+# Adding Instances using Scripts II
 
 ---
 
@@ -25,7 +25,7 @@ This time, let's give the new instance a parent.
 
 ```lua
 newInstance = Instance.new("Part")   
---create and store the new instance as a variable
+--create and store the new instance as a variable.
 
 newInstance.Parent = Workspace
 --set the Parent of the variable to workspace.

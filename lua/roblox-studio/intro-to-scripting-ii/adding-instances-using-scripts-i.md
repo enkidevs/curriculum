@@ -4,7 +4,7 @@ type: normal
 category: must-know
 ---
 
-# Adding Instances Using Scripts
+# Adding Instances Using Scripts I
 
 ---
 
@@ -16,7 +16,7 @@ We can do this through code. To start, let's declare a new instance in a script 
 
 ```lua
 Instance.new()
---combining new() with Instance declares that we're creating a new instance
+--combining new() with Instance declares that we're creating a new instance.
 ```
 
 Now within the parameters, we need to add the specific type of instance we want.

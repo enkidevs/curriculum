@@ -26,11 +26,9 @@ We can use boolean and loops that activate when a certain condition is met.
 
 ```lua
 wait()
---Without a parameter, wait() will cause the script to wait around 0.03 seconds before reading the next line
+--Without a parameter, wait() will cause the script to wait around 0.03 seconds before reading the next line.
 wait(3)
 --If there is a parameter, wait() will wait that many seconds before reading the next line. E.g. this will wait 3 seconds.
-
-
 ```
 
 ---
@@ -41,7 +39,7 @@ print("Hello World")
 wait(4)
 print("Well, say hello back")
 ```
-In the code above, the second print statement will occur after ???
+In the code above, the second print statement will occur after... ???
 
 - 4 seconds have passed
 - 4 minutes have passed
@@ -58,7 +56,7 @@ wait(5)
 wait(7)
 print("Well, say hello back")
 ```
-In the code above, the second print statement will occur after ???
+In the code above, the second print statement will occur after... ???
 
 - 12 seconds have passed
 - 5 seconds have passed
