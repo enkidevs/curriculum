@@ -38,7 +38,7 @@ end
 ---
 
 ## Practice
-Josh wanted to create a spinning block using CFrames. However, he noticed that while using `i = 1,360` for his **for loop** condition, it is not fast enough. To make the block spin faster, he could write ???
+Josh wanted to create a spinning block using CFrames. However, he noticed that while using `i = 1,360` for his **for loop** condition, it is not fast enough. To make the block spin faster, he could write... ???
 
 - `i = 1, 360, 6`
 - `i = 6, 360`
@@ -55,7 +55,7 @@ while true do
     end
 end
 ```
-If you were to run the code above, you would get a script exhausted error. This is caused by ???
+If you were to run the code above, you would get a script exhausted error. This is caused by... ???
 
 - The code is running too fast without a `wait()` function
 - the `true` value not changing
