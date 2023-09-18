@@ -13,7 +13,7 @@ revisionQuestion:
 
 ---
 
-# Accessing Instances Using Variables
+# Declaring Variables
 ---
 
 ## Content
@@ -44,16 +44,17 @@ From the code above, the variables that were defined are ???
 - whichOneIsCooler(x)
 
 ---
+
 ## Revision
 The reason why variables are so useful in studio is because they can provide a/an ??? to instances while scripting
 
-- access point
-- extra property
-- form of communication with the players
+- Access point
+- Extra property
+- Form of communication with the players
 
 
 ---
 ## Footnotes
 [1: Instances]
 
-They are simply any object in a Roblox Game. This includes parts, scripts, and services.
+They are any objects in a Roblox Game. This includes parts, scripts, and services.

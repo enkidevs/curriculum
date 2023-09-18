@@ -12,7 +12,7 @@ revisionQuestion:
   context: standalone
 
 ---
-# Conclusion on Accessing Instances Using Variables
+# Accessing Instances Using Variables
 ---
 
 ## Content

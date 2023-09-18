@@ -13,7 +13,7 @@ revisionQuestion:
 
 ---
 
-# Continuation on Accessing Instances Using Variables
+# Accessing The Hierarchy
 ---
 
 ## Content
@@ -33,7 +33,7 @@ For instance, if we want to access a part called "Egg" under the baseplate, it c
 ## Practice
 When testing the game, a script adds a block under baseplate. The block's parent is ???, while baseplate's parent is ???.
 
-- baseplate
+- Baseplate
 - Workspace
 - game
 - ServerScriptService
@@ -46,5 +46,5 @@ When testing the game, the user becomes an instance under Workspace. The user's 
 
 - Workspace
 - game
-- baseplate
+- Baseplate
 - ServerScriptService
