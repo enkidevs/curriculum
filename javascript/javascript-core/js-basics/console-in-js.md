@@ -43,6 +43,8 @@ Other methods include:
 - `console.error("Error!")`
 - `console.trace()` [1]
 
+The three above are crucial for debugging your code! 
+
 > 🤔 When might `console.warn` be more useful than `console.log`?
 
 ---
