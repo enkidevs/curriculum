@@ -7,9 +7,6 @@ insights:
   - introduction-js
   - why-learn-javascript
   - javascript-basics-part-1
-  - javascript-basics-part-2
-  - console-in-javascript
-  - javascript-hello-world
 
 aspects:
   - introduction
