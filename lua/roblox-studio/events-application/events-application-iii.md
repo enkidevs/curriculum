@@ -34,6 +34,8 @@ end)
 
 Congratulations! You've understood how to create kill blocks! You can play with the shape or any other properties and use it as an obstacle in your game.
 
+![lava-gif][https://img.enkipro.com/95acff9ea681cb8b823bec26e63a0fa3.gif]
+
 ---
 
 ## Practice
