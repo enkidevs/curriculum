@@ -1,13 +1,14 @@
-name: Property Interface
+name: Roblox Studio Interface
 
-description: Learn about the basics of the Property Interface!
+description: Learn about the basics of roblox studio!
 
 aspects:
+- introduction
 - workout
 
 insights:
-- properties-interface-i
-- properties-interface-ii
-- properties-interface-iii
+- studio-interface
+- explorer-interface-i
+- explorer-interface-ii
 
 

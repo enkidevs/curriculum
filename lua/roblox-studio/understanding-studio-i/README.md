@@ -1,15 +1,13 @@
-name: Understanding Roblox Studio
+name: Roblox Studio Introduction
 
-description: Learn about the basics of roblox studio!
+description: An Intro to Roblox Studio
 
 aspects:
 - introduction
-- workout
 
 insights:
-- intro-to-studio
-- studio-interface
-- explorer-interface-i
-- explorer-interface-ii
+- intro-to-studio-i
+- intro-to-studio-ii
+- intro-to-studio-iii
 
 
