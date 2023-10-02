@@ -8,6 +8,7 @@ sections:
     '0':
     - understanding-studio-i
     - understanding-studio-ii
+    - understanding-studio-iii
     - basic-modelling-i
     - basic-modelling-ii
     - intro-to-scripting-i

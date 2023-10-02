@@ -25,6 +25,8 @@ partVariable.Material = "Plastic" --The Part has a plastic look
 partVariable.Material = "Cobblestone" --The Part now has a rocky look 
 ```
 
+> You can find the list of materials in the Appearance section in the property table.
+
 ---
 
 ## Practice
