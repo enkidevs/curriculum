@@ -16,6 +16,7 @@ revisionQuestion:
 # Creating a Variable
 
 ---
+
 ## Content
 
 To create a variable, you **use an assignment statement**, which sets the variable to a specific value. 
@@ -27,6 +28,7 @@ my_variable = 42
 ```
 
 ---
+
 ## Practice
 
 Create a variable called `age` and assign te value `30` to it:
@@ -41,6 +43,7 @@ age ??? ???
 - 300
 
 ---
+
 ## Revision
 
 Create a variable called `age` and assign te value `50` to it:

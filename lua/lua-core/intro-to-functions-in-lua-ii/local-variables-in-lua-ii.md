@@ -42,6 +42,7 @@ This means that `x` is only accessible within the scope of the `foo()` function 
 *Attempting to access `x` outside of the function* results in a **runtime error** because `x` is not defined in the global scope.
 
 ---
+
 ## Practice
 
 Which keyword is used to declare a variable within a local scope?

@@ -12,4 +12,3 @@ type: normal
 
 Variables allow you to store and manipulate data dynamically, making your code more flexible and powerful.
 
----
