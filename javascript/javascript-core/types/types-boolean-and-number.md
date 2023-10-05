@@ -11,9 +11,6 @@ category: must-know
 
 ## Content
 
-
-### Strings
-
 To store any sequence of characters, whether its one letter or multiple sentences, we use strings.
 
 A string is always wrapped in either `'single'` or `"double quotes"`
