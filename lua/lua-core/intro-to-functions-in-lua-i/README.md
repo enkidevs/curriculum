@@ -9,7 +9,7 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - functions-in-lua
+  - functions-in-lua-i
   - functions-in-lua-ii
   - functions-in-lua-iii
   - functions-in-lua-iv

@@ -1,4 +1,4 @@
-name: Display Gold Addon
+name: Display Gold Addon II
 
 description: Let's create an addon that displays our gold, silver and copper on the screen!
 

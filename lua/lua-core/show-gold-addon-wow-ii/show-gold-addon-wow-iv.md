@@ -11,6 +11,7 @@ type: normal
 ## Content
 
 The `updateMoneyOutput()` function would look like this:
+
 ```lua
 local function updateMoneyOutput()
   -- Get the money from the GetMoney() method

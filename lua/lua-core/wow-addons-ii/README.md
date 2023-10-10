@@ -9,6 +9,8 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - hello-world-in-wow
-  - hello-world-in-wow-ii
-  - exp-addon-wow
+  - hello-world-in-wow-lua-code-i
+  - hello-world-in-wow-lua-code-ii
+  - exp-addon-wow-i
+  - exp-addon-wow-ii
+  - exp-addon-wow-iii
