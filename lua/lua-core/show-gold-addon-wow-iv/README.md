@@ -9,8 +9,8 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - continuosly-update-gold-i
-  - continuosly-update-gold-ii
-  - continuosly-update-gold-iii
-  - continuosly-update-gold-iv
+  - continously-update-gold-i
+  - continously-update-gold-ii
+  - continously-update-gold-iii
+  - continously-update-gold-iv
   - full-show-gold-addon-code
