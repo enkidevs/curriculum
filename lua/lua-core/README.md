@@ -25,10 +25,19 @@ sections:
     - intro-to-functions-in-lua-i
     - intro-to-functions-in-lua-ii
     - intro-to-functions-in-lua-iii
-    - tables-in-lua
-    - maps-and-dictionaries-in-lua
+    - tables-in-lua-i
     - tables-in-lua-ii
-    - io-operations-in-lua
+    - maps-and-dictionaries-in-lua
+    - tables-in-lua-iii
+    - tables-in-lua-iv
+    - io-operations-in-lua-i
+    - io-operations-in-lua-ii
+    - events-intro
     - events-in-lua
-    - wow-addons
-    - show-gold-addon-wow
+    - lua-in-games
+    - wow-addons-i
+    - wow-addons-ii
+    - show-gold-addon-wow-i
+    - show-gold-addon-wow-ii
+    - show-gold-addon-wow-iii
+    - show-gold-addon-wow-iv

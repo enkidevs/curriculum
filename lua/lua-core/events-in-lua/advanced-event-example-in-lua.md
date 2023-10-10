@@ -10,6 +10,36 @@ type: normal
 ## Content
 
 Here's a more advanced example of using events in Lua:
+
+```lua
+-- Create a function to handle custom events
+local function onCustomEvent(eventType, eventData)
+  print("Custom event received: " .. eventType .. ", data: " .. eventData)
+end
+
+-- Register the custom event handler function
+eventManager:RegisterForEvent("OnCustomEvent", onCustomEvent)
+```
+
+We first **create a couple of event handler functions[1]** for handling keyboard and mouse events. We then **register these functions with the system event manager** using the `RegisterForEvent` method.
+
+```lua
+-- Trigger a custom event
+eventManager:TriggerEvent("OnCustomEvent", "test", "data")
+```
+
+Finally, we **trigger a custom event** using the `TriggerEvent` method and **pass some test data to it**.
+
+This is just a simple example of how events can be used in Lua to create interactive and responsive applications. The flexibility of the event system allows developers to create custom events and event handlers for a wide variety of use cases.
+
+---
+
+## Footnotes
+
+[1: couple of event handler functions]
+
+Here are additional events handler functions that would be used in this example.
+
 ```lua
 -- Create an event handler function
 local function onKeyPress(key)
@@ -26,21 +56,4 @@ end
 
 -- Register the mouse click event handler function
 eventManager:RegisterForEvent("OnMouseClick", onMouseClick)
-
--- Create a function to handle custom events
-local function onCustomEvent(eventType, eventData)
-  print("Custom event received: " .. eventType .. ", data: " .. eventData)
-end
-
--- Register the custom event handler function
-eventManager:RegisterForEvent("OnCustomEvent", onCustomEvent)
-
--- Trigger a custom event
-eventManager:TriggerEvent("OnCustomEvent", "test", "data")
 ```
-
-In this example, we first create a couple of event handler functions for handling keyboard and mouse events. We then register these functions with the system event manager using the `RegisterForEvent` method.
-
-We also create a custom event handler function and register it with the event manager. Finally, we trigger a custom event using the `TriggerEvent` method and pass some test data to it.
-
-This is just a simple example of how events can be used in Lua to create interactive and responsive applications. The flexibility of the event system allows developers to create custom events and event handlers for a wide variety of use cases.

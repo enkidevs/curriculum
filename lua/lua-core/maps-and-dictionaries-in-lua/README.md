@@ -9,6 +9,8 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - maps-or-dictionaries-in-lua
-  - map-methods-in-lua
+  - maps-or-dictionaries-in-lua-i
+  - maps-or-dictionaries-in-lua-ii
+  - map-methods-in-lua-i
   - map-methods-in-lua-ii
+  - map-methods-in-lua-iii

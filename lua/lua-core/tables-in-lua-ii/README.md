@@ -1,6 +1,6 @@
-name: More on Tables
+name: Tables II
 
-description: Learn how to store and assign functions to a table.
+description: Tables are a fundamental data structure used to represent arrays, lists, sets, and more!
 
 aspects:
   - introduction
@@ -9,6 +9,8 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - sets-in-lua
-  - tables-can-store-functions-in-lua
-  - assigning-functions-to-existing-tables-in-lua
+  - nested-tables
+  - matrices-in-lua-i
+  - matrices-in-lua-ii
+  - matrices-in-lua-iii
+  - matrices-in-lua-iv

@@ -1,6 +1,6 @@
-name: Events
+name: Events in Lua
 
-description: Learn what events are and how to use them.
+description: Learn how to use events in Lua!
 
 aspects:
   - introduction
@@ -8,7 +8,6 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - what-are-events-in-lua
-  - flexible-event-system-in-lua
-  - simple-event-example-in-lua
+  - simple-event-example-in-lua-i
+  - simple-event-example-in-lua-ii
   - advanced-event-example-in-lua
