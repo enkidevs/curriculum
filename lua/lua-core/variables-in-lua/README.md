@@ -9,9 +9,6 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - what-are-variables-in-lua
-  - different-types-of-variables-in-lua
-  - numbers-in-lua
-  - booleans-in-lua
-  - strings-in-lua
-  - nil-in-lua
+  - variables-in-lua-i
+  - variables-in-lua-ii
+  - variables-in-lua-iii

@@ -2,7 +2,14 @@
 author: Stefan-Stojanovic
 category: must-know
 type: normal
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 
 ---
 
@@ -27,7 +34,7 @@ result = 10 % 3  -- result = 1
 result = 2^3  -- result = 8
 ```
 
-> It's important to note that arithmetic operators in Lua follow the standard order of operations[1]. To change the order of operations, you can use parentheses.
+> It's important to note that arithmetic operators in Lua follow the standard order of operations[2]. To change the order of operations, you can use parentheses.
 
 ---
 
@@ -70,3 +77,11 @@ result = 21 % 4
 [1: Modulo]
 
 The Modulo Operation returns the remainder of a division.
+
+[2: Standard Order of Operation]
+
+The standard order of operations is refered to as PEMDAS or BODMAS.
+
+PEMDAS stands for parentheses, exponents, multiplication, division, addition, subtraction
+
+BOMDAS stands for brackets, orders, division and multiplication, and addition and subtraction
