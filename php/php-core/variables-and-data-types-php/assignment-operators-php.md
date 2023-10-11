@@ -10,6 +10,7 @@ revisionQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
+
 ---
 
 # Assignment Operators in PHP
@@ -32,6 +33,7 @@ echo $y;
 ```
 
 **PHP** also includes compound assignment operators such as `+=`, `-=`, `*=`, and `/=`. These operators modify the value of the variable:
+
 ```php
 // equivalent to $x = $x + 5
 $x += 5;
@@ -48,6 +50,8 @@ echo $y;
 ## Practice
 
 Which operator is used to assign a value to a variable in **PHP**?
+
+???
 
 - `=`
 - `==`

@@ -19,7 +19,6 @@ echo $number;
 ```
 
 ### float
----
 
 Floating-point numbers (also refered to as **double**), are numbers that contain a decimal point.
 ```php
