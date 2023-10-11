@@ -1,6 +1,6 @@
 name: PHP Intro
 
-description: 
+description: What is PHP?
 
 insights:
   - what-is-php

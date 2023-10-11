@@ -1,6 +1,6 @@
 name: Logical Operators
 
-description: 
+description: Learn Boolean Algebra in PHP
 
 insights:
   - what-are-logical-operators-php

@@ -1,10 +1,8 @@
 name: More Data Types
 
-description: 
+description: Compound and Special Data
 
 insights:
-  <!-- - compound-data-types-php -->
-  <!-- - special-data-types-php -->
   - arrays-php
   - array-functions-php
 
