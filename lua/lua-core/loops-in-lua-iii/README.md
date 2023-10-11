@@ -1,4 +1,4 @@
-name: repeat Loops
+name: Repeat Loops
 
 description: Learn about repeat Loops in Lua.
 

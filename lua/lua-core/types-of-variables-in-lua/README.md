@@ -1,4 +1,4 @@
-name: Variables & Data types
+name: Variables & Data types II
 
 description: Learn how to create variables and what data types Lua offers.
 
