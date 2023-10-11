@@ -6,7 +6,7 @@ insights:
   - if-statements-php
   - comparison-operators-php
   - if-else-statements-php
-  - nested-if-else-php
+  - nested-if-else-statements-php
 
 aspects:
   - introduction

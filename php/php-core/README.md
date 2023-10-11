@@ -1,6 +1,6 @@
 name: PHP Core
 
-description: 
+description: Basic Syntax and Functionality
 
 core: true
 
