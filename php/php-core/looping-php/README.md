@@ -6,6 +6,7 @@ insights:
   - while-loops-php
   - do-while-loops-php
   - for-each-loops-php
+  - for-each-loops-php-ii
 
 aspects:
   - introduction
