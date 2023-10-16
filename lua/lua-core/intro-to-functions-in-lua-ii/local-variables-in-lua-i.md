@@ -32,7 +32,7 @@ Using `local` is generally recommended as it can **help prevent naming conflicts
 
 Which of these statements is **true** about `local` variables in Lua?
 
-A. Local variables are only visible within the block they are defined in.
+A. Local variables are **only** visible within the block they are defined in.
 B. Local variables are visible within the file they are defined in.
 C. Local variables are visible to all files in the project.
 

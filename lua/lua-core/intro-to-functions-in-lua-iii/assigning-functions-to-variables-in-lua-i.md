@@ -18,9 +18,9 @@ revisionQuestion:
 ---
 ## Content
 
-In Lua, functions can be assigned to variables just like any other data type. This is a powerful feature that allows you to create more flexible and reusable code.
+In Lua, **functions can be assigned to variables** just like any other data type. This is a powerful feature that allows you to create more flexible and reusable code.
 
-To assign a function to a variable, use the variable name followed by the function definition, like this:
+To assign a function to a variable, **use the variable name followed by the function definition**, like this:
 ```lua
 -- Define a function that doubles a number
 function double(number)

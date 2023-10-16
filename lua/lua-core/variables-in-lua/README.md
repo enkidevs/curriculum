@@ -11,4 +11,6 @@ learnType: GROKKING
 insights:
   - variables-in-lua-i
   - variables-in-lua-ii
-  - variables-in-lua-iii
+  - strings-in-lua
+  - numbers-in-lua
+  - booleans-in-lua

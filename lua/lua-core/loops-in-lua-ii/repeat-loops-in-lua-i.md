@@ -10,24 +10,30 @@ revisionQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-
 ---
 
-# repeat Loops Syntax
+# Repeat Loops
 
 ---
 ## Content
 
-To create a `repeat` loop in Lua, you use the `repeat` keyword followed by the code block you want to `repeat`, and then the `until` keyword followed by the condition that will end the loop. 
+As mentioned previously, `repeat` loops **allows code to be repeated until a specific condition is met**. What makes repeat loops special is that this **special condition is checked at the end of every loop**.
 
-For example:
+> This means that the **code inside a `repeat` loop is executed at least once. no matter the initial condition**. 
+
+Here is a visual example:
+![repeat-loop-visual](https://img.enkipro.com/8ba4eb0a6ecc6971033a64e2936b48c8.png)
+
+In Lua, the syntax for a `repeat` loop is as follows:
+
 ```lua
 repeat
   -- code to repeat
 until condition
 ```
 
----
+--- 
+
 ## Practice
 
 Which of the following is the correct syntax for a repeat loop in Lua?

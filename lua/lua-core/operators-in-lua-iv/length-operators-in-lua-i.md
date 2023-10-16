@@ -29,7 +29,7 @@ my_string = "hello world"
 print(#my_string) --> 11
 ```
 
-When checking the length of a string, it is determined by the number of characters. Thus, white spaces are also counted.
+When checking the length of a string, it is **determined by the number of characters**. Thus, **white spaces are also counted**.
 
 
 ---

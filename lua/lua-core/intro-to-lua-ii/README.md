@@ -1,6 +1,6 @@
-name: Getting Started with Lua
+name: Installing Lua 
 
-description: Learn how to get Started with Lua!
+description: Learn how to Install Lua!
 
 aspects:
   - introduction
@@ -8,7 +8,6 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - install
-  - text-editor
-  - practicing
-  - community
+  - installing-lua-i
+  - installing-lua-ii
+  - installing-lua-iii

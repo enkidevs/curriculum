@@ -9,6 +9,6 @@ learnType: GROKKING
 
 insights:
   - what-are-loops-in-lua
-  - for-and-while-loops
-  - repeat-loops
-  - why-use-loops
+  - types-of-loops
+  - for-loops-in-lua-i
+  - for-loops-in-lua-ii

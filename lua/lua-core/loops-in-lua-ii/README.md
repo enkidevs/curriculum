@@ -1,6 +1,6 @@
 name: For and While Loops
 
-description: Learn more about For and While Loops in Lua.
+description: Learn more about Repeat and While Loops in Lua.
 
 aspects:
   - introduction
@@ -8,7 +8,7 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - for-loops-in-lua-i
-  - for-loops-in-lua-ii
   - while-loops-in-lua-i
   - while-loops-in-lua-ii
+  - repeat-loops-in-lua-i
+  - repeat-loops-in-lua-ii

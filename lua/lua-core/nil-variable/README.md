@@ -10,6 +10,5 @@ learnType: GROKKING
 
 insights:
   - nil-in-lua
-  - releasing-memory
   - resetting-a-variable
-  - clearing-sensitive-data
+  - releasing-memory

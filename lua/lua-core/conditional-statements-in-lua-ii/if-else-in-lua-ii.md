@@ -19,7 +19,7 @@ revisionQuestion:
 ---
 ## Content
 
-Here's an example of an `if-else` statement:
+Here's another example of an `if-else` statement:
 ```lua
 age = 18
 

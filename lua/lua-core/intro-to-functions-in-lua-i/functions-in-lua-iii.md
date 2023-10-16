@@ -18,7 +18,7 @@ revisionQuestion:
 ---
 ## Content
 
-When creating functions you can also define parameters for them inside parentheses.
+When creating functions you can also **define parameters inside the parentheses**.
 
 Here's an example of a function that takes two numbers and returns their sum:
 

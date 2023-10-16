@@ -61,9 +61,4 @@ c = (true or false)
 - "true"
 - "false"
 
-- `not`
-- `or`
-- `or`
-- `not`
-- `or`
 

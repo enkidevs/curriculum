@@ -19,6 +19,8 @@ revisionQuestion:
 
 ## Content
 
+There are various scenarios where setting a variable to `nil` can be useful. For instance, refreshing a variable!
+
 Setting a variable to `nil` can be a way to **reset a variable to a neutral state**, especially if it's used in a loop or needs to be reinitialized frequently.
 
 ---

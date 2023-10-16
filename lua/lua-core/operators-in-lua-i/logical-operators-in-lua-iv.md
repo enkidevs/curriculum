@@ -37,10 +37,10 @@ print(not ???) --> true
 ```
 
 - `not`
-- false
+- `false`
 - `and`
 - `or`
-- true
+- `true`
 
 
 ---
@@ -53,8 +53,8 @@ print(not ???) --> false
 ```
 
 - `not`
-- true
+- `true`
 - `and`
 - `or`
-- false
+- `false`
 

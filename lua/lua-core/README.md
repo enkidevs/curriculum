@@ -6,12 +6,9 @@ core: true
 
 sections:
   '0':
-    - intro-to-lua-i
+    - intro-to-lua
     - intro-to-lua-ii
-    - intro-to-lua-iii
-    - intro-to-lua-iv
     - variables-in-lua
-    - types-of-variables-in-lua
     - nil-variable
     - operators-in-lua-i
     - operators-in-lua-ii
@@ -21,7 +18,6 @@ sections:
     - conditional-statements-in-lua-ii
     - loops-in-lua-i
     - loops-in-lua-ii
-    - loops-in-lua-iii
     - intro-to-functions-in-lua-i
     - intro-to-functions-in-lua-ii
     - intro-to-functions-in-lua-iii
@@ -41,3 +37,6 @@ sections:
     - show-gold-addon-wow-ii
     - show-gold-addon-wow-iii
     - show-gold-addon-wow-iv
+
+next:
+  - lua:roblox-studio

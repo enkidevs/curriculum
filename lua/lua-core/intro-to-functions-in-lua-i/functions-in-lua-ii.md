@@ -48,15 +48,16 @@ end
 ---
 ## Revision
 
-Finish the code to create a function called `greetings` that outputs "Hi!" to the console:
+Finish the code to create a function called `departure` that outputs "Leaving Now!" to the console:
 ```lua
 ??? ???()
-  print("Hi!")
+  print("???")
 ???
 ```
 
 - `function`
-- `greetings`
+- `departure`
+- "Leaving Now!"
 - `end`
 - `endFunction`
 - `define`

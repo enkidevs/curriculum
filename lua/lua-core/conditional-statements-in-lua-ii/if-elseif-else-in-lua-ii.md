@@ -19,7 +19,7 @@ revisionQuestion:
 
 ## Content
 
-Here's an example:
+Here's another example of an else-if statement:
 ```lua
 num = 10
 
