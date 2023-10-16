@@ -1,7 +1,7 @@
 ---
 author: Stefan-Stojanovic
-category: must-know
-type: discussion
+category: discussion
+type: normal
 ---
 
 # What Is Lua?
