@@ -28,7 +28,8 @@ This is very useful when you ask for a user to list as many things that are rela
 
 ## Practice
 
-What is a vararg expression?
+What is a vararg expression? ???
+
 - A variable number of arguments that can be changed based on input.
 - A boolean expression
 - A built-in function

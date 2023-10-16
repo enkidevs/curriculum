@@ -45,8 +45,8 @@ end
 
 ```
 
-- `multiply`
 - `calculation`
+- `multiply`
 - `variable`
 - `function`
 
@@ -65,7 +65,7 @@ end
 
 ```
 
-- `multiply`
 - `result`
+- `multiply`
 - `variable`
 - `function`

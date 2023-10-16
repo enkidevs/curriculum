@@ -42,8 +42,9 @@ What will be the output of the following Lua code?
 for i=1, 5 do
   print(i)
 end
--- ???
 ```
+
+???
 
 - `1 2 3 4 5`
 - `5 4 3 2 1`

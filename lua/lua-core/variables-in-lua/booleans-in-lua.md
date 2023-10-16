@@ -29,7 +29,7 @@ bool = true
 bool2 = false
 ```
 
-Note that `True` is not the same as `true`, this also applies to `false`.
+> Note that `True` is not the same as `true`. This also applies to `false` and `False`.
 
 ---
 ## Practice
