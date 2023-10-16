@@ -1,28 +1,4 @@
----
-author: abdullah
-
-type: normal
-
-category: coding
-
-setupCode:
-  startingPoint: |
-   # Welcome to the Python coding playground.
-   # Update the statement below to signal whether or not you're ready to learn programming!
-   
-   print("I don't know what's going on")
-
----
-
-# Hello Beautiful People
-
----
-
-## Content
-
-Welcome to your first Python program!
-
-
+print ("Hello Beautifull People!")
 > 👩‍💻 Your task is to use Python's `print` function to tell us if you're ready to learn programming!
 
 
