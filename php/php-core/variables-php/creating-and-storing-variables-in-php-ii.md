@@ -14,30 +14,15 @@ revisionQuestion:
 
 ---
 
-# Creating and Storing Variables
+# Creating and Storing Variables(ii)
 
 ---
 
 ## Content
 
-Variables are crucial in programming. They are named locations in memory that store a value, which can be later retrieved and used. They allow us to store and manipulate data in a program.
-
-In **PHP**, variables are declared with a dollar sign `$` and do not require a type to be specified:
-```csharp
-$x = 5;
-$y = 10.0;
-```
-
-To print the value of a variable we use `echo`:
-```csharp
-echo $x;
-// Outputs: 5
-echo $y;
-// Outputs: 10.0
-```
 
 You can also create variables using other variables:
-```csharp
+```php
 $z = $x + $y;
 echo $z;  
 // Outputs: 15.0

@@ -15,5 +15,5 @@ Boolean values are either `true` or `false`:
 ```php
 $true = true;
 var_dump($true);
-// true
+// bool(true)
 ```

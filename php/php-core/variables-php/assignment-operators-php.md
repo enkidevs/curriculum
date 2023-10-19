@@ -21,18 +21,7 @@ revisionQuestion:
 
 In **PHP**, assignment operators are used to assign values to variables.
 
-The most common assignment operator is the `=` operator, which is used to assign a value to a variable:
-```php
-$x = 7;
-$y = 13;
-
-echo $x;  
-// Outputs: 7
-echo $y;  
-// Outputs: 13
-```
-
-**PHP** also includes compound assignment operators such as `+=`, `-=`, `*=`, and `/=`. These operators modify the value of the variable:
+Other than `=`, **PHP** also includes compound assignment operators such as `+=`, `-=`, `*=`, and `/=`.
 
 ```php
 // equivalent to $x = $x + 5
@@ -63,7 +52,7 @@ Which operator is used to assign a value to a variable in **PHP**?
 
 Which of these variables uses the recommended way of assigning values in **PHP**?
 
-```plain-text
+```php
 x = 2;
 $y = 10;
 ```

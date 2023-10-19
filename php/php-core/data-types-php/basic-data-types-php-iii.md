@@ -2,7 +2,10 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Basic Data Types (string)
@@ -18,3 +21,19 @@ $greeting = "Hello, world!";
 echo $greeting;
 // Hello, world!
 ```
+
+
+---
+## Practice
+
+Complete the following code snippet by declaring a `string` variable named `name` and assigning it a value of `"Enki"`.
+
+```php
+??? = "???";
+```
+
+- `$name`
+- `Enki`
+- `name`
+- `String`
+
