@@ -6,7 +6,7 @@ insights:
   - arrays-php
   - arrays-as-dicts-php
   - array-functions-php
-  - array-functions-php-ii
+  - arrays-functions-php-ii
 
 aspects:
   - introduction
