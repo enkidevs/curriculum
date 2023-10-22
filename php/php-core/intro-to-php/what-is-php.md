@@ -3,7 +3,7 @@ author: Stefan-Stojanovic
 
 type: normal
 
-category: must-know
+category: discussion
 
 ---
 
@@ -13,7 +13,9 @@ category: must-know
 
 ## Content
 
-**PHP** is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML. **PHP** code is executed on the server, and the plain HTML result is sent back to the client's browser.
+**PHP** is a widely-used open source general-purpose scripting language that is especially suited for web development. 
+
+**PHP** code is executed on the server, and the plain HTML result is sent back to the client's browser.
 
 A unique feature of **PHP** is that it can be embedded directly within HTML, which simplifies the creation of dynamic web pages.
 

@@ -1,6 +1,6 @@
 name: PHP
 
-description: An efficient, powerful, low-level language
+description: A powerful language for web development
 
 color: A6D8FF
 
