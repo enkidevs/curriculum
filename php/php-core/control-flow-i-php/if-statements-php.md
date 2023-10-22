@@ -35,11 +35,7 @@ $num = 5;
 if ($num > 0) {
   echo "$num is a positive number";
 }
-```
-
-The above would output:
-```plain-text
-5 is a positive number
+// Output: 5 is a positive number
 ```
 
 If the condition `$num > 0` evaluates to `false`, this code would not output anything.

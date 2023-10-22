@@ -20,11 +20,8 @@ revisionQuestion:
 
 ## Content
 
-Comparison operators can be used to compare various types of data, including numbers, strings, and booleans. 
+Comparison operators can be used to compare various types of data, including numbers, strings, and booleans:
 
-PHP's comparison operators are flexible and can handle different data types appropriately.
-
-Here's a table of comparison operators you can use:
 
 | Operator |             Name            |
 |:--------:|:---------------------------:|

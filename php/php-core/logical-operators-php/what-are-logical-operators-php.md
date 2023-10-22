@@ -21,10 +21,10 @@ The logical operators provided by PHP include:
 
 | Operator | Name |
 |:--------:|:----:|
-|    and   |  AND |
-|    or    |  OR  |
-|    xor   |  XOR |
-|     !    |  NOT |
-|    &&    |  AND |
-|    ||    |  OR  |
+|    `and`   |  AND |
+|    `or`    |  OR  |
+|    `xor`   |  XOR |
+|     `!`    |  NOT |
+|    `&&`    |  AND |
+|    `⎮⎮`    |  OR  |
 
