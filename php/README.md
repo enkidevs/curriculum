@@ -4,7 +4,7 @@ description: A powerful language for web development
 
 color: A6D8FF
 
-icon: https://img.enkipro.com/6fc730e946778fd1474fb41ea0a91a7a.png
+icon: https://img.enkipro.com/dbd5d4ad70bf69766e037505b5e8199f.png
 
 availableAspects:
   - introduction
