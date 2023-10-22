@@ -13,7 +13,7 @@ category: must-know
 
 ## Content
 
-Some of the most important array functions in *PHP* are:
+Some of the most important array functions in **PHP** are:
 
 - `count()`: returns the number of elements in an array.
 - `array_push()`: pushes one or more elements onto the end of an array.
