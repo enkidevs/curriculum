@@ -25,7 +25,6 @@ In PHP, variable are loosely typed, meaning that they are converted automaticall
 
 ### Compound types
 
-
 - `array` for storing multiple values in a single variable.
 - `object` for storing instances of classes.
 
