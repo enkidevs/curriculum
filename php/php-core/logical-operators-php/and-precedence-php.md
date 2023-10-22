@@ -56,7 +56,7 @@ For clarity, use one operator type or add parentheses.
 
 Complete the following code so that the output is "Both a and b are true.":
 
-```cpp
+```php
 $a = ???;
 $b = true;
 
@@ -78,7 +78,7 @@ if($a ??? $b) {
 
 What is the output of the following code?
 
-```cpp
+```php
 $a = false;
 $b = true;
 

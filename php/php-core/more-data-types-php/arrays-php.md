@@ -70,7 +70,7 @@ Array
 
 Fill in the code to create an array of integers called `nums` that hold numbers from 1 through 5:
 
-```csharp
+```php
 ??? = ???(1, 2, 3, 4, 5);
 ```
 
@@ -85,7 +85,7 @@ Fill in the code to create an array of integers called `nums` that hold numbers 
 ## Revision
 
 Fill in the code to output the number 7 from the `numbers` array using its index:
-```csharp
+```php
 $numbers = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 echo $numbers[???];  
 // Output: 7

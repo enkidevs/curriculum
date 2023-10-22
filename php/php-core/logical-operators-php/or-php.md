@@ -29,20 +29,10 @@ $b = false;
 
 if($a || $b) {
   echo "At least one of a or b is true.";
-} else {
-  echo "Both a and b are false.";
 }
 // Output: "At least one of a or b is true."
-```
-
-```php
-$a = true;
-$b = false;
-
 if($a or $b) {
   echo "At least one of a or b is true.";
-} else {
-  echo "Both a and b are false.";
 }
 // Output: "At least one of a or b is true."
 ```
@@ -55,7 +45,7 @@ Just like the `and` and `&&` operators, `or` and `||` have different precedence.
 
 What is the output of the following code?
 
-```cpp
+```php
 $a = false;
 $b = false;
 
@@ -77,7 +67,7 @@ if($a || $b) {
 
 What is the output of the following code?
 
-```cpp
+```php
 $a = true;
 $b = false;
 

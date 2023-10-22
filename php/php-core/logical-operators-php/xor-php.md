@@ -41,7 +41,7 @@ if($a xor $b) {
 
 What is the output of the following code?
 
-```cpp
+```php
 $a = true;
 $b = true;
 
@@ -62,7 +62,7 @@ if($a xor $b) {
 
 What is the output of the following code?
 
-```cpp
+```php
 $a = false;
 $b = false;
 

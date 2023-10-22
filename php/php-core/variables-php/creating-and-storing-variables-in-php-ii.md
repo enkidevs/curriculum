@@ -52,7 +52,7 @@ Which of the following is the correct way to create a variable in **PHP**?
 ## Revision
 
 Finish the code to create a new variable called `c` by summing the values of the `a` and `b` variables. Print the new variable.
-```cpp
+```php
 $a = 3;
 $b = 7;
 

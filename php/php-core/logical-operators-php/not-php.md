@@ -22,7 +22,7 @@ revisionQuestion:
 
 The `!` operator returns the inverse of the operand's boolean value. If the operand is true, it returns false, and vice versa.
 
-```cpp
+```php
 bool a = true;
 
 if(!a) {
@@ -39,7 +39,7 @@ if(!a) {
 
 Finish the code to output 'a is false'?
 
-```cpp
+```php
 $a = ???;
 
 if(???) { 
@@ -61,7 +61,7 @@ if(???) {
 
 What is the output of the following code?
 
-```cpp
+```php
 $a = true;
 
 if(!$a) {
