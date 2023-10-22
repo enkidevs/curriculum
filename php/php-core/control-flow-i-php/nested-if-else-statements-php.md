@@ -40,19 +40,9 @@ if($age >= 18){
 else{
   echo "You are not an adult.";
 }
+
+// Output: "You are an adult."
 ```
-
-In this example, the program first checks if `age` is greater than or equal to 18. 
-
-If true, it enters the next level of the `if` statement and checks if `age` is less than or equal to 60. 
-
-If true, it outputs `"You are an adult."` 
-
-If false, it outputs `"You are a senior."` 
-
-If the first `if` condition is false, it outputs `"You are not an adult."`.
-
-
 
 ---
 

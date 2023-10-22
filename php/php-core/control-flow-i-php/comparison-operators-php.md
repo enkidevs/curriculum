@@ -36,17 +36,6 @@ Here's a table of comparison operators you can use:
 | >=       | is greater than or equal to |
 
 ```php
-$num = 1;
-if ($num == 1) { // true
-  echo "num is $num";
-}
-// num is 1
-
-if ($num >= 1) { // true
-  echo "$num is greater than or equal to 1";
-}
-// 1 is greater than or equal to 1
-
 if ($num < 5) { // true
   echo "$num is less than 5";
 }
@@ -56,8 +45,6 @@ if ($num != 2) { // true
   echo "$num doesn't equal 2";
 }
 // 1 doesn't equal 2
-
-// ...
 ```
 
 
