@@ -13,7 +13,7 @@ category: discussion
 
 ## Content
 
-**PHP** is a general-purpose scripting language used by over 75% of websites.[1]
+**PHP** is a general-purpose scripting language used by over 75% of websites! [1]
 
 **PHP** code is executed on the server, and the plain HTML result is sent back to the client's browser.[2]
 
@@ -34,7 +34,7 @@ echo "Hello, world!";
 </html>
 ```
 
-> Do not worry if you do not understand the code, this is just an example to get you confortable with the syntax. We will dive deeper into it later on.
+> Don't worry if you do not understand the code, this is just an example to get you confortable with the syntax. We will dive deeper into it later on.
 
 
 > 💬 Why are you interested in **PHP**?
