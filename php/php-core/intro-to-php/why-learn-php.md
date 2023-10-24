@@ -15,9 +15,23 @@ category: must-know
 
 There are several reasons why learning **PHP** can be beneficial:
 
-- **PHP** has a straightforward learning curve, making it an excellent choice for beginners looking to step into back-end web development.
+- **PHP** is the primary language used in WordPress development, which powers over **40% of all websites**[1]
 - It is fully embedded within **HTML**, making it a great language for creating dynamic web pages.
 - **PHP** has extensive online documentation and a large community, making it easier to find help and resources.
-- It is widely used, and skills in **PHP** are often sought after for web development roles.
+- The average annual salary for a **PHP** developer is $90,000 dollars.[2]
 
-Overall, learning **PHP** can open up opportunities in web development and help you build dynamic and interactive web applications.
+---
+
+## Footnotes
+
+[1: Wordpress Usage]
+
+Wordpress is a content-management system(CMS) for people to build and publish websites.
+
+It is estimated to be used by [43% of all websites](https://w3techs.com/technologies/details/cm-wordpress)
+
+[2: PHP salary]
+
+Per Zippia, the estimated average PHP Developer Salary is [$91,010 as of October 2023](https://www.zippia.com/php-developer-jobs/salary/)
+
+
