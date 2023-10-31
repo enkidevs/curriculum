@@ -18,3 +18,23 @@ The function reads input **until it encounters a newline** character **or the en
 
 > An example of `io.read()` will be show in the next insight.
 
+--- 
+
+## Practice
+
+In Lua, the function `io.read()` **by default** is used to ???
+
+- Read input from the user
+- Writes to a file
+- Reads a file given by the user
+- Writes to a folder
+
+--- 
+
+## Revision
+
+When does `io.read()` stops reading input?
+
+- Both when a newline character or the end of the file is encountered.
+- Until a newline character is encountered
+- Until the function reaches the file

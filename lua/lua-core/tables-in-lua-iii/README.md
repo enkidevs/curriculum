@@ -12,4 +12,3 @@ insights:
   - sets-in-lua-i
   - sets-in-lua-ii
   - sets-in-lua-iii
-  - sets-in-lua-iv

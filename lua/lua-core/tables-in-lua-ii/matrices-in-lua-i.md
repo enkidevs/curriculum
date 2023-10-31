@@ -16,3 +16,14 @@ A matrix is a **two-dimensional array**, which can be used to *represent tables 
 Matrices are **commonly used in mathematical computations**, such as linear algebra, where they are used to represent vectors and transform matrices. 
 
 However, they can also be used for **other types of data**, such as *representing a grid of game board* positions in a game of chess or *representing pixel values* in an image.
+
+---
+
+## Practice
+
+A matrix is a ???
+
+- 2D array
+- 1D array
+- Table that holds boolean and arithmetic values
+- Another way of defining a simple array

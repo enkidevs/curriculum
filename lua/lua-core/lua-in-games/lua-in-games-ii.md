@@ -14,5 +14,5 @@ type: normal
 
 One example of the usefulness of Lua in a game can be seen in the **popular game World of Warcraft (WoW)**. Lua scripts are used extensively in World of Warcraft to **allow players to customize** their user interface, automate tasks, and create add-ons to enhance their gameplay experience.
 
-Players can write such scripts to tailor their game experience to their preferences, making it more enjoyable and efficient.
+Not only can developers use Lua to create games, but **players can write such scripts to tailor their game experience** to their preferences, making it more enjoyable and efficient!
 

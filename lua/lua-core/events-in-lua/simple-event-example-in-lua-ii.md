@@ -29,3 +29,39 @@ event:handler()
 When we call `event:handler()`, the handler function is executed, which executes the print statement.
 
 Events **can be used to trigger more complex behavior** such as *updating a user interface*, *playing a sound effect*, or *saving data* to a file.
+
+---
+
+## Practice
+
+Define function `pullback()` and trigger the event with an event called `slingshot`.
+
+```lua
+??? slingshot:???
+-- Code that describes what the function does
+end
+
+???:pullback()
+```
+
+- function
+- pullback()
+- slingshot
+
+---
+
+## Revision
+
+Define function `flying()` and trigger the event with an event called `plane`.
+
+```lua
+function ???:flying()
+-- Code that describes what the function does
+???
+
+plane:???
+```
+
+- plane
+- end
+- flying()

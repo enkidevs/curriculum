@@ -6,59 +6,50 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
 ---
 
-# Checking for a Set's Value
+# Iterating Values in Sets
 
 ---
 ## Content
 
-You can check if a value is in the set **by checking if the value exists as a key** in the table. For example:
+You can also use a `for` loop to iterate over the values in the set. Since the **values are not used as keys** in the table, you can use the `pairs` function to iterate over the table.
+
+Here's an example of iterating over the set:
+
 ```lua
-if my_set["apple"] then
-  print("The set contains apple")
-else
-  print("The set does not contain apple")
+for key, _ in pairs(my_set) do
+  print(key)
 end
 ```
-If `my_set["apple"]` does exist, it will **return true** and print the line below. If not, it will **return false** and print the alternate line.
+
+> Note that '_' after key indicates that only the keys matter in the code. Keys is usually in conjunction with `value` to get the value of the keys. E.g. `for key, value in pairs() do`
+
+Sets can be useful for checking for duplicates or keeping track of a collection of unique values.
 
 ---
 ## Practice
 
-In the code below, when will the output be "The set does not contain apple"? ??? 
+We can check if a value is a member of a set by using the ??? within a `pairs` function. 
 
-```lua
-if my_set["apple"] then
-  print("The set contains apple")
-else
-  print("The set does not contain apple")
-end
-```
-
-- When `apple` is not a key in my_set
-- When `apple` is a key in my_set
-- It will always be printed
-- It will only be printed when the first print statement executes
+- `in` operator 
+- `contains` function 
+- `has` function 
+- `find` function 
 
 ---
 
 ## Revision
 
-In the code below, when will the output be "The set contains apple"? ??? 
+Finish the code below such that the `pairs()` function will iterate over the set, "set", and print each key.
 
 ```lua
-if my_set["apple"] then
-  print("The set contains apple")
-else
-  print("The set does not contain apple")
+for key, _ in ???(???) do
+  print(key)
 end
 ```
-- When `apple` is a key in my_set
-- When `apple` is not a key in my_set
-- It will always be printed
-- It will only be printed when the first print statement executes
+- pairs
+- set
+- pair
+- sets
+

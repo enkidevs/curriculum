@@ -10,5 +10,4 @@ learnType: GROKKING
 insights:
   - what-are-events-in-lua-i
   - what-are-events-in-lua-ii
-  - what-are-events-in-lua-iii
   - flexible-event-system-in-lua

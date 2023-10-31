@@ -24,6 +24,7 @@ For example, you can create a variable named `my_variable` and assign it the val
 
 ```lua
 my_variable = 42
+-- Now, my_variable will hold the value of 42
 ```
 
 > In the next few insights, we'll be going over the basic data types you'll often work with.

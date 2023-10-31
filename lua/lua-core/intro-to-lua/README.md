@@ -9,6 +9,6 @@ learnType: GROKKING
 
 insights:
   - what-is-lua
-  - why-use-lua
+  - why-learn-lua
   - intro-code-lua
   - what-to-expect

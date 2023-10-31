@@ -27,9 +27,9 @@ print(my_array[1]) -- prints 1
 print(my_array[3]) -- prints 3
 ```
 
-> Note that **Lua does not use zero indexing** (start at 0) like other coding languages.
+> Reminder that **Lua does not use zero indexing** (start at 0) like other coding languages.
 
-Arrays in Lua can be useful for storing and manipulating data that is naturally indexed by integers, such as a sequence of user input or a collection of numerical data.
+Arrays in Lua can be **useful for storing and manipulating data that is naturally indexed by integers**, such as a sequence of user input or a collection of numerical data.
 
 ---
 

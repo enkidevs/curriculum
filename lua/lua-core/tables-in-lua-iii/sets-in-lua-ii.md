@@ -12,54 +12,53 @@ revisionQuestion:
   context: standalone
 ---
 
-# Creating Sets
+# Checking for a Set's Value
 
 ---
-
 ## Content
 
-To create a set in Lua, you can **create a table** and **use the values you want to add to the set as keys** in the table. The values of the keys do not matter and can be set to `true` for example.
-
-Here's an example of creating a set in Lua:
+You can check if a value is in the set **by checking if the value exists as a key** in the table. For example:
 ```lua
-my_set = {
-  ["apple"] = true,
-  ["banana"] = true,
-  ["orange"] = true
-}
+if my_set["apple"] then
+  print("The set contains apple")
+else
+  print("The set does not contain apple")
+end
 ```
+If `my_set["apple"]` does exist, it will **return true** and print the line below. If not, it will **return false** and print the alternate line.
 
 ---
-
 ## Practice
 
-True or false: The values of the keys DO matter when creating a set, and must be set to a specific value. 
+In the code below, when will the output be "The set does not contain apple"? ??? 
 
-???
+```lua
+if my_set["apple"] then
+  print("The set contains apple")
+else
+  print("The set does not contain apple")
+end
+```
 
-- false
-- true
+- When `apple` is not a key in my_set
+- When `apple` is a key in my_set
+- It will always be printed
+- It will only be printed when the first print statement executes
 
 ---
 
 ## Revision
 
-
-Finish the code below such that a set called `elements` is created with the following keys: `fire`, `earth`, `wind`.
+In the code below, when will the output be "The set contains apple"? ??? 
 
 ```lua
-??? = {
-  [???] = true, -- earth
-  [???] = true, -- wind
-  [???] = true -- fire
-}
+if my_set["apple"] then
+  print("The set contains apple")
+else
+  print("The set does not contain apple")
+end
 ```
-
-- "elements"
-- "earth"
-- "wind"
-- "fire"
-- earth
-- wind
-- fire
-
+- When `apple` is a key in my_set
+- When `apple` is not a key in my_set
+- It will always be printed
+- It will only be printed when the first print statement executes

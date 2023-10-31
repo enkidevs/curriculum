@@ -29,7 +29,7 @@ print("Hello, world!")
 In the coding segment:
 
 - The `--` is used to denote a **single line comment**. These often contain notes written by the author!
-- The `print("Hello, world!")` is used to **print the string**[2] "Hello, world!" in the terminal.
+- The `print("Hello, world!")` is used to **output the string**[2] "Hello, world!" to the terminal.
 
 
 ---

@@ -20,7 +20,7 @@ revisionQuestion:
 ---
 ## Content
 
-Another way of writing dictionaries involves removing the brackets of the keys:
+Another way of writing dictionaries involves **removing the brackets of the keys**:
 ```lua
 ages = {
   John = 28,
@@ -30,7 +30,7 @@ ages = {
 print(ages["Alice"]) -- prints 32
 ```
 
-In this example, `ages` is a map where the keys are strings representing names, and the values are integers representing ages. The `print` statement accesses the value associated with the key `"Alice"` in the `ages` map and prints it to the console.
+In this example, `ages` is a map where the **keys are strings representing names**, and the **values are integers representing ages**. The `print` statement accesses the value associated with the key `"Alice"` in the `ages` map and prints it to the console.
 
 ---
 ## Practice

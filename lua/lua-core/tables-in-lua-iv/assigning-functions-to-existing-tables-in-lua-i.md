@@ -20,7 +20,7 @@ revisionQuestion:
 ---
 ## Content
 
-Next to creating tables with functions as values we can also define new functions and add them to an existing table.
+Next to creating tables with functions as values we can also **define new functions** and **add them to an existing table in a single line of code**.
 
 Take a look at this example:
 ```lua
