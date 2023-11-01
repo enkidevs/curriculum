@@ -18,7 +18,7 @@ While you can develop games as a hobby or a fun way to make games for your frien
 
 So whether you're trying to get into the coding scene, start developing games as a hobby, or even look for job opportunities, Lua is perfect to add to your skills!
 
->💬 Why are you interested in Lua? What are your goals when learning Lua?
+>💬 Why are you interested in Lua? What are your goals when learning Lua? 
 >
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
