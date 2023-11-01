@@ -3,10 +3,12 @@ type: insights-list
 description: Types of JavaScript.
 insights:
   - types-introduction
-  - weak-vs-strict-equality-operator
-  - types-undefined-and-null
+  - dynamic-types-js
   - types-boolean-and-number
-  - the-difference-between-null-undefined-and-nan
+  - types-boolean-js
+  - types-number-js
+  - weak-vs-strict-equality-operator
+
 aspects:
   - workout
   - introduction
