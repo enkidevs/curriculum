@@ -32,24 +32,12 @@ In JavaScript, there are two ways to check if values equal each other.
 
 ### Weak Typing `==`
 
-The operator `==` coerces (converts) types before comparing the terms. Using `==` to compare two values will first force the values to have the same type before comparing them:
+The operator `==` coerces (converts) types before comparing the terms. Using `==` to compare two values will first force the values to have the same type before comparing them.
+
+For example, we can force `'2'` into a number before comparing:
 
 ```js
-// a number 2
-let x = 2; 
-
-// a string '2'
-let y = '2';
-
-// are equal when
-// using == because
-// they are both
-// first converted
-// to numbers before
-// comparing
-console.log(
-  x == y // true
-);
+console.log('2' == 2); // True
 ```
 
 > 💡 The **weak equality operator** (`==`) is also refered to as **loose** or **abstract**.
@@ -59,20 +47,7 @@ console.log(
 The strict equality operator `===` works as `==`, but without type coercion. Using `===` will require us to match both the type and the value:
 
 ```js
-// a number 2
-let x = 2; 
-
-// a string '2'
-let y = '2';
-
-// when using ===
-// any values that
-// have a different
-// type are always
-// not equal
-console.log(
-  x === y // false
-);
+console.log('2' === 2) // false
 ```
 
 Using `==` is generally considered bad practice as it could lead to bugs in the code. 

@@ -12,21 +12,16 @@ revisionQuestion:
   context: standalone
 ---
 
-# Basics I 
+# Variables
 
 
 ---
 
 ## Content
 
-Here we'll look at some fundamental syntax rules for JavaScript.
+The building blocks of Javascript are variables!
 
-
-### Variables
-
-Variables are used to store information - each holds a value with a specific name. 
-
-We can also change the value a variable holds, if needed:
+We can create and change the value a variable like so:
 
 ```javascript
 let firstName = "Enki";
@@ -40,7 +35,7 @@ const firstName = "Enki";
 firstName = "Changed"; // Error!
 ```
 
-The final (and the oldest) way of declaring a variable in JavaScript is using `var`:
+The final (and the oldest) way of declaring a variable in JavaScript is by using `var`:
 
 ```javascript
 var firstName = "Enki";
@@ -48,25 +43,6 @@ firstName = "Changed"; // this works
 ```
 
 We'll learn more about the differences between `let`, `const`, and `var` later on.
-
-
-### Case Sensitivity
-
-Everything in JavaScript is case sensitive.
-
-```js
-let password;
-// Is not the same as
-let pasSword;
-// or
-let PASSWORD;
-```
-
-
-### Keywords
-
-Like most languages, there are a number of reserved words in JavaScript that you cannot use to name your functions and variables (e.g. `var`, `let`, `new`).
-
 
 > 💡 If you're unsure what a variable is, check out the [variables lesson](https://app.enki.com/insights/programs-and-data) in our [Coding Intro](https://app.enki.com/skill/coding-intro) topic.
 

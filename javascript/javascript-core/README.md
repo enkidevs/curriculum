@@ -7,7 +7,9 @@ core: true
 sections:
   '0':
     - intro-js
+    - js-basics
     - types
+    - none-types-js
     - flow-control
     - weekend-and-weekday-switch-exercise
     - functions-i
