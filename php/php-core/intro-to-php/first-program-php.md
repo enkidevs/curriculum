@@ -23,12 +23,12 @@ revisionQuestion:
 
 Ready for some code?
 
-It's time to create our first program! Let's create a `"Hello, World!"` one.
+It's time to create our first program!
 
 `"Hello, World!"` is a simple program that prints the text `"Hello, World!"` to the screen. It is often used as a starting point when learning a new programming language.
 
 In **PHP**, you can print text to the screen using the `echo` method. Here is an example:
-```php
+```html
 <?php
 echo "Hello, World!";
 ?>
@@ -37,7 +37,7 @@ echo "Hello, World!";
 ```
 
 Once you have PHP installed[1], you can save your program to a script file with the `.php` extension, for instance `hello.php` and run it using this command:
-```php
+```bash
 php hello.php
 ```
 

@@ -4,14 +4,6 @@ tags:
   - introduction
 type: normal
 category: must-know
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
 ---
 
 # OR (||, or) operator
@@ -40,44 +32,3 @@ if($a or $b) {
 Just like the `and` and `&&` operators, `or` and `||` have different precedence. The `||` operator has a higher precedence than `or`.
 
 ---
-
-## Practice
-
-What is the output of the following code?
-
-```php
-$a = false;
-$b = false;
-
-if($a || $b) {
-  echo "At least one of a or b is true.";
-} else {
-  echo "Both a and b are false.";
-}
-// Output: ???
-
-```
-
-- "Either a, b or both a and b are true."
-- "Both a and b is false."
-
----
-
-## Revision
-
-What is the output of the following code?
-
-```php
-$a = true;
-$b = false;
-
-if($a || $b) {
-  echo "At least one of a or b is true.";
-} else {
-  echo "Both a and b are false.";
-}
-// Output: ???
-```
-
-- "Both a and b is false."
-- "Either a, b or both a and b are true."

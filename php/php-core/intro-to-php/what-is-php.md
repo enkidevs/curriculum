@@ -19,7 +19,7 @@ category: discussion
 
 A unique feature of **PHP** is that it can be embedded directly within HTML:
 
-```php
+```html
 <!DOCTYPE html>
 <html>
 <body>
