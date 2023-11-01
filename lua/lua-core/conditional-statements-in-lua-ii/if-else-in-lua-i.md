@@ -43,9 +43,9 @@ Complete the format for an `if-else` statement in the code below:
 
 ```lua
 ??? condition ???
-   -- code to execute if condition is true
+   -- Code to execute if condition is true
 ???
-   -- code to execute if condition is false
+   -- Code to execute if condition is false
 ???
 ```
 - if
