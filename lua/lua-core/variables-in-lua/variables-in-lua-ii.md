@@ -18,7 +18,7 @@ revisionQuestion:
 ---
 ## Content
 
-To create a variable, you **use an assignment statement**, which sets the variable to a specific value. 
+To create a variable, you use **an assignment statement**, which sets the variable to a specific value. 
 
 For example, you can create a variable named `my_variable` and assign it the value `42` like this:
 

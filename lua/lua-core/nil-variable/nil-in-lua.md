@@ -43,11 +43,13 @@ What value is assigned to a variable that has not been initialized?
 ---
 ## Revision
 
-What value is assigned to a variable that has not been initialized?
+Set the following variable `past_results` to nil.
 
-???
+```lua
+??? ??? ???
+```
 
-- `nil`
-- `false`
-- `0`
-- `undefined`
+- past_results
+- = 
+- nil
+- nothing

@@ -13,4 +13,3 @@ insights:
   - hello-world-in-wow-i
   - hello-world-in-wow-ii
   - hello-world-in-wow-iii
-  - hello-world-in-wow-iv

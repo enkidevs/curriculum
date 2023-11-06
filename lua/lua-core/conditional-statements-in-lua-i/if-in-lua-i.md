@@ -66,6 +66,6 @@ end
 [1: If Statement Example]
 ```lua
 if x != 5 then
-   -- code executs when variable `x` does not equal 5
+   -- code executes when variable `x` does not equal 5
 end
 ```

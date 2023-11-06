@@ -18,14 +18,14 @@ revisionQuestion:
 ---
 ## Content
 
-These are the greater and less Operators:
+These are the **greater** and **less** Operators:
 
 |           Name           | Sign |
 |:------------------------:|:----:|
 |         less than        |   <  |
 |       greater than       |   >  |
 
-They compare whether one value is greater than or less than the other value.
+They compare whether **one value is greater than or less** than the other value.
 
 Here's an example of using these operators:
 ```lua

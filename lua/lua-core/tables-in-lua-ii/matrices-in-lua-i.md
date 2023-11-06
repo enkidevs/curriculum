@@ -27,3 +27,12 @@ A matrix is a ???
 - 1D array
 - Table that holds boolean and arithmetic values
 - Another way of defining a simple array
+
+---
+
+## Revision
+
+A matrix can represent data using rows and collumns. True or false? ???
+
+- true
+- false

@@ -6,7 +6,7 @@ type: normal
 
 ---
 
-# Hello World in World of Warcraft
+# Hello World in World of Warcraft V
 
 ---
 ## Content

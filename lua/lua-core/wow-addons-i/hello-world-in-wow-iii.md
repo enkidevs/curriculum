@@ -6,13 +6,15 @@ type: normal
 
 ---
 
-# Hello World in World of Warcraft
+# Hello World in World of Warcraft III
 
 ---
 ## Content
 
-Each game version requires a different `interface` value that you can find by lauching the game and typing this command in chat:
+You **can set anything you want for the title, notes and author**, but its **best to set** the actual title, a note about what the addon does and who made it.
 
-```lua
-/run print((select(4, GetBuildInfo())))
-```
+It will return only the interface value which we will use in our `.toc` file.
+
+As for the name at the end of the file (`HelloWorld.lua`), it should be the same as your `.lua` file.
+
+Let's fill in the `.lua` file next

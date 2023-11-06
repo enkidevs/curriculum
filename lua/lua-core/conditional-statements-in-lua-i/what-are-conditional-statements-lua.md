@@ -17,3 +17,18 @@ The most common types of conditional statements in Lua are the `if` statement, t
 Think of these as **an option 1 and option 2**. If a condition is fulfilled, go with option 1. Otherwise, go with option 2. 
 
 > This idea can be expanded to more than 2 options and conditions!
+
+--- 
+
+## Practice
+
+In which of the following scenarious would you employ a conditional statement?
+1. Writing a value
+2. Moving a Value
+3. Checking a value
+4. Setting a constant
+
+- 3
+- 1
+- 2
+- 4

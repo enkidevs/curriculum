@@ -19,14 +19,14 @@ revisionQuestion:
 ## Content
 
 
-These are operators that combine the Equal operator with the Greater/Less operators,
+These are operators that **combine** the **Equal operator with the Greater/Less operators**:
 
 |           Name           | Sign |
 |:------------------------:|:----:|
 |   less than or equal to  |  <=  |
 | greater than or equal to |  >=  |
 
-Unlike the Less/Greater than operators, these operators will also check for whether the two values are also equal to each other.
+Unlike the Less/Greater than operators, these operators will **also check for whether the two values are also equal** to each other.
 
 Here are some examples.
 
@@ -54,7 +54,7 @@ second = (a <= b)
 third = (c >= b) 
 ```
 
-`First` equals ???, `Second` equals ???, `Third` equals ???
+`first` equals ???, `second` equals ???, `third` equals ???
 
 - `false`
 - `true`
@@ -73,7 +73,7 @@ second = (b < c)
 third = (c <= b) 
 ```
 
-`First` equals ???, `Second` equals ???, `Third` equals ???
+`first` equals ???, `second` equals ???, `third` equals ???
 
 - `false`
 - `false`

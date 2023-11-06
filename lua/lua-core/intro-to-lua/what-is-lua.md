@@ -12,7 +12,7 @@ type: normal
 
 Lua is a perfect coding language for beginners and veterans alike. Why so?
 
-Aside from being a beginner coding language, Lua is regarded as **one of the best languages for game development** and is **supported by many popular game engines** such as **Unity and Unreal Engine**!
+Aside from being a beginner coding language, Lua is regarded as **one of the best languages for game development** and is **supported by popular game engines** such as **Unity and Unreal Engine**!
 
 While you can develop games as a hobby or a fun way to make games for your friends, Lua can **provide job opportunities as well**! For instance, Roblox in the first two quarters of 2023 has paid out **$350 million to community developers!**
 

@@ -69,10 +69,10 @@ elseif
 end
 ```
 
-- 2
-- 1
-- 3
-- 4
+- 2 (the else and elseif)
+- 1 (only the else)
+- 3 (the if, else, and elseif)
+- 4 (the if, else, elseif, and end)
 
 ---
 

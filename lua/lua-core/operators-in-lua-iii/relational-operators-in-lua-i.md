@@ -28,7 +28,7 @@ These are the Equal and Not-Equal Operators in Lua:
 |         equal to         |  ==  |
 |       not equal to       |  ~=  |
 
-They compare whether the two values are equal to each other or not.
+They compare whether the **two values are equal** to each other or not.
 
 Here's an example of using these operators:
 ```lua

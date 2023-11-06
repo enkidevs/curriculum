@@ -27,3 +27,14 @@ An array is a collection of elements of ???
 - Only arithithmetic and boolean data types
 - Only arithmetic data types
 - Only boolean data types
+
+---
+
+## Revision
+
+An array can be initialized by initializing ??? or by assigning ???.
+
+- A table with a sequence of values
+- Values to specific indices
+- A table
+- Multiple Values
