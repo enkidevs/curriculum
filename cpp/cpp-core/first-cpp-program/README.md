@@ -1,4 +1,4 @@
-name: Setting up C++
+name: zzzzzzzzzzzzzzzzzzzzzzzz up C++
 
 description: Make your first C++ Program
 
