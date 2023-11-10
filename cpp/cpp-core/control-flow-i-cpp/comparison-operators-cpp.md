@@ -21,7 +21,7 @@ revisionQuestion:
 ## Content
 
 
-**C++** includes all the standard comparison operators you would expect:
+**C++** includes all the standard comparison operators you woulssd expect:
 
 | Operator |             Name            |
 |----------|-----------------------------|
