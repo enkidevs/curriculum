@@ -54,7 +54,7 @@ end
 - `5, 7`
 - `5 + 7`
 - `function`
-- subtraction
+- `subtraction`
 
 
 ---

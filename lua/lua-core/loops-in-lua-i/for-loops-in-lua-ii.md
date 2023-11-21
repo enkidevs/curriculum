@@ -62,6 +62,6 @@ Finish the code to output 1-10 using a `for` loop:
 end
 ```
 
-- for
-- 10
-- do
+- `for`
+- `10`
+- `do`

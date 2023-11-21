@@ -53,7 +53,7 @@ Create a boolean variable called `my_boolean` and set it to `true`.
 ??? = ???
 ```
 
-- my_boolean
-- true
-- false
+- `my_boolean`
+- `true`
+- `false`
 

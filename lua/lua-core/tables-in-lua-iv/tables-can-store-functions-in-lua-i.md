@@ -66,10 +66,10 @@ my_table = {
 
 ???
 
-- A)
+- D)
 - B)
 - C)
-- D)
+- A)
 
 ---
 ## Revision
@@ -83,7 +83,7 @@ Fill in the code to create a table called `my_table` that has a function assigne
 }
 ```
 
-- my_table
-- increment
-- function
-- end
+- `my_table`
+- `increment`
+- `function`
+- `end`

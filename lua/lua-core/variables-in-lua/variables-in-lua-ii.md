@@ -38,10 +38,10 @@ Create a variable called `age` and assign the value `30` to it:
 age ??? ???
 ```
 
-- =
-- 30
-- is
-- 300
+- `=`
+- `30`
+- `is`
+- `300`
 
 ---
 ## Revision
@@ -52,8 +52,8 @@ Create a variable called `age` and assign the value `50` to it:
 ??? ??? ???
 ```
 
-- age
-- =
-- 50
-- 30
-- ==
+- `age`
+- `=`
+- `50`
+- `30`
+- `==`

@@ -46,10 +46,10 @@ print(result)
 
 ???
 
-- `12`
-- `3 * 4`
-- `multiply(3, 4)`
-- `function multiply(a, b)`
+- 12
+- 3 * 4
+- multiply(3, 4)
+- function multiply(a, b)
 
 
 ---

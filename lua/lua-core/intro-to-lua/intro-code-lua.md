@@ -43,10 +43,10 @@ Finish the code below to print out "Hello world!" to the terminal.
 -- Hello, world!
 ```
 
-- print
-- Print
-- terminal
-- Terminal
+- `print`
+- `Print`
+- `terminal`
+- `Terminal`
 
 ---
 

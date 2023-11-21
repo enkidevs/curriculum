@@ -6,6 +6,10 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # More Data Types in Lua
@@ -31,3 +35,14 @@ Maps/Dictionaries, Sets, Arrays, and Matrices are all a type of ???
 - Variable
 - Boolean
 - Arithmetics
+
+---
+
+## Revision
+
+Which of the following data types are NOT a type of table?
+
+- String
+- Sets
+- Arrays
+- Matrices

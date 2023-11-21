@@ -59,11 +59,11 @@ Finish the code to iterate over a dictionary called `people` and print out each 
 end
 ```
 
-- people
-- for
-- key
-- people
-- value
+- `people`
+- `for`
+- `key`
+- `people`
+- `value`
 
 ---
 ## Revision
@@ -81,8 +81,8 @@ Finish the code to iterate over a dictionary called `fruits` and print out each 
 end
 ```
 
-- fruits
-- for
-- key
-- fruits
-- value
+- `fruits`
+- `for`
+- `key`
+- `fruits`
+- `value`

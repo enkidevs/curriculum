@@ -45,10 +45,10 @@ Call the `move_forward_one` function that is found in the `chess` table in the c
 return ???.???(pawn)
 ```
 
-- chess
-- move_forward_one
-- chess_table
-- move_forward_one_function
+- `chess`
+- `move_forward_one`
+- `chess_table`
+- `move_forward_one_function`
 
 ---
 
@@ -60,7 +60,7 @@ Call the `move_diagonal_inf` function that is found in the `chess` table in the 
 return ???.???(bishop)
 ```
 
-- chess
-- move_diagonal_inf
-- chess_table
-- move_diagonal_inf_function
+- `chess`
+- `move_diagonal_inf`
+- `chess_table`
+- `move_diagonal_inf_function`

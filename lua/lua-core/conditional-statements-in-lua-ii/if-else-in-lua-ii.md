@@ -73,6 +73,7 @@ end
 
 It will ???.
 
-- output "You are not an adult"
-- output "You are an adult"
-- do nothing
+- Output "You are not an adult"
+- Output "You are an adult"
+- Do nothing
+- Print an error

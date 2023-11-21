@@ -67,9 +67,9 @@ then
    -- code to execute if condition is false
 finish
 ```
-- 3
-- 2
-- 1
+- 3 (`else`, `then`, `finish`)
+- 2 (`else`, `then`)
+- 1 (`finish`)
 - 0, it looks good
 
 --- 

@@ -57,6 +57,6 @@ end
 
 It will ???.
 
-- output "The number is positive"
-- error due to bad syntax
-- do nothing
+- Output "The number is positive"
+- Error due to bad syntax
+- Do nothing

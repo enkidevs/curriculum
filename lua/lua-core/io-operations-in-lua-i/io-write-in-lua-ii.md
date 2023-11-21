@@ -6,6 +6,10 @@ practiceQuestion:
   formats:
     - fill-in-the-gap
   context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # IO Write Default Settings
@@ -27,3 +31,14 @@ By default, where does `io.write()` write statements to? ???
 - A file
 - A folder
 - A file on your desktop
+
+---
+
+## Revision
+
+What is one important thing to keep in mind when using `io.write()`? ???
+
+- It does not add a newline character automatically
+- It requires a password to use
+- Only some IDEs can use this function
+- This function must be indented

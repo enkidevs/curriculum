@@ -71,10 +71,10 @@ dogs = {
 ??? = ???
 ```
 
-- dogs.Simba
-- nil
-- dogs.Simba
-- 17
+- `dogs.Simba`
+- `nil`
+- `dogs.Simba`
+- `17`
 
 ---
 

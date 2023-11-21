@@ -45,10 +45,10 @@ while ??? do
   -- code to be executed while condition is true
 end
 ```
-- x
-- x = true
-- x is true
-- x != true
+- `x`
+- `x = true`
+- `x is true`
+- `x ~= true`
 
 ---
 
@@ -64,7 +64,7 @@ while ??? do
 end
 ```
 
-- x < 6
-- x = x + 1
-- x + 1
-- x + 5 
+- `x < 6`
+- `x = x + 1`
+- `x + 1`
+- `x + 5`

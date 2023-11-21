@@ -38,26 +38,26 @@ if ??? then
 end
 ```
 
-- y == true
-- [y = true]
-- y is true
-- y = true
+- `y == true`
+- `[y = true]`
+- `y is true`
+- `y = true`
 
 ---
 
 ## Revision
 
-Create an `if` statement using `x != 7` as the condition:
+Create an `if` statement using `x ~= 7` as the condition:
 ```lua
 if ??? then
    -- code to execute
 end
 ```
 
-- x != 7
+- x ~= 7
 - x = 7
 - x not 7
-- [x != 7]
+- [x ~= 7]
 
 ---
 
@@ -65,7 +65,7 @@ end
 
 [1: If Statement Example]
 ```lua
-if x != 5 then
+if x ~= 5 then
    -- code executes when variable `x` does not equal 5
 end
 ```

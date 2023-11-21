@@ -49,7 +49,7 @@ Set the following variable `past_results` to nil.
 ??? ??? ???
 ```
 
-- past_results
-- = 
-- nil
-- nothing
+- `past_results`
+- `=`
+- `nil`
+- `nothing`

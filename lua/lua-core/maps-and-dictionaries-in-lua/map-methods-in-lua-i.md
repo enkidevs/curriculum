@@ -65,11 +65,11 @@ profession = {
 
 ```
 
-- profession
-- Samuel
-- "Doctor"
-- key
-- Doctor
+- `profession`
+- `Samuel`
+- `"Doctor"`
+- `key`
+- `Doctor`
 
 ---
 ## Revision
@@ -87,9 +87,9 @@ ages = {
 ???["???"] = ???
 ```
 
-- ages
-- Alex
-- 32
-- ages
-- Jill
-- 27
+- `ages`
+- `Alex`
+- `32`
+- `ages`
+- `Jill`
+- `27`

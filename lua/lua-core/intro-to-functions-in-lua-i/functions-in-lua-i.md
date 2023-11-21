@@ -2,7 +2,10 @@
 author: Stefan-Stojanovic
 category: must-know
 type: normal
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Intro to Functions in Lua
@@ -20,3 +23,13 @@ To help you understand, functions are like specialized doctors in a hospital. Wh
 ![function-analogy](https://img.enkipro.com/e23e17a9a9e160fc357302847a8a1135.png)
 
 ---
+
+## Practice
+
+Why do programmers use functions? ???
+
+- All available options are correct
+- Organize code
+- Reuse code
+- Make programs modular
+

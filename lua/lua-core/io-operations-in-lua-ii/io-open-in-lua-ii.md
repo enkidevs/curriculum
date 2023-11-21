@@ -54,11 +54,11 @@ io.???(???, "Hello, world!\n")
 file:???
 ```
 
-- open
-- r
-- write
-- file
-- close()
+- `open`
+- `r`
+- `write`
+- `file`
+- `close()`
 
 
 ---
@@ -77,8 +77,8 @@ io.???(???, "Hello, world!\n")
 file:???
 ```
 
-- open
-- r
-- write
-- file
-- close()
+- `open`
+- `r`
+- `write`
+- `file`
+- `close()`

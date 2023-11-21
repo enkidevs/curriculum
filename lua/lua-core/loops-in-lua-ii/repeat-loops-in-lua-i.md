@@ -82,7 +82,7 @@ i = 1
 ??? ??? > ???
 ```
 
-- repeat
-- until
-- i 
-- 5
+- `repeat`
+- `until`
+- `i` 
+- `5`

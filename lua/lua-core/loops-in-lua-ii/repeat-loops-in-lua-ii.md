@@ -50,7 +50,7 @@ until guess == "7"
 Finish the loop that asks a user for their guess:
 
 ```lua
--- initialize a variable to keep track of the user's input
+-- initialize a variable called guess to keep track of the user's input
 ??? = ""
 
 -- keep prompting the user for their guess until they get it right
@@ -70,14 +70,14 @@ Finish the loop that asks a user for their guess:
 ??? guess == "9"
 ```
 
-- guess
-- repeat
-- guess
-- guess
-- until
-- end
-- while
-- do
+- `guess`
+- `repeat`
+- `guess`
+- `guess`
+- `until`
+- `end`
+- `while`
+- `do`
 
 ---
 

@@ -57,7 +57,7 @@ Finish the code to create a function called `departure` that outputs "Leaving No
 
 - `function`
 - `departure`
-- "Leaving Now!"
+- `"Leaving Now!"`
 - `end`
 - `endFunction`
 - `define`

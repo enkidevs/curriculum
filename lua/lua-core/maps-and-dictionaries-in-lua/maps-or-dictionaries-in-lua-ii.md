@@ -46,11 +46,11 @@ print(storage["???"])
 -- Furniture
 ```
 
-- storage
-- firstFloor
-- Furniture
-- secondFloor
-- thirdFloor
+- `storage`
+- `firstFloor`
+- `Furniture`
+- `secondFloor`
+- `thirdFloor`
 
 ---
 
@@ -67,7 +67,7 @@ print(animals["???"])
 -- Lion
 ```
 
-- animals
-- Simba
-- animal
-- Lion
+- `animals`
+- `Simba`
+- `animal`
+- `Lion`

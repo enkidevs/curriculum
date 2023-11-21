@@ -52,9 +52,9 @@ end
 ???:pullback()
 ```
 
-- function
-- pullback()
-- slingshot
+- `function`
+- `pullback()`
+- `slingshot`
 
 ---
 
@@ -70,6 +70,6 @@ function ???:flying()
 plane:???
 ```
 
-- plane
-- end
-- flying()
+- `plane`
+- `end`
+- `flying()`

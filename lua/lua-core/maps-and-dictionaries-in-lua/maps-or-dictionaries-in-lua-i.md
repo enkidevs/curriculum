@@ -51,10 +51,10 @@ print(???["???"])
 -- 25
 ```
 
-- people
-- people
-- Alice
-- John
+- `people`
+- `people`
+- `Alice`
+- `John`
 
 
 ---
@@ -71,7 +71,7 @@ print(???["???"])
 -- 25
 ```
 
-- people
-- people
-- Alice
-- John
+- `people`
+- `people`
+- `Alice`
+- `John`
