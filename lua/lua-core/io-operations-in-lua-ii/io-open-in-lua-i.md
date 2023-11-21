@@ -2,7 +2,14 @@
 author: Stefan-Stojanovic
 category: must-know
 type: normal
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # I/O Open & Close I
@@ -29,16 +36,18 @@ Which of these modes cannot be used as an argument to open a file? ???
 -- mode s
 ```
 
-- Mode S
-- Mode R
-- Mode W
-- Mode A
+- Mode s
+- Mode r
+- Mode w
+- Mode a
+
+---
 
 ## Revision
 
 By default, if the mode is not specificed for the `io.function()`, then the mode is set to ???
 
-- Mode R
-- Mode W
-- Mode A
-- Mode S
+- Mode r
+- Mode w
+- Mode a
+- Mode s

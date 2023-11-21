@@ -2,7 +2,6 @@
 author: Stefan-Stojanovic
 category: must-know
 type: normal
-
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -32,6 +31,7 @@ print("You entered: " .. message) -- Prints user input after a string.
 > `io.read()` returns a string, so if you want to read in other types of data (like numbers), you'll need to convert the input string to the appropriate type.
 
 ---
+
 ## Practice
 
 Finish the code to make it correct:
@@ -48,6 +48,7 @@ print("You entered: " .. message)
 - `input.read()`
 
 ---
+
 ## Revision
 
 Finish the sentence:
