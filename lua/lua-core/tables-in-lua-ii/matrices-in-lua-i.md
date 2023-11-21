@@ -39,7 +39,7 @@ A matrix is a ???
 
 ## Revision
 
-A matrix can represent data using rows and collumns. True or false? ???
+A matrix can represent data using rows and columns. True or false? ???
 
 - true
 - false

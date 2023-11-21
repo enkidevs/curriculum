@@ -32,7 +32,7 @@ my_variable = 42
 ---
 ## Practice
 
-Create a variable called `age` and assign te value `30` to it:
+Create a variable called `age` and assign the value `30` to it:
 
 ```lua
 age ??? ???
@@ -46,7 +46,7 @@ age ??? ???
 ---
 ## Revision
 
-Create a variable called `age` and assign te value `50` to it:
+Create a variable called `age` and assign the value `50` to it:
 
 ```lua
 ??? ??? ???

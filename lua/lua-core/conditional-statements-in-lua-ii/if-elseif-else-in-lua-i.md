@@ -27,7 +27,7 @@ if condition then
 elseif condition2 then
    -- code to execute if condition2 is true
 else
-   -- code to execute if neither conditions are true
+   -- code to execute if neither conditions is true
 end
 ```
 
@@ -88,6 +88,6 @@ elseif discount == false then
    print("No discount applied!")
    -- code to execute if there isn't a discount
 else
-   -- code to execute if an error occurs (discount is neither true or false)
+   -- code to execute if an error occurs (discount is neither true nor false)
 end
 ```

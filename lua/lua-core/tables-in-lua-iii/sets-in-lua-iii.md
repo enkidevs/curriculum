@@ -27,7 +27,7 @@ for key, _ in pairs(my_set) do
 end
 ```
 
-> Note that '_' after key indicates that only the keys matter in the code. Keys is usually in conjunction with `value` to get the value of the keys. E.g. `for key, value in pairs() do`
+> Note that '_' after key indicates that only the keys matter in the code. Keys are usually in conjunction with `value` to get the value of the keys. E.g. `for key, value in pairs() do`
 
 Sets can be useful for checking for duplicates or keeping track of a collection of unique values.
 

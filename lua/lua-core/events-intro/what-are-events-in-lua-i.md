@@ -39,7 +39,7 @@ An event is a ???
 
 ## Revision
 
-Which of these events could act as a signal for something that has occured? ???
+Which of these events could act as a signal for something that has occurred? ???
 
 Option A: initializing a variable
 Option B: when a variable equals a specific integer

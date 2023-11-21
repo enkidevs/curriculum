@@ -56,7 +56,7 @@ Which of the following statements is true about using the dot notation in Lua to
 ---
 ## Revision
 
-Using dot notation, remove the first key of the given dicitonary and add a new key with the same name with a value of 17:
+Using dot notation, remove the first key of the given dictionary and add a new key with the same name with a value of 17:
 ```lua
 dogs = {
   Simba = 14,

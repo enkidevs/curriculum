@@ -24,7 +24,7 @@ Here's an example of creating a table in Lua:
 ```lua
 my_table = {1, 2, 3, 4, 5}
 ```
-A *table in the above form*, can also be refered to as an **Array**. 
+A *table in the above form*, can also be referred to as an **Array**. 
 
 > More on arrays in the next few insights.
 
@@ -32,7 +32,7 @@ A *table in the above form*, can also be refered to as an **Array**.
 
 ## Practice
 
-Complete the code below to iniitalize a table in Lua:
+Complete the code below to initialize a table in Lua:
 
 ```lua
 number_joke = ??? 7, 8, 9 ???

@@ -21,7 +21,7 @@ revisionQuestion:
 
 Previously, we've established that `if` statements execute code based on conditions. 
 
-Now we introduce `if-else` statements, used to execute more than one code blocks based on certain conditions. In other words, we're providing code to be executed if a condition is not met!
+Now we introduce `if-else` statements, used to execute more than one code block based on certain conditions. In other words, we're providing code to be executed if a condition is not met!
 
 The basic syntax for an `if-else` statement uses `if` and `else` as keywords.
 

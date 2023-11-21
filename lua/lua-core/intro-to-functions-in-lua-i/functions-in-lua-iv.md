@@ -19,13 +19,13 @@ revisionQuestion:
 
 ## Content
 
-To call a function from other parts of your code, you type the **function's name followed by a set of parentheses**. For instance, if you want to call function `greetings`:
+To call a function from other parts of your code, you type the **function's name followed by a set of parentheses**. For instance, if you want to call the function `greetings`:
 
 ```lua
 greetings()
 ```
 
-To call a function that requires paramaters, you must **call the function as usual** and **insert the paramater values in the parentheses**. For example, if you wanted to add the numbers `2` and `3`, you could call the `add_numbers` function like this:
+To call a function that requires parameters, you must **call the function, as usual,** and **insert the parameter values in the parentheses**. For example, if you wanted to add the numbers `2` and `3`, you could call the `add_numbers` function like this:
 
 ```lua
 add_numbers(2, 3)

@@ -32,7 +32,7 @@ my_other_array = {[1] = 10, [2] = 20, [3] = 30}
 
 ## Practice
 
-Which of the following is a correct way to create an array in Lua?
+Which of the following is the correct way to create an array in Lua?
 
 ```lua
 -- a) 
@@ -52,7 +52,7 @@ my_array = {1; 2; 3; 4; 5}
 ---
 ## Revision
 
-Which of the following is a correct way to create an array in Lua?
+Which of the following is the correct way to create an array in Lua?
 
 ```lua
 -- a) 

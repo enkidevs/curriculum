@@ -45,7 +45,7 @@ Which of these modes cannot be used as an argument to open a file? ???
 
 ## Revision
 
-By default, if the mode is not specificed for the `io.function()`, then the mode is set to ???
+By default, if the mode is not specified for the `io.function()`, then the mode is set to ???
 
 - Mode r
 - Mode w

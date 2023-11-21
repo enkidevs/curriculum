@@ -13,12 +13,12 @@ revisionQuestion:
 
 ---
 
-# Modulo and Exponentation
+# Modulo and Exponentiation
 
 ---
 ## Content
 
-The arithmetic operators for Modulo[1] and Exponentation in Lua are:
+The arithmetic operators for Modulo[1] and Exponentiation in Lua are:
 
 |      Name      | Sign |
 |:--------------:|:----:|
@@ -80,7 +80,7 @@ The Modulo Operation returns the remainder of a division.
 
 [2: Standard Order of Operation]
 
-The standard order of operations is refered to as PEMDAS or BODMAS.
+The standard order of operations is referred to as PEMDAS or BODMAS.
 
 PEMDAS stands for parentheses, exponents, multiplication, division, addition, subtraction
 

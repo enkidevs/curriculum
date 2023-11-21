@@ -103,8 +103,8 @@ until guess == "7"
 
 Which of these options is **NOT** true about this code?
 
-- will end when users guesses wrong
+- will end when users guess wrong
 - keep prompting the user for their guess until they get it right
 - prompt the user for their guess
-- it reads user's guess
-- check if the users guess is correct
+- it reads the user's guess
+- check if the user guess is correct

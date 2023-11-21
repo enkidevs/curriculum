@@ -57,7 +57,7 @@ c = (true or false)
 ```
 
 - false
-- truse
+- true
 - "true"
 - "false"
 

@@ -60,7 +60,7 @@ end
 
 ## Revision
 
-Define function `flying()` and trigger the event with an event called `plane`.
+Define the function `flying()` and trigger the event with an event called `plane`.
 
 ```lua
 function ???:flying()

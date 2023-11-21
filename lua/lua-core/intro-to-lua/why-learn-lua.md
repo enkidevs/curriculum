@@ -11,7 +11,7 @@ type: normal
 
 Lua is a **lightweight, fast, and versatile** programming language used in various aspects of coding. 
 
-While it may not be the most popular, Lua is perfect for beginners! Some of Lua's features includes:
+While it may not be the most popular, Lua is perfect for beginners! Some of Lua's features include:
 
 **Simplicity**: Lua uses a simple and consistent syntax!
 

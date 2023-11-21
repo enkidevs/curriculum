@@ -23,4 +23,4 @@ As for text editors, there are many options to choose from, including **Sublime 
 
 [1: IDE]
 
-Stands for integrated development environment. It creates an environment developing code.
+Stands for integrated development environment. It creates an environment for developing code.

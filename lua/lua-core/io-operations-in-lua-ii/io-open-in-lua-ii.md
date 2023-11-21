@@ -20,7 +20,7 @@ revisionQuestion:
 ---
 ## Content
 
-Once a file has been opened, we can perform various operations on the it, such as reading or writing data. 
+Once a file has been opened, we can perform various operations such as reading or writing data. 
 
 > It's important to **remember to close the file** once you're done with it to free up system resources. This can be done using the `file:close()` method, where `file` is the file handle.
 

@@ -39,7 +39,7 @@ end
 -- John	28
 ```
 
-**Note**: The order at which we get the key-value pairs will not be the same every time. 
+**Note**: The order in which we get the key-value pairs will not be the same every time. 
 
 This is because the `pairs` function in Lua **iterates over the key-value pairs** in a table in an **arbitrary order**. This means that the order in which the `for` loop iterates over the key-value pairs **may vary each time you run** the program.
 

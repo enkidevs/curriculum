@@ -37,7 +37,7 @@ The `" "` in between the two strings is also concatenated, resulting in the outp
 
 ## Practice
 
-Finish the code to concatenate the `"Hello"` and `"world"` strings. Also concatenate a space between the two words.
+Finish the code to concatenate the `"Hello"` and `"world"` strings. Also, concatenate a space between the two words.
 ```lua
 str1 = "Hello"
 str2 = "world"

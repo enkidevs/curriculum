@@ -17,7 +17,7 @@ revisionQuestion:
 ---
 ## Content
 
-As mentioned previously, `repeat` loops **allows code to be repeated until a specific condition is met**. What makes repeat loops special is that this **special condition is checked at the end of every loop**.
+As mentioned previously, `repeat` loops **allow code to be repeated until a specific condition is met**. What makes repeat loops special is that this **special condition is checked at the end of every loop**.
 
 > This means that the **code inside a `repeat` loop is executed at least once. no matter the initial condition**. 
 

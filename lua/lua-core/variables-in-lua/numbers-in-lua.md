@@ -24,7 +24,7 @@ revisionQuestion:
 
 Using variables, you can perform a wide variety of mathematical operations with them.
 
-Here's an example of creating integer and float variable:
+Here's an example of creating an integer and float variable:
 
 ```lua
 integer = 42

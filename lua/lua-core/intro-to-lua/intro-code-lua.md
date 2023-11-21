@@ -32,7 +32,6 @@ In the coding segment:
 - The `print("Hello, world!")` is used to **output the string**[2] "Hello, world!" to the terminal.
 
  
- 
 ---
 
 ## Practice
@@ -61,7 +60,7 @@ print("Hello, world!")
 ```
 
 - Describe the output of the line above
-- A fail safe in case the line above doesn't execute
+- A fail-safe in case the line above doesn't execute
 - To tell the system to print the words after `--`
 - To say hello to the system!
 

@@ -18,6 +18,6 @@ You can test it by **running the** `lua` **command in your terminal or command p
 
 You can then enter Lua code and see it executed.
 
-> To open a command prompt, press the Windows search option (or the Launchpad Icon for mac) and search for terminal.
+> To open a command prompt, press the Windows search option (or the Launchpad Icon for Mac) and search for terminal.
 
 ![command-prompt](https://img.enkipro.com/7526a646ae91a958b2ef620e5351e999.png)

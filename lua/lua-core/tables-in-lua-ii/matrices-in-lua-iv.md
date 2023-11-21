@@ -31,7 +31,7 @@ for i = 1, #matrix do
 end
 ```
 
-In this code, **i represents every element of the outer array**, while **j represents the elements of the inner arrays** found in the elements of the outer array. This code will loop through each row/inner array using j, and moves on to the next row through i. 
+In this code, **`i` represents every element of the outer array**, while **`j` represents the elements of the inner arrays** found in the elements of the outer array. This code will loop through each row/inner array using `j`, and moves on to the next row through `i`. 
 
 To create a **proper stopping point**, we will **use the length of the outer and inner arrays** for the columns and rows respectively. To get the length, we put a `#` before the name of the matrix for the outer arrays, and matrix[] for the inner arrays.
 

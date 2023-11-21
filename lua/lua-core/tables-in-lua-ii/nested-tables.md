@@ -19,7 +19,7 @@ revisionQuestion:
 
 ## Content
 
-Tables can also be **nested**. Meaning you **can create a table that holds other tables** as its values:
+Tables can also be **nested**, meaning you **can create a table that holds other tables** as its values:
 
 ```lua
 my_nested_table = {
@@ -31,7 +31,7 @@ my_nested_table = {
 
 Each of these tables represents a row of values in a matrix[1]. To visualize nested tables that are not organized like the example above:
 -  Every element of the **outer table represents a row** in the matrix.
--  Every element of the **inner tables represent a collumn** in the matrix.
+-  Every element of the **inner tables represent a column** in the matrix.
 
 ---
 ## Footnotes

@@ -48,7 +48,7 @@ print(ages["Margaret"])
 -- 55
 ```
 
-The above way of adding is refered to as the **square bracket notation**.
+The above way of adding is referred to as the **square bracket notation**.
 
 ---
 ## Practice
@@ -74,7 +74,7 @@ profession = {
 ---
 ## Revision
 
-Finish the code to insert 2 key-value pairs into the `ages` dictionary. First key should be called `"Alex"` and have a value of `32` while the second should be called `"Jill"` and have a value of `27`.
+Finish the code to insert 2 key-value pairs into the `ages` dictionary. The first key should be called `"Alex"` and have a value of `32` while the second should be called `"Jill"` and have a value of `27`.
 
 ```lua
 ages = {

@@ -22,7 +22,7 @@ revisionQuestion:
 
 The `local` keyword in Lua is used to declare a variable with a local scope. This means that the variable can **only be accessed and modified within the block of code where it was defined**. 
 
-Using `local` is generally recommended as it can **help prevent naming conflicts** and **makes code easier to read and maintain**.
+Using `local` is generally recommended as it can **help prevent naming conflicts** and **make code easier to read and maintain**.
 
 > Unlike local variables, global variables do not need to be specifically declared to be denoted as a global variable.
 

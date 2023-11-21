@@ -18,7 +18,7 @@ revisionQuestion:
 ---
 ## Content
 
-In the previous example[1], the `double` function is defined to *take a single parameter* and **return it's doubled value**. Then, the function is assigned to a variable called `myFunction`. 
+In the previous example[1], the `double` function is defined to *take a single parameter* and **return its doubled value**. Then, the function is assigned to a variable called `myFunction`. 
 
 Now you can call the function using the variable name:
 ```lua

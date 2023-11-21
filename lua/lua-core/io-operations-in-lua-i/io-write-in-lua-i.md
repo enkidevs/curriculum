@@ -20,7 +20,7 @@ revisionQuestion:
 ---
 ## Content
 
-In Lua, the `io.write()` function is used to **write to a file or the standard output**. It takes one or more arguments and writes them to the output stream. The function returns `nil` on success, or an error message on failure.
+In Lua, the `io.write()` function is used to **write to a file or the standard output**. It takes one or more arguments and writes them to the output stream. The function returns `nil` on success or an error message on failure.
 
 Here's an example that uses `io.write()` to write to the standard output:
 ```lua
@@ -34,7 +34,7 @@ io.write("The answer is: ", 42, "\n")
 ---
 ## Practice
 
-Output "Hello, world!" using the appropriate `io` function. Also add a new line after the message using the escape sequence.
+Output "Hello, world!" using the appropriate `io` function. Also, add a new line after the message using the escape sequence.
 ```lua
 io.???("Hello, world!???")
 ```

@@ -40,7 +40,7 @@ In Event-driven programming, what does the program do? ???
 
 Why should you use Event-driven programming? ???
 
-- Increases efficiency, as program executes code only when needed
+- Increases efficiency, as the program executes code only when needed
 - Increases efficiency, as everything can be written as an event
 - Increases readability, which helps readers understand better
 - Increases readability, as events are highlighted automatically by Lua
