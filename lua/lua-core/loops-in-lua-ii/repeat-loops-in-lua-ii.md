@@ -101,10 +101,10 @@ repeat
 until guess == "7"
 ```
 
-Which of these options is **NOT** true about this code?
+Which of these options is **NOT** true about this code? ???
 
-- will end when users guess wrong
-- keep prompting the user for their guess until they get it right
-- prompt the user for their guess
-- it reads the user's guess
-- check if the user guess is correct
+- Will end when users guess wrong
+- Keep prompting the user for their guess until they get it right
+- Prompt the user for their guess
+- It reads the user's guess
+- Check if the user guess is correct

@@ -5,12 +5,10 @@ type: normal
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
     - type-in-the-gap
-    - fill-in-the-gap
   context: standalone
 
 ---
@@ -65,9 +63,9 @@ Create a variable called `num` and set it to `31`.
 ??? ??? ???
 ```
 
-- num
-- =
-- 31
+- `num`
+- `=`
+- `31`
 
 ---
 

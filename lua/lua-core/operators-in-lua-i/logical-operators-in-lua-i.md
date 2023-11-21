@@ -31,7 +31,7 @@ The three logical operators are `and`, `or`, and `not`.
 
 ## Practice
 
-Which of these operators are NOT logical operators?
+Which of these operators are NOT logical operators? ???
 
 - `left`
 - `and`
@@ -42,7 +42,7 @@ Which of these operators are NOT logical operators?
 
 ## Revision
 
-Which of the following operators ARE logical operators?
+Which of the following operators ARE logical operators? ???
 
 - `or`
 - `+`

@@ -55,7 +55,7 @@ print(result)
 ---
 ## Revision
 
-What does this function do?
+What does this function do? ???
 
 ```lua
 double = function(number)

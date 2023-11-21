@@ -9,7 +9,6 @@ practiceQuestion:
 revisionQuestion:
   formats:
     - type-in-the-gap
-    - fill-in-the-gap
   context: standalone
 
 ---
@@ -55,5 +54,4 @@ Create a boolean variable called `my_boolean` and set it to `true`.
 
 - `my_boolean`
 - `true`
-- `false`
 

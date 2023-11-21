@@ -35,13 +35,14 @@ Arrays in Lua can be **useful for storing and manipulating data that is naturall
 
 ## Practice
 
-What is the result of the following code in Lua?
+What is the output of the following code in Lua?
 
 ```lua
 my_array = {1, 4, 7, 14, 20}
 print(my_array[2])
--- ???
 ```
+
+???
 
 - 4
 - 1
@@ -54,13 +55,14 @@ print(my_array[2])
 
 ## Revision
 
-What is the result of the following code in Lua?
+What is the output of the following code in Lua?
 
 ```lua
 my_array = {[1] = 10, [2] = 20, [3] = 30}
 print(my_array[2])
--- ???
 ```
+
+???
 
 - 20
 - 10

@@ -5,7 +5,6 @@ type: normal
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
@@ -57,8 +56,7 @@ Complete the format for an `if-else` statement in the code below:
 
 ## Revision
 
-In the code below, how many errors (Misplaced words) are there?:
-
+In the code below, how many errors (Misplaced words) are there?: ???
 
 ```lua
 if condition else

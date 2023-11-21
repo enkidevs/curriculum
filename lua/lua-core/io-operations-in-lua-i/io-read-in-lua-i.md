@@ -40,7 +40,7 @@ In Lua, the function `io.read()` **by default** is used to ???
 
 ## Revision
 
-When does `io.read()` stop reading input?
+When does `io.read()` stop reading input? ???
 
 - Both when a newline character or the end of the file is encountered.
 - Until a newline character is encountered

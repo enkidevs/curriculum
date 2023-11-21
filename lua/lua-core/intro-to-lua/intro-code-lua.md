@@ -52,7 +52,7 @@ Finish the code below to print out "Hello world!" to the terminal.
 
 ## Revision
 
-In the code below, what is the purpose of line 2?
+In the code below, what is the purpose of line 2? ???
 
 ```lua
 print("Hello, world!")

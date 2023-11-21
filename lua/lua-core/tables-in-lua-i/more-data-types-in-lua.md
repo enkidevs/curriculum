@@ -40,7 +40,7 @@ Maps/Dictionaries, Sets, Arrays, and Matrices are all a type of ???
 
 ## Revision
 
-Which of the following data types are NOT a type of table?
+Which of the following data types are NOT a type of table? ???
 
 - String
 - Sets

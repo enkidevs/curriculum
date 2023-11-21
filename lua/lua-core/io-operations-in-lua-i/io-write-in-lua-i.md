@@ -47,7 +47,7 @@ io.???("Hello, world!???")
 ---
 ## Revision
 
-What is the correct way to print the answer` "42"` and a new line using `io.write()`?
+What is the correct way to print the answer` "42"` and a new line using `io.write()`? ???
 
 ```lua
 -- A)

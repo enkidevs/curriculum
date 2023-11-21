@@ -57,7 +57,7 @@ end
 
 ## Revision
 
-In the else-if code below, how many errors (Misplaced words) are there?
+In the else-if code below, how many errors (Misplaced words) are there? ???
 
 ```lua
 if condition then

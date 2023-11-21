@@ -33,7 +33,7 @@ This enables the creation of interactive applications with smooth and intuitive 
 
 ## Practice
 
-What should programmers use to create interactive applications that provide smooth user experiences?
+What should programmers use to create interactive applications that provide smooth user experiences? ???
 
 - Events System
 - IO operations
