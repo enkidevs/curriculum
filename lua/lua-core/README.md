@@ -8,7 +8,8 @@ sections:
   '0':
     - intro-to-lua
     - intro-to-lua-ii
-    - variables-in-lua
+    - variables-in-lua-i
+    - variables-in-lua-ii
     - nil-variable
     - operators-in-lua-i
     - operators-in-lua-ii
@@ -31,12 +32,7 @@ sections:
     - events-intro
     - events-in-lua
     - lua-in-games
-    - wow-addons-i
-    - wow-addons-ii
-    - show-gold-addon-wow-i
-    - show-gold-addon-wow-ii
-    - show-gold-addon-wow-iii
-    - show-gold-addon-wow-iv
+    - conclusion
 
 next:
   - lua:roblox-studio

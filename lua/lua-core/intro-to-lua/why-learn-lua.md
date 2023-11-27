@@ -2,6 +2,14 @@
 author: Stefan-Stojanovic
 category: discussion
 type: normal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Benefits of Lua
@@ -11,13 +19,16 @@ type: normal
 
 Lua is a **lightweight, fast, and versatile** programming language used in various aspects of coding. 
 
-While it may not be the most popular, Lua is perfect for beginners! Some of Lua's features include:
+While it may not be the most popular, Lua is perfect for beginners due to it's simplicity! 
 
-**Simplicity**: Lua uses a simple and consistent syntax!
+For instance, if we want to output a word, we can store and print a word to the terminal in only 2 lines:
 
-**Performance**: Lua performs fast and efficiently, making it ideal for performance-critical applications!
+```lua
+myString = "easy!"
+print(myString)
+```
 
-**Extensibility**: You can use it to extend the functionality of other programs written in C or other languages [1].  
+> Lua is also an efficient and extendable language that can be used for both performance-critical applications and other languages [1]
 
 ---
 
@@ -26,3 +37,25 @@ While it may not be the most popular, Lua is perfect for beginners! Some of Lua'
 [1: Examples of benefiting programs]
 
 Video game development, embedded systems, and web development are all aspects that could utilize parts of Lua, or even have Lua as it's base structure.
+
+---
+
+## Practice
+
+There are many benefits from learning Lua. Why is Lua perfect for beginners? ???
+
+- Lua is simple
+- Lua is fast
+- Lua is lightweight
+- Lua is versatile
+
+--- 
+
+## Revision
+
+Which of these aspects are not related to Lua? ???
+
+- Lua is slow but consistent
+- Lua is simple
+- Lua is versatile
+- Lua is lightweight
