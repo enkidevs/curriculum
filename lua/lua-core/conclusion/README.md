@@ -8,4 +8,4 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - conclusion-insight
+  - completion-insight
