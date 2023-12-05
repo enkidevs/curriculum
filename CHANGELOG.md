@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## December 5th 2023
+
+### Changed
+- [Python Data Analysis - Topic Name - Rename topic to Data Analysis with Python](https://github.com/enkidevs/curriculum/pull/3280)
 
 ## June 26th 2023
 
