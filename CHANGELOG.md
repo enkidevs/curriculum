@@ -49,6 +49,16 @@ Types of change:
 ### Fixed
 
 
+## December 5th 2023
+
+### Changed
+- [Python - Even or Odd Exercise - Change it to Positive or Negative](https://github.com/enkidevs/curriculum/pull/3281)
+
+
+// TODO
+// Add all missing changelogs from June 27th through December 4th
+
+
 ## June 26th 2023
 
 ### Changed
