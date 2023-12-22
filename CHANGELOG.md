@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 22nd 2023
+
+### Changed
+- [JavaScript - Scope and Strict mode - Replace broken link](https://github.com/enkidevs/curriculum/pull/3284)
+
 
 ## December 5th 2023
 
