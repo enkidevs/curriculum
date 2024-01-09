@@ -2,6 +2,9 @@
 author: Stefan-Stojanovic
 category: must-know
 type: normal
+links:
+  - >-
+    [Comprehensive Guide on Lua Scripting in WoW](https://www.wowhead.com/guide/comprehensive-beginners-guide-for-wow-addon-coding-in-lua-5338){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

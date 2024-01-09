@@ -32,7 +32,6 @@ sections:
     - events-intro
     - events-in-lua
     - lua-in-games
-    - conclusion
 
 next:
   - lua:roblox-studio

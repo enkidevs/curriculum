@@ -12,3 +12,4 @@ insights:
   - lua-in-games-i
   - lua-in-games-ii
   - lua-in-games-iii
+  - completion-insight

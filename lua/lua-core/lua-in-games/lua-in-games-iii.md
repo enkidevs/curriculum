@@ -2,6 +2,9 @@
 author: Stefan-Stojanovic
 category: must-know
 type: normal
+link:
+  - >- 
+    [Intro to Coding in Garry's Mod](https://wiki.facepunch.com/gmod/Beginner_Tutorial_Intro){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
