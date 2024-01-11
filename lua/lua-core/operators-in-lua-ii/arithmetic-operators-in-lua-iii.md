@@ -82,6 +82,6 @@ The Modulo Operation returns the remainder of a division.
 
 The standard order of operations is referred to as PEMDAS or BODMAS.
 
-PEMDAS stands for parentheses, exponents, multiplication, division, addition, subtraction
+PEMDAS stands for parentheses, exponents, multiplication, division, addition, subtraction.
 
-BOMDAS stands for brackets, orders, division and multiplication, and addition and subtraction
+BOMDAS stands for brackets, orders, division and multiplication, and addition and subtraction.

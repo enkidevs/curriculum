@@ -11,9 +11,9 @@ type: normal
 
 Congratulations on practicing with your first few lines of Lua! Sure, it may have been a simple hello statement, but **you've made progress!** 🎉
 
-This may seem underwhelming at first, but Lua can lead to very complicated ideas and logic! 
+This may seem underwhelming at first, but Lua can lead to very complex ideas and logic! 
 
-Later in the Lua section, you will learn about how you can apply Lua to World of Warcraft! If you're really interested, there's also a Roblox Lua course that explores various functions! 
+If you're really interested, there's a Roblox Lua course that explores how to use Lua in Roblox Studio! 
 
 For example, here's a small rotation object taught in the Roblox course:
 

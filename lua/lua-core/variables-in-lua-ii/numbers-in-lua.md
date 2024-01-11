@@ -27,7 +27,6 @@ Here's an example of creating an integer and float variable:
 ```lua
 integer = 42
 float = 42.0
-print(integer)
 ```
 
 > Note that you can create and assign values to multiple variables on the same line:
@@ -66,6 +65,8 @@ Create a variable called `num` and set it to `31`.
 - `num`
 - `=`
 - `31`
+- `number`
+- `"31"`
 
 ---
 

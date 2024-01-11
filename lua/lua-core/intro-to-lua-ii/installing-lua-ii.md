@@ -16,7 +16,7 @@ After you've installed the Lua interpreter, you should test that the interpreter
 
 You can test it by **running the** `lua` **command in your terminal or command prompt**. If Lua is installed correctly, you should see the **Lua prompt (>) appear**. 
 
-You can then enter Lua code and see it executed.
+You can then enter Lua code and see it execute.
 
 > To open a command prompt, press the Windows search option (or the Launchpad Icon for Mac) and search for terminal.
 

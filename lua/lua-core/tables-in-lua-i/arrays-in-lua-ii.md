@@ -26,6 +26,8 @@ my_array = {1, 2, 3, 4, 5}
 
 -- Creating an array using the array constructor
 my_other_array = {[1] = 10, [2] = 20, [3] = 30}
+
+-- the first element will be 10, the second will be 20, etc..
 ```
 
 ---
@@ -35,15 +37,14 @@ my_other_array = {[1] = 10, [2] = 20, [3] = 30}
 Which of the following is the correct way to create an array in Lua?
 
 ```lua
--- a) 
-my_array = (1, 2, 3, 4, 5)
--- b)
-my_array = {1, 2, 3, 4, 5}
--- c)
-my_array = {1; 2; 3; 4; 5}
+a = (1, 2, 3, 4, 5)
+
+b = {1, 2, 3, 4, 5}
+
+c = {1; 2; 3; 4; 5}
 ```
 
-???)
+???
 
 - b
 - a
@@ -55,17 +56,13 @@ my_array = {1; 2; 3; 4; 5}
 Which of the following is the correct way to create an array in Lua?
 
 ```lua
--- a) 
-my_array = {1. 2. 3. 4. 5}
--- b)
-my_array = {1, 2, 3, 4, 5}
--- c)
-my_array = {1; 2; 3; 4; 5}
--- d)
-my_array = [1, 2, 3, 4, 5]
+a = {1. 2. 3. 4. 5}
+b = {1, 2, 3, 4, 5}
+c = {1; 2; 3; 4; 5}
+d = [1, 2, 3, 4, 5]
 ```
 
-???)
+???
 
 - b
 - a

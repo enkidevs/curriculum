@@ -37,7 +37,7 @@ Which of the following names best suits a variable that stores the number of son
 - song_count
 - playlist
 - songs_available
-- playlist_count
+- playlist_cover
 
 ---
 

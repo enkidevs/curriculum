@@ -30,6 +30,8 @@ The loop variable `i` is **initialized to 1** and the loop body prints the value
 
 The loop restarts and **increments** variable `i` by 1 for the next iteration. 
 
+> Remember that by default, the increment value is 1!
+
 This continues until `i` reaches 5, at which point the loop terminates.
 
 
@@ -39,17 +41,17 @@ This continues until `i` reaches 5, at which point the loop terminates.
 
 What will be the output of the following Lua code?
 ```lua
-for i=1, 5 do
+for i=1, 6 do
   print(i)
 end
 ```
 
 ???
 
-- `1 2 3 4 5`
-- `5 4 3 2 1`
-- `1 1 1 1 1`
-- `2 4 6 8 10`
+- `1 2 3 4 5 6`
+- `6 5 4 3 2 1`
+- `1 1 1 1 1 1`
+- `2 4 6 8 10 12`
 
 ---
 

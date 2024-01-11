@@ -17,7 +17,7 @@ revisionQuestion:
 ---
 ## Content
 
-Like with every other language, let's write our first hello world program!
+Like with every other language, let's write our first "hello world" program!
 
 When you run this code, you should find the words, "Hello world!" in the terminal[1].
 
@@ -29,6 +29,9 @@ print("Hello, world!")
 In the coding segment:
 
 - The `--` is used to denote a **single line comment**. These often contain notes written by the author!
+
+> In most cases, notes will often contain the output for code.
+
 - The `print("Hello, world!")` is used to **output the string**[2] "Hello, world!" to the terminal.
 
  

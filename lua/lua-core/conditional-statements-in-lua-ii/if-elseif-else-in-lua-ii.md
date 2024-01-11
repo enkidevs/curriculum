@@ -38,6 +38,7 @@ In this example:
 - If `num` is **less** than 10, the program will print `"Number is less than 10"`. 
 - If `num` is **equal** to 10, the program will print `"Number is equal to 10"`.
 
+
 We're checking if `num` is greater than 10 or less than 10 using the `if` and `elseif` statements. The `else` statement is used as a catch-all in case none of the previous conditions are true.
 
 ---

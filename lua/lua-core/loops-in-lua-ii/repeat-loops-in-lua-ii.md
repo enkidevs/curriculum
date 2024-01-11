@@ -12,7 +12,7 @@ revisionQuestion:
   context: standalone
 ---
 
-# repeat Loop Example
+# Repeat Loop Example
 
 ---
 

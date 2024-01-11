@@ -19,7 +19,7 @@ revisionQuestion:
 ## Content
 
 
-The **concatenation operator** is **represented by two dots** (`..`). It is used to concatenate (or **join together**) two strings into a new string.
+The **concatenation operator** is **represented by two dots** (`..`). It is used to concatenate[1] two strings into a new string.
 
 Here's an example:
 ```lua
@@ -70,3 +70,11 @@ print(result)
 - `,,`
 - `==`
 - `==`
+
+---
+
+## Footnotes
+
+[1: Concatenate]
+
+To join two things together.

@@ -60,7 +60,7 @@ while (condition) repeat
 end
 ```
 
-Answer: ???)
+Answer: ???
 
 - B
 - A

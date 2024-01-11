@@ -18,10 +18,6 @@ revisionQuestion:
 ---
 ## Content
 
-
-
-### Releasing memory
-
 When a variable is set to `nil`, it **releases any associated memory**, allowing Lua to **use that memory for other purposes**. 
 
 This can be useful for managing memory in programs with large datasets or long-running processes.
@@ -31,7 +27,7 @@ This can be useful for managing memory in programs with large datasets or long-r
 ---
 ## Practice
 
-What is the purpose of setting a variable to nil in Lua?
+What is the purpose of setting a variable to nil in Lua? Choose the most appropriate option.
 
 ???
 

@@ -40,7 +40,7 @@ Write a Lua program that creates a `name` variable and assigns "Mike" to it, the
 
 ```lua
 ??? = ???
-???(my_number)
+???(name)
 ```
 
 - `name`
@@ -53,7 +53,7 @@ Write a Lua program that creates a `name` variable and assigns "Mike" to it, the
 ---
 ## Revision
 
-Create a string variable called `str` and set its value to `"Yes"`.
+Create a string variable called `str` and set its value to "Yes".
 
 ```lua
 ??? ??? ???

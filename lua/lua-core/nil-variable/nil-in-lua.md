@@ -53,3 +53,4 @@ Set the following variable `past_results` to nil.
 - `=`
 - `nil`
 - `nothing`
+- `null`

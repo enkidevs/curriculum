@@ -28,7 +28,7 @@ However, they can also be used for **other types of data**, such as *representin
 
 ## Practice
 
-A matrix is a ???
+A matrix is a... ???
 
 - 2D array
 - 1D array

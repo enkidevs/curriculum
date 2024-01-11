@@ -26,7 +26,7 @@ Think of these as **option 1 and option 2**. If a condition is fulfilled, go wit
 
 ## Practice
 
-In which of the following scenarios would you employ a conditional statement? ???
+Which of these actions are **required** for conditional statements? ???
 1. Writing a value
 2. Moving a Value
 3. Checking a value

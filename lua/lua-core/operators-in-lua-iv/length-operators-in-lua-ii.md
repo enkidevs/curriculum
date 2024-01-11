@@ -21,7 +21,7 @@ revisionQuestion:
 
 ## Content
 
-In Lua, you can also use the `#` operator to find the number of elements in a table.
+In Lua, you can also use the `#` operator to find the number of elements in a table[1].
 
 For example, to find the number of elements in `my_table`, you would use:
 ```lua
@@ -29,7 +29,9 @@ my_table = {1, 2, 3, 4, 5}
 print(#my_table) --> 5
 ```
 
-Note that the `#` operator **only works with sequential tables**, meaning tables that have *integer keys starting at 1 and with no gaps*. 
+Note that the `#` operator **only works with sequential tables**, meaning tables that have *integer keys starting at 1 and with no gaps between integers*. 
+
+> {1, 3, 4, 5} is not valid as 2 is skipped, thus not being a sequential table.
 
 If the table is **not sequential**, the **result may not be accurate**.
 
@@ -69,3 +71,11 @@ print(???your_table) --> 5
 - `table`
 - `$`
 - `&`
+
+---
+
+## Footnotes
+
+[1: Tables]
+
+A **table** is a data structure that can **hold a collection of values**.

@@ -33,9 +33,7 @@ bool2 = false
 ---
 ## Practice
 
-How do you create a boolean variable in Lua?
-
-Using ???.
+How do you create a boolean variable in Lua? ???
 
 - `true` or `false` keywords
 - `var` keyword
@@ -54,4 +52,6 @@ Create a boolean variable called `my_boolean` and set it to `true`.
 
 - `my_boolean`
 - `true`
+- `false`
+- `True`
 

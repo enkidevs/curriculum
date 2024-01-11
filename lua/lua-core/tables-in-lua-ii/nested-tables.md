@@ -43,7 +43,7 @@ A matrix is a two-dimensional table that contains a collection of values arrange
 
 ## Practice
 
-A nested table is a ???
+A nested table is a... ???
 
 - Table that is an element of another table
 - Table that holds a table as an element
