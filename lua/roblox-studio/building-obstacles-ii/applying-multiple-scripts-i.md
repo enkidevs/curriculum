@@ -23,7 +23,7 @@ One thing you might have noticed is that when we create scripts, we **would have
 
 One way to avoid this issue is to **group all related parts into a model** and **loop through** each child/part in the model.
 
-To create a model, **right-click on a part in the explorer tab** and select **"Group as Model"**. A new model should be created with the parts inside it. New parts can be dragged into the model, as if you're moving files into a folder.
+To create a model, **right-click on a part in the Explorer tab** and select `Group as Model`. A new model should be created with the parts inside it. New parts can be dragged into the model, as if you're moving files into a folder.
 
 ---
 

@@ -58,7 +58,7 @@ print(???["???"])
 ---
 ## Revision
 
-Finish the code to create a dictionary called `people` with 2 key-value pairs, then print the value for the second key:
+Finish the code to create a dictionary called `people` with 2 key-value pairs, then print the value for the first key:
 ```lua
 ??? = {
   ["John"] = 30,
@@ -71,5 +71,5 @@ print(???["???"])
 
 - `people`
 - `people`
-- `Alice`
 - `John`
+- `Alice`

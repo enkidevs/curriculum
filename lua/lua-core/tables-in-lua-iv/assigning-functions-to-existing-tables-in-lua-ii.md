@@ -19,7 +19,7 @@ revisionQuestion:
 
 We can then **call functions using dot notation with the table name**, followed by the key representing the desired operation.
 
-> Using the functions we defined in the previous insight.
+> We'll be using the functions we defined in the previous insight.
 
 ```lua
 -- call the add function

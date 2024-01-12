@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-For this insight, we'll be using TweenService to change the **transparency** and **reflection**. Before writing any code, manually change the transparency of the block to 0.2 and the reflectance to 0.15.
+For this insight, we'll be using `TweenService` to change the **transparency** and **reflection**. Before writing any code, manually change the transparency of the block to 0.2 and the reflectance to 0.15.
 
 In the propertyTable, let's change the transparency to 0 and the reflectance to 0.5. 
 
@@ -29,7 +29,7 @@ local propertyTable = {
     Reflectance = 0.5
 }
 ```
-If you follow my example, you'll see the slightly transparent red block turn into a bright green block that has a slight reflectance and is no longer transparent. After, it'll turn back to a transparent red block.
+If you follow this example, you'll see the slightly transparent red block turn into a bright green block that has a slight reflectance and is no longer transparent. After, it'll turn back to a transparent red block.
 
 ---
 

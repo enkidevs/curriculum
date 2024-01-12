@@ -17,7 +17,7 @@ revisionQuestion:
 ---
 
 ## Content
-Functions are an essential part of coding and remains true for Studio. In Studio, functions can be used to **run code whenever called upon**.
+`Functions` are an essential part of coding and remains true for Studio. In Studio, functions can be used to **run code whenever called upon**.
 
 For instance, a developer could create a function that adds tax to every purchase in an in-game store:
 
@@ -37,7 +37,7 @@ What makes functions so versatile is that we *can repeat the same code* with **d
 
 ## Practice
 
-Complete the code below such that the function called "addBonusDamage" will **combine** the original damage with bonus damage.
+Complete the code below such that the function called `addBonusDamage` will **combine** the original damage with bonus damage.
 
 ```lua
 function ???(a,b)
@@ -53,7 +53,7 @@ end
 
 ## Revision
 
-Complete the code below such that the function called "addBonusDamage" will **multiply** the original damage with bonus damage.
+Complete the code below such that the function called `addBonusDamage` will **multiply** the original damage with bonus damage.
 
 ```lua
 function ???(a,b)

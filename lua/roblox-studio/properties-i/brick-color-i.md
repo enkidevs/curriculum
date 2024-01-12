@@ -20,16 +20,17 @@ revisionQuestion:
 ---
 
 ## Content
-Brickcolor refers to the color of the part, and there are **3 ways to change** it for BrickColor. 
+`Brickcolor` refers to the color of the part, and there are **3 ways to change** BrickColor. 
 
 > Remember that the **syntax to change each property is different**. 
 
 The most common way is to change using specific color names.
 
 ```lua
---Change BrickColor through a specific name.
+-- Change BrickColor through a specific name.
 partVariable.BrickColor = BrickColor.new("Bright Blue")
 ```
+
 > The specific names of every color can be found in the **Learn More** section.
 
 ---

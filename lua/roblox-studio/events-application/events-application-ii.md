@@ -21,12 +21,13 @@ We now need to create a way to **identify and access a player's avatar**.
 
 In the Touched syntax, the function() parameter represents any part that triggers the Touched signal.
 
-Additionally, you may have noticed while testing that your avatar will show up as a model[1] in the workspace. Since any body part is considered a child of the avatar **and** it touches/activates the signal, we can use parent to access the overall avatar.
+Additionally, you may have noticed while testing that your avatar will show up as a model[1] in the workspace. Since any body part is considered a child of the avatar **and** it touches/activates the signal, **we can use parent to access the overall avatar**.
 
 ```lua
+-- Simply stating the part that will be touched.
 lavaVar = game.Workspace.Lava
 lavaVar.Touched:Connect(function(part)
-  local avatar = part.Parent  --Using local since its used only for this event function.
+  local avatar = part.Parent  -- Set avatar to be the parent of the part
 end)
 ```
 ---

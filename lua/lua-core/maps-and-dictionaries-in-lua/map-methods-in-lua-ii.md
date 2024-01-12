@@ -76,7 +76,7 @@ Finish the code to iterate over a dictionary called `fruits` and print out each 
 }
 
 ??? ???, value in pairs(???) do
-    print(key, ???)
+    print(???, ???)
 end
 ```
 
@@ -84,4 +84,5 @@ end
 - `for`
 - `key`
 - `fruits`
+- `key`
 - `value`

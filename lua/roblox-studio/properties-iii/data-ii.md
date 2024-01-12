@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-**Locked** is a **boolean property** that determines if **in-game tools can edit the part**. True if un-editable, false otherwise.
+`Locked` is a **boolean property** that determines if **in-game tools can edit the part**. True if un-editable, false otherwise.
 
 ```lua
 partVariable.Locked = false

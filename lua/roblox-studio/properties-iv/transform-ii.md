@@ -17,16 +17,16 @@ revisionQuestion:
 ---
 
 ## Content
-As explained previously, **CFrame holds the orientation and position data** of an object. 
+As explained previously, **`CFrame` holds the orientation and position data** of an object. 
 
 ---
 
 ### Position
-To change the position, you can set the variable equal to a new CFrame. The parameter should hold how much you want to move the object in their respective direction (X, Y, Z).
+To change the `position`, you can **set the variable equal to a new CFrame**. The parameter should hold how much you want to move the object in their respective direction (X, Y, Z).
 
 ```lua
 partVariable.CFrame = CFrame.new(1,1,1)
---move the the object by a value of 1 in the x, y, and z directions
+-- Move the the object by a value of 1 in the x, y, and z directions
 ```
 ---
 

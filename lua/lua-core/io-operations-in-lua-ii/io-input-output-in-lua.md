@@ -17,7 +17,9 @@ revisionQuestion:
 ---
 ## Content
 
-The `io.input` function sets the default input file, which is used by functions like `io.read` to read data. Similarly, the `io.output` function sets the default output file, which is used by functions like `io.write` to write data.
+The `io.input` function sets the default input file, which is used by functions like `io.read` to read data from an input file.
+
+Similarly, the `io.output` function sets the default output file, which is used by functions like `io.write` to write data to the output file.
 
 By default, **both functions are set to the standard input and output**, which are the **keyboard and the screen respectively**.
 

@@ -5,11 +5,9 @@ type: normal
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
-    - fill-in-the-gap
     - type-in-the-gap
   context: standalone
 
@@ -22,7 +20,7 @@ revisionQuestion:
 
 Next to creating tables with functions as values we can also **define new functions** and **add them to an existing table in a single line of code**.
 
-Take a look at this example:
+This can be done through dot notation. Take a look at this example:
 ```lua
 -- create a table to store some operations
 local operations = {}
@@ -48,13 +46,12 @@ function operations.divide(a, b)
 end
 ```
 
-In this example, we create a table called `operations` and assign different functions to it for performing arithmetic operations like addition, subtraction, multiplication, and division. 
-
+In this example, we create a table called `operations` and assign different functions to it for performing arithmetic operations like addition, subtraction, multiplication, and division **through dot notation**.
 
 ---
 ## Practice
 
-Write a function named `createPlayer` that takes a `name` and returns a table called `player` with the following keys: `name` (a string) and `score` (an integer). The table should also have a function named `incrementScore` that adds 1 to the `score` key.
+Write a function named `createPlayer` that takes a `name` in the parameters. The function should return a table called `player` with the following keys: `name` (a string) and `score` (an integer). The table should also have a function named `incrementScore` that adds 1 to the `score` key.
 
 ```lua
 function ???(???)
@@ -79,7 +76,7 @@ end
 ---
 ## Revision
 
-Write a function named `createEmployee` that takes a `name` and a `salary` and returns a table with the following keys: `name` (a string), `salary` (a number), and `getSalary` (a function that returns the `salary` key).
+Write a function named `createEmployee` that takes a `name` and a `salary` in its parameters. The function should return a table with the following keys: `name` (a string), `salary` (a number), and `getSalary` (a function that returns the `salary` key).
 
 ```lua
 function ???(???, ???)

@@ -16,9 +16,9 @@ revisionQuestion:
 ---
 
 ## Content
-Moving objects in Studio is fairly simple. **Click on the object and you will be able to drag it** across the baseplate. 
+Moving objects in Studio is fairly simple. **Click and hold on to the object and you will be able to drag it** across the baseplate. 
 
-But what if you want to move your block *vertically*? Or if you need *pinpoint precision*? That's where the move tool comes in. While the block is selected, **press on move** in the **tools section**.
+But what if you want to move your block *vertically*? Or if you need *pinpoint precision*? That's where the `move tool` comes in. While the block is selected, **press on move** in the **tools section**.
 
 ![tools-section](https://img.enkipro.com/06b34cd06872f0e1759b6db9d4de3bff.png)
 

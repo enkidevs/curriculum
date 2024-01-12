@@ -18,11 +18,11 @@ revisionQuestion:
 
 ## Content
 
-In the parameters, you put the **values for the X, Y, and Z axis** of a vector. In simple terms, the 3 values combined will create a single destination point.
+In the parameters, you put the **values for the X, Y, and Z axis** of a vector. In simpler terms, the 3 values combined will create a single destination point.
 
 ```lua
 partVariable = Vector3.new(5,0,0)
---Created a vector that has a length of 5 in the X direction
+-- Creates a vector that has a length of 5 in the X direction
 ```
 > Note that **running this code by itself does nothing**, as you *only created a vector*. It only changes when its applied to a compatible property. I.e. `partVariable.Size = Vector3.new(5,0,0)`.
 

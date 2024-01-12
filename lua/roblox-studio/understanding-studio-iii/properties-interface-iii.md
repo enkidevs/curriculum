@@ -21,12 +21,14 @@ revisionQuestion:
 
 Here are the remaining properties.
 
+
 ### The Physical Aspect
-**Collision** and **Part** focus on the physics of an object, such as whether it holds mass or if it's locked in place.
+**Collision** and **Part** focus on the physics of an object, such as whether it holds mass, if it's locked in place, or if it can physically collide with other parts.
+
 
 > **Pivot** is an *extension of Transform*, and **Assembly** is something you shouldn't worry about for this course. 
 
-If you're curious, you can play around with each property. If you'd like to know more about a specific property, hover over the name and you'll find a quick summary.
+If you're curious about their functions, you can play around with each property using an inputted block. If you'd like to know more about a specific property, hover over the name and they'll provide a quick summary if available.
 
 ---
 

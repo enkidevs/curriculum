@@ -41,7 +41,7 @@ An event is a ???
 
 Which of these events could act as a signal for something that has occurred? ???
 
-Option A: initializing a variable
+Option A: initializing a variable on startup
 Option B: when a variable equals a specific integer
 Option C: defining a function
 Option D: a comment line

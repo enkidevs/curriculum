@@ -18,9 +18,9 @@ revisionQuestion:
 ---
 
 ## Content
-We learned previously that Vector3 can be used as a tool to *change* the **position**, **orientation**, or **size** of an object using vectors in 3D space.
+We learned previously that `Vector3` can be used as a tool to *change* the **position**, **orientation**, or **size** of an object using vectors in 3D space.
 
-On the other hand, **CFrames**, known as coordinate frames, acts as a data type that holds the positional **and** orientation data of an object. 
+On the other hand, `CFrames`, known as coordinate frames, acts as a data type that *holds* the positional **and** orientation data of an object. 
 
 > In the future, CFrames will be explored in depth, as there's a multitude of ways to use these. For now, we'll focus on the basics.
 

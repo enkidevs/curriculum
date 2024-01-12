@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-While most of the fun is building things yourselves, there's no shame in getting help from others. Head to the **view tab** and open up the **toolbox**. 
+While most of the fun is building things yourselves, there's no shame in getting help from others. Head to the **view tab** and open up the `toolbox`. 
 
 ![toolbox](https://img.enkipro.com/c22e090279952b4f26b7c28136f31d55.png)
 

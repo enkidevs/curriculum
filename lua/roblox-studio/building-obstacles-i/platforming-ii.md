@@ -27,27 +27,27 @@ The code in the footnote will turn the block invisible, before turning it visibl
 partVar = game.Workspace.Part
 local TweenService = game.TweenService
 local PropertyTable1 = {
-	Transparency = 1; --first change in making it transparent
+	Transparency = 1; -- First change in making it transparent
 }
 
 local PropertyTable2 = {
-	Transparency = 0; --second change in making it not transparent
+	Transparency = 0; --Second change in making it not transparent
 }
 
 local info = TweenInfo.new(10, Enum.EasingStyle.Linear, Enum.EasingDirection.Out, 0, false, 0)
--- rememeber to set repeatCount to 0 since we want one animation to play after the other.
+-- Rememeber to set repeatCount to 0 since we want one animation to play after the other.
 local Tween1 = TweenService:Create(partVar, info, PropertyTable1)
 local Tween2 = TweenService:Create(partVar, info, PropertyTable2)
 
 while true do
-	Tween1:Play() --making it transparent
+	Tween1:Play() -- Making it transparent
 	wait(10)
-	partVar.CanCollide = false --remember to declare the part variable
+	partVar.CanCollide = false -- Remember to declare the part variable
 	wait(5)
 	partVar.CanCollide = true
-	Tween2:Play() --making it opaque
+	Tween2:Play() --Making it opaque
 	wait(10)
-	--wait() here is used to give players time
-	--but don't forget that wait() is required for these types of loops
+	-- Wait() here is used to give players time
+	-- But don't forget that wait() is required for these types of loops
 end
 ```

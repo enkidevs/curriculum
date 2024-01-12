@@ -26,22 +26,25 @@ ages = {
   Bob = 45
 }
 ```
-Let's use some methods to manipulate it.
-
-### Removing or adding values
+Let's use some methods to manipulate it. We'll start with adding and changing values.
 
 ```lua
+
+-- Bob is initially 45
 print(ages["Bob"])
 -- 45
 
+-- Changing Bob to nil
 ages["Bob"] = nil
 print(ages["Bob"])
 -- nil
 
+-- Setting Bobbie
 ages["Bobbie"] = 33
 print(ages["Bobbie"])
 -- 33
 
+-- Setting Margaret
 ages["Margaret"] = 55
 print(ages["Margaret"])
 -- 55
@@ -52,7 +55,7 @@ The above way of adding is referred to as the **square bracket notation**.
 ---
 ## Practice
 
-Given the map below, finish the code such that the key, `Samuel`, is added with a string, `Doctor`. 
+Given the map below, finish the code such that the key, `Samuel`, is added with the string, `Doctor`. 
 ```lua
 profession = {
   Bob = "Electrician", 

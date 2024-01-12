@@ -17,13 +17,13 @@ revisionQuestion:
 
 ## Content
 
-Finally, to properly connect the variable with the baseplate, *separate each parent with a period* and *end with the object you want to reference*. Remember that **lua is case-sensitive!**
+Finally, to properly connect the `variable` with the `baseplate`, *separate each parent with a period* and *end with the object you want to reference*. Remember that **lua is case-sensitive!**
 
 ```lua
 -- Baseplate is found in Workspace, which is found in game.
 baseplateVariable = game.Workspace.Baseplate
 
--- Accessing player id: "RobloxSteve", found under Workspace when loading
+-- Accessing player id: "RobloxSteve", found under Workspace
 playerVariable = game.Workspace.RobloxSteve
 
 ```

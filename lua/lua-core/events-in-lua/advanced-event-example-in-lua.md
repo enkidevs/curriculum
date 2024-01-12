@@ -9,7 +9,7 @@ type: normal
 ---
 ## Content
 
-Here's a more advanced example of using events in Lua:
+Here's a more advanced example of using events in Lua. Take a look at the code below before continuing:
 
 ```lua
 -- Create a function to handle custom events
@@ -21,7 +21,7 @@ end
 eventManager:RegisterForEvent("OnCustomEvent", onCustomEvent)
 ```
 
-We first **create a couple of event handler functions[1]** for handling keyboard and mouse events. We then **register these functions with the system event manager** using the `RegisterForEvent` method.
+We first **create a couple of event handler functions[1]** for handling keyboard and mouse events. We then **register these functions with the system event manager** using the `RegisterForEvent` method[2].
 
 ```lua
 -- Trigger a custom event
@@ -36,7 +36,7 @@ This is just a simple example of how events can be used in Lua to create interac
 
 ## Footnotes
 
-[1: couple of event handler functions]
+[1: Additional Event Handler Functions]
 
 Here are additional events handler functions that would be used in this example.
 
@@ -57,3 +57,7 @@ end
 -- Register the mouse click event handler function
 eventManager:RegisterForEvent("OnMouseClick", onMouseClick)
 ```
+
+[2: RegisterForEvent Method]
+
+A method used to associate the event in quotation marks with the event type. E.g. "OnCustomEvent" is now associated with the `OnCustomEvent` function and will call the function when triggered.

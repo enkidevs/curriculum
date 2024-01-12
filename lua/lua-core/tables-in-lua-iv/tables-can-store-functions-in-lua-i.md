@@ -8,7 +8,7 @@ practiceQuestion:
   context: standalone
 revisionQuestion:
   formats:
-    - fill-in-the-gap
+    - type-in-the-gap
   context: standalone
 
 ---
@@ -18,7 +18,9 @@ revisionQuestion:
 ---
 ## Content
 
-A useful technique when working with tables is to **assign functions as values to table keys**. This can be used to create methods for the table or to provide a namespace for related functions. When a *function is assigned to a table key*, it is **called a method of the table**.
+A useful technique when working with tables is to **assign functions as values to table keys**. 
+
+This can be used to create methods for the table or to provide a namespace for related functions. When a *function is assigned to a table key*, it is **called a method of the table**.
 
 Here's an example of defining a table with a method:
 ```lua
@@ -31,7 +33,9 @@ my_table = {
 }
 ```
 
-In this example, we define a table called `my_table` with a value called `value` and a method called `increment`. The `increment` method takes a single parameter `self`, which refers to the table object itself. When called, the method increments the `value` key of the table by 1.
+In this example, we define a table called `my_table` with a value called `value` and a method called `increment`. 
+
+The `increment` method takes a single parameter `self`, which refers to the table object itself. When called, the method increments the `value` key of the table by 1.
 
 ---
 

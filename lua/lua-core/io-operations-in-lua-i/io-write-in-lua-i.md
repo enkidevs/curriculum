@@ -51,16 +51,16 @@ What is the correct way to print the answer` "42"` and a new line using `io.writ
 
 ```lua
 -- A)
-io.write("The answer is: ", tostring(42), "\n")
+io.write("The answer is: ", tostring(42))
 -- B)
-io.write("The answer is: " .. 42 .. "\n")
+io.write("The answer is: " + 42 + "\n")
 -- C)
 io.write("The answer is: ", 42, "\n")
 -- D)
-io.write("The answer is: " .. tostring(42) .. "\n")
+io.write("The answer is: " .. tostring(42) .. \n)
 ```
 
-???)
+???
 
 - C
 - A

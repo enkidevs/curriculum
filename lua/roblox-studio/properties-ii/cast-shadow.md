@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-**CastShadow** acts as a **boolean value**, so once called, it can be adjusted by setting the variable to be **true or false**.
+`CastShadow` acts as a **boolean value**, so once called, it can be adjusted by setting the variable to be **true or false**.
 
 ```lua
 partVariable.CastShadow = false --The Part no longer casts a shadow

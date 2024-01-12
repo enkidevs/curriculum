@@ -19,7 +19,9 @@ revisionQuestion:
 
 The `io.open` function is used for opening a file in various modes. 
 
-It takes **two arguments**: the **file name** and the **mode** used to open the file. The mode can be either `"r"` for reading, `"w"` for writing, or `"a"` for appending to an existing file. 
+It takes **two arguments**: the **file name** and the **mode** used to open the file. 
+
+The mode can be either `"r"` for reading, `"w"` for writing, or `"a"` for appending to an existing file. 
 
 > If the mode is not specified, `"r"` is used by default.
 

@@ -33,7 +33,7 @@ ages.Jessica = 24
 ages.Bob = nil
 ```
 
-**Both notations are valid** in Lua and can be used interchangeably. However, there are **some cases where one notation might be preferred** over the other. 
+**Both dot and square bracket notations are valid** in Lua and can be used interchangeably. However, there are **some cases where one notation might be preferred** over the other. 
 
 Keys containing *spaces or special characters* **require square bracket notation**.
 
@@ -55,7 +55,7 @@ Which of the following statements is true about using the dot notation in Lua to
 ---
 ## Revision
 
-Using dot notation, remove the first key of the given dictionary and add a new key with the same name with a value of 17:
+Using dot notation, remove the first key of the given dictionary and add a new key with the same name with a value of 17 (Hint: Use nil to remove the first key):
 ```lua
 dogs = {
   Simba = 14,
@@ -79,6 +79,6 @@ dogs = {
 
 ## Footnotes
 
-[1: valid Lua identifier]
+[1: Valid Lua Identifier]
 
-It starts with a letter or underscore and contains only letters, digits, and underscores.
+An identifier that starts with a letter or underscore and contains only letters, digits, and underscores. The letters can be either upper or lower case.

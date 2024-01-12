@@ -18,17 +18,19 @@ revisionQuestion:
 
 ## Content
 
-Unlike Vector3, the math is not so straightforward with CFrames. *To add* CFrames with other CFrames, you must use an **asterix**. 
+Unlike Vector3, the math is not so straightforward with `CFrames`. *To add* CFrames with other CFrames, you must use an **asterix**. 
 
 ```lua
-Variable.Property = CFrame.new() * CFrame.new()
+Variable.Property = CFrame.new(X, Y, Z) * CFrame.new(X, Y, Z)
 ```
 
 An asterix is also used when you want to **include both position and orientiation data**. 
 
 ```lua
-Variable.Property = CFrame.new() * CFrame.Angle()
+Variable.Property = CFrame.new(X, Y, Z) * CFrame.Angle(X, Y, Z)
 ```
+
+> Don't forget that these CFrame values still have to be set, these examples are just showing the general syntax.
 
 ---
 

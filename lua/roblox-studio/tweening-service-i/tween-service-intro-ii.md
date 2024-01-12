@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-Most developers tend to use **TweenService** instead of making loops. It is an animation tool that can be explained as **going from point A to point B**. However, what's interesting is that these *points do not necessarily have to be positions*. 
+Most developers tend to use `TweenService`. It is **an animation tool** that can be explained as **going from point A to point B**. However, what's interesting is that these *points do not necessarily have to be positions*. 
 
 For instance, we can have an orientation change consistently over a period of time!
 
@@ -33,7 +33,7 @@ Tweenservice is a tool that... ???
 - Lets you go from point A to point B
 - Destroy objects
 - Clone Objects
-- Only moves objects from poinnt A to point B
+- Only moves objects from point A to point B
 
 ---
 

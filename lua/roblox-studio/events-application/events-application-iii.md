@@ -24,9 +24,9 @@ In Roblox, **what gives an avatar functionality** is the special object: `Humano
 ```lua
 lavaVar = game.Workspace.Lava
 lavaVar.Touched:Connect(function(part)
-  local avatar = part.Parent  --Using local since its used only for this event function.
-  if avatar:FindFirstChild("Humanoid") then
-		avatar.Humanoid.Health = 0 --Set the current health to 0, which kills the avatar.
+  local avatar = part.Parent
+  if avatar:FindFirstChild("Humanoid") then -- If the part is a part of the avatar
+		avatar.Humanoid.Health = 0 -- Set the current health to 0, which kills the avatar.
 	end
 end)
 ```

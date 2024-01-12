@@ -19,11 +19,14 @@ revisionQuestion:
 ## Content
 If you're familiar with vectors in math, you'd know that vectors have a lot of math applications to it. In Roblox Studio, they work the same way.
 
-To start, you can add or subtract Vector3's.
+To start, you **can add or subtract `Vector3`**.
 
 ```lua
-Var = Vector3.new() + Vector3.new() --add
-Var = Vector3.new() - Vector3.new() --subtract
+-- Adding Vector3
+Var = Vector3.new(1, 1, 1) + Vector3.new(1, 2, 3) -- (2, 3, 4)
+
+-- Subtracting Vector3
+Var = Vector3.new(2, 3, 4) - Vector3.new(1, 1, 1) -- (1, 2, 3)
 ```
 
 > Each operation is done only with their respective dimension (X values with X, Y values with Y, Z values with Z).

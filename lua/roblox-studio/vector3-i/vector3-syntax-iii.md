@@ -18,11 +18,16 @@ revisionQuestion:
 
 ## Content
 
-With Vector3, you can also change the **orientation**. It follows the same exact syntax, except that **degrees are used in the syntax**.
+With `Vector3`, you can also change the **orientation**. It follows the same exact syntax as creating vectors, except that **degrees are now used over lengths in the syntax**. 
+
+For example:
 
 ```lua
 partVariable.Orientation = Vector3.new(90, 180, 359)
+-- Changing the orientation of the part variable.
 ```
+
+> The three positions still represent x, y, and z respectively, so you can choose the direction of orientation.
 
 ---
 

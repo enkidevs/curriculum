@@ -20,17 +20,16 @@ revisionQuestion:
 
 There is **no specific syntaxes** for subtracting, multiplying, or dividing CFrames. 
 
-there are situations when you would add, multiply, or subtract a CFrame with a Vector3. 
+However, **it is possible to add, multiply, or subtract** a `CFrame` with a `Vector3`. 
 
 ```lua
-Variable.Property = CFrame.new() + Vector3.new() 
---produces CFrame
-Variable.Property = CFrame.new() - Vector3.new()
---produces CFrame
-Variable.Property = CFrame.new() * Vector3.new()
---produces Vector3
+Variable.Property = CFrame.new(X, Y, Z) + Vector3.new(X, Y, Z) 
+-- Produces CFrame
+Variable.Property = CFrame.new(X, Y, Z) - Vector3.new(X, Y, Z)
+-- Produces CFrame
+Variable.Property = CFrame.new(X, Y, Z) * Vector3.new(X, Y, Z)
+-- Produces Vector3
 ```
-
 ---
 
 ## Practice

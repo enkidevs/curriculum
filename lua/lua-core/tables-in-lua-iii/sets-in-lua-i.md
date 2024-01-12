@@ -41,15 +41,15 @@ True or false: The values of the keys DO matter when creating a set, and must be
 
 ???
 
-- false
-- true
+- False
+- True
 
 ---
 
 ## Revision
 
 
-Finish the code below such that a set called `elements` is created with the following keys: `fire`, `earth`, `wind`.
+Finish the code below such that a set called `elements` is created with the following keys with the given order: `earth`, `wind`, `fire`.
 
 ```lua
 ??? = {

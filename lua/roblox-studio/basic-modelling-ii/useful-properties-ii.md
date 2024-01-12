@@ -18,9 +18,9 @@ revisionQuestion:
 
 ## Content
 
-Using the **size** property, the *height, width, and length can be changed* by changing the X, Y, and Z values. 
+Using the `size property`, the *height, width, and length can be changed* by changing the X, Y, and Z values. 
 
-> Refer to the cube in the top right to know the dimension directions.
+> Refer to the cube in the top right of the studio to know the dimension directions.
 
 ![dimension-cube](https://img.enkipro.com/c7172b7ad986932ab0b6493ef59b1cfc.png)
 

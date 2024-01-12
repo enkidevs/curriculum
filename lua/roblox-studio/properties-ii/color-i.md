@@ -17,13 +17,13 @@ revisionQuestion:
 ---
 
 ## Content
-Don't confuse Color and BrickColor! They may have the same function, but their **syntax is different**.
+Don't confuse `Color` and `BrickColor`! They may have the same function, but their **syntax is different**.
 
-For Color, you will use **Color3** when declaring `new()` .
+For Color, you will use `Color3` when declaring `new()` .
 
 ```lua
 partVariable.Color = Color3.new()
---Declare Color3 when using the Color property
+-- Declare Color3 when using the Color property
 ```
 
 ---

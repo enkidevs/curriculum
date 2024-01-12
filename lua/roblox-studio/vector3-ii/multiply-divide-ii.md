@@ -18,13 +18,11 @@ revisionQuestion:
 
 ## Content
 
-Finally, you can multiply or divide a Vector3 by a number.
-
-> Each operation is done only with their respective dimension (X values with X, Y values with Y, Z values with Z).
+Finally, you can multiply or divide a Vector3 by a number. When doing so, the **mathematic operation will be applied to all three dimensions**.
 
 ```lua
-Var = Vector3.new() * 5 --multiply by number 5
-Var = Vector3.new() / 5 --divide by number 5
+Var = Vector3.new() * 5 -- Multiply x, y, z by number 5
+Var = Vector3.new() / 5 -- Divide x, y, z by number 5
 ```
 
 > Did you know that you can also put placeholder variables in the parameter like "i"? How can you make use of this information?

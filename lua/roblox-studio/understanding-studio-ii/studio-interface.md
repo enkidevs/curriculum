@@ -24,11 +24,11 @@ To start, when you open up Studio and login, choose the *classic* baseplate and 
 
 ![how-to-open-interfaces](https://img.enkipro.com/16963aa3331f712371ecb174c33bd5da.png)
 
-**Explorer** displays instances of the entire game in a **hierarchical** system, known as **services**[1].
+`Explorer` displays instances of the entire game in a **hierarchical** system, known as **services**[1].
 
-**Properties** displays the **properties** of an object or class.
+`Properties` displays the **properties** of an object or class.
 
-**Output** displays any **script outputs** such as print statements.
+`Output` displays any **script outputs** such as print statements.
 
 ---
 

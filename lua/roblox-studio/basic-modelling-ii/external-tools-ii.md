@@ -17,7 +17,8 @@ revisionQuestion:
 ---
 
 ## Content
-The next important thing to get from toolbox would be **plugins**! Next to the search bar, *press on models* to *open a list*, then *press on plugins*.
+
+The next important thing to get from `toolbox` would be `plugins`! Next to the search bar, *press on `models`* to *open a list*, then *press on `plugins`*.
 
 ![plugin-toolbox](https://img.enkipro.com/fece32ac5e6a675abab984269c83d16f.png)
 
@@ -25,7 +26,7 @@ These plugins can **provide extra tools**, such as terrain builders, edge smooth
 
 > While most professional plugins require payment, some of the free plugins still work fine. It's recommended to do some research before downloading a plugin.
 
-I personally like *F3X building tools*, as its **free** and lets you **model efficiently** with keybinds. 
+We personlly recommend *F3X building tools*, as its **free** and lets you **model efficiently** with keybinds. 
 
 ---
 

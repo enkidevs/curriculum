@@ -21,11 +21,11 @@ revisionQuestion:
 
 ## Content
 
-Easing style is **how movement is animated**. It can have *linear* movement, *exponential* movement, or even have a *bouncy* style of movement.
+`Easing style` is **how movement is animated**. It can have *linear* movement, *exponential* movement, or even have a *bouncy* style of movement.
 
 > All types of movements can be found in the Learn More section. 
 
-The syntax for this style is: `Enum.EasingStyle.TypeOfMovement`, where you will replace the TypeofMovement with the movement style.
+The syntax for this style is: `Enum.EasingStyle.TypeOfMovement`, where you will replace the "**TypeofMovement**" with the movement style.
 
 ---
 

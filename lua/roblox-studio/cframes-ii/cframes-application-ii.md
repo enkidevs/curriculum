@@ -20,7 +20,7 @@ revisionQuestion:
 
 Now that we have the basic skeleton set up for the infinite loop, let's now make changes to the actual part.
 
-Since we intend to have `i` be **involved in changing the orientation**, it'll have to **act as one of the parameters** in CFrame. This way, everytime the *for loop* activates, the orientation *changes slightly*.
+Since we intend to have `i` be **involved in changing the orientation**, it'll have to **act as one of the parameters** in `CFrame`. This way, everytime the *for loop* activates, the orientation *changes slightly*.
 
 Of course, don't forget to add a part and create the variable to associate it with. Play around with the block size for better visualization.
 
@@ -30,7 +30,7 @@ Of course, don't forget to add a part and create the variable to associate it wi
 while true do
     for i = 1, 360 do
         partVariable.CFrame = partVariable.CFrame * CFrame.Angles(0, math.rad(i), 0)
-        --starts at radian 1, and increments by 1 each loop
+        -- Starts at radian 1, and increments by 1 each loop
         wait()
     end
 end

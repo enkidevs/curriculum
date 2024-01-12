@@ -23,7 +23,9 @@ Here's an example code that demonstrates how to use events in Lua:
 -- Create an event
 local event = {}
 ```
-In this example, we **define an event** called `event` and **attach a function** called `handler` to it **using colon notation**. 
+In this example, we **define an event** called `event`.
+
+In the code below, we **attach a function** called `handler` to it **using colon notation**. 
 
 ```lua
 -- Define a function to be called when the event is triggered

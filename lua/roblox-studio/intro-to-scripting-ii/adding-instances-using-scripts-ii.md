@@ -21,14 +21,14 @@ So, what happened? Did reality decide to break the laws and materialize an objec
 
 Why? Well, we created a new instance, but Studio doesn't know which service it will be placed in. Thus, it won't be placed at all within the game. 
 
-This time, let's give the new instance a parent.
+This time, let's give the new instance a parent. This can be done by storing it in a variable and setting the parent.
 
 ```lua
 newInstance = Instance.new("Part")   
---create and store the new instance as a variable.
+-- Create and store the new instance as a variable.
 
 newInstance.Parent = Workspace
---set the Parent of the variable to workspace.
+-- Set the Parent of the variable to workspace.
 ```
 Finally, a new instance should be placed in Workspace and now shows up in-game.
 

@@ -20,7 +20,7 @@ revisionQuestion:
 
 When considering the functionality of some functions, you should come to realize that not everything should happen at once. 
 
-We can use boolean and loops that activate when a certain condition is met.
+We can use boolean and loops that activate when a certain condition is met to ensure multiple functions don't run at once.
 
 **Time** is a good way to determine behaviour, especially in Roblox where time is often used to set off specific events. Hence, we introduce `wait()`.
 

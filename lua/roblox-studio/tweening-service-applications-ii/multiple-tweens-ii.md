@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-Now create a while loop to continously play the animations. Play the first animation and in the line after, make sure you wait the duration of the animation before playing the next. Repeat the wait command so it waits for the next animation.
+Now create a while loop to continously play the animations. Play the first animation and in the line after, **make sure you wait the duration of the animation** before playing the next. Repeat the wait command so it waits for the next animation.
 
 ```lua
 --Create a new Tween animation variable.
@@ -30,14 +30,14 @@ while true do
 	wait(10) --Important to prevent animations from overlapping.
 	Tween2:Play()
 	wait(10) 
-    --wait() is also important in ensuring the code doesn't run too fast.
 end
 ```
 
-> While not changing the reverses and repeatCount value won't change much in this example, it's advised to do so for future tweening creations, as we want to play the next animation instead of repeating it.
+> While keeping the reverses and repeatCount value won't change much in this example, it's advised to do so for future tweening creations, as we want to play the next animation instead of repeating it.
 
 Now you've made a spinning block with various attributes! You can use this as a platform, lava block, or even add more to it!
 
+> The next insight will contain the entire code for the tween animation.
 ---
 
 ## Practice

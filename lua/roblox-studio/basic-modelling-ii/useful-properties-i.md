@@ -18,9 +18,9 @@ revisionQuestion:
 
 ## Content
 
-Aside from using the move, scale, and rotate options in the tools section, you can also change some properties to achieve your desired shape. 
+Aside from using the move, scale, and rotate options in the tools section, you can also change other properties to further manipulate the object. 
 
-In particular, you can consider using transform properties, such as **size** and **CFrame**. They are useful as they allow for even *greater precision in movement and scaling*. 
+In particular, you can consider using `transform properties`, such as **size** and **CFrame**. They are useful as they allow for even *greater precision in movement and scaling*. 
 
 ![transform properties](https://img.enkipro.com/31722ed1b12fedbf4a519cfdf33d3971.png)
 

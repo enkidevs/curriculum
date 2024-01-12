@@ -18,18 +18,18 @@ revisionQuestion:
 
 ## Content
 
-**Parent** is the property that **states an instance's parent**. To change it, set the variable equal to the **location of the parent**.
+`Parent` is the property that **states an instance's parent**. To change it, set the variable equal to the **location of the parent**.
 
 > Remember to follow the hierarchy system.
 
 ```lua
 partVariable.Parent = game.Workspace.Baseplate
---When the script runs, the part will now be found under Baseplate.
---Useful for organizing instances after updating them.
+-- When the script runs, the part will now be found under Baseplate.
+-- Useful for organizing instances after updating them.
 ```
 The code is very reminiscent of creating a new instance.
 
-> Archivable Property should be ignored, as its usage is very niche and won't be used very often, if not at all.
+> `Archivable Property` should be ignored, as its usage is very niche and won't be used very often, if not at all.
 
 ---
 

@@ -21,9 +21,11 @@ revisionQuestion:
 
 Throughout this introductory course, there are three other services that should be remembered. 
 
+
 ### ServerScriptService
 
 A *private*[1] storage for your scripts[2], accessed through Studio only.
+
 
 ### ServerStorage and ReplicatedStorage
 

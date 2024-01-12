@@ -8,7 +8,7 @@ practiceQuestion:
   context: standalone
 revisionQuestion:
   formats:
-    - fill-in-the-gap
+    - type-in-the-gap
   context: standalone
 
 
@@ -36,7 +36,7 @@ io.write(file, "Hello, world!\n") -- writes `Hello, world!\n` to file using io.w
 file:close() -- closes `output.txt`
 ```
 
-This will create a file called `output.txt` in the same directory as the Lua script, if it doesn't already exist, and write the specified string to it.
+This will create a file called `output.txt` in the same directory as the Lua script,if it doesn't already exist, and write the specified string to the output file.
 
 ---
 ## Practice
@@ -55,7 +55,7 @@ file:???
 ```
 
 - `open`
-- `r`
+- `w`
 - `write`
 - `file`
 - `close()`
@@ -78,7 +78,7 @@ file:???
 ```
 
 - `open`
-- `r`
+- `w`
 - `write`
 - `file`
 - `close()`

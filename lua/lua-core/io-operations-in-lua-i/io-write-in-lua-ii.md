@@ -19,7 +19,7 @@ revisionQuestion:
 
 By default, `io.write()` writes to the standard output (often the console or terminal). However, it can be used to write to a file by passing a file object as the first argument, obtained using `io.open()` or another file I/O function.
 
-> `io.write()` does not automatically add a newline character at the end of the output. Must add it explicitly with the `"\n"` escape sequence.
+> `io.write()` does not automatically add a newline character at the end of the output. It must be added explicitly with the `"\n"` escape sequence.
 
 ---
 
@@ -27,10 +27,11 @@ By default, `io.write()` writes to the standard output (often the console or ter
 
 By default, where does `io.write()` write statements to? ???
 
-- Console or terminal often
-- A file
+- Often the console or terminal
+- Only the console
 - A folder
 - A file on your desktop
+- Only the terminal
 
 ---
 

@@ -16,15 +16,16 @@ We can do this through code. To start, let's declare a new instance in a script 
 
 ```lua
 Instance.new()
---combining new() with Instance declares that we're creating a new instance.
+-- combining new() with Instance declares that we're creating a new instance.
 ```
 
-Now within the parameters, we need to add the specific type of instance we want.
+Now within the parameters, we need to add the desired type of instance.
 
 > The name of all instances can be found in the object browser.
 
 ```lua
 Instance.new("Part")
+-- including an instance that's a "part"
 ```
 
 Run this script, and see what happens.

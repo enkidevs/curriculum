@@ -17,7 +17,7 @@ revisionQuestion:
 ---
 
 ## Content
-Scaling objects is also pretty easy. While selecting the block, click on **scale** next to the **move button in the tools** section. 
+Scaling objects is also pretty easy. While selecting the block, click on `scale` next to the **move button in the tools** section. 
 
 This time, there'll be **red, blue, and green spheres** instead of arrows, indicating you're using the scale tool. To stretch or compress an object, click on one of the spheres and drag them in their respective directions.
 

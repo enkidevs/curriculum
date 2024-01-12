@@ -18,13 +18,16 @@ revisionQuestion:
 
 ## Content
 
-You can also multiply and divide Vector3's together. 
+You can also multiply and divide `Vector3` together. 
 
-> Each operation is done only with their respective dimension (X values with X, Y values with Y, Z values with Z).
+> Reminder that each operation is done only with their respective dimension (X values with X, Y values with Y, Z values with Z).
 
 ```lua
-Var = Vector3.new() * Vector3.new() --multiply
-Var = Vector3.new() / Vector3.new() -- divide
+-- Multiply Vector3
+Var = Vector3.new(1, 1, 1) * Vector3.new(1, 2, 3) -- (1, 2, 3)
+
+-- Divide Vector3
+Var = Vector3.new(1, 2, 3) / Vector3.new(1, 2, 3) -- (1, 1, 1)
 ```
 
 ---

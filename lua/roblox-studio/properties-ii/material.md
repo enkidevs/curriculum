@@ -21,11 +21,11 @@ revisionQuestion:
 The **material**, once called, can be adjusted by setting the variable to be equal to the **name of the material in quotation marks**.
 
 ```lua
-partVariable.Material = "Plastic" --The Part has a plastic look
-partVariable.Material = "Cobblestone" --The Part now has a rocky look 
+partVariable.Material = "Plastic" -- The Part has a plastic look
+partVariable.Material = "Cobblestone" -- The Part now has a rocky look 
 ```
 
-> You can find the list of materials in the Appearance section in the property table.
+> You can find the list of materials in the `Appearance section` in the property table.
 
 ---
 

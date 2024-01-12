@@ -19,7 +19,7 @@ revisionQuestion:
 
 In Lua, developers can write **code that listens for specific events**, such as user input or changes to the state of the application, and **responds accordingly**. 
 
-Examples of events in Lua include:
+Examples of more complex events in Lua include:
 - mouse clicks
 - key presses
 - network events
@@ -45,7 +45,7 @@ What should programmers use to create interactive applications that provide smoo
 
 ## Revision
 
-Richie wants to write a program that will take a snapshot when he wants to. What type of signal should he use? ???
+Richie wants to write a program that will take a snapshot when he presses a specific combination of keys. What type of signal should he use? ???
 
 - Key presses
 - Timer Events

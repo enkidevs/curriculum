@@ -18,13 +18,14 @@ revisionQuestion:
 
 ## Content
 
-To change a property, we must **first access the part**. One way of accessing it can be done through **variables**[1]. 
+To change a property, we must **first access the part**. One way of accessing it can be done through `variables`[1]. 
 
 To indicate that we want to access a property, we can simply **add a period after the variable, followed by the property**.
 
 ```lua
 partVariable = game.Workspace.Part
---Let's say we want to access the BrickColor property.
+
+-- To access the BrickColor property.
 partVariable.Brickcolor
 ```
 

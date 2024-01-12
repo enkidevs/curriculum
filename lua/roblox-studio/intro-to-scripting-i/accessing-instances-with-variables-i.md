@@ -23,11 +23,11 @@ Variables are important in Roblox Studio as they **can directly store objects an
 
 > The available options that can change these types of variables will be focused in the properties workouts.
 
-To reference an element, we must *first declare a variable*. Let's create a variable that will hold the baseplate of the game.
+To reference an element, we must *first declare a `variable`*. Let's create a variable that will hold the baseplate of the game.
 
 ```lua
 baseplateVariable = 
---Declare variable 
+-- Declare variable 
 ```
 ---
 ## Practice

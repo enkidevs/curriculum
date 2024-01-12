@@ -46,9 +46,6 @@ print(storage["???"])
 
 - `storage`
 - `firstFloor`
-- `Furniture`
-- `secondFloor`
-- `thirdFloor`
 
 ---
 

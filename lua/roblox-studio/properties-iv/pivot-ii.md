@@ -17,7 +17,7 @@ revisionQuestion:
 ---
 
 ## Content
-The **orientation offset changes the X, Y and Z directions of the rotate** tool.
+The `orientation offset` **changes the X, Y and Z directions of the rotate** tool.
 
 ![orientation-change](https://img.enkipro.com/b4793c90a9b80333aca16250fed8deed.png)
 
@@ -25,10 +25,10 @@ Similarly to position offset, any changes to the value will change the orientati
 To change the orientation, you must declare the angle of a CFrame.
 
 ```lua
---The property is still PivotOffset.
+-- The property is still PivotOffset.
 variable.PivotOffset =  CFrame.Angles(0,math.rad(90),0)
---Note that Angles() only understands radians. 
---Use the math.rad() function to input radians as degrees.
+-- Note that Angles() only understands radians. 
+-- Use the math.rad() function to input radians as degrees.
 ```
 ---
 
