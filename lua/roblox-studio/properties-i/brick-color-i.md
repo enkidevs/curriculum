@@ -52,7 +52,7 @@ partVariable.??? = BrickColor.???
 
 ## Revision
 
-I want to change my part to "Bright Blue". To do so, I'll write the following code:
+To change the part to "Bright Blue", the following code should be written:
 
 ```lua
 partVariable.BrickColor = ???.???
