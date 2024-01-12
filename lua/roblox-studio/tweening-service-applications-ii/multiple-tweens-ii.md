@@ -38,6 +38,7 @@ end
 Now you've made a spinning block with various attributes! You can use this as a platform, lava block, or even add more to it!
 
 > The next insight will contain the entire code for the tween animation.
+
 ---
 
 ## Practice
