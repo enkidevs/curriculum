@@ -2,7 +2,7 @@
 author: Stefan-Stojanovic
 category: must-know
 type: normal
-link:
+links:
   - >- 
     [Intro to Coding in Garry's Mod](https://wiki.facepunch.com/gmod/Beginner_Tutorial_Intro){website}
 practiceQuestion:
