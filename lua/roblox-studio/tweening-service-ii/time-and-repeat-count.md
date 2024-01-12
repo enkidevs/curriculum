@@ -18,10 +18,14 @@ revisionQuestion:
 
 ## Content
 
+---
+
 ### Time
 The `time` variable refers to the *length of the animation in seconds*. If you want a quicker animation, keep the seconds small. If you'd like the animation to be longer, increase the time. 
 
 > Other properties may do better with quicker or faster animations, such as color changes and the degreee of which it changes.
+
+---
 
 ### repeatCount
 

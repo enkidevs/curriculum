@@ -25,7 +25,11 @@ partVariable = game.Workspace.Part
 partVariable.Event:Connect(function()
 end)
 ```
-`Event` represents the specific event you'd like to apply and `function()` represents the function you'd like to connect with the event (***"function()" is included***, as you'll add the function after it). Now, unlike regular Lua code where you would connect functions and events through a colon, you **must use `:Connect()`.**
+`Event` represents the specific event you'd like to apply and `function()` represents the function you'd like to connect with the event. 
+
+> **`function()` is included** in the syntax and should not be removed.
+
+Now, unlike regular Lua code where you would connect functions and events through a colon, you **must use `:Connect()`.**
 
 ---
 ## Practice

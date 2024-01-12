@@ -35,9 +35,9 @@ The code is very reminiscent of creating a new instance.
 
 ## Practice
 
-Let's say I made a script that changes incomplete instances into complete ones, and I want to differentiate the incomplete ones from the complete ones by using different parents. 
+Let's say you made a script that changes incomplete instances into complete ones, and you want to differentiate the incomplete ones from the complete ones by using different parents. 
 
-Finish the code that lets me change the parent of a newly completed instance to a parent called "Complete" in Baseplate.
+Finish the code that lets you change the parent of a newly completed instance to a parent called "Complete" in Baseplate.
 
 ```lua
 completedPartVariable = game.Workspace.Baseplate.Incomplete
@@ -53,9 +53,9 @@ completedPartVariable.??? = game.Workspace.Baseplate.???
 
 ## Revision
 
-Let's say I made a script that changes incomplete instances into complete ones, and I want to differentiate the incomplete ones from the complete ones by using different parents. 
+Let's say you made a script that changes incomplete instances into complete ones, and you want to differentiate the incomplete ones from the complete ones by using different parents. 
 
-Finish the code that lets me change the parent of a newly completed instance to a parent called "Complete" in Baseplate.
+Finish the code that lets you change the parent of a newly completed instance to a parent called "Complete" in Baseplate.
 
 ```lua
 completedPartVariable = game.Workspace.Baseplate.Incomplete

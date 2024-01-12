@@ -20,7 +20,7 @@ revisionQuestion:
 
 As for `EasingDirection`, it refers to **the direction the easing style will play in.**
 
-`"In` will play the style **forwards**, `Out` will play the style in **reverse**, and `InOut` will play the style **forwards for the first half**, then **reverse for the second half**.
+`In` will play the style **forwards**, `Out` will play the style in **reverse**, and `InOut` will play the style **forwards for the first half**, then **reverse for the second half**.
 
 The Syntax for this direction is: `Enum.EasingDirection.Direction`, where you will replace **"Direction"** with one of the three directions mentioned previously.
 
@@ -28,9 +28,7 @@ The Syntax for this direction is: `Enum.EasingDirection.Direction`, where you wi
 
 ## Practice
 
-Finish the syntax for Easing Direction if the style should play in reverse.
-
-`Enum.EasingDirection. ??? `
+Which easing direction should be used if the style should play in reverse? ???
 
 - Out
 - In
@@ -40,9 +38,7 @@ Finish the syntax for Easing Direction if the style should play in reverse.
 
 ## Revision
 
-Finish the syntax for Easing Direction if the style should play forwards.
-
-`Enum.EasingDirection. ??? `
+Which easing direction should be used if the style should play forwards? ???
 
 - In
 - Out

@@ -14,6 +14,6 @@ Now, obstacle courses may primarily be platforming, but you **don't have to limi
 
 For instance, using the current content from this introductory course, *why not consider secret paths using collision properties*? Invisible paths, temporary paths, maybe even create a walk-through wall?
 
-> Remember how I asked what kind of obstacle you would have made in a previous insight? Try to figure it out using what you know. If it feels too complicated, then try thinking of intermediate tools that may exist to help with your ideas!
+> Try to spend some time on creating obstacles using what you know. If it feels too complicated, take some inspiration from other games!
 
 ---

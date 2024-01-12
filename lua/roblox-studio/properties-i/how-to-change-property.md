@@ -50,7 +50,7 @@ To access the "Transparency" property of the "blockVariable" variable, the follo
 
 ## Revision
 
-I want to access the "Transparency" property of the "blockVariable" variable. The following code grants us this access:
+To access the "Transparency" property of the "blockVariable" variable, the following code grants us this access:
 ```lua
 ???.???
 ```

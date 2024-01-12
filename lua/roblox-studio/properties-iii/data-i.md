@@ -33,9 +33,9 @@ partVariable.Name = "Edited Part"
 ---
 
 ## Practice
-Let's say I made a script that changes incomplete instances into complete ones, and I want to differentiate the incomplete ones from the complete ones by editing their names. 
+Let's say you made a script that changes incomplete instances into complete ones, and you want to differentiate the incomplete ones from the complete ones by editing their names. 
 
-Finish the code that lets me change the name of a newly completed instance to "Updated3.3" in Baseplate.
+Finish the code that lets you change the name of a newly completed instance to "Updated3.3" in Baseplate.
 
 ```lua
 completedPartVariable = game.Workspace.Baseplate.Incomplete
@@ -50,9 +50,9 @@ completedPartVariable.??? = ???
 
 ## Revision
 
-Let's say I made a script that changes incomplete instances into complete ones, and I want to differentiate the incomplete ones from the complete ones by editing their names. 
+Let's say you made a script that changes incomplete instances into complete ones, and you want to differentiate the incomplete ones from the complete ones by editing their names. 
 
-Finish the code that lets me change the name of a newly completed instance to "Updated3.3" in Baseplate.
+Finish the code that lets you change the name of a newly completed instance to "Updated3.3" in Baseplate.
 
 ```lua
 completedPartVariable = game.Workspace.Baseplate.Incomplete

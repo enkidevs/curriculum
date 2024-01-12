@@ -22,6 +22,7 @@ The `orientation offset` **changes the X, Y and Z directions of the rotate** too
 ![orientation-change](https://img.enkipro.com/b4793c90a9b80333aca16250fed8deed.png)
 
 Similarly to position offset, any changes to the value will change the orientation respective to their X, Y, Z dimension.
+
 To change the orientation, you must declare the angle of a CFrame.
 
 ```lua

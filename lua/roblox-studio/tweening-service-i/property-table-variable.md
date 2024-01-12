@@ -21,7 +21,7 @@ revisionQuestion:
 
 The `PropertyTable` is a local variable and an array or a table. 
 
-*Each element* in the array will **hold the data for a changed property**. Think of this as the properties for a moment in time for an object, as you'll likely have multiple `PropertyTables` for various moments in time.
+*Each element* in the array will **hold the data for a changed property**. Think of this as the properties for a moment in time for an object, and just like an animation with frames, you'll have multiple `PropertyTables` to represent different changes across time.
 
 > Remember to put semi-colon after every element in the table!
 

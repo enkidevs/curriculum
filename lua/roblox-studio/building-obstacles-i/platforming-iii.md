@@ -13,7 +13,7 @@ category: how-to
 
 Don't forget that **you can change position and orientation**! You can making platforms that shrink or grow, perhaps give them a spin, or be simplistic and have them function as rudementary elevators! Once again, this is **YOUR CHOICE**.
 
-For instance, let's create a spinning platform to make it difficult for the player: [1].
+For instance, let's create a spinning platform to make it difficult for the player: [1]
 
 This is just a base, **you can keep adding on to it**! Add length adjustments or position changes. In fact, why not combine dynamic changes with physical changes such as changing collision and transparency? 
 
