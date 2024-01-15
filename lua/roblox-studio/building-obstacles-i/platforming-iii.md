@@ -11,7 +11,7 @@ category: how-to
 
 ## Content
 
-Don't forget that **you can change position and orientation**! You can making platforms that shrink or grow, perhaps give them a spin, or be simplistic and have them function as rudementary elevators! Once again, this is **YOUR CHOICE**.
+Don't forget that **you can change position and orientation**! You can make platforms that shrink or grow, perhaps give them a spin, or be simplistic and have them function as rudimentary elevators! Once again, this is **YOUR CHOICE**.
 
 For instance, let's create a spinning platform to make it difficult for the player: [1]
 
@@ -32,13 +32,13 @@ local info = TweenInfo.new(15, Enum.EasingStyle.Linear, Enum.EasingDirection.Out
 --reverses boolean should be false since we only want one direction
 --to keep infinitely spinning, set repeatCount to -1
 local PropertyTable = { 
-	Orientation = Vector3.new(0, 359, 0) --only orientation in this element, so use vector3
+    Orientation = Vector3.new(0, 359, 0) --only orientation in this element, so use vector3
 }
 
 local Tween1 = TweenService:Create(partVar, info, PropertyTable)
 
 while true do
-	Tween1:Play()
-	wait(10) 
+    Tween1:Play()
+    wait(10) 
 end
 ```

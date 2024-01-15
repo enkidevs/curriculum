@@ -21,7 +21,7 @@ Variables are important in Roblox Studio as they **can directly store objects an
 
 ![variable-referencing-diagram](https://img.enkipro.com/cab77f31b9f8023a4369582118573e8f.png)
 
-> The available options that can change these types of variables will be focused in the properties workouts.
+> The available options that can change these types of variables will be focused on the properties workouts.
 
 To reference an element, we must *first declare a `variable`*. Let's create a variable that will hold the baseplate of the game.
 
@@ -46,7 +46,7 @@ From the code above, the variables that were defined are ???
 ---
 
 ## Revision
-The reason why variables are so useful in studio is because they can provide a/an ??? to instances while scripting
+The reason why variables are so useful in Studio is because they can provide a/an ??? to instances while scripting
 
 - Access point
 - Extra property

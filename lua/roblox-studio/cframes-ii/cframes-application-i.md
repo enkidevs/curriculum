@@ -19,7 +19,7 @@ revisionQuestion:
 ## Content
 You might be wondering why scripting CFrames are so important when we can add them manually. You see, by coding CFrames, they can be **dynamic** and **be coded to change depending on behaviour!** 
 
-For instance you can have CFrames constantly follow a player to place effects and GUIs above a specific player! This is the beauty of CFrames, but also how complicated it can get within the code.
+For instance, you can have CFrames constantly follow a player to place effects and GUIs above a specific player! This is the beauty of CFrames, but also how complicated it can get within the code.
 
 For now, let's use CFrames to **spin an object forever**. To do so, create a **while loop** and have the condition set to `true`. We'll not be changing this value.
 

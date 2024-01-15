@@ -20,7 +20,7 @@ revisionQuestion:
 
 For this insight, we'll be changing the **color** of a brick through animation. 
 
-> Note that we will be continously adding on to the code of the previous insight.
+> Note that we will be continuously adding on to the code of the previous insight.
 
 To begin, insert a brick and manually change its color to a bright red hue. Since we'll be changing colors, we'll be working with the Color property in the propertyTable. 
 

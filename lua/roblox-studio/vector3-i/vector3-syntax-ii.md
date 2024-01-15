@@ -24,7 +24,7 @@ In the parameters, you put the **values for the X, Y, and Z axis** of a vector. 
 partVariable = Vector3.new(5,0,0)
 -- Creates a vector that has a length of 5 in the X direction
 ```
-> Note that **running this code by itself does nothing**, as you *only created a vector*. It only changes when its applied to a compatible property. I.e. `partVariable.Size = Vector3.new(5,0,0)`.
+> Note that **running this code by itself does nothing**, as you *only created a vector*. It only changes when it's applied to a compatible property. I.e. `partVariable.Size = Vector3.new(5,0,0)`.
 
 ---
 

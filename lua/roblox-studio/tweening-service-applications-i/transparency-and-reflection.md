@@ -47,6 +47,6 @@ If in the propertyTable, the transparency was set to 1, while the object has a t
 
 If in the propertyTable, the reflectance was set to 1, while the object has a reflectance of 0 to begin with, the object will... ???
 - Become fully reflective, which removes the color
-- Become fully reflective but maintains the color
-- Lose all of its reflectance and loses its color
-- Lose all of its reflectance but maintains the color
+- Become fully reflective but maintain the color
+- Lose all of its reflectances and loses its color
+- Lose all of its reflectances but maintains the color

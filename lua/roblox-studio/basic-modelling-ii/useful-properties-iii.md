@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-`Anchored`, found in the `Part section`, is a property thats very useful when building obbys. When set to true, it will be anchored in space[1].
+`Anchored`, found in the `Part section`, is a property that's very useful when building obbys. When set to true, it will be anchored in space[1].
 
 ![anchored-property](https://img.enkipro.com/0a246b29c1c062df30fa34bb23e29e7d.png)
 

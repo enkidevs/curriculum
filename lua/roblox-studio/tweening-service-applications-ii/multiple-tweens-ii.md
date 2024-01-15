@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-Now create a while loop to continously play the animations. Play the first animation and in the line after, **make sure you wait the duration of the animation** before playing the next. Repeat the wait command so it waits for the next animation.
+Now create a while loop to continuously play the animations. Play the first animation and in the line after, **make sure you wait for the duration of the animation** before playing the next. Repeat the wait command so it waits for the next animation.
 
 ```lua
 --Create a new Tween animation variable.
@@ -26,10 +26,10 @@ local Tween2 = TweenService:Create(partVar, info, PropertyTable2)
 
 --Use a while loop to make the animations play infinitely.
 while true do
-	Tween1:Play()
-	wait(10) --Important to prevent animations from overlapping.
-	Tween2:Play()
-	wait(10) 
+  Tween1:Play()
+  wait(10) --Important to prevent animations from overlapping.
+  Tween2:Play()
+  wait(10) 
 end
 ```
 

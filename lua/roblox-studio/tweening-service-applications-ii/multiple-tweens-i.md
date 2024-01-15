@@ -12,7 +12,7 @@ category: must-know
 ## Content
 If you've followed the examples, you'd notice that the *rectangle doesn't spin 360° forever*, as it will make one rotation before spinning backwards.
 
-This is when you would want to **use multiple tweens and a loop**! To do this, *create another tween* (the tween variable and PropertyTable) and *reverse every change* you made in first tween **except orientation**, as we want to keep the rotation.
+This is when you would want to **use multiple tweens and a loop**! To do this, *create another tween* (the tween variable and PropertyTable) and *reverse every change* you made in the first tween **except orientation**, as we want to keep the rotation.
 
 ```lua
 --Create a new property table. However, keep the orientation.

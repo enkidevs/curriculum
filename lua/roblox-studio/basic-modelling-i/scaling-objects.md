@@ -38,7 +38,7 @@ When using the scale tool, the shapes you'll see surrounding the parts are... ??
 
 ## Revision
 
-The scale tool allows you to ??? and stretch an object in their respective direction.
+The scale tool allows you to ??? and stretch an object in its respective direction.
 
 - Compress
 - Rotate

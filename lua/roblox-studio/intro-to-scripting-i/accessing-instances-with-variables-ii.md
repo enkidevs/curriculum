@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-To create the connection point to the baseplate, we *must create a path through the hiearchichal system* of Roblox Studio. Like a Windows file system, we **must access each parent folder** before reaching the desired file. 
+To create the connection point to the baseplate, we *must create a path through the hierarchical system* of Roblox Studio. Like a Windows file system, we **must access each parent folder** before reaching the desired file. 
 
 In the image below, the **"parents"** are highlighted, which represent the path that must be taken. In the example below, the pathway to "Texture" is shown.
 

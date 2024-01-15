@@ -19,7 +19,7 @@ revisionQuestion:
 
 ## Content
 
-If you scrolled through the property window, the amount of options may seem daunting. Don't fret! They're not as complicated as they seem. We'll briefly go over what they do.
+If you scroll through the property window, the amount of options may seem daunting. Don't fret! They're not as complicated as they seem. We'll briefly go over what they do.
 
 
 ### Visual Aspects
@@ -27,7 +27,7 @@ The **Appearance** and **Transform** aspects in this section deal with the visua
 
 
 ### The Data Aspect
-**Data** serves a simple purpose of holding information about the part, such as its name and the parent its found under.
+**Data** serves the simple purpose of holding information about the part, such as its name and the parent its found under.
 
 
 ---

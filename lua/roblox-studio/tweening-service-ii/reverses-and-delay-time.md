@@ -21,7 +21,7 @@ revisionQuestion:
 
 `Reverses` is a **boolean variable** that determines **whether the animation plays in reverse** when it initially completes the first one. 
 
-For instance, let's say an animation starts with an object on the ground, then moves the object up. At the end of the animation, if `Reverses` is `true`, the object will return to the ground. If `false`, the object will teleport back to the ground.
+For instance, let's say an animation starts with an object on the ground, and then moves the object up. At the end of the animation, if `Reverses` is `true`, the object will return to the ground. If `false`, the object will teleport back to the ground.
 
 ---
 

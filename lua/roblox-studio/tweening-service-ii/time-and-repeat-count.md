@@ -23,13 +23,13 @@ revisionQuestion:
 ### Time
 The `time` variable refers to the *length of the animation in seconds*. If you want a quicker animation, keep the seconds small. If you'd like the animation to be longer, increase the time. 
 
-> Other properties may do better with quicker or faster animations, such as color changes and the degreee of which it changes.
+> Other properties may do better with quicker or faster animations, such as color changes and the degree to which it changes.
 
 ---
 
 ### repeatCount
 
-The `repeatCount` variable refers to the *number of times the animation should play*. If you'd like the animation to **play infinitely**, set the value to be **-1**.
+The `repeatCount` variable refers to the *number of times the animation should play*. If you'd like the animation to **play infinitely**, set the value to **-1**.
 
 ---
 

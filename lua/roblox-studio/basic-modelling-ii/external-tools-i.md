@@ -18,11 +18,11 @@ revisionQuestion:
 
 ## Content
 
-While most of the fun is building things yourselves, there's no shame in getting help from others. Head to the **view tab** and open up the `toolbox`. 
+While most of the fun is building things yourself, there's no shame in getting help from others. Head to the **view tab** and open up the `toolbox`. 
 
 ![toolbox](https://img.enkipro.com/c22e090279952b4f26b7c28136f31d55.png)
 
-Inside, you will find structures, vehicles, light sources, even weapons!
+Inside, you will find structures, vehicles, light sources, and even weapons!
 
 > Some models even come with scripts, so if you like their behaviour, take a look at the code used to program them!
 

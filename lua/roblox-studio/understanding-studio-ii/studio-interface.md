@@ -20,7 +20,7 @@ revisionQuestion:
 ## Content
 To make your life easier, let's open up and learn some useful interfaces in Studio.
 
-To start, when you open up Studio and login, choose the *classic* baseplate and click on the **view tab** at the top. We'll be opening up 3 useful windows.
+To start, when you open up Studio and log in, choose the *classic* baseplate and click on the **view tab** at the top. We'll be opening up 3 useful windows.
 
 ![how-to-open-interfaces](https://img.enkipro.com/16963aa3331f712371ecb174c33bd5da.png)
 

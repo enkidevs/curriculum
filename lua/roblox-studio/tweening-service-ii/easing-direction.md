@@ -38,7 +38,7 @@ Which easing direction should be used if the style should play in reverse? ???
 
 ## Revision
 
-Which easing direction should be used if the style should play forwards? ???
+Which easing direction should be used if the style should play forward? ???
 
 - In
 - Out

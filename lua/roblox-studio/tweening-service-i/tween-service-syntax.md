@@ -35,7 +35,7 @@ Within the `Create()` parameters are 3 variables:
 
 ## Practice
 
-The ??? variable in the Create() paramaters of tweenservice represents the property changes that will be made.
+The ??? variable in the Create() parameters of tweenservice represents the property changes that will be made.
 
 - PropertyTable
 - Info
@@ -46,7 +46,7 @@ The ??? variable in the Create() paramaters of tweenservice represents the prope
 
 ## Revision
 
-The ??? variable in the Create() parameters of tweenservice represents that details about the tweening animation.
+The ??? variable in the Create() parameters of TweenService represents the details about the tweening animation.
 
 - Info
 - Part

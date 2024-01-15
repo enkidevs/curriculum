@@ -17,7 +17,7 @@ revisionQuestion:
 
 ## Content
 
-Finally, to properly connect the `variable` with the `baseplate`, *separate each parent with a period* and *end with the object you want to reference*. Remember that **lua is case-sensitive!**
+Finally, to properly connect the `variable` with the `baseplate`, *separate each parent with a period* and *end with the object you want to reference*. Remember that **Lua is case-sensitive!**
 
 ```lua
 -- Baseplate is found in Workspace, which is found in game.

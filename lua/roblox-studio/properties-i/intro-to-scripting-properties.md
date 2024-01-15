@@ -14,7 +14,7 @@ While you can manually set properties to begin with, there are ways to use scrip
 
 For instance, we can use scripting to adjust the size, texture, or even position of an object right away or after a specific condition.
 
-> Throughout the properties workout, we'll by working with a **part** within the Workspace.
+> Throughout the properties workout, we'll be working with a **part** within the Workspace.
 
 > 💬 What are some ways we can use dynamic properties to create some obstacles?
 

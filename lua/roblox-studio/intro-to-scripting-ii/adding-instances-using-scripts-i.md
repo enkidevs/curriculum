@@ -21,7 +21,7 @@ Instance.new()
 
 Now within the parameters, we need to add the desired type of instance.
 
-> The name of all instances can be found in the object browser.
+> The names of all instances can be found in the object browser.
 
 ```lua
 Instance.new("Part")

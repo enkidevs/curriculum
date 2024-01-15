@@ -26,7 +26,7 @@ These plugins can **provide extra tools**, such as terrain builders, edge smooth
 
 > While most professional plugins require payment, some of the free plugins still work fine. It's recommended to do some research before downloading a plugin.
 
-We personlly recommend *F3X building tools*, as its **free** and lets you **model efficiently** with keybinds. 
+We recommend *F3X building tools*, as it's **free** and lets you **model efficiently** with keybinds. 
 
 ---
 

@@ -18,13 +18,13 @@ revisionQuestion:
 
 ## Content
 
-Unlike Vector3, the math is not so straightforward with `CFrames`. *To add* CFrames with other CFrames, you must use an **asterix**. 
+Unlike Vector3, the math is not so straightforward with `CFrames`. *To add* CFrames with other CFrames, you must use an **asterisk**. 
 
 ```lua
 Variable.Property = CFrame.new(X, Y, Z) * CFrame.new(X, Y, Z)
 ```
 
-An asterix is also used when you want to **include both position and orientiation data**. 
+An asterisk is also used when you want to **include both position and orientation data**. 
 
 ```lua
 Variable.Property = CFrame.new(X, Y, Z) * CFrame.Angle(X, Y, Z)
@@ -36,7 +36,7 @@ Variable.Property = CFrame.new(X, Y, Z) * CFrame.Angle(X, Y, Z)
 
 ## Practice
 
-Finish the code below such that an orientation CFrame and position CFrame is updated.
+Finish the code below such that an orientation CFrame and position CFrame are updated.
 
 ```lua
 Variable.CFrame = CFrame.new() * CFrame.???
@@ -51,7 +51,7 @@ Variable.CFrame = CFrame.new() * CFrame.???
 
 ## Revision
 
-Finish the code below such that an orientation CFrame and position CFrame is updated.
+Finish the code below such that an orientation CFrame and position CFrame are updated.
 
 ```lua
 Variable.CFrame = CFrame.Angle() * CFrame.???

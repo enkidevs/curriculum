@@ -22,11 +22,11 @@ As explained previously, **`CFrame` holds the orientation and position data** of
 ---
 
 ### Position
-To change the `position`, you can **set the variable equal to a new CFrame**. The parameter should hold how much you want to move the object in their respective direction (X, Y, Z).
+To change the `position`, you can **set the variable equal to a new CFrame**. The parameter should hold how much you want to move the object in its respective direction (X, Y, Z).
 
 ```lua
 partVariable.CFrame = CFrame.new(1,1,1)
--- Move the the object by a value of 1 in the x, y, and z directions
+-- Move the object by a value of 1 in the x, y, and z directions
 ```
 ---
 
@@ -44,7 +44,7 @@ partVariable.CFrame = ???.new(???)
 
 ## Revision
 
-Finish the code below to change the position of an object by 2 in the X and Z direction.
+Finish the code below to change the position of an object by 2 in the X and Z directions.
 ```lua
 partVariable.??? = CFrame.new(???)
 ```

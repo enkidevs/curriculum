@@ -39,7 +39,7 @@ When choosing between BrickColor and Color, one should choose ??? for its option
 
 ## Revision
 
-The ??? property may not proide a color palette, but it can provide specific color names that may be easier to memorize.
+The ??? property may not provide a color palette, but it can provide specific color names that may be easier to memorize.
 
 - BrickColor
 - Color

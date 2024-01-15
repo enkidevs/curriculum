@@ -47,7 +47,7 @@ The code above will... ???
 
 ## Revision
 
-Finish the code such that the orientation of the objet changes 240 degrees in the Z-axis and 79 degrees in the X-Axis.
+Finish the code such that the orientation of the object changes 240 degrees in the Z-axis and 79 degrees in the X-Axis.
 
 ```lua
 partVariable.Orientation = Vector3.new(???, ???, ???)

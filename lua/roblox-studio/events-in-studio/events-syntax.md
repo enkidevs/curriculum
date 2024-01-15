@@ -33,7 +33,7 @@ Now, unlike regular Lua code where you would connect functions and events throug
 
 ---
 ## Practice
-Finish the code below if the event was called "Changed" and the function to be connected it was `alert()` .
+Finish the code below if the event was called "Changed" and the function to be connected was `alert()`.
 ```lua
 alarmVariable = game.Workspace.Alarm
 alarmVariable.???:Connect(???
@@ -48,7 +48,7 @@ end)
 ---
 
 ## Revision
-Finish the code below if the event was called "Changed" and the function to be connected it was `alert()` .
+Finish the code below if the event was called "Changed" and the function to be connected was `alert()`.
 ```lua
 alarmVariable = game.Workspace.Alarm
 alarmVariable.Changed:???(???

@@ -24,7 +24,7 @@ revisionQuestion:
 
 ### CanCollide
 
-`CanCollide` is a **boolean property** that determines **if a part can collide with others**. If false, everything will go through it, otherwise, if true, it will have physical mass that can be touched. 
+`CanCollide` is a **boolean property** that determines **if a part can collide with others**. If false, everything will go through it, otherwise, if true, it will have a physical mass that can be touched. 
 
 ```lua
 partVariable.CanCollide = false

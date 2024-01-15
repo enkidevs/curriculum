@@ -17,7 +17,7 @@ revisionQuestion:
 ---
 
 ## Content
-`Functions` are an essential part of coding and remains true for Studio. In Studio, functions can be used to **run code whenever called upon**.
+`Functions` are an essential part of coding and remain true for Studio. In Studio, functions can be used to **run code whenever called upon**.
 
 For instance, a developer could create a function that adds tax to every purchase in an in-game store:
 

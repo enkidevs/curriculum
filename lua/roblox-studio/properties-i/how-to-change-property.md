@@ -66,4 +66,4 @@ To access the "Transparency" property of the "blockVariable" variable, the follo
 
 [1: Variables]
 
-Referring to how we can create a connection between variables and instances, such that any changes made to the variable will be made to the instance.
+This refers to how we can create a connection between variables and instances, such that any changes made to the variable will be made to the instance.

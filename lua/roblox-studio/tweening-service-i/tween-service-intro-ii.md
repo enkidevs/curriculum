@@ -39,7 +39,7 @@ Tweenservice is a tool that... ???
 
 ## Revision
 
-Daryl wants to create an object goes up and down. He should use... ???
+Daryl wants to create an object that goes up and down. He should use... ???
 
 - Tweenservice
 - For loops

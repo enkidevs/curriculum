@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-After witnessing your avatar fall out of who knows where, take a look at the output tab at the bottom. If you scroll up, you will find the following line:
+After witnessing your avatar fall out of who knows where take a look at the output tab at the bottom. If you scroll up, you will find the following line:
 
 ![first-print-line](https://img.enkipro.com/5359fcdecec00d1433765c0f65e813a4.png)
 
@@ -41,7 +41,7 @@ Let's say you make a new game and put in a script in the ServerScriptService. If
 
 ## Revision
 
-Let's say you make a new game and put in a script in the ServerScriptService. If you were to name the script: "Lightning" and moved the print statement down by one line, you would see ???:??? at the very right of the output when you run the script.
+Let's say you make a new game and put in a script in the ServerScriptService. If you were to name the script: "Lightning" and move the print statement down by one line, you would see ???:??? at the very right of the output when you run the script.
 
 - Lightning
 - 2

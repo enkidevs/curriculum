@@ -27,7 +27,7 @@ The other ways that can be used to change BrickColor is through associated numbe
 -- Change BrickColor through a color's associated number.
 partVariable.BrickColor = BrickColor.new(23)
 
--- Change BrickColor through a color's rgb values. Must be from 0 to 1 however.
+-- Change BrickColor through a color's RGB values. Must be from 0 to 1 however.
 partVariable.BrickColor = BrickColor.new(0.1, 0.2, 172)
 ```
 > The specific names of every color can be found in the **Learn More** section.
@@ -47,7 +47,7 @@ Which of the options below is not a valid way to change BrickColor through codin
 
 ## Revision
 
-Finish the code below. Use associated value 23 when changing BrickColor.
+Finish the code below. Use the associated value `23` when changing BrickColor.
 
 ```lua
 partVariable.??? = BrickColor.new(???)
