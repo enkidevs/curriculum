@@ -1,6 +1,6 @@
 name: Lua
 
-color: 8BBBF5
+color: a6ceff
 
 description: A lightweight, fast, and embeddable scripting language designed for extending applications, implementing scripting tools, and creating standalone programs.
 
