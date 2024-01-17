@@ -9,7 +9,7 @@ tags:
   - variables
   - obscura
 links:
-  - '[john-dugan.com](https://john-dugan.com/hoisting-in-javascript/){website}'
+  - '[Strict Mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode){website}'
 practiceQuestion:
   formats:
     - fill-in-the-gap
