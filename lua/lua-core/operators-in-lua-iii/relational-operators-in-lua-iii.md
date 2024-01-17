@@ -28,7 +28,7 @@ These are operators that **combine** the **Equal operator with the Greater/Less 
 
 Unlike the Less/Greater than operators, these operators will **also check for whether the two values are also equal** to each other.
 
-Here are some examples.
+Here are some examples:
 
 ```lua
 a = 10

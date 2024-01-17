@@ -30,7 +30,7 @@ These are the Equal and Not-Equal Operators in Lua:
 
 They compare whether the **two values are equal** to each other or not.
 
-Here's an example of using these operators:
+Here's an example:
 ```lua
 a = 10
 b = 5

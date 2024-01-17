@@ -42,7 +42,7 @@ Video game development, embedded systems, and web development are all aspects th
 
 ## Practice
 
-There are many benefits from learning Lua. Why is Lua perfect for beginners? ???
+There are many benefits from learning Lua. Why is it perfect for beginners? ???
 
 - Lua is simple
 - Lua is fast

@@ -25,7 +25,7 @@ The arithmetic operators for Modulo[1] and Exponentiation in Lua are:
 |     Modulo     |  (%) |
 | Exponentiation |  (^) |
 
-Here are some examples of arithmetic operators in Lua:
+Here are some examples:
 ```lua
 -- Modulo
 result = 10 % 3  -- result = 1

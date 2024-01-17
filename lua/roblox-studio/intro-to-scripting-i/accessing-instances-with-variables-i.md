@@ -36,7 +36,7 @@ coolVariable = x
 coolerVariable = x + 1
 whichOneIsCooler(x)
 ```
-From the code above, the variables that were defined are ???
+From the code above, the variable(s) that were defined are ???
 
 - coolVariable and coolerVariable
 - coolVariable

@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-Why are there two color properties you may ask? Well, `BrickColor` is used for specific color names, whereas `Colors` follows RGB! 
+Why are there two color properties you may ask? Well, `BrickColor` is used for specific color names, whereas `Color`s follows RGB! 
 
 But doesn't BrickColor also do RGB? Yes, but Color has a nifty extension where **you can use a color tool**. This is not only convenient, but it *automatically converts the 255 RGB values into values from 0 to 1*.
 

@@ -21,7 +21,7 @@ revisionQuestion:
 
 Logical operators are used to **perform logical operations on boolean** values. 
 
-> Recall that boolean values are either always true or false.
+> Recall that boolean values are either true or false.
 
 These operators **provide specific instructions on how boolean values will be deemed true or false**. For instance, if there are two conditions, one operator can set the boolean to be true if both conditions are met. 
 

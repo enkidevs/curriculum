@@ -27,7 +27,7 @@ These are the **greater** and **less** Operators:
 
 They compare whether **one value is greater than or less** than the other value.
 
-Here's an example of using these operators:
+Here's an example:
 ```lua
 a = 10
 b = 5

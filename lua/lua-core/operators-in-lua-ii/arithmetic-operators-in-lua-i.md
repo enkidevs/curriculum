@@ -28,7 +28,7 @@ The arithmetic operators for Addition and Subtraction in Lua are:
 |   Subtraction  |  (-) |
 
 
-Here are some examples of arithmetic operators in Lua:
+Here are some examples:
 ```lua
 -- Addition
 result = 2 + 3  -- result = 5
