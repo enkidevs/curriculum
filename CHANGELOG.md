@@ -48,10 +48,17 @@ Types of change:
 
 ### Fixed
 
+
+## December 22nd 2023
+
+### Changed
+- [JavaScript - Scope and Strict mode - Replace broken link](https://github.com/enkidevs/curriculum/pull/3284)
+
 ## December 5th 2023
 
 ### Changed
 - [Data Analysis with Python -  Rename topic to Python Data Analysis](https://github.com/enkidevs/curriculum/pull/3280)
+- [Python - Even or Odd Exercise - Change it to Positive or Negative](https://github.com/enkidevs/curriculum/pull/3281)
 
 ## June 26th 2023
 
