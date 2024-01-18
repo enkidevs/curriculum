@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 17th 2024
+
+### Changed
+- [Lua - Readme - Change Description](https://github.com/enkidevs/curriculum/pull/3285)
+
 ## December 22nd 2023
 
 ### Changed
