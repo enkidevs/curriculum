@@ -15,8 +15,8 @@ setupCode:
 
     // Sample program:
     let numbers = [-9, -3, 0, 1, 3, 4, 9, 12]
-
     sort_squares(numbers)
+
     // [0, 1, 9, 9, 16, 81, 81, 144]
 
     // Type your code here:
