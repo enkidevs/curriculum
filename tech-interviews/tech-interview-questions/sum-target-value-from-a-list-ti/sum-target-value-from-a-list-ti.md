@@ -13,18 +13,18 @@ setupCode:
     # Welcome to the Python coding playground.
     # Find which two numbers of the given numbers list, when summed up, equal the target value. Return their indices.
 
-    # Sample lists to use:
+    # Sample list and targets to use:
     numbers = [1, 2, 4, 7, 12]
     target1 = 6
     target2 = 11
+
+    # Type your code here:
 
     print(find_indices_of_target_sum(numbers, target1))  
     # (1, 2)
 
     print(find_indices_of_target_sum(numbers, target2))  
     # (2, 3)
-
-    # Type your code here:
 
 ---
 

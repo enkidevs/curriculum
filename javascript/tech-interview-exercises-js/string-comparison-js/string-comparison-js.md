@@ -13,23 +13,24 @@ setupCode:
     // Welcome to the Javascript coding playground.
     // Return true if the characters from the given letters string can be used to construct any of the word strings; otherwise return false. You can use each letter only once.
 
-    // Sample lists to use:
+    // Sample strings to use:
     let letters = 'aaabnn'
     let word1 = 'banana'
     let word2 = 'apple'
     let word3 = 'ban'
     let word4 = 'bananas'
 
-    print(can_construct_words(letters, word1)) 
+    // Type your code here:
+
+    console.log(can_construct_words(letters, word1)) 
     // True
-    print(can_construct_words(letters, word2)) 
+    console.log(can_construct_words(letters, word2)) 
     // False
-    print(can_construct_words(letters, word3)) 
+    console.log(can_construct_words(letters, word3)) 
     // True
-    print(can_construct_words(letters, word4)) 
+    console.log(can_construct_words(letters, word4)) 
     // False
 
-    // Type your code here:
 
 ---
 
@@ -49,13 +50,13 @@ let word2 = 'apple'
 let word3 = 'ban'
 let word4 = 'bananas'
 
-print(can_construct_words(letters, word1)) 
+console.log(can_construct_words(letters, word1)) 
 // True
-print(can_construct_words(letters, word2)) 
+console.log(can_construct_words(letters, word2)) 
 // False
-print(can_construct_words(letters, word3)) 
+console.log(can_construct_words(letters, word3)) 
 // True
-print(can_construct_words(letters, word4)) 
+console.log(can_construct_words(letters, word4)) 
 // False
 ```
 

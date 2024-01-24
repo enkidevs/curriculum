@@ -22,7 +22,6 @@ setupCode:
     # 12
     # [1, 0, 11] is the wealthiest citizen with total wealth = 12
 
-
     # Type your code here:
 
 ---

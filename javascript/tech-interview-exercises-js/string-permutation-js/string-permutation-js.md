@@ -19,14 +19,15 @@ setupCode:
     let str2 = 'broader'
     let str3 = 'milk'
 
-    print(has_permutation_in_string(subStr, str1)) 
+    // Type your code here:
+
+    console.log(has_permutation_in_string(subStr, str1)) 
     // True
-    print(has_permutation_in_string(subStr, str2)) 
+    console.log(has_permutation_in_string(subStr, str2)) 
     // True
-    print(has_permutation_in_string(subStr, str3)) 
+    console.log(has_permutation_in_string(subStr, str3)) 
     // False
 
-    // Type your code here:
 
 ---
 
@@ -45,11 +46,11 @@ let str1 = 'boat'
 let str2 = 'broader'
 let str3 = 'milk'
 
-print(has_permutation_in_string(subStr, str1)) 
+console.log(has_permutation_in_string(subStr, str1)) 
 // True
-print(has_permutation_in_string(subStr, str2)) 
+console.log(has_permutation_in_string(subStr, str2)) 
 // True
-print(has_permutation_in_string(subStr, str3)) 
+console.log(has_permutation_in_string(subStr, str3)) 
 // False
 ```
 

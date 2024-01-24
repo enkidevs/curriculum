@@ -17,11 +17,11 @@ setupCode:
     let num1 = "19"
     let num2 = "7"
 
-    // Test the function
-    print(add_integer_strings(num1, num2))  
-    // "26"
-
     // Type your code here:
+
+    // Test the function
+    console.log(add_integer_strings(num1, num2))  
+    // "26"
 
 ---
 
@@ -39,7 +39,7 @@ let num1 = "19"
 let num2 = "7"
 
 // Test the function
-print(add_integer_strings(num1, num2))  
+console.log(add_integer_strings(num1, num2))  
 // "26"
 ```
 

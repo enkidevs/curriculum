@@ -16,12 +16,11 @@ setupCode:
     // Sample accounts to use:
     let accounts = [[2, 1, 7], [7, 5, -3], [12, -5, 1], [1, 0, 11]]
 
-    print(return_wealthiest_citizen(accounts))
+    console.log(return_wealthiest_citizen(accounts))
 
     // Sample outputs:
     // 12
     // [1, 0, 11] is the wealthiest citizen with total wealth = 12
-
 
     // Type your code here:
 
@@ -39,7 +38,7 @@ Sample program:
 ```javascript
 let accounts = [[2, 1, 7], [7, 5, -3], [12, -5, 1], [1, 0, 11]]
 
-print(return_wealthiest_citizen(accounts))
+console.log(return_wealthiest_citizen(accounts))
 
 // Sample outputs:
 // 12
