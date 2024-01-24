@@ -13,7 +13,7 @@ setupCode:
     // Welcome to the Javascript coding playground.
     // Create a function that reverses the given words string. Modify the given input string list in-place with O(1) memory.
 
-    // Sample lists to use:
+    // Sample list to use:
     let words = ['H', 'e', 'l', 'l', 'o', 'w', 'o', 'r', 'l', 'd']
 
     // Type your code here:

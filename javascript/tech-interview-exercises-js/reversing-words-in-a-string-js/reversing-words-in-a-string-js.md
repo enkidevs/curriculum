@@ -13,11 +13,12 @@ setupCode:
     // Welcome to the Javascript coding playground.
     // Reverse the order of characters in the given sentence while preserving the whitespace and initial order between words.
 
-    // Sample sentence to reverse:
+    // Sample program:
     let sentence = "Enki is the god of knowledge, water, crafts and creation"
-    reverse_sentence(sentence)
 
+    reverse_sentence(sentence)
     // noitaerc dna stfarc ,retaw ,egdelwonk fo dog eht si iknE
+
     // Type your code here:
 
 ---

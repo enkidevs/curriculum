@@ -17,11 +17,11 @@ setupCode:
     num1 = "19"
     num2 = "7"
 
+    # Type your code here:
+
     # Test the function
     print(add_integer_strings(num1, num2))  
     # "26"
-
-    # Type your code here:
 
 ---
 
