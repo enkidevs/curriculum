@@ -52,6 +52,7 @@ Types of change:
 
 ### Changed
 - [Javascript, Python, Tech Interviews - Interview questions/exercises - minor fixes ](https://github.com/enkidevs/curriculum/pull/3289)
+- [Javascript - Ecmascript/es6 quirks - archive empty workout](https://github.com/enkidevs/curriculum/pull/3290)
 
 ## January 17th 2024
 
