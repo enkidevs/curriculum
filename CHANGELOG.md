@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 24th 2024
+
+### Changed
+- [Javascript, Python, Tech Interviews - Interview questions/exercises - minor fixes ](https://github.com/enkidevs/curriculum/pull/3289)
+
 ## January 17th 2024
 
 ### Changed
