@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+
+## January 29th 2024
+
+### Fixed
+- [javascript - uncaughtexception listener in node - fix question ](https://github.com/enkidevs/curriculum/pull/3289)
+
 ## January 24th 2024
 
 ### Changed
