@@ -9,12 +9,10 @@ links:
 practiceQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 revisionQuestion:
   formats:
     - fill-in-the-gap
-    - type-in-the-gap
   context: standalone
 ---
 
