@@ -17,7 +17,9 @@ revisionQuestion:
 ---
 ## Content
 
-Like with every other language, let's write our first "hello world" program!
+Like with every other language, let's write our first "hello world" program to help you get used to coding!
+
+> If this confuses you, don't worry! We'll go much more in depth in future lessons!
 
 When you run this code, you should find the words, "Hello world!" in the terminal[1].
 
