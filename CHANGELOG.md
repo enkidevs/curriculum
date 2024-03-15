@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## March 13th 2023
+
+### Fixed
+- [Web - Sassscript interactive shell - remove type in the gap](https://github.com/enkidevs/curriculum/pull/3295)
 
 ## January 29th 2024
 
