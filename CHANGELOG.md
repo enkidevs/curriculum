@@ -48,6 +48,23 @@ Types of change:
 
 ### Fixed
 
+## March 13th 2023
+
+### Fixed
+- [Web - Sassscript interactive shell - remove type in the gap](https://github.com/enkidevs/curriculum/pull/3295)
+
+## January 29th 2024
+
+### Fixed
+- [javascript - uncaughtexception listener in node - fix question ](https://github.com/enkidevs/curriculum/pull/3289)
+
+## January 24th 2024
+
+### Changed
+- [Javascript, Python, Tech Interviews - Interview questions/exercises - minor fixes ](https://github.com/enkidevs/curriculum/pull/3289)
+- [Javascript - Ecmascript/es6 quirks - archive empty workout](https://github.com/enkidevs/curriculum/pull/3290)
+- [Javascript - Ecmascript/string-numbers-extensions - archive empty workout](https://github.com/enkidevs/curriculum/pull/3291)
+
 ## January 17th 2024
 
 ### Changed
@@ -58,10 +75,10 @@ Types of change:
 ### Changed
 - [JavaScript - Scope and Strict mode - Replace broken link](https://github.com/enkidevs/curriculum/pull/3284)
 
-
 ## December 5th 2023
 
 ### Changed
+- [Data Analysis with Python -  Rename topic to Python Data Analysis](https://github.com/enkidevs/curriculum/pull/3280)
 - [Python - Even or Odd Exercise - Change it to Positive or Negative](https://github.com/enkidevs/curriculum/pull/3281)
 
 ## October 5th 2023

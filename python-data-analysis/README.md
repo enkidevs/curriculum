@@ -1,4 +1,4 @@
-name: Data Analysis With Python
+name: Python Data Analysis
 
 color: A7A6FF
 

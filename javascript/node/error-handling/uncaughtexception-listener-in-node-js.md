@@ -51,14 +51,13 @@ Note that `uncaughtException` is a crude mechanism for exception handling and is
 How would you catch unhandled exceptions in your NodeJS code, using an event listener?
 
 ```javascript
-process.???(???,
+process.???('???',
   function(err) {
     console.log('caught')
   })
 ```
 
 - on
-- 'uncaughtException'
 - uncaughtException
 - listen
 - addEventListener

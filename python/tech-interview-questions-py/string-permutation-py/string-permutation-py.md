@@ -13,11 +13,13 @@ setupCode:
     # Welcome to the Python coding playground.
     # Return true if a permutation of the given substring is located inside the given strings.
 
-    # Sample lists to use:
+    # Sample strings to use:
     subStr = 'ao'
     str1 = 'boat'
     str2 = 'broader'
     str3 = 'milk'
+
+    # Type your code here:
 
     print(has_permutation_in_string(subStr, str1)) 
     # True
@@ -25,8 +27,6 @@ setupCode:
     # True
     print(has_permutation_in_string(subStr, str3)) 
     # False
-
-    # Type your code here:
 
 ---
 

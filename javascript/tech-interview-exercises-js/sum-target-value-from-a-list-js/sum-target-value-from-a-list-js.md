@@ -18,13 +18,13 @@ setupCode:
     let target1 = 6
     let target2 = 11
 
-    print(find_indices_of_target_sum(numbers, target1))  
+    // Type your code here:
+
+    console.log(find_indices_of_target_sum(numbers, target1))  
     // (1, 2)
 
-    print(find_indices_of_target_sum(numbers, target2))  
+    console.log(find_indices_of_target_sum(numbers, target2))  
     // (2, 3)
-
-    // Type your code here:
 
 ---
 
@@ -42,10 +42,10 @@ let numbers = [1, 2, 4, 7, 12]
 let target1 = 6
 let target2 = 11
 
-print(find_indices_of_target_sum(numbers, target1))  
+console.log(find_indices_of_target_sum(numbers, target1))  
 // (1, 2)
 
-print(find_indices_of_target_sum(numbers, target2))  
+console.log(find_indices_of_target_sum(numbers, target2))  
 // (2, 3)
 ```
 

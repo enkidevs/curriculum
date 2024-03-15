@@ -69,7 +69,7 @@ How can you log variables into the console?
 
 ## Revision
 
-What statement will make the debugger when it sees it?
+What statement will make the debugger stop on a line of code when it sees it?
 
 ```js
 ???

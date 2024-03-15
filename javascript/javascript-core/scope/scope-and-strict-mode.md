@@ -72,7 +72,7 @@ function bar(foo){
 
 ## Revision
 
-Non-strict mode allows the automate creation of a variable in ??? scope, while *strict mode* would throw an error if the ??? variable is not declared.
+Non-strict mode allows the automatic creation of a variable in ??? scope, while *strict mode* would throw an error if the ??? variable is not declared.
 
 - global
 - local

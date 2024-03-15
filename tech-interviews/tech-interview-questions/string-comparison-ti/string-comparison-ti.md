@@ -13,12 +13,14 @@ setupCode:
     # Welcome to the Python coding playground.
     # Return true if the characters from the given letters string can be used to construct any of the word strings; otherwise return false. You can use each letter only once.
 
-    # Sample lists to use:
+    # Sample strings to use:
     letters = 'aaabnn'
     word1 = 'banana'
     word2 = 'apple'
     word3 = 'ban'
     word4 = 'bananas'
+
+    # Type your code here:
 
     print(can_construct_words(letters, word1)) 
     # True
@@ -28,8 +30,6 @@ setupCode:
     # True
     print(can_construct_words(letters, word4)) 
     # False
-
-    # Type your code here:
 
 ---
 
