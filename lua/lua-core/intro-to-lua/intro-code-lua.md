@@ -19,8 +19,6 @@ revisionQuestion:
 
 Like with every other language, let's write our first "hello world" program to help you get used to coding!
 
-> If this confuses you, don't worry! We'll go much more in depth in future lessons!
-
 When you run this code, you should find the words, "Hello world!" in the terminal[1].
 
 ```lua
@@ -28,13 +26,13 @@ print("Hello, world!")
 -- Hello, world!
 ```
 
-In the coding segment:
+In the coding segment [2]:
 
 - The `--` is used to denote a **single line comment**. These often contain notes written by the author!
 
 > In most cases, notes will often contain the output for code.
 
-- The `print("Hello, world!")` is used to **output the string**[2] "Hello, world!" to the terminal.
+- The `print("Hello, world!")` is used to **output the string**[3] "Hello, world!" to the terminal.
 
  
 ---
@@ -77,6 +75,10 @@ print("Hello, world!")
 
 A visual interface that will display any results from executing code. It can also serve as a way to input commands.
 
-[2: String]
+[2: Quick Heads-Up]
+
+If this confuses you, don't worry! We'll go much more in depth in future lessons!
+
+[3: String]
 
 A data type that is used to represent text.

@@ -18,4 +18,4 @@ This may seem underwhelming at first, but Lua can lead to very complex ideas and
 ![rotating-block](https://img.enkipro.com/ec104dd401c8fe092d3950f5bde6ddb1.gif)
 
 > Learning Lua will help you build Roblox games and more, which is why we suggest it as your starting point.
-> You can skip Lua and jump into our [Roblox Studio course](https://app.enki.com/course/roblox-studio) just know that having Lua skills is helpful for Roblox.
+> However, if you'd like, you can skip Lua and jump into our [Roblox Studio course](https://app.enki.com/course/roblox-studio).
