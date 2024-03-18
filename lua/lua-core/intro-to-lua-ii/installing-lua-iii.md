@@ -2,29 +2,22 @@
 author: Stefan-Stojanovic
 category: must-know
 type: normal
-links:
-  - >-
-    [Download VSCode](https://code.visualstudio.com/download){website}
-  - >-
-    [Download Sublime](https://www.sublimetext.com/3){website}
+
 
 ---
 
-# Installing Text Editors
+# Installing and Building the Lua Interpreter II
 
 ---
+
 ## Content
 
-As for text editors, there are many options to choose from, including **Sublime Text**, **Atom**, **Notepad++**, **VSCode** and more. 
+You can test whether you installed the Lua interpreter by **running the** `lua -v` **command in your terminal or command prompt**. 
 
-> Check out each editor before choosing the one that you're most comfortable with! We recommend VSCode due to its customizability.
+> To open a command prompt, press the Windows search option (or the Launchpad Icon for Mac) and search for terminal.
 
-On a side note, if you do not want to install the interpreter, you can use their website IDE[1] to test some code or view their demo programs: [live demo](https://www.lua.org/demo.html).
+![command-prompt](https://img.enkipro.com/7526a646ae91a958b2ef620e5351e999.png)
 
----
+If Lua is installed correctly, you should see the **current build of the Lua intepreter you installed** 
 
-## Footnotes
-
-[1: IDE]
-
-Stands for integrated development environment. It creates an environment for developing code.
+![lua-confirmation](https://img.enkipro.com/c5f4569b7ca6c6cf4a80294677dda76a.png)

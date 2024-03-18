@@ -6,18 +6,30 @@ type: normal
 
 ---
 
-# Installing the Interpreter II
+# Installing and Building the Lua Interpreter I
 
 ---
 
 ## Content
 
-After you've installed the Lua interpreter, you should test that the interpreter works. 
+Another option is to install a **Lua interpreter**[1] and a **text editor**[2] on your computer. 
 
-You can test it by **running the** `lua` **command in your terminal or command prompt**. If Lua is installed correctly, you should see the **Lua prompt (>) appear**. 
+> These insights are only for those that want to make projects in Lua and are not planning to code on Roblox Studio.
 
-You can then enter Lua code and see it execute.
+For the interpreter, you can easily find instructions on the download page of the [official Lua website](https://www.lua.org/download.html). 
 
-> To open a command prompt, press the Windows search option (or the Launchpad Icon for Mac) and search for terminal.
+![lua-page](https://img.enkipro.com/64a0a79caa1509f92a7914b77d97f1b3.png)
 
-![command-prompt](https://img.enkipro.com/7526a646ae91a958b2ef620e5351e999.png)
+These steps are quite complicated and also specific to each text editor. It's recommended to watch tutorials to ensure you properly install Lua.
+
+---
+
+## Footnotes
+
+[1: Interpreter]
+
+An interpreter is a computer program that directly converts a programming language such as Lua into instructions that can be read by the computer, otherwise known as machine language program. 
+
+[2: Text Editor]
+
+A text editor is a useful program often used by programmers to open and create files that let them write their desired programming language of choice.
