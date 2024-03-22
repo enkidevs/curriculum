@@ -14,7 +14,7 @@ type: normal
 
 Another option is to install a **Lua interpreter**[1] and a **text editor**[2] on your computer. 
 
-> These insights are only for those that want to make projects in Lua and are not planning to code on Roblox Studio.
+> The next three insights are only for those that want to make projects in Lua and are not planning to code on Roblox Studio.
 
 For the interpreter, you can easily find instructions on the download page of the [official Lua website](https://www.lua.org/download.html). 
 
