@@ -48,7 +48,13 @@ Types of change:
 
 ### Fixed
 
-## March 13th 2023
+## March 27th 2024
+
+### Changed
+
+- [python - the in operator - Change pq](https://github.com/enkidevs/curriculum/pull/3299)
+
+## March 13th 2024
 
 ### Fixed
 - [Web - Sassscript interactive shell - remove type in the gap](https://github.com/enkidevs/curriculum/pull/3295)
