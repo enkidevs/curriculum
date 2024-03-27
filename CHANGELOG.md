@@ -48,7 +48,11 @@ Types of change:
 
 ### Fixed
 
-## March 13th 2023
+## March 18th 2024
+
+- [Python - get the most out of floats - remove type in the gap](https://github.com/enkidevs/curriculum/pull/3297)
+
+## March 13th 2024
 
 ### Fixed
 - [Web - Sassscript interactive shell - remove type in the gap](https://github.com/enkidevs/curriculum/pull/3295)
