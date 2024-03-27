@@ -56,16 +56,16 @@ When the `in` keyword is used on a string, Python will check for any sequence of
 
 ## Practice
 
-Complete the following code snippet to print `'True'` if `letter` is in `my_string`, and `'False'` otherwise:
+Complete the following code snippet to print `True` if `letter` is in `my_string`, and `False` otherwise:
 
 ```python
 letter = 'p'
 my_string = 'stop, collaborate and listen'
 
 if letter ??? my_string:
-  print('???')
+  print(???)
 else:
-  print('???')
+  print(???)
 ```
 
 - `in`
