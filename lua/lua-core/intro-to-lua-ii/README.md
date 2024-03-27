@@ -11,3 +11,4 @@ insights:
   - installing-lua-i
   - installing-lua-ii
   - installing-lua-iii
+  - installing-lua-iv
