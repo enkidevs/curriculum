@@ -51,8 +51,12 @@ Types of change:
 ## March 27th 2024
 
 ### Changed
+- [Python - the in operator - Change pq](https://github.com/enkidevs/curriculum/pull/3299)
 
-- [python - the in operator - Change pq](https://github.com/enkidevs/curriculum/pull/3299)
+## March 18th 2024
+
+### Changed
+- [Python - get the most out of floats - remove type in the gap](https://github.com/enkidevs/curriculum/pull/3297)
 
 ## March 13th 2024
 
