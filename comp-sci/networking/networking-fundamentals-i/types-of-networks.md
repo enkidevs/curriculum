@@ -4,9 +4,9 @@ type: normal
 category: must-know
 links:
   - >-
-    [study.com](http://study.com/academy/lesson/types-of-networks-lan-wan-wlan-man-san-pan-epn-vpn.html){website}
+    [Computer Network Types](https://study.com/academy/lesson/types-of-networks-lan-wan-wlan-man-san-pan-epn-vpn.html){website}
   - >-
-    [www.bbc.co.uk](http://www.bbc.co.uk/education/guides/z36nb9q/revision){website}
+    [Types of Computer Networks](https://www.guru99.com/types-of-computer-network.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

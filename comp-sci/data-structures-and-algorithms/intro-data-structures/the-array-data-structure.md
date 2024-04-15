@@ -5,7 +5,7 @@ category: must-know
 links:
   - >-
     [What Is an
-    Array?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/2){website}
+    Array?](https://www.geeksforgeeks.org/what-is-array/){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

@@ -5,10 +5,10 @@ category: must-know
 links:
   - >-
     [What Is an
-    Algorithm?](http://www.bbc.co.uk/education/guides/z22wwmn/revision){website}
+    Algorithm?](https://www.techtarget.com/whatis/definition/algorithm){website}
   - >-
     [The Big-O
-    Notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/){website}
+    Notation](https://robbell.io/2009/06/a-beginners-guide-to-big-o-notation){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
