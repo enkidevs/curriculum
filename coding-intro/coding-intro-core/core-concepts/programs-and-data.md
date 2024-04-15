@@ -7,7 +7,7 @@ category: discussion
 
 links:
   - >-
-    [Exact Instructions Challenge](https://youtube.com/watch?v=Ct-lOOUqmyY){video}
+    [Exact Instructions Challenge](https://www.youtube.com/watch?v=FN2RM-CHkuI){video}
 practiceQuestion:
   formats:
     - fill-in-the-gap
