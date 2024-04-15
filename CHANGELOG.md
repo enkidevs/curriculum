@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## April 15th 2024
+
+### Fixed
+- [Generative Ai - Unsupervised Learning - Fix typos](https://github.com/enkidevs/curriculum/pull/3300)
+
+
 ## March 18th 2024
 
 - [Python - get the most out of floats - remove type in the gap](https://github.com/enkidevs/curriculum/pull/3297)
