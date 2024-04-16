@@ -49,12 +49,12 @@ Types of change:
 ### Fixed
 
 
-
 ## April 16th 2024
 
 ### fixed
-- [Comp Sci - Several Insights - Replace broken links](https://github.com/enkidevs/curriculum/pull/3301)
+- [Coding Intro - Programs and Data - fix broken link](https://github.com/enkidevs/curriculum/pull/3303)
 - [Multi Topic - Several insights - Remove suggestion for deprecated Atom editor](https://github.com/enkidevs/curriculum/pull/3302)
+- [Comp Sci - Several Insights - Replace broken links](https://github.com/enkidevs/curriculum/pull/3301)
 
 ## April 15th 2024
 
