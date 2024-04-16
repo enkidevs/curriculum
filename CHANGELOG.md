@@ -48,11 +48,15 @@ Types of change:
 
 ### Fixed
 
-
-## March 19th 2024
+## April 16th 2024
 
 ### fixed
 - [Comp Sci - Several Insights - Replace broken links](https://github.com/enkidevs/curriculum/pull/3301)
+
+## April 15th 2024
+
+### Fixed
+- [Generative Ai - Unsupervised Learning - Fix typos](https://github.com/enkidevs/curriculum/pull/3300)
 
 ## March 18th 2024
 
