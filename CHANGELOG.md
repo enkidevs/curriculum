@@ -48,10 +48,13 @@ Types of change:
 
 ### Fixed
 
+
+
 ## April 16th 2024
 
 ### fixed
 - [Comp Sci - Several Insights - Replace broken links](https://github.com/enkidevs/curriculum/pull/3301)
+- [Multi Topic - Several insights - Remove suggestion for deprecated Atom editor](https://github.com/enkidevs/curriculum/pull/3302)
 
 ## April 15th 2024
 
