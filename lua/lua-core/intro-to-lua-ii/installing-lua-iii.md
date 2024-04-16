@@ -15,7 +15,7 @@ links:
 ---
 ## Content
 
-As for text editors, there are many options to choose from, including **Sublime Text**, **Atom**, **Notepad++**, **VSCode** and more. 
+As for text editors, there are many options to choose from, including **Sublime Text**, **Notepad++**, **VSCode** and more. 
 
 > Check out each editor before choosing the one that you're most comfortable with! We recommend VSCode due to its customizability.
 

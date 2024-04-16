@@ -30,7 +30,7 @@ Unsupervised clustering can help you group customers into '*frequent buyers*' or
 ---
 ## Practice
 
-The main benefit of supervised learning is it's ability to ???.
+The main benefit of unsupervised learning is it's ability to ???.
 
 - find patterns without prior knowledge 
 - organize data into groups
@@ -40,7 +40,7 @@ The main benefit of supervised learning is it's ability to ???.
 ---
 ## Revision
 
-Let's say that we have a manufacturing plant and want to intify unusual patterns in that may indicate a malfunction but we don't have time to create a robust labeled dataset of what a normal production process looks like.
+Let's say that we have a manufacturing plant and want to identify unusual patterns in what may indicate a malfunction but we don't have time to create a robust labeled dataset of what a normal production process looks like.
 
 The appropriate training method for our model would be ??? learning.
 
