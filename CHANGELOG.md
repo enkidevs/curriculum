@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+
+## March 19th 2023
+
+### Fixed
+- [CSharp - While Loops - Fix PQ and RQ](https://github.com/enkidevs/curriculum/pull/3304)
+
 ## March 18th 2024
 
 - [Python - get the most out of floats - remove type in the gap](https://github.com/enkidevs/curriculum/pull/3297)
