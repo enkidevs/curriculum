@@ -52,7 +52,7 @@ Types of change:
 ## March 19th 2023
 
 ### Fixed
-- [Coding Intro - Programs and Data - fix broken link](https://github.com/enkidevs/curriculum/pull/3304)
+- [Coding Intro - Programs and Data - fix broken link](https://github.com/enkidevs/curriculum/pull/3303)
 
 ## March 18th 2024
 
