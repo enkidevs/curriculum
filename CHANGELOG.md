@@ -59,6 +59,7 @@ Types of change:
 
 ## March 18th 2024
 
+### Changed
 - [Python - get the most out of floats - remove type in the gap](https://github.com/enkidevs/curriculum/pull/3297)
 
 ## March 13th 2024

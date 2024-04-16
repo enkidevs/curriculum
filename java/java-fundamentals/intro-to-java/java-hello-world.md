@@ -27,7 +27,7 @@ revisionQuestion:
 
 Now that you know a little bit about Java, it's time to show you how to build your first app. 
 
-There are a couple of choices when it comes to where to write Java code: simple text editors (Atom, Sublime, Emacs, Vim) or IDEs[1] (IntelliJ, Eclipse). You can download all of them for free.
+There are a couple of choices when it comes to where to write Java code: simple text editors (Sublime, Emacs, Vim) or IDEs[1] (IntelliJ, Eclipse). You can download all of them for free.
 
 Probably the most used first code snippet for any language is the `hello world` one. Here it is:
 
