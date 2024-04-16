@@ -49,13 +49,21 @@ Types of change:
 ### Fixed
 
 
-## March 19th 2023
+
+## April 16th 2024
+
+### fixed
+- [Comp Sci - Several Insights - Replace broken links](https://github.com/enkidevs/curriculum/pull/3301)
+- [Multi Topic - Several insights - Remove suggestion for deprecated Atom editor](https://github.com/enkidevs/curriculum/pull/3302)
+
+## April 15th 2024
 
 ### Fixed
-- [Multi Topic - Several insights - Remove suggestion for deprecated Atom editor](https://github.com/enkidevs/curriculum/pull/3302)
+- [Generative Ai - Unsupervised Learning - Fix typos](https://github.com/enkidevs/curriculum/pull/3300)
 
 ## March 18th 2024
 
+### Changed
 - [Python - get the most out of floats - remove type in the gap](https://github.com/enkidevs/curriculum/pull/3297)
 
 ## March 13th 2024
