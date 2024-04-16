@@ -40,7 +40,7 @@ This loop will print the numbers from `0` to `4`. It will continue to run as lon
 Fill in the blank to output the numbers 1 to 10:
 
 ```csharp
-int i = 0;
+int i = 1;
 
 ???(i ???)
 {
@@ -60,9 +60,9 @@ int i = 0;
 Fill in the blank to output the numbers 1 to 5:
 
 ```csharp
-int i = 0;
+int i = 1;
 
-(i ???)
+???(i ???)
 {
   Console.WriteLine(i);
   i++;
