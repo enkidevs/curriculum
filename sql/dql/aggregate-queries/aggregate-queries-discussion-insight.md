@@ -10,7 +10,7 @@ category: how-to
 
 links:
   - >-
-    [Playground](https://learner.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F0f58777052a47fc5061fa83370089174%2Fraw%2Faa959e729d71cb03bf7d4a5ec079ced985f1e319%2Fsql-aggregate-queries-discussion-insight.json){website}
+    [Playground](https://learn.enki.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F0f58777052a47fc5061fa83370089174%2Fraw%2Faa959e729d71cb03bf7d4a5ec079ced985f1e319%2Fsql-aggregate-queries-discussion-insight.json){website}
 
 ---
 

@@ -10,7 +10,7 @@ category: how-to
 
 links:
   - >-
-    [Playground](https://learner.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2Fa41bb442321200a0ded3475100e5f9a9%2Fraw%2F000ef19e1786ccc4ca5f846ad98ef2b27b38c189%2Fsql-update-discussion-insight.json){website}
+    [Playground](https://learn.enki.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2Fa41bb442321200a0ded3475100e5f9a9%2Fraw%2F000ef19e1786ccc4ca5f846ad98ef2b27b38c189%2Fsql-update-discussion-insight.json){website}
 
 ---
 

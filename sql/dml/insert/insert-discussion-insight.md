@@ -10,7 +10,7 @@ category: how-to
 
 links:
   - >-
-    [Playground](https://learner.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F757d2557a971940305ace59e5bce0808%2Fraw%2F32399b94024073c351727c6888a697f9fa448737%2Fsql-insert-discussion-insight.json){website}
+    [Playground](https://learn.enki.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F757d2557a971940305ace59e5bce0808%2Fraw%2F32399b94024073c351727c6888a697f9fa448737%2Fsql-insert-discussion-insight.json){website}
 
 ---
 
