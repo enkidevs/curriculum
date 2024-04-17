@@ -7,7 +7,7 @@ category: how-to
 
 links:
   - >-
-    [Playground](https://learner.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F2b85df43ad3d134112160d24aa78ad5a%2Fraw%2F9b4aab60d58fbe17e783458192629d83c6eb53aa%2Fsql-building-queries-discussion-insight.json){website}
+    [Playground](https://learn.enki.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F2b85df43ad3d134112160d24aa78ad5a%2Fraw%2F9b4aab60d58fbe17e783458192629d83c6eb53aa%2Fsql-building-queries-discussion-insight.json){website}
 
 ---
 

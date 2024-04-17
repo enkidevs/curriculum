@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## April 17th 2023
+
+### Changed
+- [SQL - Multiple insights - replace playground urls](https://github.com/enkidevs/curriculum/pull/3305)
+
 ## April 16th 2024
 
 ### fixed
