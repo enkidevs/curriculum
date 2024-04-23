@@ -7,11 +7,11 @@ category: must-know
 
 ---
 
-### Why It's Good to Learn C-Sharp
+# Why It's Good to Learn C-Sharp
 
 ---
 
-# Content
+-- # Content
 ---
 There are many reasons why learning **C#** can be beneficial:
 
