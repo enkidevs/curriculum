@@ -48,7 +48,12 @@ Types of change:
 
 ### Fixed
 
-## April 17th 2023
+## April 24th 2024
+
+### Fixed
+- [Lua - Map Methods - Fix Typo in comment](https://github.com/enkidevs/curriculum/pull/3307)
+
+## April 17th 2024
 
 ### Changed
 - [SQL - Multiple insights - replace playground urls](https://github.com/enkidevs/curriculum/pull/3305)
