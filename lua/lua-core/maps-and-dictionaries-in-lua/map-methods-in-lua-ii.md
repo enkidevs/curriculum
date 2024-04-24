@@ -35,7 +35,7 @@ end
 -- Alice 32
 -- Bobbie	45
 -- Margaret 55
--- John	28
+-- John	25
 ```
 
 **Note**: The order in which we get the key-value pairs will not be the same every time. 
