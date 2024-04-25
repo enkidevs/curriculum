@@ -11,7 +11,7 @@ category: must-know
 
 ---
 
--- # Content
+# Content
 ---
 There are many reasons why learning **C#** can be beneficial:
 
