@@ -36,16 +36,15 @@ print(str3, str, str2, "years old")
 ---
 ## Practice
 
-Write a Lua program that creates a `name` variable and assigns "Mike" to it, then prints its value.
+Write a Lua program that creates a `name` variable and assigns "Mike" to it, then prints the value of `name`.
 
 ```lua
-??? = ???
-???(name)
+name = ???
+print(???)
 ```
 
-- `name`
 - `"Mike"`
-- `print`
+- `name`
 - `Mike`
 - `output`
 
