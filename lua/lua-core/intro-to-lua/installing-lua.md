@@ -11,7 +11,7 @@ type: normal
 ---
 ## Content
 
-Now hold your horses! Before you can start coding in Lua, **you need a way to code and test Lua language**.
+Now hold your horses! Before you can start coding in Lua, **you need a way to code and test Lua**.
 
 Traditionally, many languages require IDEs[1] and a text editor, but for this course, coding on **an online IDE is perfectly fine**! You can view online demo programs [here](https://www.lua.org/demo.html).
 
