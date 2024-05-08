@@ -7,7 +7,6 @@ core: true
 sections:
   '0':
     - intro-to-lua
-    - intro-to-lua-ii
     - variables-in-lua-i
     - variables-in-lua-ii
     - nil-variable
