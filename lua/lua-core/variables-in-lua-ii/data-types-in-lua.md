@@ -20,7 +20,7 @@ revisionQuestion:
 
 ## Content
 
-**Lua supports various data types** to represent different kinds of information. Understanding these data types is fundamental to effective programming, as while Lua is fairly dynamic and data types can be used interchangably, **knowing the data types** of variables is **essential before running specific operations**.
+**Lua supports various data types** to represent different kinds of information. Understanding these data types is fundamental to effective programming, as **specific operations may crash or provide the wrong output when using incompatible data types**.
 
 For instance, *you can't do math operations with strings*, since they're words, not numbers.
 
