@@ -16,19 +16,22 @@ revisionQuestion:
 # Booleans
 
 ---
+
 ## Content
 
 A **boolean** is a **logical value** that can be **either true or false**. 
 
 You can create a boolean variable *using the true and false keywords*.
 
+> `true` and `false` must be lowercase!
+
 Here's an example of creating a boolean variable in Lua:
 ```lua
-bool = true
+bool1 = true
 bool2 = false
 ```
 
-> Note that `True` is not the same as `true`. This also applies to `false` and `False`.
+> Remember that Lua is **case-sensitive**, meaning that `True` is not the same as `true`, nor is `False` the same as `false`. 
 
 ---
 ## Practice
@@ -36,7 +39,7 @@ bool2 = false
 How do you create a boolean variable in Lua? ???
 
 - `true` or `false` keywords
-- `var` keyword
+- `True` or `False` keyword
 - `bool` keyword
 - `boolean` keyword
 
