@@ -19,7 +19,7 @@ revisionQuestion:
 
 Lua is a **lightweight, fast, and versatile** programming language used in various aspects of coding. 
 
-While it may not be the most popular, Lua is perfect for beginners due to it's simplicity! 
+While it may not be the most popular, Lua is perfect for beginners due to it's simplicity!  
 
 For instance, if we want to output a word, we can store and print a word to the terminal in only 2 lines:
 
