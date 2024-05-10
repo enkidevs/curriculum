@@ -26,13 +26,16 @@ For instance, setting a variable to `nil` can be a way to **reset a variable to 
 For instance, a game can be coded to recognize whether a variable is changed, which would result in different behavior.
 
 ```lua
--- Check if the game state is neutral
+-- If gameState IS nil (using an == operator)
 if gameState == nil then
     print("Game state is neutral.")
+-- If gameState is NOT nil
 else
     print("Game state is not neutral.")
 end
 ```
+
+> The code in the example will be discussed later in the course.
 
 ---
 
