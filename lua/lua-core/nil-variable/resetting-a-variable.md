@@ -21,9 +21,9 @@ revisionQuestion:
 
 There are various scenarios where setting a variable to `nil` can be useful.
 
-For instance, setting a variable to `nil` can be a way to **reset a variable to a neutral state**, especially if it's used in a loop or needs to be reinitialized frequently.
+For instance, using `nil` can be a way to **reset a variable to a neutral state** in a loop or conditional statements.
 
-For instance, a game can be coded to recognize whether a variable is changed, which would result in different behavior.
+The code below checks for whether the variable `gameState` changed and prints different outputs depending on `gameState`'s value.
 
 ```lua
 -- If gameState IS nil (using an == operator)
@@ -35,7 +35,7 @@ else
 end
 ```
 
-> The code in the example will be discussed later in the course.
+> Loops, conditional statements, and operators will be discussed later in the course.
 
 ---
 
