@@ -19,9 +19,11 @@ revisionQuestion:
 
 ## Content
 
-Logical operators are used to **perform logical operations on boolean** values. 
+Logical operators are used to **perform logical operations** on all values. 
 
-> Recall that boolean values are either `true` or `false`.
+> Unlike most coding languages where a boolean value is returned, in Lua, one of the operands is instead returned.
+
+These operators
 
 These operators will **output true or false** based on the *given operator and operands*[1]. For instance, if there are two conditions, one operator will output `true` if both conditions are `true`. 
 
