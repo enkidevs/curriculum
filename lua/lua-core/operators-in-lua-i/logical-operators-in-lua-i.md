@@ -21,13 +21,11 @@ revisionQuestion:
 
 Logical operators are used to **perform logical operations** on all values. 
 
-> Unlike most coding languages where a boolean value is returned, in Lua, one of the operands is instead returned.
+There are three logical operators: `and`, `or`, and `not`.
 
-These operators
+Unlike most coding languages, **not all logical operators will return a boolean value** in Lua, as both `and` and `or` will return one of its operands[1].
 
-These operators will **output true or false** based on the *given operator and operands*[1]. For instance, if there are two conditions, one operator will output `true` if both conditions are `true`. 
-
-The three logical operators are `and`, `or`, and `not`.
+> For these operators, `false` and `nil` as operands are considered false and all other operands are true.
 
 ---
 
