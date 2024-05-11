@@ -23,7 +23,7 @@ Logical operators are used to **perform logical operations on boolean** values.
 
 > Recall that boolean values are either `true` or `false`.
 
-These operators will **output true or false** based on the *given operator and booleans*. For instance, if there are two conditions, one operator will output `true` if both conditions are `true`. 
+These operators will **output true or false** based on the *given operator and operands*[1]. For instance, if there are two conditions, one operator will output `true` if both conditions are `true`. 
 
 The three logical operators are `and`, `or`, and `not`.
 
@@ -48,3 +48,11 @@ Which of the following operators ARE logical operators? ???
 - `+`
 - `!=`
 - `#`
+
+---
+
+## Footnotes
+
+[1: Operands]
+
+An operand is a variable, constant, literal value, or another expression that an operator acts upon.
