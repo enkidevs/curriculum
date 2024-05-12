@@ -37,6 +37,7 @@ print(false and false) --> false
 -- integers
 print(5 and 6)         --> 6  
 
+-- nil and false
 print(nil and 10)      --> nil
 print(false and 10)    --> false
 
