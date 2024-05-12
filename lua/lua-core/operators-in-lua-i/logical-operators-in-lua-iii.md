@@ -18,7 +18,7 @@ revisionQuestion:
 ---
 ## Content
 
-The `or` operator **returns the first argument if its true**, and **otherwise returns the second argument**.
+The `or` operator **returns the first argument if its true**, and **otherwise returns the second argument**[1].
 
 Similarly to the `and` operator, the `or` operator can be used with other data types.
 
@@ -57,6 +57,7 @@ c = (true or false)
 
 
 ---
+
 ## Revision
 
 In the code below, variable b is ??? and variable c is ??? 
@@ -72,4 +73,10 @@ c = (true or false)
 - "true"
 - "false"
 
+---
 
+## Footnotes
+
+[1: Short-Cut Evaluation]
+
+This form of decision making is called **short-cut evaluation**, in which the second operand is evaluated only when necessary.
