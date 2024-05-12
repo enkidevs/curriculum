@@ -16,17 +16,30 @@ revisionQuestion:
 # The "And" Operator
 
 ---
+
 ## Content
 
+The `and` operator **returns the first argument if its false**, and **otherwise returns the second argument**.
 
-The `and` operator returns `true` only **if both of its operands are true**, and `false` otherwise. 
+> For those familiar with other coding languages, the output for boolean values remains the same (e.g. `true` is the output **if both operands are `true`**)
+
+Due to this unique definition, other data types such as **integers** can be used with `and`.
+
+> Recall that only `false` and `nil` operands are **considered false** and **all other operands are true**
 
 Here are some examples:
 ```lua
--- and operator
+-- boolean
 print(true and true)   --> true
 print(true and false)  --> false
 print(false and false) --> false
+
+-- integers
+print(5 and 6)         --> 6  
+
+print(nil and 10)      --> nil
+print(false and 10)    --> false
+
 ```
 
 ---
