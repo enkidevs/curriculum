@@ -25,7 +25,7 @@ There are three logical operators: `and`, `or`, and `not`.
 
 Unlike most coding languages, **not all logical operators will return a boolean value** in Lua, as both `and` and `or` will return one of its operands[1].
 
-> For these operators, `false` and `nil` as operands are considered false and all other operands are true.
+> For these operators, `false` and `nil` as operands are considered false and **all other operands are true**.
 
 ---
 

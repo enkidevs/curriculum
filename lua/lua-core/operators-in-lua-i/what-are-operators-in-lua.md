@@ -15,6 +15,6 @@ In Lua, operators are used to perform **arithmetic**, **logical**, and **relatio
 
 They can be used with **various data types** such as *numbers, strings, booleans, and tables*, and can be combined to form more complex expressions.
 
-Lua also provides **bit-wise operators** and **concatenation operators** specifcally for strings.
+Lua also provides **bit-wise operators** and **concatenation operators** specifically for strings.
 
 > 💬 With operators in mind, how might they assist programmers in coding?
