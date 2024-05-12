@@ -84,4 +84,4 @@ c = (true and false)
 
 [1: Short-Cut Evaluation]
 
-This form of decision making is called **short-cut evaluation**, in which the second operand is evaluated only when necessary.
+This form of decision making is called **short-cut evaluation**, in which the second operand is evaluated only when necessary. It's useful for efficiency and simplicity.
