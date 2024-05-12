@@ -18,14 +18,25 @@ revisionQuestion:
 ---
 ## Content
 
-The `or` operator returns `true` if **either of its operands are true**, and `false` otherwise.
+The `or` operator **returns the first argument if its true**, and **otherwise returns the second argument**.
+
+Similarly to the `and` operator, the `or` operator can be used with other data types.
+
+> Recall that only `false` and `nil` operands are **considered false** and **all other operands are true**
 
 Here are some examples:
 ```lua
--- or operator
+-- boolean
 print(true or true)    --> true
-print(true or false)   --> true
+print(false or true)   --> true
 print(false or false)  --> false
+
+-- integers
+print(5 or 6)         --> 5  
+
+-- nil and false
+print(nil or 10)      --> 10
+print(false or 10)    --> 10
 ```
 
 ---
