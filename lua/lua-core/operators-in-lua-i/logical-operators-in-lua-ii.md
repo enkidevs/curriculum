@@ -19,7 +19,7 @@ revisionQuestion:
 
 ## Content
 
-The `and` operator **returns the first argument if its false**, and **otherwise returns the second argument**.
+The `and` operator **returns the first argument if its false**, and **otherwise returns the second argument**[1].
 
 > For those familiar with other coding languages, the output for boolean values remains the same (e.g. `true` is the output **if both operands are `true`**)
 
@@ -78,3 +78,10 @@ c = (true and false)
 - "true"
 - "false"
 
+---
+
+## Footnotes
+
+[1: Short-Cut Evaluation]
+
+This form of decision making is called **short-cut evaluation**, in which the second operand is evaluated only when necessary.
