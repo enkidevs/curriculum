@@ -20,11 +20,17 @@ revisionQuestion:
 
 The `not` operator **returns the opposite boolean value** of its operand.
 
+Unlike `and` and `or`, the `not` operator solely outputs boolean values, but can still accept other data types.
+
+> Recall that only `false` and `nil` operands are **considered false** and **all other operands are true**
+
 Here are some examples:
 ```lua
 -- not operator
 print(not true)  --> false
 print(not false) --> true
+print(not nil) --> true
+print(not 1) --> false
 ```
 
 ---
