@@ -1,6 +1,6 @@
-name: Relational Operators
+name: Logical Operators
 
-description: Learn about Relational Operators in Lua
+description: Learn about what Operators are and Logical Operators in Lua.
 
 aspects:
   - introduction
@@ -9,6 +9,8 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - relational-operators-in-lua-i
-  - relational-operators-in-lua-ii
-  - relational-operators-in-lua-iii
+  - what-are-operators-in-lua
+  - logical-operators-in-lua-i
+  - logical-operators-in-lua-ii
+  - logical-operators-in-lua-iii
+  - logical-operators-in-lua-iv

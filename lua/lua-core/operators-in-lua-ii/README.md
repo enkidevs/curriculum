@@ -1,6 +1,6 @@
-name: Arithmetic Operators
+name: Relational Operators
 
-description: Learn about Arithmetic Operators in Lua.
+description: Learn about Relational Operators in Lua
 
 aspects:
   - introduction
@@ -9,6 +9,6 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - arithmetic-operators-in-lua-i
-  - arithmetic-operators-in-lua-ii
-  - arithmetic-operators-in-lua-iii
+  - relational-operators-in-lua-i
+  - relational-operators-in-lua-ii
+  - relational-operators-in-lua-iii

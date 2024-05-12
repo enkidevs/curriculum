@@ -1,6 +1,6 @@
-name: Logical Operators
+name: Arithmetic Operators
 
-description: Learn about what Operators are and Logical Operators in Lua.
+description: Learn about Arithmetic Operators in Lua.
 
 aspects:
   - introduction
@@ -9,8 +9,6 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - what-are-operators-in-lua
-  - logical-operators-in-lua-i
-  - logical-operators-in-lua-ii
-  - logical-operators-in-lua-iii
-  - logical-operators-in-lua-iv
+  - arithmetic-operators-in-lua-i
+  - arithmetic-operators-in-lua-ii
+  - arithmetic-operators-in-lua-iii
