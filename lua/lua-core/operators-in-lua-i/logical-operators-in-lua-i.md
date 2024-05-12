@@ -55,4 +55,4 @@ Which of the following operators ARE logical operators? ???
 
 [1: Operands]
 
-An operand is a variable, constant, literal value, or another expression that an operator acts upon.
+An operand is a variable, constant, literal value, or another expression that an operator acts upon. Interchangable with arguments.
