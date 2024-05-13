@@ -21,16 +21,16 @@ revisionQuestion:
 
 ## Content
 
-In Lua, you can use the `#` operator to find the length of a string.
+In Lua, you can use the `#` operator to **find and access the length/number of characters of a string**.
 
-For example, to find the length of a string `my_string`, you would use:
+For example, to find the length of a string `password`, you would write:
 ```lua
-my_string = "hello world"
-print(#my_string) --> 11
+username = "Lua Enjoyer"
+print(#username) --> 11
 ```
+> **White spaces are included** in the length.
 
-When checking the length of a string, it is **determined by the number of characters**. Thus, **white spaces are also counted**.
-
+By having access to `username`'s length, the programmer can further work with the string length, such as making `password` receive inputs that **have a minimum and maximum character limit**.
 
 ---
 
