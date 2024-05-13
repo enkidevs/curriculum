@@ -15,7 +15,7 @@ revisionQuestion:
 
 ---
 
-# Number of Length Operator I
+# Length Operator
 
 ---
 
