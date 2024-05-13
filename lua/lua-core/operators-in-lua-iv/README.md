@@ -10,5 +10,6 @@ learnType: GROKKING
 
 insights:
   - length-operators-in-lua-i
-  - length-operators-in-lua-ii
   - concatenation-operator-in-lua
+  - operator-precedence-in-lua-i
+  - operator-precedence-in-lua-ii
