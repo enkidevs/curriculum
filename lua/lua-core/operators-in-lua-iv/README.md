@@ -9,6 +9,5 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - length-operators-in-lua-i
-  - length-operators-in-lua-ii
+  - length-operators-in-lua
   - concatenation-operator-in-lua
