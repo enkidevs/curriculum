@@ -30,7 +30,7 @@ print(#username) --> 11
 ```
 > **White spaces are included** in the length.
 
-By having access to `username`'s length, the programmer can further work with the string length, such as making `password` receive inputs that **have a minimum and maximum character limit**.
+By having access to `username`'s length, the programmer can further work with the string length, such as making `username` receive inputs that **have a minimum and maximum character limit**.
 
 ---
 
