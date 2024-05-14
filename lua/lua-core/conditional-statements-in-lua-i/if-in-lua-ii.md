@@ -26,7 +26,7 @@ if num > 0 then
 end
 ```
 
-In this example, since the value of `num` is 10 and greater than 0, the message **"The number is positive" will be printed**.
+In this example, since the value of `num` is 10 and greater than 0, the message "The number is positive" will be printed.
 
 ---
 ## Practice
