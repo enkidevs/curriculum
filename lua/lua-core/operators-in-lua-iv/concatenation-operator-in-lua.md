@@ -38,6 +38,9 @@ The `" "` in between the two strings is also concatenated, resulting in the outp
 ## Practice
 
 Finish the code to concatenate the `"Hello"` and `"world"` strings. Also, concatenate a space between the two words.
+
+> Hint. When concatenating spaces between strings, you can make an empty string with only a space within it and then connect the strings together. 
+
 ```lua
 str1 = "Hello"
 str2 = "world"
