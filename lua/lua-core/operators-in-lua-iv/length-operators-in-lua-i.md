@@ -23,7 +23,7 @@ revisionQuestion:
 
 In Lua, you can use the `#` operator to **find and access the length/number of characters of a string**.
 
-For example, to find the length of a string `password`, you would write:
+For example, to find the length of a string `username`, you would write:
 ```lua
 username = "Lua Enjoyer"
 print(#username) --> 11
