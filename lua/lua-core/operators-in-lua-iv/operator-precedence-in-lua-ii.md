@@ -21,7 +21,7 @@ revisionQuestion:
 
 ## Content
 
-Another rule that has to be considered when evaluating expressions is association. Most operators, excluding exponentiation (^) and concatenation (..), are left associative[1].
+Another rule that has to be considered when evaluating expressions is association. **Most operators, excluding exponentiation (^) and concatenation (..), are left associative**[1].
 
 > ^ and .. are right associative[2].
 
@@ -29,7 +29,7 @@ For instance, `x + 3 < y / 7 + 3` is a complex expression involving many operato
 
 Had we ignored the rules of association, the expression could have looked like `(x + 3) < (y / (7 + 3))`, resulting in a different output.
 
-> To avoid worrying about these specific rules, its recommended to use explicit parentheses, as parentheses override precedence and association.
+> To avoid worrying about these specific rules, **its recommended to use explicit parentheses when writing expressions**, as parentheses override precedence and association.
 
 ---
 

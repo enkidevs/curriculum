@@ -21,7 +21,7 @@ revisionQuestion:
 
 ## Content
 
-Operator precedence refers to the rules that determine the order in which operators are evaluated in an expression. 
+Operator precedence refers to **the rules that determine the order in which operators are evaluated** in an expression. 
 
 |    Priority    |           Operators           |
 |:--------------:|:-----------------------------:|
@@ -34,7 +34,9 @@ Operator precedence refers to the rules that determine the order in which operat
 |                |             `and`             |
 |     Lowest     |              `or`             |
 
-For example, if we look at the expression `3+x^3*5`, using the rules of precedence, the expression is equivalent to `3 + ((x^3)*5)`. Without understanding precedence, any interpretations of any expressions will mostly be incorrect such as `(3+x)^(3*5)`.
+For example, if we look at the expression `3+x^3*5`, using the rules of precedence, the **expression is equivalent to** `3 + ((x^3)*5)`. 
+
+Without understanding precedence, any interpretations of any expressions will mostly be incorrect, such as `(3+x)^(3*5)`.
 
 ---
 
