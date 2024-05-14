@@ -41,16 +41,16 @@ Here is a quick example: [2]
 Complete the format for an `if-then-else` statement in the code below:
 
 ```lua
-??? condition ???
+??? condition then
    -- Code to execute if condition is true
 ???
    -- Code to execute if condition is false
-???
+end
 ```
 - if
-- then
 - else
 - end
+- then
 
 ---
 
