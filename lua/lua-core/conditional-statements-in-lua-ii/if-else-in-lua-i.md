@@ -13,16 +13,16 @@ revisionQuestion:
 
 ---
 
-# if-else Statements
+# if-then-else Statements
 
 ---
 ## Content
 
 Previously, we've established that `if` statements execute code based on conditions. 
 
-Now we introduce `if-else` statements, used to execute more than one code block based on certain conditions. In other words, we're providing code to be executed if a condition is not met!
+Now we introduce `if-then-else` statements[1], used to execute more than one code block based on certain conditions. In other words, we're providing code to be executed if a condition is not met!
 
-The basic syntax for an `if-else` statement uses `if` and `else` as keywords.
+The basic syntax for an `if-then-else` statement uses `if` and `else` as keywords.
 
 The format is as follows:
 ```lua
@@ -32,13 +32,13 @@ else
    -- code to execute if condition is false
 end
 ```
-Here is a quick example: [1]
+Here is a quick example: [2]
 
 ---
 
 ## Practice
 
-Complete the format for an `if-else` statement in the code below:
+Complete the format for an `if-then-else` statement in the code below:
 
 ```lua
 ??? condition ???
@@ -74,7 +74,11 @@ finish
 
 ## Footnotes
 
-[1: If Else Statement Example]
+[1: If-Then-Else]
+
+In other programming languages, `if-then-else` statements are commonly known as `if-else` statements. Other than the syntax and programming language, **both conditional statements logically work the same**.
+
+[2: If-Then-Else Statement Example]
 
 ```lua
 if x > 5 then

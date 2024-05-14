@@ -14,12 +14,12 @@ revisionQuestion:
 
 ---
 
-# if-else Statement Example
+# if-then-else Statement Example
 
 ---
 ## Content
 
-Here's another example of an `if-else` statement:
+Here's another example of an `if-then-else` statement:
 ```lua
 age = 18
 
@@ -36,7 +36,7 @@ The `if` statement checks whether the value of `age` is greater than or equal to
 
 If the **condition is false**, the code inside the **else block is executed**, which prints "You are not an adult".
 
-In this way, we can use `if-else` statements in Lua to execute different blocks of code based on different conditions.
+In this way, we can use `if-then-else` statements in Lua to execute different blocks of code based on different conditions.
 
 ---
 ## Practice
