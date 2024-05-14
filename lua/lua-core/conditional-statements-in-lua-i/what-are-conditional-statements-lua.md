@@ -14,13 +14,13 @@ practiceQuestion:
 ---
 ## Content
 
-In Lua, like in many other programming languages, you can **use conditional statements to make decisions in your code** based on whether certain conditions are true or false.
+Similarly to other programming languages, Lua allows the use of **conditional statements**. These **allow programs to make decisions based on certain conditions. **
+
+For instance, a program can *check for the boolean value of a variable* and can *perform one set of actions if its true*, and a *different set of actions if its false.*
 
 The most common types of conditional statements in Lua are the `if` statement, the `if...else` statement, and the `if...elseif...else` statement.
 
-Think of these as **option 1 and option 2**. If a condition is fulfilled, go with option 1. Otherwise, go with option 2. 
-
-> This idea can be expanded to more than 2 options and conditions!
+> If you're still confused, don't fret! Each conditional statement will be explained further and help your understanding of conditionals!
 
 --- 
 
