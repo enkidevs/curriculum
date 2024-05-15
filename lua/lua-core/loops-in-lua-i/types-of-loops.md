@@ -17,15 +17,17 @@ revisionQuestion:
 ---
 ## Content
 
-The two main types of loops in Lua are the `while` loop and the `for` loop. 
+In Lua, there are **three types of loops that execute differently**.
 
-The `while` loop executes a block of code **as long as a condition is true**.
+- The `while` loop and `repeat` loop executes a block of code **as long as a condition is true**.
 
-The `for` loop executes a block of code **a fixed number of times**.
+- The `for` loop executes a block of code **a fixed number of times**.
 
-In addition to these, Lua also has the `repeat` loop, which is similar to the `while` loop, except that the **condition is checked at the end of the loop** instead of the beginning. 
+The difference between the `while` and `repeat` loop is when the condition is evaluated. In a `while` loop, the **condition is checked at the beginning** of the loop, while in a `repeat` loop, its **checked at the end**.
 
-This guarantees that the **loop will execute at least once**.
+> The block of **code in a loop will be guaranteed to execute once** in a `repeat` loop, but not in a `while` loop.
+
+Using the right loop can make your code more efficient and easier to read.
 
 ---
 

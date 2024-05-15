@@ -36,6 +36,7 @@ for i = 1, 5 do
     print("Hello, World!")
 end
 ```
+> If the code confuses you, don't worry! The next few insights will explain further!
 
 ---
 
