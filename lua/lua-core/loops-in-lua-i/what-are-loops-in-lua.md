@@ -37,10 +37,6 @@ for i = 1, 5 do
 end
 ```
 
-In Lua, there are several types of loops that execute repeatedly with specific conditions. 
-
-By understanding the different types of loops in Lua and when to use them, you *can write more effective code* and *solve problems more efficiently* **while writing less code**.
-
 ---
 
 ## Practice
