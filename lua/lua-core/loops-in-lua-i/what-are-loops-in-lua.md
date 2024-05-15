@@ -19,13 +19,27 @@ revisionQuestion:
 
 In programming, a loop is a fundamental construct that **allows a block of code to be executed repeatedly**. 
 
-Loops are often used to *process a set of data* or to *perform repetitive tasks*. 
+Thus, loops are often used to *process a set of data* or to *perform repetitive tasks* **while writing less code**. 
 
-In Lua, there are several types of loops that execute repeatedly with specific conditions. By understanding the different types of loops in Lua and when to use them, you *can write more effective code* and *solve problems more efficiently* **while writing less code**.
+Here's the difference between fully writing out steps compared to using a simple loop:
 
-Here's an example of pseudocode where numbers are added consecutively:
+```lua
+-- printing 5 times WITHOUT a loop
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
 
-![loop-efficiency](https://img.enkipro.com/7eddbbfece42486c13e73fd6a9a7e78b.png)
+-- printing 5 times WITH a loop
+for i = 1, 5 do
+    print("Hello, World!")
+end
+```
+
+In Lua, there are several types of loops that execute repeatedly with specific conditions. 
+
+By understanding the different types of loops in Lua and when to use them, you *can write more effective code* and *solve problems more efficiently* **while writing less code**.
 
 ---
 
