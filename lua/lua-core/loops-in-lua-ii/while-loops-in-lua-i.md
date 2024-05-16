@@ -40,6 +40,8 @@ If the expression is true, then the code inside the loop is executed. This proce
 
 Finish the `while` loop in the code below with a **condition of "x" being true**:
 
+> Recall the usage of relational operators.
+
 ```lua
 while ??? do
   -- code to be executed while condition is true
