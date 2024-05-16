@@ -29,7 +29,7 @@ repeat
   -- prompt the user for their guess
   print("Guess a number between 1 and 10:")
 
-  -- read in the user's guess from standard input
+  -- read the user's guess from standard input
   guess = io.read()
 
   -- check if the guess is correct
@@ -41,7 +41,7 @@ repeat
 until guess == "7"
 ```
 
-**Note**: We will learn how `io.read()` works in the following workout.
+> Ignore IO functions and focus solely on the functionality in this example, as IO is not mandatory for this course.
 
 ---
 
