@@ -20,7 +20,7 @@ revisionQuestion:
 
 A `for` loop in Lua is used to **loop through a range of values**, which can be numbers, elements of a table, or an array. 
 
-![for-loop-visual](https://img.enkipro.com/81bf244dec0ddb4166ba76521759d003.png)
+![for-loop-visual](https://img.enkipro.com/9406c9c92f96050b843f16a0a6f10986.png)
 
 In Lua, the syntax for a `for` loop is as follows:
 
