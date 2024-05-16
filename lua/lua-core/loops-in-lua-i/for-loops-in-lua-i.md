@@ -32,7 +32,7 @@ end
 
 The `variable` in the loop is initialized to the `start_value` and incremented by the `increment` value for each iteration until it reaches the `end_value`. 
 
-The `increment` value can be positive or negative, and if not specified, it defaults to 1.
+The `increment` value **can be positive or negative**, and if not specified, it defaults to 1.
 
 ---
 

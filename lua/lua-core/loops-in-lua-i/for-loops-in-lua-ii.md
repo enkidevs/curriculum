@@ -30,7 +30,7 @@ The loop variable `i` is **initialized to 1** and the loop body prints the value
 
 The loop restarts and **increments** variable `i` by 1 for the next iteration. 
 
-> Remember that by default, the increment value is 1!
+> Remember that **by default, the increment value is 1**!
 
 This continues until `i` reaches 5, at which point the loop terminates.
 
