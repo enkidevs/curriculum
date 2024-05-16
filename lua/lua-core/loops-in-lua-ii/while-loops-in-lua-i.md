@@ -20,7 +20,7 @@ revisionQuestion:
 A `while` loop allows you to **execute a block of code repeatedly as long as a certain condition is true**. 
 
 Here is a visual example: 
-![while-loop-visual](https://img.enkipro.com/5fa95744f54c4ea961f46ea9dc4b57b9.png)
+![while-loop-visual](https://img.enkipro.com/0de1164c1e4767071b42f5c582d90e6a.png)
 
 In Lua, the syntax for a `while` loop is as follows:
 
