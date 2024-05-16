@@ -20,7 +20,7 @@ revisionQuestion:
 Here's an example of a while loop in action:
 ```lua
 -- print numbers from 1 to 5
-local i = 1
+i = 1
 while i <= 5 do
   print(i)
   i = i + 1
