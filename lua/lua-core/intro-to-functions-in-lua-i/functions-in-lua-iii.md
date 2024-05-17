@@ -18,7 +18,7 @@ revisionQuestion:
 ---
 ## Content
 
-When creating functions you can also **define parameters inside the parentheses**.
+When creating functions you can also **define parameters[1] inside the parentheses**.
 
 Here's an example of a function that takes two numbers and returns their sum:
 
@@ -60,3 +60,11 @@ end
 - `x - y`
 - `x + y`
 - `add`
+
+---
+
+## Footnotes
+
+[1: Parameters]
+
+Parameters are specific values or inputs given to a function, model, or system that help determine its behavior or output.
