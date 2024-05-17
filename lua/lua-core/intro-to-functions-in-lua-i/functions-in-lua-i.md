@@ -20,7 +20,7 @@ A function is a **block of code that performs a specific task** and can be **cal
 
 To help you understand, functions are like specialized doctors in a hospital. When you encounter a specific illness, you would *call* on these specialized doctors and have them carry out specialized treatments. 
 
-![function-analogy](https://img.enkipro.com/e23e17a9a9e160fc357302847a8a1135.png)
+![function-analogy](https://img.enkipro.com/bb8d7de459a407a2beb93ae91636a1ba.png)
 
 ---
 
