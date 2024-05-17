@@ -31,6 +31,8 @@ end
 myFunction = double
 ```
 
+> Recall that the `return` keyword is used to specify the value that the function should return
+
 ---
 ## Practice
 
