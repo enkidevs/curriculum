@@ -7,7 +7,6 @@ core: true
 sections:
   '0':
     - intro-to-lua
-    - intro-to-lua-ii
     - variables-in-lua-i
     - variables-in-lua-ii
     - nil-variable
@@ -27,8 +26,6 @@ sections:
     - maps-and-dictionaries-in-lua
     - tables-in-lua-iii
     - tables-in-lua-iv
-    - io-operations-in-lua-i
-    - io-operations-in-lua-ii
     - events-intro
     - events-in-lua
     - lua-in-games
