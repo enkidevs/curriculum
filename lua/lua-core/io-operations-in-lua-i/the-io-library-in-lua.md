@@ -13,8 +13,6 @@ practiceQuestion:
 ---
 ## Content
 
-> Workouts involving IO operations are optional, as Roblox Studio has since deprecated most IO related functions
-
 The **IO** library in Lua **provides a set of built-in functions** for dealing with **input and output operations**. 
 
 These functions allow you to perform operations like *reading and writing* files, *opening and closing* streams, and *working with the file system*.

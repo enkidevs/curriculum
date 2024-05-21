@@ -30,7 +30,7 @@ In the coding segment [2]:
 
 - The `--` is used to denote a **single line comment**. These often contain notes written by the author!
 
-> For this course, notes will either describe the code or display the output for code.
+> In most cases, notes will often contain the output for code.
 
 - The `print("Hello, world!")` is used to **output the string**[3] "Hello, world!" to the terminal.
 
