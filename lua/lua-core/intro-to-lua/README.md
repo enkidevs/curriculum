@@ -12,3 +12,4 @@ insights:
   - why-learn-lua
   - intro-code-lua
   - what-to-expect
+  - installing-lua-i
