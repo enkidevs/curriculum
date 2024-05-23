@@ -6,7 +6,7 @@ type: normal
 
 ---
 
-# Getting Starting to Code Lua
+# Getting Started With Lua
 
 ---
 ## Content
