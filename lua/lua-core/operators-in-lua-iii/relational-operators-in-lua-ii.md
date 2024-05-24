@@ -18,7 +18,7 @@ revisionQuestion:
 ---
 ## Content
 
-These are the **greater** and **less** Operators:
+These are the **Greater** and **Less** Operators:
 
 |           Name           | Sign |
 |:------------------------:|:----:|
