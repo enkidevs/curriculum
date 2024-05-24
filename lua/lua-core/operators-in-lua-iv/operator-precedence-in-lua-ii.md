@@ -62,3 +62,7 @@ For example, `a - b - c` will be evaluated as `(a - b) - c`.
 
 
 [2: Right Associativity]
+
+When evaluating an operator that is right associative, the evaluation for that operator proceeds from right to left. In other words, operators will group from the right.
+
+For example, `a - b - c` will be evaluated as `a - (b - c)`.
