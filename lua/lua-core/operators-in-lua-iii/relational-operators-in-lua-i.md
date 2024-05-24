@@ -21,7 +21,7 @@ revisionQuestion:
 
 Relational operators are used to **compare two values or expressions** and **return a Boolean value**, either `true` or `false`. 
 
-These are the Equal and Not-Equal Operators in Lua: 
+These are the **Equal** and **Not-Equal** Operators in Lua: 
 
 |           Name           | Sign |
 |:------------------------:|:----:|
