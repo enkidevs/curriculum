@@ -11,9 +11,9 @@ sections:
     - variables-in-lua-i
     - variables-in-lua-ii
     - nil-variable
-    - operators-in-lua-i
     - operators-in-lua-ii
     - operators-in-lua-iii
+    - operators-in-lua-i
     - operators-in-lua-iv
     - conditional-statements-in-lua-i
     - conditional-statements-in-lua-ii
