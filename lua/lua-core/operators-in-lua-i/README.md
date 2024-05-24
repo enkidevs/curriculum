@@ -9,7 +9,6 @@ aspects:
 learnType: GROKKING
 
 insights:
-  - what-are-operators-in-lua
   - logical-operators-in-lua-i
   - logical-operators-in-lua-ii
   - logical-operators-in-lua-iii

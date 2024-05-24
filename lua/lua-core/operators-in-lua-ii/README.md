@@ -9,6 +9,7 @@ aspects:
 learnType: GROKKING
 
 insights:
+  - what-are-operators-in-lua
   - arithmetic-operators-in-lua-i
   - arithmetic-operators-in-lua-ii
   - arithmetic-operators-in-lua-iii
