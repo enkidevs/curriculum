@@ -1,6 +1,6 @@
 ---
 author: Stefan-Stojanovic
-category: must-know
+category: how-to
 type: normal
 
 
@@ -12,9 +12,11 @@ type: normal
 
 ## Content
 
+> This insight is completely optional for those that plan to code Lua on a different platform from Roblox Studio.
+
 You can test whether you installed the Lua interpreter by **running the** `lua -v` **command in your terminal or command prompt**. 
 
-> To open a command prompt, press the Windows search option (or the Launchpad Icon for Mac) and search for terminal.
+To open a command prompt, press the Windows search option (or the Launchpad Icon for Mac) and search for terminal.
 
 ![command-prompt](https://img.enkipro.com/7526a646ae91a958b2ef620e5351e999.png)
 

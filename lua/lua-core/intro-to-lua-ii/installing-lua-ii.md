@@ -1,6 +1,6 @@
 ---
 author: Stefan-Stojanovic
-category: must-know
+category: how-to
 type: normal
 
 
@@ -12,7 +12,7 @@ type: normal
 
 ## Content
 
-> The next three insights are only for those that want to make projects in Lua and are not planning to code on Roblox Studio.
+> This insight is completely optional for those that plan to code Lua on a different platform from Roblox Studio.
 
 Another option is to install a **Lua interpreter**[1] and a **text editor**[2] on your computer. 
 
