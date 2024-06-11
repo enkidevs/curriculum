@@ -56,7 +56,7 @@ python3
 
 > For anything longer than a few lines of code, it's much easier to use a text editor.
 
-Some of the most popular text editors are Notepad, Atom, VIM, Sublime Text and Visual Studio Code.
+Some of the most popular text editors are Notepad, VIM, Sublime Text and Visual Studio Code.
 
 We recommend [Visual Studio Code](https://code.visualstudio.com/Download) for beginners. 
 

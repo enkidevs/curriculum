@@ -48,10 +48,30 @@ Types of change:
 
 ### Fixed
 
-## March 27th 2024
+## June 11th 2024
 
 ### Changed
 - [Python - the in operator - Change pq](https://github.com/enkidevs/curriculum/pull/3299)
+
+## April 24th 2024
+
+### Fixed
+- [Lua - Map Methods - Fix Typo in comment](https://github.com/enkidevs/curriculum/pull/3307)
+
+## April 17th 2024
+
+### Changed
+- [SQL - Multiple insights - replace playground urls](https://github.com/enkidevs/curriculum/pull/3305)
+
+## April 16th 2024
+
+### fixed
+- [CSharp - While Loops - Fix PQ and RQ](https://github.com/enkidevs/curriculum/pull/3304)
+- [Coding Intro - Programs and Data - fix broken link](https://github.com/enkidevs/curriculum/pull/3303)
+- [Multi Topic - Several insights - Remove suggestion for deprecated Atom editor](https://github.com/enkidevs/curriculum/pull/3302)
+- [Comp Sci - Several Insights - Replace broken links](https://github.com/enkidevs/curriculum/pull/3301)
+- [Generative Ai - Unsupervised Learning - Fix typos](https://github.com/enkidevs/curriculum/pull/3300)
+
 
 ## March 18th 2024
 

@@ -6,7 +6,7 @@ tags:
   - introduction
 links:
   - >-
-    [Playground](https://student.enkicamp.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F8ba73dd4ca6134aba40b427659b75b7b%2Fraw%2Fecb3a84ae1e0c272c8724eb499d9e3d890563768%2Fsql-your-first-query.json){website}
+    [Playground](https://learn.enki.com/public/playground?jsonUrl=https%3A%2F%2Fgist.githubusercontent.com%2Fkapnobatai137%2F8ba73dd4ca6134aba40b427659b75b7b%2Fraw%2Fecb3a84ae1e0c272c8724eb499d9e3d890563768%2Fsql-your-first-query.json){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
