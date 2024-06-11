@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## June 11th 2024
+
+### Changed
+- [Python - the in operator - Change pq](https://github.com/enkidevs/curriculum/pull/3299)
+
 ## April 24th 2024
 
 ### Fixed
@@ -66,6 +71,7 @@ Types of change:
 - [Multi Topic - Several insights - Remove suggestion for deprecated Atom editor](https://github.com/enkidevs/curriculum/pull/3302)
 - [Comp Sci - Several Insights - Replace broken links](https://github.com/enkidevs/curriculum/pull/3301)
 - [Generative Ai - Unsupervised Learning - Fix typos](https://github.com/enkidevs/curriculum/pull/3300)
+
 
 ## March 18th 2024
 
