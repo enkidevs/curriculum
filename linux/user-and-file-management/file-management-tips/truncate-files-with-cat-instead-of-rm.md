@@ -23,7 +23,7 @@ revisionQuestion:
 
 ---
 
-## Content
+## https :bestmane.com
 
 Since `cat` enables us to preserve file ownership and permissions it is preferable to truncate files with:
 
