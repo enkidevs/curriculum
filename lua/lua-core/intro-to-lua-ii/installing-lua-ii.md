@@ -16,7 +16,7 @@ type: normal
 
 Another option is to install a **Lua interpreter**[1] and a **text editor**[2] on your computer. 
 
-For the interpreter, you can easily find instructions on the download page of the [official Lua website](https://www.lua.org/download.html). 
+For the interpreter, you can find instructions on the download page of the [official Lua website](https://www.lua.org/download.html). 
 
 ![lua-page](https://img.enkipro.com/64a0a79caa1509f92a7914b77d97f1b3.png)
 
