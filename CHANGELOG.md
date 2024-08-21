@@ -48,8 +48,24 @@ Types of change:
 
 ### Fixed
 
-## April 17th 2023
+## August 21st 2024
  
+### Changed
+
+- [Multiple Topics - Multiple workouts - Fix broken links, rework some insights](https://github.com/enkidevs/curriculum/pull/3298)
+ 
+## June 11th 2024
+
+### Changed
+- [Python - the in operator - Change pq](https://github.com/enkidevs/curriculum/pull/3299)
+
+## April 24th 2024
+
+### Fixed
+- [Lua - Map Methods - Fix Typo in comment](https://github.com/enkidevs/curriculum/pull/3307)
+
+## April 17th 2024
+
 ### Changed
 - [SQL - Multiple insights - replace playground urls](https://github.com/enkidevs/curriculum/pull/3305)
 
@@ -61,6 +77,7 @@ Types of change:
 - [Multi Topic - Several insights - Remove suggestion for deprecated Atom editor](https://github.com/enkidevs/curriculum/pull/3302)
 - [Comp Sci - Several Insights - Replace broken links](https://github.com/enkidevs/curriculum/pull/3301)
 - [Generative Ai - Unsupervised Learning - Fix typos](https://github.com/enkidevs/curriculum/pull/3300)
+
 
 ## March 18th 2024
 
