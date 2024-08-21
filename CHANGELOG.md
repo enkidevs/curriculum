@@ -52,7 +52,7 @@ Types of change:
  
 ### Changed
 
-- [Multiple Topics - Multiple workouts - Fix broken links, rework some insights](https://github.com/enkidevs/curriculum/pull/3298)
+- [Lua - Multiple workouts - rework some insights](https://github.com/enkidevs/curriculum/pull/3298)
  
 ## June 11th 2024
 
