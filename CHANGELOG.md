@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## August 21st 2024
+ 
+### Changed
+
+- [Lua - Multiple workouts - rework some insights](https://github.com/enkidevs/curriculum/pull/3298)
+ 
 ## June 11th 2024
 
 ### Changed
