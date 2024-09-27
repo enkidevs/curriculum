@@ -24,7 +24,7 @@ revisionQuestion:
 
 ## Content
 
-The HTML `<var>`, or the **Variable** element, is used to represent a name of a variable in either a programming context or a mathematical expression.
+The `<var>`, or the **Variable** element, is used to represent a name of a variable in either a programming context or a mathematical expression.
 
 Example:
 
@@ -42,7 +42,7 @@ Variable Result:
 
 The default text style for the `<var>` element for most browsers is both monospace and italic.
 
-By adding CSS styles, the `<var>` element can be used to present variables in much better ways.
+By adding CSS styles, the `<var>` element can display variables more clearly.
 
 ![var-element-style](https://img.enkipro.com/2015fe3ff38303e757e8f246d7c5b1a1.png)
 
