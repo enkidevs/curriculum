@@ -27,7 +27,7 @@ For example:
 ```python
 # To define
 def new_func():
-  print ('Function time!')
+  print('Function time!')
 
 # To call
 new_func()
