@@ -8,7 +8,7 @@ links:
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
   - >-
     [OWASP
-    Buffer Overflow](www.owasp.org/index.php/Buffer_Overflow){website}
+    Buffer Overflow](https://owasp.org/www-community/vulnerabilities/Buffer_Overflow){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
