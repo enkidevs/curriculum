@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## October 22nd 2024
+
+### Fixed
+- [Security - Securing the Presentation Layer - Fix broken link](https://github.com/enkidevs/curriculum/pull/3319)
+
 ## August 21st 2024
  
 ### Changed
