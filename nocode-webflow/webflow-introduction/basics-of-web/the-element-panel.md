@@ -29,7 +29,8 @@ There are 3 ways to add an element to your project.
 2. You can open the `Add Element Panel` and drag and drop the desired element to the desired location on the canvas.
 3. You can open the `Add Element Panel` and drag and drop the desired element on the desired location in the navigator.
 
-The third option is the most precise because you don't have to aim the element's box to make sure you add it to the correct place. You can just drop it in the appropriate location within the navigator.
+The third option is the most precise because you don't have to aim the element's box to make sure you add it to the correct place. You can just drop it in the 
+appropriate location within the navigator.
 
 
 ---
