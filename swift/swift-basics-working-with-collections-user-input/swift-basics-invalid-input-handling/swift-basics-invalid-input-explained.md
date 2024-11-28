@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Invalid Input Explained
@@ -37,8 +35,6 @@ Imagine you're at a restaurant, and you order a dish that's not on the menu. The
 - **User Experience**: Prevents crashes and keeps your app running smoothly.
 - **Data Integrity**: Ensures your program only processes valid data.
 - **Error Prevention**: Helps avoid unexpected behavior and bugs.
-
-
 ---
 ## Practice
 
@@ -48,7 +44,6 @@ Invalid input occurs when the user provides ??? data.
 - expected
 - formatted
 
-
 ---
 ## Revision
 
@@ -57,9 +52,3 @@ Handling invalid input is crucial for ??? apps.
 - user-friendly
 - complex
 - simple
-
-
----
-## Footnotes
-
-

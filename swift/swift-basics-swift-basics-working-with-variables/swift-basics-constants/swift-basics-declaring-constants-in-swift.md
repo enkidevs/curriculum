@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Declaring Constants
@@ -30,7 +28,7 @@ links:
 ---
 ## Content
 
-In Swift, you declare a constant using the `let` keyword. 
+In Swift, you declare a constant using the `let` keyword.
 
 ```swift
 let maximumLoginAttempts = 3
@@ -41,7 +39,6 @@ let maximumLoginAttempts = 3
 - **`3`**: This is the value stored in the constant.
 
 > 💡 Once you set a constant, you cannot change its value.
-
 ---
 ## Practice
 
@@ -54,7 +51,6 @@ How do you declare a constant in Swift?
 - let
 - var
 - const
-
 
 ---
 ## Revision
@@ -70,9 +66,3 @@ It creates a ??? named maxAttempts with the value 5.
 - constant
 - variable
 - maximum
-
-
----
-## Footnotes
-
-

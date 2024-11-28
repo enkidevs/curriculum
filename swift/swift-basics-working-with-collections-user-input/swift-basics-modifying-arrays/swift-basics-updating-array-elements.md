@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Updating Array Elements
@@ -40,7 +38,6 @@ Now, `favoriteFruits` contains `"Apricot", "Cherry", "Date"`.
 
 > 💡 Use indexing to directly update elements in your array, keeping your data current.
 
-
 ---
 ## Practice
 
@@ -54,7 +51,6 @@ favoriteColors[1] = ???
 - "Green"
 - "Yellow"
 
-
 ---
 ## Revision
 
@@ -63,9 +59,3 @@ To update an element in an array, assign a new value to its ???.
 - index
 - method
 - type
-
-
----
-## Footnotes
-
-

@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Switch Statement Syntax
@@ -48,7 +46,6 @@ default:
 Here, the program checks the value of `fruit` and prints a message based on the match. There's also a default message in case of an unknown fruit.
 
 Let's dive in.
-
 ---
 ## Practice
 
@@ -77,8 +74,3 @@ In a switch statement, what keyword is used to handle unmatched cases?
 - default
 - else
 - otherwise
-
----
-## Footnotes
-
-

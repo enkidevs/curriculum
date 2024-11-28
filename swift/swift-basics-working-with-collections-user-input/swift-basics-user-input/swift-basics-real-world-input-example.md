@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Real-World Input Example
@@ -44,8 +42,6 @@ if let answer = readLine() {
 ```
 
 > 💡 This example shows how capturing user input can make your app interactive and engaging.
-
-
 ---
 ## Practice
 
@@ -55,7 +51,6 @@ In the quiz app example, `readLine()` is used to ??? the user's answer.
 - display
 - ignore
 
-
 ---
 ## Revision
 
@@ -64,9 +59,3 @@ The quiz app checks if the answer is ??? to determine correctness.
 - "paris"
 - "london"
 - "rome"
-
-
----
-## Footnotes
-
-

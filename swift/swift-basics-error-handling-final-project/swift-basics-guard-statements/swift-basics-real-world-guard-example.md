@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Real-World Guard Example
@@ -43,8 +41,6 @@ func registerUser(name: String?, email: String?) {
 ```
 
 This ensures that both `name` and `email` are provided and not empty before proceeding.
-
-
 ---
 ## Practice
 
@@ -56,7 +52,6 @@ In the `registerUser` function, what happens if `name` or `email` is empty?
 - The function continues execution
 - The function throws an error
 
-
 ---
 ## Revision
 
@@ -67,9 +62,3 @@ What does the guard statement in `registerUser` check for?
 - That both name and email are provided and not empty
 - That the email is valid
 - That the name is unique
-
-
----
-## Footnotes
-
-

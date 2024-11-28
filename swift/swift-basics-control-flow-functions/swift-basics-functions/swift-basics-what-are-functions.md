@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # What Are Functions?
@@ -30,7 +28,7 @@ links:
 ---
 ## Content
 
-Functions are reusable blocks of code that perform a specific task. 
+Functions are reusable blocks of code that perform a specific task.
 
 They help you organize your code and avoid repetition.
 
@@ -41,7 +39,6 @@ Imagine you're baking cookies. Instead of measuring ingredients every time, you 
 Now, whenever you want cookies, you simply follow the 🍪 recipe instead of starting from scratch.
 
 > 💡 Functions let you define a task once and then call it by name whenever you need it
-
 ---
 ## Practice
 
@@ -61,9 +58,3 @@ Functions are like ??? for your code.
 
 - recipes
 - ingredients
-
-
----
-## Footnotes
-
-

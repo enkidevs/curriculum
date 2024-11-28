@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Throwing Errors in Functions
@@ -43,8 +41,6 @@ func readFile(at path: String) throws -> String {
 When calling this function, you must use `try` to handle potential errors.
 
 > 💡 Marking a function with `throws` is like putting a warning sign that it might encounter issues.
-
-
 ---
 ## Practice
 
@@ -56,7 +52,6 @@ What keyword marks a function that can throw errors?
 - catch
 - error
 
-
 ---
 ## Revision
 
@@ -67,9 +62,3 @@ How do you indicate a function might throw an error in Swift?
 - By using the throws keyword
 - By using the catch keyword
 - By using the error keyword
-
-
----
-## Footnotes
-
-

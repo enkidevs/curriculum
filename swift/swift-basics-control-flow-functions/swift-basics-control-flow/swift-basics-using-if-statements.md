@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Using If Statements
@@ -30,7 +28,7 @@ links:
 ---
 ## Content
 
-An if lets your program make decisions. 
+An if lets your program make decisions.
 
 It checks a condition and runs code only if the condition is true.
 
@@ -42,7 +40,6 @@ if temperature > 25 {
 ```
 
 Here, the program checks if `temperature` is greater than 25. If true, it prints a message.
-
 ---
 ## Practice
 
@@ -52,7 +49,6 @@ When checking a condition, an ??? statement runs code if the condition is true.
 - `check`
 - `evaluate`
 - `guess`
-
 
 ---
 ## Revision
@@ -70,9 +66,3 @@ if temperature > 25 {
 
 - Nothing
 - "It's a warm day!"
-
-
----
-## Footnotes
-
-

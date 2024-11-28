@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # What are Arrays?
@@ -41,8 +39,6 @@ Arrays help you:
 - Organize data
 - Access data easily
 - Manage collections without creating separate variables for each item
-
-
 ---
 ## Practice
 
@@ -52,7 +48,6 @@ An array is like a ??? that holds multiple values in a specific order.
 - single value
 - random collection
 
-
 ---
 ## Revision
 
@@ -61,9 +56,3 @@ Arrays help you ??? data efficiently.
 - organize
 - confuse
 - lose
-
-
----
-## Footnotes
-
-

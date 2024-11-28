@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Switch Statement for Operations
@@ -50,8 +48,6 @@ default:
     print("Invalid operation")
 }
 ```
-
-
 ---
 ## Practice
 
@@ -63,7 +59,6 @@ What does a `switch` statement do in Swift?
 - Captures user input
 - Performs arithmetic operations
 
-
 ---
 ## Revision
 
@@ -74,9 +69,3 @@ What should you include in a `switch` statement to handle unexpected inputs?
 - A default case
 - An arithmetic operator
 - A loop
-
-
----
-## Footnotes
-
-

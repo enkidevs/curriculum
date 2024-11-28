@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Using Else
@@ -45,7 +43,8 @@ Now, the program has a backup plan if the first condition isn't met.
 ---
 ## Practice
 
-If an `if` statement handles the case when a condition is true, an ??? statement handles it when a condition is false.
+If an `if` statement handles the case when a condition is true, an ??? statement
+handles it when a condition is false.
 
 - else
 - otherwise
@@ -70,9 +69,3 @@ if temperature > 25 {
 
 - "It's a bit chilly."
 - "It's a warm day!"
-
-
----
-## Footnotes
-
-

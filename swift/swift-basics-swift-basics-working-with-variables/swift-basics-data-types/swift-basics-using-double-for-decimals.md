@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Using Double for Decimals
@@ -37,9 +35,6 @@ var appleWeight: Double = 0.75
 ```
 
 > 💡 Use `Double` when you need to work with fractions or precise values.
-
-
-
 ---
 ## Practice
 
@@ -50,7 +45,6 @@ Which data type would you use for the price of a book?
 - Double
 - Int
 - String
-
 
 ---
 ## Revision
@@ -64,9 +58,3 @@ var buildingHeight: ??? = 150.5
 - Double
 - Int
 - String
-
-
----
-## Footnotes
-
-

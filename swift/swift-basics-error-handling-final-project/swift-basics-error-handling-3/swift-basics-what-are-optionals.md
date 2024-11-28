@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # What are Optionals?
@@ -41,8 +39,6 @@ var gift: String?
 ```
 
 The `?` indicates that `gift` might contain a `String` or it might be `nil` (empty).
-
-
 ---
 ## Practice
 
@@ -54,7 +50,6 @@ What does the `?` symbol indicate in Swift?
 - That a variable is constant
 - That a variable is an integer
 
-
 ---
 ## Revision
 
@@ -63,9 +58,3 @@ In Swift, optionals are like a ??? that might contain a value or be empty.
 - box
 - string
 - function
-
-
----
-## Footnotes
-
-

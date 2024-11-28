@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Let's Practice!
@@ -40,9 +38,8 @@ Here's an example to get you started:
 var enkiCountry = "The World"
 ```
 
-> 💬 Try it! Write a comment and declare your own variable to store something meaningful. 
+> 💬 Try it! Write a comment and declare your own variable to store something meaningful.
 > Feel free to check out other comments for inspiration.
-
 ---
 ## Practice
 
@@ -57,7 +54,6 @@ Create a variable to store your favorite number:
 - =
 - 69
 
-
 ---
 ## Revision
 
@@ -71,9 +67,3 @@ var favoriteNumber = 0
 - favoriteNumber = 10
 - favoriteNumber == 10
 - favoriteNumber << 10
-
-
----
-## Footnotes
-
-

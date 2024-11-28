@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Using Int for Numbers
@@ -37,8 +35,6 @@ var numberOfApples: Int = 5
 ```
 
 > 💡 Use `Int` when you need to count items or work with whole numbers.
-
-
 ---
 ## Practice
 
@@ -52,7 +48,6 @@ var numberOfStudents: ??? = 30
 - Double
 - String
 
-
 ---
 ## Revision
 
@@ -63,8 +58,3 @@ Which data type would you use to count the number of books on a shelf?
 - Int
 - Double
 - String
-
----
-## Footnotes
-
-

@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Real-World Example: Weather App
@@ -41,8 +39,6 @@ Convert the `Double` to a `String` to show it in a user-friendly way:
 let temperature = 72.5
 let temperatureMessage = "Today's temperature is " + String(temperature) + " degrees."
 ```
-
-
 ---
 ## Practice
 
@@ -57,7 +53,6 @@ let message = "Your body temperature is " + ??? + " degrees."
 - bodyTemp
 - Int(bodyTemp)
 
-
 ---
 ## Revision
 
@@ -68,9 +63,3 @@ To display it in a ??? way.
 - user-friendly
 - complex
 - hidden
-
-
----
-## Footnotes
-
-

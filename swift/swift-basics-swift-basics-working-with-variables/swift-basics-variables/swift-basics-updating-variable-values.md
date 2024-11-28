@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Updating Variables
@@ -30,7 +28,7 @@ links:
 ---
 ## Content
 
-You can change the value of a variable anytime. 
+You can change the value of a variable anytime.
 
 Let's say your favorite color changes to "green":
 
@@ -42,7 +40,6 @@ favoriteColor = "green" // we changed it!
 Now, `favoriteColor` holds the value "green."
 
 > 💡 Think of the equal sign as storing a new thing (in this case `"green"`) inside a labeled box (in this case "favoriteColor").
-
 ---
 ## Practice
 
@@ -58,7 +55,6 @@ favoriteFood ??? "pizza"
 - <
 - is
 
-
 ---
 ## Revision
 
@@ -72,9 +68,3 @@ var age = 25
 - age = 26
 - age is 26
 - age < 26
-
-
----
-## Footnotes
-
-

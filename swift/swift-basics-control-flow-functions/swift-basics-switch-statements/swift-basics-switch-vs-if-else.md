@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Switch vs. If-Else
@@ -59,7 +57,6 @@ switch weather {
 ```
 
 There are a lot less characters in the `switch` code which means your brain has to do less work to follow along.
-
 ---
 ## Practice
 
@@ -71,8 +68,6 @@ What is one major advantage of using a switch statement over an else-if chain?
 - switch statements can only handle numbers.
 - switch statements are less readable than else-if.
 - switch statements run faster in all cases.
-
-
 
 ---
 ## Revision
@@ -96,9 +91,3 @@ default:
 
 - "Build a snowman!"
 - "Check the weather forecast."
-
-
----
-## Footnotes
-
-

@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Handling Runtime Errors
@@ -43,8 +41,6 @@ func someFunctionThatThrows() throws {
 When you call this function, you use `try` to handle potential errors.
 
 > 💡 Marking a function with `throws` is like putting a warning sign that it might encounter issues.
-
-
 ---
 ## Practice
 
@@ -53,7 +49,6 @@ Functions that can throw errors are marked with ???.
 - throws
 - catch
 - error
-
 
 ---
 ## Revision
@@ -65,9 +60,3 @@ What keyword do you use when calling a function that might throw an error?
 - try
 - catch
 - throw
-
-
----
-## Footnotes
-
-

@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # String Conversion in Swift
@@ -38,8 +36,6 @@ let widthLabel = "The width is " + String(width)
 ```
 
 Here, `String(width)` converts the integer `width` into a string so it can be combined with text.
-
-
 ---
 ## Practice
 
@@ -54,7 +50,6 @@ let message = "Your score is " + ???
 - score
 - Int(score)
 
-
 ---
 ## Revision
 
@@ -65,9 +60,3 @@ Converts an ??? to a string.
 - integer
 - array
 - boolean
-
-
----
-## Footnotes
-
-

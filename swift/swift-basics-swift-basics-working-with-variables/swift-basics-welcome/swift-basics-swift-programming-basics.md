@@ -15,8 +15,6 @@ practiceQuestion:
 
 
 links:
-
-
 ---
 
 # Hello, Swift!
@@ -26,7 +24,7 @@ links:
 
 Swift is a powerful and intuitive programming language used mainly for building apps in Apple's ecosystem.
 
-> 💡 By learning Swift, you'll be on your way to building apps like Instagram or even working at Apple. 
+> 💡 By learning Swift, you'll be on your way to building apps like Instagram or even working at Apple.
 
 The words you use in Swift and the way you format sentences is more similar to English than many other programming languages.
 
@@ -43,10 +41,8 @@ Notice how this code reads almost the same as the original sentence? This is wha
 Let's get started 🚀
 
 > 💬 Why are you interested in Swift?
-> 
+>
 > Leave a comment or view some of the other comments for inspiration before moving on.
-
-
 ---
 ## Practice
 
@@ -56,11 +52,3 @@ Swift is used for building iOS, macOS, watchOS, and tvOS apps.
 
 - True
 - False
-
-
-
-
----
-## Footnotes
-
-

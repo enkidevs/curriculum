@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Real-World Example
@@ -49,7 +47,6 @@ let recommendedIntake = 8
 ```
 
 > 💬 Your turn! Can you think of one real world example for a variable and another for a constant? Share your thoughts in the comments.
-
 ---
 ## Practice
 
@@ -60,7 +57,6 @@ What should you use to store the number of levels in a game?
 - a constant
 - a variable
 
-
 ---
 ## Revision
 
@@ -70,9 +66,3 @@ What should you use to store the current level in a game?
 
 - a variable
 - a constant
-
-
----
-## Footnotes
-
-

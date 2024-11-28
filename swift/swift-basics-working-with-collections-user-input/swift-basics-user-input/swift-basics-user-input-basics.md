@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # User Input Basics
@@ -35,8 +33,6 @@ links:
 Imagine you're at a restaurant, and the waiter asks for your order. You tell them what you want, and they use that information to serve you. Capturing user input in programming is similar—you're asking the user for information and using it in your app.
 
 > 💡 User input allows for interactivity, customization, and data collection in your apps.
-
-
 ---
 ## Practice
 
@@ -46,7 +42,6 @@ User input in programming is like a waiter ??? your order at a restaurant.
 - ignoring
 - serving
 
-
 ---
 ## Revision
 
@@ -55,9 +50,3 @@ Capturing user input makes apps ???.
 - interactive
 - static
 - complex
-
-
----
-## Footnotes
-
-

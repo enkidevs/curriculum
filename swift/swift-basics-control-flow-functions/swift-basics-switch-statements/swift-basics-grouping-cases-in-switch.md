@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Grouping Cases in Switch
@@ -46,8 +44,6 @@ switch fruit {
 This groups `apple` and `pear` together, making the code more concise.
 
 It's like sorting laundry: socks and underwear go in one pile, shirts and pants in another.
-
-
 ---
 ## Practice
 
@@ -57,7 +53,6 @@ Use ??? between case values
 
 - commas
 - semicolons
-
 
 ---
 ## Revision
@@ -79,9 +74,3 @@ default:
 
 - "You have a pome fruit."
 - "Unknown fruit."
-
-
----
-## Footnotes
-
-

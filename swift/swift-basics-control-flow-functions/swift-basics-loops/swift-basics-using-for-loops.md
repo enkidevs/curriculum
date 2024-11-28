@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Using For Loops
@@ -49,7 +47,6 @@ Sending email 3
 ```
 
 > 💡 `for` loops are ideal for tasks when you know exactly how many steps there are, so you repeat the action a set number of times.
-
 ---
 ## Practice
 
@@ -75,8 +72,3 @@ A `for` loop repeats a block of code ??? times.
 
 - a set number of
 - an unknown number of
-
----
-## Footnotes
-
-

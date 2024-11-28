@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Else If
@@ -30,7 +28,7 @@ links:
 ---
 ## Content
 
-The `else-if` statement extends your decision-making by allowing you to check multiple conditions in sequence. 
+The `else-if` statement extends your decision-making by allowing you to check multiple conditions in sequence.
 
 It gives your program even more flexibility to handle specific scenarios beyond just one “true” or “false” outcome.
 
@@ -47,8 +45,6 @@ if temperature > 30 {
 ```
 
 Only one block will execute, even if multiple conditions are true—the first true condition wins (going top-down)
-
-
 
 ---
 ## Practice
@@ -70,7 +66,6 @@ if gameHealth > 90 {
 - if not
 - otherwise
 
-
 ---
 ## Revision
 
@@ -81,8 +76,3 @@ What happens if multiple conditions in an if-else-if ladder are true?
 - All true conditions will happen
 - The first true condition will happen
 - None of the conditions will happen
-
----
-## Footnotes
-
-

@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Using Optional Binding
@@ -45,8 +43,6 @@ if let actualGift = gift {
 ```
 
 This code checks if `gift` has a value and uses it if available.
-
-
 ---
 ## Practice
 
@@ -58,7 +54,6 @@ What is optional binding used for in Swift?
 - To declare a new optional
 - To convert an optional to a string
 
-
 ---
 ## Revision
 
@@ -69,9 +64,3 @@ In optional binding, what happens if the optional is nil?
 - The else block is executed
 - The program crashes
 - The optional is automatically unwrapped
-
-
----
-## Footnotes
-
-

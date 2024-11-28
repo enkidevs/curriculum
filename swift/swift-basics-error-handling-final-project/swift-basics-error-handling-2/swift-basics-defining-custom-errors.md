@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Defining Custom Errors
@@ -45,8 +43,6 @@ enum FileError: Error {
 This `enum` defines three possible errors related to file handling.
 
 > 💡 Think of custom errors as labels you create to describe specific problems in your app.
-
-
 ---
 ## Practice
 
@@ -57,7 +53,6 @@ How do you define custom errors in Swift?
 - Using an enum that conforms to the Error protocol
 - Using a class that inherits from Error
 - Using a struct that conforms to the Error protocol
-
 
 ---
 ## Revision
@@ -76,9 +71,3 @@ enum NetworkError: Error {
 - Custom errors for network issues
 - A function that throws errors
 - A variable that stores errors
-
-
----
-## Footnotes
-
-

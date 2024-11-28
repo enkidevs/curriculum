@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Creating Arrays in Swift
@@ -41,8 +39,6 @@ var favoriteFruits = ["Apple", "Banana", "Cherry"]
 - **`["Apple", "Banana", "Cherry"]`**: This is the list of items in your array.
 
 > 💡 Arrays can store any type of data, like numbers or strings.
-
-
 ---
 ## Practice
 
@@ -56,7 +52,6 @@ var favoriteColors = ???
 - "Red", "Blue", "Green"
 - {"Red", "Blue", "Green"}
 
-
 ---
 ## Revision
 
@@ -65,9 +60,3 @@ In Swift, arrays are created using ??? brackets.
 - square
 - curly
 - round
-
-
----
-## Footnotes
-
-

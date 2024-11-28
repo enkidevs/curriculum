@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Creating Variables
@@ -30,7 +28,7 @@ links:
 ---
 ## Content
 
-In Swift, you create a variable using the `var` keyword. 
+In Swift, you create a variable using the `var` keyword.
 
 > 💡 A word like `var` means something in Swift so it's called a *keyword* while a word like `Enki` doesn't and is not a keyword.
 
@@ -45,7 +43,6 @@ var favoriteColor = "blue"
 - **`"blue"`**: This is the value stored in the variable.
 
 > 💡 Creating a variable is usually called *declaring a variable*.
-
 ---
 ## Practice
 
@@ -58,7 +55,6 @@ How do you declare a variable in Swift?
 - var
 - let
 - const
-
 
 ---
 ## Revision
@@ -74,9 +70,3 @@ It creates a variable named ??? with the value "red".
 - favoriteColor
 - color
 - redColor
-
-
----
-## Footnotes
-
-

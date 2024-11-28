@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Unwrapping Optionals Safely
@@ -43,8 +41,6 @@ if let unwrappedGift = gift {
 ```
 
 This checks if `gift` has a value. If it does, it assigns it to `unwrappedGift` and uses it.
-
-
 ---
 ## Practice
 
@@ -55,7 +51,6 @@ How do you safely unwrap an optional in Swift?
 - Using if let
 - Using var
 - Using func
-
 
 ---
 ## Revision
@@ -73,9 +68,3 @@ if let value = optionalValue {
 - Safely unwraps the optional and prints the value if it exists
 - Declares a new optional
 - Throws an error if the optional is nil
-
-
----
-## Footnotes
-
-

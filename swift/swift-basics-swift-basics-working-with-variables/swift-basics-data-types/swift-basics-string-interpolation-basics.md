@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # String Interpolation
@@ -32,7 +30,7 @@ links:
 
 Swift lets you easily include values in text.
 
-Each value you want to include, you can write them directly in your text using `\()`. 
+Each value you want to include, you can write them directly in your text using `\()`.
 
 For example:
 
@@ -51,8 +49,6 @@ print("I am /(name) and I'm /(job)") // I am Enki and I'm teaching you Swift
 ```
 
 > **Tip**: The fancy name for adding values inside text is **string interpolation**
-
-
 ---
 ## Practice
 
@@ -67,7 +63,6 @@ print("I love \(???)!")
 - Swift
 - swift
 - enki
-
 
 ---
 ## Revision
@@ -84,9 +79,3 @@ print("I am /(name) and I'm /(job)") // I am Enki and I'm teaching you Swift
 - text value adding
 - text insertion
 - string manipulation
-
-
----
-## Footnotes
-
-

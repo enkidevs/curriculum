@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Real-World Nested Loops
@@ -47,12 +45,11 @@ This will print a seat number for each position in the theater:
 ```
 Row 1, Column 1
 Row 1, Column 2
-...
-Row 2, Column 1,
-Row 2, Column 2,
-...
-```
+---
 
+Row 2, Column 1, Row 2, Column 2, ...
+
+````
 ---
 ## Practice
 
@@ -64,26 +61,21 @@ for row in 1...rows {
         print("Seat: Row \(row), Column \(column)")
     }
 }
-```
+````
 
 ???
 
 - 12
 - 7
 
-
 ---
 ## Revision
 
-Imagine you’re building a social media app, and you want to display a post’s comments along with their replies. 
+Imagine you’re building a social media app, and you want to display a post’s
+comments along with their replies.
 
-A ??? for loop is perfect for iterating through each comment and its associated replies.
+A ??? for loop is perfect for iterating through each comment and its associated
+replies.
 
 - nested
 - single
-
-
----
-## Footnotes
-
-

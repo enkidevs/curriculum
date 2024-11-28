@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Using Guard Statements
@@ -45,8 +43,6 @@ links:
   }
   ```
   This function checks if `age` is not `nil` and at least 18. If not, it exits early with a message.
-
-
 ---
 ## Practice
 
@@ -58,7 +54,6 @@ What does the `else` block in a guard statement do?
 - Executes if the condition is met
 - Declares a new variable
 
-
 ---
 ## Revision
 
@@ -69,9 +64,3 @@ In the function `checkAge`, what happens if `age` is less than 18?
 - The function prints a message and exits
 - The function continues execution
 - The function throws an error
-
-
----
-## Footnotes
-
-

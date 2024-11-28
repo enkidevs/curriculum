@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Practice with Nested Loops
@@ -39,16 +37,11 @@ Example output:
 1 x 2 = 2
 1 x 3 = 3
 ---
-2 x 1 = 2
-2 x 2 = 4
-2 x 3 = 6
----
-3 x 1 = 3
-3 x 2 = 6
-3 x 3 = 9
----
-```
+## 2 x 1 = 2 2 x 2 = 4 2 x 3 = 6
 
+## 3 x 1 = 3 3 x 2 = 6 3 x 3 = 9
+
+````
 Here's code that can get you started:
 
 ```swift
@@ -58,7 +51,7 @@ for row in 1...X {
     }
     print("---") // Separates each row for clarity
 }
-```
+````
 
 > Leave a comment with your answer or view others for inspiration.
 
@@ -79,7 +72,6 @@ for row in 1...5 {
 - "\(row) x \(column) = \(row * column)"
 - "row x column = \(row * column)"
 - "row x column = row * column"
-
 ---
 ## Revision
 
@@ -102,8 +94,3 @@ This table will have ??? rows.
 - 99
 - "row x column = \(row * column)"
 - "row x column = row * column"
-
----
-## Footnotes
-
-

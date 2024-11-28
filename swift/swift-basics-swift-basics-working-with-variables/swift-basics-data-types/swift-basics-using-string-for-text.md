@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Using String for Text
@@ -39,7 +37,6 @@ var greeting: String = "Hello, world!"
 > 💡 Use `String` when you need to work with words or sentences.
 
 > Fun fact: The word “string” is used for text in programming because it refers to a sequence of characters, like a “string” of beads or pearls.
-
 ---
 ## Practice
 
@@ -50,7 +47,6 @@ Which data type would you use for a person's name?
 - String
 - Int
 - Double
-
 
 ---
 ## Revision
@@ -64,9 +60,3 @@ var bookTitle: ??? = "Swift Programming"
 - String
 - Int
 - Double
-
-
----
-## Footnotes
-
-

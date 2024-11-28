@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Using Nested Loops
@@ -41,7 +39,6 @@ for i in 1...3 {
 ```
 
 This prints each combination of `i` and `j`, showing how nested loops work.
-
 ---
 ## Practice
 
@@ -50,7 +47,6 @@ A nested loop involves a loop ??? loop
 - inside a
 - next to a
 - between a
-
 
 ---
 ## Revision
@@ -71,9 +67,3 @@ for i in 1...2 {
 - 5
 - 4
 - 3
-
-
----
-## Footnotes
-
-

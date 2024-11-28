@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Why Iterate Over Arrays?
@@ -37,8 +35,6 @@ Iterating over arrays lets you:
 - **Manage Collections**: Handle data efficiently.
 
 > 💡 Iteration is key for working with data in Swift.
-
-
 ---
 ## Practice
 
@@ -48,7 +44,6 @@ Iteration helps you ??? data efficiently.
 - delete
 - hide
 
-
 ---
 ## Revision
 
@@ -57,9 +52,3 @@ One reason to iterate over arrays is to ??? each item.
 - access
 - remove
 - ignore
-
-
----
-## Footnotes
-
-

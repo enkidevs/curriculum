@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Types of Errors
@@ -37,8 +35,6 @@ There are three main types of errors:
 3. **Logical Errors**: The code runs but gives wrong results, like using the wrong math operator.
 
 > 💡 Each error type requires different strategies to fix.
-
-
 ---
 ## Practice
 
@@ -50,7 +46,6 @@ Which error occurs when the code runs but produces incorrect results?
 - Syntax Error
 - Runtime Error
 
-
 ---
 ## Revision
 
@@ -59,9 +54,3 @@ A missing bracket in your code is an example of a ??? error.
 - Syntax
 - Runtime
 - Logical
-
-
----
-## Footnotes
-
-

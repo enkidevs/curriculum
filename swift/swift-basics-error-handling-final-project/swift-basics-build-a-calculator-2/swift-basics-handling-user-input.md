@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Handling User Input
@@ -44,8 +42,6 @@ if let input = readLine(), let number = Double(input) {
     print("Invalid input.")
 }
 ```
-
-
 ---
 ## Practice
 
@@ -57,7 +53,6 @@ What function is used to capture user input in Swift?
 - input()
 - getInput()
 
-
 ---
 ## Revision
 
@@ -68,9 +63,3 @@ What is the purpose of optional binding in Swift?
 - To safely handle optional values
 - To convert strings to numbers
 - To perform arithmetic operations
-
-
----
-## Footnotes
-
-

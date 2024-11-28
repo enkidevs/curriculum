@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Using While Loops
@@ -30,7 +28,7 @@ links:
 ---
 ## Content
 
-A while loop keeps running as long as a condition is true. 
+A while loop keeps running as long as a condition is true.
 
 It’s perfect for tasks where you don’t know in advance how many times the loop will run but have a clear condition to monitor.
 
@@ -38,16 +36,15 @@ It’s perfect for tasks where you don’t know in advance how many times the lo
 var downloading = true
 while downloading {
     print("Downloading file...")
-    
+
     // ... some code to download the file goes here
-    
+
     // stop the loop when download is finished
     downloading = false
 }
 ```
 
 > 💡 `while` loops are ideal for situations where the number of steps isn’t fixed, but the task depends on a condition.
-
 ---
 ## Practice
 
@@ -57,7 +54,6 @@ A `while` loop repeats code until the condition is false.
 
 - true
 - false
-
 
 ---
 ## Revision
@@ -77,9 +73,3 @@ while countdown > 0 {
 - 2
 - 4
 - 1
-
-
----
-## Footnotes
-
-

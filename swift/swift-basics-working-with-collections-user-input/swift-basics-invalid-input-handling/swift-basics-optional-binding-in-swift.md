@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Optional Binding in Swift
@@ -44,8 +42,6 @@ links:
   }
   ```
   This code checks if the user input can be converted to an `Int` and handles invalid input gracefully.
-
-
 ---
 ## Practice
 
@@ -54,7 +50,6 @@ Optional binding helps you safely ??? optional values.
 - unwrap
 - wrap
 - ignore
-
 
 ---
 ## Revision
@@ -70,9 +65,3 @@ if let ageInput = readLine(), let age = ???(ageInput) {
 - Int
 - String
 - Double
-
-
----
-## Footnotes
-
-

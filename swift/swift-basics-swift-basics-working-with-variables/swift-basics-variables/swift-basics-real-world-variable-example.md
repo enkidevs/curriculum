@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Real-World Example
@@ -30,7 +28,7 @@ links:
 ---
 ## Content
 
-Think of a simple app that tracks your daily steps. 
+Think of a simple app that tracks your daily steps.
 
 You could use a variable to store the number of steps you take each day:
 
@@ -46,7 +44,6 @@ dailySteps = 1000
 ```
 
 > 💬 Can you think of other real world uses for variables? Share your thoughts in the comments.
-
 ---
 ## Practice
 
@@ -54,13 +51,12 @@ Finish the code to update the likes counter on your Instagram post.
 
 ```swift
 var likes = 3
-likes ??? 
+likes ???
 ```
 
 - = 5
 - < 5
 - update 5
-
 
 ---
 ## Revision
@@ -75,9 +71,3 @@ dailySteps ???
 - = 2000
 - < 2000
 - is 2000
-
-
----
-## Footnotes
-
-

@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Why Use Constants?
@@ -44,7 +42,6 @@ let pi = 3.14159 // Declared as a constant
 // Later in the code:
 pi = 3.14 // Error! Cannot assign to a constant.
 ```
-
 ---
 ## Practice
 
@@ -55,7 +52,6 @@ What happens if you try to change a constant in Swift?
 - Swift gives you an error
 - Nothing, it's fine
 
-
 ---
 ## Revision
 
@@ -65,8 +61,3 @@ Which of the following is a benefit of using constants in Swift?
 
 - They prevent accidental changes to values.
 - They allow dynamic changes to critical values
-
----
-## Footnotes
-
-

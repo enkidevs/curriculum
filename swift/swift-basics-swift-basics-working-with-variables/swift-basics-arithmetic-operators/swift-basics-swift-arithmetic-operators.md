@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Arithmetic Operators
@@ -30,20 +28,18 @@ links:
 ---
 ## Content
 
-> 🚀 Operators in Swift are symbols that perform operations on values. 
+> 🚀 Operators in Swift are symbols that perform operations on values.
 
 - **Addition (`+`)**: Adds two numbers together.
-  
+
   ```swift
   let sum = 5 + 3 // 8
   ```
 - **Subtraction (`-`)**: Subtracts one number from another.
-  
+
   ```swift
   let difference = 10 - 4 // 6
   ```
-
-
 ---
 ## Practice
 
@@ -56,7 +52,6 @@ Which symbol is used to add two numbers together?
 - `*`
 - `/`
 
-
 ---
 ## Revision
 
@@ -66,13 +61,9 @@ Calculate the sum of 7 and 5.
 let sum = 7 ??? 5
 ```
 
-- +
-- -
+-
+  -
+-
+  -
 - sum
 - add
-
-
----
-## Footnotes
-
-

@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Multiplication and Division
@@ -38,15 +36,14 @@ links:
   ```swift
   let quotient = 20 / 5 // quotient is 4
   ```
-
-
 ---
 ## Practice
 
 The symbol ??? is used to divide two numbers.
 
 - /
-- +
+-
+  -
 - :
 - div
 
@@ -60,12 +57,7 @@ let product = 9 ??? 3
 ```
 
 - /
-- +
+-
+  -
 - div
 - :
-
-
----
-## Footnotes
-
-

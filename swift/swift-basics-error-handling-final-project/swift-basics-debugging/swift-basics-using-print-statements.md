@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Using Print Statements
@@ -38,8 +36,6 @@ print("The number is \(number)")
 ```
 
 Use them to display variable values and understand your program's flow.
-
-
 ---
 ## Practice
 
@@ -50,7 +46,6 @@ What is the purpose of using print statements in debugging?
 - To display variable values and program flow
 - To create new variables
 - To write comments
-
 
 ---
 ## Revision
@@ -65,9 +60,3 @@ let age = 25
 - print
 - display
 - output
-
-
----
-## Footnotes
-
-

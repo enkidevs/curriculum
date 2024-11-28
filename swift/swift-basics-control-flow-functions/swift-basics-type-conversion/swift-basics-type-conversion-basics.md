@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Type Conversion
@@ -40,7 +38,6 @@ To convert one type into another, use it like a function, by adding the value yo
 let caloriesBurned: Double = 463.37
 let caloriesBurnedTruncated = Int(caloriesBurned) // 463
 ```
-
 ---
 ## Practice
 
@@ -52,7 +49,6 @@ Changing a value from one ??? to another.
 - variable
 - function
 
-
 ---
 ## Revision
 
@@ -63,9 +59,3 @@ To ??? errors and ensure compatibility.
 - prevent
 - cause
 - ignore
-
-
----
-## Footnotes
-
-

@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Type Safety in Swift
@@ -41,8 +39,6 @@ Swift is a **type-safe** language, meaning it ensures variables are used with th
   ```
 
 > 💡 Type safety leads to more reliable and bug-free code as variables their intended kind of data forever.
-
-
 ---
 ## Practice
 
@@ -52,7 +48,6 @@ What does type safety prevent in Swift?
 
 - Mistakes from mixing types
 - Type conversion errors
-
 
 ---
 ## Revision
@@ -64,9 +59,3 @@ What happens if you try to assign an `Int` to a `String` variable in Swift?
 - Error
 - Warning
 - Nothing
-
-
----
-## Footnotes
-
-

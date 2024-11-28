@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Catching and Handling Errors
@@ -45,8 +43,6 @@ do {
 This code tries to run `someFunctionThatThrows()`. If an error occurs, it catches the error and prints a message.
 
 > 💡 Think of `try` as attempting a task, and `catch` as catching any problems that arise.
-
-
 ---
 ## Practice
 
@@ -55,7 +51,6 @@ In Swift, you use ???, ???, and ??? to handle errors.
 - do
 - try
 - catch
-
 
 ---
 ## Revision
@@ -67,9 +62,3 @@ What does the `catch` block do in Swift error handling?
 - It catches errors and allows you to handle them.
 - It throws errors.
 - It ignores errors.
-
-
----
-## Footnotes
-
-

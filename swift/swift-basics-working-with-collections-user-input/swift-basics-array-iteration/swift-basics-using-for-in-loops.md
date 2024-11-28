@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Using `for-in` Loops
@@ -40,8 +38,6 @@ for fruit in fruits {
 ```
 
 > 💡 Use `for-in` loops to simplify your code and make it more readable.
-
-
 ---
 ## Practice
 
@@ -58,7 +54,6 @@ for color in ??? {
 - fruits
 - numbers
 
-
 ---
 ## Revision
 
@@ -67,9 +62,3 @@ A `for-in` loop is used to ??? over each element in an array.
 - iterate
 - delete
 - sort
-
-
----
-## Footnotes
-
-

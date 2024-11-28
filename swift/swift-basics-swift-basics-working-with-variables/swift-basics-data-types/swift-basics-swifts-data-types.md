@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Swift's Data Types
@@ -46,7 +44,6 @@ let box: Type = value
 ```
 
 Let's see some examples.
-
 ---
 ## Practice
 
@@ -54,7 +51,6 @@ Data types help you ???.
 
 - prevent errors
 - find values
-
 
 ---
 ## Revision
@@ -65,9 +61,3 @@ Data types help Swift optimize memory.
 
 - True
 - False
-
-
----
-## Footnotes
-
-

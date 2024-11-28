@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Using readLine()
@@ -42,8 +40,6 @@ links:
   }
   ```
   This code asks the user for their name and greets them.
-
-
 ---
 ## Practice
 
@@ -52,7 +48,6 @@ The `readLine()` function is used to ??? a line of text from the user.
 - read
 - write
 - delete
-
 
 ---
 ## Revision
@@ -69,9 +64,3 @@ if let name = ??? {
 - readLine()
 - print()
 - input()
-
-
----
-## Footnotes
-
-

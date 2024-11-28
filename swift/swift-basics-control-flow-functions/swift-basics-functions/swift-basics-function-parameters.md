@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Function Parameters
@@ -49,8 +47,6 @@ greetUser("Enki") // Prints: Hello, Enki!
 ```
 
 > This is how `print` works. It accepts a `String` parameter and shows it on the screen: `print("Hello!")
-
-
 ---
 ## Practice
 
@@ -84,9 +80,3 @@ greetUser("Bob")
 - Hello, Bob!
 - Hello Bob!
 - Hello, Bob
-
-
----
-## Footnotes
-
-

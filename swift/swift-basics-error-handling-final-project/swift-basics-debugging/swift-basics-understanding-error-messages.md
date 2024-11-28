@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Understanding Error Messages
@@ -37,8 +35,6 @@ Error messages are like road signs. They guide you to where the problem is in yo
 - **Logical Error**: May not have a direct message but results in unexpected output.
 
 > 💡 Read error messages carefully to understand and fix issues.
-
-
 ---
 ## Practice
 
@@ -50,7 +46,6 @@ What do error messages help you do?
 - Write new code
 - Design user interfaces
 
-
 ---
 ## Revision
 
@@ -59,9 +54,3 @@ A syntax error message usually indicates ??? in your code.
 - a structural mistake
 - a logical flaw
 - a runtime issue
-
-
----
-## Footnotes
-
-

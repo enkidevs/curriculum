@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Removing Elements from Arrays
@@ -39,8 +37,6 @@ favoriteFruits.remove(at: 1)
 This removes "Banana", leaving `"Apple", "Cherry", "Date"`.
 
 > 💡 Remember, array indices start at 0, so choose the correct index to remove the desired element.
-
-
 ---
 ## Practice
 
@@ -54,7 +50,6 @@ favoriteColors.remove(at: ???)
 - 1
 - 2
 
-
 ---
 ## Revision
 
@@ -63,9 +58,3 @@ To remove an element from an array, use the ??? method.
 - remove(at:)
 - append()
 - change()
-
-
----
-## Footnotes
-
-

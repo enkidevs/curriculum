@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Optional Binding with readLine()
@@ -39,8 +37,6 @@ if let input = readLine() {
 ```
 
 This ensures you only use the input if it's not `nil`, preventing errors.
-
-
 ---
 ## Practice
 
@@ -50,7 +46,6 @@ Optional binding with `if let` helps you ??? user input safely.
 - ignore
 - delete
 
-
 ---
 ## Revision
 
@@ -59,9 +54,3 @@ Using `if let` prevents errors by checking if input is ???.
 - nil
 - empty
 - valid
-
-
----
-## Footnotes
-
-

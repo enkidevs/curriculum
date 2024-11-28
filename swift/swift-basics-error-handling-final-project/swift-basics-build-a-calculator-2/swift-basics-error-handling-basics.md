@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Error Handling Basics
@@ -42,8 +40,6 @@ if secondNumber != 0 {
     print("Cannot divide by zero.")
 }
 ```
-
-
 ---
 ## Practice
 
@@ -55,7 +51,6 @@ Why is error handling important in Swift?
 - To perform calculations
 - To capture user input
 
-
 ---
 ## Revision
 
@@ -66,9 +61,3 @@ What should you check for when performing division in Swift?
 - Division by zero
 - Addition errors
 - Multiplication overflow
-
-
----
-## Footnotes
-
-

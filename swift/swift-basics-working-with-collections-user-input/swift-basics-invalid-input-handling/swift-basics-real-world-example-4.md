@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Real-World Example
@@ -42,8 +40,6 @@ if let email = readLine(), email.contains("@") {
 ```
 
 > **Tip**: Always validate user input to ensure your program runs smoothly and securely.
-
-
 ---
 ## Practice
 
@@ -53,7 +49,6 @@ In the email validation example, the program checks if the email contains ???.
 - .com
 - $
 
-
 ---
 ## Revision
 
@@ -62,9 +57,3 @@ Validating user input helps ensure your program runs ???.
 - smoothly
 - slowly
 - erratically
-
-
----
-## Footnotes
-
-

@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Hello World
@@ -36,7 +34,7 @@ Let's write your first Swift program:
 print("Hello, Swift!")
 ```
 
-This line of code tells the computer to display 'Hello, Swift!' on the screen. 
+This line of code tells the computer to display 'Hello, Swift!' on the screen.
 
 > 💡 The term *printing* is used to mean displaying text on the screen.
 
@@ -49,7 +47,6 @@ print("Hello, Swift!")
 By the way, if you need to add explanations around your code, you can add `//` at the start of the line to create a *comment*.
 
 > 💡 Comments are ignored by Swift and are just for humans to add notes.
-
 ---
 ## Practice
 
@@ -64,7 +61,6 @@ Complete the code to display your mood on the screen.
 - "I'm ready to learn Swift!"
 - "Meh, I'm not sure"
 
-
 ---
 ## Revision
 
@@ -78,8 +74,3 @@ Complete the code to display Enki on the screen.
 - Enki
 - display
 - log
-
----
-## Footnotes
-
-

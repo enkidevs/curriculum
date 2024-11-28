@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Swift's Simple Syntax
@@ -43,11 +41,11 @@ if myAge >= legalAge {
 Similarly to how English has rules for how we combine words to form sentences, Swift has rules for how we combine words to form code.
 
 > 💡 The set of rules that define how we combine words to form code is called **syntax**.
-
 ---
 ## Practice
 
-The rules for how we can combine Swift words to make a valid Swift program are together called:
+The rules for how we can combine Swift words to make a valid Swift program are
+together called:
 
 ???
 
@@ -69,8 +67,3 @@ let message = "Hello, Swift!"
 - print
 - display
 - output
-
----
-## Footnotes
-
-

@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Real-World Example
@@ -40,8 +38,6 @@ for item in shoppingList {
 ```
 
 > 💡 Iteration helps you manage collections of data efficiently.
-
-
 ---
 ## Practice
 
@@ -58,7 +54,6 @@ for ??? in tasks {
 - item
 - color
 
-
 ---
 ## Revision
 
@@ -67,9 +62,3 @@ In the shopping list example, the loop prints a message for each ???.
 - item
 - fruit
 - number
-
-
----
-## Footnotes
-
-

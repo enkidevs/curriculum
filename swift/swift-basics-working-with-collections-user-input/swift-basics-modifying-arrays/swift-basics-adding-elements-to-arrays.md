@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Adding Elements to Arrays
@@ -40,8 +38,6 @@ favoriteFruits.append("Date")
 Now, `favoriteFruits` contains `"Apple", "Banana", "Cherry", "Date"`.
 
 > 💡 Use `append()` to grow your array dynamically as your program runs.
-
-
 ---
 ## Practice
 
@@ -55,7 +51,6 @@ favoriteColors.append(???)
 - "Blue"
 - "Red"
 
-
 ---
 ## Revision
 
@@ -64,9 +59,3 @@ To add an element to an array, use the ??? method.
 - append()
 - remove()
 - change()
-
-
----
-## Footnotes
-
-

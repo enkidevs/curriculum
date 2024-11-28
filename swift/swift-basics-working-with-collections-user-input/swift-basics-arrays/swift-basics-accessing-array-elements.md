@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Accessing Array Elements
@@ -39,8 +37,6 @@ let firstFruit = favoriteFruits[0] // "Apple"
 - **`favoriteFruits[0]`**: This retrieves the first item in the array.
 
 > 💡 Indexing starts at 0, so the first element is at position 0.
-
-
 ---
 ## Practice
 
@@ -54,7 +50,6 @@ let secondColor = favoriteColors[???]
 - 0
 - 2
 
-
 ---
 ## Revision
 
@@ -63,9 +58,3 @@ In Swift, array indexing starts at ???.
 - 0
 - 1
 - 2
-
-
----
-## Footnotes
-
-

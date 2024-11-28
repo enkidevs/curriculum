@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Returning Values
@@ -49,8 +47,6 @@ Use the function and capture the result:
 let sum = addNumbers(a: 5, b: 3)
 print(sum) // Prints: 8
 ```
-
-
 ---
 ## Practice
 
@@ -60,7 +56,6 @@ What does the `-> Int` part of a function indicate?
 
 - The function returns an Int
 - The function takes an Int as input
-
 
 ---
 ## Revision
@@ -79,9 +74,3 @@ let result = addNumbers(2, 3)
 
 - 5
 - 6
-
-
----
-## Footnotes
-
-

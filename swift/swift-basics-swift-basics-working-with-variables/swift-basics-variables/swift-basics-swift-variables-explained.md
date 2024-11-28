@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Variables Store Values
@@ -39,7 +37,6 @@ In any Swift program, this data is saved in *variables*.
 > 🚀 Variables are like containers that hold information. In Swift, they let you store data that you can use and change in your programs.
 
 Let's take a look.
-
 ---
 ## Practice
 
@@ -49,22 +46,13 @@ Variables in Swift are like ??? that hold information.
 - locks
 - keys
 
-
 ---
 ## Revision
 
 Why would you use a variable in a program?
 
-To ??? data
-To reuse values
-To change values
+To ??? data To reuse values To change values
 
 - store
 - delete
 - hide
-
-
----
-## Footnotes
-
-

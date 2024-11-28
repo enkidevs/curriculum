@@ -1,4 +1,4 @@
-slug: github
+slug: swift
 name: Swift
 icon: 'https://img.enkipro.com/b3c8def6be9d19cf909e5484ed3ee472.png'
 color: '#f05138'

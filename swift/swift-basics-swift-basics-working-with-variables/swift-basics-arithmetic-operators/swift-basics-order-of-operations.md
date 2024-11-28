@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Order of Operations
@@ -37,7 +35,6 @@ let result = (2 + 3) * 4 // result is 20
 ```
 
 > **Tip**: Use parentheses to control the order of operations, just like in math class.
-
 ---
 ## Practice
 
@@ -53,7 +50,6 @@ let result = (3 + 2) * 5
 - 15
 - 10
 
-
 ---
 ## Revision
 
@@ -64,9 +60,3 @@ Operations inside ???
 - parentheses
 - multiplication
 - addition
-
-
----
-## Footnotes
-
-

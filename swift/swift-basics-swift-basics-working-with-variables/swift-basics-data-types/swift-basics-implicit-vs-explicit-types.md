@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Implicit vs. Explicit Types
@@ -30,7 +28,7 @@ links:
 ---
 ## Content
 
-If you don’t specify a type for a variable or constant, Swift will automatically determine the type for you. 
+If you don’t specify a type for a variable or constant, Swift will automatically determine the type for you.
 
 The fancy name for this process is **type inference**.
 
@@ -50,7 +48,6 @@ On the other hand, you can specify the type yourself to make it crystal clear:
   ```
 
 > 💡 Tip: Use explicit types when you want to clarify the kind of data you’re working with, especially when it might not be obvious or when precision is important.
-
 ---
 ## Practice
 
@@ -78,9 +75,3 @@ let implicitValue = 42
 - Int
 - Double
 - String
-
-
----
-## Footnotes
-
-

@@ -21,8 +21,6 @@ revisionQuestion:
 
 
 links:
-
-
 ---
 
 # Defining a Function
@@ -44,8 +42,6 @@ func greetUser() {
 - **`greetUser`**: This is the name of the function.
 - **`()`**: These parentheses can hold input data, but they're empty here.
 - **`{}`**: Curly braces contain the code that runs when the function is called.
-
-
 ---
 ## Practice
 
@@ -53,7 +49,6 @@ To define a function in Swift, you start with the ??? keyword.
 
 - func
 - function
-
 
 ---
 ## Revision
@@ -70,9 +65,3 @@ Finish the code to create a function:
 - ()
 - []
 - function
-
-
----
-## Footnotes
-
-
