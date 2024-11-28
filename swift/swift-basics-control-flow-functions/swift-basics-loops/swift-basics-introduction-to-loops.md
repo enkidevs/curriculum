@@ -48,6 +48,5 @@ Loops help ??? ??? tasks.
 
 Using a loop can save you time by ???.
 
-- writing
-- making your code more efficient
-- making your code more flexible
+- writing code once and running it multiple times
+- writing code multiple times and running it once
