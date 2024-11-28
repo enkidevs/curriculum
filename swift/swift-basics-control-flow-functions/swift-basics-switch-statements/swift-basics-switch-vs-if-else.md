@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: how-to
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Switch vs. If-Else
@@ -57,6 +48,7 @@ switch weather {
 ```
 
 There are a lot less characters in the `switch` code which means your brain has to do less work to follow along.
+
 ---
 ## Practice
 

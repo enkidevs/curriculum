@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Returning Values
@@ -47,6 +38,7 @@ Use the function and capture the result:
 let sum = addNumbers(a: 5, b: 3)
 print(sum) // Prints: 8
 ```
+
 ---
 ## Practice
 

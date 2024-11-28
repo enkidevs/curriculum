@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Using Else
@@ -39,6 +30,7 @@ if temperature > 25 {
 ```
 
 Now, the program has a backup plan if the first condition isn't met.
+
 
 ---
 ## Practice

@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # String Interpolation
@@ -49,6 +40,7 @@ print("I am /(name) and I'm /(job)") // I am Enki and I'm teaching you Swift
 ```
 
 > **Tip**: The fancy name for adding values inside text is **string interpolation**
+
 ---
 ## Practice
 

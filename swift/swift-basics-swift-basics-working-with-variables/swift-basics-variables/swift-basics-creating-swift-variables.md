@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: how-to
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Creating Variables
@@ -43,6 +34,7 @@ var favoriteColor = "blue"
 - **`"blue"`**: This is the value stored in the variable.
 
 > 💡 Creating a variable is usually called *declaring a variable*.
+
 ---
 ## Practice
 

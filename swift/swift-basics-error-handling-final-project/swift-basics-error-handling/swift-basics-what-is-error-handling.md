@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # What is Error Handling?
@@ -33,6 +24,7 @@ Error handling in Swift is like having a safety net for your code. It helps you 
 Imagine you're driving a car. You have seatbelts and airbags to protect you in case of an accident. Error handling in programming is similar—it's a way to protect your app from crashing when things go wrong.
 
 > 💡 Error handling ensures your app can handle problems without crashing.
+
 ---
 ## Practice
 

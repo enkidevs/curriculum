@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: how-to
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Using readLine()
@@ -40,6 +31,7 @@ links:
   }
   ```
   This code asks the user for their name and greets them.
+
 ---
 ## Practice
 

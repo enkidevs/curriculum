@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: discussion
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Let's Practice!
@@ -40,6 +31,7 @@ var enkiCountry = "The World"
 
 > 💬 Try it! Write a comment and declare your own variable to store something meaningful.
 > Feel free to check out other comments for inspiration.
+
 ---
 ## Practice
 

@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Using Optional Binding
@@ -43,6 +34,7 @@ if let actualGift = gift {
 ```
 
 This code checks if `gift` has a value and uses it if available.
+
 ---
 ## Practice
 

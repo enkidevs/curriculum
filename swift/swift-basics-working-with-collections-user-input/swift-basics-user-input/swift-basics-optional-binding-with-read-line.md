@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: best-practice
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Optional Binding with readLine()
@@ -37,6 +28,7 @@ if let input = readLine() {
 ```
 
 This ensures you only use the input if it's not `nil`, preventing errors.
+
 ---
 ## Practice
 

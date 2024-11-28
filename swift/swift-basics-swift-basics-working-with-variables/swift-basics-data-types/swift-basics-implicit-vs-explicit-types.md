@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: tip
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Implicit vs. Explicit Types
@@ -48,6 +39,7 @@ On the other hand, you can specify the type yourself to make it crystal clear:
   ```
 
 > 💡 Tip: Use explicit types when you want to clarify the kind of data you’re working with, especially when it might not be obvious or when precision is important.
+
 ---
 ## Practice
 

@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: how-to
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Using `for-in` Loops
@@ -38,6 +29,7 @@ for fruit in fruits {
 ```
 
 > 💡 Use `for-in` loops to simplify your code and make it more readable.
+
 ---
 ## Practice
 

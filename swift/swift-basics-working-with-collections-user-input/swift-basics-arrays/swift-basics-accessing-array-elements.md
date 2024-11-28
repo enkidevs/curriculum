@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Accessing Array Elements
@@ -37,6 +28,7 @@ let firstFruit = favoriteFruits[0] // "Apple"
 - **`favoriteFruits[0]`**: This retrieves the first item in the array.
 
 > 💡 Indexing starts at 0, so the first element is at position 0.
+
 ---
 ## Practice
 

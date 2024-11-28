@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Grouping Cases in Switch
@@ -44,6 +35,7 @@ switch fruit {
 This groups `apple` and `pear` together, making the code more concise.
 
 It's like sorting laundry: socks and underwear go in one pile, shirts and pants in another.
+
 ---
 ## Practice
 

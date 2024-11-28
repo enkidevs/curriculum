@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Real-World Guard Example
@@ -41,6 +32,7 @@ func registerUser(name: String?, email: String?) {
 ```
 
 This ensures that both `name` and `email` are provided and not empty before proceeding.
+
 ---
 ## Practice
 

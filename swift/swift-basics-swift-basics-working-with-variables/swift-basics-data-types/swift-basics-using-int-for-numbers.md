@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Using Int for Numbers
@@ -35,6 +26,7 @@ var numberOfApples: Int = 5
 ```
 
 > 💡 Use `Int` when you need to count items or work with whole numbers.
+
 ---
 ## Practice
 

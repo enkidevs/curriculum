@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: how-to
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Optional Binding in Swift
@@ -42,6 +33,7 @@ links:
   }
   ```
   This code checks if the user input can be converted to an `Int` and handles invalid input gracefully.
+
 ---
 ## Practice
 

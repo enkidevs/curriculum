@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: best-practice
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Error Handling Basics
@@ -40,6 +31,7 @@ if secondNumber != 0 {
     print("Cannot divide by zero.")
 }
 ```
+
 ---
 ## Practice
 

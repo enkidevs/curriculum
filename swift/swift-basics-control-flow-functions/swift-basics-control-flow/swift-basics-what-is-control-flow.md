@@ -1,10 +1,7 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: standalone
   formats:
@@ -12,9 +9,6 @@ practiceQuestion:
   preferredFormat: fill-in-the-gap
 
 
-
-
-links:
 ---
 
 # What is Control Flow?
@@ -31,6 +25,7 @@ Control flow in Swift is like giving your program a map to follow. It decides wh
 Imagine planning your day: if it's sunny, you go for a walk; if it rains, you stay in. Control flow helps your program make similar decisions.
 
 > 💡 Control Flow is a way for Swift to make decisions on which code to use, when and why.
+
 ---
 ## Practice
 

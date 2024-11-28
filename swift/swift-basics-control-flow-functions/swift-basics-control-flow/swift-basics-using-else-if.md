@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: standalone
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: standalone
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Else If
@@ -45,6 +36,7 @@ if temperature > 30 {
 ```
 
 Only one block will execute, even if multiple conditions are true—the first true condition wins (going top-down)
+
 
 ---
 ## Practice

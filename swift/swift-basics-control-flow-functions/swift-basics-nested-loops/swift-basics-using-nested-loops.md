@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Using Nested Loops
@@ -39,6 +30,7 @@ for i in 1...3 {
 ```
 
 This prints each combination of `i` and `j`, showing how nested loops work.
+
 ---
 ## Practice
 

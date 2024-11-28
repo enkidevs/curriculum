@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Swift's Simple Syntax
@@ -41,6 +32,7 @@ if myAge >= legalAge {
 Similarly to how English has rules for how we combine words to form sentences, Swift has rules for how we combine words to form code.
 
 > 💡 The set of rules that define how we combine words to form code is called **syntax**.
+
 ---
 ## Practice
 

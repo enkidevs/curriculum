@@ -1,14 +1,9 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: discussion
-
 type: normal
 
 
-
-
-links:
 ---
 
 # Real-World Example

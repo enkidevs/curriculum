@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Updating Variables
@@ -40,6 +31,7 @@ favoriteColor = "green" // we changed it!
 Now, `favoriteColor` holds the value "green."
 
 > 💡 Think of the equal sign as storing a new thing (in this case `"green"`) inside a labeled box (in this case "favoriteColor").
+
 ---
 ## Practice
 

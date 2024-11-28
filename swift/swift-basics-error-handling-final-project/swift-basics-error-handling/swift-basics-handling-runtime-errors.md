@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Handling Runtime Errors
@@ -41,6 +32,7 @@ func someFunctionThatThrows() throws {
 When you call this function, you use `try` to handle potential errors.
 
 > 💡 Marking a function with `throws` is like putting a warning sign that it might encounter issues.
+
 ---
 ## Practice
 

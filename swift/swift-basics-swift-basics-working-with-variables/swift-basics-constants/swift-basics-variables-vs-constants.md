@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Variables vs. Constants
@@ -35,6 +26,7 @@ Variables in Swift are like flexible containers that can hold data and be update
 In contrast, constants are like locked boxes—once you set their value, it cannot be changed.
 
 > 💡 Use constants to store data that should stay the same, like the number of days in a week or the value of pi.
+
 ---
 ## Practice
 

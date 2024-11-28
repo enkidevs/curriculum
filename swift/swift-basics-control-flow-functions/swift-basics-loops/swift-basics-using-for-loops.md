@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Using For Loops
@@ -47,6 +38,7 @@ Sending email 3
 ```
 
 > 💡 `for` loops are ideal for tasks when you know exactly how many steps there are, so you repeat the action a set number of times.
+
 ---
 ## Practice
 

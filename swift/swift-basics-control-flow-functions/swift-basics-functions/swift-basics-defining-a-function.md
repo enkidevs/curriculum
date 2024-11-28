@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: how-to
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Defining a Function
@@ -42,6 +33,7 @@ func greetUser() {
 - **`greetUser`**: This is the name of the function.
 - **`()`**: These parentheses can hold input data, but they're empty here.
 - **`{}`**: Curly braces contain the code that runs when the function is called.
+
 ---
 ## Practice
 

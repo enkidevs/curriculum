@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Defining Custom Errors
@@ -43,6 +34,7 @@ enum FileError: Error {
 This `enum` defines three possible errors related to file handling.
 
 > 💡 Think of custom errors as labels you create to describe specific problems in your app.
+
 ---
 ## Practice
 

@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: how-to
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Using Guard Statements
@@ -43,6 +34,7 @@ links:
   }
   ```
   This function checks if `age` is not `nil` and at least 18. If not, it exits early with a message.
+
 ---
 ## Practice
 

@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: how-to
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Declaring Constants
@@ -39,6 +30,7 @@ let maximumLoginAttempts = 3
 - **`3`**: This is the value stored in the constant.
 
 > 💡 Once you set a constant, you cannot change its value.
+
 ---
 ## Practice
 

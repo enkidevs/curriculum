@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Using If Statements
@@ -40,6 +31,7 @@ if temperature > 25 {
 ```
 
 Here, the program checks if `temperature` is greater than 25. If true, it prints a message.
+
 ---
 ## Practice
 

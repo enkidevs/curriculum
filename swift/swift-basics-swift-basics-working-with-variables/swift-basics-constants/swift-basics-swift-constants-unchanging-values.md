@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Why Use Constants?
@@ -42,6 +33,7 @@ let pi = 3.14159 // Declared as a constant
 // Later in the code:
 pi = 3.14 // Error! Cannot assign to a constant.
 ```
+
 ---
 ## Practice
 

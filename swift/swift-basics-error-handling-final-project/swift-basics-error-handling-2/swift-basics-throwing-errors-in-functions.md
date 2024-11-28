@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Throwing Errors in Functions
@@ -41,6 +32,7 @@ func readFile(at path: String) throws -> String {
 When calling this function, you must use `try` to handle potential errors.
 
 > 💡 Marking a function with `throws` is like putting a warning sign that it might encounter issues.
+
 ---
 ## Practice
 

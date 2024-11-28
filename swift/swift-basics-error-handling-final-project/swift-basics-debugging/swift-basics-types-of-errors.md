@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Types of Errors
@@ -35,6 +26,7 @@ There are three main types of errors:
 3. **Logical Errors**: The code runs but gives wrong results, like using the wrong math operator.
 
 > 💡 Each error type requires different strategies to fix.
+
 ---
 ## Practice
 

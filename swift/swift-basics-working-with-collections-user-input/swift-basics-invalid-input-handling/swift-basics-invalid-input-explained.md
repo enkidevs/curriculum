@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Invalid Input Explained
@@ -35,6 +26,7 @@ Imagine you're at a restaurant, and you order a dish that's not on the menu. The
 - **User Experience**: Prevents crashes and keeps your app running smoothly.
 - **Data Integrity**: Ensures your program only processes valid data.
 - **Error Prevention**: Helps avoid unexpected behavior and bugs.
+
 ---
 ## Practice
 

@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Using Double for Decimals
@@ -35,6 +26,7 @@ var appleWeight: Double = 0.75
 ```
 
 > 💡 Use `Double` when you need to work with fractions or precise values.
+
 ---
 ## Practice
 

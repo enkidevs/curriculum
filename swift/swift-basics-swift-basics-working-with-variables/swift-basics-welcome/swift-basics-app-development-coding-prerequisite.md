@@ -1,14 +1,9 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: tip
-
 type: normal
 
 
-
-
-links:
 ---
 
 # New to Coding?

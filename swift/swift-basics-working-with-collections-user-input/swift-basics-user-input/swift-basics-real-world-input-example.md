@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Real-World Input Example
@@ -42,6 +33,7 @@ if let answer = readLine() {
 ```
 
 > 💡 This example shows how capturing user input can make your app interactive and engaging.
+
 ---
 ## Practice
 

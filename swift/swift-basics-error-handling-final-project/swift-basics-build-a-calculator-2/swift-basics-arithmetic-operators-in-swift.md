@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Arithmetic Operators in Swift
@@ -36,6 +27,7 @@ In Swift, arithmetic operators are like the basic tools in a toolbox. They help 
 - **Division (`/`)**: Divides one number by another.
 
 For example, `3 + 2` results in `5`. Swift ensures safety by preventing value overflow, meaning numbers won't exceed their limits unexpectedly.
+
 ---
 ## Practice
 

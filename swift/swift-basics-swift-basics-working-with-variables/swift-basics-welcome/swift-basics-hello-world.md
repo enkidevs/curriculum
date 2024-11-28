@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: how-to
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Hello World
@@ -47,6 +38,7 @@ print("Hello, Swift!")
 By the way, if you need to add explanations around your code, you can add `//` at the start of the line to create a *comment*.
 
 > 💡 Comments are ignored by Swift and are just for humans to add notes.
+
 ---
 ## Practice
 

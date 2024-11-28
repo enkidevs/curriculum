@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Real-World Example
@@ -38,6 +29,7 @@ for item in shoppingList {
 ```
 
 > 💡 Iteration helps you manage collections of data efficiently.
+
 ---
 ## Practice
 

@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Type Conversion
@@ -38,6 +29,7 @@ To convert one type into another, use it like a function, by adding the value yo
 let caloriesBurned: Double = 463.37
 let caloriesBurnedTruncated = Int(caloriesBurned) // 463
 ```
+
 ---
 ## Practice
 

@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: how-to
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Using Print Statements
@@ -36,6 +27,7 @@ print("The number is \(number)")
 ```
 
 Use them to display variable values and understand your program's flow.
+
 ---
 ## Practice
 

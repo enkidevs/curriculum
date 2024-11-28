@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Catching and Handling Errors
@@ -43,6 +34,7 @@ do {
 This code tries to run `someFunctionThatThrows()`. If an error occurs, it catches the error and prints a message.
 
 > 💡 Think of `try` as attempting a task, and `catch` as catching any problems that arise.
+
 ---
 ## Practice
 

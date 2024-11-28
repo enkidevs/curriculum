@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Why Iterate Over Arrays?
@@ -35,6 +26,7 @@ Iterating over arrays lets you:
 - **Manage Collections**: Handle data efficiently.
 
 > 💡 Iteration is key for working with data in Swift.
+
 ---
 ## Practice
 

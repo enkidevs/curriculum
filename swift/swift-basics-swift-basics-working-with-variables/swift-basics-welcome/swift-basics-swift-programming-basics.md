@@ -1,10 +1,7 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: discussion
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
@@ -12,9 +9,6 @@ practiceQuestion:
   preferredFormat: fill-in-the-gap
 
 
-
-
-links:
 ---
 
 # Hello, Swift!
@@ -43,6 +37,7 @@ Let's get started 🚀
 > 💬 Why are you interested in Swift?
 >
 > Leave a comment or view some of the other comments for inspiration before moving on.
+
 ---
 ## Practice
 

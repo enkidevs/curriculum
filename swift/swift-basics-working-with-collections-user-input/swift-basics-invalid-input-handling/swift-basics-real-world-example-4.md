@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Real-World Example
@@ -40,6 +31,7 @@ if let email = readLine(), email.contains("@") {
 ```
 
 > **Tip**: Always validate user input to ensure your program runs smoothly and securely.
+
 ---
 ## Practice
 

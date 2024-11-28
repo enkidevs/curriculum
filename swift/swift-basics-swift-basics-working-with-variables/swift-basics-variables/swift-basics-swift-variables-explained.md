@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Variables Store Values
@@ -37,6 +28,7 @@ In any Swift program, this data is saved in *variables*.
 > 🚀 Variables are like containers that hold information. In Swift, they let you store data that you can use and change in your programs.
 
 Let's take a look.
+
 ---
 ## Practice
 

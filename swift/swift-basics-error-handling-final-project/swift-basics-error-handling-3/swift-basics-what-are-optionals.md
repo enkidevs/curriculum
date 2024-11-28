@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # What are Optionals?
@@ -39,6 +30,7 @@ var gift: String?
 ```
 
 The `?` indicates that `gift` might contain a `String` or it might be `nil` (empty).
+
 ---
 ## Practice
 

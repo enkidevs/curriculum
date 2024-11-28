@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Unwrapping Optionals Safely
@@ -41,6 +32,7 @@ if let unwrappedGift = gift {
 ```
 
 This checks if `gift` has a value. If it does, it assigns it to `unwrappedGift` and uses it.
+
 ---
 ## Practice
 

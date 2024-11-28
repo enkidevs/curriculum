@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: how-to
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Removing Elements from Arrays
@@ -37,6 +28,7 @@ favoriteFruits.remove(at: 1)
 This removes "Banana", leaving `"Apple", "Cherry", "Date"`.
 
 > 💡 Remember, array indices start at 0, so choose the correct index to remove the desired element.
+
 ---
 ## Practice
 

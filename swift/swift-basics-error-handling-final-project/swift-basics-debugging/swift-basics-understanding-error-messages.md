@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Understanding Error Messages
@@ -35,6 +26,7 @@ Error messages are like road signs. They guide you to where the problem is in yo
 - **Logical Error**: May not have a direct message but results in unexpected output.
 
 > 💡 Read error messages carefully to understand and fix issues.
+
 ---
 ## Practice
 

@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: standalone
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Function Parameters
@@ -47,6 +38,7 @@ greetUser("Enki") // Prints: Hello, Enki!
 ```
 
 > This is how `print` works. It accepts a `String` parameter and shows it on the screen: `print("Hello!")
+
 ---
 ## Practice
 

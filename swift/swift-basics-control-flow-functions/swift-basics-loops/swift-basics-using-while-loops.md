@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Using While Loops
@@ -45,6 +36,7 @@ while downloading {
 ```
 
 > 💡 `while` loops are ideal for situations where the number of steps isn’t fixed, but the task depends on a condition.
+
 ---
 ## Practice
 

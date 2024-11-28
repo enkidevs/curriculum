@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Nested Loops Explained
@@ -37,6 +28,7 @@ Imagine creating a seating chart for a theater: “For every row, assign seats i
 That’s a nested loop in action!
 
 > 💡 Nested loops enable you to handle tasks that require multiple levels of repetition.
+
 ---
 ## Practice
 

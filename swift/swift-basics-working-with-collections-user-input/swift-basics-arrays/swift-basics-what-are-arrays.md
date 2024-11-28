@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # What are Arrays?
@@ -39,6 +30,7 @@ Arrays help you:
 - Organize data
 - Access data easily
 - Manage collections without creating separate variables for each item
+
 ---
 ## Practice
 

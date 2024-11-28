@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Introduction to Loops
@@ -41,6 +32,7 @@ Imagine a website wanting to send 1,000 emails to its users.
 Instead of writing code for each of the 1,000 tasks, you put one task in a loop that runs 1,000 times.
 
 >💡 Loops are your best friend for managing repetitive actions
+
 ---
 ## Practice
 

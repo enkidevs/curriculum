@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: how-to
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Adding Elements to Arrays
@@ -38,6 +29,7 @@ favoriteFruits.append("Date")
 Now, `favoriteFruits` contains `"Apple", "Banana", "Cherry", "Date"`.
 
 > 💡 Use `append()` to grow your array dynamically as your program runs.
+
 ---
 ## Practice
 

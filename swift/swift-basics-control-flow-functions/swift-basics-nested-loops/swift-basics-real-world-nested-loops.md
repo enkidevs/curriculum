@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: standalone
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Real-World Nested Loops
@@ -50,6 +41,7 @@ Row 1, Column 2
 Row 2, Column 1, Row 2, Column 2, ...
 
 ````
+
 ---
 ## Practice
 

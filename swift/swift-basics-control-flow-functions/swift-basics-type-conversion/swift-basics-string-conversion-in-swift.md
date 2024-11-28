@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # String Conversion in Swift
@@ -36,6 +27,7 @@ let widthLabel = "The width is " + String(width)
 ```
 
 Here, `String(width)` converts the integer `width` into a string so it can be combined with text.
+
 ---
 ## Practice
 

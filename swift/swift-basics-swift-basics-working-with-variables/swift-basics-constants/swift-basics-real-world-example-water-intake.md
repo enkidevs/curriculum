@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: discussion
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Real-World Example
@@ -47,6 +38,7 @@ let recommendedIntake = 8
 ```
 
 > 💬 Your turn! Can you think of one real world example for a variable and another for a constant? Share your thoughts in the comments.
+
 ---
 ## Practice
 

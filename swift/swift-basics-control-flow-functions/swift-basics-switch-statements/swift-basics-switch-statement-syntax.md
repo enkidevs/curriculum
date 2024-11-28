@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: feature
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Switch Statement Syntax
@@ -46,6 +37,7 @@ default:
 Here, the program checks the value of `fruit` and prints a message based on the match. There's also a default message in case of an unknown fruit.
 
 Let's dive in.
+
 ---
 ## Practice
 

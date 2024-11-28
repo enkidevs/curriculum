@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Type Safety in Swift
@@ -39,6 +30,7 @@ Swift is a **type-safe** language, meaning it ensures variables are used with th
   ```
 
 > 💡 Type safety leads to more reliable and bug-free code as variables their intended kind of data forever.
+
 ---
 ## Practice
 

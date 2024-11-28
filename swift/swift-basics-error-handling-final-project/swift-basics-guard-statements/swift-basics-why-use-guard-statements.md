@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Why Use Guard Statements?
@@ -35,6 +26,7 @@ Guard statements offer several benefits:
 - **Efficiency**: Exit early from a function if conditions aren't met, saving resources.
 
 Think of it like a security check at an airport. It ensures everything is in order before you proceed to your flight.
+
 ---
 ## Practice
 

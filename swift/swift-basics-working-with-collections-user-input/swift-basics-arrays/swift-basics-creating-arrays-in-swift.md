@@ -1,26 +1,17 @@
 ---
 author: enki-ai
-
 category: how-to
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # Creating Arrays in Swift
@@ -39,6 +30,7 @@ var favoriteFruits = ["Apple", "Banana", "Cherry"]
 - **`["Apple", "Banana", "Cherry"]`**: This is the list of items in your array.
 
 > 💡 Arrays can store any type of data, like numbers or strings.
+
 ---
 ## Practice
 

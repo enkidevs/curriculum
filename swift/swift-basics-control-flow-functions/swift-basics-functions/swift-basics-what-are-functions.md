@@ -1,26 +1,17 @@
 ---
-author: nemanjaenki
-
+author: enki-ai
 category: must-know
-
 type: normal
-
 practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
   preferredFormat: fill-in-the-gap
-
-
-
-links:
 ---
 
 # What Are Functions?
@@ -39,6 +30,7 @@ Imagine you're baking cookies. Instead of measuring ingredients every time, you 
 Now, whenever you want cookies, you simply follow the 🍪 recipe instead of starting from scratch.
 
 > 💡 Functions let you define a task once and then call it by name whenever you need it
+
 ---
 ## Practice
 
