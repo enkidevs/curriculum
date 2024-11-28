@@ -3,6 +3,7 @@ description: Master error management for seamless app performance
 slug: swift-basics-error-handling-2
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

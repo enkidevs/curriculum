@@ -3,6 +3,7 @@ description: Master math operations for dynamic programming
 slug: swift-basics-arithmetic-operators
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

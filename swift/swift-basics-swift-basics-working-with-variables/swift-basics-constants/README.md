@@ -3,6 +3,7 @@ description: 'Lock values for consistent, safe code'
 slug: swift-basics-constants
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

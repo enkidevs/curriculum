@@ -3,6 +3,7 @@ description: Store and manage data in your programs
 slug: swift-basics-variables
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

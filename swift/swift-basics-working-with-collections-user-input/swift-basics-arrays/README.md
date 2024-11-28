@@ -3,6 +3,7 @@ description: Organize and access data efficiently with arrays
 slug: swift-basics-arrays
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

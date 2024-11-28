@@ -3,6 +3,7 @@ description: Capture and utilize user input effectively
 slug: swift-basics-user-input
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

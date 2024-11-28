@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## November 28th 2024
+
+### Changed
+- [Swift Launch](https://github.com/enkidevs/curriculum/pull/3324)
+
 ## October 22nd 2024
 
 ### Fixed

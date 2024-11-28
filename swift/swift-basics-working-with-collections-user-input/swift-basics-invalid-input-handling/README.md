@@ -3,6 +3,7 @@ description: Master error-free user input management
 slug: swift-basics-invalid-input-handling
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

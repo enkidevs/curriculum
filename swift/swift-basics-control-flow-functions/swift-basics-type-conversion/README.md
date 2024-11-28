@@ -3,6 +3,7 @@ description: Transform data types for seamless program execution
 slug: swift-basics-type-conversion
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

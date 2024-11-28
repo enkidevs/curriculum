@@ -3,6 +3,7 @@ description: 'Ensure conditions for safe, efficient code execution'
 slug: swift-basics-guard-statements
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

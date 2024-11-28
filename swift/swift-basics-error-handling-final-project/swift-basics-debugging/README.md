@@ -3,6 +3,7 @@ description: Identify and fix code errors efficiently
 slug: swift-basics-debugging
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

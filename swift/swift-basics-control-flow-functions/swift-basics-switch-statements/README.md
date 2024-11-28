@@ -3,6 +3,7 @@ description: Master efficient decision-making with powerful switch logic
 slug: swift-basics-switch-statements
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

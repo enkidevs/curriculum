@@ -3,6 +3,7 @@ description: Direct program decisions with conditions and loops
 slug: swift-basics-control-flow
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

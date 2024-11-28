@@ -3,6 +3,7 @@ description: Create a functional app using core programming concepts
 slug: swift-basics-build-a-calculator-2
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

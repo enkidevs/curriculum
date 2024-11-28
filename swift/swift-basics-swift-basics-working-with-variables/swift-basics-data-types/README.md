@@ -3,6 +3,7 @@ description: Master data organization with essential data types
 slug: swift-basics-data-types
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

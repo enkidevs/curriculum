@@ -3,6 +3,7 @@ description: Effortlessly loop through collections for dynamic data handling
 slug: swift-basics-array-iteration
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

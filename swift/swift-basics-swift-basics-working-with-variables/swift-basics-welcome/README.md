@@ -3,6 +3,7 @@ description: Welcome to Swift
 slug: swift-basics-welcome
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

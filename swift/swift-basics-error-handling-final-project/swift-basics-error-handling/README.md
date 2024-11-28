@@ -3,6 +3,7 @@ description: Write bulletproof code that gracefully handles failures
 slug: swift-basics-error-handling
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

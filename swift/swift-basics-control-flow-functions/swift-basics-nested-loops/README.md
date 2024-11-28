@@ -3,6 +3,7 @@ description: Master complex iterations with multi-level loops
 slug: swift-basics-nested-loops
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

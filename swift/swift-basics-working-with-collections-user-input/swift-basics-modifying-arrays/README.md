@@ -3,6 +3,7 @@ description: Master dynamic data management with array modifications
 slug: swift-basics-modifying-arrays
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:
