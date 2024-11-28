@@ -31,7 +31,7 @@ In Swift, `print` is a special command that takes anything in between parenthesi
 
 ```swift
 print("Hello, Swift!")
-//      ^                    ^
+//    ^             ^
 ```
 By the way, if you need to add explanations around your code, you can add `//` at the start of the line to create a *comment*.
 
