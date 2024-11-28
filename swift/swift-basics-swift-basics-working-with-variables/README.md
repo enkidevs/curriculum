@@ -1,7 +1,8 @@
 slug: swift-basics-swift-basics-working-with-variables
 name: Variables
 description: Master data manipulation with essential variable techniques
-next: swift-basics-control-flow-functions
+next: 
+  - swift-basics-control-flow-functions
 core: true
 sections:
   '0':

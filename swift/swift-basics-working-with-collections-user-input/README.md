@@ -1,7 +1,8 @@
 slug: swift-basics-working-with-collections-user-input
 name: Collections & User Input
 description: Interactively manage data and user interactions
-next: swift-basics-error-handling-final-project
+next: 
+  - swift-basics-error-handling-final-project
 core: false
 sections:
   '0':
