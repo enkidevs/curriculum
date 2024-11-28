@@ -29,7 +29,7 @@ You add a type after the box name, like this:
 
 ```swift
 let box: Type = value
-//         ^^^^^
+//     ^^^^^^
 ```
 
 Let's see some examples.

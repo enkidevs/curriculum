@@ -25,7 +25,7 @@ The fancy name for this process is **type inference**.
 
  ```swift
   let implicitInteger = 70 // Swift knows it's an Int
-//                             ^ no type here
+//                   ^ no type here
   ```
 
 On the other hand, you can specify the type yourself to make it crystal clear:
