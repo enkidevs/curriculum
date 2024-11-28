@@ -1,7 +1,6 @@
 slug: swift-basics-error-handling-final-project
 name: Error Handling & Project
 description: Master error handling and build a complete application
-next: []
 core: false
 sections:
   '0':
