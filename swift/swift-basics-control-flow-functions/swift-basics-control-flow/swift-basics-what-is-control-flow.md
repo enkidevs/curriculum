@@ -6,7 +6,6 @@ practiceQuestion:
   context: standalone
   formats:
     - fill-in-the-gap
-  preferredFormat: fill-in-the-gap
 ---
 
 # What is Control Flow?

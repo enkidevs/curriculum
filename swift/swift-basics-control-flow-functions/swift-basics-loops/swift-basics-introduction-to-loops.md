@@ -6,12 +6,10 @@ practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
-  preferredFormat: fill-in-the-gap
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
-  preferredFormat: fill-in-the-gap
 ---
 
 # Introduction to Loops

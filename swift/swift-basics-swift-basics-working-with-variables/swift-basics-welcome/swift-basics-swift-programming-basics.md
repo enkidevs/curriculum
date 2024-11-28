@@ -6,7 +6,6 @@ practiceQuestion:
   context: relative
   formats:
     - fill-in-the-gap
-  preferredFormat: fill-in-the-gap
 ---
 
 # Hello, Swift!
