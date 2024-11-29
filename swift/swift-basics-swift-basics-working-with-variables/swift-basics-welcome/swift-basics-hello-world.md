@@ -47,8 +47,8 @@ Complete the code to display your mood on the screen.
 ```
 
 - print
-- display
 - "I'm ready to learn Swift!"
+- display
 - "Meh, I'm not sure"
 
 ---
