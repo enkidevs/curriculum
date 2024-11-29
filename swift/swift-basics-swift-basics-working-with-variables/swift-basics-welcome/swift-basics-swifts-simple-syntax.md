@@ -34,8 +34,7 @@ Similarly to how English has rules for how we combine words to form sentences, S
 ---
 ## Practice
 
-The rules for how we can combine Swift words to make a valid Swift program are
-together called:
+The rules for how we can combine Swift words to make a valid Swift program are together called:
 
 ???
 
