@@ -3,6 +3,7 @@ description: Manipulate and format text with ease
 slug: kotlin-strings
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:

@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 3rd 2024
+
+### Changed
+- [Kotlin Launch](https://github.com/enkidevs/curriculum/pull/3328)
+
 ## November 28th 2024
 
 ### Changed

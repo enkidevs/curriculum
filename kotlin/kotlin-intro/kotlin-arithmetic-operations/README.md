@@ -3,6 +3,7 @@ description: Master essential math skills for coding success
 slug: kotlin-arithmetic-operations
 aspects:
   - introduction
+  - workout
 learnType: GROKKING
 section: '0'
 insights:
