@@ -6,12 +6,10 @@ practiceQuestion:
   context: standalone
   formats:
     - fill-in-the-gap
-  preferredFormat: fill-in-the-gap
 revisionQuestion:
   context: relative
   formats:
     - fill-in-the-gap
-  preferredFormat: fill-in-the-gap
 ---
 
 # Why Learn Kotlin?
