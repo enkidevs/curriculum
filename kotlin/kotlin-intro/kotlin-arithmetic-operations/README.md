@@ -10,4 +10,4 @@ insights:
   - kotlin-multiplication-and-division
   - kotlin-modulus-operation
   - kotlin-order-of-operations
-  - kotlin-using-arithmetic-in-programs
+  - kotlin-arithmetic-in-programs
