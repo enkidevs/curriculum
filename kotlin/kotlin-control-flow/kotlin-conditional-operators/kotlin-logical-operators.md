@@ -22,7 +22,7 @@ Logical operators are used to compare values and return a true or false result.
 | Operator | Meaning | Example |
 | -------- | -------- | -------- |
 | `&&` | AND | `5 > 3 && 10 < 20` returns `true` |
-| `||` | OR | `5 > 3 || 10 < 20` returns `true` |
+| `⎮⎮` | OR | `5 > 3 ⎮⎮ 10 < 20` returns `true` |
 | `!` | NOT | `!(5 > 3)` returns `false` |
 
 > 💡 Logical operators works just like in math.
