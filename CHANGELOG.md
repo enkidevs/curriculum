@@ -48,7 +48,14 @@ Types of change:
 
 ### Fixed
 
-## Fixed
+
+## December 5th 2024
+
+### Changed
+
+- [Kotlin - reorder insight](https://github.com/enkidevs/curriculum/pull/3330)
+
+### Fixed
 - [Kotlin - logical operators - fix markdown table](https://github.com/enkidevs/curriculum/pull/3331)
 
 ## December 3rd 2024
