@@ -48,6 +48,12 @@ Types of change:
 
 ### Fixed
 
+## December 5th 2024
+
+### Changed
+
+- [Kotlin - reorder insight](https://github.com/enkidevs/curriculum/pull/3330)
+
 ## December 3rd 2024
 
 ### Changed
