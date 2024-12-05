@@ -48,6 +48,9 @@ Types of change:
 
 ### Fixed
 
+## Fixed
+- [Kotlin - logical operators - fix markdown table](https://github.com/enkidevs/curriculum/pull/3331)
+
 ## December 3rd 2024
 
 ### Changed
