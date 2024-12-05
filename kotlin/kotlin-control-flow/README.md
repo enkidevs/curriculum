@@ -4,6 +4,7 @@ description: Direct programs with decisions and repetition
 core: false
 sections:
   '0':
+    - kotlin-conditional-operators
     - kotlin-conditional-checks
     - kotlin-when-checks
     - kotlin-for-loop
