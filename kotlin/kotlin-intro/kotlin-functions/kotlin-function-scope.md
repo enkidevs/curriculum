@@ -26,6 +26,8 @@ fun calculateArea(length: Int, width: Int): Int {
     val area = length * width
     return area
 }
+
+println(area) // ❌ Error: 'area' is not accessible outside the function
 ```
 
 Here, the variable area is created inside the function and cannot be accessed outside of it.
@@ -34,6 +36,19 @@ Here, the variable area is created inside the function and cannot be accessed ou
 
 Scope is useful because it reduces conflicts by separating variables in different parts of the program.
 
+```kotlin
+fun squareArea(side: Int): Int {
+    val area = side * side
+    return area
+}
+
+fun rectangleArea(length: Int, width: Int): Int {
+    val area = length * width
+    return area
+}
+
+// Using the name "area" in both functions is fine because they are in different scopes.
+```
 
 ---
 ## Practice

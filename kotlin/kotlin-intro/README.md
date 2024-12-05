@@ -12,3 +12,5 @@ sections:
     - kotlin-arithmetic-operations
     - kotlin-functions
     - kotlin-user-input-mastery
+next:
+  - kotlin:kotlin-control-flow
