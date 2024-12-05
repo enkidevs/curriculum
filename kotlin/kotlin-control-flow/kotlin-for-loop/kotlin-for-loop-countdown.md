@@ -46,3 +46,20 @@ for (i in ??? ??? ???) {
 - `0`
 - `0..99`
 - `down`
+
+---
+## Revision
+
+Finish the code to print the numbers 10 to 1.
+
+```kotlin
+for (i in ??? ??? ???) {
+    println(i)
+}
+```
+
+- `10`
+- `downTo`
+- `1`
+- `10..1`
+- `down`

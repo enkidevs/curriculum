@@ -53,3 +53,43 @@ when (location) {
 > 😊 Your turn! Leave a comment with a check you do in your daily life and write it like a Kotlin `when`.
 >
 > 👀 Feel free to view other comments for inspiration.
+
+---
+## Practice
+
+Finish the `when` check to print the correct message based on the user's age.
+
+```kotlin
+when (age) {
+    ??? ??? ???("You are eligible to enter the event.")
+    // ... other checks are not shown
+    else -> println("Invalid age entered.")
+}
+```
+
+- `in`
+- `18..60`
+- `->`
+- `between`
+- `18 to 60`
+- `=>`
+
+---
+## Revision
+
+Finish the `when` check to print the correct message based on the user's role.
+
+```kotlin
+when (userRole) {
+    ??? ??? ??? -> println("You have access to the restricted area.")
+    // ... other checks are not shown
+    else -> println("You do not have access.")
+}
+```
+
+- `in`
+- `"admin", "editor"`
+- `->`
+- `or`
+- `&&`
+- `||`

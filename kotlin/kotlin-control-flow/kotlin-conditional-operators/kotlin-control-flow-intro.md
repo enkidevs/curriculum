@@ -26,3 +26,21 @@ Think of your program like a car navigating a road with a series of traffic ligh
 > 🚦 Control flow are the rules that your program follows when making 🤔 decisions and 🔄 repeating actions.
 
 Let's dive in.
+
+---
+## Practice
+
+Control flow structure lets us make ??? and repeat ???
+
+- decisions
+- actions
+
+---
+## Revision
+
+A ??? flow structure is a way to make decisions and repeat actions in your program.
+
+- control
+- decision
+- action
+- repeat

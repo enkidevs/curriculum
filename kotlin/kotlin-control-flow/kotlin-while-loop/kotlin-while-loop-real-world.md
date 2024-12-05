@@ -51,3 +51,21 @@ It will print ???.
 - `still running` twice
 - `still running` three times
 - `still running` forever
+
+---
+## Revision
+
+What will this code print?
+
+```kotlin
+var isGameRunning = false
+while (isGameRunning) {
+  println("still running")
+  isGameRunning = false
+}
+```
+
+- `nothing`
+- `still running` once
+- `still running` twice
+- `still running` forever

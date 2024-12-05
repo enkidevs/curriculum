@@ -68,3 +68,21 @@ while (userInput != "done") {
 - C
 - A 
 - B
+
+---
+## Revision
+
+Finish the `while` loop to print "still running" over and over until the user types in "done".
+
+```kotlin
+while (???) {
+    println("still running")
+    ???
+}
+```
+
+- `userInput != "done"`
+- `userInput = readLine() ?: ""`
+- `readLine() ?: ""`
+- `true`
+- `userInput == readLine() ?: ""`
