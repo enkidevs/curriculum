@@ -8,5 +8,5 @@ learnType: GROKKING
 section: '0'
 insights:
   - kotlin-control-flow-intro
-  - kotlin-logical-operators
   - kotlin-comparison-operators
+  - kotlin-logical-operators
