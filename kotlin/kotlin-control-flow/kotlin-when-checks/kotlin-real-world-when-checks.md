@@ -14,6 +14,9 @@ revisionQuestion:
 
 # Real-World `when` checks
 
+---
+## Content
+
 Here are some examples of how `when` checks are used in real-world apps.
 
 ### Checking Age for a Restricted Event
