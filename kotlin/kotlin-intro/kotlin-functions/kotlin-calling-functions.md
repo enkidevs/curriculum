@@ -17,9 +17,11 @@ revisionQuestion:
 ---
 ## Content
 
-To make the computer perform the tasks inside a function, you must call the function. Calling a function is like saying, “Go do the tasks written in this recipe!”
+To make the computer perform the tasks inside a function, you must call the function. 
 
-> 💡 Function Calling: Also known as executing or running the function.
+Calling a function is like saying, “Go do the tasks written in this recipe!”
+
+> 💡 Function calling means making the computer do what the code inside the function says.
 
 ```kotlin
 fun greet() {
@@ -32,10 +34,11 @@ greet() // Outputs: Hello, World!
 
 Here, the `greet()` function is called, and the computer performs the task inside it, which is printing “Hello, World!”.
 
+> 💡 Function calling is also known as *executing* or *running* the function.
+
 Without calling the function, nothing happens.
 
 > 💡 Defining a function is like writing a recipe, but calling it is like actually cooking the dish. 🍳
-
 
 ---
 ## Practice

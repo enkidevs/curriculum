@@ -31,7 +31,6 @@ fun main() {
 
 Reading input allows your program to interact with users, making it dynamic and responsive, just like a friendly chat.
 
-
 ---
 ## Practice
 

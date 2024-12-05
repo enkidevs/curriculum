@@ -9,5 +9,7 @@ section: '0'
 insights:
   - kotlin-empty-values
   - kotlin-elvis-operator
+  - kotlin-functions-empty-values
   - kotlin-reading-input-with-read-line
   - kotlin-converting-input-types
+  - kotlin-null-checking
