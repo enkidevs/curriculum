@@ -202,6 +202,6 @@ standards:
       6: Create a spy to verify the behavior of a function
 
 next:
-  - python:functional-programming
+  - python:data-analysis
 
 
