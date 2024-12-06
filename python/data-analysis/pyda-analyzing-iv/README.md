@@ -3,9 +3,9 @@ name: Analysis IV
 description: Learn how to separate values for easier analysis.
 
 insights:
-  - longest-running-shows
-  - longest-movies
-  - longest-movies-ii
+  - pyda-longest-running-shows
+  - pyda-longest-movies
+  - pyda-longest-movies-ii
 
 aspects:
   - workout

@@ -3,11 +3,11 @@ name: Preparing a Dataset
 description: Learn what Series and Dataframes are, and how to prepare a dataset for analysis.
 
 insights:
-  - what-and-why-pandas
-  - series-and-dataframes
-  - importing-data-sets
-  - cleaning-dataset
-  - cleaning-dataset-ii
+  - pyda-what-and-why-pandas
+  - pyda-series-and-dataframes
+  - pyda-importing-data-sets
+  - pyda-cleaning-dataset
+  - pyda-cleaning-dataset-ii
 
 aspects:
   - introduction
