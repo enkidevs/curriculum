@@ -6,6 +6,10 @@ category: must-know
 
 # 🧩 GPT-3 and Beyond
 
+---
+
+## Content
+
 GPT-3.5 and GPT-4 are much larger and more complex than GPT-2.
 
 They handle nuanced tasks beyond simple sentence completions, making them even harder to study.

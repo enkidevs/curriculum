@@ -6,6 +6,10 @@ category: must-know
 
 # ⏳ A Long Road Ahead
 
+---
+
+## Content
+
 While researchers made progress understanding GPT-2, explaining models like GPT-4 is a monumental challenge.
 
 Even simple predictions like “Mary” involve dozens of interconnected steps across thousands of parameters.

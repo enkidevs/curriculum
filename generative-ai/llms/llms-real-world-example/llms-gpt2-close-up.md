@@ -9,6 +9,10 @@ links:
 
 # 🧩 GPT-2 Close-Up
 
+---
+
+## Content
+
 Unraveling why GPT-2 predicted `"Mary"` took researchers months and a 25-page
 paper.
 

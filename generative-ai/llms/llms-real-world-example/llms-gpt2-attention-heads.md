@@ -6,6 +6,10 @@ category: must-know
 
 # 🧩 GPT-2 Attention Heads
 
+---
+
+## Content
+
 GPT-2's prediction process involved layers of reasoning:
 
 - Duplicate Token Heads marked the second `"John"` as a repeat.

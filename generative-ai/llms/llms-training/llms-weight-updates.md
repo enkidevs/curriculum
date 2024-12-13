@@ -6,11 +6,18 @@ category: must-know
 
 # 🔧 Adjusting Weights to Learn
 
-LLMs neurons start with random weights (like random guesses) and improve by adjusting them over billions of examples.
+---
 
-Imagine it like adjusting the temperature of a shower by turning an unmarked faucet.
+## Content
 
-You turn the faucet to make the water hotter or colder, and each adjustment brings it closer to "just right."
+LLMs neurons start with random weights (like random guesses) and improve by
+adjusting them over billions of examples.
+
+Imagine it like adjusting the temperature of a shower by turning an unmarked
+faucet.
+
+You turn the faucet to make the water hotter or colder, and each adjustment
+brings it closer to "just right."
 
 > 💡 For LLMs, this process involves adjusting billions of weights (i.e. parameters).
 

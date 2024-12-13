@@ -6,6 +6,10 @@ category: must-know
 
 # 🧩 GPT-2
 
+---
+
+## Content
+
 In the sentence:
 
 ```
