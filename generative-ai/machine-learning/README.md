@@ -11,3 +11,6 @@ sections:
     - in-practice
     - models-and-methods
     - neural-networks
+
+next:
+  - generative-ai:llms
