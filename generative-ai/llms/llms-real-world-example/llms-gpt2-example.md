@@ -13,7 +13,7 @@ category: must-know
 In the sentence:
 
 ```
-When Mary and John went to the store, John gave a drink to ???
+When Mary and John went to the store, John gave a drink to ___
 ```
 
 GPT-2 predicted `"Mary"` as the next word.

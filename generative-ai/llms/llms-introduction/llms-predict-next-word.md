@@ -17,7 +17,7 @@ It keeps doing this one word at a time until it completes its response.
 For example:
 
 ```
-The quick brown ???
+The quick brown ___
 ```
 
 The LLM might predict "fox" because it has learned the common phrase "The quick brown fox."
