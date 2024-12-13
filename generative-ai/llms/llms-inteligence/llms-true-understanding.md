@@ -7,7 +7,7 @@ links:
     [Stochastic Parrots](https://en.wikipedia.org/wiki/Stochastic_parrot)
 ---
 
-# 🧠 LLMs: True Understanding or Stochastic Parrots?
+# 🧠 True Understanding or Stochastic Parrots?
 
 ---
 
