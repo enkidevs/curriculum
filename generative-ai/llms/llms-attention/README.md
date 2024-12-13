@@ -1,4 +1,4 @@
-name: LLMs Attention
+name: Attention
 
 description: How do LLMs know what to pay attention to and what to ignore?
 
