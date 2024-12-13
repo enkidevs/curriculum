@@ -30,8 +30,6 @@ This process continues, word by word, to form a full response.
 
 The input is "The early bird ...". What would an LLM likely predict as the next word?
 
-Use your own knowledge of the English language and the context of the sentence to make a prediction.
-
 The early bird ???
 
 - catches
