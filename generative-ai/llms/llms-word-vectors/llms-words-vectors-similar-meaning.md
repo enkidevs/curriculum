@@ -2,6 +2,14 @@
 author: nemanjaenki
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 links:
   - >-
     [Wikipedia Words Related to "cat"](http://vectors.nlpl.eu/explore/embeddings/en/MOD_enwiki_upos_skipgram_300_2_2021/cat_NOUN/)

@@ -2,6 +2,14 @@
 author: nemanjaenki
 type: normal
 category: discussion
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # 👀 Key and Query Example

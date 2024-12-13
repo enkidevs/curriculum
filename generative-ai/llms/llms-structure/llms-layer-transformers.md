@@ -2,6 +2,14 @@
 author: nemanjaenki
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 links:
   - >-
     [Attention is All You Need](https://arxiv.org/abs/1706.03762)

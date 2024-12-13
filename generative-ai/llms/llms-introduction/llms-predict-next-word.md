@@ -2,6 +2,14 @@
 author: nemanjaenki
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # 🤖 LLMs Predict the Next Word
@@ -36,3 +44,16 @@ The early bird ???
 - is
 - sings
 - isn't
+
+---
+
+## Revision
+
+The input is "A picture is worth ...". What would an LLM likely predict as the next word?
+
+A picture is worth ???
+
+- a
+- one
+- many
+- some
