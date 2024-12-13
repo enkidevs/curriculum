@@ -1,4 +1,4 @@
-name: LLMs Feed-Forward
+name: Feed-Forward
 
 description: How do LLMs know to predict the next word?
 

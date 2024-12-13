@@ -4,7 +4,7 @@ type: normal
 category: must-know
 ---
 
-# 🌍 LLMs: A Shock to the World!
+# 🌍 A Shock to the World!
 
 ---
 
