@@ -1,9 +1,8 @@
-name:Word Vectors
+name: Word Vectors
 
 description: How do LLMs represent words?
 
 insights:
-
 - llms-words-as-coordinates
 - llms-words-vectors-similar-meaning
 - llms-words-numeric-relationships
@@ -11,6 +10,5 @@ insights:
 - llms-words-context
 
 aspects:
-
 - introduction
 - workout
