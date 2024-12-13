@@ -43,3 +43,14 @@ What word is closest to `"dog"` in word space?
 - elephant
 - horse
 - house
+
+---
+
+## Revision
+
+What word is closest to `"man"` in word space?
+
+- woman
+- elephant
+- queen
+- child
