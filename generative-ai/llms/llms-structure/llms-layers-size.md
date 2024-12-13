@@ -43,8 +43,6 @@ Details are spread across these dimensions, enabling deep contextual understandi
 
 GPT-3 has ??? layers and uses word vectors with ??? dimensions.
 
-???
-
 - 96
 - 12,288
 - 128
