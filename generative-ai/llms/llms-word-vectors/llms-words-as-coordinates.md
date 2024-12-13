@@ -39,6 +39,8 @@ Similarly, the word `"cat"` might be close to `"kitten"` and `"dog"` in word spa
 
 What word is closest to `"dog"` in word space?
 
+???
+
 - wolf
 - elephant
 - horse
@@ -49,6 +51,8 @@ What word is closest to `"dog"` in word space?
 ## Revision
 
 What word is closest to `"man"` in word space?
+
+???
 
 - woman
 - elephant
