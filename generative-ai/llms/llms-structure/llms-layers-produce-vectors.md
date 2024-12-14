@@ -18,16 +18,14 @@ revisionQuestion:
 
 ## Content
 
-Each hidden layer outputs modified word vectors that store accumulated
-understanding.
+Each hidden layer outputs modified word vectors that store accumulated understanding.
 
 These vectors encode contextual details. For example:
 
 - `bank (financial institution)`
 - `his (referring to John)`
 
-This information builds as the sentence passes through layers, sharpening the
-model's understanding.
+This information builds as the sentence passes through layers, sharpening the model's understanding.
 
 ![LLMs layers add context](https://img.enkipro.com/9be4f95aa6f00ca865fe99fa085fc0ea.png)
 
