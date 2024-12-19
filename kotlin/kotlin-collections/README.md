@@ -7,7 +7,7 @@ sections:
   "0":
     - kotlin-arrays-and-lists
     - kotlin-sets-and-maps
-    - kotlin-collections-operations
+    - kotlin-collection-operations
   "1":
     - kotlin-classes-i
     - kotlin-classes-ii
