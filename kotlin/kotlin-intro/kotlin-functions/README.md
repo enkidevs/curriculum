@@ -11,5 +11,6 @@ insights:
   - kotlin-calling-functions
   - kotlin-function-parameters
   - kotlin-return-values
+  - kotlin-return-types
   - kotlin-real-world-function
   - kotlin-function-scope

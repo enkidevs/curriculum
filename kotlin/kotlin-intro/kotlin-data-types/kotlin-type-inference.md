@@ -37,8 +37,10 @@ Here, Kotlin recognizes the value is an `Int` without you explicitly stating it.
 
 Which of these uses type inference correctly?
 
-A) `val number: Int = 10` B) `val number = 10` C) `var number: Int` D)
-`var number = "10"`
+A) `val number: Int = 10` 
+B) `val number = 10` 
+C) `var number: Int` 
+D) `var number = "10"`
 
 ???
 

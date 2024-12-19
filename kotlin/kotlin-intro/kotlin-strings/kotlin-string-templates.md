@@ -21,9 +21,11 @@ Kotlin’s string templates let you embed variables directly into strings using 
 
 It’s like filling in the blanks in a form with the correct details automatically.
 
+```kotlin
 val mood = "happy"
 val feeling = "I'm $mood to learn Kotlin"
 println(feeling) // "I'm happy to learn Kotlin"
+```
 
 Here, `$mood` is replaced with the value of the variable `mood`.
 

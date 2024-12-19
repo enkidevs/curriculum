@@ -7,3 +7,4 @@ language: kotlin
 availableAspects:
   - introduction
   - workout
+  - deep

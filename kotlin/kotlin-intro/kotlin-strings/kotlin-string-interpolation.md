@@ -17,7 +17,7 @@ revisionQuestion:
 ---
 ## Content
 
-String interpolation allows you to seamlessly include expressions within strings using the `${}` syntax. Think of it like solving a math problem and writing the answer directly in a sentence, making your code more dynamic and readable.
+String interpolation allows you to seamlessly include outside values within strings using the `${}` syntax.
 
 For example, consider the following Kotlin code:
 
@@ -27,8 +27,7 @@ val b = 10
 println("The sum of $a and $b is ${a + b}") // Outputs: The sum of 5 and 10 is 15
 ```
 
-**Why it matters:** Interpolation simplifies the creation of dynamic content by embedding calculations or logic directly into strings. This is similar to filling in a report with calculated data, making your code cleaner and more efficient.
-
+> 💡 Use `${expression}` to interpolate an expression, like a calculation.
 
 ---
 ## Practice
