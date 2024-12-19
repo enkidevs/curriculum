@@ -12,82 +12,86 @@ revisionQuestion:
   context: standalone
 ---
 
-# Higher-Order Functions 🛠
+# Higher-Order Functions
 
 ---
 ## Content
 
-A function in Kotlin can be treated as a first-class citizen, just like any other value or object.
-
-> 💡 **Higher-order functions** are functions that either:
-> - Take other functions as parameters
-> - Return functions as results
-> - Or both!
-
-Here's a simple example:
+Higher-order functions either take functions as parameters or return functions:
 
 ```kotlin
-// Takes a function as a parameter
-fun operateOnNumbers(
-    a: Int,
-    b: Int,
-    operation: (Int, Int) -> Int
-): Int {
-    return operation(a, b)
+// Function that takes another function as parameter
+fun processNumbers(numbers: List<Int>, processor: (Int) -> Int): List<Int> {
+    return numbers.map { processor(it) }
+}
+
+// Function that returns another function
+fun createMultiplier(factor: Int): (Int) -> Int {
+    return { number -> number * factor }
+}
+
+// Usage examples
+fun main() {
+    val numbers = listOf(1, 2, 3, 4)
+    
+    // Passing a lambda to a higher-order function
+    val doubled = processNumbers(numbers) { it * 2 }
+    println(doubled)  // [2, 4, 6, 8]
+    
+    // Using a function returned by another function
+    val triple = createMultiplier(3)
+    println(triple(4))  // 12
 }
 ```
 
-Let's break this down:
-- `operation: (Int, Int) -> Int` is a function type that:
-  - Takes two Int parameters
-  - Returns an Int result
-
-You can also return functions:
-
+Common built-in higher-order functions:
 ```kotlin
-// Returns a function
-fun createMathOperation(operationType: String): (Int, Int) -> Int {
-    return when (operationType) {
-        "add" -> { a, b -> a + b }
-        "multiply" -> { a, b -> a * b }
-        else -> { a, b -> a }
-    }
-}
+val numbers = listOf(1, 2, 3, 4, 5)
+
+// map - transform elements
+numbers.map { it * 2 }       // [2, 4, 6, 8, 10]
+
+// filter - select elements
+numbers.filter { it % 2 == 0 }  // [2, 4]
+
+// fold - accumulate value
+numbers.fold(0) { acc, num -> acc + num }  // 15
 ```
 
-And use them together:
+> 💡 Higher-order functions allow for:
+> - Code reusability
+> - Abstraction of behavior
+> - Functional composition
 
-```kotlin
-val addOperation = createMathOperation("add")
-val result = operateOnNumbers(5, 3, addOperation)
-// result is 8
-```
 ---
-
 ## Practice
 
-Complete the higher-order function that takes a string and a function that
-transforms strings:
+Complete the higher-order function:
 
 ```kotlin
-fun transformString(input: String, ???): String {
-    return transform(input)
+fun applyToEach(
+    numbers: List<Int>, 
+    ???: (???) -> ???
+): List<Int> {
+    return numbers.map { operation(it) }
 }
 ```
 
-- `transform: (String) -> String`
-- `(String) -> String`
-- `transform: (String)`
-- `transform: String`
+- `operation`
+- `Int`
+- `Int`
+- `function`
+- `Number`
+- `Unit`
 
 ---
-
 ## Revision
 
-A higher-order function is a function that takes another function as a parameter
-or returns it as a result.
+A higher-order function:
 
 ???
 
-- true
-- false
+- `Takes functions as parameters or returns functions`
+- `Always returns a value`
+- `Never takes parameters`
+- `Must be pure`

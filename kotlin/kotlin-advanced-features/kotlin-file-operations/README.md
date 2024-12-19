@@ -1,9 +1,11 @@
 name: File Operations
-description: Master reading and writing files effortlessly
+description: Master file handling in Kotlin
 insights:
-  - kotlin-reading-files
-  - kotlin-writing-files
-  - kotlin-handling-file-errors
-  - kotlin-kotlin-i-o-libraries
+  - kotlin-file-basics
+  - kotlin-reading-writing
+  - kotlin-buffered-io
+  - kotlin-file-extensions
+  - kotlin-error-handling
 aspects:
   - deep
+  - workout
