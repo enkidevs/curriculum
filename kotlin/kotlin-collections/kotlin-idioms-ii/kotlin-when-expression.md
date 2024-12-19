@@ -34,6 +34,7 @@ val description = when {
 ```
 
 > 💡 `when` can be used as an expression (returns a value) or as a statement.
+
 ---
 
 ## Practice

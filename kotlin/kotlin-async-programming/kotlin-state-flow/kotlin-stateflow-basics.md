@@ -39,6 +39,7 @@ Key characteristics:
 - Hot flow (active even without collectors)
 
 > 💡 StateFlow is ideal for UI state management.
+
 ---
 
 ## Practice

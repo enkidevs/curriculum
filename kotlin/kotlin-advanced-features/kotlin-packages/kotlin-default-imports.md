@@ -50,6 +50,7 @@ fun main() {
 ```
 
 > 💡 Default imports make common functionality readily available without explicit imports.
+
 ---
 
 ## Practice

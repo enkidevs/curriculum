@@ -36,6 +36,7 @@ val result = data?.length ?: run {
 ```
 
 > Use these operators to write null-safe code without explicit null checks.
+
 ---
 
 ## Practice

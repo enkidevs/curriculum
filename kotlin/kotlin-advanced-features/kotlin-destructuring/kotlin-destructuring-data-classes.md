@@ -35,6 +35,7 @@ fun main() {
 ```
 
 > 💡 The order of variables in destructuring must match the order of properties in the data class.
+
 ---
 
 ## Practice

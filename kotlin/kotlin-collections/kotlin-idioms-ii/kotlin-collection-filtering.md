@@ -38,6 +38,7 @@ val adults = users.filter { it.age >= 18 }
 ```
 
 > 💡 Chain filters with other operations for complex transformations.
+
 ---
 
 ## Practice

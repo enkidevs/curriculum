@@ -38,6 +38,7 @@ println("$name's email is $email")
 ```
 
 > 💡 Use data classes when you need a class primarily for holding values, without any additional behavior.
+
 ---
 
 ## Practice

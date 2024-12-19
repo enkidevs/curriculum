@@ -74,6 +74,7 @@ class ImageProcessor {
 > - Work can be parallelized
 > - Processing order doesn't matter
 > - You need to combine results
+
 ---
 
 ## Practice

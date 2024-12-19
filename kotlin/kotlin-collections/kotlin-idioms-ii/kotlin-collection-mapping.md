@@ -35,6 +35,7 @@ val users = names.mapIndexed { index, name ->
 ```
 
 > Use `mapNotNull` to filter out null values during transformation.
+
 ---
 
 ## Practice

@@ -40,6 +40,7 @@ val (lat, long) = getCoordinates()
 ```
 
 > 💡 While Pair and Triple are convenient, consider using data classes for named components.
+
 ---
 
 ## Practice

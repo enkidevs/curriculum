@@ -38,6 +38,7 @@ val (name, _, email) = user // Skip middle value
 ```
 
 > 💡 Data classes automatically provide component functions needed for destructuring.
+
 ---
 
 ## Practice

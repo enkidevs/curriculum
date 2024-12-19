@@ -52,6 +52,7 @@ val events = MutableSharedFlow<Event>(
 > - Event broadcasting
 > - Multi-subscriber scenarios
 > - When you need replay capability
+
 ---
 
 ## Practice

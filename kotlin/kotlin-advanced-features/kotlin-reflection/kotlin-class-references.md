@@ -38,6 +38,7 @@ fun main() {
 ```
 
 > Use `.java` property to get Java class references when working with Java interop.
+
 ---
 
 ## Practice

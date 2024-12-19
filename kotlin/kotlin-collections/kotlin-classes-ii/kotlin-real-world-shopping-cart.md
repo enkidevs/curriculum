@@ -69,6 +69,7 @@ fun main() {
 > 💡 This example combines classes, data classes, collections (MutableMap), and methods to create a practical shopping cart system.
 
 > 💬 How would you extend this shopping cart system? What features would you add?
+
 ---
 
 ## Practice

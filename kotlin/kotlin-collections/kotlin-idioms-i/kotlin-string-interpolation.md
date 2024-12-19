@@ -38,6 +38,7 @@ val path = """
 ```
 
 > Use `$` for simple variables and `${}` for expressions or properties.
+
 ---
 
 ## Practice

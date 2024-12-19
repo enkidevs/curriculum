@@ -49,6 +49,7 @@ val conflated = Channel<Int>(Channel.CONFLATED)
 > - Can have multiple producers/consumers
 > - Built-in synchronization
 > - Must be closed when done
+
 ---
 
 ## Practice

@@ -46,6 +46,7 @@ suspend fun loadUserData() {
 > - Must be called from a coroutine or another suspend function
 > - Can use other suspend functions
 > - Are marked with the `suspend` keyword
+
 ---
 
 ## Practice

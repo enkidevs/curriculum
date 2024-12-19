@@ -32,6 +32,7 @@ outer@ for (i in 1..3) {
 ```
 
 > 💡 Labels give you precise control over nested loops.
+
 ---
 
 ## Practice

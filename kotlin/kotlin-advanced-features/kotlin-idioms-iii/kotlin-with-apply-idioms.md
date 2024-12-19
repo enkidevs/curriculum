@@ -39,6 +39,7 @@ with(numbers) {
 ```
 
 > 💡 Use `apply` when initializing objects and `with` when performing multiple operations on an object.
+
 ---
 
 ## Practice

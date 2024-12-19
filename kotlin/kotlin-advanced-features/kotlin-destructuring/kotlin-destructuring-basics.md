@@ -34,6 +34,7 @@ val age = person.component2()
 ```
 
 > 💡 To support destructuring, a class must provide componentN() functions.
+
 ---
 
 ## Practice

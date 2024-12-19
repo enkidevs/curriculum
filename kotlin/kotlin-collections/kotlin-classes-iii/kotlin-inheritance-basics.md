@@ -35,6 +35,7 @@ fun main() {
 ```
 
 > 💡 Classes must be marked `open` to be inherited from.
+
 ---
 
 ## Practice

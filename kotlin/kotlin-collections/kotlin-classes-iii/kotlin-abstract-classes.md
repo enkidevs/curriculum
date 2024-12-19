@@ -66,6 +66,7 @@ abstract class Shape {
 ```
 
 > 💡 Abstract classes can have both abstract and concrete methods.
+
 ---
 
 ## Practice

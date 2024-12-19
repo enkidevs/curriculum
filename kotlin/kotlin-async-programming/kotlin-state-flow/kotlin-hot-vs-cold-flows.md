@@ -55,6 +55,7 @@ Comparison:
   - Good for continuous updates
 
 > 💡 StateFlow and SharedFlow are always hot.
+
 ---
 
 ## Practice

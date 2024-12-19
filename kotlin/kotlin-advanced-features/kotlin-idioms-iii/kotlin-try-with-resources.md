@@ -33,6 +33,7 @@ input.bufferedReader().use { reader ->
 ```
 
 > 💡 The `use` function automatically closes resources when the block completes or throws an exception.
+
 ---
 
 ## Practice

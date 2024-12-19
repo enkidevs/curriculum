@@ -65,6 +65,7 @@ fun `test with time control`() = runTest {
 > - `StandardTestDispatcher` for controlled execution
 > - `UnconfinedTestDispatcher` for immediate execution
 > - Use `advanceTimeBy()` or `advanceUntilIdle()` to control time
+
 ---
 
 ## Practice

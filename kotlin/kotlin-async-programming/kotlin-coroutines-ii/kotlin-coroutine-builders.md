@@ -57,6 +57,7 @@ coroutineScope {
 > - `launch` for fire-and-forget operations
 > - `async` when you need a result
 > - `coroutineScope` for parallel decomposition
+
 ---
 
 ## Practice

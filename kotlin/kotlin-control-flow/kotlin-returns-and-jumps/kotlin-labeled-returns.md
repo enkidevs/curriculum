@@ -34,6 +34,7 @@ fun outer() {
 ```
 
 > 💡 Labels help control the flow in nested functions and loops.
+
 ---
 
 ## Practice

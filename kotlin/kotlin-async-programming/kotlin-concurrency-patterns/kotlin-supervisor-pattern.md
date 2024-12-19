@@ -57,6 +57,7 @@ class FileProcessor {
 > - Child failures shouldn't affect siblings
 > - You need independent error handling
 > - Running multiple independent tasks
+
 ---
 
 ## Practice

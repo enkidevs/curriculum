@@ -40,6 +40,7 @@ class UserRepository {
 ```
 
 > 💡 Use `lazy` when you have expensive objects that might not always be needed.
+
 ---
 
 ## Practice

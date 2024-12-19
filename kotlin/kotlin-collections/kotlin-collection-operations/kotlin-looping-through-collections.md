@@ -19,16 +19,15 @@ revisionQuestion:
 
 Iterating over collections in Kotlin is like going through each item in your storage boxes, one by one.
 
-- **For Loop**: Access each element in a collection.
-  ```kotlin
-  for (score in scores) {
-      println(score * 3)
-  }
+**For Loop**: Access each element in a collection.
+
+```kotlin
+for (score in scores) {
+    println(score * 3)
+}
   ```
 
 > 💡 Iteration lets you process each element in a collection.
-
-Finally, let's see how these concepts apply in a real-world scenario.
   
 ---
 ## Practice

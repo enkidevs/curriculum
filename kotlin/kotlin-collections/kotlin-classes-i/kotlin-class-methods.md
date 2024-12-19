@@ -32,6 +32,7 @@ fun main() {
 ```
 
 > 💡 Methods let objects perform actions or compute values based on their properties.
+
 ---
 
 ## Practice

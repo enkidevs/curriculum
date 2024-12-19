@@ -36,6 +36,7 @@ val user = User()
 > - Perform additional operations while chaining
 > - Add debugging or logging statements
 > - Perform operations that don't affect the object's initialization
+
 ---
 
 ## Practice

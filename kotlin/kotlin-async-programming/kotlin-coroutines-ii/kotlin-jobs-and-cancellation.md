@@ -49,6 +49,7 @@ val parentJob = launch {
 > - Check `isActive` in long computations
 > - Use cancellable suspending functions
 > - Handle `CancellationException`
+
 ---
 
 ## Practice

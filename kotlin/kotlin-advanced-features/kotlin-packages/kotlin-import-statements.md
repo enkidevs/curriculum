@@ -37,6 +37,7 @@ fun main() {
 ```
 
 > 💡 Imports can include classes, functions, properties, and object declarations.
+
 ---
 
 ## Practice

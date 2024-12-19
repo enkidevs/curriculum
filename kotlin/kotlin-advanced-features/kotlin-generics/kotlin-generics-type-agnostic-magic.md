@@ -45,6 +45,7 @@ class Box<T>(var item: T)
 The code above creates a `Box` class that can hold any type of item where `T` is the placeholder for the type.
 
 This lets us create a `Box` for any type, like `String`, `Int`, or even a custom class.
+
 ---
 
 ## Practice

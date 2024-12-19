@@ -28,6 +28,7 @@ This ensures data consistency and predictability.
 Immutability prevents accidental changes, making your code more reliable and easier to debug.
 
 Most bugs in programs happen when data is changed unexpectedly. The less things there are that can be changed, the less places there are to make mistakes.
+
 ---
 
 ## Practice

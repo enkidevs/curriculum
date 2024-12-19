@@ -29,6 +29,7 @@ fun main() {
 ```
 
 > 💡 A class defines properties (data) that its objects will have.
+
 ---
 
 ## Practice

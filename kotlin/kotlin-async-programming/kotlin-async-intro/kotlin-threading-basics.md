@@ -32,6 +32,7 @@ thread {
 > - Platform limitations
 > - Complexity in debugging
 > - Race condition risks
+
 ---
 
 ## Practice

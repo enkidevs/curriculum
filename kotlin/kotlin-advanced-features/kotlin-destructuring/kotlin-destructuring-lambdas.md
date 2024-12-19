@@ -37,7 +37,8 @@ map.mapValues { entry: Map.Entry<String, Int> ->
 }
 ```
 
-> Use destructuring in lambdas when working with pairs or entries to make code more readable.
+> 💡 Use destructuring in lambdas when working with pairs or entries to make code more readable and concise. It's especially useful when dealing with maps and pairs.
+
 ---
 
 ## Practice

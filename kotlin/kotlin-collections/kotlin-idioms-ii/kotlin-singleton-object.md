@@ -47,6 +47,7 @@ val user = User.createUser("John")
 ```
 
 > 💡 Use `object` for true singletons and `companion object` for factory methods[1] and constants.
+
 ---
 
 ## Practice

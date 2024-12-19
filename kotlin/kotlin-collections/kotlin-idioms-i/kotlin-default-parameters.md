@@ -40,6 +40,7 @@ createUser(
 ```
 
 > 💡 Default parameters eliminate the need for multiple function overloads.
+
 ---
 
 ## Practice

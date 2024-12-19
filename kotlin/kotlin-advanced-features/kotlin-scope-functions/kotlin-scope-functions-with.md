@@ -37,6 +37,7 @@ with(numbers) {
 > - Group multiple operations on an object
 > - Access object members without repeating the object name
 > - Improve readability with deeply nested objects
+
 ---
 
 ## Practice

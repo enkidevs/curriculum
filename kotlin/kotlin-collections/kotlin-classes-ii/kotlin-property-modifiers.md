@@ -31,6 +31,7 @@ fun main() {
 ```
 
 > Use `private set` to make a property read-only from outside the class.
+
 ---
 
 ## Practice

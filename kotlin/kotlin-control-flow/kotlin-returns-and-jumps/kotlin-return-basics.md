@@ -38,6 +38,7 @@ fun getUserName(id: Int): String {
 ```
 
 > 💡 Return statements can be used in any function or lambda expression.
+
 ---
 
 ## Practice

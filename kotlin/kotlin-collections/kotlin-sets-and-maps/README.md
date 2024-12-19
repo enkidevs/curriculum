@@ -1,6 +1,5 @@
 name: Sets and Maps 
-description: Master unique collections and key-value pairs
-in Kotlin 
+description: Master unique collections and key-value pairs in Kotlin 
 
 insights:
 - kotlin-sets-unique-collections

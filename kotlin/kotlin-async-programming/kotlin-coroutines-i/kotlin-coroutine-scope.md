@@ -48,6 +48,7 @@ scope.cancel()
 > - Automatic cancellation
 > - Resource cleanup
 > - Lifecycle management
+
 ---
 
 ## Practice

@@ -46,6 +46,7 @@ The return type is specified after the function parameters with a colon `:`.
 If no return type is specified, Kotlin assumes the function returns `Unit`
 
 > 💡 The `Unit` type is similar to `void` in other languages and it means the function doesn't return anything. You can but don't need to write `Unit` in your code.
+
 ---
 
 ## Practice

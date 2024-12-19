@@ -58,6 +58,7 @@ supervisorScope {
 > - Child failures propagate to parents
 > - `supervisorScope` prevents failure propagation
 > - Uncaught exceptions crash the application
+
 ---
 
 ## Practice

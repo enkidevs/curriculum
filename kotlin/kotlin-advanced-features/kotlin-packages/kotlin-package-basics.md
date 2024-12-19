@@ -36,6 +36,7 @@ class UserRepository {
 If no package is specified, the contents belong to the default package with no name.
 
 > 💡 Package names usually follow your project's reverse domain name (e.g., com.company.project).
+
 ---
 
 ## Practice

@@ -31,6 +31,7 @@ val doubled = numbers.let { list ->
 > - Execute code only if a value is not null
 > - Transform a value and use the result
 > - Keep variables scoped to a specific block
+
 ---
 
 ## Practice

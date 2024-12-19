@@ -58,6 +58,7 @@ runBlocking {
 > - Use immutable state when possible
 > - Confine mutable state to a single coroutine
 > - Use proper synchronization when sharing is needed
+
 ---
 
 ## Practice

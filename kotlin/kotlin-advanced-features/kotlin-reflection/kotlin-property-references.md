@@ -50,6 +50,7 @@ fun main() {
 ```
 
 > 💡 Property references are useful for generic property access and reflection.
+
 ---
 
 ## Practice

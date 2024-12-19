@@ -34,6 +34,7 @@ fun main() {
 ```
 
 > 💡 The `init` block runs when an object is created.
+
 ---
 
 ## Practice

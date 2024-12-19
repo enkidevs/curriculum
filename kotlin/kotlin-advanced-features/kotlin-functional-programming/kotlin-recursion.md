@@ -47,6 +47,7 @@ Let's break down how recursion works:
 This means that for `factorial(3)`, the function will call itself with `factorial(2)`, then `factorial(1)`, and finally `factorial(0)`.
 
 The result of each call is multiplied together to get the final result.
+
 ---
 
 ## Practice

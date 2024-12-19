@@ -59,6 +59,7 @@ private fun handleEvent(event: UserEvent) {
 > - Use data classes for state
 > - Handle loading and error states
 > - Use sealed classes for events
+
 ---
 
 ## Practice

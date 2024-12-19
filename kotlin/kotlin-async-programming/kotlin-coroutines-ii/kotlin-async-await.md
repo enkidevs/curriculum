@@ -48,6 +48,7 @@ val result = try {
 > - Use `async` for concurrent operations
 > - Await all results together
 > - Handle errors appropriately
+
 ---
 
 ## Practice

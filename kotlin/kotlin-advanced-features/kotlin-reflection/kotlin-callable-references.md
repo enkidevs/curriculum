@@ -44,6 +44,7 @@ fun main() {
 ```
 
 > 💡 Function references can be used wherever a function type is expected.
+
 ---
 
 ## Practice
