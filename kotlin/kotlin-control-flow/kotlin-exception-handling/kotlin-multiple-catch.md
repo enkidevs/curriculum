@@ -1,0 +1,72 @@
+---
+author: enki-ai
+category: must-know
+type: normal
+practiceQuestion:
+  context: relative
+  formats:
+    - fill-in-the-gap
+revisionQuestion:
+  context: standalone
+  formats:
+    - fill-in-the-gap
+---
+
+# Multiple Catch Blocks
+
+---
+## Content
+
+Sometimes, the code that causes an exception can be caused by multiple different types of errors.
+
+You can handle different types of exceptions with multiple `catch` blocks:
+
+```kotlin
+try {
+    val number = readLine()!!.toInt()
+    val result = 100 / number
+    println(result)
+} catch (e: NumberFormatException) {
+    println("Please enter a valid number")
+} catch (e: ArithmeticException) {
+    println("Cannot divide by zero")
+} catch (e: Exception) {
+    println("Something else went wrong")
+}
+```
+
+The catches are checked in order:
+1. Most specific exceptions first
+2. More general exceptions later
+3. `Exception` class catches any remaining errors
+---
+
+## Practice
+
+Arrange these catch blocks in the correct order:
+
+```kotlin
+try {
+    // Some code
+} catch (e: ???) {
+    // Handle specific error
+} catch (e: ???) {
+    // Handle any error
+}
+```
+
+- `NumberFormatException`
+- `Exception`
+- `Error`
+- `Throwable`
+
+---
+
+## Revision
+
+Multiple catch blocks should be ordered from ??? to ???.
+
+- `most specific`
+- `most general`
+- `least important`
+- `most important` 
