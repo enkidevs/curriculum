@@ -12,25 +12,40 @@ revisionQuestion:
     - fill-in-the-gap
 ---
 
-# Basic String Methods
+# String Methods
 
 ---
 ## Content
 
-Kotlin offers methods to manipulate strings, like changing case or finding length. These are like tools in a toolbox, each serving a specific purpose.
+Kotlin offers methods to manipulate strings, like changing case or finding length.
 
-- **`length`**: Get the number of characters, like counting the letters in a word.
-- **`toUpperCase()`**: Convert to uppercase, similar to shouting a word.
-- **`toLowerCase()`**: Convert to lowercase, like whispering a word.
+- Transform text (using `toUpperCase()`, `toLowerCase()`, `trim()`)
+- Search within text (with `contains()`, `indexOf()`, `startsWith()`)
+- Extract information (via `substring()`, `split()`)
+- Format data (through `format()`, `padStart()`, `padEnd()`)
+
 
 ```kotlin
-val text = "hello"
-println(text.toUpperCase()) // Outputs: HELLO
-println(text.length) // Outputs: 5
+var language = "Kotlin"
+println(text.toUpperCase()) // Outputs: KOTLIN
+
+val text = "I am learning $language"
+println(text.length) // Outputs: 20
+
+// check if the text contains the word "Kotlin"
+println(text.contains("Kotlin")) // Outputs: true
+
+// position in text where "Kotlin" starts
+println(text.indexOf("Kotlin")) // Outputs: 10
+
+// extract the chunk of text starting at position 10
+println(text.substring(10)) // Outputs: Kotlin
+
+// split the text into a list of words
+println(text.split(" ")) // Outputs: [I, am, learning, Kotlin]
 ```
 
-**Why it matters:** These methods help format and analyze text data, much like editing a document to ensure it looks just right.
-
+> 💡 Manipulating text is essential to building web apps, mobile apps, and more.
 
 ---
 ## Practice
