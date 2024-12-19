@@ -1,8 +1,11 @@
 name: Functional Programming
-description: Master immutability, recursion, and higher-order functions
+description: Master functional programming concepts in Kotlin
 insights:
-  - kotlin-immutable-data-structures
+  - kotlin-pure-functions
   - kotlin-higher-order-functions
-  - kotlin-recursion
+  - kotlin-lambda-expressions
+  - kotlin-function-composition
+  - kotlin-immutability
 aspects:
   - deep
+  - workout

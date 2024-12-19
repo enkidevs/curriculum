@@ -16,3 +16,4 @@ sections:
   '2':
     - kotlin-returns-and-jumps
     - kotlin-exception-handling
+    - kotlin-recursion
