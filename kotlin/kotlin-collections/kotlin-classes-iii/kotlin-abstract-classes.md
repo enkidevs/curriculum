@@ -100,8 +100,9 @@ If we want to define a class that can be used as a template for other classes, b
 
 Inside this class, we can define two types of methods:
 
-- ??? methods: methods that are not implemented in the class but must be implemented in the child class.
-- ??? methods: methods that are implemented in the class and shared across all child classes.
+??? methods: methods that are not implemented in the class but must be implemented in the child class.
+
+??? methods: methods that are implemented in the class and shared across all child classes.
 
 - `abstract`
 - `Abstract`
