@@ -3,7 +3,6 @@ description: Master essential data types for versatile programming
 slug: kotlin-data-types
 aspects:
   - introduction
-  - workout
 learnType: GROKKING
 section: '0'
 insights:

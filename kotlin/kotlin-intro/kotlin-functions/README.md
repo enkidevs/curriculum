@@ -3,7 +3,6 @@ description: Write reusable code blocks to solve complex problems
 slug: kotlin-functions
 aspects:
   - introduction
-  - workout
 learnType: GROKKING
 section: '0'
 insights:
