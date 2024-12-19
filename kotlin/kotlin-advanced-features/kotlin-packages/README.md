@@ -5,5 +5,5 @@ insights:
   - kotlin-import-statements
   - kotlin-default-imports
 aspects:
-  - introduction
+  - deep
   - workout 

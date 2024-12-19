@@ -60,3 +60,21 @@ Create a class with a primary constructor:
 - `val`
 - `var`
 - `constructor`
+
+---
+
+## Revision
+
+Create a class with a primary constructor:
+
+```kotlin
+??? Person(
+    ??? name: String,
+    ??? age: Int
+)
+```
+
+- `class`
+- `val`
+- `var`
+- `constructor`

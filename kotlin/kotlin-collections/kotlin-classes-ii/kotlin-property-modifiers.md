@@ -57,3 +57,21 @@ class Person {
 - `set`
 - `get`
 - `public`
+
+---
+
+## Revision
+
+Make the age property read-only from outside:
+
+```kotlin
+class Person {
+    var age: Int = 0
+        ??? ???
+}
+```
+
+- `private`
+- `set`
+- `get`
+- `public`

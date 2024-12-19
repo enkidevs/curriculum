@@ -54,3 +54,20 @@ Complete the code to create a class with properties:
 - `var`
 - `type`
 - `let`
+
+---
+
+## Revision
+
+Complete the code to create a class with properties:
+
+```kotlin
+??? Circle {
+    ??? radius: Double = 0.0
+}
+```
+
+- `class`
+- `var`
+- `type`
+- `let`

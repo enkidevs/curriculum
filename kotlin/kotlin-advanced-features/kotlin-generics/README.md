@@ -1,9 +1,11 @@
 name: Generics
-description: Master flexible, type-safe code with generics
+description: Write flexible and type-safe code with generics
 insights:
-  - kotlin-generics-type-agnostic-magic
-  - kotlin-type-variance-one-way-streets
-  - kotlin-generic-constraints-club-rules
-  - kotlin-designing-a-generic-api
+  - kotlin-generics-basics
+  - kotlin-generic-constraints
+  - kotlin-type-variance
+  - kotlin-generic-functions
+  - kotlin-reified-generics
 aspects:
-  - introduction
+  - deep
+  - workout

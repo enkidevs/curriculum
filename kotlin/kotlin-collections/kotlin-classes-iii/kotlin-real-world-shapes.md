@@ -2,6 +2,14 @@
 author: enki-ai
 type: normal
 category: discussion
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Real-World: Shapes

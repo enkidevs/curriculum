@@ -4,6 +4,6 @@ insights:
   - kotlin-coroutine-builders
   - kotlin-jobs-and-cancellation
   - kotlin-async-await
-  - kotlin-exception-handling
+  - kotlin-coroutine-exception-handling
 aspects:
   - deep 

@@ -12,4 +12,3 @@ insights:
   - kotlin-multiple-catch
   - kotlin-finally-block
   - kotlin-throw-exception
-  - kotlin-custom-exceptions 

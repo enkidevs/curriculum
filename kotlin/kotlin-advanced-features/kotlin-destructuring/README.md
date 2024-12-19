@@ -6,5 +6,5 @@ insights:
   - kotlin-destructuring-maps-pairs
   - kotlin-destructuring-lambdas
 aspects:
-  - introduction
+  - deep
   - workout 

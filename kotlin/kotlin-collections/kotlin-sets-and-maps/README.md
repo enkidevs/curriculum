@@ -5,7 +5,6 @@ insights:
 - kotlin-sets-unique-collections
 - kotlin-maps-key-value-pairs
 - kotlin-mutable-vs-immutable-maps
-- kotlin-real-world-dictionary 
 
 aspects:
 - introduction

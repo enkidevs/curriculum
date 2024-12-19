@@ -61,3 +61,25 @@ class Circle {
 - `return`
 - `function`
 - `print`
+
+---
+
+## Revision
+
+Complete the method to calculate area:
+
+```kotlin
+class Circle {
+    var radius: Double = 0.0
+    
+    ??? calculateArea(): Double {
+        ??? 3.14 * radius * radius
+    }
+}
+```
+
+- `fun`
+- `return`
+- `function`
+- `print`
+
