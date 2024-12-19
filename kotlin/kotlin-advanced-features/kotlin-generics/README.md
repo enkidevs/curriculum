@@ -3,7 +3,8 @@ description: Write flexible and type-safe code with generics
 insights:
   - kotlin-generics-basics
   - kotlin-generic-constraints
-  - kotlin-type-variance
+  - kotlin-covariance
+  - kotlin-contravariance
   - kotlin-generic-functions
   - kotlin-reified-generics
 aspects:
