@@ -3,7 +3,6 @@ description: Repeat tasks for a specific number of times
 slug: kotlin-for-loop
 aspects:
   - introduction
-  - workout
 learnType: GROKKING
 section: '0'
 insights:

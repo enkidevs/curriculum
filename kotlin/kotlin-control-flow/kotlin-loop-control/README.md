@@ -3,10 +3,10 @@ description: Master loop flow with break and continue
 slug: kotlin-loop-control
 aspects:
   - introduction
-  - workout
 learnType: GROKKING
 section: '0'
 insights:
   - kotlin-break-statement
   - kotlin-continue-statement
   - kotlin-break-and-continue-real-world
+  - kotlin-break-and-continue-labels

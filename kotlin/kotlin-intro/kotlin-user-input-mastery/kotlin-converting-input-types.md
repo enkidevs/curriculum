@@ -31,6 +31,7 @@ fun main() {
 
 Without converting input to the correct type, you can’t perform meaningful operations like math or comparisons. For example, "25" is text and can’t be used in arithmetic, but 25 as an Int can.
 
+> 💡 Use `toInt()`, `toDouble()`, `toBoolean()`, etc. to convert input to the correct type.
 
 ---
 ## Practice

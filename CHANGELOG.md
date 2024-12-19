@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 19th 2024
+
+### Changed
+
+- [Kotlin - add advanced content and expand the rest](https://github.com/enkidevs/curriculum/pull/3335)
 
 ## December 5th 2024
 
