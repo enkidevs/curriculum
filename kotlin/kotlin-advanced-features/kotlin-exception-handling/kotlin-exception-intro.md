@@ -21,6 +21,8 @@ Computer programs are rigid - they expect data and operations to follow exact ru
 
 When these rules are broken, the program encounters an **exception** - an error that disrupts normal operation.
 
+> 💥 When an exception happens, we say it caused the program to crash.
+
 Common scenarios that cause exceptions:
 1. Dividing by zero
 2. Converting invalid text to a number
@@ -35,13 +37,10 @@ val number = "abc".toInt()
 val result = 10 / 0
 ```
 
-> 💥 When an exception happens, we say it caused the program to crash.
-
 Kotlin provides tools to:
 1. Detect exceptions (using `try`)
 2. Handle exceptions (using `catch`)
 3. Clean up resources (using `finally`)
-4. Create custom exceptions (extending `Exception`)
 
 > 🎯 Handling exceptions is like giving your program a second chance to deal with the error gracefully.
 

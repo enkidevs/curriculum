@@ -17,9 +17,9 @@ revisionQuestion:
 ---
 ## Content
 
-Sometimes, the code that causes an exception can be caused by multiple different types of errors.
+Sometimes, the code inside a `try` block can cause different types of exceptions.
 
-You can handle different types of exceptions with multiple `catch` blocks:
+You can handle these exceptions with multiple `catch` blocks, each handling a different type of exception:
 
 ```kotlin
 try {
@@ -38,7 +38,7 @@ try {
 The catches are checked in order:
 1. Most specific exceptions first
 2. More general exceptions later
-3. `Exception` class catches any remaining errors
+3. Generic `Exception` catches any remaining errors
 ---
 
 ## Practice

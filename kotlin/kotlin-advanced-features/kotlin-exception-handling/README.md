@@ -2,7 +2,7 @@ name: Exception Handling
 description: Handle errors gracefully in your code
 slug: kotlin-exception-handling
 aspects:
-  - introduction
+  - deep
   - workout
 learnType: GROKKING
 section: '0'

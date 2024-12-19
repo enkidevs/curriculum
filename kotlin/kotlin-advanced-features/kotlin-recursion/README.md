@@ -6,5 +6,5 @@ insights:
   - kotlin-recursion-vs-iteration
   - kotlin-recursion-patterns
 aspects:
-  - introduction
+  - workout
   - deep 

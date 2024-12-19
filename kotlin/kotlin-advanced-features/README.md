@@ -14,4 +14,5 @@ sections:
     - kotlin-reflection
     - kotlin-idioms-iii
     - kotlin-file-operations
+    - kotlin-exception-handling
     - kotlin-packages

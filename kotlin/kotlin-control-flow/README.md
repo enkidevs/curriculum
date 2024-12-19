@@ -13,6 +13,3 @@ sections:
     - kotlin-for-loop
     - kotlin-while-loop
     - kotlin-loop-control
-  '2':
-    - kotlin-returns-and-jumps
-    - kotlin-exception-handling

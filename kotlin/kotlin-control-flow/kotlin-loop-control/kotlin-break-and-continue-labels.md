@@ -17,7 +17,7 @@ revisionQuestion:
 ---
 ## Content
 
-Labels can also be used with `break` and `continue` to specify which loop to break or continue:
+Labels can be used with `break` and `continue` to specify which loop to break or continue:
 
 ```kotlin
 outer@ for (i in 1..3) {

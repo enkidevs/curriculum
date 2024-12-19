@@ -48,8 +48,8 @@ fun addToList(numbers: MutableList<Int>, value: Int) {
 Benefits of pure functions:
 - Easier to test
 - Predictable behavior
-- Thread-safe
-- Can be cached
+- Thread-safe (more on this later)
+- Can be cached (more on this later)
 
 > 💡 Pure functions are like mathematical functions - they just transform input into output.
 
