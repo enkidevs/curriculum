@@ -6,8 +6,7 @@ insights:
 - kotlin-secondary-constructors
 - kotlin-data-class-basics
 - kotlin-data-class-features
-- kotlin-shopping-cart-basics
-- kotlin-shopping-cart-operations
+- kotlin-shopping-cart-example
 aspects:
-- deep
+- introduction
 - workout
