@@ -1,5 +1,7 @@
 name: NumPy
 
+core: true
+
 description: From basic array operations to advanced data manipulation.
 
 sections:

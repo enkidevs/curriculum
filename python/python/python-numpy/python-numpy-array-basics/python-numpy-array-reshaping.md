@@ -26,11 +26,19 @@ You can change an array's shape without changing its data:
 Convert 1D to 2D array:
 
 ```python
-arr = np.array([1, 2, 3, 4])
-reshaped = arr.reshape(2, 2)
-# array([[1, 2],
-#        [3, 4]])
+colors = np.array(
+  [255, 128, 0,  # Orange
+   128, 0, 255]) # Purple
+image_rows = colors.reshape(2, 3)
+# array([[255, 128, 0],
+#        [128, 0, 255]])
 ```
+
+Reshaping is essential when:
+
+- Converting image data between formats
+- Preparing data for machine learning models
+- Restructuring time series data
 
 > 💡 The total number of elements must stay the same!
 

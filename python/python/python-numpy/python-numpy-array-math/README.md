@@ -1,6 +1,5 @@
 name: Array Math 
-description: Learn how to perform mathematical operations and
-functions on NumPy arrays.
+description: Learn how to perform mathematical operations and functions on NumPy arrays.
 
 insights:
   - python-numpy-basic-math

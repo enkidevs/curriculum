@@ -21,15 +21,33 @@ revisionQuestion:
 
 ## Content
 
-Split arrays into smaller pieces:
+Split arrays into multiple parts:
+
+```python
+# Split RGB image into color channels
+image = np.array([[255, 0, 0],    # Red
+                  [0, 255, 0],    # Green
+                  [0, 0, 255]])   # Blue
+
+r, g, b = np.vsplit(image, 3)     # Split vertically
+# r = array([[255, 0, 0]])
+# g = array([[0, 255, 0]])
+# b = array([[0, 0, 255]])
+```
+
+> 💡 The number of splits must evenly divide the array!
 
 Split horizontally (into rows):
 
 ```python
-arr = np.array([[1, 2], [3, 4], [5, 6]])
-top, bottom = np.vsplit(arr, 2)
-# top = array([[1, 2]])
-# bottom = array([[3, 4], [5, 6]])
+# Split RGB image into channels
+image = np.array([[255, 0, 0],    # Red
+                 [0, 255, 0],     # Green
+                 [0, 0, 255]])    # Blue
+r, g, b = np.vsplit(image, 3)
+# r = array([[255], [0], [0]])
+# g = array([[0], [255], [0]])
+# b = array([[0], [0], [255]])
 ```
 
 > 💡 The array must be evenly divisible by the split number!

@@ -21,25 +21,34 @@ revisionQuestion:
 
 ## Content
 
-Create independent copies of arrays:
+Understanding array copying is crucial when:
 
-View vs Copy:
+- Modifying data without affecting the original
+- Sharing data between functions
+- Debugging unexpected changes
 
-```python
-a = np.array([1, 2, 3])
-b = a          # Creates a view
-c = a.copy()   # Creates a copy
-```
+When working with arrays, you can create:
 
-> 💡 Changes to a view affect the original array!
-
-Demonstrate the difference:
+- Views (references to the same data)
+- Copies (independent data)
 
 ```python
-a[0] = 9
-print(b[0])    # 9 (view changes)
-print(c[0])    # 1 (copy unchanged)
+# Image processing example
+original = np.array([[100, 150], 
+                     [200, 250]])  # Original image
+view = original.view()             # Create view
+copy = original.copy()             # Create copy
+
+# Modify the view (affects original)
+view[0, 0] = 0
+print(original[0, 0])  # 0
+
+# Modify the copy (original unchanged)
+copy[0, 0] = 255
+print(original[0, 0])  # 0
 ```
+
+> ⚠️ Changes to a view affect the original array!
 
 ---
 

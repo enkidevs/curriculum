@@ -1,10 +1,8 @@
-name: NumPy Intro Exercise
-description: Practice creating and manipulating NumPy
-arrays.
+name: Weather Station
+description: Analyze weather data using NumPy arrays.
 
 insights:
   - python-numpy-intro-practice
 
 aspects:
   - workout
-  - deep

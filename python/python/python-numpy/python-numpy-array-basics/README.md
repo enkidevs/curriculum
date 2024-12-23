@@ -1,6 +1,5 @@
 name: Array Basics 
-description: Learn how to work with multi-dimensional arrays
-and understand array shapes.
+description: Learn how to work with multi-dimensional arrays and understand array shapes.
 
 insights:
   - python-numpy-array-dimensions

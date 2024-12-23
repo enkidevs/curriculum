@@ -1,6 +1,5 @@
 name: Array Manipulation Exercise
-description: Practice manipulating arrays by
-organizing data for a small game.
+description: Practice manipulating arrays by organizing data for a small game.
 
 insights:
   - python-numpy-array-manipulation-practice

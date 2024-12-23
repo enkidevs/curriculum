@@ -21,19 +21,23 @@ revisionQuestion:
 
 ## Content
 
-Stack arrays to combine them into a larger array:
+Stacking combines arrays in different ways:
 
-Stack vertically (add rows):
+> 💡 Arrays must have compatible shapes for stacking!
+
+Stack arrays vertically (along rows):
 
 ```python
-a = np.array([1, 2])
-b = np.array([3, 4])
-vertical = np.vstack([a, b])
-# array([[1, 2],
-#        [3, 4]])
-```
+# Combine RGB channels into an image
+red = np.array([255, 0, 0])      # Red channel
+green = np.array([0, 255, 0])    # Green channel
+blue = np.array([0, 0, 255])     # Blue channel
 
-> 💡 Arrays must have the same shape to be stacked!
+rgb = np.vstack([red, green, blue])
+# array([[255,   0,   0],
+#        [  0, 255,   0],
+#        [  0,   0, 255]])
+```
 
 Stack horizontally (add columns):
 

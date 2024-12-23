@@ -1,6 +1,5 @@
 name: Introduction to NumPy 
-description: Learn the basics of NumPy, from arrays
-to simple operations.
+description: Learn the basics of NumPy, from arrays to simple operations.
 
 insights:
   - python-numpy-what-is-numpy

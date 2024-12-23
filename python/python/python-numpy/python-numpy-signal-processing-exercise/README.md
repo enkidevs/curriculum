@@ -1,4 +1,4 @@
-name: Signal Processing Exercise
+name: Heart Rate Analysis
 description: Practice analyzing and manipulating time-series data in a real-world scenario.
 
 insights:

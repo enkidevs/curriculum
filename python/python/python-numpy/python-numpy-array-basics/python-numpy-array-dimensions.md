@@ -21,7 +21,12 @@ revisionQuestion:
 
 ## Content
 
-NumPy arrays can have multiple dimensions:
+NumPy arrays can have multiple dimensions, making them perfect for representing
+real-world data like:
+
+- Images (2D arrays of pixels)
+- Time series data (1D arrays of values)
+- RGB colors (3D arrays)
 
 Create a 2D array (matrix):
 
