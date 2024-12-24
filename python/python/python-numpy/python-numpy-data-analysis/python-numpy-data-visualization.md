@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Data Visualization](https://numpy.org/doc/stable/reference/routines.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -23,33 +20,48 @@ revisionQuestion:
 
 Prepare data for visualization:
 
-Create grid data:
+```python
+# Sales data over time
+months = np.arange(12)  # 0 to 11
+sales = np.array([
+    [100, 120, 140, 160, 180, 200, 190, 185, 195, 210, 230, 240],  # Product A
+    [50, 55, 65, 75, 80, 85, 82, 80, 85, 90, 95, 100]             # Product B
+])
+
+# 1. Normalize for percentage plots
+max_sales = sales.max(axis=1, keepdims=True)  # Keep dims for broadcasting
+normalized = sales / max_sales * 100
+
+# 2. Calculate moving average (smoothing)
+window = 3
+weights = np.ones(window) / window
+smoothed = np.array([
+    np.convolve(row, weights, mode='valid') 
+    for row in sales
+])
+```
+
+> 💡 Normalize data to compare series with different scales!
+
+Create visualization grids:
 
 ```python
-# Generate 2D coordinate grid
+# Generate 2D coordinate grid for contour plots
 x = np.linspace(-5, 5, 100)
 y = np.linspace(-5, 5, 100)
 X, Y = np.meshgrid(x, y)
+
+# Create sample 2D data (e.g., temperature map)
+distance = np.sqrt(X**2 + Y**2)
+temperature = np.exp(-0.1 * distance)
+
+# Reshape for heatmap
+readings = np.random.normal(20, 5, (24, 7))  # 24 hours × 7 days
+daily_avg = readings.mean(axis=1)  # Average by hour
+weekly_pattern = readings.mean(axis=0)  # Average by day
 ```
 
-> 💡 meshgrid creates coordinates for 2D plotting!
-
-Reshape for heatmaps:
-
-```python
-# Convert to 2D array
-data = np.array([1, 2, 3, 4, 5, 6])
-grid = data.reshape(2, 3)  # 2x3 grid
-```
-
-Normalize data:
-
-```python
-# Scale to 0-1 range
-min_val = data.min()
-max_val = data.max()
-normalized = (data - min_val) / (max_val - min_val)
-```
+> 💡 Use meshgrid for 2D plots and reshape for heatmaps!
 
 ---
 

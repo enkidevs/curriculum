@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Scientific Computing](https://numpy.org/doc/stable/reference/routines.math.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,35 +18,44 @@ revisionQuestion:
 
 ## Content
 
-Use NumPy for scientific calculations:
-
-Physical constants:
+Perform scientific calculations efficiently:
 
 ```python
-# Gravitational acceleration (m/s²)
-g = 9.81
-height = np.array([1, 2, 3])  # meters
-time = np.sqrt(2 * height / g)
+# Physics: Calculate projectile motion
+initial_velocity = np.array([10, 15, 20])  # m/s
+angle = np.radians(45)                     # Convert to radians
+g = 9.81                                   # Gravity (m/s²)
+
+# Calculate maximum height
+v_y = initial_velocity * np.sin(angle)     # Vertical component
+max_height = (v_y ** 2) / (2 * g)
+print(f"Max heights: {max_height} meters")
+
+# Calculate range
+v_x = initial_velocity * np.cos(angle)     # Horizontal component
+time_of_flight = 2 * v_y / g               # Time to land
+range_distance = v_x * time_of_flight
+print(f"Ranges: {range_distance} meters")
 ```
 
-> 💡 NumPy functions preserve units in calculations!
+> 💡 NumPy handles vectors and scalars seamlessly!
 
-Vector operations:
+Common scientific operations:
 
 ```python
-# Force vectors (N)
-F1 = np.array([1, 0, 0])  # 1N in x direction
-F2 = np.array([0, 1, 0])  # 1N in y direction
-resultant = np.sqrt(np.sum(F1**2 + F2**2))
+# Chemistry: Calculate molecular energy
+temperatures = np.array([300, 350, 400])  # Kelvin
+k = 1.380649e-23                         # Boltzmann constant
+energy = 3/2 * k * temperatures          # Average molecular energy
+
+# Engineering: Calculate electrical power
+voltage = np.array([12, 24, 48])         # Volts
+current = np.array([2, 1, 0.5])          # Amperes
+power = voltage * current                 # Watts
+resistance = voltage / current            # Ohms
 ```
 
-Unit conversion:
-
-```python
-# Convert temperature
-celsius = np.array([0, 100])
-fahrenheit = (celsius * 9/5) + 32
-```
+> 💡 Always include units in your variable names or comments!
 
 ---
 

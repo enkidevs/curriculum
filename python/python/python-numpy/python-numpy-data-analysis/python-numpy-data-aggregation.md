@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Statistics](https://numpy.org/doc/stable/reference/routines.statistics.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,37 +18,44 @@ revisionQuestion:
 
 ## Content
 
-Aggregate and summarize data:
-
-Basic statistics:
+Analyze and summarize data patterns:
 
 ```python
-# Common aggregations
-data = np.array([[1, 2, 3],
-                 [4, 5, 6]])
-print(data.sum())     # Total sum
-print(data.mean(0))   # Column means
-print(data.max(1))    # Row maximums
+# Monthly sales data (rows: products, columns: months)
+sales = np.array([
+    [5200, 5500, 4900, 5100],  # Product A
+    [2100, 2300, 2000, 2200],  # Product B
+    [1500, 1400, 1600, 1700]   # Product C
+])
+
+# Basic statistics
+total_sales = sales.sum()           # Total across all products/months
+monthly_sales = sales.sum(axis=0)   # Sum each month (across products)
+product_sales = sales.sum(axis=1)   # Sum each product (across months)
+
+print("Best month:", monthly_sales.max())
+print("Best product:", product_sales.max())
 ```
 
-> 💡 Axis 0 is columns, axis 1 is rows!
+> 💡 axis=0 operates on columns (down), axis=1 on rows (across)!
 
-Custom aggregations:
+Advanced aggregations:
 
 ```python
-# Apply function along axis
-def range_stat(x):
-    return np.max(x) - np.min(x)
-ranges = np.apply_along_axis(range_stat, 0, data)
+# Sales analysis
+avg_by_product = sales.mean(axis=1)    # Average per product
+growth = sales[:, 1:] - sales[:, :-1]  # Month-to-month change
+pct_change = growth / sales[:, :-1] * 100
+
+# Find top performer
+best_product = np.argmax(avg_by_product)
+print(f"Best product index: {best_product}")
+
+# Calculate running totals
+cumulative = np.cumsum(sales, axis=1)  # Running total by month
 ```
 
-Running statistics:
-
-```python
-# Cumulative calculations
-cumsum = np.cumsum(data)    # Cumulative sum
-cumprod = np.cumprod(data)  # Cumulative product
-```
+> 💡 Combine aggregations for deeper insights into your data!
 
 ---
 

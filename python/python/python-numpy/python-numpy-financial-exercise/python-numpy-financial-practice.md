@@ -4,33 +4,47 @@ type: normal
 category: coding
 setupCode:
   startingPoint: |
-    # Welcome to the Python coding playground
-    # You're managing an investment portfolio!
-    # Tasks:
-    # - Calculate daily returns for each stock
-    # - Find the best and worst performing stock
-    # - Compute portfolio value over time
-    # - Compare with market benchmark
+    # Welcome to the Portfolio Analysis Exercise!
+    # You're analyzing a diversified investment portfolio.
 
-    # Type your code here:
     import numpy as np
 
-    # Stock prices for 3 stocks over 5 days
+    # Daily closing prices for 4 stocks (tech, finance, energy, retail)
     prices = np.array([
-        [100, 50, 75],    # Day 1
-        [102, 48, 77],    # Day 2
-        [101, 51, 76],    # Day 3
-        [103, 49, 78],    # Day 4
-        [102, 52, 77]     # Day 5
+        # AAPL, JPM, XOM, WMT
+        [150.25, 140.50, 85.75, 125.30],  # Monday
+        [152.50, 141.25, 84.80, 126.75],  # Tuesday
+        [151.75, 139.90, 86.25, 124.50],  # Wednesday
+        [153.25, 142.75, 85.90, 127.80],  # Thursday
+        [154.50, 141.80, 86.50, 126.90]   # Friday
     ])
 
-    # Portfolio weights (40%, 30%, 30%)
-    weights = np.array([0.4, 0.3, 0.3])
+    # Your tasks:
+    # 1. Calculate daily returns for each stock
+    returns = ???  # Hint: Use np.diff and axis parameter
 
-    # Market index
-    market = np.array([1000, 1010, 995, 1015, 1005])
+    # 2. Create portfolio weights (must sum to 1)
+    weights = np.array([0.35, 0.25, 0.20, 0.20])  # 35/25/20/20 split
 
-    # Your analysis code:
+    # 3. Calculate portfolio statistics
+    port_returns = ???  # Daily portfolio returns
+    port_risk = ???    # Portfolio volatility (annualized)
+
+    # 4. Risk analysis
+    # Value at Risk (95% confidence)
+    var_95 = ???
+
+    # Maximum drawdown
+    portfolio_values = ???  # Daily portfolio values
+    max_drawdown = ???
+
+    # 5. Performance metrics
+    risk_free_rate = 0.02 / 252  # Daily risk-free rate
+    sharpe_ratio = ???
+
+    # 6. Compare with benchmark (S&P 500)
+    benchmark = np.array([4200, 4225, 4180, 4240, 4210])
+    relative_performance = ???
 ---
 
 # Portfolio Analysis
@@ -39,23 +53,35 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to analyze and track portfolio performance!
+> 👩‍💻 Practice financial analysis with a real portfolio!
 
-To solve this, try using:
+This exercise covers all financial analysis concepts:
 
-- Array operations for returns
-- Statistical functions for analysis
-- Broadcasting for portfolio values
-- Comparison operations for benchmarking
+- Return calculations
+- Portfolio optimization
+- Risk metrics
+- Performance analysis
 
-Give it a try, and feel free to experiment!
+Example calculations:
 
-> 💡 Remember that returns are calculated as (price_today - price_yesterday) /
-> price_yesterday!
+```python
+# Calculate stock returns
+daily_returns = np.diff(prices, axis=0) / prices[:-1]
 
-If you're stuck, try breaking it down:
+# Portfolio value
+initial_value = 100000  # $100k investment
+stock_units = (initial_value * weights) / prices[0]
+daily_values = np.sum(prices * stock_units, axis=1)
 
-1. Calculate daily returns
-2. Find best/worst stocks
-3. Track portfolio value
-4. Compare performance
+# Risk metrics
+volatility = np.std(returns, ddof=1) * np.sqrt(252)
+var_95 = np.percentile(returns, 5)
+tracking_error = np.std(returns - benchmark_returns)
+```
+
+> 💡 Remember:
+>
+> - Always annualize volatility
+> - Use appropriate time periods
+> - Consider risk-adjusted returns
+> - Compare with benchmarks

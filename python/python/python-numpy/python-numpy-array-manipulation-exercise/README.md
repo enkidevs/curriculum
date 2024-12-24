@@ -1,4 +1,4 @@
-name: Array Manipulation Exercise
+name: Scoreboard Game
 description: Practice manipulating arrays by organizing data for a small game.
 
 insights:

@@ -21,33 +21,43 @@ revisionQuestion:
 
 ## Content
 
-Slice arrays to get sections of data:
-
-Basic slicing:
+Slice arrays to select ranges of elements:
 
 ```python
-arr = np.array([1, 2, 3, 4, 5])
-subset = arr[1:4]  # [2, 3, 4]
+# Daily temperatures for a week
+temps = np.array([25, 28, 23, 24, 27, 26, 22])
+
+# Get workday temperatures (first 5 days)
+workdays = temps[0:5]     # [25, 28, 23, 24, 27]
+
+# Get weekend temperatures (last 2 days)
+weekend = temps[-2:]      # [26, 22]
+
+# Get every other day
+alternate = temps[::2]    # [25, 23, 27, 22]
 ```
 
-> 💡 Slicing uses [start:stop] format, stop is not included!
-
-Slice with step:
-
-```python
-arr = np.array([1, 2, 3, 4, 5])
-every_second = arr[::2]  # [1, 3, 5]
-```
+> 💡 Slice syntax: `array[start:stop:step]`, stop index not included!
 
 Slice 2D arrays:
 
 ```python
-arr = np.array([[1, 2, 3],
-                [4, 5, 6]])
-corner = arr[0:2, 1:3]
-# array([[2, 3],
-#        [5, 6]])
+# Student grades (rows: students, columns: tests)
+grades = np.array([[85, 90, 88],    # Student 1
+                  [92, 88, 95],     # Student 2
+                  [78, 85, 80]])    # Student 3
+
+# Get first two students' grades
+top_students = grades[0:2]     # [[85, 90, 88],
+                              #  [92, 88, 95]]
+
+# Get all students' first two test scores
+first_tests = grades[:, 0:2]   # [[85, 90],
+                              #  [92, 88],
+                              #  [78, 85]]
 ```
+
+> 💡 Use `:` to select all elements in that dimension
 
 ---
 

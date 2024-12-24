@@ -21,35 +21,55 @@ revisionQuestion:
 
 ## Content
 
-Load data into NumPy arrays:
-
-From text files:
+Load real-world data into NumPy arrays:
 
 ```python
-# Load CSV file
-data = np.loadtxt('data.csv', delimiter=',')
+# Load sales data from CSV
+sales_data = np.loadtxt('sales.csv', 
+    delimiter=',',          # CSV format
+    skiprows=1,            # Skip header row
+    usecols=(1,2,3),       # Select specific columns
+    dtype=float)           # Ensure numeric data
+print(sales_data.shape)    # e.g., (1000, 3)
 ```
 
-> 💡 loadtxt is great for simple text files with numbers!
+> 💡 Use `skiprows` to handle header rows and comments!
 
-With headers:
+Load structured data:
 
 ```python
-# Load CSV with column names
-data = np.genfromtxt('data.csv', 
-                     delimiter=',',
-                     names=True)
+# Load customer records with mixed types
+customers = np.genfromtxt('customers.csv',
+    delimiter=',',
+    names=True,            # Use first row as field names
+    dtype=[('id', 'i4'),   # Integer ID
+           ('name', 'U20'), # String (20 chars)
+           ('balance', 'f8')]) # Float balance
+print(customers['balance'].mean())  # Average balance
 ```
 
-Save and load:
+Save and load efficiently:
 
 ```python
-# Save array to file
-np.save('array.npy', data)
+# Save processed data for faster loading
+# Binary format is much faster than CSV
+np.save('processed_data.npy', sales_data)
 
-# Load array from file
-loaded = np.load('array.npy')
+# Load binary data
+loaded = np.load('processed_data.npy')
+
+# Save multiple arrays in one file
+np.savez('dataset.npz',
+    sales=sales_data,
+    customers=customers)
+
+# Load multiple arrays
+data = np.load('dataset.npz')
+sales = data['sales']
+customers = data['customers']
 ```
+
+> 💡 Use .npy for single arrays, .npz for multiple arrays!
 
 ---
 

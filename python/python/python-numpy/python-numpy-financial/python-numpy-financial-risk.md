@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Risk Analysis](https://numpy.org/doc/stable/reference/routines.statistics.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,36 +18,50 @@ revisionQuestion:
 
 ## Content
 
-Analyze investment risk:
-
-Value at Risk (VaR):
+Measure and analyze investment risk:
 
 ```python
-# Calculate 95% VaR
-returns = np.array([-0.02, 0.01, 0.03, -0.01])
-var_95 = np.percentile(returns, 5)  # 95% VaR
+# Daily stock returns
+returns = np.array([
+    0.015, -0.012, 0.008, -0.009, 0.014,  # Week 1
+    -0.007, 0.012, -0.011, 0.009, 0.016   # Week 2
+])
+
+# 1. Volatility (standard deviation of returns)
+volatility = np.std(returns, ddof=1)  # Sample std dev
+annualized_vol = volatility * np.sqrt(252)  # Annualized
+print(f"Annual volatility: {annualized_vol:.2%}")
+
+# 2. Value at Risk (VaR)
+confidence_level = 0.95
+var_95 = np.percentile(returns, (1 - confidence_level) * 100)
+print(f"95% VaR: {-var_95:.2%}")  # Potential loss
 ```
 
-> 💡 VaR shows potential loss at a confidence level!
+> 💡 VaR shows maximum likely loss at a confidence level!
 
-Maximum drawdown:
+Advanced risk metrics:
 
 ```python
-# Calculate maximum drawdown
-prices = np.array([100, 95, 98, 92, 96])
+# 3. Maximum drawdown
+prices = 100 * np.cumprod(1 + returns)  # Convert returns to prices
 peak = np.maximum.accumulate(prices)
 drawdown = (peak - prices) / peak
 max_drawdown = np.max(drawdown)
+print(f"Maximum drawdown: {max_drawdown:.2%}")
+
+# 4. Downside risk (semi-variance)
+negative_returns = returns[returns < 0]
+downside_risk = np.std(negative_returns, ddof=1)
+
+# 5. Risk-adjusted return (Sharpe ratio)
+risk_free_rate = 0.02 / 252  # Daily risk-free rate
+excess_returns = returns - risk_free_rate
+sharpe = np.mean(excess_returns) / np.std(excess_returns, ddof=1)
+annualized_sharpe = sharpe * np.sqrt(252)
 ```
 
-Beta calculation:
-
-```python
-# Market sensitivity
-market_returns = np.array([0.01, -0.01, 0.02, -0.02])
-stock_returns = np.array([0.02, -0.02, 0.03, -0.03])
-beta = np.cov(stock_returns, market_returns)[0,1] / np.var(market_returns)
-```
+> 💡 Consider multiple risk metrics for a complete analysis!
 
 ---
 

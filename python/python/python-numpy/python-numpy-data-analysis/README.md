@@ -9,5 +9,5 @@ insights:
   - python-numpy-data-visualization
 
 aspects:
-  - introduction
+  - deep
   - workout 

@@ -23,38 +23,49 @@ revisionQuestion:
 
 Remove elements from arrays:
 
-Delete by index:
-
 ```python
-arr = np.array([1, 2, 3, 4])
-new = np.delete(arr, 1)
-# array([1, 3, 4])
+# Student test scores
+scores = np.array([85, 92, 78, 90, 45])
+
+# Remove outlier score
+updated = np.delete(scores, 4)  # Remove index 4
+# array([85, 92, 78, 90])
+
+# Remove multiple scores
+remove_indices = [0, 2]  # Remove first and third scores
+selected = np.delete(scores, remove_indices)
+# array([92, 90, 45])
 ```
 
-> 💡 Delete returns a new array without the specified elements!
+> 💡 `delete` creates a new array - original stays unchanged!
 
-Delete multiple elements:
-
-```python
-arr = np.array([1, 2, 3, 4, 5])
-new = np.delete(arr, [1, 3])
-# array([1, 3, 5])
-```
-
-Delete from 2D arrays:
+Remove from 2D arrays:
 
 ```python
-matrix = np.array([[1, 2], [3, 4], [5, 6]])
-new = np.delete(matrix, 1, axis=0)
-# array([[1, 2],
-#        [5, 6]])
+# Class grades (rows: students, columns: tests)
+grades = np.array([[85, 90, 75],    # Student 1
+                  [92, 88, 95],     # Student 2
+                  [78, 85, 80]])    # Student 3
+
+# Remove a test column (axis=1)
+remove_test = np.delete(grades, 1, axis=1)
+# array([[85, 75],
+#        [92, 95],
+#        [78, 80]])
+
+# Remove a student row (axis=0)
+remove_student = np.delete(grades, 0, axis=0)
+# array([[92, 88, 95],
+#        [78, 85, 80]])
 ```
+
+> 💡 Specify axis to remove rows (0) or columns (1)!
 
 ---
 
 ## Practice
 
-Delete an element from the array:
+Delete the right element from the array:
 
 ```python
 arr = np.array([1, 2, 3, 4])

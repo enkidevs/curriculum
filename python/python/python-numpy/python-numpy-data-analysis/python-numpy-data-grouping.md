@@ -21,37 +21,56 @@ revisionQuestion:
 
 ## Content
 
-Group and segment data:
-
-Split by condition:
+Group and analyze data segments:
 
 ```python
-# Split data into groups
-data = np.array([1, 2, 3, 10, 20, 30])
-low = data[data < 10]    # [1, 2, 3]
-high = data[data >= 10]  # [10, 20, 30]
+# Customer purchase data
+# Columns: customer_id, amount, region_id
+purchases = np.array([
+    [1, 150, 1],
+    [2, 200, 2],
+    [3, 75, 1],
+    [4, 300, 2],
+    [5, 225, 1]
+])
+
+# Group by region
+region_1_mask = purchases[:, 2] == 1
+region_2_mask = purchases[:, 2] == 2
+
+region_1_sales = purchases[region_1_mask]
+region_2_sales = purchases[region_2_mask]
+
+print("Region 1 average:", region_1_sales[:, 1].mean())
+print("Region 2 average:", region_2_sales[:, 1].mean())
 ```
 
-> 💡 Boolean masks are great for grouping data!
+> 💡 Use boolean masks to create groups from your data!
 
-Group by indices:
+Segment and analyze:
 
 ```python
-# Group using index arrays
-indices = np.array([0, 0, 1, 1, 2, 2])
-for i in range(3):
-    group = data[indices == i]
-    print(f"Group {i}:", group)
+# Categorize purchases
+amounts = purchases[:, 1]
+low = amounts < 100
+medium = (amounts >= 100) & (amounts < 250)
+high = amounts >= 250
+
+# Analyze segments
+segments = {
+    'low': amounts[low],
+    'medium': amounts[medium],
+    'high': amounts[high]
+}
+
+for name, segment in segments.items():
+    if len(segment) > 0:
+        print(f"{name.title()} segment:")
+        print(f"  Count: {len(segment)}")
+        print(f"  Average: ${segment.mean():.2f}")
 ```
 
-Unique values:
-
-```python
-# Find unique categories
-categories = np.array(['A', 'B', 'A', 'C'])
-unique = np.unique(categories)  # ['A', 'B', 'C']
-counts = np.bincount(indices)   # Count occurrences
-```
+> 💡 Combine masks with & (and) and | (or) for complex grouping!
 
 ---
 

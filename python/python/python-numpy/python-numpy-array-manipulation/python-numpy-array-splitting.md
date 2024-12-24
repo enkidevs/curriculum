@@ -21,37 +21,29 @@ revisionQuestion:
 
 ## Content
 
-Split arrays into smaller pieces:
-
-Split array evenly:
+Split arrays into parts:
 
 ```python
-arr = np.array([1, 2, 3, 4])
-first, second = np.split(arr, 2)
-# first = array([1, 2])
-# second = array([3, 4])
+# Full year test scores
+scores = np.array([85, 92, 78, 88, 95, 82])
+
+# Split into semesters
+sem1, sem2 = np.array_split(scores, 2)
+# sem1: array([85, 92, 78])
+# sem2: array([88, 95, 82])
+
+# Split into quarters
+q1, q2, q3, q4 = np.array_split(scores, 4)
+# q1: array([85, 92])
+# q2: array([78, 88])
+# q3: array([95])
+# q4: array([82])
 ```
 
-> 💡 The number of splits must divide the array length evenly!
+> 💡 `array_split` handles arrays that don't divide evenly!
 
-Split at specific positions:
 
-```python
-arr = np.array([1, 2, 3, 4, 5])
-a, b, c = np.split(arr, [2, 4])
-# a = array([1, 2])
-# b = array([3, 4])
-# c = array([5])
-```
-
-Split 2D array vertically:
-
-```python
-matrix = np.array([[1, 2], [3, 4]])
-left, right = np.hsplit(matrix, 2)
-# left = array([[1], [3]])
-# right = array([[2], [4]])
-```
+> 💡 Use `hsplit` for columns, `vsplit` for rows!
 
 ---
 

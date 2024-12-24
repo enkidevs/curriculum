@@ -21,38 +21,45 @@ revisionQuestion:
 
 ## Content
 
-Create structured arrays with custom types:
-
-Define a custom type:
+Create structured arrays for complex data:
 
 ```python
-dt = np.dtype([
-    ('name', 'U10'),     # Unicode string, max 10 chars
-    ('age', 'i4'),       # 32-bit integer
-    ('score', 'f4')      # 32-bit float
+# Define data structure for sales records
+sales_dt = np.dtype([
+    ('date', 'M8[D]'),        # DateTime (days)
+    ('product_id', 'i4'),     # 32-bit integer
+    ('quantity', 'i2'),       # 16-bit integer
+    ('price', 'f4'),          # 32-bit float
+    ('is_online', '?')        # boolean
 ])
+
+# Create sales records
+sales = np.array([
+    ('2024-01-15', 1001, 5, 29.99, True),
+    ('2024-01-15', 1002, 2, 49.99, False),
+    ('2024-01-16', 1001, 3, 29.99, True)
+], dtype=sales_dt)
 ```
 
-> 💡 Custom types let you store different types of data together!
+> 💡 Structured arrays are like database tables in memory!
 
-Create structured array:
+Access fields and analyze:
 
 ```python
-students = np.array([
-    ('Amy', 20, 88.5),
-    ('Bob', 21, 75.0)
-], dtype=dt)
+# Get specific fields
+print(sales['product_id'])    # [1001 1002 1001]
+print(sales['price'])         # [29.99 49.99 29.99]
 
-print(students['name'])  # ['Amy' 'Bob']
-print(students['age'])   # [20 21]
+# Calculate total sales
+total = np.sum(sales['quantity'] * sales['price'])
+print(f"Total sales: ${total:.2f}")  # $289.93
+
+# Filter online sales
+online_sales = sales[sales['is_online']]
+print(f"Online orders: {len(online_sales)}")  # 2
 ```
 
-Access fields:
-
-```python
-first = students[0]      # Get first record
-print(first['score'])    # 88.5
-```
+> 💡 Use field names like dictionary keys to access columns!
 
 ---
 

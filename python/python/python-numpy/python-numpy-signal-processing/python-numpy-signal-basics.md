@@ -21,34 +21,45 @@ revisionQuestion:
 
 ## Content
 
-Work with time-series data:
-
-Create signal:
+Work with time-series signals:
 
 ```python
-# Time points
-t = np.linspace(0, 1, 100)  # 100 points from 0 to 1
+# Create time points (1 second, sampled at 1000 Hz)
+t = np.linspace(0, 1, 1000)  # 1000 points = 1000 Hz sampling rate
 
-# Simple sine wave
-signal = np.sin(2 * np.pi * 10 * t)  # 10 Hz sine
+# Generate a complex signal
+# Combine 10 Hz and 20 Hz sine waves with different amplitudes
+signal = 1.5 * np.sin(2 * np.pi * 10 * t) + \
+         0.5 * np.sin(2 * np.pi * 20 * t)
+
+# Basic signal properties
+print(f"Mean value: {signal.mean():.2f}")
+print(f"Peak-to-peak: {signal.max() - signal.min():.2f}")
+print(f"RMS value: {np.sqrt(np.mean(signal**2)):.2f}")
 ```
 
-> 💡 Signals are just arrays of values over time!
+> 💡 Sampling rate determines the highest frequency you can measure!
 
-Basic operations:
+Signal analysis:
 
 ```python
-print(signal.mean())  # Average value
-print(signal.max())   # Peak value
-print(signal.min())   # Trough value
+# Find zero crossings
+zero_crossings = np.where(np.diff(signal > 0))[0]
+crossing_times = t[zero_crossings]
+
+# Find peaks above threshold
+threshold = 1.0
+peaks = np.where((signal > threshold) & 
+                 (signal > np.roll(signal, 1)) & 
+                 (signal > np.roll(signal, -1)))[0]
+peak_times = t[peaks]
+peak_values = signal[peaks]
+
+# Calculate signal energy
+energy = np.sum(signal**2) * (t[1] - t[0])  # Integrate power
 ```
 
-Find peaks:
-
-```python
-peaks = np.where(signal > 0.5)[0]
-print(f"Peaks at: {peaks}")
-```
+> 💡 Zero crossings help determine frequency content!
 
 ---
 

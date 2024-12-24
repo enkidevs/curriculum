@@ -1,5 +1,5 @@
-name: Temperature Analysis
-description: Analyze temperature data using NumPy array operations.
+name: Weather Analysis
+description: Analyze temperature data using NumPy math operations.
 
 aspects:
   - workout

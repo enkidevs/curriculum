@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Financial Functions](https://numpy.org/doc/stable/reference/routines.financial.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,37 +18,51 @@ revisionQuestion:
 
 ## Content
 
-Work with financial data:
-
-Price changes:
+Analyze financial market data:
 
 ```python
-# Calculate daily returns
-prices = np.array([100, 102, 101, 103, 102])
-returns = np.diff(prices) / prices[:-1]
-print(returns)  # [0.02, -0.01, 0.02, -0.01]
-```
+# Stock price analysis
+prices = np.array([
+    105.23, 106.48, 105.97, 107.52, 106.98,  # Monday-Friday
+    108.31, 109.42, 108.89, 109.73, 110.21   # Next week
+])
 
-> 💡 Returns show percentage changes in value!
+# 1. Calculate daily returns
+daily_returns = np.diff(prices) / prices[:-1]
+print(f"Average daily return: {daily_returns.mean():.2%}")
 
-Moving averages:
-
-```python
-# 3-day moving average
-window = 3
+# 2. Calculate price trends
+# 5-day moving average (trading week)
+window = 5
 weights = np.ones(window) / window
-ma = np.convolve(prices, weights, mode='valid')
+ma_5day = np.convolve(prices, weights, mode='valid')
+
+# Exponential moving average (more weight to recent prices)
+alpha = 0.2  # Smoothing factor
+ema = np.zeros_like(prices)
+ema[0] = prices[0]
+for i in range(1, len(prices)):
+    ema[i] = alpha * prices[i] + (1 - alpha) * ema[i-1]
 ```
 
-Compound growth:
+> 💡 Moving averages help identify price trends!
+
+Investment growth calculations:
 
 ```python
-# Calculate compound growth
-initial = 1000
-rate = 0.05  # 5% annual growth
-years = np.array([1, 2, 3, 4, 5])
-value = initial * (1 + rate) ** years
+# Investment scenarios
+initial = 10000  # Initial investment
+rates = np.array([0.05, 0.07, 0.10])  # Different return rates
+years = np.arange(1, 11)  # 10-year projection
+
+# Compound growth
+future_values = initial * (1 + rates.reshape(-1, 1)) ** years
+print("Investment values after 10 years:")
+for rate, values in zip(rates, future_values):
+    print(f"At {rate:.0%}: ${values[-1]:,.2f}")
 ```
+
+> 💡 Use array broadcasting for multiple scenarios!
 
 ---
 

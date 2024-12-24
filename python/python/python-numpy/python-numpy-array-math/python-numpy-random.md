@@ -21,34 +21,41 @@ revisionQuestion:
 
 ## Content
 
-Generate random numbers in NumPy:
-
-Random integers:
+Generate random data for analysis:
 
 ```python
-# Numbers between 0 and 10
-nums = np.random.randint(0, 10, size=5)
-# Example: [3, 7, 1, 4, 9]
+# Set seed for reproducible results
+# this means we'll get the same random numbers each time
+# which is useful for testing and debugging
+np.random.seed(42)
+
+# Simulate daily sales (30-100 units)
+daily_sales = np.random.randint(30, 101, size=7)
+# array([49, 67, 93, 51, 88, 72, 60])
+
+# Generate random prices ($10-$50)
+prices = np.random.uniform(10, 50, size=5)
+# array([24.76, 41.23, 15.89, 33.45, 47.12])
 ```
 
-> 💡 The size parameter determines how many numbers to generate!
+> 💡 Use `seed()` to get the same random numbers each time!
 
-Random floats:
+Sample from data:
 
 ```python
-# Numbers between 0 and 1
-floats = np.random.random(3)
-# Example: [0.23, 0.15, 0.98]
+# Customer IDs
+customers = np.array([101, 102, 103, 104, 105, 106])
+
+# Random sample for survey (3 customers)
+survey = np.random.choice(customers, size=3, replace=False)
+# array([104, 102, 106])
+
+# Generate success probabilities
+conversion_rates = np.random.random(size=4)
+# array([0.23, 0.15, 0.67, 0.45])
 ```
 
-Random choice:
-
-```python
-# Pick from array
-options = np.array([10, 20, 30, 40])
-choice = np.random.choice(options, size=2)
-# Example: [30, 10]
-```
+> 💡 Use `replace=False` to avoid duplicate selections!
 
 ---
 

@@ -21,30 +21,27 @@ revisionQuestion:
 
 ## Content
 
-NumPy arrays have useful attributes:
+NumPy arrays have useful attributes that tell us about their structure:
 
-Get array shape:
+Get array shape (rows, columns):
 
 ```python
-arr = np.array([[1, 2, 3], [4, 5, 6]])
+# Shape is a tuple of (rows, columns)
+arr = np.array([[1, 2, 3],   # 2 rows
+                [4, 5, 6]])   # 3 columns
 print(arr.shape)  # (2, 3)
+
+# For 1D arrays, shape is just (length,)
+nums = np.array([1, 2, 3])
+print(nums.shape)  # (3,)
 ```
 
-> 💡 Shape tells you dimensions and size!
-
-Check data type:
-
-```python
-arr = np.array([1, 2, 3])
-print(arr.dtype)  # int64
-```
-
-Count elements:
+Count elements and dimensions:
 
 ```python
 arr = np.array([[1, 2], [3, 4]])
-print(arr.size)    # 4 elements
-print(arr.ndim)    # 2 dimensions
+print(arr.size)    # 4 (total elements)
+print(arr.ndim)    # 2 (number of dimensions)
 ```
 
 ---

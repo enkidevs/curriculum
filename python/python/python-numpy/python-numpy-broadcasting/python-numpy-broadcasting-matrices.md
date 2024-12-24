@@ -21,38 +21,48 @@ revisionQuestion:
 
 ## Content
 
-Broadcasting with 2D arrays:
-
-Add row vector:
+Broadcasting works with 2D arrays (matrices):
 
 ```python
-matrix = np.array([[1, 2], [3, 4]])
-row = np.array([10, 20])
-result = matrix + row
-# array([[11, 22],
-#        [13, 24]])
+# Student test scores (rows: students, columns: tests)
+scores = np.array([[85, 90, 88],    # Student 1
+                   [92, 85, 95],    # Student 2
+                   [78, 82, 80]])   # Student 3
+
+# Add bonus points to all scores
+bonus = 5
+adjusted = scores + bonus
+# Broadcasting: adds 5 to each element
+# array([[90, 95, 93],
+#        [97, 90, 100],
+#        [83, 87, 85]])
 ```
 
-> 💡 Row vector is broadcast to each row!
+> 💡 A single value is broadcast to all elements in the matrix!
 
-Add column vector:
+Broadcasting with rows and columns:
 
 ```python
-matrix = np.array([[1, 2], [3, 4]])
-col = np.array([[10], [20]])
-result = matrix + col
-# array([[11, 12],
-#        [23, 24]])
+# Add different bonus per test
+test_bonus = np.array([2, 5, 3])  # One value per column
+# Broadcasting: repeats row vector for each student
+scores_bonus = scores + test_bonus
+# array([[87, 95, 91],
+#        [94, 90, 98],
+#        [80, 87, 83]])
+
+# Apply student-specific multiplier
+student_multiplier = np.array([[1.1],   # Student 1
+                              [1.0],    # Student 2
+                              [1.2]])   # Student 3
+# Broadcasting: repeats column vector for each test
+weighted = scores * student_multiplier
+# array([[93.5, 99.0, 96.8],
+#        [92.0, 85.0, 95.0],
+#        [93.6, 98.4, 96.0]])
 ```
 
-Scale matrix:
-
-```python
-matrix = np.array([[1, 2], [3, 4]])
-result = matrix * 2
-# array([[2, 4],
-#        [6, 8]])
-```
+> 💡 Row vectors broadcast across rows, column vectors across columns!
 
 ---
 

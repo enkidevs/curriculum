@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Array Comparisons](https://numpy.org/doc/stable/reference/routines.logic.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,34 +18,35 @@ revisionQuestion:
 
 ## Content
 
-Compare arrays using standard operators:
-
-Check if elements are equal:
+Compare arrays to find patterns:
 
 ```python
-a = np.array([1, 2, 3])
-b = np.array([1, 3, 3])
-equal = a == b
-# array([True, False, True])
+# Test scores from two classes
+class_a = np.array([85, 92, 78, 95, 88])
+class_b = np.array([88, 95, 80, 92, 85])
+
+# Find matching scores
+same_scores = class_a == class_b
+# array([False, False, False, False, False])
+
+# Find where class_a did better
+better = class_a > class_b
+# array([False, False, False, True, True])
 ```
 
-> 💡 Comparisons return boolean arrays!
+> 💡 Comparisons return boolean arrays that you can use for filtering!
 
-Find greater values:
+Compare with thresholds:
 
 ```python
-a = np.array([1, 2, 3])
-greater = a > 2
-# array([False, False, True])
+scores = np.array([85, 92, 78, 95, 88])
+
+# Check different grade levels
+A_grade = scores >= 90  # array([False, True, False, True, False])
+failing = scores < 80   # array([False, False, True, False, False])
 ```
 
-Check multiple conditions:
-
-```python
-arr = np.array([1, 2, 3, 4])
-between = (arr > 1) & (arr < 4)
-# array([False, True, True, False])
-```
+> 💡 Use comparison results with boolean indexing to filter arrays!
 
 ---
 

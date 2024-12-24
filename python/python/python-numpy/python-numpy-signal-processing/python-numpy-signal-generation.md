@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Signal Generation](https://numpy.org/doc/stable/reference/routines.math.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,32 +18,45 @@ revisionQuestion:
 
 ## Content
 
-Generate different types of signals:
-
-Sine wave:
+Generate various signal types:
 
 ```python
-# Create 1 Hz sine wave
-t = np.linspace(0, 1, 1000)  # 1 second
-sine = np.sin(2 * np.pi * 1 * t)
+# Create time base (1 second at 1000 Hz)
+t = np.linspace(0, 1, 1000)
+
+# 1. Basic Waveforms
+# Sine wave (440 Hz = musical note A4)
+sine = np.sin(2 * np.pi * 440 * t)
+
+# Square wave (100 Hz)
+square = np.sign(np.sin(2 * np.pi * 100 * t))
+
+# Triangle wave (5 Hz)
+triangle = 2 * np.abs(t % 0.2 - 0.1) / 0.1 - 1
+
+# Sawtooth wave (20 Hz)
+sawtooth = 2 * (t % 0.05) / 0.05 - 1
 ```
 
-> 💡 Frequency is controlled by the multiplier of t!
+> 💡 Musical notes are specific frequencies!
 
-Square wave:
+Complex signals:
 
 ```python
-# Create square wave
-square = np.sign(sine)  # Convert sine to ±1
+# 2. Composite Signals
+# Chord (A major: A4 + C#4 + E4)
+A4 = np.sin(2 * np.pi * 440 * t)   # A4 note
+Cs4 = np.sin(2 * np.pi * 554.37 * t)  # C#4 note
+E4 = np.sin(2 * np.pi * 659.25 * t)   # E4 note
+chord = (A4 + Cs4 + E4) / 3  # Average to prevent clipping
+
+# AM modulation (carrier = 1000 Hz, message = 10 Hz)
+message = np.sin(2 * np.pi * 10 * t)
+carrier = np.sin(2 * np.pi * 1000 * t)
+am_signal = (1 + 0.5 * message) * carrier
 ```
 
-Add noise:
-
-```python
-# Add random noise
-noise = np.random.normal(0, 0.1, len(t))
-noisy = sine + noise
-```
+> 💡 Combine signals to create complex waveforms!
 
 ---
 

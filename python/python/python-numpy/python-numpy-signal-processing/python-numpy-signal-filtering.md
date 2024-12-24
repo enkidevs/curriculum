@@ -21,37 +21,50 @@ revisionQuestion:
 
 ## Content
 
-Filter and smooth signals:
-
-Moving average:
+Filter and process signals:
 
 ```python
-# Simple moving average filter
-window_size = 5
+# Create a noisy signal (10 Hz sine + noise)
+t = np.linspace(0, 1, 1000)  # 1 second at 1000 Hz
+clean_signal = np.sin(2 * np.pi * 10 * t)
+noise = np.random.normal(0, 0.2, len(t))
+noisy_signal = clean_signal + noise
+
+# 1. Moving Average Filter
+window_size = 21  # Must be odd
 weights = np.ones(window_size) / window_size
-smoothed = np.convolve(signal, weights, mode='valid')
+ma_filtered = np.convolve(noisy_signal, weights, mode='valid')
+
+# Pad to maintain signal length
+pad_size = window_size // 2
+ma_filtered = np.pad(ma_filtered, (pad_size, pad_size), mode='edge')
 ```
 
-> 💡 Convolution is like a sliding window average!
+> 💡 Larger window sizes give smoother results but more delay!
 
-Threshold filter:
+Advanced filtering:
 
 ```python
-# Remove small values
+# 2. Exponential Moving Average
+alpha = 0.1  # Smoothing factor (0-1)
+ema = np.zeros_like(noisy_signal)
+ema[0] = noisy_signal[0]
+for i in range(1, len(noisy_signal)):
+    ema[i] = alpha * noisy_signal[i] + (1 - alpha) * ema[i-1]
+
+# 3. Median Filter (removes spikes)
+window = 5
+median_filtered = np.zeros_like(noisy_signal)
+for i in range(window, len(noisy_signal) - window):
+    median_filtered[i] = np.median(noisy_signal[i-window:i+window])
+
+# 4. Threshold Filter (noise gate)
 threshold = 0.1
-filtered = signal.copy()
-filtered[np.abs(filtered) < threshold] = 0
+gate_filtered = noisy_signal.copy()
+gate_filtered[np.abs(gate_filtered) < threshold] = 0
 ```
 
-Median filter:
-
-```python
-# Remove spikes (noise)
-window = 3
-filtered = np.zeros_like(signal)
-for i in range(window, len(signal)-window):
-    filtered[i] = np.median(signal[i-window:i+window])
-```
+> 💡 Different filters are best for different types of noise!
 
 ---
 

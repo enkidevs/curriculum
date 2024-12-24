@@ -9,5 +9,5 @@ insights:
   - python-numpy-scientific-stats
 
 aspects:
-  - introduction
+  - deep
   - workout 

@@ -21,34 +21,43 @@ revisionQuestion:
 
 ## Content
 
-Generate random numbers for scientific simulations:
-
-Normal distribution:
+Generate random data for scientific simulations:
 
 ```python
-# Generate normally distributed values
-mu, sigma = 0, 1  # mean and standard deviation
-samples = np.random.normal(mu, sigma, 1000)
+# Simulate experimental measurements
+# Measure voltage with random noise
+true_voltage = 5.0  # True value (V)
+measurements = 1000  # Number of measurements
+noise_std = 0.1     # Standard deviation of noise
+
+# Generate measurements with Gaussian noise
+voltages = np.random.normal(true_voltage, noise_std, measurements)
+print(f"Mean voltage: {voltages.mean():.3f} V")
+print(f"Std deviation: {voltages.std():.3f} V")
 ```
 
-> 💡 Normal distributions are common in natural phenomena!
+> 💡 Normal distribution is perfect for measurement noise!
 
-Uniform distribution:
+Simulate physical processes:
 
 ```python
-# Random numbers between bounds
-low, high = 0, 10
-uniform = np.random.uniform(low, high, 1000)
+# Radioactive decay simulation
+n_atoms = 10000          # Initial atoms
+decay_probability = 0.1   # Probability per time step
+time_steps = 50
+
+# Simulate decay events
+decays = np.random.binomial(n_atoms, decay_probability, time_steps)
+remaining = n_atoms - np.cumsum(decays)
+
+# Random particle motion (3D random walk)
+n_particles = 100
+steps = 1000
+movements = np.random.choice([-1, 1], size=(n_particles, steps, 3))
+positions = np.cumsum(movements, axis=1)
 ```
 
-Random sampling:
-
-```python
-# Sample from a dataset
-data = np.array([1, 2, 3, 4, 5])
-choices = np.random.choice(data, size=3, 
-                         replace=True)  # with replacement
-```
+> 💡 Use seed for reproducible random results: np.random.seed(42)!
 
 ---
 

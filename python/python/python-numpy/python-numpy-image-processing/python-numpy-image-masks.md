@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Boolean Masking](https://numpy.org/doc/stable/user/basics.indexing.html#boolean-indexing){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,34 +18,47 @@ revisionQuestion:
 
 ## Content
 
-Use boolean masks to modify specific pixels:
-
-Create mask:
+Use masks for selective image processing:
 
 ```python
-# Mask for bright pixels
-bright_mask = image > 200
-print(bright_mask)  # Array of True/False
+# Create a sample grayscale image
+image = np.random.randint(0, 255, (8, 8), dtype=np.uint8)
+
+# 1. Create masks based on intensity
+bright_mask = image > 200          # Find bright pixels
+dark_mask = image < 50            # Find dark pixels
+mid_mask = (image >= 100) & (image <= 150)  # Middle range
+
+# Apply masks to modify image
+result = image.copy()
+result[bright_mask] = 255  # Set bright areas to white
+result[dark_mask] = 0      # Set dark areas to black
 ```
 
-> 💡 Masks let you select pixels based on conditions!
+> 💡 Masks are boolean arrays matching the image shape!
 
-Apply mask:
+Advanced masking:
 
 ```python
-# Set bright pixels to white
-image_copy = image.copy()
-image_copy[bright_mask] = 255
+# 2. Create geometric masks
+h, w = image.shape
+y, x = np.ogrid[:h, :w]
+
+# Circular mask
+center_y, center_x = h//2, w//2
+radius = min(h, w)//3
+circle_mask = (x - center_x)**2 + (y - center_y)**2 <= radius**2
+
+# Gradient mask
+gradient_mask = np.linspace(0, 1, w)
+gradient_mask = np.tile(gradient_mask, (h, 1))
+
+# Combine masks
+combined_mask = circle_mask & (gradient_mask > 0.5)
+result[combined_mask] = image[combined_mask] * 1.5  # Brighten selected area
 ```
 
-Combine masks:
-
-```python
-# Find medium brightness pixels
-lower = image >= 100
-upper = image <= 150
-medium_mask = lower & upper
-```
+> 💡 Complex masks can be created by combining simpler ones!
 
 ---
 

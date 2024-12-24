@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Image Filtering](https://numpy.org/doc/stable/user/absolute_beginners.html#array-operations){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,35 +18,52 @@ revisionQuestion:
 
 ## Content
 
-Apply simple filters to images:
-
-Brighten image:
+Apply image filters and transformations:
 
 ```python
-# Add brightness (clip to valid range)
-bright = np.clip(image + 50, 0, 255)
+# Create a sample image with noise
+image = np.random.randint(100, 200, (8, 8), dtype=np.uint8)
+noise = np.random.normal(0, 20, (8, 8))
+noisy = np.clip(image + noise, 0, 255).astype(np.uint8)
+
+# 1. Basic intensity adjustments
+brightened = np.clip(noisy + 50, 0, 255)    # Increase brightness
+darkened = np.clip(noisy - 30, 0, 255)      # Decrease brightness
+contrast = np.clip((noisy - 128) * 1.5 + 128, 0, 255).astype(np.uint8)
 ```
 
-> 💡 np.clip prevents values from going outside valid range!
+> 💡 Always clip values to stay in valid range (0-255)!
 
-Increase contrast:
+Convolution filters:
 
 ```python
-# Multiply values (scale back to 0-255)
-contrast = np.clip(image * 1.5, 0, 255)
+# 2. Common kernels for filtering
+blur_kernel = np.ones((3, 3)) / 9.0  # Box blur
+sharpen_kernel = np.array([          # Sharpen
+    [0, -1, 0],
+    [-1, 5, -1],
+    [0, -1, 0]
+])
+edge_kernel = np.array([             # Edge detection
+    [-1, -1, -1],
+    [-1, 8, -1],
+    [-1, -1, -1]
+])
+
+# Apply convolution (simple implementation)
+def apply_filter(image, kernel):
+    result = np.zeros_like(image)
+    k_size = kernel.shape[0] // 2
+    
+    for i in range(k_size, image.shape[0] - k_size):
+        for j in range(k_size, image.shape[1] - k_size):
+            window = image[i-k_size:i+k_size+1, j-k_size:j+k_size+1]
+            result[i, j] = np.sum(window * kernel)
+    
+    return np.clip(result, 0, 255).astype(np.uint8)
 ```
 
-Blur image:
-
-```python
-# Average each pixel with neighbors
-kernel = np.ones((3,3)) / 9  # 3x3 average
-blurred = np.zeros_like(image)
-for i in range(1, image.shape[0]-1):
-    for j in range(1, image.shape[1]-1):
-        window = image[i-1:i+2, j-1:j+2]
-        blurred[i,j] = np.sum(window * kernel)
-```
+> 💡 Convolution kernels can detect edges, blur, or sharpen!
 
 ---
 

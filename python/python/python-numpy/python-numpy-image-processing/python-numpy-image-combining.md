@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Array Operations](https://numpy.org/doc/stable/reference/routines.array-manipulation.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,35 +18,47 @@ revisionQuestion:
 
 ## Content
 
-Combine multiple images:
-
-Blend images:
+Combine and blend multiple images:
 
 ```python
-# Mix two images (50% each)
-blend = (image1 * 0.5 + image2 * 0.5).astype(np.uint8)
-```
+# Create two sample patterns
+pattern1 = np.zeros((8, 8), dtype=np.uint8)
+pattern1[::2, ::2] = 255  # Checkerboard
+pattern2 = np.zeros((8, 8), dtype=np.uint8)
+pattern2[4:, 4:] = 255    # Corner block
 
-> Convert back to uint8 after floating-point operations!
-
-Stack images:
-
-```python
-# Place images side by side
-combined = np.hstack([image1, image2])
-
+# 1. Basic image combining
+# Stack horizontally
+horizontal = np.hstack([pattern1, pattern2])  # Side by side
 # Stack vertically
-stacked = np.vstack([image1, image2])
+vertical = np.vstack([pattern1, pattern2])    # Top and bottom
+
+# Create 2x2 image grid
+grid = np.block([
+    [pattern1, pattern2],
+    [pattern2, pattern1]
+])
 ```
 
-Create collage:
+> 💡 Use np.block for complex image arrangements!
+
+Image blending:
 
 ```python
-# 2x2 grid of images
-top = np.hstack([img1, img2])
-bottom = np.hstack([img3, img4])
-grid = np.vstack([top, bottom])
+# 2. Alpha blending
+alpha = 0.7  # Blend factor (0.0 to 1.0)
+blended = (pattern1 * alpha + pattern2 * (1 - alpha)).astype(np.uint8)
+
+# Gradient blend
+h, w = pattern1.shape
+gradient = np.linspace(0, 1, w)  # Left-to-right gradient
+gradient = np.tile(gradient, (h, 1))  # Repeat for each row
+
+gradient_blend = (pattern1 * gradient + 
+                 pattern2 * (1 - gradient)).astype(np.uint8)
 ```
+
+> 💡 Always convert back to uint8 after floating-point operations!
 
 ---
 

@@ -12,7 +12,6 @@ setupCode:
     # - Remove scores when players leave
     # - Split players into two teams
 
-    # Type your code here:
     import numpy as np
 ---
 

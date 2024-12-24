@@ -21,31 +21,39 @@ revisionQuestion:
 
 ## Content
 
-Choose efficient data types to save memory:
-
-Check memory usage:
+Optimize memory usage with appropriate types:
 
 ```python
-arr = np.array([1, 2, 3], dtype=np.int64)
-print(arr.nbytes)  # 24 bytes (8 per number)
+# Sales data (1000 transactions)
+sales = np.random.randint(0, 1000, size=1000)
+
+# Check memory usage with different types
+as_int64 = sales.astype(np.int64)
+as_int32 = sales.astype(np.int32)
+as_int16 = sales.astype(np.int16)
+
+print(f"int64: {as_int64.nbytes} bytes")  # 8000 bytes
+print(f"int32: {as_int32.nbytes} bytes")  # 4000 bytes
+print(f"int16: {as_int16.nbytes} bytes")  # 2000 bytes
 ```
 
-> 💡 Smaller data types use less memory but have limited range!
+> 💡 Smaller types can significantly reduce memory usage in large arrays!
 
-Use smaller types when possible:
+Choose appropriate types:
 
 ```python
-small = np.array([1, 2, 3], dtype=np.int8)
-print(small.nbytes)  # 3 bytes (1 per number)
+# Temperature readings (-50 to 50°C)
+# int8 is enough (-128 to 127)
+temps = np.array([21, 25, 19, 22], dtype=np.int8)
+print(f"Memory per value: {temps.itemsize} byte")  # 1 byte
+
+# Prices ($0 to $999.99)
+# float32 provides enough precision
+prices = np.array([19.99, 29.99, 99.99], dtype=np.float32)
+print(f"Memory per value: {prices.itemsize} bytes")  # 4 bytes
 ```
 
-Compare ranges:
-
-```python
-print(np.iinfo(np.int8))  # min=-128, max=127
-print(np.iinfo(np.int32)) # min=-2147483648
-                         # max=2147483647
-```
+> 💡 Consider your data range when choosing types!
 
 ---
 

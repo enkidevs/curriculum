@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Image Processing](https://numpy.org/doc/stable/user/absolute_beginners.html#arrays-as-images){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,36 +18,46 @@ revisionQuestion:
 
 ## Content
 
-Images are just 2D or 3D arrays:
-
-Grayscale image:
+Work with images as NumPy arrays:
 
 ```python
-# 4x4 grayscale image (0=black, 255=white)
-image = np.array([
-    [0,   85,  170, 255],
-    [85,  170, 255, 170],
-    [170, 255, 170, 85],
-    [255, 170, 85,  0]
-])
+# Create a simple 8x8 grayscale image
+# Representing a gradient pattern
+gradient = np.linspace(0, 255, 64, dtype=np.uint8).reshape(8, 8)
+
+# Basic image properties
+print(f"Shape: {gradient.shape}")         # (8, 8)
+print(f"Data type: {gradient.dtype}")     # uint8
+print(f"Value range: {gradient.min()}-{gradient.max()}")  # 0-255
+
+# Create a small RGB color image (3x3)
+rgb_image = np.array([
+    [[255, 0, 0], [0, 255, 0], [0, 0, 255]],     # Red, Green, Blue
+    [[255, 255, 0], [255, 0, 255], [0, 255, 255]], # Yellow, Magenta, Cyan
+    [[128, 128, 128], [0, 0, 0], [255, 255, 255]]  # Gray, Black, White
+], dtype=np.uint8)
 ```
 
-> 💡 Grayscale images are 2D arrays of intensity values!
+> 💡 RGB images are 3D arrays with shape (height, width, 3)!
 
-Get image info:
+Image operations:
 
 ```python
-print(image.shape)     # (4, 4)
-print(image.dtype)     # uint8
-print(image.min())     # 0
-print(image.max())     # 255
+# Basic transformations
+flipped_v = np.flipud(gradient)    # Flip vertically
+flipped_h = np.fliplr(gradient)    # Flip horizontally
+rotated = np.rot90(gradient)       # Rotate 90 degrees
+
+# Extract color channels from RGB
+red = rgb_image[:, :, 0]    # Red channel
+green = rgb_image[:, :, 1]  # Green channel
+blue = rgb_image[:, :, 2]   # Blue channel
+
+# Convert RGB to grayscale (simple average)
+grayscale = rgb_image.mean(axis=2).astype(np.uint8)
 ```
 
-Flip image:
-
-```python
-flipped = np.flipud(image)  # Flip up-down
-```
+> 💡 Always preserve uint8 type for image display!
 
 ---
 

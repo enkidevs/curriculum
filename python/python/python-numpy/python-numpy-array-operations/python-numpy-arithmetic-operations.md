@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Array Operations](https://numpy.org/doc/stable/reference/routines.math.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -23,33 +20,41 @@ revisionQuestion:
 
 NumPy makes math operations simple and fast:
 
-Add arrays together:
-
 ```python
-a = np.array([1, 2, 3])
-b = np.array([4, 5, 6])
-sum = a + b
-# array([5, 7, 9])
+# Calculate discounted prices
+prices = np.array([100, 200, 300])
+discount = 0.2  # 20% off
+
+# Apply discount to all prices at once
+discounted = prices * (1 - discount)
+# array([80., 160., 240.])
+
+# Add tax (15%)
+final = discounted * 1.15
+# array([92., 184., 276.])
 ```
 
-> 💡 Operations work element by element!
+> 💡 Operations work on all elements at once - no loops needed!
 
-Multiply by a number:
-
-```python
-arr = np.array([1, 2, 3])
-doubled = arr * 2
-# array([2, 4, 6])
-```
-
-Divide arrays:
+Combine arrays:
 
 ```python
-a = np.array([10, 20, 30])
-b = np.array([2, 5, 6])
-result = a / b
-# array([5., 4., 5.])
+# Combine product costs
+materials = np.array([10, 15, 20])
+labor = np.array([5, 8, 12])
+overhead = np.array([2, 3, 4])
+
+# Calculate total cost
+total_cost = materials + labor + overhead
+# array([17, 26, 36])
+
+# Calculate profit margin (%)
+price = np.array([25, 40, 55])
+margin = (price - total_cost) / price * 100
+# array([32., 35., 34.55])
 ```
+
+> 💡 Use arithmetic operations on arrays just like you would with numbers.
 
 ---
 

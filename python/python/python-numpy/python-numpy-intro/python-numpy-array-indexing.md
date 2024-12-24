@@ -23,30 +23,38 @@ revisionQuestion:
 
 Access array elements using indices:
 
-Single element:
+Basic indexing:
 
 ```python
-arr = np.array([1, 2, 3, 4])
-first = arr[0]     # 1
-last = arr[-1]     # 4
+scores = np.array([85, 92, 77, 98])
+first = scores[0]      # 85 (first score)
+last = scores[-1]      # 98 (last score)
 ```
 
-> 💡 Indexing starts at 0, negative indices count from end!
+> 💡 Like Python lists, indexing starts at 0 and negative indices count from
+> end!
 
-Multiple elements:
+Slicing (start:stop):
 
 ```python
-arr = np.array([1, 2, 3, 4, 5])
-subset = arr[1:4]  # [2, 3, 4]
-every_second = arr[::2]  # [1, 3, 5]
+scores = np.array([85, 92, 77, 98, 88])
+
+# Get scores from index 1 to 3 (stop index not included)
+middle = scores[1:4]   # array([92, 77, 98])
+
+# Get every second score
+every_other = scores[::2]  # array([85, 77, 88])
 ```
 
-2D array indexing:
+2D array indexing (rows, columns):
 
 ```python
-matrix = np.array([[1, 2], [3, 4]])
-element = matrix[0, 1]  # 2
-row = matrix[1]         # [3, 4]
+grades = np.array([[85, 90],    # Student 1
+                  [92, 88],     # Student 2
+                  [77, 82]])    # Student 3
+
+first_student = grades[0]    # array([85, 90])
+first_test = grades[:, 0]   # array([85, 92, 77])
 ```
 
 ---

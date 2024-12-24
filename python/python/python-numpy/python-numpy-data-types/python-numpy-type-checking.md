@@ -21,33 +21,42 @@ revisionQuestion:
 
 ## Content
 
-Check array data types:
-
-Get array type:
+Verify data types in your arrays:
 
 ```python
-arr = np.array([1, 2, 3])
-print(arr.dtype)  # int64
+# Price data with mixed types
+prices = np.array([19.99, 29.99, 39.99])
+quantities = np.array([100, 150, 200])
+
+# Check data types
+print(prices.dtype)     # float64
+print(quantities.dtype) # int64
+
+# Verify types match requirements
+is_float = prices.dtype.kind == 'f'    # True
+is_int = quantities.dtype.kind == 'i'   # True
 ```
 
-> 💡 The dtype attribute tells you the exact type of data!
+> 💡 Use `dtype.kind` to check general type categories!
 
-Check if types match:
+Inspect type details:
 
 ```python
-arr1 = np.array([1, 2], dtype=np.int32)
-arr2 = np.array([3, 4], dtype=np.int32)
-print(arr1.dtype == arr2.dtype)  # True
+# Temperature readings
+temps = np.array([-10, 5, 15], dtype=np.int8)
+
+# Get type information
+print(temps.dtype.itemsize)  # 1 (bytes per number)
+print(temps.dtype.name)      # int8
+print(temps.dtype.kind)      # i (integer)
+print(temps.dtype.str)       # i1 (integer, 1 byte)
+
+# Check if type can handle data
+max_allowed = np.iinfo(temps.dtype).max  # 127
+min_allowed = np.iinfo(temps.dtype).min  # -128
 ```
 
-Test type properties:
-
-```python
-dtype = np.dtype(np.int32)
-print(dtype.itemsize)  # 4 bytes
-print(dtype.name)      # int32
-print(dtype.kind)      # i (integer)
-```
+> 💡 Check value ranges to prevent overflow errors!
 
 ---
 

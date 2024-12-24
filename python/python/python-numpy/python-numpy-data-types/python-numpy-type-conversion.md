@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Type Conversion](https://numpy.org/doc/stable/reference/routines.type.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,33 +18,43 @@ revisionQuestion:
 
 ## Content
 
-Convert arrays to different types:
-
-Using astype():
+Convert arrays between types safely:
 
 ```python
-arr = np.array([1, 2, 3])
-floats = arr.astype(np.float32)
-print(floats.dtype)  # float32
+# Price data stored as integers (cents)
+prices_cents = np.array([1999, 2999, 3999])
+
+# Convert to dollars (float)
+prices_dollars = prices_cents.astype(np.float32) / 100
+# array([19.99, 29.99, 39.99])
+
+# Convert back to cents (safe)
+back_to_cents = np.round(prices_dollars * 100).astype(np.int32)
+# array([1999, 2999, 3999])
 ```
 
-> 💡 Type conversion creates a new array!
+> 💡 Use `round()` before converting floats to integers to avoid data loss!
 
-Converting to integers:
+Handle conversion errors:
 
 ```python
-arr = np.array([1.9, 2.2, 3.7])
-ints = arr.astype(np.int32)
-print(ints)  # [1 2 3]
+# Temperature readings (too large for int8)
+temps = np.array([100, 120, -15, 35])
+
+try:
+    # Attempt unsafe conversion
+    small_temps = temps.astype(np.int8, casting='safe')
+except TypeError:
+    print("Values out of range for int8!")
+    # Use a larger type instead
+    small_temps = temps.astype(np.int16)
+
+# Check value ranges before converting
+max_i8 = np.iinfo(np.int8).max  # 127
+min_i8 = np.iinfo(np.int8).min  # -128
 ```
 
-Safe conversion:
-
-```python
-arr = np.array([1000, 2000, 3000])
-small = arr.astype(np.int8, casting='safe')
-# Raises TypeError - values too large
-```
+> 💡 Use 'safe' casting to prevent silent overflow errors!
 
 ---
 

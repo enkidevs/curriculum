@@ -21,37 +21,44 @@ revisionQuestion:
 
 ## Content
 
-NumPy has all common trig functions:
-
-Sine function:
+Calculate angles and distances:
 
 ```python
-angles = np.array([0, 30, 90])
-# Convert to radians first
-radians = np.deg2rad(angles)
-sin = np.sin(radians)
-# array([0., 0.5, 1.])
+# Robot arm angles (in degrees)
+angles = np.array([0, 45, 90, 180])
+
+# Convert to radians for calculations
+rad = np.deg2rad(angles)
+# array([0., 0.785, 1.571, 3.142])
+
+# Calculate horizontal position (cosine)
+x_pos = 5 * np.cos(rad)  # arm length = 5
+# array([5., 3.536, 0., -5.])
+
+# Calculate vertical position (sine)
+y_pos = 5 * np.sin(rad)
+# array([0., 3.536, 5., 0.])
 ```
 
-> 💡 NumPy trig functions expect radians, not degrees!
+> 💡 Always convert degrees to radians for NumPy trig functions!
 
-Cosine function:
+Find angles from coordinates:
 
 ```python
-angles = np.array([0, 60, 90])
-radians = np.deg2rad(angles)
-cos = np.cos(radians)
-# array([1., 0.5, 0.])
+# Points on a plane (x, y)
+x = np.array([1, -1, 0])
+y = np.array([1, 1, 2])
+
+# Calculate angles from x-axis
+angles = np.arctan2(y, x)
+# array([0.785, 2.356, 1.571])
+
+# Convert to degrees for display
+degrees = np.rad2deg(angles)
+# array([45., 135., 90.])
 ```
 
-Tangent function:
-
-```python
-angles = np.array([0, 45])
-radians = np.deg2rad(angles)
-tan = np.tan(radians)
-# array([0., 1.])
-```
+> 💡 Use `arctan2(y, x)` to get correct quadrant angles!
 
 ---
 

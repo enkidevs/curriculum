@@ -4,52 +4,82 @@ type: normal
 category: coding
 setupCode:
   startingPoint: |
-    # Welcome to the Python coding playground
-    # You're analyzing sales data across multiple stores!
-    # Tasks:
-    # - Apply discount to all prices
-    # - Add seasonal adjustment factors
-    # - Calculate sales tax per state
-    # - Compare with target sales
+    # Welcome to the Store Sales Analysis Exercise!
+    # You're analyzing sales performance across a retail chain.
 
-    # Type your code here:
     import numpy as np
 
-    # Sales data (3 stores x 4 products)
+    # Sales data (stores × products × months)
     sales = np.array([
-        [100, 200, 150, 300],  # Store 1
-        [150, 250, 200, 400],  # Store 2
-        [125, 225, 175, 350]   # Store 3
+        # Store 1
+        [[100, 120, 140],  # Product A: Jan, Feb, Mar
+         [150, 160, 155],  # Product B: Jan, Feb, Mar
+         [90, 85, 95]],    # Product C: Jan, Feb, Mar
+        # Store 2
+        [[80, 85, 95],     # Product A: Jan, Feb, Mar
+         [120, 125, 130],  # Product B: Jan, Feb, Mar
+         [60, 65, 70]]     # Product C: Jan, Feb, Mar
     ])
 
-    # Product base prices
-    prices = np.array([10, 20, 15, 25])
+    # Your tasks:
+    # 1. Apply product prices (broadcast across stores and months)
+    prices = np.array([10, 15, 8])  # Price per product
+    revenue = ???
 
-    # Your analysis code:
+    # 2. Apply store-specific discounts (broadcast across products and months)
+    store_discounts = np.array([[0.9],    # Store 1: 10% off
+                               [0.95]])    # Store 2: 5% off
+    discounted = ???
+
+    # 3. Add seasonal adjustments (broadcast across stores and products)
+    season_adj = np.array([1.0, 1.1, 1.2])  # Monthly factors
+    adjusted = ???
+
+    # 4. Compare with targets (broadcast 3D)
+    targets = np.array([[[100]]])  # Base target
+    performance = ???
+
+    # 5. Calculate total revenue per store (use correct axis)
+    store_totals = np.???(???, axis=???)
 ---
 
-# Sales Analysis
+# Store Sales Analysis
 
 ---
 
 ## Content
 
-> 👩‍💻 Your task is to analyze multi-store sales data using broadcasting!
+> 👩‍💻 Practice broadcasting with a retail sales analysis!
 
-To solve this, try using:
+This exercise covers all broadcasting concepts:
 
-- Broadcasting with different shapes
-- Array operations with scalars
-- Row and column operations
+- Broadcasting with different dimensions
+- Row vs column operations
 - Shape compatibility rules
+- Axis operations
 
-Give it a try, and feel free to experiment!
+Example operations:
 
-> 💡 Remember that broadcasting can work across multiple dimensions!
+```python
+# 1D with 3D broadcasting
+prices = np.array([10, 15, 20])
+sales_3d = np.array([[[100, 110], [120, 130]]])
+revenue = sales_3d * prices.reshape(-1, 1)
 
-If you're stuck, try breaking it down:
+# Column broadcasting
+discounts = np.array([[0.9], [0.8]])  # Shape: (2, 1)
+data = np.array([[100, 200], [300, 400]])  # Shape: (2, 2)
+result = data * discounts  # Shape: (2, 2)
 
-1. Apply discounts to prices
-2. Calculate per-store revenue
-3. Add adjustments by store
-4. Compare performance
+# Shape checking
+a_shape = (2, 3, 4)
+b_shape = (3, 4)
+compatible = b_shape[-len(b_shape):] == a_shape[-len(b_shape):]
+```
+
+> 💡 Remember:
+>
+> - Check shapes from right to left
+> - Use reshape when needed
+> - Missing dimensions are added as 1's
+> - Use axis parameter for reductions

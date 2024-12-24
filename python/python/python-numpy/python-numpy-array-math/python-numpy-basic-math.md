@@ -21,33 +21,45 @@ revisionQuestion:
 
 ## Content
 
-NumPy provides many mathematical functions:
-
-Square root:
+Perform calculations on arrays:
 
 ```python
-arr = np.array([4, 9, 16])
-roots = np.sqrt(arr)
-# array([2., 3., 4.])
+# Sales data (units sold per day)
+sales = np.array([120, 145, 135, 160, 180])
+
+# Calculate percentage of target (200 units)
+target = 200
+performance = (sales / target) * 100
+# array([60., 72.5, 67.5, 80., 90.])
+
+# Calculate difference from average
+avg_sales = np.mean(sales)  # 148
+difference = sales - avg_sales
+# array([-28., -3., -13., 12., 32.])
 ```
 
-> 💡 Math functions work on each element automatically!
+> 💡 Operations apply to all elements automatically!
 
-Power:
+Common math functions:
 
 ```python
-arr = np.array([1, 2, 3])
-squared = np.power(arr, 2)
-# array([1, 4, 9])
+# Growth rates (as decimals)
+rates = np.array([0.15, -0.08, 0.22, -0.03])
+
+# Get absolute values (ignore negative)
+abs_rates = np.abs(rates)
+# array([0.15, 0.08, 0.22, 0.03])
+
+# Convert to percentages
+percentages = rates * 100
+# array([15., -8., 22., -3.])
+
+# Square the values
+squared = np.power(rates, 2)
+# array([0.0225, 0.0064, 0.0484, 0.0009])
 ```
 
-Absolute value:
-
-```python
-arr = np.array([-1, 2, -3])
-absolute = np.abs(arr)
-# array([1, 2, 3])
-```
+> 💡 Use NumPy functions for consistent results across arrays!
 
 ---
 

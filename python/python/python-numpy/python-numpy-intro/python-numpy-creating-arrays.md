@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Array Creation](https://numpy.org/doc/stable/user/basics.creation.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -34,22 +31,20 @@ numbers = np.array([1, 2, 3, 4])
 # array([1, 2, 3, 4])
 ```
 
-> 🔍 Arrays can only contain elements of the same type!
+> 🔍 Python lists can mix types, but NumPy arrays convert everything to one type
+> for faster calculations.
 
 Create special arrays:
 
-- All zeros:
-
 ```python
-zeros = np.zeros(3)
-# array([0., 0., 0.])
-```
+# Create array of zeros (useful for initializing data)
+zeros = np.zeros(3)      # array([0., 0., 0.])
 
-- Sequential numbers:
+# Create array of ones (useful for masks)
+ones = np.ones(3)        # array([1., 1., 1.])
 
-```python
-sequence = np.arange(4)
-# array([0, 1, 2, 3])
+# Create sequence (useful for indices or plotting)
+sequence = np.arange(4)  # array([0, 1, 2, 3])
 ```
 
 ---

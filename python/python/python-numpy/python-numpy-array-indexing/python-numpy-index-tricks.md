@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Index Tricks](https://numpy.org/doc/stable/user/basics.indexing.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -23,30 +20,21 @@ revisionQuestion:
 
 NumPy provides useful shortcuts for indexing:
 
-Negative indices:
-
 ```python
-arr = np.array([1, 2, 3, 4])
-last = arr[-1]    # 4
-last_two = arr[-2:]  # [3, 4]
+# Test scores for a class
+scores = np.array([85, 92, 78, 95, 88, 90])
+
+# Get last three scores
+recent = scores[-3:]      # [95, 88, 90]
+
+# Get scores in reverse order
+reverse = scores[::-1]    # [90, 88, 95, 78, 92, 85]
+
+# Get every second score
+alternate = scores[::2]   # [85, 78, 88]
 ```
 
-> 💡 Negative indices count from the end of the array!
-
-Reverse array:
-
-```python
-arr = np.array([1, 2, 3])
-reversed = arr[::-1]  # [3, 2, 1]
-```
-
-Multiple dimensions:
-
-```python
-arr = np.array([[1, 2], [3, 4]])
-diagonal = arr[range(2), range(2)]
-# [1, 4]
-```
+> 💡 Remember: negative indices count from the end: -1 is last element!
 
 ---
 

@@ -21,36 +21,51 @@ revisionQuestion:
 
 ## Content
 
-NumPy can operate on arrays of different sizes:
-
-Add scalar to array:
+NumPy follows strict rules for broadcasting:
 
 ```python
-arr = np.array([1, 2, 3])
-result = arr + 10
-print(result)  # [11 12 13]
+# Rule 1: Arrays must have compatible shapes
+# Shape (3,) and (3,) - Compatible
+prices = np.array([10, 20, 30])
+discounts = np.array([0.1, 0.2, 0.1])
+result = prices * discounts  # Works!
+
+# Shape (2,3) and (3,) - Compatible
+sales = np.array([[100, 200, 300],
+                  [400, 500, 600]])
+weights = np.array([0.3, 0.5, 0.2])
+result = sales * weights    # Works!
+
+# Shape (2,3) and (4,) - Incompatible!
+sales = np.array([[100, 200, 300],
+                  [400, 500, 600]])
+values = np.array([1, 2, 3, 4])
+result = sales + values    # Error!
 ```
 
-> 💡 Broadcasting copies the scalar to match array shape!
+> 💡 Compare array shapes from right to left!
 
-Array shapes must be compatible:
+Common broadcasting patterns:
 
 ```python
-a = np.array([1, 2, 3])
-b = np.array([[4], [5]])
-sum = a + b  # Works! a is broadcast
-print(sum)
-# [[5 6 7]
-#  [6 7 8]]
+# Pattern 1: Scalar with array
+temps = np.array([[20, 25], [30, 35]])
+celsius_to_f = temps * 1.8 + 32
+# (2,2) with scalar -> Works!
+
+# Pattern 2: Row vector with matrix
+data = np.array([[1, 2, 3],
+                 [4, 5, 6]])
+row = np.array([10, 20, 30])
+# (2,3) with (3,) -> Works!
+
+# Pattern 3: Column vector with matrix
+col = np.array([[1],
+                [2]])
+# (2,1) with (2,3) -> Works!
 ```
 
-Incompatible shapes:
-
-```python
-a = np.array([1, 2])
-b = np.array([3, 4, 5])
-sum = a + b  # Error! Shapes don't match
-```
+> 💡 When in doubt, check shapes with array.shape!
 
 ---
 

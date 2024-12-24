@@ -4,52 +4,97 @@ type: normal
 category: coding
 setupCode:
   startingPoint: |
-    # Welcome to the Python coding playground
-    # You're building a basic image editor!
-    # Tasks:
-    # - Create a thumbnail (reduce size by half)
-    # - Adjust image brightness
-    # - Add a border around the image
-    # - Create a black & white version
+    # Welcome to the Image Processing Exercise!
+    # You're enhancing a grayscale photograph.
 
-    # Type your code here:
     import numpy as np
 
-    # Sample 6x6 grayscale image (0=black, 255=white)
-    image = np.array([
-        [100, 120, 150, 140, 110, 100],
-        [110, 130, 160, 150, 120, 110],
-        [130, 140, 170, 160, 140, 130],
-        [120, 130, 160, 150, 130, 120],
-        [100, 110, 140, 130, 110, 100],
-        [90,  100, 130, 120, 100, 90]
+    # Create a sample photograph (8x8 grayscale)
+    photo = np.array([
+        [150, 160, 170, 180, 170, 160, 150, 140],  # Sky
+        [140, 150, 160, 170, 160, 150, 140, 130],
+        [130, 140, 150, 160, 150, 140, 130, 120],
+        [120, 130, 140, 150, 140, 130, 120, 110],  # Mountains
+        [100, 110, 120, 130, 120, 110, 100, 90],
+        [80, 90, 100, 110, 100, 90, 80, 70],
+        [60, 70, 80, 90, 80, 70, 60, 50],         # Ground
+        [40, 50, 60, 70, 60, 50, 40, 30]
     ], dtype=np.uint8)
 
-    # Your image editing code:
+    # Your tasks:
+    # 1. Apply image filters
+    # Create a blurred version (3x3 average filter)
+    blurred = ???  # Hint: Use convolution with np.ones((3,3))/9
+
+    # Create a sharpened version
+    sharp_kernel = np.array([
+        [0, -1, 0],
+        [-1, 5, -1],
+        [0, -1, 0]
+    ])
+    sharpened = ???
+
+    # 2. Create and apply masks
+    # Mask for bright sky (top third, values > 150)
+    sky_mask = ???
+    # Mask for dark ground (bottom third, values < 70)
+    ground_mask = ???
+
+    # 3. Apply transformations
+    # Rotate image 180 degrees
+    rotated = ???
+    # Create a 2x2 tiled pattern
+    tiled = ???
+
+    # 4. Combine original and processed versions
+    # Blend original with sharpened (70% original, 30% sharp)
+    final = ???
+
+    # 5. Add a border
+    # Create 10x10 output with 1-pixel black border
+    bordered = ???
 ---
 
-# Image Editor
+# Image Enhancement
 
 ---
 
 ## Content
 
-> 👩‍💻 Your task is to create basic image editing functions!
+> 👩‍💻 Practice image processing with a landscape photo!
 
-To solve this, try using:
+This exercise covers all image processing concepts:
 
-- Array slicing for thumbnails
-- Broadcasting for adjustments
-- Array operations for borders
-- Comparison for black & white
+- Image filtering (blur, sharpen)
+- Masking (sky, ground)
+- Transformations (rotate, tile)
+- Image combining (blend, border)
 
-Give it a try, and feel free to experiment!
+Example operations:
 
-> 💡 Remember that pixel values must stay between 0 and 255!
+```python
+# Apply convolution filter
+def apply_filter(image, kernel):
+    result = np.zeros_like(image)
+    k_size = kernel.shape[0] // 2
+    for i in range(k_size, image.shape[0] - k_size):
+        for j in range(k_size, image.shape[1] - k_size):
+            window = image[i-k_size:i+k_size+1, j-k_size:j+k_size+1]
+            result[i, j] = np.sum(window * kernel)
+    return np.clip(result, 0, 255).astype(np.uint8)
 
-If you're stuck, try breaking it down:
+# Create and apply mask
+mask = (image > threshold) & (image < upper)
+result[mask] = new_value
 
-1. Resize the image
-2. Change brightness
-3. Add border
-4. Convert to B&W
+# Transform and combine
+transformed = np.rot90(image, k=2)
+combined = np.hstack([image, transformed])
+```
+
+> 💡 Remember:
+>
+> - Clip values to 0-255
+> - Use uint8 dtype
+> - Consider edge pixels
+> - Preserve image dimensions

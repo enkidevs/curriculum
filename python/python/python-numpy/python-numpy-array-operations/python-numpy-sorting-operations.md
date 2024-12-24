@@ -26,28 +26,34 @@ Sort arrays in different ways:
 Sort in ascending order:
 
 ```python
-arr = np.array([3, 1, 4, 2])
-sorted = np.sort(arr)
-# array([1, 2, 3, 4])
+# Student test scores
+scores = np.array([85, 92, 78, 95, 88])
+
+# Get sorted scores (creates new array)
+ranked = np.sort(scores)
+# array([78, 85, 88, 92, 95])
+
+# Sort in descending order
+top_down = np.sort(scores)[::-1]
+# array([95, 92, 88, 85, 78])
 ```
 
-> 💡 Original array remains unchanged with `np.sort()`!
+> 💡 `np.sort()` returns a new sorted array, original stays unchanged!
 
-Sort in place:
+Find ranking positions:
 
 ```python
-arr = np.array([3, 1, 4, 2])
-arr.sort()
-# array([1, 2, 3, 4])
+# Get positions that would sort array
+rank = np.argsort(scores)
+# array([2, 0, 4, 1, 3])  # Positions for ascending order
+
+# Use positions to get student ranks
+student_ids = np.array(['A', 'B', 'C', 'D', 'E'])
+ranked_students = student_ids[rank]
+# array(['C', 'A', 'E', 'B', 'D'])
 ```
 
-Find sorted positions:
-
-```python
-arr = np.array([3, 1, 4, 2])
-indices = arr.argsort()
-# array([1, 3, 0, 2])
-```
+> 💡 Use `argsort()` to find out where elements would be in sorted order!
 
 ---
 

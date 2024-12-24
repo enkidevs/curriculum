@@ -4,53 +4,77 @@ type: normal
 category: coding
 setupCode:
   startingPoint: |
-    # Welcome to the Python coding playground
-    # You're analyzing sales data for an online store!
-    # Tasks:
-    # - Find top 3 selling products
-    # - Get products with price > $50
-    # - Select weekend sales data
-    # - Compare morning vs evening sales
+    # Welcome to the Student Records Exercise!
+    # You're building a grade analysis system.
 
-    # Type your code here:
     import numpy as np
 
-    # Sales data (units sold per product per day)
-    sales = np.array([
-        [10, 5, 8, 15, 20, 25, 30],  # Product 1
-        [8, 12, 15, 10, 5, 8, 12],   # Product 2
-        [20, 25, 18, 22, 15, 20, 28], # Product 3
-        [5, 8, 12, 15, 10, 5, 8]     # Product 4
+    # Class test scores (rows: students, columns: tests)
+    scores = np.array([
+        [85, 90, 88, 92],  # Student 1
+        [75, 82, 95, 88],  # Student 2
+        [92, 95, 85, 90],  # Student 3
+        [88, 80, 85, 78],  # Student 4
+        [95, 92, 90, 85]   # Student 5
     ])
 
-    prices = np.array([45, 65, 35, 75])  # Price per product
+    # Your tasks:
+    # 1. Get scores for first and last students
+    first_last = scores[???, ???]
 
-    # Your analysis code:
+    # 2. Find all scores above 90
+    high_scores = scores[???]
+
+    # 3. Get first two tests for all students
+    early_tests = scores[???, ???]
+
+    # 4. Select specific scores (Student 2/Test 3, Student 4/Test 1)
+    selected = scores[???, ???]
+
+    # 5. Reverse the order of students
+    reversed_scores = scores[???]
+
 ---
 
-# Sales Data Analysis
+# Grade Analysis System
 
 ---
 
 ## Content
 
-> 👩‍💻 Your task is to analyze sales data using different indexing methods!
+> 👩‍💻 Practice array indexing by analyzing student test scores!
 
-To solve this, try using:
+This exercise covers:
 
-- Boolean indexing to find expensive products
-- Fancy indexing to get top sellers
-- Slicing to analyze specific time periods
-- Array indexing to compare periods
+- Basic indexing (accessing elements)
+- Boolean indexing (filtering)
+- Slicing (selecting ranges)
+- Fancy indexing (selecting specific elements)
+- Index tricks (reversing, negative indices)
 
-Give it a try, and feel free to experiment!
+Example operations:
 
-> 💡 Remember you can combine different indexing methods to get exactly what you
-> need!
+```python
+# Get one student's scores
+student = scores[0]          # First student
+# array([85, 90, 88, 92])
 
-If you're stuck, try breaking it down:
+# Find passing scores (>= 85)
+passing = scores >= 85
+passed = scores[passing]
 
-1. Find high-value products
-2. Analyze daily patterns
-3. Compare time periods
-4. Identify best sellers
+# Get first two tests
+tests = scores[:, 0:2]
+
+# Select specific scores
+students = [1, 3]           # Students 2 and 4
+tests = [2, 0]             # Tests 3 and 1
+specific = scores[students, tests]
+```
+
+> 💡 Remember:
+>
+> - Use boolean masks for filtering
+> - Use slices for ranges
+> - Use arrays of indices for specific elements
+> - Use negative indices from the end

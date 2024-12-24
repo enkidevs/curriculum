@@ -2,33 +2,32 @@ name: NumPy
 
 core: true
 
-description: From basic array operations to advanced data manipulation.
+description: The fundamental package for scientific computing
 
 sections:
   '0':
     - python-numpy-intro
     - python-numpy-intro-exercise
-    - python-numpy-array-basics 
-    - python-numpy-array-basics-exercise
     - python-numpy-array-indexing
     - python-numpy-array-indexing-exercise
+    - python-numpy-array-manipulation
+    - python-numpy-array-manipulation-exercise
   '1':
     - python-numpy-array-operations
     - python-numpy-array-operations-exercise
-    - python-numpy-array-manipulation
-    - python-numpy-array-manipulation-exercise
+    - python-numpy-array-reshaping 
+    - python-numpy-array-reshaping-exercise
     - python-numpy-array-math
     - python-numpy-array-math-exercise
     - python-numpy-data-types
     - python-numpy-data-types-exercise
-  '2':
     - python-numpy-broadcasting
     - python-numpy-broadcasting-exercise
+    - python-numpy-matrices
+    - python-numpy-matrices-exercise
+  '2':
     - python-numpy-data-analysis
     - python-numpy-data-analysis-exercise
-    - python-numpy-data-visualization
-    - python-numpy-data-visualization-exercise
-  '3':
     - python-numpy-scientific
     - python-numpy-scientific-exercise
     - python-numpy-financial

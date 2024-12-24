@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Returns Analysis](https://numpy.org/doc/stable/reference/routines.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,33 +18,47 @@ revisionQuestion:
 
 ## Content
 
-Analyze investment returns:
-
-Simple returns:
+Calculate and analyze investment returns:
 
 ```python
-# Calculate simple returns
-prices = np.array([100, 105, 98, 103])
-simple_returns = (prices[1:] - prices[:-1]) / prices[:-1]
-```
+# Stock price history (daily closing prices)
+prices = np.array([
+    150.25, 152.75, 151.50, 153.25, 155.00,  # Week 1
+    154.50, 156.75, 153.25, 152.50, 157.25   # Week 2
+])
 
-> 💡 Simple returns are good for short periods!
+# 1. Simple returns (percentage change)
+simple_returns = np.diff(prices) / prices[:-1]
+print(f"Daily returns: {simple_returns * 100:.2f}%")
 
-Log returns:
-
-```python
-# Calculate logarithmic returns
+# 2. Log returns (continuous compounding)
 log_returns = np.log(prices[1:] / prices[:-1])
-# More suitable for longer periods
+print(f"Average log return: {log_returns.mean():.2%}")
+
+# 3. Cumulative returns
+cumulative_simple = np.cumprod(1 + simple_returns) - 1
+cumulative_log = np.exp(np.cumsum(log_returns)) - 1
 ```
 
-Cumulative returns:
+> 💡 Log returns are better for longer time periods!
+
+Return analysis:
 
 ```python
-# Calculate cumulative returns
-cumulative = np.cumprod(1 + simple_returns) - 1
-print(f"Total return: {cumulative[-1]:.2%}")
+# Annualize returns (252 trading days)
+trading_days = 252
+annual_return = simple_returns.mean() * trading_days
+annual_vol = simple_returns.std() * np.sqrt(trading_days)
+
+# Calculate rolling returns
+window = 5  # 5-day rolling return
+rolling_returns = np.array([
+    np.prod(1 + simple_returns[i:i+window]) - 1
+    for i in range(len(simple_returns) - window + 1)
+])
 ```
+
+> 💡 Annualization helps compare different time periods!
 
 ---
 

@@ -21,36 +21,43 @@ revisionQuestion:
 
 ## Content
 
-Add elements to arrays in different ways:
-
-Append elements:
+Add elements to arrays:
 
 ```python
-arr = np.array([1, 2, 3])
-new = np.append(arr, 4)
-# array([1, 2, 3, 4])
+# Student grades throughout semester
+grades = np.array([85, 92, 78, 90])
+
+# Add a new test score
+updated = np.append(grades, 88)
+# array([85, 92, 78, 90, 88])
+
+# Add multiple scores
+more_scores = np.array([95, 89])
+all_grades = np.append(grades, more_scores)
+# array([85, 92, 78, 90, 95, 89])
 ```
 
-> 💡 `append` creates a new array - it doesn't modify the original!
-
-Add multiple elements:
-
-```python
-arr = np.array([1, 2])
-new = np.append(arr, [3, 4])
-# array([1, 2, 3, 4])
-```
+> 💡 `append` creates a new array - original stays unchanged!
 
 Add to 2D arrays:
 
 ```python
-matrix = np.array([[1, 2], [3, 4]])
-row = np.array([[5, 6]])
-new = np.append(matrix, row, axis=0)
-# array([[1, 2],
-#        [3, 4],
-#        [5, 6]])
+# Class grades (rows: students, columns: tests)
+class_grades = np.array([[85, 90],     # Student 1
+                        [92, 88],      # Student 2
+                        [78, 85]])     # Student 3
+
+# Add new test scores (column)
+new_test = np.array([[92],
+                     [95],
+                     [88]])
+updated = np.append(class_grades, new_test, axis=1)
+# array([[85, 90, 92],
+#        [92, 88, 95],
+#        [78, 85, 88]])
 ```
+
+> 💡 Use `axis=1` to add columns, `axis=0` to add rows!
 
 ---
 

@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Portfolio Analysis](https://numpy.org/doc/stable/reference/routines.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -23,35 +20,47 @@ revisionQuestion:
 
 Analyze investment portfolios:
 
-Portfolio returns:
-
 ```python
-# Calculate weighted returns
-weights = np.array([0.4, 0.6])  # 40%/60% split
-returns = np.array([[0.01, 0.02],
-                   [0.02, 0.01]])  # 2 assets
-port_return = np.sum(returns * weights, axis=1)
+# Portfolio of 3 stocks
+prices = np.array([
+    [100, 101, 99, 102, 98],   # Stock A
+    [45, 47, 46, 48, 47],      # Stock B
+    [75, 76, 73, 77, 76]       # Stock C
+])
+
+# 1. Calculate daily returns
+returns = np.diff(prices, axis=1) / prices[:, :-1]
+
+# 2. Portfolio weights (must sum to 1)
+weights = np.array([0.4, 0.3, 0.3])  # 40%, 30%, 30%
+
+# 3. Calculate portfolio returns
+port_returns = np.sum(returns * weights.reshape(-1, 1), axis=0)
+print(f"Average portfolio return: {port_returns.mean():.2%}")
 ```
 
-> 💡 Portfolio weights must sum to 1!
+> 💡 Portfolio diversification reduces risk!
 
-Portfolio risk:
-
-```python
-# Calculate portfolio variance
-cov_matrix = np.cov(returns.T)
-port_var = weights.T @ cov_matrix @ weights
-port_std = np.sqrt(port_var)  # Portfolio risk
-```
-
-Portfolio optimization:
+Risk analysis:
 
 ```python
-# Generate random portfolios
-n_ports = 1000
-random_weights = np.random.random((n_ports, 2))
-normalized = random_weights / random_weights.sum(axis=1, keepdims=True)
+# Calculate portfolio risk
+# 1. Covariance matrix of returns
+cov_matrix = np.cov(returns)
+
+# 2. Portfolio variance
+port_var = weights @ cov_matrix @ weights
+port_std = np.sqrt(port_var)  # Portfolio volatility
+print(f"Portfolio volatility: {port_std:.2%}")
+
+# 3. Generate random portfolios for optimization
+n_portfolios = 1000
+random_weights = np.random.random((n_portfolios, 3))
+# Normalize to sum to 1
+random_weights /= random_weights.sum(axis=1, keepdims=True)
 ```
+
+> 💡 Use matrix operations for efficient portfolio calculations!
 
 ---
 

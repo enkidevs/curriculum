@@ -21,39 +21,44 @@ revisionQuestion:
 
 ## Content
 
-Access mathematical and physical constants:
-
-Mathematical constants:
+Use mathematical and physical constants:
 
 ```python
-# Common mathematical constants
-print(np.pi)      # π (3.141592...)
-print(np.e)       # e (2.718281...)
-print(np.inf)     # Infinity
-print(np.nan)     # Not a Number
+# Circle geometry calculations
+radii = np.array([1, 2, 3])  # meters
+areas = np.pi * radii**2
+circumferences = 2 * np.pi * radii
+
+# Sphere calculations
+volumes = (4/3) * np.pi * radii**3
+surface_areas = 4 * np.pi * radii**2
+
+print(f"Circle areas: {areas:.2f} m²")
+print(f"Sphere volumes: {volumes:.2f} m³")
 ```
 
-> 💡 These constants are high-precision floating-point values!
+> 💡 NumPy's constants are high-precision floating-point values!
 
-Physical constants:
+Natural exponential calculations:
 
 ```python
-# Import physical constants
-from numpy import euler_gamma  # Euler's constant
-from numpy import golden      # Golden ratio
+# Compound interest
+principal = 1000
+rates = np.array([0.05, 0.10, 0.15])
+years = 5
 
-print(euler_gamma)  # ≈ 0.5772156649...
-print(golden)      # ≈ 1.6180339887...
+# A = P * e^(rt)
+amounts = principal * np.e ** (rates * years)
+print(f"Investment growth: ${amounts:.2f}")
+
+# Half-life decay
+initial = 100
+decay_constant = 0.1
+time = np.array([0, 1, 2, 3, 4, 5])
+remaining = initial * np.e ** (-decay_constant * time)
 ```
 
-Use in calculations:
-
-```python
-# Circle calculations
-radius = np.array([1, 2, 3])
-area = np.pi * radius**2
-circumference = 2 * np.pi * radius
-```
+> 💡 Use np.e for natural exponential calculations!
 
 ---
 

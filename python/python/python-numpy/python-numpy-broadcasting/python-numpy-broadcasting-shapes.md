@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Shape Rules](https://numpy.org/doc/stable/user/basics.broadcasting.html#general-broadcasting-rules){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -23,31 +20,43 @@ revisionQuestion:
 
 Understanding shape compatibility:
 
-Compare from right:
-
 ```python
-a = np.array([1, 2, 3])     # Shape: (3,)
-b = np.array([[1], [2]])    # Shape: (2, 1)
-# Result shape: (2, 3)
+# Shape comparison happens from right to left
+# (3,)       [1, 2, 3]
+# (2, 3)     [[1, 2, 3],
+#             [4, 5, 6]]
+#  ↑  ↑
+#  |  These must match
+#  These can be different
+
+# Examples of compatible shapes:
+a = np.array([1, 2, 3])           # Shape: (3,)
+b = np.array([[4, 5, 6],          # Shape: (2, 3)
+              [7, 8, 9]])
+result = a + b                    # Works!
 ```
 
-> 💡 Dimensions must match or be 1 or missing!
+> 💡 Missing dimensions are added as 1's from the left!
 
-Shape rules:
+Shape matching rules:
 
 ```python
-# Works: (3,) and (3,)
-a = np.array([1, 2, 3])
-b = np.array([4, 5, 6])
+# Rule 1: Equal dimensions match
+(3,) + (3,)         # ✓ Works
+(2, 3) + (2, 3)     # ✓ Works
+(2, 3) + (3, 3)     # ✗ Error!
 
-# Works: (3,) and (1,)
-a = np.array([1, 2, 3])
-b = np.array([4])
+# Rule 2: Dimension of 1 matches anything
+(3, 1) + (3, 4)     # ✓ Works
+(1, 3) + (4, 3)     # ✓ Works
+(3, 2) + (3, 1)     # ✓ Works
 
-# Fails: (2,) and (3,)
-a = np.array([1, 2])
-b = np.array([4, 5, 6])
+# Rule 3: Missing dimensions are treated as 1
+(3,) + (2, 3)       # ✓ (1, 3) + (2, 3) Works
+(5,) + (2, 5, 3)    # ✗ (1, 1, 5) + (2, 5, 3) Error!
 ```
+
+> 💡 Use array.shape to check dimensions before operations!
 
 ---
 

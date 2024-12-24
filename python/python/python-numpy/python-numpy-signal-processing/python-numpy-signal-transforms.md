@@ -21,33 +21,46 @@ revisionQuestion:
 
 ## Content
 
-Transform signals between domains:
-
-Fourier Transform:
+Transform signals between time and frequency domains:
 
 ```python
-# Convert signal to frequency domain
+# Create a complex signal (mix of frequencies)
+t = np.linspace(0, 1, 1000)  # 1 second at 1000 Hz
+signal = (np.sin(2 * np.pi * 10 * t) +      # 10 Hz component
+          0.5 * np.sin(2 * np.pi * 50 * t))  # 50 Hz component
+
+# 1. Fourier Transform
+# Convert to frequency domain
 spectrum = np.fft.fft(signal)
-frequencies = np.fft.fftfreq(len(signal), d=1/100)  # 100 Hz sampling
+frequencies = np.fft.fftfreq(len(signal), d=1/1000)  # Frequency axis
+
+# Get positive frequencies only
+pos_freq = frequencies[:len(frequencies)//2]
+pos_spectrum = np.abs(spectrum[:len(frequencies)//2])
 ```
 
-> 💡 FFT shows frequency components of a signal!
+> 💡 FFT reveals frequency components hidden in the signal!
 
-Get magnitude:
+Spectrum analysis:
 
 ```python
-# Get power spectrum
-magnitude = np.abs(spectrum)
-power = magnitude ** 2
+# 2. Power Spectrum
+power = pos_spectrum ** 2
+
+# Find dominant frequencies
+peaks = np.where((power[1:] > power[:-1]) & 
+                 (power[1:] > power[2:]))[0] + 1
+dominant_freqs = pos_freq[peaks]
+print(f"Main frequencies: {dominant_freqs[:3]} Hz")
+
+# 3. Inverse Transform
+# Reconstruct signal from spectrum
+reconstructed = np.fft.ifft(spectrum).real
+error = np.mean((signal - reconstructed) ** 2)
+print(f"Reconstruction error: {error:.2e}")
 ```
 
-Find dominant frequency:
-
-```python
-# Get frequency with highest power
-peak_freq = frequencies[np.argmax(magnitude)]
-print(f"Main frequency: {peak_freq} Hz")
-```
+> 💡 Power spectrum shows the strength of each frequency!
 
 ---
 

@@ -2,9 +2,6 @@
 author: enki-ai
 type: normal
 category: must-know
-links:
-  - >-
-    [Image Transforms](https://numpy.org/doc/stable/reference/routines.array-manipulation.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -21,34 +18,49 @@ revisionQuestion:
 
 ## Content
 
-Transform images using array operations:
-
-Rotate image:
+Apply geometric transformations to images:
 
 ```python
-# Rotate 90 degrees clockwise
-rotated = np.rot90(image, k=1)
+# Create a sample pattern image (8x8 checkerboard)
+pattern = np.zeros((8, 8), dtype=np.uint8)
+pattern[::2, ::2] = 255  # White squares
+pattern[1::2, 1::2] = 255
+
+# 1. Basic transformations
+flipped_v = np.flipud(pattern)        # Flip vertically
+flipped_h = np.fliplr(pattern)        # Flip horizontally
+rotated_90 = np.rot90(pattern)        # Rotate 90° clockwise
+rotated_180 = np.rot90(pattern, k=2)  # Rotate 180°
 ```
 
-> 💡 k=1 means rotate once, k=2 twice, etc.!
+> 💡 Rotations use k parameter for number of 90° turns!
 
-Resize image:
+Advanced transforms:
 
 ```python
-# Double size (repeat pixels)
-h, w = image.shape
-big = np.repeat(np.repeat(image, 2, axis=0), 2, axis=1)
+# 2. Scaling and cropping
+# Scale up by repeating pixels
+scaled_2x = np.repeat(np.repeat(pattern, 2, axis=0), 2, axis=1)
+
+# Crop center region
+h, w = pattern.shape
+crop_size = min(h, w) // 2
+start_y = h//2 - crop_size//2
+start_x = w//2 - crop_size//2
+cropped = pattern[start_y:start_y+crop_size, 
+                 start_x:start_x+crop_size]
+
+# 3. Create affine transformation
+# Translate pattern diagonally
+shifted = np.roll(np.roll(pattern, 2, axis=0), 2, axis=1)
+
+# Create diagonal gradient
+y, x = np.ogrid[:h, :w]
+gradient = (x + y).astype(float) / (w + h)
+transformed = (pattern * gradient).astype(np.uint8)
 ```
 
-Crop image:
-
-```python
-# Get center region
-h, w = image.shape
-y1, y2 = h//4, 3*h//4  # middle half
-x1, x2 = w//4, 3*w//4
-cropped = image[y1:y2, x1:x2]
-```
+> 💡 Complex transforms can be combined for creative effects!
 
 ---
 

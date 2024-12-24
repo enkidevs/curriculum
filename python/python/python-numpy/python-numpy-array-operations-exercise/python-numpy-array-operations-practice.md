@@ -4,17 +4,11 @@ type: normal
 category: coding
 setupCode:
   startingPoint: |
-    # Welcome to the Python coding playground
-    # You're analyzing stock market data!
-    # Tasks:
-    # - Calculate daily price changes
-    # - Find stocks that gained/lost value
-    # - Compare stock performances
-    # - Calculate total market value
-
-    # Type your code here:
+    # Welcome to the Stock Market Analysis Exercise!
+    # You're analyzing daily trading data.
+    
     import numpy as np
-
+    
     # Stock prices for 4 companies over 5 days
     prices = np.array([
         [100, 102, 98, 103, 105],  # Company A
@@ -22,11 +16,27 @@ setupCode:
         [75, 74, 77, 76, 80],      # Company C
         [25, 26, 24, 25, 27]       # Company D
     ])
-
+    
     # Number of shares for each company (in thousands)
     shares = np.array([1000, 2000, 1500, 3000])
-
-    # Your analysis code:
+    
+    # Your tasks:
+    # 1. Calculate daily price changes
+    changes = prices[:, 1:] - prices[:, :-1]
+    
+    # 2. Find companies with positive average growth
+    avg_changes = np.mean(changes, axis=1)
+    growing = prices[???]
+    
+    # 3. Calculate total market value per day
+    daily_values = np.???(prices * ???)
+    
+    # 4. Find days when all stocks increased
+    all_up_days = np.???(changes > 0, axis=???)
+    
+    # 5. Sort companies by final day value
+    final_values = prices[:, -1] * shares
+    rankings = np.???(final_values)
 ---
 
 # Stock Market Analysis
@@ -35,22 +45,31 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Your task is to analyze stock market data using array operations!
+> 👩‍💻 Practice array operations by analyzing stock market data!
 
-To solve this, try using:
+This exercise covers:
+- Arithmetic operations (price changes)
+- Logical operations (finding trends)
+- Statistical operations (calculating averages)
+- Sorting operations (ranking stocks)
 
-- Arithmetic operations for price changes
-- Comparison operations for performance
-- Logical operations for filtering
-- Broadcasting for market value
+Example operations:
+```python
+# Calculate price changes
+daily_change = prices[:, 1:] - prices[:, :-1]
 
-Give it a try, and feel free to experiment!
+# Find positive changes
+gains = daily_change > 0
 
-> 💡 Remember that NumPy operations work on entire arrays at once!
+# Calculate company averages
+company_avgs = np.mean(prices, axis=1)
 
-If you're stuck, try breaking it down:
+# Sort by final prices
+final_day = prices[:, -1]
+rankings = np.argsort(final_day)
+```
 
-1. Calculate daily changes
-2. Find winning/losing stocks
-3. Compare performances
-4. Compute market values
+> 💡 Remember:
+> - Use axis=0 for operations across companies
+> - Use axis=1 for operations across days
+> - Boolean masks help find specific conditions

@@ -5,4 +5,4 @@ insights:
   - python-numpy-intro-practice
 
 aspects:
-  - workout
+  - introduction
