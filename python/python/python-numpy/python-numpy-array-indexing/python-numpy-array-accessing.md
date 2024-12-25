@@ -41,24 +41,6 @@ first_test = grades[:, 0]     # [85, 92, 78]
 
 > 💡 Use commas to separate dimensions: `array[row, column]`
 
-Access elements in 3D arrays:
-
-```python
-# RGB image data (2x2 pixels)
-image = np.array([[[255, 0, 0],     # Red pixel
-                   [0, 255, 0]],     # Green pixel
-                  [[0, 0, 255],      # Blue pixel
-                   [255, 255, 0]]])  # Yellow pixel
-
-# Get one pixel's RGB values
-pixel = image[0, 0]          # [255, 0, 0]
-
-# Get red value of specific pixel
-red = image[0, 0, 0]        # 255
-```
-
-> 💡 Each dimension adds another index: `array[depth, row, column]`
-
 ---
 
 ## Practice

@@ -39,57 +39,42 @@ alternate = temps[::2]    # [25, 23, 27, 22]
 
 > 💡 Slice syntax: `array[start:stop:step]`, stop index not included!
 
-Slice 2D arrays:
-
-```python
-# Student grades (rows: students, columns: tests)
-grades = np.array([[85, 90, 88],    # Student 1
-                  [92, 88, 95],     # Student 2
-                  [78, 85, 80]])    # Student 3
-
-# Get first two students' grades
-top_students = grades[0:2]     # [[85, 90, 88],
-                              #  [92, 88, 95]]
-
-# Get all students' first two test scores
-first_tests = grades[:, 0:2]   # [[85, 90],
-                              #  [92, 88],
-                              #  [78, 85]]
-```
-
-> 💡 Use `:` to select all elements in that dimension
+Remember: If you omit `start`, it defaults to the beginning. If you omit `stop`, it goes to the end.
 
 ---
 
 ## Practice
 
-Get every third element:
-
+Given this array of daily temperatures:
 ```python
-arr = np.array([1, 2, 3, 4, 5, 6])
-result = arr[???:???:???]
-# [1, 4]
+temps = np.array([18, 20, 23, 25, 24, 22, 19])
 ```
 
-- `0`
-- `6`
-- `3`
-- `1`
-- `2`
-- `4`
+Complete the following:
+```python
+# Get temperatures from day 2 to 5
+middle_temps = ???
+
+# Get every other temperature starting from the beginning
+alternate_temps = ???
+```
+
+- `temps[1:5]`
+- `temps[::2]`
+- `temps[1:6:2]`
+- `temps[0:6:2]`
 
 ---
 
 ## Revision
 
-To get the first three elements:
-
+What will this slice return?
 ```python
-arr = np.array([1, 2, 3, 4, 5])
-result = arr[???:???]
+data = np.array([1, 2, 3, 4, 5, 6])
+print(data[1:-1:2])
 ```
 
-- `0`
-- `3`
-- `1`
-- `4`
+- `[2, 4]`
+- `[2, 3, 4, 5]`
+- `[1, 3, 5]`
+- `[2, 4, 6]`
