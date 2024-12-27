@@ -29,3 +29,6 @@ sections:
     - product-of-a-list-excluding-self-py
     - pattern-matching-py
     - pascals-triangle-index-return-py
+
+next:
+  - python:python-numpy
