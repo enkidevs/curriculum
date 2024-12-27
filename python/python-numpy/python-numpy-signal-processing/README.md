@@ -6,9 +6,9 @@ aspects:
   - workout
 
 insights:
-  - python-numpy-signal-processing-basics
-  - python-numpy-signal-processing-filtering
-  - python-numpy-signal-processing-generation
-  - python-numpy-signal-processing-transforms
-  - python-numpy-signal-processing-analysis
+  - python-numpy-signal-basics
+  - python-numpy-signal-filtering
+  - python-numpy-signal-generation
+  - python-numpy-signal-transforms
+  - python-numpy-signal-analysis
 

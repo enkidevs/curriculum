@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 27th 2024
+
+### Changed
+- [Python - Launch Numpy](https://github.com/enkidevs/curriculum/pull/3336)
+
 ## December 19th 2024
 
 ### Changed
