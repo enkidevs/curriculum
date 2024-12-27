@@ -6,4 +6,4 @@ aspects:
   - workout
 
 insights:
-  - python-numpy-array-operations-exercise
+  - python-numpy-array-operations-practice

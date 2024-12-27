@@ -7,4 +7,4 @@ aspects:
   - deep
 
 insights:
-  - python-numpy-matrices-exercise
+  - python-numpy-matrices-practice

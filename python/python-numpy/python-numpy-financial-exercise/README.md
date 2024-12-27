@@ -6,4 +6,4 @@ aspects:
   - workout
 
 insights:
-  - python-numpy-financial-exercise
+  - python-numpy-financial-practice

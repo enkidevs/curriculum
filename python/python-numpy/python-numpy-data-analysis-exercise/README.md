@@ -6,4 +6,4 @@ aspects:
   - workout
 
 insights:
-  - python-numpy-data-analysis-exercise
+  - python-numpy-data-analysis-practice

@@ -6,4 +6,4 @@ aspects:
   - workout
 
 insights:
-  - python-numpy-data-types-exercise
+  - python-numpy-data-types-practice

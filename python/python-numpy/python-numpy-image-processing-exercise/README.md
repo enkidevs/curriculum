@@ -7,4 +7,4 @@ aspects:
   - workout
 
 insights:
-  - python-numpy-image-processing-exercise
+  - python-numpy-image-processing-practice

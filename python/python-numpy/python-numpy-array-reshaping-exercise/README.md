@@ -6,4 +6,4 @@ aspects:
   - introduction
 
 insights:
-  - python-numpy-array-basics-exercise
+  - python-numpy-array-basics-practice

@@ -7,4 +7,4 @@ aspects:
   - workout
 
 insights:
-  - python-numpy-broadcasting-exercise
+  - python-numpy-broadcasting-practice

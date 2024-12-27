@@ -6,4 +6,4 @@ aspects:
   - introduction
 
 insights:
-  - python-numpy-array-indexing-exercise
+  - python-numpy-array-indexing-practice
