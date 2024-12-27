@@ -5,14 +5,6 @@ category: tip
 links:
   - >-
     [Rounding Functions](https://numpy.org/doc/stable/reference/routines.math.html#rounding){website}
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
 ---
 
 # Rounding Methods

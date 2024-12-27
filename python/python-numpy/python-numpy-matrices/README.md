@@ -7,8 +7,7 @@ aspects:
   - deep
 
 insights:
-  - python-numpy-matrices-basics
+  - python-numpy-matrices-creating
+  - python-numpy-matrices-indexing
   - python-numpy-matrices-operations
-  - python-numpy-matrices-decomposition
-  - python-numpy-matrices-solving
-  - python-numpy-matrices-advanced
+  - python-numpy-matrices-operations-advanced

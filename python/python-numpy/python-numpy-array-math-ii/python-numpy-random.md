@@ -67,6 +67,8 @@ Generate 3 random integers from 1 to 5:
 nums = np.random.randint(1, 6, size=3)
 ```
 
+???
+
 - `randint`
 - `1`
 - `6`

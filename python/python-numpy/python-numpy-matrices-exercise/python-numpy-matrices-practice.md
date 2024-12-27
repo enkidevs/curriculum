@@ -4,44 +4,41 @@ type: normal
 category: coding
 setupCode:
   startingPoint: |
-    # Welcome to the Linear System Solver Exercise!
-    # You're analyzing a network of electrical circuits.
-    
-    import numpy as np
-    
-    # Circuit parameters (resistances in ohms)
-    R = np.array([
-        [10, 20, 30],  # Circuit 1
-        [15, 25, 35],  # Circuit 2
-        [5, 15, 25]    # Circuit 3
-    ])
-    
-    # Voltage sources (volts)
-    V = np.array([12, 9, 6])
-    
-    # Your tasks:
-    # 1. Matrix Analysis
-    # Calculate inverse and condition number of R
-    R_inv = ???  # Hint: Use np.linalg.inv
-    cond = ???   # Check matrix stability
-    
-    # 2. Current Calculation
-    # Solve for currents (I = R^(-1) @ V)
-    currents = ???
-    
-    # 3. Power Analysis
-    # Calculate power dissipation (P = I^2 * R)
-    power = ???
-    
-    # 4. Circuit Stability
-    # Find eigenvalues to assess stability
-    eigenvals = ???
-    
-    # 5. Optimization
-    # Find resistance values that minimize power loss
-    # while maintaining required currents
-    optimal_R = ???
+    # Welcome to the Matrix Operations Exercise!
 
+    import numpy as np
+
+    # 1. Creating Matrices
+    # Create a 3x3 matrix A
+    A = np.array([[1, 2, 3],
+                [4, 5, 6],
+                [7, 8, 9]])
+
+    # Create special matrices
+    identity = ??? # 3x3 identity matrix
+    zeros = ???    # 2x3 zero matrix
+    ones = ???     # 3x2 ones matrix
+
+    # 2. Matrix Properties
+    print(f"Shape: {A.shape}")       # Matrix dimensions
+    print(f"Size: {A.size}")         # Total number of elements
+    print(f"Dimensions: {A.ndim}")   # Number of dimensions
+
+    # 3. Matrix Indexing
+    element = ???    # Get element at row 1, column 2
+    first_row = ???  # Get first row
+    second_col = ??? # Get second column
+    submatrix = ???  # Get submatrix
+
+    # 4. Basic Matrix Operations
+    B = np.array([[9, 8, 7],
+                [6, 5, 4],
+                [3, 2, 1]])
+
+    sum_matrix = ???   # Matrix addition
+    diff_matrix = ???  # Matrix subtraction
+    element_prod = ??? # Element-wise multiplication
+    matrix_prod = ???  # Matrix multiplication
 ---
 
 # Circuit Analysis
@@ -50,42 +47,18 @@ setupCode:
 
 ## Content
 
-> 👩‍💻 Practice matrix operations with electrical circuits!
+> 👩‍💻 Practice matrix operations by solving these matrix challenges!
 
-This exercise covers all matrix operation concepts:
+To solve this, try using:
 
-- Matrix inversion and condition numbers
-- Solving linear systems
-- Eigenvalue analysis
-- Matrix optimization
+- `np.eye()` for identity matrices
+- `np.zeros()` and `np.ones()` for special matrices 
+- Array indexing for accessing elements and submatrices
+- Basic operations like +, -, * for matrix arithmetic
+- `np.dot()` for matrix multiplication
 
-Example operations:
+Give it a try, and feel free to experiment!
 
-```python
-# Check if matrix is well-conditioned
-def is_well_conditioned(matrix, threshold=1000):
-    cond = np.linalg.cond(matrix)
-    return cond < threshold, cond
+> 💡 Hint: Pay attention to matrix dimensions when performing operations!
 
-# Solve circuit equations
-def solve_circuit(R, V):
-    # Check conditioning
-    is_stable, cond = is_well_conditioned(R)
-    if not is_stable:
-        print(f"Warning: Circuit may be unstable (condition={cond:.1f})")
-    
-    # Solve for currents
-    try:
-        I = np.linalg.solve(R, V)
-        return I
-    except np.linalg.LinAlgError:
-        print("Error: Circuit equations cannot be solved")
-        return None
-```
-
-> 💡 Remember:
->
-> - Check matrix condition before solving
-> - Use appropriate solving method
-> - Verify physical constraints
-> - Consider numerical stability
+If you're stuck, try breaking down complex operations into simpler steps and print intermediate results to check your work.

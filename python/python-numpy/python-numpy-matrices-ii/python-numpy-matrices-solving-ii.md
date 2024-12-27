@@ -12,35 +12,13 @@ revisionQuestion:
   context: standalone
 ---
 
-# Matrix Equations
+# Solving Matrix Equations II
 
 ---
 
 ## Content
 
-Solve matrix equations and systems:
-
-```python
-# Create system of equations:
-# 2x + y = 5
-# x + 3y = 6
-
-# 1. Solve using matrix form Ax = b
-A = np.array([[2, 1],
-              [1, 3]])
-b = np.array([5, 6])
-
-# Solve for x
-x = np.linalg.solve(A, b)
-print(f"Solution: x = {x[0]:.2f}, y = {x[1]:.2f}")
-
-# Verify solution
-print(f"Verification: {np.allclose(A @ x, b)}")
-```
-
-> 💡 np.linalg.solve is more efficient than computing inverse!
-
-Advanced solving:
+With Numpy, you can solve advanced matrix equations.
 
 ```python
 # 2. Least squares solution (overdetermined system)
@@ -63,28 +41,33 @@ print(f"Residual sum: {residuals[0]:.2f}")
 
 ## Practice
 
-Solve the system Ax = b:
+Complete the code to find the least squares solution for an overdetermined
+system:
 
 ```python
-x = np.linalg.???(???, ???)
+# A is a 3x2 matrix, b is a vector
+x_ls, residuals, rank, s = np.linalg.???(A, b, rcond=???)
 ```
 
+- `lstsq`
+- `None`
 - `solve`
-- `A`
-- `b`
+- `0`
 - `inv`
-- `x`
-- `system`
+- `True`
 
 ---
 
 ## Revision
 
-For overdetermined systems, use:
+When solving a system with more equations than unknowns (overdetermined), the
+best approach is to use:
 
-???
+```python
+x_ls, residuals, rank, s = ???(A, b)
+```
 
 - `np.linalg.lstsq`
 - `np.linalg.solve`
 - `np.linalg.inv`
-- `np.linalg.det`
+- `np.dot`

@@ -18,7 +18,7 @@ revisionQuestion:
 
 ## Content
 
-Perform basic matrix operations:
+Here's how you can perform basic matrix operations in NumPy:
 
 ```python
 # Create sample matrices
@@ -39,25 +39,6 @@ matrix_prod = np.matmul(A, B)
 
 > 💡 Matrix multiplication is not commutative: A @ B ≠ B @ A!
 
-Advanced operations:
-
-```python
-# Matrix transformations
-transpose = A.T            # Transpose
-inverse = np.linalg.inv(A) # Matrix inverse
-det = np.linalg.det(A)     # Determinant
-
-# Matrix powers
-squared = np.linalg.matrix_power(A, 2)  # A²
-cubed = np.linalg.matrix_power(A, 3)    # A³
-
-# Check properties
-is_symmetric = np.allclose(A, A.T)
-is_orthogonal = np.allclose(A @ A.T, np.eye(2))
-```
-
-> 💡 Always check matrix dimensions for compatibility!
-
 ---
 
 ## Practice
@@ -77,13 +58,13 @@ result = A ??? B
 
 ## Revision
 
-The transpose of matrix A is:
+Multiply two matrices A and B:
 
 ```python
-transpose = A.???
+result = A ??? B
 ```
 
-- `T`
-- `transpose`
-- `t`
-- `trans`
+- `@`
+- `*`
+- `x`
+- `.`

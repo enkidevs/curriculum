@@ -28,6 +28,8 @@ sections:
     - python-numpy-data-types-exercise
     - python-numpy-matrices
     - python-numpy-matrices-exercise
+    - python-numpy-matrices-ii
+    - python-numpy-matrices-exercise-ii
     - python-numpy-data-analysis
     - python-numpy-data-analysis-exercise
     - python-numpy-scientific
