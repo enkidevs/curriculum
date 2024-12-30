@@ -66,6 +66,8 @@ import ??? as ???
 
 Which pandas object would you use to store a table of data with rows and columns?
 
+???
+
 - `DataFrame`
 - `Series`
 - `Panel`
