@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## December 30st 2024
+
+### Changed
+- [Python - Launch Pandas](https://github.com/enkidevs/curriculum/pull/3337)
+
 ## December 27th 2024
 
 ### Changed

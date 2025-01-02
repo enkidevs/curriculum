@@ -40,3 +40,6 @@ sections:
     - python-numpy-image-processing-exercise
     - python-numpy-signal-processing
     - python-numpy-signal-processing-exercise
+
+next:
+  - python:python-pandas

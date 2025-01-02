@@ -37,7 +37,7 @@ passing_grades = grades[passing_mask]  # [85, 90, 92, 88, 95]
 high_grades = grades[grades >= 90]  # [90, 92, 95]
 ```
 
-Remember: The boolean mask must have the same shape as the array being indexed.
+> 💡 The boolean mask must have the same shape as the array being indexed.
 
 ---
 ## Practice
