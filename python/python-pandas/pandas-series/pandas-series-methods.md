@@ -15,7 +15,6 @@ revisionQuestion:
 # Series Methods
 
 ---
-
 ## Content
 
 Common methods for Series analysis:
@@ -58,7 +57,6 @@ dtype: float64
 ```
 
 ---
-
 ## Practice
 
 To get the average value of a Series:
@@ -74,7 +72,6 @@ avg = s.???()
 - `sum`
 
 ---
-
 ## Revision
 
 To count unique values in a Series:

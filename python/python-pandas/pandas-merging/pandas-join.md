@@ -15,7 +15,6 @@ revisionQuestion:
 # Joining DataFrames
 
 ---
-
 ## Content
 
 When your DataFrames share an index, joining makes combining them simple:
@@ -62,7 +61,6 @@ stats.reset_index(name='repo').join(
 > 💡 `join()` is like `merge()` but uses index by default
 
 ---
-
 ## Practice
 
 Join DataFrames using their index:
@@ -80,7 +78,6 @@ result = df1.???(
 - `type`
 
 ---
-
 ## Revision
 
 Specify suffixes for overlapping columns:

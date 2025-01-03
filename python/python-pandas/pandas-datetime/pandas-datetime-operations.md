@@ -15,7 +15,6 @@ revisionQuestion:
 # DateTime Operations
 
 ---
-
 ## Content
 
 Need to calculate time differences or shift dates? pandas has you covered:
@@ -63,7 +62,6 @@ next_month = df[
 > 💡 Use `Timedelta` for fixed durations and `DateOffset` for calendar-based shifts
 
 ---
-
 ## Practice
 
 Calculate days between dates:
@@ -78,7 +76,6 @@ duration = df['end'] ??? df['start']
 - `subtract`
 
 ---
-
 ## Revision
 
 Add 3 days to a date:

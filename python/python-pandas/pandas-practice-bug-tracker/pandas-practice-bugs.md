@@ -30,7 +30,6 @@ setupCode:
 # Bug Tracker Dashboard
 
 ---
-
 ## Content
 
 > 👩‍💻 Create a simple bug tracking dashboard!

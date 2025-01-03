@@ -1,5 +1,5 @@
 name: User Activity Analysis
-description: Practice datetime operations by analyzing user activity patterns.
+description: Analyzing user activity patterns with datetime operations.
 
 insights:
   - pandas-datetime-practice

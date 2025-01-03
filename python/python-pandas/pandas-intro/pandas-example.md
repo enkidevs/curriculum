@@ -15,7 +15,6 @@ revisionQuestion:
 # Pandas Example
 
 ---
-
 ## Content
 
 Here's how to get started with pandas:
@@ -48,7 +47,6 @@ This will output:
 ```
 
 ---
-
 ## Practice
 
 To import pandas and create an alias `pd`, you would write:
@@ -61,7 +59,6 @@ import ??? as ???
 - `pd`
 
 ---
-
 ## Revision
 
 Which pandas object would you use to store a table of data with rows and columns?

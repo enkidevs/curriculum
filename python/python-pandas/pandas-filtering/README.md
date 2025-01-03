@@ -1,5 +1,5 @@
 name: DataFrame Filtering
-description: Advanced data filtering techniques in pandas.
+description: Advanced data filtering techniques
 
 insights:
   - pandas-query-method

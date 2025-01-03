@@ -15,7 +15,6 @@ revisionQuestion:
 # Pandas Data Structures
 
 ---
-
 ## Content
 
 Pandas has two main data structures:
@@ -57,7 +56,6 @@ print(df)
 > 💡 Think of a DataFrame as multiple Series sharing the same index!
 
 ---
-
 ## Practice
 
 A pandas Series is a ??? array, while a DataFrame is a ??? table.
@@ -68,7 +66,6 @@ A pandas Series is a ??? array, while a DataFrame is a ??? table.
 - 4D
 
 ---
-
 ## Revision
 
 To store a single column of data, you should use a:

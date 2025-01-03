@@ -15,7 +15,6 @@ revisionQuestion:
 # Creating DataFrames
 
 ---
-
 ## Content
 
 Think of a DataFrame as a smart spreadsheet in Python. Here's how to create one:
@@ -58,7 +57,6 @@ print(df)
 > 💡 Dictionary keys become column names automatically!
 
 ---
-
 ## Practice
 
 Create a DataFrame from a dictionary:
@@ -77,7 +75,6 @@ df = ???(???)
 - `pd.Array`
 
 ---
-
 ## Revision
 
 A DataFrame is a ??? data structure with ??? and ???.

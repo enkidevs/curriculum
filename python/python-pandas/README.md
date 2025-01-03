@@ -29,8 +29,3 @@ sections:
     - pandas-practice-code-review
     - pandas-practice-bug-tracker
     - pandas-practice-user-activity
-
-aspects:
-  - introduction
-  - workout
-  - deep 

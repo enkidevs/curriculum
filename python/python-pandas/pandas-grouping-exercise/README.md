@@ -1,5 +1,5 @@
 name: Team Performance Analysis
-description: Practice grouping operations by analyzing developer team data.
+description: Analyzing developer team data with grouping operations.
 
 insights:
   - pandas-grouping-practice

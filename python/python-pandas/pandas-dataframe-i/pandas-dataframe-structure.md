@@ -15,7 +15,6 @@ revisionQuestion:
 # DataFrame Structure
 
 ---
-
 ## Content
 
 Let's explore DataFrame structure:
@@ -53,7 +52,6 @@ print(df.index)      # How we count our coders (0, 1)
 > 💡 `shape` always shows (rows, columns) - think "we have 2 coders who each have 3 attributes"
 
 ---
-
 ## Practice
 
 Get the number of rows and columns:
@@ -68,7 +66,6 @@ dimensions = df.???
 - `dim`
 
 ---
-
 ## Revision
 
 To see column names, use:

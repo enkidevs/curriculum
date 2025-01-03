@@ -15,7 +15,6 @@ revisionQuestion:
 # Filtering DataFrames
 
 ---
-
 ## Content
 
 Need to find all entries matching certain criteria? DataFrame filtering helps you zero in on exactly what you're looking for:
@@ -55,7 +54,6 @@ print(result)
 > 💡 Use `&` for AND, `|` for OR in conditions
 
 ---
-
 ## Practice
 
 Filter rows where age is greater than 30:
@@ -70,7 +68,6 @@ result = df[df['???'] ??? 30]
 - `>=`
 
 ---
-
 ## Revision
 
 To combine filter conditions, use:

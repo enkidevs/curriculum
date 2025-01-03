@@ -15,7 +15,6 @@ revisionQuestion:
 # Exploding Lists
 
 ---
-
 ## Content
 
 Got lists inside your DataFrame? Explode them to analyze individual elements:
@@ -63,7 +62,6 @@ result = df.explode(['contributors', 'roles'])
 > 💡 Original index values are repeated for each list element
 
 ---
-
 ## Practice
 
 Explode a column containing lists:
@@ -78,7 +76,6 @@ result = df.???(???)
 - `split`
 
 ---
-
 ## Revision
 
 Explode multiple columns:

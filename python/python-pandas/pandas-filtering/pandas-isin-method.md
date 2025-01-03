@@ -15,7 +15,6 @@ revisionQuestion:
 # The isin Method
 
 ---
-
 ## Content
 
 Need to check if values match any item in a list? The `isin` method is perfect for finding matches:
@@ -52,7 +51,6 @@ systems = df[
 > 💡 `isin()` is much cleaner than multiple OR conditions
 
 ---
-
 ## Practice
 
 Filter for specific roles:
@@ -68,7 +66,6 @@ result = df[df['???'].???(roles)]
 - `contains`
 
 ---
-
 ## Revision
 
 Check if values are in a list:

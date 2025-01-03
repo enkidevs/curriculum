@@ -15,7 +15,6 @@ revisionQuestion:
 # Concatenating DataFrames
 
 ---
-
 ## Content
 
 Sometimes you need to stack data vertically or horizontally. Concatenation makes this easy:
@@ -62,7 +61,6 @@ print(result)
 > 💡 Use `ignore_index=True` to reset row numbers
 
 ---
-
 ## Practice
 
 Stack DataFrames vertically:
@@ -80,7 +78,6 @@ result = pd.???(
 - `reset_index`
 
 ---
-
 ## Revision
 
 Stack DataFrames horizontally:

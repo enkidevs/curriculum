@@ -15,7 +15,6 @@ revisionQuestion:
 # Working with Columns
 
 ---
-
 ## Content
 
 A common way of viewing DataFrames is to see the columns. Here's how to access and modify them:
@@ -58,7 +57,6 @@ popularity = df[['language', 'github_stars']]
 ```
 
 ---
-
 ## Practice
 
 Select multiple columns from a DataFrame:
@@ -73,7 +71,6 @@ cols = df[???]
 - `'name,age'`
 
 ---
-
 ## Revision
 
 To add a new column to a DataFrame:

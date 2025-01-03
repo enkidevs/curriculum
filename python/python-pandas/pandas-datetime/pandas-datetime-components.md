@@ -15,7 +15,6 @@ revisionQuestion:
 # DateTime Components
 
 ---
-
 ## Content
 
 Need to analyze patterns by month or day of week? pandas makes it easy to extract datetime components:
@@ -58,7 +57,6 @@ df['is_weekend'] = df['timestamp'].dt.is_weekend
 > 💡 Access components using the `.dt` accessor
 
 ---
-
 ## Practice
 
 Get the month from a datetime column:
@@ -73,7 +71,6 @@ df['month'] = df['date'].???.???
 - `Month`
 
 ---
-
 ## Revision
 
 Check if dates are weekends:

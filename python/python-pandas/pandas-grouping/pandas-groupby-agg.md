@@ -15,7 +15,6 @@ revisionQuestion:
 # GroupBy Aggregation
 
 ---
-
 ## Content
 
 Different metrics make sense for different columns. Maybe you want the average score but the total number of players:
@@ -58,7 +57,6 @@ result = df.groupby('game').agg(
 > 💡 Named aggregations make your results more readable
 
 ---
-
 ## Practice
 
 Apply different aggregations to columns:
@@ -78,7 +76,6 @@ df.groupby('group').???(
 - `mean`
 
 ---
-
 ## Revision
 
 Group and aggregate multiple columns:

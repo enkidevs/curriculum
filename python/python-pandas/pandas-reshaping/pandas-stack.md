@@ -15,7 +15,6 @@ revisionQuestion:
 # Stacking Data
 
 ---
-
 ## Content
 
 Working with multi-level columns? Stacking helps you reshape hierarchical data:
@@ -63,7 +62,6 @@ unstacked = stacked.unstack()
 > 💡 `stack()` moves the innermost column level to become the innermost row index
 
 ---
-
 ## Practice
 
 Stack multi-level columns:
@@ -78,7 +76,6 @@ result = df.???(level=???)
 - `1`
 
 ---
-
 ## Revision
 
 Unstack the innermost index level:

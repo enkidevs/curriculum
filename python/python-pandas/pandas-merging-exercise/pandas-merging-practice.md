@@ -51,7 +51,6 @@ setupCode:
 # Project Dependencies Analysis
 
 ---
-
 ## Content
 
 > 👩‍💻 Help analyze package dependencies and track critical issues!

@@ -32,7 +32,6 @@ setupCode:
 # User Activity Analysis
 
 ---
-
 ## Content
 
 > 👩‍💻 Discover when and how users interact with your app!

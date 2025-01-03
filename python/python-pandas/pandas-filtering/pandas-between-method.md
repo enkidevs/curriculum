@@ -15,7 +15,6 @@ revisionQuestion:
 # The between Method
 
 ---
-
 ## Content
 
 When analyzing data, you often need to find values within a specific range. The `between` method makes this super simple:
@@ -49,7 +48,6 @@ print(medium)
 > 💡 `between()` includes both endpoints by default
 
 ---
-
 ## Practice
 
 Get values between 10 and 20:
@@ -65,7 +63,6 @@ mask = df['value'].???(???, ???)
 - `in`
 
 ---
-
 ## Revision
 
 Filter ages from 25 to 30 inclusive:

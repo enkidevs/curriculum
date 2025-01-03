@@ -1,5 +1,5 @@
 name: Data Cleaning Exercise
-description: Practice data transformation techniques with a real-world dataset.
+description: Transform your data to make it more useful.
 
 insights:
   - pandas-transformation-practice

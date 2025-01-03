@@ -1,5 +1,5 @@
 name: DataFrame Basics
-description: Learn the fundamentals of pandas DataFrames - the primary data structure for data analysis.
+description: DataFrames - the primary data structure for data analysis.
 
 insights:
   - pandas-dataframe-creation

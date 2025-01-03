@@ -15,7 +15,6 @@ revisionQuestion:
 # Basic Pandas Operations
 
 ---
-
 ## Content
 
 Common operations in pandas:
@@ -90,7 +89,6 @@ print(df['A'])
 - `['column_name']`: Column selection
 
 ---
-
 ## Practice
 
 To get statistical information about numerical columns, use:
@@ -103,7 +101,6 @@ To get statistical information about numerical columns, use:
 - df.stats()
 
 ---
-
 ## Revision
 
 To preview the first few rows of a DataFrame, use:

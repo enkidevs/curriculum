@@ -15,7 +15,6 @@ revisionQuestion:
 # Replacing Values
 
 ---
-
 ## Content
 
 Need to clean up or standardize values? `replace()` helps you update multiple values at once:
@@ -59,7 +58,6 @@ fixed = text.replace(
 > 💡 `replace()` works on both Series and DataFrames
 
 ---
-
 ## Practice
 
 Replace multiple values:
@@ -76,7 +74,6 @@ df['col'] = df['col'].???(
 - `transform`
 
 ---
-
 ## Revision
 
 Replace using regex:

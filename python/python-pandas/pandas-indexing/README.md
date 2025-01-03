@@ -1,5 +1,5 @@
 name: DataFrame Indexing
-description: Master different ways to access pandas data.
+description: Master different ways to access data in pandas.
 
 insights:
   - pandas-loc-iloc

@@ -15,7 +15,6 @@ revisionQuestion:
 # GroupBy Transform
 
 ---
-
 ## Content
 
 Ever wanted to compare each value to its group's average? Transform helps you add these calculations while keeping your original data structure:
@@ -53,7 +52,6 @@ df['vs_team_avg'] = df.groupby('team')['points'].transform(diff_from_mean)
 > 💡 `transform` returns a result matching your original DataFrame's shape
 
 ---
-
 ## Practice
 
 Calculate group means for each row:
@@ -68,7 +66,6 @@ means = df.groupby('type')['value'].???(???)
 - `mean`
 
 ---
-
 ## Revision
 
 Add column with group sums:

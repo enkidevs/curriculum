@@ -15,7 +15,6 @@ revisionQuestion:
 # The Query Method
 
 ---
-
 ## Content
 
 Writing complex filters can get messy. The query method lets you write filters that read almost like plain English:
@@ -50,7 +49,6 @@ print(needs_docs)
 > 💡 `query()` makes complex filters readable at a glance
 
 ---
-
 ## Practice
 
 Filter rows where age is over 25:
@@ -65,7 +63,6 @@ result = df.???(???)
 - `filter`
 
 ---
-
 ## Revision
 
 Filter for people named 'Alice' in NY:

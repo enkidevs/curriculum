@@ -1,5 +1,5 @@
 name: User Activity Patterns
-description: Analyze user engagement patterns using pandas.
+description: Analyze user engagement patterns
 
 insights:
   - pandas-practice-activity

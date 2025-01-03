@@ -15,7 +15,6 @@ revisionQuestion:
 # Applying Functions
 
 ---
-
 ## Content
 
 Sometimes you need to transform your data in ways that aren't built into pandas. That's where `apply()` comes in handy:
@@ -56,7 +55,6 @@ df['rank'] = df['points'].apply(get_rank)
 > 💡 `apply()` works on both Series and DataFrames
 
 ---
-
 ## Practice
 
 Apply a function to make names lowercase:
@@ -71,7 +69,6 @@ df['name'] = df['name'].???(str.???)
 - `lowercase`
 
 ---
-
 ## Revision
 
 To apply a custom function to a column:

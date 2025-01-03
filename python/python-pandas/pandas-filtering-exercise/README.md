@@ -1,5 +1,5 @@
 name: Pull Request Analysis
-description: Practice filtering techniques by analyzing pull request data.
+description: Analyzing pull request data with filtering techniques.
 
 insights:
   - pandas-filtering-practice

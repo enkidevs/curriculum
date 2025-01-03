@@ -15,7 +15,6 @@ revisionQuestion:
 # Melting Data
 
 ---
-
 ## Content
 
 Need to convert wide data into a longer format? Melting helps restructure your data for analysis:
@@ -62,7 +61,6 @@ melted[['language', 'q']] = melted['quarter'].str.split('_', expand=True)
 > 💡 Melting is the opposite of pivoting
 
 ---
-
 ## Practice
 
 Melt a DataFrame:
@@ -82,7 +80,6 @@ pd.???(
 - `value_name`
 
 ---
-
 ## Revision
 
 Keep specific columns as identifiers:

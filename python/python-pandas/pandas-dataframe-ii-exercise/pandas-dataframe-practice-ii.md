@@ -44,7 +44,6 @@ setupCode:
 # Code Review Analysis
 
 ---
-
 ## Content
 
 > 👩‍💻 Help improve the code review process by analyzing PR data!
