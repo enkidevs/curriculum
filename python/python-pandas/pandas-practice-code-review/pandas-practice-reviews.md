@@ -25,7 +25,7 @@ setupCode:
     
     # 2. Count reviews done by each person
     
-    # 3. Find who reviews whose code most often
+    # 3. Find who reviews whose code most oftenq
 ---
 
 # Code Review Analytics
