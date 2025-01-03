@@ -15,7 +15,6 @@ revisionQuestion:
 # Pivoting Data
 
 ---
-
 ## Content
 
 Sometimes you need to reorganize your data to spot patterns. 
@@ -69,7 +68,6 @@ Tue             100    200           1      4
 > 💡 Pivot tables are great for summarizing data patterns
 
 ---
-
 ## Practice
 
 Create a pivot table:
@@ -88,7 +86,6 @@ result = df.???(
 - `values`
 
 ---
-
 ## Revision
 
 Pivot with multiple value columns:

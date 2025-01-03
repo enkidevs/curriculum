@@ -15,7 +15,6 @@ revisionQuestion:
 # Label vs Position Based Access
 
 ---
-
 ## Content
 
 When working with data, you often need to access specific rows or sections. pandas gives you two powerful ways to do this:
@@ -57,7 +56,6 @@ print(df.iloc[0])
 > 💡 Think of `loc` as "location by label" and `iloc` as "integer location"
 
 ---
-
 ## Practice
 
 Get first row using position-based indexing:
@@ -72,7 +70,6 @@ row = df.???[???]
 - `1`
 
 ---
-
 ## Revision
 
 Select rows with labels 'a' and 'b':

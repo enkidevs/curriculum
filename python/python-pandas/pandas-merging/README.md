@@ -1,5 +1,5 @@
 name: Merging DataFrames
-description: Learn how to combine data from different sources.
+description: Combining data from different sources.
 
 insights:
   - pandas-merge-basics

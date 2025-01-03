@@ -1,5 +1,5 @@
 name: Transforming Data
-description: Learn how to transform and modify data in pandas.
+description: Transform your data to make it more useful.
 
 insights:
   - pandas-apply

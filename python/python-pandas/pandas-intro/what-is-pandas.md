@@ -10,7 +10,6 @@ links:
 # What is Pandas?
 
 ---
-
 ## Content
 
 Pandas is a powerful Python library for data manipulation and analysis. 

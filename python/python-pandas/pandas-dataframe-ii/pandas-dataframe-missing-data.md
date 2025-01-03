@@ -15,7 +15,6 @@ revisionQuestion:
 # Handling Missing Data
 
 ---
-
 ## Content
 
 Real-world data is messy. Some users might skip fields, sensors might fail, or data might get corrupted. Here's how to handle missing values:
@@ -53,7 +52,6 @@ df['last_login'] = df['last_login'].fillna('Never')  # Never logged in
 > 💡 Both `None` and `np.nan` are treated as missing values
 
 ---
-
 ## Practice
 
 Fill missing values with zero:
@@ -68,7 +66,6 @@ clean = df.???(???)
 - `nan`
 
 ---
-
 ## Revision
 
 To remove rows with missing values:

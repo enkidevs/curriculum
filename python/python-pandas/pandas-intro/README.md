@@ -1,5 +1,5 @@
 name: Introduction to Pandas
-description: Learn the basics of pandas and why it's essential for data analysis.
+description: Learn what pandas is and how it can be used for data analysis.
 
 insights:
   - what-is-pandas

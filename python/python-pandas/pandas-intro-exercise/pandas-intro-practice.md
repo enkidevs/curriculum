@@ -33,7 +33,6 @@ setupCode:
 # Practice Pandas Basics
 
 ---
-
 ## Content
 
 > 👩‍💻 Your task is to analyze product data.

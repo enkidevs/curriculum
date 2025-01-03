@@ -15,7 +15,6 @@ revisionQuestion:
 # DateTime Resampling
 
 ---
-
 ## Content
 
 Need to analyze data at different time intervals? Resampling helps you change the frequency of your time series:
@@ -61,7 +60,6 @@ monthly = df.resample('M').max()  # Monthly maximum
 - 'Y': Yearly
 
 ---
-
 ## Practice
 
 Resample to daily frequency:
@@ -76,7 +74,6 @@ daily = df.???(???).mean()
 - `daily`
 
 ---
-
 ## Revision
 
 Get weekly sums:

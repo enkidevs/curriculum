@@ -44,7 +44,6 @@ setupCode:
 # Sales Data Analysis
 
 ---
-
 ## Content
 
 > 👩‍💻 Help the sales team understand product performance across quarters!

@@ -15,7 +15,6 @@ revisionQuestion:
 # DateTime Basics
 
 ---
-
 ## Content
 
 Working with dates and times is crucial for time-series analysis. Here's how to handle them in pandas:
@@ -63,7 +62,6 @@ dates = pd.date_range(
 > 💡 pandas automatically handles most common date formats
 
 ---
-
 ## Practice
 
 Convert string to datetime:
@@ -80,7 +78,6 @@ df['date'] = pd.???(
 - `parse_date`
 
 ---
-
 ## Revision
 
 Create a range of dates:

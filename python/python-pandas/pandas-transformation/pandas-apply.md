@@ -15,7 +15,6 @@ revisionQuestion:
 # Applying Functions
 
 ---
-
 ## Content
 
 Need to transform your data with custom functions? `apply()` is your friend:
@@ -58,7 +57,6 @@ df['level'] = df['complexity'].apply(complexity_level)
 > 💡 Use `axis=1` for row-wise operations, `axis=0` for columns
 
 ---
-
 ## Practice
 
 Apply a function to each row:
@@ -73,7 +71,6 @@ result = df.???(func, ???=1)
 - `transform`
 
 ---
-
 ## Revision
 
 Apply to a single column:

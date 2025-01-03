@@ -15,7 +15,6 @@ revisionQuestion:
 # Series Attributes
 
 ---
-
 ## Content
 
 Series store useful information about themselves. Let's check out a repository's weekly commit history:
@@ -52,7 +51,6 @@ print(f"Any missing days? {commits.hasnans}")
 > 💡 Attributes (unlike methods) don't use parentheses
 
 ---
-
 ## Practice
 
 Get the number of elements:
@@ -67,7 +65,6 @@ length = series.???
 - `shape`
 
 ---
-
 ## Revision
 
 Check the data type:

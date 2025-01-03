@@ -15,7 +15,6 @@ revisionQuestion:
 # Sorting DataFrames
 
 ---
-
 ## Content
 
 Sorting data helps you spot patterns and rankings easily:
@@ -52,7 +51,6 @@ sorted_df = df.sort_values(
 > 💡 Default sort is ascending; use `ascending=False` to reverse
 
 ---
-
 ## Practice
 
 Sort DataFrame by 'price' in descending order:
@@ -70,7 +68,6 @@ result = df.sort_values('price', ???=???)
 - `reverse`
 
 ---
-
 ## Revision
 
 To sort by multiple columns:

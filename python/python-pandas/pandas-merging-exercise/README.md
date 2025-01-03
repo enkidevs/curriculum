@@ -1,5 +1,5 @@
 name: Project Dependencies Analysis
-description: Practice merging operations by analyzing project dependencies and issues.
+description: Analyzing project dependencies and issues with merging operations.
 
 insights:
   - pandas-merging-practice

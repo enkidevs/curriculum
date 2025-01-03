@@ -1,5 +1,5 @@
 name: Bug Tracker Analysis
-description: Practice Series operations by analyzing bug report data.
+description: Analyzing bug report data with Series operations.
 
 insights:
   - pandas-series-practice

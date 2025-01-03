@@ -15,7 +15,6 @@ revisionQuestion:
 # Boolean Indexing
 
 ---
-
 ## Content
 
 Finding specific data points in your dataset is a common task. Boolean indexing makes it easy to filter based on conditions:
@@ -57,7 +56,6 @@ print(df[urgent])
 - `.le()` instead of `<=`
 
 ---
-
 ## Practice
 
 Filter rows where age is less than 30:
@@ -72,7 +70,6 @@ young = df[df['age'].???(30)]
 - `le`
 
 ---
-
 ## Revision
 
 Check if city equals 'SF':

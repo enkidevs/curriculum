@@ -41,7 +41,6 @@ setupCode:
 # GitHub Repository Analysis
 
 ---
-
 ## Content
 
 > 👩‍💻 Analyze GitHub trends across different tech categories and years!

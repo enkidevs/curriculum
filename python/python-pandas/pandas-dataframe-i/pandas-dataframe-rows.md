@@ -15,7 +15,6 @@ revisionQuestion:
 # Working with Rows
 
 ---
-
 ## Content
 
 When analyzing data, you often need to look at specific entries or add new ones. 
@@ -55,7 +54,6 @@ df.loc[3] = ['David', 40]
 ```
 
 ---
-
 ## Practice
 
 View the first 3 rows of a DataFrame:
@@ -70,7 +68,6 @@ rows = df.???(???)
 - `top`
 
 ---
-
 ## Revision
 
 To access a specific row by index:

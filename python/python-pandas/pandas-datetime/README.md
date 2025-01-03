@@ -1,5 +1,5 @@
 name: Working with Dates
-description: Learn how to handle dates and times in pandas.
+description: Handling dates and times in pandas.
 
 insights:
   - pandas-datetime-basics

@@ -49,7 +49,6 @@ setupCode:
 # Pull Request Analysis
 
 ---
-
 ## Content
 
 > 👩‍💻 Help the team understand their PR patterns and improve the review process!

@@ -1,5 +1,5 @@
 name: DataFrame Grouping
-description: Master data aggregation and grouping operations.
+description: Aggregating and grouping data in pandas.
 
 insights:
   - pandas-groupby-basics

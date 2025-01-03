@@ -1,5 +1,5 @@
 name: Reshaping Data
-description: Learn how to restructure your data for different analyses.
+description: Reshape your data to make it more useful.
 
 insights:
   - pandas-pivot

@@ -1,5 +1,5 @@
 name: DataFrame Operations
-description: Filter, sort, and handle missing data.
+description: Filtering, sorting, and handling missing data.
 
 insights:
   - pandas-dataframe-filtering

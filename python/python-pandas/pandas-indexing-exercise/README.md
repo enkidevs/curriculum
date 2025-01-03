@@ -1,5 +1,5 @@
 name: GitHub Repository Analysis
-description: Practice indexing operations by analyzing GitHub repository data.
+description: Analyzing GitHub repository data with indexing operations.
 
 insights:
   - pandas-indexing-practice

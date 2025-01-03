@@ -36,7 +36,6 @@ setupCode:
 # Bug Report Analysis
 
 ---
-
 ## Content
 
 > 👩‍💻 Help the team prioritize bugs by analyzing the bug tracker data!

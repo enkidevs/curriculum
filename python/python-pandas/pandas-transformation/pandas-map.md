@@ -15,7 +15,6 @@ revisionQuestion:
 # Mapping Values
 
 ---
-
 ## Content
 
 Need to replace values with others? `map()` makes it easy:
@@ -65,7 +64,6 @@ readable = severity.map(get_priority)
 > 💡 `map()` works on Series, use `replace()` for DataFrames
 
 ---
-
 ## Practice
 
 Map values using a dictionary:
@@ -82,7 +80,6 @@ result = series.???(
 - `transform`
 
 ---
-
 ## Revision
 
 Map values using a function:

@@ -43,7 +43,6 @@ setupCode:
 # Team Performance Analysis
 
 ---
-
 ## Content
 
 > 👩‍💻 Help track team performance and identify star contributors!

@@ -15,7 +15,6 @@ revisionQuestion:
 # Conditional Updates
 
 ---
-
 ## Content
 
 Need to update values based on conditions? `where()` and `mask()` make it easy:
@@ -58,7 +57,6 @@ df['valid'] = df['status'].mask(
 > `mask()` keeps values where condition is False
 
 ---
-
 ## Practice
 
 Keep values where condition is True:
@@ -76,7 +74,6 @@ result = series.???(
 - `when`
 
 ---
-
 ## Revision
 
 Keep values where condition is False:

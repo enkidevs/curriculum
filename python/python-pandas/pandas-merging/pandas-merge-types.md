@@ -15,7 +15,6 @@ revisionQuestion:
 # Merge Types
 
 ---
-
 ## Content
 
 Different projects need different ways of combining data. Here's how to handle various scenarios:
@@ -70,7 +69,6 @@ print(outer)
 > 💡 Use `how='left'` or `how='right'` to keep all rows from one DataFrame
 
 ---
-
 ## Practice
 
 Keep all rows from the left DataFrame:
@@ -89,7 +87,6 @@ pd.merge(
 - `inner`
 
 ---
-
 ## Revision
 
 To keep all rows from both DataFrames:

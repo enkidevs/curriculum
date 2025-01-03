@@ -15,7 +15,6 @@ revisionQuestion:
 # Series Indexing
 
 ---
-
 ## Content
 
 Access Series elements using index labels or positions:
@@ -44,7 +43,6 @@ dtype: int64
 > 💡 You can use both integer positions and labels to access elements!
 
 ---
-
 ## Practice
 
 Get the first element from the Series:
@@ -60,7 +58,6 @@ value = ???
 - `s.0`
 
 ---
-
 ## Revision
 
 To select multiple elements using labels:

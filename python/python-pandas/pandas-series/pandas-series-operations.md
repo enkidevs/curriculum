@@ -15,7 +15,6 @@ revisionQuestion:
 # Series Operations
 
 ---
-
 ## Content
 
 Series make it super easy to analyze and transform your data. Let's track some GitHub stats:
@@ -59,7 +58,6 @@ print(busy_days)
 > 💡 Operations automatically handle missing data and index alignment
 
 ---
-
 ## Practice
 
 Calculate total cost:
@@ -78,7 +76,6 @@ total = ???
 - `qty.sum(price)`
 
 ---
-
 ## Revision
 
 Get values greater than 10:

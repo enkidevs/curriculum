@@ -1,5 +1,5 @@
 name: Pandas Series
-description: Learn about pandas' one-dimensional labeled array structure.
+description: Store and manipulate one-dimensional data
 
 insights:
   - pandas-series-creation

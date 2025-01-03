@@ -32,7 +32,6 @@ setupCode:
 # Code Review Analytics
 
 ---
-
 ## Content
 
 > 👩‍💻 Analyze code review patterns to improve team collaboration!

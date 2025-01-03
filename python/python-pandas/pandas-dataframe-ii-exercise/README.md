@@ -1,5 +1,5 @@
 name: Code Review Analytics
-description: Practice advanced DataFrame operations by analyzing code review data.
+description: Analyzing code review data with DataFrames.
 
 insights:
   - pandas-dataframe-practice-ii

@@ -27,13 +27,11 @@ setupCode:
     # 3. Normalize categories (lowercase)
     
     # 4. Convert response_needed to boolean
-
 ---
 
 # Customer Feedback Analysis
 
 ---
-
 ## Content
 
 > 👩‍💻 Help clean and standardize customer feedback data!

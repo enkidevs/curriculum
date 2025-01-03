@@ -20,7 +20,6 @@ revisionQuestion:
 # Common Methods
 
 ---
-
 ## Content
 
 Here are some essential DataFrame methods:
@@ -56,7 +55,6 @@ df.drop_duplicates()
 > 📝 These methods are some of the foundational tools for data exploration!
 
 ---
-
 ## Practice
 
 To count the number of values in a column `E`, use:
@@ -69,7 +67,6 @@ To count the number of values in a column `E`, use:
 - df['E'].count_values()
 
 ---
-
 ## Revision
 
 To check for missing values in a DataFrame, use:

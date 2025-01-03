@@ -15,7 +15,6 @@ revisionQuestion:
 # String Filtering
 
 ---
-
 ## Content
 
 Working with text data? pandas has powerful string filtering methods to help you find exactly what you're looking for:
@@ -55,7 +54,6 @@ built_in = df[df['type'].str.contains('BUILT', case=False)]
 > 💡 Always use the `.str` accessor for string operations
 
 ---
-
 ## Practice
 
 Find emails containing 'gmail':
@@ -70,7 +68,6 @@ mask = df['email'].???.contains('???')
 - `Gmail`
 
 ---
-
 ## Revision
 
 Filter names starting with 'A':

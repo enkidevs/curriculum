@@ -15,7 +15,6 @@ revisionQuestion:
 # Multi-Level Indexing
 
 ---
-
 ## Content
 
 Sometimes data has natural hierarchies. Think of tracking coding progress across different courses and years:
@@ -65,7 +64,6 @@ print(df.xs('2023', level='year'))
 > 💡 Multi-indexes help organize hierarchical data logically
 
 ---
-
 ## Practice
 
 Create a multi-index from tuples:
@@ -82,7 +80,6 @@ index = pd.MultiIndex.from_???(
 - `pairs`
 
 ---
-
 ## Revision
 
 Select all data for year 2023:

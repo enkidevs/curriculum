@@ -15,7 +15,6 @@ revisionQuestion:
 # Creating Your First Series
 
 ---
-
 ## Content
 
 A Series is like a smart list that remembers the position of each item. Perfect for tracking things like daily coding streaks:
@@ -58,7 +57,6 @@ skills = pd.Series({
 > 💡 Series automatically align data by index during calculations
 
 ---
-
 ## Practice
 
 Create a Series with custom labels:
@@ -76,7 +74,6 @@ s = pd.Series(
 - `index_labels=['a', 'b', 'c']`
 
 ---
-
 ## Revision
 
 A pandas Series is a ??? array with ???

@@ -15,7 +15,6 @@ revisionQuestion:
 # GroupBy Apply
 
 ---
-
 ## Content
 
 Sometimes you need complex operations that go beyond simple aggregations. The apply method lets you use custom functions on your groups:
@@ -56,7 +55,6 @@ df = df.groupby('repo').apply(pct_of_total)
 > 💡 `apply` is super flexible but slower than `agg` or `transform`
 
 ---
-
 ## Practice
 
 Apply a custom function to groups:
@@ -74,7 +72,6 @@ result = df.groupby('category').???(???)
 - `transform`
 
 ---
-
 ## Revision
 
 Get the top 2 values per group:

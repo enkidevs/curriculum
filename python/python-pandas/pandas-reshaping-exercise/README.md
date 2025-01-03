@@ -1,5 +1,5 @@
 name: Sales Data Analysis
-description: Practice reshaping techniques by analyzing product sales data.
+description: Analyzing product sales data with reshaping techniques.
 
 insights:
   - pandas-reshaping-practice

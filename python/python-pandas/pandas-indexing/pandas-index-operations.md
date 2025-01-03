@@ -15,7 +15,6 @@ revisionQuestion:
 # Index Operations
 
 ---
-
 ## Content
 
 Sometimes you need to reorganize how your data is indexed. Maybe you want to sort by usernames instead of signup dates:
@@ -57,7 +56,6 @@ silver   dev_guru    730
 > 💡 Use `set_index()` with `inplace=True` to modify the original DataFrame
 
 ---
-
 ## Practice
 
 Reset index to default numbers:
@@ -72,7 +70,6 @@ new_df = df.???()
 - `remove_index`
 
 ---
-
 ## Revision
 
 Set 'name' column as the new index:

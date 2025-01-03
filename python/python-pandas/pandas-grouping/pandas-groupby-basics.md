@@ -15,7 +15,6 @@ revisionQuestion:
 # GroupBy Basics
 
 ---
-
 ## Content
 
 Analyzing data often means looking at how different categories compare. GroupBy helps you split, analyze, and combine your data:
@@ -56,7 +55,6 @@ Python       50000      2  100000
 > 💡 Chain operations: `df.groupby('col').mean()` works too!
 
 ---
-
 ## Practice
 
 Group by 'type' and get the mean:
@@ -72,7 +70,6 @@ result = df.???(???).???()
 - `average`
 
 ---
-
 ## Revision
 
 Get count of items per group:

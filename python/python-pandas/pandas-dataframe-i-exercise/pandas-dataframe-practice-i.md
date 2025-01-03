@@ -35,7 +35,6 @@ setupCode:
 # Open Source Project Analysis
 
 ---
-
 ## Content
 
 > 👩‍💻 Analyze popular Python packages to understand what makes them successful!

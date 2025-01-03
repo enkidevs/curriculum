@@ -1,5 +1,5 @@
 name: Bug Tracker Dashboard
-description: Create a simple bug tracking dashboard using pandas.
+description: Create your first data analysis report from scratch.
 
 insights:
   - pandas-practice-bugs

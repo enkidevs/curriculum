@@ -15,7 +15,6 @@ revisionQuestion:
 # Merge Basics
 
 ---
-
 ## Content
 
 Need to combine data from different sources? Merging helps you connect related information:
@@ -55,7 +54,6 @@ print(result)
 > 💡 Like joining tables in [https://app.enki.com/skill/sql](Skill), but in pandas!
 
 ---
-
 ## Practice
 
 Merge two DataFrames on 'id':
@@ -74,7 +72,6 @@ result = pd.???(
 - `by`
 
 ---
-
 ## Revision
 
 To merge on different column names:

@@ -15,7 +15,6 @@ revisionQuestion:
 # Common Attributes & Methods
 
 ---
-
 ## Content
 
 Essential DataFrame attributes:
@@ -44,7 +43,6 @@ print(df.dtypes)
 > 📝 These attributes help you understand the structure of your data as you build your analysis.
 
 ---
-
 ## Practice
 
 To get the dimensions of a DataFrame, use:
@@ -57,7 +55,6 @@ To get the dimensions of a DataFrame, use:
 - df.length
 
 ---
-
 ## Revision
 
 To see the column names of a DataFrame, use:
