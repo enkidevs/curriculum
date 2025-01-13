@@ -15,12 +15,6 @@ sections:
     - python-matplotlib-scatter-plots
     - python-matplotlib-scatter-plots-exercise
     
-    # Essential customization (needed for all plots)
-    - python-matplotlib-labels-titles
-    - python-matplotlib-labels-titles-exercise
-    - python-matplotlib-colors-markers
-    - python-matplotlib-colors-markers-exercise
-    
     # More plot types
     - python-matplotlib-bar-plots
     - python-matplotlib-bar-plots-exercise
@@ -38,6 +32,3 @@ sections:
     - python-matplotlib-styles-exercise
     - python-matplotlib-annotations
     - python-matplotlib-annotations-exercise
-
-next:
-  - python:python-seaborn 
