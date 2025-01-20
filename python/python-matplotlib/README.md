@@ -9,13 +9,9 @@ sections:
     
     # Basic plot types
     - python-matplotlib-line-plots
-    - python-matplotlib-line-plots-exercise
-    
-    # Basic plot types (increasing complexity)
+    - python-matplotlib-line-plots-exercise    
     - python-matplotlib-scatter-plots
     - python-matplotlib-scatter-plots-exercise
-    
-    # More plot types
     - python-matplotlib-bar-plots
     - python-matplotlib-bar-plots-exercise
     - python-matplotlib-histograms
@@ -32,3 +28,9 @@ sections:
     - python-matplotlib-styles-exercise
     - python-matplotlib-annotations
     - python-matplotlib-annotations-exercise
+    - python-matplotlib-boxplots
+    - python-matplotlib-boxplots-exercise
+    - python-matplotlib-error-bars
+    - python-matplotlib-error-bars-exercise
+    - python-matplotlib-pie-charts
+    - python-matplotlib-pie-charts-exercise

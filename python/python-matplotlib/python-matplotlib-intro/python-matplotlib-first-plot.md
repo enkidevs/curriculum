@@ -1,92 +1,83 @@
 ---
 author: enki-ai
 type: normal
-category: must-know
-practiceQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
-revisionQuestion:
-  formats:
-    - fill-in-the-gap
-  context: standalone
+category: coding
+setupCode:
+  startingPoint: |
+    # Welcome to your first Matplotlib visualization!
+    # Create a line plot showing monthly coffee sales
+    
+    import matplotlib.pyplot as plt
+    
+    # Data for coffee sales
+    months = [1, 2, 3, 4, 5]
+    sales = [100, 120, 140, 180, 200]
+    
+    # Your tasks:
+    # 1. Create a line plot with points using months and sales
+    # 2. Add a title "Coffee Shop Sales"
+    # 3. Label x-axis as "Month" and y-axis as "Sales ($)"
+    # 4. Make the line red with circular markers
+    
+    # Type your code here:
+
 ---
 
 # Your First Plot
 
 ---
+
 ## Content
 
-Let's create your first data visualization with matplotlib:
+> 👩‍💻 Your task is to create your first data visualization that:
+> - **plots monthly coffee sales data as a line graph**
+> - **adds a title and axis labels**
+> - **customizes the line style with red color and circular markers**
 
-```python
-import matplotlib.pyplot as plt
+Here's an example output:
 
-# Monthly coffee sales
-months = [1, 2, 3, 4, 5]
-sales = [100, 120, 140, 180, 200]
+![output](https://img.enkipro.com/dcd5200ebd14859da89ce707c1b19734.png)
 
-plt.plot(months, sales)
-plt.show()
-```
+To solve this, try using these matplotlib functions:
+- plotting data (`plt.plot()`)
+- adding title (`plt.title()`)
+- adding axis labels (`plt.xlabel()`, `plt.ylabel()`)
+- displaying the plot (`plt.show()`)
 
-> 💡 The `plot()` function creates a line plot - perfect for showing trends over time!
+Give it an honest try, and feel free to share your solution!
 
-Let's make it more informative:
+If you're stuck, you can always read this footnote[1] or review the comments section.
 
-```python
-plt.plot(months, sales)
-plt.title("Coffee Shop Sales")
-plt.xlabel("Month")
-plt.ylabel("Sales ($)")
-plt.show()
-```
+😇 Help us build an uplifting community by leaving encouraging comments or by upvoting your favorite ones!
 
-You can customize the line style:
+> 💡 Remember: Use 'ro-' as the format string to create a red line with circular markers
 
-```python
-# 'o' adds points, 'r' makes it red
-plt.plot(months, sales, 'ro-')
-plt.title("Coffee Shop Sales")
-plt.show()
-```
-
-> 🎨 Different markers show your data in different ways:
-> - 'o': circles
-> - 's': squares
-> - '^': triangles
+> 🤓 Happy learning! Open the playground and start coding!
 
 ---
-## Practice
 
-Create a plot showing website visitors over time:
+## Footnotes
+
+[1: Hints]
+
+Here's how to create a basic line plot:
 
 ```python
-days = [1, 2, 3, 4]
-visitors = [50, 80, 100, 70]
+# Create a simple line plot
+plt.plot(x_data, y_data)
 
-plt.???(days, visitors)
-plt.???(???)
+# Add a title
+plt.title("Your Title Here")
+
+# Add axis labels
+plt.xlabel("X Label")
+plt.ylabel("Y Label")
+
+# Show the plot
 plt.show()
 ```
 
-- `plot`
-- `title`
-- `"Website Traffic"`
-- `graph`
-- `name`
-- `"Plot"`
-
----
-## Revision
-
-To add points to your line plot, use:
-
-```python
-plt.plot(x, y, ???)
-```
-
-- `'o-'`
-- `'points'`
-- `'dots'`
-- `'line'` 
+To customize the line style, add a format string as the third argument in `plot()`:
+- 'r' makes it red
+- 'o' adds circular markers
+- '-' creates a solid line 

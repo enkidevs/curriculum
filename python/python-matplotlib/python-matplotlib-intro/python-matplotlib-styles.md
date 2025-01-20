@@ -35,6 +35,8 @@ plt.plot(x, y)
 plt.show()
 ```
 
+![output](https://img.enkipro.com/4e2c3a0969efc26b6edef0c17454b976.png)
+
 > 💡 The 'seaborn' style is great for modern, clean-looking plots!
 
 You can also use colors and line styles:

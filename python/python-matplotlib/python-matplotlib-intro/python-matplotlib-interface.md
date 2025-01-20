@@ -31,6 +31,8 @@ plt.plot(x, y)
 plt.show()
 ```
 
+![output](https://img.enkipro.com/7f2163278be60d21607557ad2b4ce22f.png)
+
 > 💡 Always use `plt.show()` to display your plot!
 
 Matplotlib has two main ways to create plots:
@@ -48,7 +50,7 @@ ax.set_title("My Plot")
 plt.show()
 ```
 
-> 🎨 The object-oriented interface gives you more control over your plots!
+> 🎨 The object-oriented interface gives you more control over your plots! It allows you to manage multiple plots and their properties independently through separate axis objects.
 
 ---
 ## Practice
@@ -56,7 +58,7 @@ plt.show()
 Complete the code to create a basic plot:
 
 ```python
-import matplotlib.pyplot as ???
+import ??? as plt
 
 x = [1, 2, 3]
 y = [4, 5, 6]
@@ -65,10 +67,11 @@ plt.???(x, y)
 plt.???()
 ```
 
-- `pyplot`
+- `matplotlib.pyplot`
 - `plot`
 - `show`
 - `matplotlib`
+- `matplotlib.plt`
 - `draw`
 - `display`
 

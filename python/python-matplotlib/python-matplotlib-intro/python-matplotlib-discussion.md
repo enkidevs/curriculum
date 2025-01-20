@@ -9,21 +9,9 @@ category: discussion
 ---
 ## Content
 
-Data visualization is about telling stories with data. Let's look at some common scenarios:
+Matplotlib helps you visualize data and the key to effective data visualization is telling stories with data. 
 
-```python
-import matplotlib.pyplot as plt
-
-# Time series data
-temperatures = [20, 22, 25, 27, 23]
-plt.plot(temperatures)
-plt.title("Temperature Over Time")
-plt.show()
-```
-
-> 💡 Different plots tell different stories!
-
-Common visualization types and their uses:
+To warm us up for the upcoming workouts, let's look at some common visualization types and their uses:
 - Line plots: Changes over time
 - Bar plots: Comparing categories
 - Scatter plots: Relationships between variables

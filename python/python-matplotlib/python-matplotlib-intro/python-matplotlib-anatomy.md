@@ -26,14 +26,16 @@ import matplotlib.pyplot as plt
 plt.plot([1, 2, 3], [4, 5, 6])
 
 # Add components
-plt.title("Sales Data")      # Title
-plt.xlabel("Month")          # X-axis label
-plt.ylabel("Revenue ($)")    # Y-axis label
-plt.grid(True)              # Grid lines
+plt.title("Sales Data")   # Title
+plt.xlabel("Month")       # X-axis label
+plt.ylabel("Revenue ($)") # Y-axis label
+plt.grid(True)            # Grid lines
 plt.show()
 ```
 
-> 💡 Think of a plot like a painting - each element adds meaning!
+![output](https://img.enkipro.com/6d126e13714fca43750b757261a81089.png)
+
+> 💡 Every visual element in matplotlib has its own method - from `plt.title()` for titles to `plt.grid()` for gridlines!
 
 Here's where everything goes:
 
@@ -56,7 +58,7 @@ plt.show()
 Match the component with its purpose:
 
 ```python
-plt.???(figsize=(8, 6))  # Set plot size
+plt.???(figsize=(8, 6)) # Set plot size
 plt.???(True)           # Add reference lines
 plt.???("Time")         # Name the x-axis
 ```
@@ -64,6 +66,7 @@ plt.???("Time")         # Name the x-axis
 - `figure`
 - `grid`
 - `xlabel`
+- `xaxis`
 - `canvas`
 - `lines`
 - `name`
