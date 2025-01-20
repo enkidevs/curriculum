@@ -24,6 +24,8 @@ plt.ylabel("Number of Downloads")
 plt.show()
 ```
 
+![output](https://img.enkipro.com/2deed0cd61fa048b31c75abe224d5f60.png)
+
 > 💡 Bar plots work best with categorical data!
 
 Sometimes other plots might be better:
@@ -33,9 +35,11 @@ Sometimes other plots might be better:
 months = ['Jan', 'Feb', 'Mar', 'Apr']
 trend = [500, 520, 580, 600]
 plt.plot(months, trend, marker='o')
-plt.title("Monthly Downloads")
+plt.title("App Monthly Downloads")
 plt.show()
 ```
+
+![output](https://img.enkipro.com/31a8f1fa49da0739b0d6147273e12549.png)
 
 > 💬 Think about these scenarios:
 > - Survey responses by age group

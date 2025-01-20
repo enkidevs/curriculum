@@ -45,6 +45,8 @@ plt.legend()
 plt.show()
 ```
 
+![output](https://img.enkipro.com/99121a38516c8c34a553dc77ef3dccf3.png)
+
 > 💡 Offset each group's position using width/2!
 
 You can also stack bars:
@@ -56,6 +58,8 @@ plt.bar(products, q2_sales, bottom=q1_sales, label='Q2')
 plt.legend()
 plt.show()
 ```
+
+![output](https://img.enkipro.com/9737b3b2d3734ae7b7515f0e2034f4db.png)
 
 > 🎯 Use `bottom` parameter to stack bars on top of each other!
 

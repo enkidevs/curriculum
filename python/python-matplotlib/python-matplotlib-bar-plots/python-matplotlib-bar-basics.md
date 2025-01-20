@@ -33,20 +33,24 @@ plt.ylabel("Units Sold")
 plt.show()
 ```
 
+![output](https://img.enkipro.com/fcfa32f72bd654328e93884f33602107.png)
+
 > 💡 Bar plots make it easy to compare values across categories!
 
 You can customize the bars:
 
 ```python
 plt.bar(products, sales,
-        color='skyblue',     # Bar color
-        width=0.6,           # Bar width
-        align='center',      # Alignment
-        alpha=0.7)           # Transparency
+        color='skyblue', # Bar color
+        width=0.6,       # Bar width
+        align='center',  # Alignment
+        alpha=0.7)       # Transparency
 
-plt.grid(True, axis='y')     # Add horizontal grid
+plt.grid(True, axis='y') # Add horizontal grid
 plt.show()
 ```
+
+![output](https://img.enkipro.com/f5f17e58a0c50af578de0385b54b4d23.png)
 
 > 🎯 Use colors and grids to make your bars stand out!
 

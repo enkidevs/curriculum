@@ -42,6 +42,8 @@ plt.title('Monthly Revenue')
 plt.show()
 ```
 
+![output](https://img.enkipro.com/cb50670d524545895d6dd0e4c795e70b.png)
+
 > 💡 Adding value labels helps readers see exact numbers!
 
 You can also use different colors for each bar:
@@ -57,6 +59,8 @@ plt.axhline(y=170, color='gray', linestyle='--',
 plt.legend()
 plt.show()
 ```
+
+![output](https://img.enkipro.com/1f868b0123e7501a42dcddee903cf47e.png)
 
 > 🎯 Use colors to highlight important data points!
 
