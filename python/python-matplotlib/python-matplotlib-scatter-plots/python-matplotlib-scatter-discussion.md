@@ -25,6 +25,8 @@ plt.ylabel("Weight (kg)")
 plt.show()
 ```
 
+![output](https://img.enkipro.com/6cba2ee7fa906a06745f1c1d59eb2b11.png)
+
 > 💡 Scatter plots reveal patterns and correlations!
 
 Sometimes other plots might be better:
@@ -37,6 +39,8 @@ plt.plot(hours, temp, 'b-')
 plt.title("Temperature Changes")
 plt.show()
 ```
+
+![output](https://img.enkipro.com/80307cc1e46f97534b4b60306493b7ef.png)
 
 > 💬 Think about these scenarios:
 > - Student grades vs. study time

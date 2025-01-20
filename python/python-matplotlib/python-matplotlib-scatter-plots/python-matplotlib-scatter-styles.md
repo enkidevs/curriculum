@@ -35,6 +35,8 @@ plt.title("Age vs. Screen Time")
 plt.show()
 ```
 
+![output](https://img.enkipro.com/f2e8621e579b9b75ad5c5afc029f54b6.png)
+
 > 💡 Different markers help distinguish groups of data!
 
 Common marker styles:
@@ -44,15 +46,19 @@ plt.figure(figsize=(10, 4))
 
 # Plot with different markers
 x = [1, 2, 3]
-y = [1, 1, 1]
+y_circles = [1, 1, 1]
+y_triangles = [2, 2, 2]
+y_squares = [3, 3, 3]
 
-plt.scatter(x, y, marker='o', label='Circles')
-plt.scatter(x, y, marker='^', label='Triangles')
-plt.scatter(x, y, marker='s', label='Squares')
+plt.scatter(x, y_circles, marker='o', label='Circles')
+plt.scatter(x, y_triangles, marker='^', label='Triangles')
+plt.scatter(x, y_squares, marker='s', label='Squares')
 
 plt.legend()
 plt.show()
 ```
+
+![output](https://img.enkipro.com/33800e9cb188ac1adcfe83cff4c65e43.png)
 
 > 🎨 Available markers:
 > - 'o': circles

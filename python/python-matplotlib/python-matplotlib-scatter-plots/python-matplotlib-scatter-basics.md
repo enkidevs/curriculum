@@ -33,6 +33,8 @@ plt.ylabel("Test Score")
 plt.show()
 ```
 
+![output](https://img.enkipro.com/2d45f10fb2bd4fc935faca782c07cb9f.png)
+
 > 💡 Each point represents one observation (e.g., one student)!
 
 You can control point size and color:
@@ -47,6 +49,8 @@ plt.scatter(study_hours, test_scores,
            alpha=0.5)       # Transparency
 plt.show()
 ```
+
+![output](https://img.enkipro.com/aa5a1192ba5e9ed8ffe4943570ec9f5f.png)
 
 > 🎯 Use size and color to add extra dimensions to your data!
 

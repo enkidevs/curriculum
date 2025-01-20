@@ -21,7 +21,6 @@ Let's make scatter plots more informative with colors and sizes:
 
 ```python
 import matplotlib.pyplot as plt
-import numpy as np
 
 # Student data: hours studied, score, stress level
 hours = [2, 3, 1, 4, 2, 3, 5]
@@ -38,6 +37,8 @@ plt.colorbar(label='Stress Level')
 plt.show()
 ```
 
+![output](https://img.enkipro.com/7b1b1abdc3a31f9a160ee6064667f942.png)
+
 > 💡 Use colormaps to show a third variable in your data!
 
 You can also vary point sizes:
@@ -52,6 +53,8 @@ plt.scatter(hours, scores,
            c='blue')         # Fixed color
 plt.show()
 ```
+
+![output](https://img.enkipro.com/09c391ea0eb028d362ae581b8ed087d6.png)
 
 > 🎯 Combine colors and sizes to show even more information!
 
