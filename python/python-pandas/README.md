@@ -29,3 +29,6 @@ sections:
     - pandas-practice-code-review
     - pandas-practice-bug-tracker
     - pandas-practice-user-activity
+
+next:
+  - python:python-matplotlib

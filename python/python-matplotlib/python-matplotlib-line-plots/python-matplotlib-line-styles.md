@@ -30,11 +30,9 @@ y = [10, 15, 13, 17]
 plt.plot(x, y, 'r--')  # Red dashed line
 plt.title("Dashed Line")
 plt.show()
-
-plt.plot(x, y, 'bo-')  # Blue line with dots
-plt.title("Line with Dots")
-plt.show()
 ```
+
+![output](https://img.enkipro.com/22ff1d9f6e8afa72d20d6731aa298ec5.png)
 
 > 💡 Combine color, marker, and line style in one string: 'color marker line'
 

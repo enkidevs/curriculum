@@ -38,6 +38,8 @@ plt.legend()  # Show labels
 plt.show()
 ```
 
+![output](https://img.enkipro.com/22ff1d9f6e8afa72d20d6731aa298ec5.png)
+
 > 💡 Always use different styles for multiple lines to make them distinguishable!
 
 You can also plot calculated values:
@@ -49,6 +51,8 @@ plt.plot(months, total, 'g^-', label='Total')
 plt.legend()
 plt.show()
 ```
+
+![output](https://img.enkipro.com/fec2440aa86198236823349187f426eb.png)
 
 > 🎯 Use legends to explain what each line represents!
 

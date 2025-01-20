@@ -33,6 +33,8 @@ plt.ylabel("Sales ($)")
 plt.show()
 ```
 
+![output](https://img.enkipro.com/a885d0ba10d8fb0f01332dedb3525302.png)
+
 > 💡 Line plots connect points in order - great for time series data!
 
 You can control the appearance:
@@ -40,13 +42,15 @@ You can control the appearance:
 ```python
 # Same data, different style
 plt.plot(months, sales,
-         color='blue',       # Line color
-         linewidth=2,        # Line thickness
-         marker='o',         # Add points
-         markersize=8)       # Point size
-plt.grid(True)              # Add grid
+         color='blue', # Line color
+         linewidth=2,  # Line thickness
+         marker='o',   # Add points
+         markersize=8) # Point size
+plt.grid(True)         # Add grid
 plt.show()
 ```
+
+![output](https://img.enkipro.com/5cee99475ee628560e42bc169aca629c.png)
 
 > 🎯 Use markers to highlight actual data points!
 
