@@ -51,6 +51,8 @@ plt.tight_layout()
 plt.show()
 ```
 
+![output](https://img.enkipro.com/b5f2abc9274b89a72e6005e746068583.png)
+
 > 💡 Use tuples in position to span multiple subplot spaces!
 
 You can also create uneven layouts:
@@ -74,6 +76,8 @@ ax3.plot(x, y3)
 plt.tight_layout()
 plt.show()
 ```
+
+![output](https://img.enkipro.com/051003506798bf1a480e262b2f87c5ec.png)
 
 > 🎯 Use `subplot2grid` for more complex layouts!
 

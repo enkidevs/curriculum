@@ -47,6 +47,8 @@ plt.tight_layout()  # Adjust spacing
 plt.show()
 ```
 
+![output](https://img.enkipro.com/0168ade7f14c6f077a312db64c8d3e4c.png)
+
 > 💡 `subplot(rows, cols, position)` defines the layout and location!
 
 You can also use the object-oriented interface:

@@ -47,6 +47,8 @@ plt.tight_layout()
 plt.show()
 ```
 
+![output](https://img.enkipro.com/ab7652792e8c9df2edd5ccc987b98cbd.png)
+
 > 💡 `sharex=True` removes redundant x-axis labels!
 
 You can also share y-axes:
@@ -71,6 +73,8 @@ for ax, title in zip([ax1, ax2, ax3, ax4],
 
 plt.show()
 ```
+
+![output](https://img.enkipro.com/92d25b4d0d26821a8a1dd11eed163498.png)
 
 > 🎯 Sharing axes helps compare data on the same scale!
 

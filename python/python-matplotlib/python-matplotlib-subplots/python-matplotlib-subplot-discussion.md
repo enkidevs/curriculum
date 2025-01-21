@@ -37,6 +37,8 @@ plt.title('Sales Difference (P1 - P2)')
 plt.show()
 ```
 
+![output](https://img.enkipro.com/0af4c204ea873041cf63f0d212c232e3.png)
+
 > 💡 Different plot types can tell different parts of the story!
 
 > 💬 Think about these scenarios:

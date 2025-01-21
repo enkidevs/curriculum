@@ -34,6 +34,8 @@ plt.ylabel("Frequency")
 plt.show()
 ```
 
+![output](https://img.enkipro.com/c90dce3d0306171b749f604af5ed3ff8.png)
+
 > 💡 Histograms group data into bins and show how many values fall in each bin!
 
 You can control the bins:
@@ -50,6 +52,8 @@ plt.hist(scores,
 plt.grid(True, alpha=0.3)
 plt.show()
 ```
+
+![output](https://img.enkipro.com/2ae7ea5d94e86c349537882bfb34da90.png)
 
 > 🎯 More bins show more detail, fewer bins show general patterns!
 

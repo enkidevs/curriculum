@@ -44,6 +44,8 @@ plt.legend()
 plt.show()
 ```
 
+![output](https://img.enkipro.com/fb0c04770ddf0efefa37c9b7229d05ba.png)
+
 > 💡 Use transparency (alpha) to see overlapping distributions!
 
 You can also plot side by side:
@@ -63,6 +65,8 @@ plt.title("Class B")
 plt.tight_layout()  # Adjust spacing
 plt.show()
 ```
+
+![output](https://img.enkipro.com/deca8a0432b4a13eb8d61b9e30d5fe95.png)
 
 > 🎯 Choose the layout that best shows your comparison!
 

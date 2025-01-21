@@ -46,6 +46,8 @@ plt.legend()
 plt.show()
 ```
 
+![output](https://img.enkipro.com/cf1a5bfb15135d3298257eb15afa691a.png)
+
 > 💡 Use `density=True` to show proportions instead of counts!
 
 You can also customize bin edges:
@@ -60,6 +62,8 @@ plt.hist(data,
 plt.xticks(custom_bins)     # Show all bin edges
 plt.show()
 ```
+
+![output](https://img.enkipro.com/ed79eb830af30fe22406487b43c7b05b.png)
 
 > 🎯 Custom bins help highlight specific ranges in your data!
 
