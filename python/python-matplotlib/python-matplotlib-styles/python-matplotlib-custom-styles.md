@@ -52,6 +52,8 @@ plt.grid(True,
 plt.show()
 ```
 
+![output](https://img.enkipro.com/b1e000bdb27a925baed953fdabc10e77.png)
+
 > 💡 Use hex color codes (#RRGGBB) for precise colors!
 
 You can also set default styles:

@@ -29,7 +29,7 @@ y1 = np.sin(x)
 y2 = np.cos(x)
 
 # Compare different styles
-styles = ['seaborn', 'ggplot', 'fivethirtyeight', 'bmh']
+styles = ['seaborn', 'ggplot', 'classic', 'dark_background']
 
 plt.figure(figsize=(12, 8))
 for i, style in enumerate(styles, 1):
@@ -42,6 +42,8 @@ for i, style in enumerate(styles, 1):
 plt.tight_layout()
 plt.show()
 ```
+
+![output](https://img.enkipro.com/ab4b61f84929473d15e56073d2468328.png)
 
 > 💡 Each style has its own color palette and design elements!
 

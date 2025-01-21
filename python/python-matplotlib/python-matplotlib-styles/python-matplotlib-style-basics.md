@@ -41,6 +41,8 @@ plt.grid(True)
 plt.show()
 ```
 
+![output](https://img.enkipro.com/3e449983030cb705e38ba82d46855c38.png)
+
 > 💡 Styles affect all plots until changed or reset!
 
 You can also use styles temporarily:

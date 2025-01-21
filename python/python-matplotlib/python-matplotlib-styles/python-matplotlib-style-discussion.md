@@ -33,6 +33,8 @@ plt.legend()
 plt.show()
 ```
 
+![output](https://img.enkipro.com/209054a55f2a6a87736558f42cd671dd.png)
+
 > 💡 Professional plots need clear, readable styles!
 
 Different contexts need different styles:
