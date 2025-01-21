@@ -39,6 +39,8 @@ plt.grid(True)
 plt.show()
 ```
 
+![output](https://img.enkipro.com/f9545c22e0b2cdffd621d05438e38a9e.png)
+
 > 💡 Always use `label` parameter and call `plt.legend()`!
 
 You can control legend position:
@@ -60,6 +62,8 @@ plt.title('Functions with Legend')
 # 'center'
 plt.show()
 ```
+
+![output](https://img.enkipro.com/463a3682c2780c5aa08c1e13b820f229.png)
 
 > 🎯 Choose a legend location that doesn't overlap with important data!
 

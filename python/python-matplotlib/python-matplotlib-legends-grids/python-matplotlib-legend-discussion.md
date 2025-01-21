@@ -34,6 +34,8 @@ plt.title('Investment Growth Comparison')
 plt.show()
 ```
 
+![output](https://img.enkipro.com/08d1344cf1f6688ef1f172b85c5dbb00.png)
+
 > 💡 Legends are essential when comparing multiple data series!
 
 > 💬 Think about these scenarios:

@@ -45,6 +45,8 @@ plt.title('Custom Grid')
 plt.show()
 ```
 
+![output](https://img.enkipro.com/8502920b48e3a5b36b83270d3f86ef16.png)
+
 > 💡 Subtle grids help guide the eye without distracting!
 
 You can also control which axes show grid lines:
@@ -67,6 +69,8 @@ plt.grid(True, axis='y',  # Only y-axis grid
 plt.title('Different X and Y Grids')
 plt.show()
 ```
+
+![output](https://img.enkipro.com/928cac30e4d45ddd3e9c33dec3a4dce9.png)
 
 > 🎯 Use different grid styles to emphasize important scales!
 

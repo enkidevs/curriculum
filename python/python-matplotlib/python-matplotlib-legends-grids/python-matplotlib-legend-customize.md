@@ -47,6 +47,8 @@ plt.tight_layout()  # Adjust layout for legend
 plt.show()
 ```
 
+![output](https://img.enkipro.com/8bcf401b308603659702561d2515d42a.png)
+
 > 💡 Use `bbox_to_anchor` to place legend outside the plot!
 
 You can also create multiple legends:
@@ -66,6 +68,8 @@ plt.legend([line3], ['Neg Exp'],
           loc='lower right', title='Second Group')
 plt.show()
 ```
+
+![output](https://img.enkipro.com/32c310cde27c2e221e7ce06dba50b176.png)
 
 > 🎯 Multiple legends help organize complex plots!
 
