@@ -22,22 +22,24 @@ prices = [100, 105, 103, 107, 115, 125, 120, 118, 130, 135, 132, 140]
 plt.figure(figsize=(12, 6))
 plt.plot(dates, prices, 'b-', linewidth=2)
 
-# Annotate key events
+# Annotate key events with datetime64 format
 plt.annotate('Product Launch',
-            xy=('2023-03', 107),
-            xytext=('2023-02', 95),
-            arrowprops=dict(facecolor='red', shrink=0.05))
+             xy=(np.datetime64('2023-03'), 107),
+             xytext=(np.datetime64('2023-02'), 95),
+             arrowprops=dict(facecolor='red', shrink=0.05))
 
 plt.annotate('Market Peak',
-            xy=('2023-06', 125),
-            xytext=('2023-07', 135),
-            bbox=dict(facecolor='yellow', alpha=0.3),
-            arrowprops=dict(facecolor='black'))
+             xy=(np.datetime64('2023-06'), 125),
+             xytext=(np.datetime64('2023-07'), 135),
+             bbox=dict(facecolor='yellow', alpha=0.3),
+             arrowprops=dict(facecolor='black'))
 
 plt.title('Stock Price with Annotated Events')
 plt.grid(True, alpha=0.3)
 plt.show()
 ```
+
+![output](https://img.enkipro.com/8bc8a7175e7c542917bed085ee921e65.png)
 
 > 💡 Annotations help tell the story behind your data!
 

@@ -45,6 +45,8 @@ plt.title('Sine Wave with Arrow Annotation')
 plt.show()
 ```
 
+![output](https://img.enkipro.com/f9673066fdc2ec562fce027c6fc6b8db.png)
+
 > 💡 Use `arrowprops` to customize arrow appearance!
 
 You can create different arrow styles:
@@ -74,6 +76,8 @@ plt.annotate('Fancy Arrow',
 
 plt.show()
 ```
+
+![output](https://img.enkipro.com/324e5804d6fa7d470aec189ba6e06640.png)
 
 > 🎯 Different arrow styles help emphasize different features!
 

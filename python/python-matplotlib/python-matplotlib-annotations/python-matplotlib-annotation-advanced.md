@@ -49,6 +49,8 @@ plt.title('Advanced Text Annotations')
 plt.show()
 ```
 
+![output](https://img.enkipro.com/e582b30c3c9fb3b509e3b0b1dec71b14.png)
+
 > 💡 Use `\n` for multi-line text and `rotation` for angled text!
 
 You can also create custom annotation styles:
@@ -78,6 +80,8 @@ plt.text(7, 0.5, r'$\sin(x)=\frac{e^{ix}-e^{-ix}}{2i}$',
 
 plt.show()
 ```
+
+![output](https://img.enkipro.com/660e5a73188656ab8318461fd868cb1d.png)
 
 > 🎯 Use LaTeX formatting with `r'$formula$'` for mathematical expressions!
 

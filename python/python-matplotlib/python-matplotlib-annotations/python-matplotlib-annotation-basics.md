@@ -51,6 +51,8 @@ plt.grid(True)
 plt.show()
 ```
 
+![output](https://img.enkipro.com/3bcdd263fabe82cd9ab39c8cd55add83.png)
+
 > 💡 Use `plt.text(x, y, 'text')` to place text at specific coordinates!
 
 You can also annotate specific points:
@@ -70,6 +72,8 @@ plt.annotate('Important Point',
 
 plt.show()
 ```
+
+![output](https://img.enkipro.com/6b6692524daac3d061d07cfcb071ad55.png)
 
 > 🎯 Annotations help highlight important features in your data!
 
