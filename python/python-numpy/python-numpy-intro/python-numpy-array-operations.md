@@ -25,7 +25,7 @@ Basic math on entire arrays:
 ```python
 prices = np.array([10, 20, 30])
 
-# Add 5 to all prices
+# Subtract 5 from all prices
 sale_prices = prices - 5     # array([5, 15, 25])
 
 # Calculate 20% discount
