@@ -28,9 +28,3 @@ sections:
     - python-matplotlib-styles-exercise
     - python-matplotlib-annotations
     - python-matplotlib-annotations-exercise
-    - python-matplotlib-boxplots
-    - python-matplotlib-boxplots-exercise
-    - python-matplotlib-error-bars
-    - python-matplotlib-error-bars-exercise
-    - python-matplotlib-pie-charts
-    - python-matplotlib-pie-charts-exercise
