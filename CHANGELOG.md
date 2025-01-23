@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## January 23rd 2025
+
+### Changed
+- [Python - Launch Matplotlib](https://github.com/enkidevs/curriculum/pull/3339)
+
 ## December 30st 2024
 
 ### Changed
