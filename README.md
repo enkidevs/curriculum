@@ -5,3 +5,28 @@ Welcome to our open-source content repository! At Enki, we feel that education i
 Learning happens best in a psychologically safe environment, so we've adopted the [contributor covenant](https://www.contributor-covenant.org/) as our code of conduct. If a list of rules isn't helping you envision what we're after, [here's another great resource](https://www.recurse.com/manual#sec-environment) (from The Recurse Center, read the Social Rules section) for how to participate in creating a community you'd like to be a part of. We _will_ enforce this, please get in touch with content-team@enki.com with questions or concerns. **Everyone** is learning all the time, so disputes will be arbitrated first, and good-faith efforts are what is expected.
 
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. In simpler terms, it means you can't charge other people to use it, or use it to make money, but you can definitely use it to help people learn and you're free to remix or adapt what we have, so long as you attribute Enki, and the author of the work.
+
+- interview-patterns-binary-search-basic
+- interview-patterns-binary-search-basic-exercise
+- interview-patterns-binary-search-modified
+- interview-patterns-binary-search-modified-exercise
+- interview-patterns-two-pointers-basic
+- interview-patterns-two-pointers-basic-exercise
+- interview-patterns-fast-slow-basic
+- interview-patterns-fast-slow-basic-exercise
+- interview-patterns-merge-intervals-basic
+- interview-patterns-merge-intervals-basic-exercise
+- interview-patterns-cyclic-sort-basic
+- interview-patterns-cyclic-sort-basic-exercise
+- interview-patterns-inplace-reversal-basic
+- interview-patterns-inplace-reversal-basic-exercise
+- interview-patterns-tree-bfs-basic
+- interview-patterns-tree-bfs-basic-exercise
+- interview-patterns-tree-dfs-basic
+- interview-patterns-tree-dfs-basic-exercise
+- interview-patterns-subsets-basic
+- interview-patterns-subsets-basic-exercise
+- interview-patterns-top-k-basic
+- interview-patterns-top-k-basic-exercise
+- interview-patterns-k-way-merge-basic
+- interview-patterns-k-way-merge-basic-exercise
