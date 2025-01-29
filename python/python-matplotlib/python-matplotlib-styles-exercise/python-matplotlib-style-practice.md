@@ -44,7 +44,7 @@ This exercise will help you practice:
 
 Example of what you might create:
 ```python
-plt.style.use('seaborn')
+plt.style.use('seaborn-v0_8')
 plt.figure(figsize=(12, 8))
 
 # Revenue plot

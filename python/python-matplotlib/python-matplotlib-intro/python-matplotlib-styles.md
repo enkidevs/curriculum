@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 print(plt.style.available)
 
 # Use a specific style
-plt.style.use('seaborn')
+plt.style.use('seaborn-v0_8')
 
 # Create a styled plot
 x = [1, 2, 3, 4]
@@ -74,7 +74,7 @@ plt.plot(x, y, ???)
 To use the seaborn style:
 
 ```python
-plt.???.???(???)
+plt.???.???('seaborn-v0_8-darkgrid')
 ```
 
 - `style`

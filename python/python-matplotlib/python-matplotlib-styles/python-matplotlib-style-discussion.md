@@ -21,7 +21,7 @@ sales = [10000, 11500, 12100, 15000, 16500, 18000]
 costs = [8000, 9000, 9500, 11000, 12000, 13000]
 
 # Business presentation style
-plt.style.use('seaborn')
+plt.style.use('seaborn-v0_8')
 plt.figure(figsize=(10, 6))
 
 plt.plot(months, sales, 'o-', linewidth=2, label='Sales')

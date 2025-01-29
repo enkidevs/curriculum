@@ -27,7 +27,7 @@ import numpy as np
 print(plt.style.available)
 
 # Use a specific style
-plt.style.use('seaborn')
+plt.style.use('seaborn-v0_8')
 
 # Create sample data
 x = np.linspace(0, 10, 100)
