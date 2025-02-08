@@ -19,7 +19,7 @@ revisionQuestion:
 
 ## Content
 
-The HTML `<code>` element is used to display a fragment of a computer code.
+The `<code>` element is used to display a fragment of a computer code.
 
 Example:
 
@@ -38,7 +38,7 @@ Code Result:
 
 ![code-element](https://img.enkipro.com/ac35ba3ba120e7bad24f65ba88ec7776.png)
 
-The default font style for the `<code>` element for most browsers is the monospace font.
+For most browsers, the default font style for the `<code>` element is the monospace font.
 
 > 💡 It's best to use the `<code>` element to style content for HTML elements, CSS rules, filenames, and JS scripts. With a little CSS, the code used can stand out more on a page like this:
 

@@ -24,7 +24,7 @@ revisionQuestion:
 
 ## Content
 
-The HTML `<q>`, or the **Inline Quotation** element, is used for indicating short quotations. This element is displayed as an inline element and is typically used for short quotations that don't require paragraph breaks. On the other hand, if you need a larger quotation, you should use the `<blockquote>` element.
+The `<q>`, or the **Inline Quotation** element, is displayed as an inline element and is typically used for short quotations that don't require paragraph breaks. On the other hand, if you need a larger quotation, you should use the `<blockquote>` element.
 
 Most browsers display the `<q>` element by placing quotation marks around the content.
 
