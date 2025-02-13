@@ -24,11 +24,6 @@ practiceQuestion:
 ## Content
 
 
-Python is the world's fastest-growing programming language.
-
-It's designed to be easy to read, using English keywords and simple syntax[1].
-
-For example, here's how you might check whether a number is greater than another number:
 
 ```python
 my_age = 23
@@ -68,14 +63,3 @@ if my_age >= legal_age:
 - state
 - write
 - log
-
----
-
-## Footnotes
-
-[1:Syntax]
-The syntax of a programming language sets the rules on how a language can be written and understood by the computer.
-
-The same idea exists in human languages. 
-
-The English language has unique types of words like *verb* and *nouns* and rules on which should come first to make a correct sentence; Python has a different set of rules on making valid Python statements.
