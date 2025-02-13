@@ -48,6 +48,11 @@ Types of change:
 
 ### Fixed
 
+## February 13th 2025
+
+### Added
+- [Python - Readme - add startingPoint](https://github.com/Stefan-Stojanovic/curriculum/pull/3)
+
 ## January 23rd 2025
 
 ### Changed
