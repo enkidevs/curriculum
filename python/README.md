@@ -17,7 +17,9 @@ availableAspects:
 startingPoints:
   - title: Functional Programming in Python
     subtitle: Master functional programming techniques in Python.
+    icon: 🧠
     course: $functional-programming
   - title: Exploratory Data Analysis
     subtitle: Perform exploratory data analysis using Python tools.
+    icon: 📊
     course: $python-numpy
