@@ -12,7 +12,7 @@ availableAspects:
   - introduction
   - workout
   - deep
-  - obscura
+  - obscura 
 
 startingPoints:
   - title: Functional Programming in Python
