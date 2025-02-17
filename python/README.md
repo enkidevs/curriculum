@@ -13,7 +13,7 @@ availableAspects:
   - workout
   - deep
   - obscura 
- 
+
 startingPoints:
   - title: Functional Programming in Python
     subtitle: Master functional programming techniques in Python.
