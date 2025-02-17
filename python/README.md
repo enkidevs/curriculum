@@ -1,6 +1,6 @@
 name: Python
 
-description: One of the easiest languages to learn. But we go advanced too bro.
+description: One of the easiest languages to learn. But we go advanced too.
 
 color: D2FFA6
 
