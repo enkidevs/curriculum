@@ -14,7 +14,7 @@ availableAspects:
   - deep
   - obscura 
 
-startingPoints:
+startingPoints: 
   - title: Functional Programming in Python
     subtitle: Master functional programming techniques in Python.
     icon: 🧠
