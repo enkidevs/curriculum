@@ -23,3 +23,4 @@ startingPoints:
     subtitle: Perform exploratory data analysis using Python tools.
     icon: 📊
     course: python-numpy
+
