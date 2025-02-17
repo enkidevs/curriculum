@@ -39,7 +39,6 @@ else:
   print("Unlucky.")
 ```
 
-
 Python is also a *general-purpose* programming language. That means it can be used for *just about anything*. 
 
 You can use it to build websites, web apps and desktop apps. But it's also used in scientific computing, artificial intelligence, and data analysis!
