@@ -13,3 +13,26 @@ availableAspects:
   - workout
   - deep
   - obscura
+
+
+startingPoints:
+  - title: Functional Programming
+    subtitle: Master functional programming techniques.
+    icon: 🧠
+    workout: functional-programming
+  - title: Exploratory Data Analysis
+    subtitle: Numpy, Pandas & MatplotLib.
+    icon: 📊
+    workout: python-numpy-intro
+  - title: NumPy
+    subtitle: blah.
+    icon: 🧠
+    workout: python-numpy-intro
+  - title: Pandas
+    subtitle: Blah.
+    icon: 📊
+    workout: pandas-intro
+  - title: MatplotLib
+    subtitle: blah.
+    icon: 📊
+    workout: python-matplotlib-intro
