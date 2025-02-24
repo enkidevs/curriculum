@@ -21,3 +21,7 @@ startingPoints:
     subtitle: BLAH BLAH
     icon: ⚡
     workout: kotlin-async-intro
+  - title: novo
+    subtitle: novo novo
+    icon: 🚀
+    workout: kotlin-extensions
