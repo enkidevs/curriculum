@@ -13,15 +13,3 @@ startingPoints:
     subtitle: Extensions, Scope Functions, Recursion, Reflection
     icon: 🚀
     workout: kotlin-extensions
-  - title: Async Programming
-    subtitle: Coroutines and Concurrency Patterns
-    icon: ⚡
-    workout: kotlin-async-intro
-  - title: BLAH BLAH
-    subtitle: BLAH BLAH
-    icon: ⚡
-    workout: kotlin-async-intro
-  - title: novo
-    subtitle: novo novo
-    icon: 🚀
-    workout: kotlin-extensions
