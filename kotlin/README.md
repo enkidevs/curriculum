@@ -11,7 +11,7 @@ availableAspects:
 
 
 startingPoints:
-  - title: Advanced Techniques
+  - title: Advasanced Techniques
     subtitle: Extensions, Scope Functions, Recursion, Reflection
     icon: 🚀
     workout: kotlin-extensions
