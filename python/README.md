@@ -17,7 +17,7 @@ availableAspects:
 
 
 startingPoints:
-  - title: Dart Science
+  - title: Dara Science
     subtitle: Data Science and DataViz with NumPy, Pandas, and Matplotlib
     icon: 📊
     workout: python-numpy-intro
