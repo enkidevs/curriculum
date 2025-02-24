@@ -8,3 +8,13 @@ availableAspects:
   - introduction
   - workout
   - deep
+
+startingPoints:
+  - title: Advanced Techniques
+    subtitle: Extensions, Scope Functions, Recursion, Reflection
+    icon: 🚀
+    workout: kotlin/kotlin-advanced-features/kotlin-extensions
+  - title: Async Programming
+    subtitle: Coroutines and Concurrency Patterns
+    icon: ⚡
+    workout: kotlin/kotlin-async-programming/kotlin-async-intro
