@@ -18,3 +18,7 @@ startingPoints:
     subtitle: Coroutines and Concurrency Patterns
     icon: ⚡
     workout: kotlin-async-intro
+  - title: BLAH BLAH
+    subtitle: BLAH BLAH
+    icon: ⚡
+    workout: kotlin-async-intro
