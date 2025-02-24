@@ -15,7 +15,7 @@ availableAspects:
   - obscura
 
 startingPoints:
-  - title: Datsa Science
+  - title: Data Science
     subtitle: Data Science and DataViz with NumPy, Pandas, and Matplotlib
     icon: 📊
     workout: python-numpy-intro
