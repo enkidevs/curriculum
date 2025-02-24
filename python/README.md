@@ -15,7 +15,7 @@ availableAspects:
   - obscura
 
 startingPoints:
-  - title: Data Science
+  - title: Data SSS
     subtitle: Data Science and DataViz with NumPy, Pandas, and Matplotlib
     icon: 📊
     workout: python-numpy-intro
