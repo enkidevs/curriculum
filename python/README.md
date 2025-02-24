@@ -17,7 +17,7 @@ availableAspects:
 
 
 startingPoints:
-  - title: Blah Science
+  - title: Data Data 
     subtitle: Data Science and DataViz with NumPy, Pandas, and Matplotlib
     icon: 📊
     workout: python-numpy-intro
