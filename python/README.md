@@ -17,8 +17,8 @@ availableAspects:
 
 
 startingPoints:
-  - title: Pata Science
-    subtitle: Data Science and DataViz with NumPy, Pandas, and Matplotlib
+  - title: Data Science
+    subtitle: Data Sciencia and DataViz with NumPy, Pandas, and Matplotlib
     icon: 📊
     workout: python-numpy-intro
 
