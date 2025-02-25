@@ -12,3 +12,8 @@ availableAspects:
   - introduction
   - workout
  
+startingPoints:
+  - title: Roblox Studio
+    subtitle: Properties, Vectors, Events in Roblox
+    icon: 🎮
+    workout: intro-to-scripting-i
