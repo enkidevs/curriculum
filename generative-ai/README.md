@@ -14,10 +14,10 @@ availableAspects:
 startingPoint:
   - title: ChatGPT & AI Tools
     subtitle: Prompt Engineering
-    icon: :robot_face:
+    icon: 🤖
     workout: generative-ai/chatgpt/intro-prompt-engineering
   - title: ML & LLMs
     subtitle: ML Fundamentals and LLM architecture
-    icon: :brain:
+    icon: 🧠
     workout: generative-ai/llms/llms-introduction
 
