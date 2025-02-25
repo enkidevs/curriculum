@@ -13,3 +13,9 @@ availableAspects:
   - workout
   - deep
   - obscura
+
+startingPoints:
+  - title: Advanced Techniques
+    subtitle: Threading, Synchronization, Deadlocks
+    icon: 🔄
+    workout: threading

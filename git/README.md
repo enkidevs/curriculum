@@ -13,3 +13,9 @@ availableAspects:
   - workout
   - deep
   - obscura
+
+startingPoints:
+  - title: Advanced Workflow
+    subtitle: Merges, Branches, Logging
+    icon: 🔧
+    workout: workflow

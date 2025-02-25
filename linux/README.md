@@ -13,3 +13,9 @@ availableAspects:
   - workout
   - deep
   - obscura
+
+startingPoints:
+  - title: Advanced Management
+    subtitle: SSH, Firewalls, Package Management
+    icon: 🛡️
+    workout: basics-networking
