@@ -10,3 +10,14 @@ language: Python
 
 availableAspects:
   - introduction
+
+startingPoint:
+  - title: ChatGPT & AI Tools
+    subtitle: Prompt Engineering
+    icon: :robot_face:
+    workout: generative-ai/chatgpt/intro-prompt-engineering
+  - title: ML & LLMs
+    subtitle: ML Fundamentals and LLM architecture
+    icon: :brain:
+    workout: generative-ai/llms/llms-introduction
+
