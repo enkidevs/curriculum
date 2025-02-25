@@ -11,9 +11,9 @@ availableAspects:
 startingPoints:
   - title: Advanced Techniques
     subtitle: Extensions, Scope Functions, Recursion, Reflection
-    icon: :rocket:
-    workout: kotlin/kotlin-advanced-features/kotlin-extensions
+    icon: 🚀
+    workout: kotlin-extensions
   - title: Async Programming
     subtitle: Coroutines and Concurrency Patterns
-    icon: :zap:
-    workout: kotlin/kotlin-async-programming/kotlin-async-intro
+    icon: ⚡
+    workout: kotlin-async-intro
