@@ -13,3 +13,13 @@ availableAspects:
   - workout
   - deep
   - obscura
+startingPoints:
+  - title: Modern Development
+    subtitle: Destructuring, Promises, Async
+    icon: 🌐
+    workout: intro-ecmascript
+
+  - title: NodeJS Applications
+    subtitle: Express, Best Practices, Design Patterns
+    icon: 🖥️
+    workout: express
