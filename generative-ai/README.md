@@ -11,7 +11,7 @@ language: Python
 availableAspects:
   - introduction
 
-startingPoint:
+startingPoints:
   - title: ChatGPT & AI Tools
     subtitle: Prompt Engineering
     icon: 🤖
