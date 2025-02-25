@@ -48,6 +48,15 @@ Types of change:
 
 ### Fixed
 
+
+
+
+## February 25th 2025
+
+### Added 
+
+- [Multiple Topics - Add starting points](https://github.com/enkidevs/curriculum/pull/3341)
+
 ## January 23rd 2025
 
 ### Changed
