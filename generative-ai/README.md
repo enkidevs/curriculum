@@ -15,9 +15,9 @@ startingPoints:
   - title: ChatGPT & AI Tools
     subtitle: Prompt Engineering
     icon: 🤖
-    workout: generative-ai/chatgpt/intro-prompt-engineering
+    workout: intro-prompt-engineering
   - title: ML & LLMs
     subtitle: ML Fundamentals and LLM architecture
     icon: 🧠
-    workout: generative-ai/llms/llms-introduction
+    workout: llms-introduction
 
