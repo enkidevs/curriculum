@@ -48,6 +48,13 @@ Types of change:
 
 ### Fixed
 
+
+## February 25th 2025
+
+### Fixed
+
+- [Python - Pandas/transforming-data - remove incorrectly added entry in readme](https://github.com/enkidevs/curriculum/pull/3342)
+
 ## January 23rd 2025
 
 ### Changed
