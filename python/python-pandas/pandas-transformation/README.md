@@ -7,9 +7,6 @@ insights:
   - pandas-replace
   - pandas-where
 
-exercises:
-  - pandas-transformation-exercise
-
 aspects:
   - workout
   - deep 
