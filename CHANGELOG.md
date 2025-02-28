@@ -48,14 +48,15 @@ Types of change:
 
 ### Fixed
 
-
-
-
 ## February 25th 2025
 
 ### Added 
 
 - [Multiple Topics - Add starting points](https://github.com/enkidevs/curriculum/pull/3341)
+
+### Fixed
+
+- [Python - Pandas/transforming-data - remove incorrectly added entry in readme](https://github.com/enkidevs/curriculum/pull/3342)
 
 ## January 23rd 2025
 
