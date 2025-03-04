@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## March 4th 2025
+
+### Fixed
+- [Python - Pandas - retrigger insight](https://github.com/enkidevs/curriculum/pull/3344)
 
 ## February 25th 2025
 
