@@ -7,8 +7,3 @@ language: swift
 availableAspects:
   - introduction
   - workout
-startingPoints:
-  - title: Advanced Techniques
-    subtitle: Error Handling, Debugging, App Building
-    icon: 🛠️
-    workout: swift-basics-error-handling
