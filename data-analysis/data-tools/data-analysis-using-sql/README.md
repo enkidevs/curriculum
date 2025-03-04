@@ -8,4 +8,4 @@ insights:
   - sql-tools
 aspects:
   - introduction
- 
+  - deep

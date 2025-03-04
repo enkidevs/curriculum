@@ -4,6 +4,7 @@ description: Learn about the specific variables used in TweenInfo!
 
 aspects:
 - workout
+- deep
 
 insights:
 - time-and-repeat-count

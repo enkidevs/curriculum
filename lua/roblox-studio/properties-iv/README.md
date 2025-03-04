@@ -4,6 +4,7 @@ description: Learn more on adjusting properties through code!
 
 aspects:
 - workout
+- deep
 
 insights:
 - transform-i

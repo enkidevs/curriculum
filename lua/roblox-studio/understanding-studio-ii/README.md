@@ -5,6 +5,7 @@ description: Learn about the basics of roblox studio!
 aspects:
 - introduction
 - workout
+- deep
 
 insights:
 - studio-interface
