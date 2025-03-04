@@ -16,7 +16,7 @@ startingPoints:
     subtitle: Prompt Engineering
     icon: 🤖
     workout: intro-prompt-engineering
-  - title: ML & LLMs
-    subtitle: ML Fundamentals and LLM architecture
+  - title: LLMs
+    subtitle: LLM architecture
     icon: 🧠
     workout: llms-introduction
