@@ -17,4 +17,6 @@ startingPoints:
   - title: Advanced Techniques
     subtitle: Functions, Formulas, Data Manipulation
     icon: 📊
-    workout: number-functions
+    workout: tips-and-tricks-part-1
+
+     
