@@ -11,3 +11,18 @@ language: General
 availableAspects:
   - introduction
   - workout
+  - deep
+
+startingPoints:
+  - title: Data Structures and Algorithms
+    subtitle: Graphs, Trees, Complex Algorithms
+    icon: 📚
+    workout: add-ons
+  - title: Networking
+    subtitle: HTTP, Metrics, Network Tools
+    icon: 🌐
+    workout: chart-types-and-data
+  - title: Advanced Techniques
+    subtitle: Functions, Formulas, Data Manipulation
+    icon: 📊
+    workout: logical-functions
