@@ -12,7 +12,7 @@ availableAspects:
   - introduction
   - workout
   - deep
-
+  
 startingPoints:
   - title: Advanced Techniques
     subtitle: Functions, Formulas, Data Manipulation
