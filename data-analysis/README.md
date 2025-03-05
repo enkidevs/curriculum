@@ -11,3 +11,9 @@ language: General
 availableAspects:
   - introduction
   - deep
+
+startingPoints:
+  - title: Advanced Tools
+    subtitle: Tableau, Looker, SQL Analytics
+    icon: 📊
+    workout: bi-tools-tableau

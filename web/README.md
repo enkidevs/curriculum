@@ -13,3 +13,9 @@ availableAspects:
   - workout
   - deep
   - obscura
+
+startingPoints:
+  - title: Advanced CSS
+    subtitle: Flexbox, Responsive Design, Animations
+    icon: 🎨
+    workout: intro-css

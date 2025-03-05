@@ -12,3 +12,9 @@ availableAspects:
   - introduction
   - workout
   - deep
+
+startingPoints:
+  - title: Advanced Techniques
+    subtitle: DML and DDL Operations
+    icon: 🗃️
+    workout: intro-dml
