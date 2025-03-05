@@ -1,5 +1,11 @@
 name: Spreadsheets
 
+startingPoints:
+  - title: Advanced Techniques
+    subtitle: Functions, Formulas, Data Manipulation
+    icon: 📊
+    workout: logical-functions
+
 description: Become an expert in Excel and Google Sheets.
 
 color: A6FFD5
@@ -12,17 +18,3 @@ availableAspects:
   - introduction
   - workout
   - deep
-
-startingPoints:
-  - title: Data Structures and Algorithms
-    subtitle: Graphs, Trees, Complex Algorithms
-    icon: 📚
-    workout: add-ons
-  - title: Networking
-    subtitle: HTTP, Metrics, Network Tools
-    icon: 🌐
-    workout: chart-types-and-data
-  - title: Advanced Techniques
-    subtitle: Functions, Formulas, Data Manipulation
-    icon: 📊
-    workout: logical-functions
