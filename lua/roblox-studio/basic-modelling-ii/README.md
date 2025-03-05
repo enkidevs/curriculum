@@ -4,6 +4,7 @@ description: Learn About Extra Tools Used in Modelling!
 
 aspects:
 - introduction
+- deep
 
 insights:
 - useful-properties-i

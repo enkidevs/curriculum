@@ -4,7 +4,8 @@ description: Learn more on the basics of scripting!
 
 aspects:
 - workout
-
+- deep
+ 
 insights:
 - functions-in-studio
 - built-in-methods
