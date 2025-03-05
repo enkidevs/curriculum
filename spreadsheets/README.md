@@ -14,8 +14,15 @@ availableAspects:
   - deep
 
 startingPoints:
+  - title: Data Structures and Algorithms
+    subtitle: Graphs, Trees, Complex Algorithms
+    icon: 📚
+    workout: intro-data-structures
+  - title: Networking
+    subtitle: HTTP, Metrics, Network Tools
+    icon: 🌐
+    workout: networking-fundamentals-i
   - title: Advanced Techniques
     subtitle: Functions, Formulas, Data Manipulation
     icon: 📊
-    workout: logical-functions
-    
+    workout: networking-fundamentals-i
