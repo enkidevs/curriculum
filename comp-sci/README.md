@@ -14,8 +14,13 @@ availableAspects:
   - deep
   - obscura
 
+
 startingPoints:
-  - title: Advanced Techniques
-    subtitle: Functions, Formulas, Data Manipulation
-    icon: 📊
-    workout: logical-functions
+  - title: Data Structures and Algorithms
+    subtitle: Graphs, Trees, Complex Algorithms
+    icon: 📚
+    workout: intro-data-structures
+  - title: Networking
+    subtitle: HTTP, Metrics, Network Tools
+    icon: 🌐
+    workout: networking-fundamentals-i 
