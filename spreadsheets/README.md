@@ -13,9 +13,8 @@ availableAspects:
   - workout
   - deep
 
-
 startingPoints:
-  - title: zzzzzzzz
-    subtitle: zzzz, zz, z zz
-    icon: ''
-    workout: z-z
+  - title: Advanced Techniques
+    subtitle: Functions, Formulas, Data Manipulation
+    icon: 📊
+    workout: logical-functions
