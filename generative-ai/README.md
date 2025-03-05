@@ -10,6 +10,7 @@ language: Python
 
 availableAspects:
   - introduction
+  - deep
 
 startingPoints:
   - title: ChatGPT & AI Tools

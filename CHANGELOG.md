@@ -48,11 +48,17 @@ Types of change:
 
 ### Fixed
 
-## February 25th 2025
+
+## March 4th 2025
 
 ### Added 
-
 - [Multiple Topics - Add starting points](https://github.com/enkidevs/curriculum/pull/3341)
+- [Multiple topics - add aspects to workouts](https://github.com/enkidevs/curriculum/pull/3343)
+
+### Fixed
+- [Python - Pandas - retrigger insight](https://github.com/enkidevs/curriculum/pull/3344)
+
+## February 25th 2025
 
 ### Fixed
 

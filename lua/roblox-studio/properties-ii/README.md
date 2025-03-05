@@ -4,6 +4,7 @@ description: Learn how to adjust properties through code!
 
 aspects:
 - workout
+- deep
 
 insights:
 - color-i

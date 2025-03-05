@@ -8,4 +8,4 @@ insights:
   - pandas-functions-ii
 aspects:
   - introduction
- 
+  - deep

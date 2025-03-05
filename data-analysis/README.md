@@ -10,6 +10,7 @@ language: General
 
 availableAspects:
   - introduction
+  - deep
 
 startingPoints:
   - title: Advanced Tools

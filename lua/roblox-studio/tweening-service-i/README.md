@@ -4,6 +4,7 @@ description: Learn how to use TweenService in Roblox Studio!
 
 aspects:
 - workout
+- deep
 
 insights:
 - tween-service-intro-i

@@ -4,6 +4,7 @@ description: Learn the basics of modelling!
 
 aspects:
 - introduction
+- deep
 
 insights:
 - adding-objects

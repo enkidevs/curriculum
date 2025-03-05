@@ -4,6 +4,7 @@ description: Learn about using events in roblox studio!
 
 aspects:
 - workout
+- deep
 
 insights:
 - events-in-studio

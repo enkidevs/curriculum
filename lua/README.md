@@ -11,6 +11,7 @@ language: lua
 availableAspects:
   - introduction
   - workout
+  - deep
  
 startingPoints:
   - title: Roblox Studio

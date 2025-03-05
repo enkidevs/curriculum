@@ -4,6 +4,7 @@ description: Learn the basics of Vector3!
 
 aspects:
 - workout
+- deep
 
 insights:
 - vector3-intro
