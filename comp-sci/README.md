@@ -23,4 +23,8 @@ startingPoints:
   - title: Networking
     subtitle: HTTP, Metrics, Network Tools
     icon: 🌐
-    workout: networking-fundamentals-i 
+    workout: networking-fundamentals-i
+  - title: Advanced Techniques
+    subtitle: Functions, Formulas, Data Manipulation
+    icon: 📊
+    workout: networking-fundamentals-i
