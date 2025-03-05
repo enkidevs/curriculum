@@ -4,6 +4,7 @@ description: Learn the basics of CFrame!
 
 aspects:
 - workout
+- deep
 
 insights:
 

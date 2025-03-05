@@ -7,5 +7,5 @@ insights:
   - more-advanced-looker
 aspects:
   - introduction
-  
+  - deep
  

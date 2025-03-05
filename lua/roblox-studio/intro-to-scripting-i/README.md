@@ -4,6 +4,7 @@ description: Learn the basics of scripting!
 
 aspects:
 - workout
+- deep
 
 insights:
 - adding-a-script

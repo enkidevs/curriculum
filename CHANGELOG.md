@@ -52,6 +52,7 @@ Types of change:
 
 ### Fixed
 - [Python - Pandas - retrigger insight](https://github.com/enkidevs/curriculum/pull/3344)
+- [Multiple topics - add aspects to workouts](https://github.com/enkidevs/curriculum/pull/3343)
 
 ## February 25th 2025
 

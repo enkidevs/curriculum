@@ -10,3 +10,4 @@ language: Python
 
 availableAspects:
   - introduction
+  - deep
