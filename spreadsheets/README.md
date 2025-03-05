@@ -13,10 +13,5 @@ availableAspects:
   - workout
   - deep
 
-startingPoints:
-  - title: Advanced Techniques
-    subtitle: Functions, Formulas, Data Manipulation
-    icon: 📊
-    workout: tips-and-tricks-part-1
 
      
