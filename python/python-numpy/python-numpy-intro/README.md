@@ -9,5 +9,6 @@ insights:
   - python-numpy-array-indexing
 
 aspects:
+  - workout
   - deep
  
