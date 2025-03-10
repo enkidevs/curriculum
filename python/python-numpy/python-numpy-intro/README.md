@@ -9,5 +9,5 @@ insights:
   - python-numpy-array-indexing
 
 aspects:
-- deep
+  - deep
  
