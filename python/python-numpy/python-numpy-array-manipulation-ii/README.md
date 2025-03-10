@@ -10,5 +10,5 @@ insights:
   - python-numpy-array-splitting-2d
 
 aspects:
-  - introduction
+  - deep
   - workout 
