@@ -7,3 +7,6 @@ insights:
   - python-numpy-type-conversion
   - python-numpy-memory-efficiency
   - python-numpy-custom-dtypes
+
+aspects:
+  - deep
