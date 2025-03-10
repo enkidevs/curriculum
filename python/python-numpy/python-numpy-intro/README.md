@@ -9,4 +9,4 @@ insights:
   - python-numpy-array-indexing
 
 aspects:
-- introduction
+- deep
