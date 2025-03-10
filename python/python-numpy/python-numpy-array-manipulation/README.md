@@ -8,5 +8,5 @@ insights:
   - python-numpy-array-deleting-2d
 
 aspects:
-  - introduction
+  - deep
   - workout 
