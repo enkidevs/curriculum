@@ -9,5 +9,5 @@ insights:
   - python-numpy-random
 
 aspects:
-  - introduction
+  - deep
   - workout
