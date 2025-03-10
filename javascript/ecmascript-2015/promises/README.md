@@ -11,5 +11,6 @@ exercises:
   - js-practice-async-await
 aspects:
   - introduction
+  - deep
   - workout
  

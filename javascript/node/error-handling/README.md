@@ -8,5 +8,6 @@ insights:
   - uncaughtexception-listener-in-node-js
 aspects:
   - introduction
+  - deep
   - workout
  

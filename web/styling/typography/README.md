@@ -9,5 +9,6 @@ insights:
 game: existential-crisis
 aspects:
   - introduction
+  - deep
   - workout
  

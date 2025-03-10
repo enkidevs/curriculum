@@ -8,4 +8,5 @@ insights:
   - property-value-shorthand
 aspects:
   - introduction
+  - deep
   - workout

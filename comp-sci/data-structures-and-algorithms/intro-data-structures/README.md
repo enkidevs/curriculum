@@ -8,4 +8,5 @@ insights:
   - the-queue-data-structure
 aspects:
   - introduction
+  - deep
  

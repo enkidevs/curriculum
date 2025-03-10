@@ -8,5 +8,6 @@ insights:
   - diagnosing-network-problems-with-traceroute
 aspects:
   - introduction
+  - deep
   - workout
  

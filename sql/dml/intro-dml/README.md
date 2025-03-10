@@ -4,6 +4,7 @@ description: An introduction to the main concepts of manipulating data.
 
 aspects:
   - introduction
+  - deep
 
 insights:
   - intro-dml

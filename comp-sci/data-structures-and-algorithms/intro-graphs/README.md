@@ -10,5 +10,6 @@ insights:
 game: what-should-it-be-stored-in
 aspects:
   - introduction
+  - deep
   - workout
  

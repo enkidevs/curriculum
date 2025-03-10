@@ -9,4 +9,4 @@ insights:
   - python-numpy-array-copying
 
 aspects:
-  - introduction
+  - deep

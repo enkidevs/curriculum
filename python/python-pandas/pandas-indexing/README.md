@@ -8,5 +8,5 @@ insights:
   - pandas-index-operations
 
 aspects:
-  - introduction
+  - deep
   - workout 

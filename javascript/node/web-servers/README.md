@@ -7,5 +7,6 @@ insights:
   - custom-node-repl-server
 aspects:
   - introduction
+  - deep
   - workout
  

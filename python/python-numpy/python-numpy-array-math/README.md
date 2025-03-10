@@ -8,5 +8,5 @@ insights:
   - python-numpy-rounding-decimals
   - python-numpy-array-rounding-methods
 aspects:
-  - introduction
+  - deep
   - workout
