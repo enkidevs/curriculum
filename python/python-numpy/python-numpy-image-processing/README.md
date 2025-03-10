@@ -8,3 +8,6 @@ insights:
   - python-numpy-image-masks
   - python-numpy-image-transforms
   - python-numpy-image-combining
+
+aspects:
+  - deep
