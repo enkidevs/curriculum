@@ -49,6 +49,11 @@ Types of change:
 ### Fixed
 
 
+## March 10th 2025
+
+### Added 
+- [Multiple Topics - add aspects to workouts](https://github.com/enkidevs/curriculum/pull/3348)
+
 ## March 4th 2025
 
 ### Added 
