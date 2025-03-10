@@ -8,5 +8,6 @@ insights:
   - server-error-status-codes
 aspects:
   - introduction
+  - deep
   - workout
  

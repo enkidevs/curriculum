@@ -9,4 +9,5 @@ insights:
 game: generators-and-promises
 aspects:
   - introduction
+  - deep
   - workout

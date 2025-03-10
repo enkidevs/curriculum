@@ -8,5 +8,5 @@ insights:
   - pandas-dataframe-rows
 
 aspects:
-  - introduction
+  - deep
   - workout 

@@ -10,4 +10,4 @@ insights:
   - python-matplotlib-discussion
 
 aspects:
-  - introduction 
+  - deep 

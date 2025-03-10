@@ -8,4 +8,5 @@ insights:
   - npm-nodes-package-manager
 aspects:
   - introduction
+  - deep
  

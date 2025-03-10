@@ -3,7 +3,7 @@ name: Photo Organizer
 description: Organize photo data using array transformations.
 
 aspects:
-  - introduction
+  - deep
 
 insights:
   - python-numpy-array-basics-practice

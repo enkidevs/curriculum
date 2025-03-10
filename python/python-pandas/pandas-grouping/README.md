@@ -8,5 +8,5 @@ insights:
   - pandas-groupby-apply
 
 aspects:
-  - introduction
+  - deep
   - workout 

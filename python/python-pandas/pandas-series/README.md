@@ -9,5 +9,5 @@ insights:
   - pandas-series-attributes
 
 aspects:
-  - introduction
+  - deep
   - workout 

@@ -5,4 +5,4 @@ insights:
   - python-numpy-array-intro-practice
 
 aspects:
-  - introduction
+  - deep

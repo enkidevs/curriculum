@@ -9,5 +9,5 @@ insights:
   - pandas-attributes
   - pandas-methods
 aspects:
-  - introduction
+  - deep
   - workout

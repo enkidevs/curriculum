@@ -8,5 +8,6 @@ insights:
   - comma-separated-lists
 aspects:
   - introduction
+  - deep
   - workout
  

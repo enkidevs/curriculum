@@ -8,5 +8,6 @@ insights:
   - handling-event-errors
 aspects:
   - introduction
+  - deep
   - workout
  

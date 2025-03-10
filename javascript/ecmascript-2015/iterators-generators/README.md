@@ -9,4 +9,5 @@ insights:
 game: iterators-for-of-spreads
 aspects:
   - introduction
+  - deep
   - workout

@@ -7,4 +7,5 @@ insights:
   - styling-brackets-2
 aspects:
   - introduction
+  - deep
  

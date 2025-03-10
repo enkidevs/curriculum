@@ -11,5 +11,6 @@ exercises:
   - js-practice-spreads
 aspects:
   - introduction
+  - deep
   - workout
  
