@@ -1,4 +1,9 @@
----
+>>> https://android.googlesource.com/toolchain/llvm-project
+  File "<console>", line 3)
+    https://android.googlesource.com/toolchain/llvm-project
+          ^
+SyntaxError: invalid syntax
+>>> ---
 author: enki-ai
 category: how-to
 type: normal
