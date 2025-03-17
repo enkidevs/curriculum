@@ -90,6 +90,12 @@ Which print statement adds a space after **every** operand?
 
 - Println
 - Print
+- Print, Println
+- Println, Print
+- fmt.Println
+- fmt.Print
+- fmt.Println, fmt.Print
+- fmt.Print, fmt.Println
 
 
 ---
