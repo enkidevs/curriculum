@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## May 24th 2023
+
+### Fixed
+- [Java - Java Primitives - Fix float size](https://github.com/enkidevs/curriculum/pull/3208)
 
 ## March 10th 2025
 
