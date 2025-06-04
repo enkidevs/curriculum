@@ -42,7 +42,7 @@ updateTasks("Walk the dog", "Call mom")
 ---
 ## Practice
 
-What will this function return if you add "Walk the dog" and remove "Call mom"?
+Fill in the code to make the comment true:
 
 ```kotlin
 fun updateTasks(taskToAdd: String, taskToRemove: String): ??? {
@@ -51,9 +51,12 @@ fun updateTasks(taskToAdd: String, taskToRemove: String): ??? {
     tasks.remove(taskToRemove)
     return tasks
 }
+
+updateTasks("Walk the dog", "Call mom")
+
+// …should return: [Buy groceries, Finish homework, Walk the dog]
 ```
 
-???
 
 - `MutableList<String>`
 - `mutableListOf()`
@@ -68,8 +71,8 @@ fun updateTasks(taskToAdd: String, taskToRemove: String): ??? {
 Finish the function such that the result is `[Buy groceries, Walk the dog]`.
 
 ```kotlin
-fun updateTasks(taskToAdd: String, taskToRemove: String): ??? {
-    val tasks = ???("Buy groceries", "Finish homework")
+fun updateTasks(taskToAdd: String, taskToRemove: String): MutableList<String> {
+    val tasks = mutableListOf("Buy groceries", "Finish homework")
     tasks.add(taskToAdd)
     tasks.remove(taskToRemove)
     return tasks
@@ -79,4 +82,4 @@ updateTasks(???, ???)
 ```
 
 - `"Walk the dog"`
-- `"Call mom"`
+- `"Finish homework"`
