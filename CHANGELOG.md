@@ -48,6 +48,10 @@ Types of change:
 
 ### Fixed
 
+## June 11th 2025
+
+### Fixed
+- [kotlin - real world todo list - fix questions](https://github.com/enkidevs/curriculum/pull/3351)
 
 ## March 10th 2025
 
