@@ -50,10 +50,7 @@ Calculate the sum of 7 and 5.
 ```swift
 let sum = 7 ??? 5
 ```
-
--
-  -
--
-  -
+- `+`
+- `-`
 - sum
 - add
