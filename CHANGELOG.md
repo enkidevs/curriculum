@@ -49,11 +49,14 @@ Types of change:
 ### Fixed
 
 
+## July 23rd 2025
+
+### Fixed
+- [Swift - Arithmetic Operators - Fix questions](https://github.com/enkidevs/curriculum/pull/3354)
 
 ## July 15th 2025
 
 ### Fixed
-
 - [Swift - Arithmetic Operators - Fix Revision](https://github.com/enkidevs/curriculum/pull/3353)
 
 ## June 11th 2025
