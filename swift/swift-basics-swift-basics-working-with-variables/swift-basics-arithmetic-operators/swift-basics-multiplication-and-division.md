@@ -31,11 +31,10 @@ revisionQuestion:
 
 The symbol ??? is used to divide two numbers.
 
-- /
--
-  -
-- :
-- div
+- `/`
+- `*`
+- `:`
+- `div`
 
 ---
 ## Revision
@@ -46,8 +45,7 @@ Calculate the division of 9 and 3.
 let product = 9 ??? 3
 ```
 
-- /
--
-  -
-- div
-- :
+- `/`
+- `-`
+- `div`
+- `*`
