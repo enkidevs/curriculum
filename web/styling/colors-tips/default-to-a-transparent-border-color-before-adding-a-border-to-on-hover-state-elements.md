@@ -42,8 +42,6 @@ button:hover {
 
 The second example applies the same black border on `:hover` without pushing out the other page elements by `2px` in every direction.
 
-[codepen](http://codepen.io/anon/pen/waEMWw)
-
 
 ---
 

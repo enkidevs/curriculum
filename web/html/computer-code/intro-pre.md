@@ -41,9 +41,6 @@ In the example above, the `<pre>` element is used to display some sample CSS cod
 Using the `<pre>` and `<code>` elements together with a little CSS can really improve the presentation of your code within your web pages.
 
 ![pre-element-styled](https://img.enkipro.com/232862f010f17b9b13eacb9a80ffe676.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/BVqPgZ)
-
 Since all spaces within the `<pre>` element are used, pay attention to adding any unnecessary spaces or hard returns after the opening tag.
 
 **Bad Example:** An extra hard return will display at the top of the code sample in the HTML page:

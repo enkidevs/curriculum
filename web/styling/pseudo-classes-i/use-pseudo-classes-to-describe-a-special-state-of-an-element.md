@@ -54,8 +54,6 @@ a:active  { /* selected link */
 
 If defined in a different order (other than *LVHA*), there's a big chance they will override one another.
 
-[Code example](http://codepen.io/mihaiberq/pen/wzGvWq)
-
 
 ---
 

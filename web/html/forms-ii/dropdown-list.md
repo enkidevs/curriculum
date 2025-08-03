@@ -50,9 +50,6 @@ Example:
 ```
 
 ![drop-down-colors](https://img.enkipro.com/52f8da1e618f5913e61fb77261132738.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/XBpjYr)
-
 In the example above, we have a dropdown menu with 3 possible options.
 You can also set another option item to display pre-selected first, with the `selected` attribute:
 
@@ -73,9 +70,6 @@ You can also set another option item to display pre-selected first, with the `se
 ```
 
 ![drop-down-intro-list](https://img.enkipro.com/d3402e07e88639795e1e7908586da605.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/RBKGJg)
-
 
 ---
 

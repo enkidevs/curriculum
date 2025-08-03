@@ -50,9 +50,6 @@ Example:
 ```
 
 ![form-autocomplete](https://img.enkipro.com/0e0cf0b74cfffebc9fa15e3a91e24433.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/ejOXPj)
-
 In the example above, we have a credit card input field with autocomplete set to "on". That means once the page loads and the user starts typing he will be prompted by the browser to click the `fill in the field automatically` and can choose to populate the fields with previously used answers.
 
 Also, a credit card used on one website can autocomplete on a different website if that website has similar input fields. For security reasons, turning off autocomplete on such inputs as the CV code is wise.

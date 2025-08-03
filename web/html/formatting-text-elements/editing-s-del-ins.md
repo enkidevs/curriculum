@@ -39,9 +39,6 @@ I have <s>$40</s> $35 left in my account
 Strikethrough Text Result:
 
 ![editing-elements-s](https://img.enkipro.com/29c16ad8b52b7a27bd7837d87d7878ec.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/LBxVxz)
-
 **Notes:** If you want to indicate a document edit, don't use the `<s>` element, you should use the `<del>` and/or `<ins>` elements instead.
 
 ### Deleted & Inserted Text
@@ -67,9 +64,6 @@ The `<del>` element is usually rendered with strikethrough text, whereas the `<i
 Result:
 
 ![editing-elements-del-ins](https://img.enkipro.com/aab667522a633fb9e6f77d422138022a.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/ejgNyd)
-
 
 ---
 

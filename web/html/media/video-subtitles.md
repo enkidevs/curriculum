@@ -59,9 +59,6 @@ Sounds
 <i>[ gasps ]</i>
 
 ```
-
-[View CodePen](https://codepen.io/enkidevs/pen/YjPYKm)
-
 All WebVTT files start with the line **WebVTT**.
 
 ** Multiple Subtitles**

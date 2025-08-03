@@ -3,9 +3,7 @@ author: Stefan-Stojanovic
 tags:
   - introduction
 type: exercise
-linkType: codepen
-link: 'https://codepen.io/enkidevs/pen/RBLPOo'
-solution: 'https://codepen.io/enkidevs/pen/yEmZzV'
+category: coding
 links:
   - >-
     [MDN docs for
@@ -19,18 +17,62 @@ links:
   - >-
     [MDN docs for
     cite](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){website}
+
+webSetupCode:
+  startingHtml: |
+    <!-- Add your code at the bottom under these directions. -->
+    
+    <!-- Please add the appropriate element to the correct sentence, located underneath. Elements to add are: cite, bdi, bdo and address. -->
+  
+    <p class="label">Your HTML:</p>
+
+    <div class="your-code">
+      <!-- Add your HTML to this text below. -->
+
+    User:  ماثيو
+    428 points.
+      
+    Dammit, I'm Mad!
+      
+      Apple Inc.
+      1 Infinite Loop, Cupertino, California
+      
+      Find the best cat videos on
+        https://youtube.com
+
+    </p>
+
+
+    </div>
+  startingCss: |
+
+  startingJs: |
+
 ---
 
 # HTML citation elements
-
 
 ---
 
 ## Exercise
 
-In this exercise, you will have 4 elements and 4 sentences.
+You have 4 elements and 4 sentences.  
+Wrap each sentence in the correct element:  
 
-You have to add each element to the appropriate sentence.
+- `<bdi>`  
+- `<bdo>` (remember it needs a `dir` attribute)  
+- `<cite>`  
+- `<address>`  
 
-Example of the finished exercise is on codepen.
- 
+If you're not sure which element to use, check the hints[1].
+
+---
+
+## Footnotes
+
+[1: Hints]
+
+- Use `<bdi>` for text that should be isolated from the surrounding text direction.  
+- `<bdo>` forces a specific text direction. Add `dir="rtl"` to make the text display right-to-left.  
+- `<cite>` is used for citing a reference, like a website or a creative work.  
+- `<address>` is for contact or address information.  

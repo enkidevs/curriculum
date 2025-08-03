@@ -40,9 +40,6 @@ text in this paragraph.</p>
 ```
 
 ![editing-elements-mark](https://img.enkipro.com/55f1527201f294f0c317f4a3701727f3.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/GBrJdP)
-
 The text within the `<mark>` element is usually rendered with a yellow background, but the `background-color: yellow;` of the element can be changed using CSS.
 
 Also, when `<mark>` is used within a `<q>` or `<blockquote>` element it indicates that that text is important even though it is not marked by the original author as important. This is like highlighting important text from a book with a marker/highlighter.
@@ -59,9 +56,6 @@ can <u>corect</u> them.</p>
 ```
 
 ![editing-elements-u](https://img.enkipro.com/6c1c183ce8fda24a739e1c54523361d5.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/OwWVBe)
-
 > 💡 The `<u>` element used to be called the `Underline` element. This was when it was only used to underline text. If you wish to set some text as underline, you should not use the `<u>` element to style it but rather the appropriate CSS properties.
 
 Also, when using the `<u>` element you should give it a different style than underlined because users may confuse them with hyperlinks.

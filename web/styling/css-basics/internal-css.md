@@ -55,9 +55,6 @@ Every HTML element can accept a `style` attribute. As the styling is specific to
 
 However, this is bad practice as it cannot be overridden by an external CSS file and may cause unexpected problems. This is because inline CSS has the highest priority when rendering.
 
-
-
-
 ---
 
 ## Revision

@@ -67,9 +67,6 @@ Basic Form Example:
 
 ![form-intro](https://img.enkipro.com/d8f6de0fd5a595a1eef2b475dea8339e.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/MBgZxg)
-
-
 ---
 
 ## Practice

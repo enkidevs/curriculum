@@ -64,8 +64,6 @@ Sentence Result:
 
 ![bdo-sun](https://img.enkipro.com/20500383239799793b6f04b204512c10.png)
 
-[Visit CodePen](https://codepen.io/enkidevs/pen/vrVBWQ)
-
 Using this element is very useful for content presented in multiple languages. For instance, if you have a text that you want to be displayed in Arabic or Hebrew, next to translating the text, you would also use the `<bdo>` element along with its `rtl` attribute to make the text go Right-To-Left and become readable.
 
 > 💡 It's also interesting that when text in English is written Right-To-Left in a web page, and the text is copied and pasted elsewhere by a user, that text will be displayed in regular Left-To-Right. This is because the text only appears Right-To-Left because of the HTML code, and without it, the text will display as written.

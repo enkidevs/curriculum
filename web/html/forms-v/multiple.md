@@ -36,9 +36,6 @@ Example:
 ```
 
 ![form-multiple](https://img.enkipro.com/2b91c43fdc92604442f64d6299748dce.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/yqBreR)
-
 In the example above we have allowed the user to input multiple pictures at once, instead of one by one. The user can select multiple files by pressing down ctrl or shift when selecting.
 
 If the input type is set to `email` the user can enter multiple emails by separating them with a comma. Like so: `firstmail@example.com`, `secondmail@example.com`, `thirdmail@example.com`, etc.

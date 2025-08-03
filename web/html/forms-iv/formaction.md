@@ -48,9 +48,6 @@ Example:
 
 ![form-formaction](https://img.enkipro.com/4760211ca1e2dfd4e04c4c14f75f4c09.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/MXZzzo)
-
-
 ---
 
 ## Practice

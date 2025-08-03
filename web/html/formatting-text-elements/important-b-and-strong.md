@@ -48,9 +48,6 @@ Example:
 Result:
 
 ![element-strong-b](https://img.enkipro.com/4a7c5e17ac6a527ee31eb43fcc59ccef.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/mjRemb)
-
 The HTML `<strong>` and `<b>` elements appear similar since they both have the same default styling, **bold**, but they both identify the content differently.
 
 Example:
@@ -67,9 +64,6 @@ The floor is
 Result:
 
 ![element-strong-b-2](https://img.enkipro.com/e06f459f7551728301762b850638bacd.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/NBdGvb)
-
 In the above example, the `<strong>` element is used to specify that the word `Warning` is very important and the `<b>` element is used to give attention to a text `iPhone` without giving it a higher importance.
 
 Rather than wrapping `<b>` or `<strong>` elements around text that is only meant to be used for visually styling purposes, it is more appropriate in those cases to use the CSS property `font-weight:bold;`.

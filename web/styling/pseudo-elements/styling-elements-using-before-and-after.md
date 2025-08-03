@@ -63,16 +63,13 @@ This adds a red **#** at the start of every `p` element and a blue **?** at the 
 
 Both `::before` and `::after` can be used to display shapes, images or even borders.
 
-[codepen.io](http://codepen.io/anon/pen/MKgrXB)
-
-
 ---
 
 ## Practice
 
 Which CSS property is mandatory to display `::before` and `::after` pseudo-elements but can be empty?
 
- ???
+???
 
 - `content`
 - `element`

@@ -55,9 +55,6 @@ Example:
 
 ![form-formmethod](https://img.enkipro.com/a62935af0423c1dadcb8fb2a2afef465.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/QxzJXd)
-
-
 ---
 
 ## Practice

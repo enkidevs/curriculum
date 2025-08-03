@@ -39,9 +39,6 @@ Let's say you have this link:
 If you add a `<wbr>` element before the word `path` like so: `<wbr>/path/filename.html`, then as soon as the link doesn't fit the browser's window, the browser creates a line break like so:
 
 ![element-wbr](https://img.enkipro.com/5e0abaf7481bbb0598849b05f1761414.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/rrjxao)
-
 Here's another example of adding a `<wbr>` element to a long word to tell the browser where to break in case it doesn't fit the screen.
 
 Lets take the unusually long name for a town in northern Wales, UK.
@@ -51,9 +48,6 @@ Name: **Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch**.
 Example with a `<wbr>` element between `Llanfairpwllgwyngyllgogerychwyrn` and `drobwllllantysiliogogogoch`:
 
 ![element-wbr-2](https://img.enkipro.com/585172af209d801b72c3973db1899a1f.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/wxgMKr)
-
 > 💡 Don't confused `<wbr>` with the `<br>` element. The `<br>` elements always creates a line break, whereas the `<wbr>` only specifies the position where the line should break if it needs to.
 
 

@@ -61,9 +61,6 @@ div{
   border-bottom: 7px solid yellow;
 }
 ```
-
-
-
 ---
 
 ## Practice

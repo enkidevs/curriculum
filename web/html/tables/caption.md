@@ -64,9 +64,6 @@ If you'd like to only style the elements bold without bringing attention to them
 ```
 
 ![table-caption](https://img.enkipro.com/ec2e595bc8ee7beb5d9882c1ae15022e.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/OwNXqB)
-
 > 💡 If a `<table>` element has a `<caption>` and is the only child of a `<figure>` element, you should use a `<figcaption>` instead of the `<caption>` element.
 
 

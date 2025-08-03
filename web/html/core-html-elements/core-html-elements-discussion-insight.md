@@ -1,9 +1,34 @@
 ---
 author: Stefan-Stojanovic
+tags:
+  - introduction
+type: exercise
+category: coding
+links:
+  - >-
+    [MDN docs for
+    heading](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){website}
+  - >-
+    [MDN docs for
+    img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){website}
+  - >-
+    [MDN docs for
+    p](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p){website}
+  - >-
+    [MDN docs for
+    a](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a){website}
 
-type: normal
+webSetupCode:
+  startingHtml: |
+    <div class="your-code">
+      <!-- Add your HTML here -->
 
-category: how-to
+    </div>
+  startingCss: |
+    /* You can add CSS here if you prefer using styles instead of inline CSS */
+
+  startingJs: |
+    // You can add your scripts here
 
 ---
 
@@ -11,53 +36,25 @@ category: how-to
 
 ---
 
-## Content
+## Exercise
 
-> 👩‍💻 Using this [codepen template](https://codepen.io/enkidevs/pen/jOmvWgg), your task is to write HTML code for a webpage that would display:
-> - **The largest heading containing the title of the page**
-> - **An image of any size. To help your viewers, also add an alternative text message in case the image can't load.**
-> - **One paragraph with information about the page.**
-> - **A link to another website**
+Using the HTML and CSS starter template, add:
 
-It's up to you to choose the title, the image, what the contents of those paragraphs will be, as well as their color.
+- A **large heading** that represents the page's title.  
+- An **image** with an `alt` attribute so that viewers see a helpful message if it doesn't load.  
+- A **paragraph** with any text you like.  
+- A **link** that goes to another website.  
 
-Here's one example of how the page could look:
+For extra practice, change the color of your paragraph and/or heading.
 
-![enkibot-example](https://img.enkipro.com/e6a42cec737935a42270522e1de1ad44.png)
-
-For bonus points, style the paragraphs and/or headings in a different color.
-
-If you're not sure what to do, check out this footnote[1].
-
-If you're stuck or need inspiration, check out our [playground example](https://codepen.io/enkidevs/pen/QWKywyy).
-
-When you're ready, leave a comment here with your submission. If you don't want to participate, you can always check the comment section to see others' solutions.
-
-> 💡 Before you submit your program, take a look at [how you can format your comments](https://www.enki.com/glossary/general/markdown-formatting).
-
-> 💡 The guidelines above are just suggestions. Feel free to include other concepts in your solution as you see fit, the implementation is up to you.
-
+If you get stuck, take a look at the hints[1].
 
 ---
 ## Footnotes
+
 [1: Hints]
 
-> Here are some examples on how you can style your elements:
-
-Chaining css properties together.
-
-```css
-<element style="property1:value1;property2:value2">
-  Some text
-</element> 
-```
-
-Styling multiple elements at once:
-
-```css
-<style>
-element1, element2 {
- property_name: value
-}
-</style>
-```
+- To add a large heading, use `<h1>Title here</h1>`.  
+- Images use the `<img src="..." alt="...">` tag.  
+- Paragraphs use `<p>` and links use `<a href="...">Link text</a>`.  
+- You can style elements with `style="color:red;"` inline, use a `<style>` block in the `<head>` element or add it in the `style.css` tab.
