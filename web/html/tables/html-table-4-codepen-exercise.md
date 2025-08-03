@@ -72,10 +72,9 @@ In the end, it should look like this:
 ![table-exercise-4-finished](https://img.enkipro.com/2d22bdfd1d5c85e8bc23a48db00ef859.png)
 
 ---
-
 ## Footnotes
+
+[1:Hints]
 
 - Use `<thead>`, `<tbody>`, and `<tfoot>` to structure your table.  
 - Apply `colspan="2"` to the `<th>` elements in `<thead>` and `<tfoot>` so they span both columns.  
-
----
