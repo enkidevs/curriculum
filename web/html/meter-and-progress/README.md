@@ -5,7 +5,7 @@ insights:
   - meter-attributes
   - meter-attributes-ii
   - progress
-exercises:
+
   - html-create-meter-codepen-exercise
   - html-create-progress-bar-codepen-exercise
 aspects:

@@ -8,7 +8,7 @@ insights:
   - video-formats
   - video-subtitles
   - embed
-exercises:
+
   - html-audio-codepen-exercise
   - html-video-codepen-exercise
 aspects:

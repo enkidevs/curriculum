@@ -1,6 +1,6 @@
 ---
 author: Stefan-Stojanovic
-type: exercise
+type: normal
 category: coding
 
 webSetupCode:

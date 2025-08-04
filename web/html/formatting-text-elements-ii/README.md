@@ -6,7 +6,6 @@ insights:
   - small
   - intro-time
   - intro-wbr
-exercises:
   - html-dfn-abbr-codepen-exercise
   - html-multi-element-3-codepen-exercise
 aspects:

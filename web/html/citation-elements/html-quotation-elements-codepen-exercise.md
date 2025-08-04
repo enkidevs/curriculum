@@ -2,7 +2,7 @@
 author: Stefan-Stojanovic
 tags:
   - introduction
-type: exercise
+type: normal
 category: coding
 links:
   - >-
@@ -35,7 +35,7 @@ webStartingPoint:
 
 ---
 
-## Exercise
+## Content
 
 In this exercise, you will wrap each quote with the appropriate HTML quotation element.  
 

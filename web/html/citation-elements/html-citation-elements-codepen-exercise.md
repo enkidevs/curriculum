@@ -2,7 +2,7 @@
 author: Stefan-Stojanovic
 tags:
   - introduction
-type: exercise
+type: normal
 category: coding
 links:
   - >-
@@ -54,7 +54,7 @@ webSetupCode:
 
 ---
 
-## Exercise
+## Content
 
 You have 4 elements and 4 sentences.  
 Wrap each sentence in the correct element:  

@@ -7,7 +7,6 @@ insights:
   - sub-and-superscript-sub-and-sup
   - editing-s-del-ins
   - editing-u-mark
-exercises:
   - html-s-del-ins-codepen-exercise
   - html-b-strong-codepen-exercise
   - html-multi-element-1-codepen-exercise

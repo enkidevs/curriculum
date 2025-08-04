@@ -2,7 +2,7 @@
 author: Stefan-Stojanovic
 tags:
   - introduction
-type: exercise
+type: normal
 category: coding
 links:
   - '[Full entity list](https://dev.w3.org/html5/html-author/charref){website}'

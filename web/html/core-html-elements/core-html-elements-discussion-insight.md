@@ -2,7 +2,7 @@
 author: Stefan-Stojanovic
 tags:
   - introduction
-type: exercise
+type: normal
 category: coding
 links:
   - >-
@@ -36,7 +36,7 @@ webSetupCode:
 
 ---
 
-## Exercise
+## Content
 
 Using the HTML and CSS starter template, add:
 

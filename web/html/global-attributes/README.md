@@ -4,7 +4,7 @@ insights:
   - intro-global-attributes
   - global-attributes-2
   - global-attributes-3
-exercises:
+
   - html-class-codepen-exercise
   - html-id-codepen-exercise
   - html-style-codepen-exercise

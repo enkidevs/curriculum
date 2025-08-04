@@ -7,7 +7,7 @@ insights:
   - nested-lists
   - list-orders
   - description-lists
-exercises:
+
   - html-list-order-codepen-exercise
   - html-nested-list-codepen-exercise
   - html-unordered-list-codepen-exercise

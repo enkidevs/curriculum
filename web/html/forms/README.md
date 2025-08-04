@@ -7,9 +7,9 @@ insights:
   - text-field
   - text-area
   - submit-and-reset
-exercises:
   - html-input-types-codepen-exercise
   - html-buttons-text-area-codepen-exercise
+
 aspects:
   - introduction
   - workout

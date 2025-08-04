@@ -2,7 +2,7 @@
 author: Stefan-Stojanovic
 tags:
   - introduction
-type: exercise
+type: normal
 category: coding
 links:
   - >-
@@ -35,7 +35,7 @@ webSetupCode:
 
 ---
 
-## Exercise
+## Content
 
 In this exercise, you will add a **cat image** to your webpage.  
 

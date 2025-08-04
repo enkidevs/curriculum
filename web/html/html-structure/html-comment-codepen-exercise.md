@@ -2,7 +2,7 @@
 author: Stefan-Stojanovic
 tags:
   - introduction
-type: exercise
+type: normal
 category: coding
 links:
   - '[Wikihow explanation](https://www.wikihow.com/Comment-in-HTML){website}'

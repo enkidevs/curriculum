@@ -2,7 +2,7 @@
 author: Stefan-Stojanovic
 tags:
   - introduction
-type: exercise
+type: normal
 category: coding
 links:
   - '[w3schools on tags](https://www.w3schools.com/tags/tag_base.asp){website}'
