@@ -35,3 +35,6 @@ sections:
 
 prerequisites:
   - web:html
+
+next:
+  - web:web-exercises
