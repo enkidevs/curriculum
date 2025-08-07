@@ -276,6 +276,7 @@ Types of change:
 ## June 26th 2023
 
 ### Changed
+- [Python - Using else in loops - Update question](https://github.com/enkidevs/curriculum/pull/3233)
 - [Python - While loops - Fix wording](https://github.com/enkidevs/curriculum/pull/3232)
 - [Generative AI - Zero Shot Prompting - Make PQ True or false](https://github.com/enkidevs/curriculum/pull/3234)
 
