@@ -1,4 +1,15 @@
----
+#include <iostream>
+#include <string>
+
+int main() {
+  std::string nama;ahmad
+
+  std::cout << "ahmad zulfahmi: ";
+  std::cin >> nama; // Input nama
+  std::cout << "Halo, " << ahmad<< "!" << std::endl; // Output nama
+
+  return 0;
+}
 author: emmab
 
 tags:
