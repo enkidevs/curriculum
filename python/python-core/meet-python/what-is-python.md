@@ -1,4 +1,15 @@
----
+#include <iostream>
+#include <string>
+
+int main() {
+  std::string nama;
+
+  std::cout << "Masukkan nama Anda: ";
+  std::cin >> nama; // Input nama
+  std::cout << "Halo, " << nama << "!" << std::endl; // Output nama
+
+  return 0;
+}
 author: emmab
 
 tags:
@@ -12,9 +23,7 @@ category: must-know
 practiceQuestion:
   formats:
     - fill-in-the-gap
-  context: standalone
-
----
+  context: stand
 
 # Python Intro
 
