@@ -25,7 +25,7 @@ revisionQuestion:
 
 ## Content
 
-The HTML `<address>` element is used to provide contact information about the author. This element is displayed as a block element and has a default styling like the `<i>` and `<em>` elements (the text is italic).
+The `<address>` element is used to provide contact information about the author. It is displayed as a block element and has a default styling like the `<i>` and `<em>` elements (the text is *italic*).
 
 ![address](https://img.enkipro.com/9ec8992af472e5a9d37e0d1f01a1d69a.png)
 

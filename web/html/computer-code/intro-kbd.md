@@ -24,9 +24,7 @@ revisionQuestion:
 
 ## Content
 
-The HTML `<kbd>`, or the **Keyboard Input** element, is used to represent user input, such as keys on a keyboard, voice commands, or any other textual input.
-
-Example:
+The `<kbd>`, or the **Keyboard Input** element, is used to represent user input, such as keys on a keyboard, voice commands, or any other textual input.
 
 ```html
 <p>
@@ -36,13 +34,13 @@ Example:
 </p>
 ```
 
-Keyboard Input Result:
+Which looks like this:
 
 ![kbd-element](https://img.enkipro.com/1547a0d6d7db30a6fe78ee9d06385c90.png)
 
-The default font style for the `<kbd>` element for most browsers is the monospace font.
+For most browsers, the default font style for the `<kbd>` element is the monospace font.
 
-By adding CSS styles, the `<kbd>` element can be used to present the user input in much better ways.
+By adding CSS styles, the `<kbd>` element can present user input in a more visually pleasing way.
 
 ![kbd-element-styled](https://img.enkipro.com/5a394fbb97415d313778c2b81d93749e.png)
 

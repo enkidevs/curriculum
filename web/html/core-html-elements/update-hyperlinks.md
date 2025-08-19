@@ -21,7 +21,7 @@ revisionQuestion:
 
 ## Content
 
-Hyperlinks are more commonly called just 'links' in HTML. They are very useful for navigating from one document to another or even different sections of long web pages.
+Hyperlinks are more commonly just called "links" in HTML. They are very useful for navigating from one document to another or even different sections of long web pages.
 
 - By default, unvisited links are blue and underlined.
 - Whereas links you have already clicked on at least once are red.
@@ -50,15 +50,15 @@ Result:
 
 [View CodePen](https://codepen.io/enkidevs/pen/vaKKQZ)
 
-In the example above, the `Visit Enki's 5-minute workouts!` is the hyperlink, and by clicking on the text will open the URL provided in the `href="URL"` attribute. The attribute `href` is the most important element because it specifies the destination(URL) of where the link should open.
+In the example above, the `Visit Enki's 5-minute workouts!` is the hyperlink, and clicking on the text will open the URL provided in the `href="URL"` attribute. The `href` attribute is important because it specifies the destination(URL) of where the link should open.
 
-By default, links open within the existing tab or window. The linked page can be directed to open differently by setting  \the `_target="???"` attribute with these options:
+By default, links open within the existing tab or window. The linked page can be directed to open differently by setting the `_target="???"` attribute with these options:
 
-- _self     = Default setting. Opens the link in the same tab or window.
-- _top      = Opens the link in the full body of the window.
-- _parent   = Opens the link in the parent frame.
-- _blank    = Opens the link in a new tab or window.
-- framename = Opens the link in a named frame.
+- `_self`     = Default setting. Opens the link in the same tab or window.
+- `_top`      = Opens the link in the full body of the window.
+- `_parent`   = Opens the link in the parent frame.
+- `_blank`    = Opens the link in a new tab or window.
+- `framename` = Opens the link in a named frame.
 
 Opening the link in a new tab is written like this:
 

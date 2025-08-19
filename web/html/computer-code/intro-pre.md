@@ -21,7 +21,7 @@ revisionQuestion:
 
 ## Content
 
-The HTML `<pre>`, or the **Pre-formatted Text** element, is used to display text exactly as it is within the HTML file. This means that text and all the spaces within the `<pre>` element will all be displayed in the space exactly. This is useful since HTML typically ignores multiple spaces.
+The `<pre>`, or the **Pre-formatted Text** element, is used to display text exactly as it is within the HTML file. This means that text and all the spaces within the `<pre>` element will display exactly as they look. This is useful since HTML typically ignores multiple spaces.
 
 Example:
 

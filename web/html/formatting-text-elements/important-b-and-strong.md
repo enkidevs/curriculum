@@ -31,7 +31,7 @@ revisionQuestion:
 
 ## Content
 
-The HTML `<b>`, or the ** Bring Attention To** element, is used to bring readers attention to some text and `<strong>`, or the **Strong Importance** element, is used to give importance to some content.
+The `<b>`, or the **Bring Attention To** element, is used to bring readers attention to some text. On the other hand, `<strong>`, or the **Strong Importance** element, is used to give importance to some content.
 
 The `<b>` element was also formerly known as the **Boldface** element.
 
@@ -51,7 +51,7 @@ Result:
 
 [View CodePen](https://codepen.io/enkidevs/pen/mjRemb)
 
-The HTML `<strong>` and `<b>` elements appear similar since they both have the same default styling, **bold**, but they both identify the content differently.
+`<strong>` and `<b>` elements appear similar since they both have the same default styling; **bold**. However, they both identify the content differently.
 
 Example:
 
@@ -70,7 +70,7 @@ Result:
 
 [View CodePen](https://codepen.io/enkidevs/pen/NBdGvb)
 
-In the above example, the `<strong>` element is used to specify that the word `Warning` is very important and the `<b>` element is used to give attention to a text `iPhone` without giving it a higher importance.
+In the example, the `<strong>` element is used to specify that the word `Warning` is very important and the `<b>` element is used to give attention to a text `iPhone` without giving it a higher importance.
 
 Rather than wrapping `<b>` or `<strong>` elements around text that is only meant to be used for visually styling purposes, it is more appropriate in those cases to use the CSS property `font-weight:bold;`.
 

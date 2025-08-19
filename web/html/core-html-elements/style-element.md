@@ -24,7 +24,7 @@ revisionQuestion:
 
 ## Content
 
-The HTML `style` element is used to style the content of an html document. These styles are loaded with the HTML page and work even if external CSS fails to load for some reason. The `style` tag is often used to load **Critical CSS**[1]
+The `<style>` element is used to style the content of an HTML document. These styles are loaded with the HTML page and work even if external CSS fails to load for some reason. The `style` tag is often used to load **Critical CSS**[1]
 
 ```html
 <head>
