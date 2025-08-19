@@ -1611,6 +1611,9 @@ Types of change:
 - [Python Data Analysis - Creating Your First Notebook - Add missing identifiers](https://github.com/enkidevs/curriculum/pull/2713)
 - [Python - Calling Functions - Improve readability](https://github.com/enkidevs/curriculum/pull/2705)
 
+### Added
+- [Python & Javascript - Glossary - Add glossary on for, while, if and function creation](https://github.com/enkidevs/curriculum/pull/2708)
+
 ## May 12th 2021
 
 ### Fixed
