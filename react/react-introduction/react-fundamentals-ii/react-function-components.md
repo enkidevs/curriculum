@@ -63,7 +63,7 @@ class FollowComponent extends React.Component {
 }
 ```
 
-The components defined above should have the same functionality right? This statement is mostly correct, although there is an unseen side effect. In the class component, although `props` are immutable, `this` will always be mutable. For this reason, the property `this.props.user` is changed after every render or lifecycle method. Imagine that the button is clicked, but before the 3 seconds pass the `name` prop is changed from `'Andrei'` to `'Stefan'`. The effects of this action will be:
+The components defined above should have the same functionality right? This statement is mostly correct, although there is an unseen side effect. In the class component, although `props` are immutable, `this` will always be mutable. For this reason, the property `this.props.user` is changed after every render or lifecycle method. Imagine that the button is clicked, but before the 3 seconds pass the `user` prop is changed from `'Andrei'` to `'Stefan'`. The effects of this action will be:
 
 - in the function component, the message displayed will be `'Followed Andrei'`, which is the **correct** behavior
 - in the class component, the message displayed will be `'Followed Stefan'`, because `this.props.user` reflects the latest value
