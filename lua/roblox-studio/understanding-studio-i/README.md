@@ -4,6 +4,7 @@ description: An Intro to Roblox Studio
 
 aspects:
 - introduction
+- deep
 
 insights:
 - intro-to-studio-i

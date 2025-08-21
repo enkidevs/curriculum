@@ -8,5 +8,6 @@ insights:
   - differences-between-bandwidth-and-throughput
 aspects:
   - introduction
+  - deep
   - workout
  

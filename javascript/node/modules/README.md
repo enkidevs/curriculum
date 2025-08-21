@@ -8,5 +8,6 @@ insights:
   - module-patterns
 aspects:
   - introduction
+  - deep
   - workout
  

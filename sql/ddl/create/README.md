@@ -18,5 +18,6 @@ exercises:
   - sql-practice-define-relationships-4
 aspects:
   - introduction
+  - deep
   - workout
  

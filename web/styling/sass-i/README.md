@@ -8,5 +8,6 @@ insights:
   - sass-supported-comments
 aspects:
   - introduction
+  - deep
   - workout
  

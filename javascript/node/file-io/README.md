@@ -6,5 +6,6 @@ insights:
   - async-file-write-in-node-js
 aspects:
   - introduction
+  - deep
   - workout
  

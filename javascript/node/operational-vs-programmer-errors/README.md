@@ -8,5 +8,6 @@ insights:
   - handling-programmer-errors
 aspects:
   - introduction
+  - deep
   - workout
  

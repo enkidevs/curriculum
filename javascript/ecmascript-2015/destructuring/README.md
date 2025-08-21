@@ -9,4 +9,5 @@ insights:
 game: destructuring-assignments
 aspects:
   - introduction
+  - deep
   - workout

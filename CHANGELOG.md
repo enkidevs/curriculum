@@ -48,7 +48,105 @@ Types of change:
 
 ### Fixed
 
-## April 17th 2023
+
+## July 23rd 2025
+
+### Fixed
+- [Swift - Arithmetic Operators - Fix questions](https://github.com/enkidevs/curriculum/pull/3354)
+
+## July 15th 2025
+
+### Fixed
+- [Swift - Arithmetic Operators - Fix Revision](https://github.com/enkidevs/curriculum/pull/3353)
+
+## June 11th 2025
+
+### Fixed
+- [kotlin - real world todo list - fix questions](https://github.com/enkidevs/curriculum/pull/3351)
+
+## March 10th 2025
+
+### Added 
+- [Multiple Topics - add aspects to workouts](https://github.com/enkidevs/curriculum/pull/3348)
+
+## March 4th 2025
+
+### Added 
+- [Multiple Topics - Add starting points](https://github.com/enkidevs/curriculum/pull/3341)
+- [Multiple topics - add aspects to workouts](https://github.com/enkidevs/curriculum/pull/3343)
+- [Spreadsheets - Update README line endings](https://github.com/enkidevs/curriculum/pull/3346)
+
+### Fixed
+- [Python - Pandas - retrigger insight](https://github.com/enkidevs/curriculum/pull/3344)
+
+## February 25th 2025
+
+### Fixed
+
+- [Python - Pandas/transforming-data - remove incorrectly added entry in readme](https://github.com/enkidevs/curriculum/pull/3342)
+
+## January 23rd 2025
+
+### Changed
+- [Python - Launch Matplotlib](https://github.com/enkidevs/curriculum/pull/3339)
+
+## December 30st 2024
+
+### Changed
+- [Python - Launch Pandas](https://github.com/enkidevs/curriculum/pull/3337)
+
+## December 27th 2024
+
+### Changed
+- [Python - Launch Numpy](https://github.com/enkidevs/curriculum/pull/3336)
+
+## December 19th 2024
+
+### Changed
+
+- [Kotlin - add advanced content and expand the rest](https://github.com/enkidevs/curriculum/pull/3335)
+
+## December 5th 2024
+
+### Changed
+
+- [Kotlin - reorder insight](https://github.com/enkidevs/curriculum/pull/3330)
+
+### Fixed
+- [Kotlin - logical operators - fix markdown table](https://github.com/enkidevs/curriculum/pull/3331)
+
+## December 3rd 2024
+
+### Changed
+- [Kotlin Launch](https://github.com/enkidevs/curriculum/pull/3328)
+
+## November 28th 2024
+
+### Changed
+- [Swift Launch](https://github.com/enkidevs/curriculum/pull/3324)
+
+## October 22nd 2024
+
+### Fixed
+- [Security - Securing the Presentation Layer - Fix broken link](https://github.com/enkidevs/curriculum/pull/3319)
+
+## August 21st 2024
+ 
+### Changed
+
+- [Lua - Multiple workouts - rework some insights](https://github.com/enkidevs/curriculum/pull/3298)
+ 
+## June 11th 2024
+
+### Changed
+- [Python - the in operator - Change pq](https://github.com/enkidevs/curriculum/pull/3299)
+
+## April 24th 2024
+
+### Fixed
+- [Lua - Map Methods - Fix Typo in comment](https://github.com/enkidevs/curriculum/pull/3307)
+
+## April 17th 2024
 
 ### Changed
 - [SQL - Multiple insights - replace playground urls](https://github.com/enkidevs/curriculum/pull/3305)
@@ -61,6 +159,7 @@ Types of change:
 - [Multi Topic - Several insights - Remove suggestion for deprecated Atom editor](https://github.com/enkidevs/curriculum/pull/3302)
 - [Comp Sci - Several Insights - Replace broken links](https://github.com/enkidevs/curriculum/pull/3301)
 - [Generative Ai - Unsupervised Learning - Fix typos](https://github.com/enkidevs/curriculum/pull/3300)
+
 
 ## March 18th 2024
 

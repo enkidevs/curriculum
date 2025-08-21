@@ -7,5 +7,5 @@ insights:
   - mode-customizations
 aspects:
   - introduction
-  
+  - deep
  
