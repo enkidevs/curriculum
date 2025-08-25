@@ -49,6 +49,12 @@ Types of change:
 ### Fixed
 
 
+### Changed
+
+## August 25th 2025
+
+- [Lua - Data Types In Lua - Remove type in the gap](https://github.com/enkidevs/curriculum/pull/3361)
+
 ## July 23rd 2025
 
 ### Fixed
