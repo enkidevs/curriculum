@@ -8,7 +8,6 @@ practiceQuestion:
   context: standalone
 revisionQuestion:
   formats:
-    - type-in-the-gap
     - fill-in-the-gap
   context: standalone
 
