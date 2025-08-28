@@ -11,9 +11,7 @@ links:
   - >-
     [MDN docs for
     q](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q){website}
-
-
-webStartingPoint:
+webSetupCode:
   startingHtml: |
     <div class="your-code">
       <!-- Add your HTML to this text below. -->
