@@ -51,9 +51,6 @@ The `<i>` element, which stands for **Italic**, is used set a part of a text in 
 ```
 
 ![element-i](https://img.enkipro.com/aaca1a40714529182438865cc92394a1.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/MBJwMp)
-
 The `<em>`, or the **Emphasis** element, is used to *stress emphasis* on a piece of text read by a person (or software).
 
 Notice how the `<em>` element helps share how this example text should be read:
@@ -66,9 +63,6 @@ Notice how the `<em>` element helps share how this example text should be read:
 ```
 
 ![element-em](https://img.enkipro.com/6a585d9da53c624b03225ec7a33fb093.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/NBdGKG)
-
 Furthermore, the `<em>` element is a little different from the `<i>` element in that it can be nested with itself.
 
 ```html
@@ -82,9 +76,6 @@ Furthermore, the `<em>` element is a little different from the `<i>` element in 
 ```
 
 ![element-em-embedded](https://img.enkipro.com/a410e16d5de810a07e5fea383600bf25.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/GBrpgb)
-
 This is good for expressing a greater degree of emphasis in a sentence. Also, by default nested `<em>` elements they will display the same. Nevertheless, you can use `em > em` in CSS to style nested `<em>` elements.
 
 ### Used Together
@@ -106,9 +97,6 @@ EM & I Example:
 EM & I Result:
 
 ![element-em-and-i](https://img.enkipro.com/546f603fa4b9c2cacb6c1bab2ebff09d.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/djNYYw)
-
 ### Using with Cite
 
 If you add the name of the movie where *Black Pearl* is from, you would do so with the `<cite>` element.
@@ -128,9 +116,6 @@ If you add the name of the movie where *Black Pearl* is from, you would do so wi
 ```
 
 ![element-cite](https://img.enkipro.com/0ad2d499d7b1a5af2c49ebf3839a48dd.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/GBrpoV)
-
 
 ---
 

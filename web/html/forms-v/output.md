@@ -57,9 +57,6 @@ Example:
 ```
 
 ![form-output](https://img.enkipro.com/f6863c1cf77730aa250614dd28ffb7de.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/EpYJoa)
-
 In the example above, there are two input fields and one output field. The input fields have pre-set values of 0 and 5. The two numbers are added together and displayed in the result `output` element which has a pre-set value of 5.
 
 Any time the user changes the value in either of the input fields, the result will change accordingly.

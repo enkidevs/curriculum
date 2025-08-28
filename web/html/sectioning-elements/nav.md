@@ -41,9 +41,6 @@ Example:
 ![nav-styled](https://img.enkipro.com/ec9d5b4c1730d77c5dfa0dc9527c8946.png)
 
 The `<nav>` container doesn't have any visual style without CSS. The CSS in this example may be a bit complex at this time, but hopefully it inspires you to learn more CSS!
-
-[View CodePen](https://codepen.io/enkidevs/pen/MBeKBe)
-
 > 💡 Not all links should be inside a `<nav>` element. The `<nav>` element is intended for major blocks of navigational links. For instance, links within the content of articles don't need to be wrapped within the `<nav>` element.
 
 Multiple `<nav>` elements can be placed within the web page or document, when appropriate.

@@ -47,15 +47,9 @@ Example:
 ```
 
 ![form-pattern](https://img.enkipro.com/bd5954a1fe9042cf879c65bfa6f43766.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/OErEda)
-
 In the example above, we use the `pattern` attribute to set a specific pattern, which in this case means that the value of the input has to be numerical and must contain 5 characters.
 
 You can also create different patterns using this technique. For instance, if you specify `pattern="[a-zA-Z0-9]{5-10}"` which checks for any any alphanumeric value ranging from lower and uppercase a-z letters and any number from 0-9 with any combination between 5 and 10 characters.
-
-[View CodePen](https://codepen.io/enkidevs/pen/vaBvBG)
-
 Another popular example, where a more complicated pattern is used to force the user to make a more complicated password:
 
 ```html
@@ -74,9 +68,6 @@ Another popular example, where a more complicated pattern is used to force the u
   <input type="submit">
 </form>
 ```
-
-[View CodePen](https://codepen.io/enkidevs/pen/aKPaRg)
-
 In the example above, the user has to have at least one lowercase letter, one uppercase letter, one number, and a minimum of 8 characters and a maximum of 20 characters.
 
 

@@ -35,9 +35,6 @@ Simple example:
 ```
 
 ![simple-textarea](https://img.enkipro.com/37719384b3886ac680cbe2923df84598.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/MBJjjz)
-
 The `<textarea>` element has many attributes. Some of the more common are:
 
 - `autocomplete` enables autocomplete for `textarea`
@@ -60,9 +57,6 @@ Example with attributes:
 ```
 
 ![simple-textarea-attributes](https://img.enkipro.com/220982fbfdc4e10a71c73e9dd998b001.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/ajpmme)
-
 In the example above, `rows="10"` specifies the number of visible text lines for the control,  `cols="30"` specifies the average characters width and the `placeholder` attribute presents a hint which disappears after the user types something and reappears if there is no input.
 
 

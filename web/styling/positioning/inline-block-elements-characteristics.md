@@ -4,9 +4,6 @@ type: normal
 category: must-know
 links:
   - >-
-    [Scrimba CSS Width and
-    Height](https://scrimba.com/p/pWvwCg/cPvRvAV){website}
-  - >-
     [MDN Docs on Inline
     Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements){documentation}
 revisionQuestion:

@@ -3,7 +3,6 @@ author: mihaiberq
 type: normal
 category: must-know
 links:
-  - '[Scrimba Introduction to CSS](https://scrimba.com/p/pWvwCg/c3vBJu2){website}'
   - >-
     [MDN Docs on
     CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS){documentation}

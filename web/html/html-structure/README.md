@@ -12,8 +12,6 @@ insights:
   - html-tags
   - attributes
   - comments
-
-exercises:
   - html-comment-codepen-exercise
   - html-element-attribute-codepen-exercise
 

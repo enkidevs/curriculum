@@ -43,9 +43,6 @@ Example:
 ```
 
 ![form-password](https://img.enkipro.com/89f4f7a3a325c22f41b0c757cc2c4b46.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/dKwgVW)
-
 Where the Username field accepts text as normal, the Password field hides the characters typed by displaying them as bullets (•••)
 
 

@@ -37,9 +37,6 @@ To create a link to open the user's default email program:
   Email me here
 </a>
 ```
-
-[View CodePen](https://codepen.io/enkidevs/pen/ejvqXx)
-
 `mailto:` can have four *header fields*: `cc`, `bcc`, `subject`, and `body`.
 
 Header fields are added by writing their name followed by an equal sign and the field's value.
@@ -94,9 +91,6 @@ Here is an example with all attributes added on the same link:
   Email me here
 </a>
 ```
-
-[View CodePen](https://codepen.io/enkidevs/pen/OwpKGj)
-
 
 ---
 

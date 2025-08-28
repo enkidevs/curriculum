@@ -48,9 +48,6 @@ Example:
 
 ![form-placeholder](https://img.enkipro.com/a02fc73d00fa313cb1087ca07e1b5417.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/LrMJqV)
-
-
 ---
 
 ## Practice

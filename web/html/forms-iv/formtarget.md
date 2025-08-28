@@ -40,8 +40,6 @@ Here is an example of the `formtarget` attribute set to open in a different wind
 
 ![form-formtarget](https://img.enkipro.com/987efbd8f9042c25e26b95c9607ae550.png)
 
-[View CodePen](<https://codepen.io/enkidevs/pen/mKaaey>
-
 Other possible values for `formtarget` are:
 
 - `_self`
@@ -56,7 +54,6 @@ Other possible values for `formtarget` are:
 `_top` value displays the response into the top-level window (that is, the window that is an ancestor of the current one and has no parent). If there is no parent, this option will behave the same as `_self`.
 
 `framename` value displays the response in a named `<iframe>` element.
-
 
 ---
 

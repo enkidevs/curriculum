@@ -37,9 +37,6 @@ The default `<button>` element looks like this:
 ```
 
 ![button-simple](https://img.enkipro.com/34850e7186f600675efdce8a5ddd2f84.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/dKQxjM)
-
 In this case, both the button and the input look and behave the same.
 
 ```html
@@ -48,9 +45,6 @@ In this case, both the button and the input look and behave the same.
   <input type="submit">
 </form>
 ```
-
-[View CodePen](https://codepen.io/enkidevs/pen/rryRQp)
-
 The `<button>` element has a slight edge over the `<input>` as both images and text can be placed within it like this:
 
 ```html
@@ -61,9 +55,6 @@ The `<button>` element has a slight edge over the `<input>` as both images and t
 ```
 
 ![button-image-text](https://img.enkipro.com/e3328ae1e6d8d355596f342c02d25c44.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/VdqZdQ)
-
 > 💡 Buttons have no default action upon click. This is why they are best tied to forms or advanced uses of JavaScript.
 
 

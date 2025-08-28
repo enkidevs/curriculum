@@ -8,9 +8,9 @@ insights:
   - address
   - intro-bdo
   - intro-bdi
-exercise:
   - html-citation-elements-codepen-exercise
   - html-quotation-elements-codepen-exercise
+
 aspects:
   - introduction
   - workout

@@ -74,9 +74,6 @@ Example with one checkbox:
 ```
 
 ![checkbox-report-a-problem](https://img.enkipro.com/d1e32da2311ae49336836fbdfc662c67.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/qyRaXO)
-
 In the example above, the 'name' & 'value' attributes work as a pair in keeping track of the data sent and are both important to use with checkboxes. In this case, the name/value pair would be `report=bankaccount`. This is something the client never sees as the data is sent upon submission of the form.
 
 If no checkbox is ticked/checked upon form submission, the name/value pair is `value=unchecked` and the value won't be submitted to the server at all.

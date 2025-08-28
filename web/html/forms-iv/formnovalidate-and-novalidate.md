@@ -43,9 +43,6 @@ Example:
 
 ![form-novalidate](https://img.enkipro.com/987efbd8f9042c25e26b95c9607ae550.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/xzmmKy)
-
-
 ---
 
 ## Practice
