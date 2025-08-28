@@ -4,9 +4,6 @@ type: normal
 category: feature
 links:
   - >-
-    [Tutorial on Pseudo Classes &
-    Elements](https://scrimba.com/p/pWvwCg/cbmMJSb){article}
-  - >-
     [MDN Docs on
     :hover](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover){documentation}
 practiceQuestion:

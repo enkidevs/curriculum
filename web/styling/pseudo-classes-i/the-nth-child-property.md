@@ -3,9 +3,6 @@ author: jordanfish
 type: normal
 category: how-to
 links:
-  - >-
-    [Tutorial on Pseudo Classes &
-    Elements](https://scrimba.com/p/pWvwCg/cbmMJSb){website}
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
   - >-
     [MDN Docs on

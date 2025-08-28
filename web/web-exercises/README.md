@@ -16,6 +16,7 @@ sections:
   - html-lists-html-exercise
   - inline-vs-block-html-exercise
   - list-styling-css-exercise
+  - box-model-web-exercise
   - basic-links-and-images-web-exercise
   - basic-table-html-exercise
   - styled-table-css-exercise

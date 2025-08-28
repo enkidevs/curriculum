@@ -5,8 +5,6 @@ category: feature
 tags:
   - hexadecimal
   - colour
-links:
-  - '[Scrimba CSS Colors](https://scrimba.com/p/pWvwCg/cMMymu2){website}'
 practiceQuestion:
   formats:
     - fill-in-the-gap
