@@ -12,7 +12,7 @@ links:
     ::after](https://developer.mozilla.org/en-US/docs/Web/CSS/::after){documentation}
   - >-
     [MDN Docs on
-    ::before](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Abefore){documentation}
+    ::before](https://developer.mozilla.org/en-US/docs/Web/CSS/::before){documentation}
 practiceQuestion:
   formats:
     - fill-in-the-gap
