@@ -7,8 +7,8 @@ insights:
   - multiple
   - oninput
   - output
-
   - html-form-attributes-exercise
+
 aspects:
   - introduction
   - workout

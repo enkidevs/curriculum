@@ -14,7 +14,7 @@ webSetupCode:
     <!-- 
     Task:
     1. Create a <nav> element.
-    2. Inside the <nav>, add 5 links (<a>) that navigate to the following:
+    2. Inside the element, add 5 links that navigate to the following:
        - /page1/
        - /page2/
        - /page3/

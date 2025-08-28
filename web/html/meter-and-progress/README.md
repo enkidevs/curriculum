@@ -4,10 +4,10 @@ insights:
   - meter
   - meter-attributes
   - meter-attributes-ii
-  - progress
-
   - html-create-meter-codepen-exercise
+  - progress
   - html-create-progress-bar-codepen-exercise
+
 aspects:
   - deep
   - workout

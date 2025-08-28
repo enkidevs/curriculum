@@ -13,7 +13,7 @@ webSetupCode:
   startingHtml: |
     <!-- 
     Task:
-    1. Wrap the existing content with the correct element (<main>).
+    1. Wrap the existing main content with the correct element.
     -->
 
     <div class="your-code">

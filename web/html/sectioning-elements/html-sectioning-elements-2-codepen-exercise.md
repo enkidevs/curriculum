@@ -17,13 +17,13 @@ webSetupCode:
     2. Add the CSS class "shadowbox" to this element to apply styling.
     -->
 
-    <div class="your-code">
+    <REPLACE_HERE class="your-code">
       <ol>
         <li>Buy groceries.</li>
         <li>Make food.</li>
         <li>Eat.</li>
       </ol>
-    </div>
+    </REPLACE_HERE>
   startingCss: |
     .shadowbox {
       font-family: Arial, sans-serif;

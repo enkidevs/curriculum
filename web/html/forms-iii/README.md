@@ -7,11 +7,11 @@ insights:
   - intro-step
   - min-and-max
   - type-password
-  - pattern-regexp
-
   - html-create-password-pattern-codepen-exercise
+  - pattern-regexp
   - html-create-new-account-codepen-exercise
   - html-create-account-codepen-exercise
+
 aspects:
   - introduction
   - workout

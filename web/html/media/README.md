@@ -8,9 +8,9 @@ insights:
   - video-formats
   - video-subtitles
   - embed
-
   - html-audio-codepen-exercise
   - html-video-codepen-exercise
+
 aspects:
   - introduction
   - workout

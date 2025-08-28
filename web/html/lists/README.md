@@ -4,14 +4,14 @@ description: A deep dive on List elements
 insights:
   - ordered-lists
   - unordered-lists
-  - nested-lists
-  - list-orders
-  - description-lists
-
-  - html-list-order-codepen-exercise
-  - html-nested-list-codepen-exercise
   - html-unordered-list-codepen-exercise
+  - nested-lists
+  - html-nested-list-codepen-exercise
+  - list-orders
+  - html-list-order-codepen-exercise
+  - description-lists
   - html-description-list-codepen-exercise
+
 aspects:
   - introduction
  
