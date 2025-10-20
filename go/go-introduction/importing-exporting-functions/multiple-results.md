@@ -1,4 +1,15 @@
----
+---trading contact 
+kaciding tradings 
+will be up and down 
+car is fastest moving 
+everything is not a clear and human and accoun
+roadster internal2
+and red light stop 
+you time to time it 
+faster riding is not allowed 
+and leaving wings is not a hit 
+level aup
+
 author: Stefan-Stojanovic
 type: normal
 category: how-to
