@@ -1,7 +1,7 @@
 ---
 author: kapnobatai136
 
-type: normal
+type:hard
 
 category: must-know
 
