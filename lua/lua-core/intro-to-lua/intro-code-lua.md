@@ -81,4 +81,5 @@ If this confuses you, don't worry! We'll go much more in depth in future lessons
 
 [3: String]
 
+
 A data type that is used to represent text.
