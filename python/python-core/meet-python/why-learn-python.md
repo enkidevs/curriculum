@@ -1,5 +1,5 @@
 ---
-author: emmab
+author: tong
 tags:
   - introduction
 type: normal
@@ -57,7 +57,7 @@ else:
   print("Don't give up, you're doing great! 🤗")
 ```
 
-???
+tong
 
 - `"Don't give up, you're doing great! 🤗"`
 - `"That's the spirit! 🎉"`
