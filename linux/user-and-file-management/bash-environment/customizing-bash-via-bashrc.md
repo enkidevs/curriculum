@@ -1,3 +1,4 @@
+bash
 ---
 author: jfarmer
 type: normal
