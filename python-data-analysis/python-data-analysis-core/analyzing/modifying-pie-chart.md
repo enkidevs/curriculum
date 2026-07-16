@@ -11,7 +11,7 @@ links:
   - >-
     [Pyplot Module](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html){documentation}
   - >-
-    [String Formatting](https://thepythonguru.com/python-string-formatting/){documentation}
+    [String Formatting](https://thepythonguru.com/python-string-formatting.html){documentation}
 
 ---
 
