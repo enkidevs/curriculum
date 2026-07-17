@@ -45,9 +45,6 @@ There are 2 key benefits(both mentioned above) of using these elements:
 2. Tables will print with header/footer on top/bottom when spanning multiple pages
 
 ![thead-tbody-and-tfoot](https://img.enkipro.com/73a52ebf6a77be4ba52dfc73d150652d.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/JBXyoJ)
-
 Using these elements provides useful semantic information for screen readers, printers and other accessibility purposes.
 
 The `<thead>`, `<tbody>`, and `<tfoot>` elements have no default visual effects.
@@ -67,9 +64,6 @@ Furthermore, there are some important usage notes for these elements. These are:
 > 💡 Having a header row doesn't mean having multiple `<thead>` elements, this is not allowed. What this means is each top row of the `<tbody>` element can be made a header with the appropriate combination of `<tr>` and `<th>` elements.
 
 For a similar example with CSS and multiple `<tbody>` elements, check the following `codepen example` link.
-
-[View CodePen](https://codepen.io/enkidevs/pen/JjNGWqE)
-
 
 ---
 

@@ -87,10 +87,9 @@ Example submit:
 
 ![simple-submit-button](https://img.enkipro.com/70c60859b71cdb20e4aeca00908ec931.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/pZzGPJ)
-
 As you can see, the `input` element is responsible for many of the form controls on the web that you are familiar with.
 
+![simple-submit-button-2](https://img.enkipro.com/8fd74db1b405a30c7e64397bfefe73b9.png)
 
 ---
 

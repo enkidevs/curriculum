@@ -58,9 +58,6 @@ Example:
 Result:
 
 ![list-order](https://img.enkipro.com/6e54eb88b9501c6232731c0117efffaa.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/EpmYmV)
-
 **Reversed**
 
 The `reversed` attribute is of type boolean and is used to specify that the items in the list are in the reversed order (3,2,1, or c,b,a).
@@ -78,9 +75,6 @@ Example:
 Result:
 
 ![list-order-reversed](https://img.enkipro.com/362fd2676ebd21838bb38566c2b9658c.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/GBmKmy)
-
 Furthermore, you can modify the numbering of each individual list item by adding the `value` attribute. This is a tricky example where there are three items in this list, which is then reversed - which should order them as iii, ii, and i. But then on the second list item, the value was changed to 5(or v in this case), which then makes the third item of the list `4(iv)` counting down from the number above it. This may seem tricky, but hopefully it demostrates the control you have over the content.
 
 ```html
@@ -94,9 +88,6 @@ Furthermore, you can modify the numbering of each individual list item by adding
 Result:
 
 ![list-order-value](https://img.enkipro.com/68acb74fec78584752578edefb78550e.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/xJdKrV)
-
 
 ---
 

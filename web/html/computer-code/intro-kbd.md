@@ -46,9 +46,6 @@ By adding CSS styles, the `<kbd>` element can be used to present the user input 
 
 ![kbd-element-styled](https://img.enkipro.com/5a394fbb97415d313778c2b81d93749e.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/pKxKGE)
-
-
 ---
 
 ## Practice

@@ -48,9 +48,6 @@ Example reset:
 ```
 
 ![form-reset-btn](https://img.enkipro.com/654728094da876108365fe3a2645c49f.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/QBdKym)
-
 The `value` of either type is represented with a `DOMString`. This is something the client never sees, but the server uses this `value` along with the `name` value as a `name/value` pair upon the submission of the form. In this case, the `name/value` pair would be `text=userinput`. On the other hand, if no value is specified, the buttons will have a default value set by the browser.
 
 The `type="submit"` button is used to submit a form.
@@ -75,9 +72,6 @@ Example submit and reset with one text field:
 ```
 
 #### form-submit-reset
-
-[View CodePen](https://codepen.io/enkidevs/pen/ZjLpWm)
-
 Furthermore, you can add shortcuts both to the `submit` and `reset` buttons via the `accesskey` attribute:
 
 Previous example with shortcuts added:
@@ -100,9 +94,6 @@ Previous example with shortcuts added:
     accesskey="r">
 </form>
 ```
-
-[View CodePen](https://codepen.io/enkidevs/pen/xJgEVv)
-
 In this example, on a Mac, pressing `Control`+`Option`+`S`/`R` triggers the `Next`/`Reset name` buttons respectively, while on Windows the shortcut is `Alt`+`S`/`R`.
 
 Nevertheless, even though we provide the access key, there is no way for the user to know what the `accesskey` shortcut is without giving them a tooltip or a hint with the information somewhere on the page.

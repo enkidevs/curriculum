@@ -59,9 +59,6 @@ Example:
 ```
 
 ![form-enctype](https://img.enkipro.com/a11ba364fa073f8389115e2a1394025b.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/YvdRMb)
-
 In the example above we have set all the spaces in the form to convert to a `+` with no character encoding.
 
 

@@ -44,9 +44,6 @@ Example:
 ```
 
 ![simple-div](https://img.enkipro.com/607d22240f2ba26d3a9397d8f472a44e.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/QxzYyV)
-
 Since a web page typically has numerous `div` elements, it is common that they will each be given a **common** `class` name or a **unique** `id` name in order to be targeted by CSS.
 
 In this case, when we add a `class` to the `<div>`, and use CSS to style that class, we have greater control over the layout and design like this:
@@ -78,9 +75,6 @@ In this case, when we add a `class` to the `<div>`, and use CSS to style that cl
 ```
 
 ![styled-div](https://img.enkipro.com/88f226f07047d93fa86a1564b0e2f9b6.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/WyLPxg)
-
 **Notes:**
 
 - The div element should NOT be used when there is a more appropriate semantic element(like `<nav>` or `<article>`).

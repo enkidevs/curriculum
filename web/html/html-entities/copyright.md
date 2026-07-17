@@ -54,9 +54,6 @@ Example:
 Result:
 
 ![copyright-year](https://img.enkipro.com/33f77a5af95764ae0e892e2269947b1c.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/WKRooB)
-
 When using the Copyright symbol in your HTML, it is a best practice to use the corresponding HTML entity vs. cutting and pasting the symbol. Because  even if the symbol renders ok on your browser, it may not render the same on everyone's browser.
 
 

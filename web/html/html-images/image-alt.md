@@ -34,9 +34,6 @@ Example:
 ```
 
 ![image-alt](https://img.enkipro.com/515b4af71d82ebd8c7be4c673b4a7e53.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/JBjqRb)
-
 In the example above, if for some reason the browser doesn't show the `rainforest.png` image, the `alt` attribute will display the `Beautiful Rainy Forest` text instead.
 
 Using the `alt` attribute is important for every `img` element for page validation and to help support screen readers that will read the text description to those that are visually impaired.

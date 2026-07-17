@@ -7,6 +7,8 @@ insights:
   - css-specificity-ii
   - common-css-properties-values
   - relative-css-properties
+  - css-basics-css-exercise
+
 game: will-this-work-on-ie8
 aspects:
   - introduction

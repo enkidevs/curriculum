@@ -42,9 +42,6 @@ Example:
 ```
 
 ![form-image-button](https://img.enkipro.com/a466223a14b7c791100f2b9115276d43.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/vrvvJO)
-
 In the example above, the input type is set as `image`. The image source is currently in the same folder as the HTML page with the filename `send.png`. The `width` and `height` properties are set in pixels, both to `100` by `100`.
 
 

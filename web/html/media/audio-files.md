@@ -66,9 +66,6 @@ Using the `<audio>` tag, multiple songs can be added via the `<source>` element 
 </audio>
 ```
 
-[View CodePen](https://codepen.io/enkidevs/pen/WKjeLW)
-
-
 ---
 
 ## Practice

@@ -9,7 +9,7 @@ tags:
 links:
   - >-
     [Article on Pseudo
-    Classes](http://www.sitepoint.com/web-foundations/pseudo-classes/){article}
+    Classes](https://www.sitepoint.com/pseudo-classes-the-basics/){article}
   - >-
     [MDN Docs on
     :hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover){documentation}
@@ -53,8 +53,6 @@ a:active  { /* selected link */
 ```
 
 If defined in a different order (other than *LVHA*), there's a big chance they will override one another.
-
-[Code example](http://codepen.io/mihaiberq/pen/wzGvWq)
 
 
 ---

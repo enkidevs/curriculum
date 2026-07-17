@@ -42,9 +42,6 @@ The two most common lists in HTML are ordered (`<ol>`) and unordered (`<ul>`).
 ```
 
 ![list-ol](https://img.enkipro.com/cf9b8346bcac3c93325df035ea93b26b.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/VBbZrW)
-
 ### Unordered List
 
 ```html
@@ -56,9 +53,6 @@ The two most common lists in HTML are ordered (`<ol>`) and unordered (`<ul>`).
 ```
 
 ![list-ul](https://img.enkipro.com/94d046823ff59ec5885d25c0a58646d9.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/pZPzdm)
-
 ### Nested Lists
 
 Lists can be nested within other lists. 
@@ -84,9 +78,6 @@ Example of a nested `<ol>` list:
 ```
 
 ![list-ol-nested](https://img.enkipro.com/1b75cc5b1d33b7b3bdb268a5b7665224.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/BPRBrO)
-
 > 💡 The closing `</li>` tag for `Item B` must wrap around the entire nested list.
 
 Here is an example of an unordered list within an ordered list:
@@ -108,9 +99,6 @@ Here is an example of an unordered list within an ordered list:
 Result:
 
 ![list-nested](https://img.enkipro.com/241430ac2324cde0c4f4b54a010106c7.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/xJdKpO)
-
 In the example above, the ordered list element `<ol>` is used as the main list because the steps should be followed in a specific order. 
 
 The unordered list elements don't need to be gathered in any specific order, so this organization makes the most sense.

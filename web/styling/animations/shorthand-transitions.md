@@ -40,9 +40,6 @@ Using only this alone it is possible to set every transition value in order of `
 
 For setting many transitions at once, set every individual group of transition values, then use a comma to separate each group of additional ones.
 
-[Codepen example](http://codepen.io/mihaiberq/pen/RGAjpK)
-
-
 ---
 
 ## Revision

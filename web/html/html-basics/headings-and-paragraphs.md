@@ -39,9 +39,6 @@ Even the simplest of web pages must contain at least one block of text. Usually,
 In a browser, the above code looks like this:
 
 ![headings-and-paragraphs](https://img.enkipro.com/7ba149227f555d4e67102574bf37520c.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/djNpBW)
-
 The visual difference between *headings* and *paragraph* are:
 
 - Headings are styled as bold text and paragraphs are not.
@@ -61,9 +58,6 @@ Each of these elements occupy a whole line, and the spacing above and below them
 This HTML will look like this in the browser:
 
 ![nested-paragraph](https://img.enkipro.com/58c08ea4dbf491ad5bc63886c502ff5f.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/rrjMXV)
-
 
 ---
 

@@ -48,6 +48,9 @@ Types of change:
 
 ### Fixed
 
+### Added 
+
+- [Web - Add exercises](https://github.com/enkidevs/curriculum/pull/3356)
 
 ## July 16th 2026
 

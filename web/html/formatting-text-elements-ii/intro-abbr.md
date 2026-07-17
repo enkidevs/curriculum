@@ -40,17 +40,11 @@ The content of the title is often shown in a tooltip when a user hovers over the
 ```
 
 ![element-abbr](https://img.enkipro.com/354c74ec25bd957e4c11c5fe046b6135.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/rrjOGv)
-
 By default, the `<abbr>` element is displayed as an inline element.
 
 The `<abbr>` element can also be styled with appropriate CSS properties.
 
 ![element-abbr-styled](https://img.enkipro.com/d158abd28bef73f7d126f2a9ce082dd1.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/rKQEEK)
-
 
 ---
 

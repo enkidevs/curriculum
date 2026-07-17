@@ -53,9 +53,6 @@ Span Result:
 
 ![span-element](https://img.enkipro.com/f9ebbbd713a8ec7a463a5bd9da60110a.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/JZwPQO)
-
-
 ---
 
 ## Practice

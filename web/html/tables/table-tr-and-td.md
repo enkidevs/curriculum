@@ -6,8 +6,6 @@ tags:
   - workout
   - introduction
 links:
-  - '[CodePen: Table without Style](https://codepen.io/enkidevs/pen/JBXWLL){code}'
-  - '[CodePen: Table with Style](https://codepen.io/enkidevs/pen/JBXWbr){code}'
   - >-
     [HTML <table>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table){documentation}
@@ -57,15 +55,9 @@ Example of a simple table:
 ```
 
 ![simple-table](https://img.enkipro.com/33ef82776c50d6e9cbb00bc6b503a836.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/JBXWLL)
-
 Tables themselves in HTML without CSS can appear a little messy and confusing compared to those that are styled more appropriately.
 
 ![simple-table-with-style](https://img.enkipro.com/4650ccb27aa2d9774c578221097c1ddb.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/JBXWbr)
-
 Styling tables can take a little practice, as seen in the example above, and often use more specific selectors. Such as, in order to prevent the last column or bottom row from having styles that may look strange, properties on these rows (or cells) can be reset using the pseudo class `:last-child` like this.
 
 ```css

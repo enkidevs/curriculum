@@ -40,9 +40,6 @@ The HTML `<ul>`, or the **Unordered List** element is used to represent an unord
 ```
 
 ![list-ul](https://img.enkipro.com/a69d82602a99e3ab97dafa3e3882628a.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/zLwOLq)
-
 Unordered lists are displayed as a block element and typically display with as a bulleted list.
 
 The items within the `<ul>` elements list are represented with the `<li>` element. Also, by default, each item in the list is indented with a 40px padding to the left.
@@ -55,9 +52,6 @@ The bullet can be changed using CSS styling:
 - style="list-style-type:none"
 
 ![list-styles](https://img.enkipro.com/479323c3b258bb078ff59111fa831338.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/qKMMyr)
-
 Additionally, the `<ul>` element can be nested with itself any number of times. The primary unordered list is displayed with the discs by default,  nested lists will display with the circles by default, nested lists within nested lists will display with the squares by default.
 
 Example of a nested lists:
@@ -83,9 +77,6 @@ Example of a nested lists:
 ```
 
 ![list-ul-nested](https://img.enkipro.com/f8f1d5c28640da344507a4e3e164847b.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/PBmYBB)
-
 **Notes:**
 
 - The key to nesting lists is making sure the nested lists are within the appropriate list items (`<li>` and `</li>`).

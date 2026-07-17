@@ -40,9 +40,6 @@ Example:
 ```
 
 ![drop-down-select](https://img.enkipro.com/e2d03c62a2413953de97d68109dbb00a.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/oMBzMz)
-
 You can also add several other attributes to your drop-down list.
 
 Some of these are:
@@ -78,9 +75,6 @@ Example:
 ```
 
 ![drop-down-optgroup](https://img.enkipro.com/fa0e4aab3f16618d65c8aac6682b8d30.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/NBdRBB)
-
 
 ---
 

@@ -41,9 +41,6 @@ Link with default value displayed:
   Links opens within existing window.
 </a>
 ```
-
-[View CodePen](https://codepen.io/enkidevs/pen/OwmLVz)
-
 The other values for the target are `target="value"`:
 
 - _self     = (Default) Opens the link in the same tab
@@ -61,9 +58,6 @@ Example of opening the link in a different tab:
   Links opens within new tab.
 </a>
 ```
-
-[View CodePen](https://codepen.io/enkidevs/pen/jpmNbe)
-
 > 💡 `_self` is only needed to open within the same tab/window when overriding conflicting code.
 
 

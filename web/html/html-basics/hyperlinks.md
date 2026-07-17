@@ -44,9 +44,6 @@ href="http://enki.com/samples/page.html">
 ```
 
 ![link-text](https://img.enkipro.com/2de7065475dfbb87f0f827bd0d63c945.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/RBKobx)
-
 When links are used with text, such as headings and paragraphs, the text links use most of the style properties of that text (like the font family, font size, font weight) with a few changes:
 
 - link text is blue by default. (`color: #0000EE;`)

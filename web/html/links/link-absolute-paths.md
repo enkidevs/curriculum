@@ -37,9 +37,6 @@ Example link:
 ```
 
 ![link-google](https://img.enkipro.com/fbeff4e3705591624b5ea961d3a1f022.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/yqbBBG)
-
 Example image:
 
 ```html

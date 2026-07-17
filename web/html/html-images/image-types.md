@@ -69,9 +69,6 @@ Match the image category with the most accurate description.
 - raster
 - vector
 - stereo
-
-
-
 ---
 
 ## Revision

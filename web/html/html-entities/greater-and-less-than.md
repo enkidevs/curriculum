@@ -55,9 +55,6 @@ Example:
 Result:
 ![tag-math](https://img.enkipro.com/1638c6d32ce5016de97ac28f507315d9.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/vagygR)
-
-
 ---
 
 ## Practice

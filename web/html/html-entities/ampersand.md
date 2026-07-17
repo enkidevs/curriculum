@@ -56,9 +56,6 @@ Example:
 Result:
 
 ![ampersand-att](https://img.enkipro.com/32e606be464dd49562389d7487f39ff5.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/JBEbbN)
-
 Character entities are case sensitive and are also used to display characters not present on the keyboard.
 
 

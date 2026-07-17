@@ -44,9 +44,6 @@ By adding CSS styles, the `<samp>` element can be used to present the sample out
 
 ![samp-element-styled](https://img.enkipro.com/d2ec92c8d3a7be6ac739a44ee6ef01fc.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/BVqOJr)
-
-
 ---
 
 ## Practice

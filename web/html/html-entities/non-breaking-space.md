@@ -59,9 +59,6 @@ Under Security Law
 § 1893 purchases can be made.
 ¶ 23 of the contract provides details.
 ```
-
-[View CodePen](https://codepen.io/enkidevs/pen/YjNpVa)
-
 By default, two images placed together in a webpage will visually touch. When a single space should be used to separate them, a non-breaking space can be used like this:
 
 Without  :
@@ -112,9 +109,6 @@ If you have a table with an empty cell within your web page, you should insert t
 ```
 
 ![nbsp-table](https://img.enkipro.com/da73d862a6c923bf657154b55e8c0fec.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/PBpLqV)
-
 > ⚠️ Do not use multiple non-breaking spaces to create larger spaces. If additional space is necessary, then CSS should be used.
 
 

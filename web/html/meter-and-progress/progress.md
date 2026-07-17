@@ -35,9 +35,6 @@ Example:
 ```
 
 ![progress-element](https://img.enkipro.com/8e80f41251adcc753a26c4ad32cb2543.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/eKbYJv)
-
 The `<progress>` element has 2 element-specific attributes:
 
 1. `max`

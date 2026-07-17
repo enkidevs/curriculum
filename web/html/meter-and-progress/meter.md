@@ -38,9 +38,6 @@ Example grade results:
 Meter Result:
 
 ![meter-element](https://img.enkipro.com/989f5dcc47b587ffca1ed32a7b50c45b.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/xzmxxP)
-
 The `<meter>` element has 7 element-specific attributes:
 
 1. `form`

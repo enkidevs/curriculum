@@ -58,7 +58,7 @@ Example with both elements:
 </table>
 ```
 
-[View CodePen](https://codepen.io/enkidevs/pen/bjWGNy)
+![colgroup-and-col-example](https://img.enkipro.com/a8724e5de7e8c1bf8caa60ba22d56d3a.png)
 
 In the example above, the `<colgroup>` element is used to create a group of 3 `<col>` elements and the `<tr>` element is used to create a single row with 6 `<td>` elements. Each col element spans differently and has a different style; first `<col>` spans 2 columns and is `lightblue`, 2nd `<col>` spans 1 column and is `hotpink` and the third and last `<col>` spans 3 columns and is `mediumpurple`.
 

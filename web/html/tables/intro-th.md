@@ -7,21 +7,6 @@ tags:
   - deep
 links:
   - >-
-    [CodePen: Table Default style of th
-    element](https://codepen.io/enkidevs/pen/ejZgbN){code}
-  - >-
-    [CodePen: Table tabular
-    header](https://codepen.io/enkidevs/pen/ajNpdb){code}
-  - >-
-    [CodePen: Table multiple
-    spans](https://codepen.io/enkidevs/pen/XBdpgW){code}
-  - >-
-    [CodePen: Table multiple
-    spans](https://codepen.io/enkidevs/pen/NBNdwO){code}
-  - >-
-    [CodePen: Table abbr
-    attribute](https://codepen.io/enkidevs/pen/ajNJdW){code}
-  - >-
     [MDN: <th>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th){documentation}
 practiceQuestion:

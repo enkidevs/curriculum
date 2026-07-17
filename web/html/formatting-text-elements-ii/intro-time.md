@@ -107,9 +107,6 @@ Example:
 Result:
 
 ![element-time-1](https://img.enkipro.com/5c7f2e3b34d43cb42042e0b722cff81f.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/qyROGe)
-
 Another Example:
 
 ```html
@@ -125,9 +122,6 @@ Date of birth:
 Result:
 
 ![element-time-2](https://img.enkipro.com/522c250380d236a6eba0cbe53555d171.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/oMBbvN)
-
 Example with datetime:
 
 ```html
@@ -141,9 +135,6 @@ Example with datetime:
 Result:
 
 ![element-time-3](https://img.enkipro.com/2da767e543dbe16abb35d97344d23339.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/MBJKgB)
-
 
 ---
 

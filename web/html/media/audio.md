@@ -42,9 +42,6 @@ Like so:
 ```
 
 ![audio-player](https://img.enkipro.com/a780e85027540b5fb19c07ad750edb96.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/ajzGRe)
-
 The paragraph in the example above is to provide fallback content for user's that do not have browsers that support HTML5 audio.
 
 Adding the `controls` attribute allows the browser to offer controls to the user for play/pause playback, increase/decrease volume buttons, and audio playback.

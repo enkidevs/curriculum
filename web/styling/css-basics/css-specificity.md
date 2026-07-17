@@ -7,7 +7,6 @@ links:
     [MDN Doc on CSS
     Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity){documentation}
   - '[CSS Specificity](http://standardista.com/css3/css-specificity/){article}'
-  - '[Scrimba CSS Specificity](https://scrimba.com/p/pWvwCg/c2vmgSa){website}'
   - >-
     [CSS Tips &
     Tricks](http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/){website}

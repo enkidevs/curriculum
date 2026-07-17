@@ -55,9 +55,6 @@ html {
 }
 
 ```
-
-[View CodePen](https://codepen.io/enkidevs/pen/zLqrRE)
-
 we change the background color of the `:root` to red, and even though the `html` has been set to blue, the `:root` style overrides it.
 
 

@@ -47,8 +47,6 @@ Quote Result:
 
 ![q-element](https://img.enkipro.com/377c590f47e82022e7b3d27d90ec4a20.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/gKBYJO)
-
 
 ---
 

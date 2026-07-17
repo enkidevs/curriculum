@@ -4,6 +4,8 @@ insights:
   - image-link
   - image-mailto
   - link-download
+  - html-link-codepen-exercise
+
 aspects:
   - introduction
  

@@ -51,8 +51,7 @@ Example with a poem:
 </figure>
 ```
 
-[View CodePen](https://codepen.io/enkidevs/pen/YjqEWp)
-
+![fig-and-figcaption-example](https://img.enkipro.com/c907f4028fcf71901cf3451017ab4632.png)
 
 ---
 

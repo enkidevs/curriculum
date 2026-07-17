@@ -57,9 +57,6 @@ Example:
 ```
 
 ![form-range](https://img.enkipro.com/1f70f5260d5a3e085e931752cec13b62.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/bKOxPL)
-
 Breaking down the example:
 
 ```html
@@ -115,9 +112,6 @@ Example:
 ```
 
 ![form-range-tickmarks](https://img.enkipro.com/63342ac6a64cfea220a8974299990b04.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/pKqxEY)
-
 In the example above, we defined a slider with 5 hash marks, at 0, 25, 50, 75 and 100. This slider has values you can easily set with the hash marks. Each point is represented by the `<option>` element and its value set to the desired range's value where the hash mark should be.
 
 Example:

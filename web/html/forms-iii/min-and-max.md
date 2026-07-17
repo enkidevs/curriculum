@@ -59,9 +59,6 @@ Example:
 ```
 
 ![form-min-and-max](https://img.enkipro.com/8c98645f6e6439b2e4869f99629ae229.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/qKLKJm)
-
 > ⚠️ When setting the `min` value, it cannot be greater than the max value, and vice-versa.
 
 

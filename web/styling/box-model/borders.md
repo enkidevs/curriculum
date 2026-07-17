@@ -3,7 +3,6 @@ author: mihaiberq
 type: normal
 category: must-know
 links:
-  - '[Scrimba CSS Borders](https://scrimba.com/p/pWvwCg/cmJvzh6){tutorial}'
   - >-
     [MDN Docs on
     border](https://developer.mozilla.org/en-US/docs/Web/CSS/border){documentation}
@@ -61,9 +60,6 @@ div{
   border-bottom: 7px solid yellow;
 }
 ```
-
-
-
 ---
 
 ## Practice

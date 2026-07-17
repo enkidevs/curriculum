@@ -30,9 +30,6 @@ Some Text<br>Some Text<br>bla bla
 ```
 
 ![element-br](https://img.enkipro.com/8830b93538045b1dcaf21c420a3d2e93.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/XBpmqB)
-
 **Notes:**
   1) This element doesn't have a closing tag.
   2) Line breaks should never be used to separate paragraphs.
@@ -56,9 +53,6 @@ Cupertino, CA<br>
 Address Result:
 
 ![element-br-2](https://img.enkipro.com/36ad609fbdfdb3d532b473a09b7d0cca.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/EpZVRO)
-
 
 ---
 

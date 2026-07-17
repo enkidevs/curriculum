@@ -40,9 +40,6 @@ The HTML `<ol>`, or the **Ordered List** element is used to represent an ordered
 ```
 
 ![list-ol](https://img.enkipro.com/e5cd8df572467937bf02dd58b3eadbb6.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/QBvLQo)
-
 Ordered lists are displayed as a block element and typically display with preceding numbering; these can be numerals, letters or Roman numerals.
 
 The items within the `<ol>` elements list are represented with the `<li>` element. Also, by default, each item in the list is indented with a 40px padding to the left.
@@ -76,9 +73,6 @@ Example with uppercase Roman numerals type:
 Result:
 
 ![list-roman](https://img.enkipro.com/f389eda87981627f1bb83d9ff30d6a85.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/ajWoYZ)
-
 Additionally, the `<ol>` element can be nested within itself any number of times (more on this later in the workout).
 
 **Best Uses:**

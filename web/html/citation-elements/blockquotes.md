@@ -73,9 +73,6 @@ Example:
 
 ![quotes](https://img.enkipro.com/39616c8208d10dc2a7a1e12291a5b015.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/oyPQBr)
-
-
 ---
 
 ## Practice

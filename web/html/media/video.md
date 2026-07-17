@@ -4,9 +4,6 @@ type: normal
 category: must-know
 links:
   - >-
-    [CodePen: Video: Simple HTML
-    Player](https://codepen.io/enkidevs/pen/MBYOJb){code}
-  - >-
     [HTML <video>
     Tutorial](https://www.quackit.com/html_5/tags/html_video_tag.cfm){article}
   - >-
@@ -45,9 +42,6 @@ The `<video>` tag was introduced in HTML5 and is used to embed videos on a web p
 ```
 
 ![video-player](https://img.enkipro.com/6f116395407c80b8ce53edb00bc9a86e.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/MBYOJb)
-
 In the example, the paragraph within the `video` element provides a text note to users that do not have browsers that support HTML5 video - this is called 'fallback content'. Images can be used as fall backs, too!
 
 Adding the `controls` attribute allows the browser to offer controls to the user for play/pause playback, increase/decrease volume buttons, and audio playback.

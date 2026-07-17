@@ -8,8 +8,8 @@ insights:
   - formmethod
   - formnovalidate-and-novalidate
   - formtarget
-exercises:
   - html-image-button-codepen-exercise
+
 aspects:
   - workout
   - deep

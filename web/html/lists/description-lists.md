@@ -48,9 +48,6 @@ Simple example:
 Result:
 
 ![list-descriptive](https://img.enkipro.com/7431bf8fe4b8d5c99fe57b1d03c12be2.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/LByPZZ)
-
 Next to having one term and one description, you can have multiple terms as well as multiple descriptions.
 
 The same example with 1 term added:
@@ -73,9 +70,6 @@ The same example with 1 term added:
 Result:
 
 ![list-descriptive-multi](https://img.enkipro.com/26a164b28de87f8688342fca9f782042.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/ZjKzON)
-
 Again same example, except this time we added another term and a description of that term:
 
 ```html
@@ -104,9 +98,6 @@ Again same example, except this time we added another term and a description of 
   </dd>
 </dl>
 ```
-
-[View CodePen](https://codepen.io/enkidevs/pen/rrmBWB)
-
 As you can see in the examples above, you can add as many terms and descriptions as you may want or need for your HTML page or document.
 
 Furthermore, adding description lists can be useful for displaying data that follows the key-value pair organization. Like all the other examples here, this is mainly useful for both search engines to understand the organization of the data as well as for CSS styling purposes.
@@ -131,9 +122,6 @@ Furthermore, adding description lists can be useful for displaying data that fol
 Result:
 
 ![list-descriptive-pair](https://img.enkipro.com/4a81d545df16d7c61f4e2d754b2c00dc.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/wxdwoX)
-
 
 ---
 

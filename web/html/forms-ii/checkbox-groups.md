@@ -105,9 +105,6 @@ Example with multiple checkboxes:
 ```
 
 ![checkbox-music](https://img.enkipro.com/f305a9c6969317d79b37bf45980bf612.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/qyRaPO)
-
 In the example above, we have 7 checkboxes, each with the same name - `genre` and each with a unique value that is used to identify each checkbox. Also, each button has an id. This id is used with the `<label>` element's `for` attribute to link the label to the checkbox.
 
 > 💡 By adding the label, we allow the user to have a larger clickable area for the checkboxes. That is, if the user presses anywhere in the `folk` label, that label's checkbox will be selected. This option is really useful as it makes it easier to select a value both for big and small screen sizes.
@@ -147,9 +144,6 @@ Example:
 ```
 
 ![checkbox-folk](https://img.enkipro.com/93a7f957c9bc0528f82918e2a8a6c2d7.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/BPpLYY)
-
 Along with the `checked` and `unchecked` state, checkboxes have a third state called `indeterminate`. In this state, you can't tell if the checkbox is toggled on or off. Checkboxes in this state have a horizontal line in the box. The most common use for this is when a checkbox option has multiple checkbox sub-options within it. If all sub-options are selected, then the parent checkbox is also selected. On the other hand, if any of the sub-options have a different state from one another the parent checkbox is in the indeterminate state.
 
 ![checkbox-indeterminate](https://img.enkipro.com/4243d6c40fc35f912a8632e94e00bbcd.png)

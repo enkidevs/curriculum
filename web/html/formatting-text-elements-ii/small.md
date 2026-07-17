@@ -44,9 +44,6 @@ and our <a href="#">Privacy Policy
 ```
 
 ![element-small](https://img.enkipro.com/b0573ea0cf9a0892fa04ba2a89e33e74.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/NBdxNX)
-
 By default, the font-size is generally set to .8em smaller than the existing text, which is also often 1 font size smaller. In this example the "Test" text will display at the same size:
 
 ```html
@@ -55,9 +52,6 @@ By default, the font-size is generally set to .8em smaller than the existing tex
 ```
 
 ![element-small-headings](https://img.enkipro.com/cac1b9b3c383f1b63b28402071d23f7a.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/OwWMbj)
-
 
 ---
 

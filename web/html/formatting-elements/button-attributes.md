@@ -32,9 +32,6 @@ revisionQuestion:
 - `type`
 
 ![button-simple](https://img.enkipro.com/34850e7186f600675efdce8a5ddd2f84.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/BPWEzL)
-
 ### disabled
 
 `disabled` is used to display the button, but disable the button from being pressed by the user. Also, if the button is in a form, or `<fieldset>` element, which has a `disabled` attribute, then the button inherits it.

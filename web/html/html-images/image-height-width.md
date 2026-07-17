@@ -54,9 +54,6 @@ img {
 }
 ```
 
-[View CodePen](https://codepen.io/enkidevs/pen/GBRLYE)
-
-
 ---
 
 ## Practice

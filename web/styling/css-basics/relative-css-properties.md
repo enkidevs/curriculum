@@ -2,8 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-links:
-  - '[Scrimba CSS Length Units](https://scrimba.com/p/pWvwCg/cGLEnHg){website}'
 practiceQuestion:
   formats:
     - fill-in-the-gap

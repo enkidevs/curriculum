@@ -6,9 +6,6 @@ links:
   - >-
     [MDN Docs on
     CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS){documentation}
-  - >-
-    [Scrimba CSS Selectors, Properties &
-    Values](https://scrimba.com/p/pWvwCg/cpKbvTV){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap

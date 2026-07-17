@@ -31,9 +31,6 @@ In HTML, the `<p>` tag defines the start of a paragraph and the `</p>` defines t
 Paragraph Result:
 
 ![simple-paragraph](https://img.enkipro.com/fc89aeacc3f0f0509c4fc06684f30a05.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/gjMMdo)
-
 The defaults of paragraphs:
 
 - The font size is 16px (pixels).

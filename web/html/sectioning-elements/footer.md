@@ -49,9 +49,6 @@ The `<footer>` container doesn't have any visual style without CSS. The CSS in t
 
 ![footer-styled](https://img.enkipro.com/3fc59ba0132a8c9562bc7b396ed4d893.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/PaXVmR)
-
-
 ---
 
 ## Practice

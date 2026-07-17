@@ -39,9 +39,7 @@ Example:
 </form>
 ```
 
-![form-autofocus](https://img.enkipro.com/553f219253150ae4bd0c9bed2e97dff6.png)
-
-[View CodePen](https://codepen.io/enkidevs/pen/djbrLP)
+![form-autofocus](https://img.enkipro.com/0bf0a3a8d228ea46283da6bf4995016f.png)
 
 In the example above, the first text field has the autofocus set, so when the page loads, the text box will be selected by default and the user can start entering text right away without having to click the textfield.
 

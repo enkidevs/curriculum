@@ -3,7 +3,6 @@ author: mihaiberq
 type: normal
 category: must-know
 links:
-  - '[Scrimba CSS The Box Model](https://scrimba.com/p/pWvwCg/cnm3RSZ){website}'
   - '[Box Sizing](https://css-tricks.com/box-sizing/){website}'
   - >-
     [MDN Docs on Box

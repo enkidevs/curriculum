@@ -46,9 +46,6 @@ By adding CSS styles, the `<var>` element can be used to present variables in mu
 
 ![var-element-style](https://img.enkipro.com/2015fe3ff38303e757e8f246d7c5b1a1.png)
 
-[View CodePen](https://codepen.io/enkidevs/pen/QxZZWR)
-
-
 ---
 
 ## Practice
