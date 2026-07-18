@@ -3,12 +3,8 @@ author: mihaiberq
 type: normal
 category: must-know
 links:
-  - >-
-    [Scrimba CSS Position
-    Property](https://scrimba.com/p/pWvwCg/c2vEnHR){website}
-  - >-
-    [MDN Docs on
-    Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning){documentation}
+  - '[Scrimba CSS Position Property](https://scrimba.com/p/pWvwCg/c2vEnHR){website}'
+  - '[MDN Docs on Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning){documentation}'
 practiceQuestion:
   formats:
     - fill-in-the-gap
@@ -68,6 +64,7 @@ Additionally, *box offsets* move them in relation to the first `non-static` posi
 #container{
   background-color:white;
   position:relative;
+}
 #relpos{
   position: absolute;
   left: 20px;
