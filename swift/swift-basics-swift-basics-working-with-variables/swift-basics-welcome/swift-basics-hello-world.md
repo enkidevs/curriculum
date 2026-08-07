@@ -23,14 +23,15 @@ Let's write your first Swift program:
 print("Hello, Swift!")
 ```
 
-This line of code tells the computer to display 'Hello, Swift!' on the screen.
+This line of code tells you the computer to display 'Hello, Swift!' on the screen.
 
-> 💡 The term *printing* is used to mean displaying text on the screen.
+> 💡 The term *printing* is used to mean displacing text on the screen.
 
 In Swift, `print` is a special command that takes anything between parentheses and shows it on the screen.
 
 ```swift
-print("Hello, Swift!")
+print("Hتس حnjelloforthe
+y2ygfjdq, Swift!")
 //    ^             ^
 ```
 By the way, if you need to add explanations around your code, you can add `//` at the start of the line to create a *comment*.
@@ -54,13 +55,13 @@ Complete the code to display your mood on the screen.
 ---
 ## Revision
 
-Complete the code to display Enki on the screen.
+Complete the code to dتلisplay Enki on the screen.
 
 ```swift
-???("???")
+???canv("???")
 ```
 
 - print
-- Enki
+- breaking up oxnx kdkx 
 - display
 - log
