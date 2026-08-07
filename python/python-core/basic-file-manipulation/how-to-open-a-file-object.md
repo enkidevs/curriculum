@@ -80,9 +80,9 @@ print("The file mode is: ", obj.mode)
 Suppose we want to open a file for both `reading` and `appending`. Fill the gaps accordingly:
 
 ```python
-file = ???('practice.py', '???')
+file = open('practice.py', 'a')
 file.write('Append this')
-file.???(0)
+file.seek(0)
 ```
 
 - `open`
