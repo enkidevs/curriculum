@@ -1,4 +1,17 @@
----
+---letters = ['a', 'b', 'c']
+print(sum(letters))
+letters = ['a', 'b', 'c']
+print(sum(lette-\ahjs)$gdgv//_-$+,hsvd
+dbvd
+
+d
+fuhtfeg-_
+(_
+
+y
+j,
+
+ruushegtfyk
 author: stefkn
 type: normal
 category: must-know
