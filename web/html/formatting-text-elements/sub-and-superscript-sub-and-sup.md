@@ -25,7 +25,7 @@ revisionQuestion:
 
 ## Content
 
-The HTML `<sub>`, or the **Subscript** element is used to display some text as subscript (written or printed **below** the line), whereas the `<sup>`, or the **Superscript** element is used to display some text as superscript (written or printed **above** the line).
+The `<sub>`, or the **Subscript** element, is used to display some text as subscript (written or printed **below** the line). Whereas the `<sup>`, or **Superscript** element, is used to display some text as superscript (written or printed **above** the line).
 
 Both elements are only used for typographical reasons and neither should be used for styling and/or appearance only. If you want to style your text sub or superscript, you can use the appropriate CSS properties:
 

@@ -35,7 +35,7 @@ p.smallcaps {
 }
 ```
 
-For example, if the property is applied on the following html code:
+For example, if the property is applied on the following HTML code:
 
 ```html
 <p class="smallcaps"> Hello World </p>

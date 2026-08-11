@@ -24,19 +24,18 @@ revisionQuestion:
 
 ## Content
 
-The HTML `<cite>` element is used to describe a reference of a cited **creative work**. This element needs to contain either the title or the URL of the cited work.
+The `<cite>` element is used to describe a reference of a cited **creative work**. This element needs to contain either the title or the URL of the cited work.
 
 What falls under creative work:
 
-- Any online content
-- Any book
-- Any computer program
-- Any original writing
-- Any exhibition
-- Any video
-- Any legal writings
-- Any original artwork
-- Any research paper
+- Online content
+- Books
+- Computer programs
+- Original writing or artwork
+- Exhibitions
+- Videos
+- Legal writings
+- Research paper
 
 ```html
 <p>
@@ -49,7 +48,8 @@ What falls under creative work:
 
 ![cite](https://img.enkipro.com/28852f600f281af9f98989e02b4471bc.png)
 
-The cited URL under the `<cite>` element will, by default, display in <i>italic</i>. However, this is easily editable by adding the `font-style` CSS property to the `<cite>` element and changing the default value to 'normal' or even 'oblique' (aka bold).
+
+By default, the URL under the `<cite>` element will display in *talic*. However, this is easily editable by adding the `font-style` CSS property to the `<cite>` element, and changing the default value to "normal" or even "oblique" (aka **bold**).
 
 [View CodePen](https://codepen.io/enkidevs/pen/xzyKBz)
 
@@ -65,8 +65,8 @@ Which statement about the `<cite>` element is not correct?
 - displays as a block element
 - used for indicating a citation
 - default font style is italic
-- works such as book, essay, poem, & script
-- works such as movie, play, song, & TV show.
+- used for books, essays, poems, or scripts
+- used for movies, plays, songs, or TV Shows.
 - displays as an inline element
 
 
@@ -92,7 +92,7 @@ and Technicolor.
 </p>
 ```
 
-What HTML element is best to use in this example?
+Which HTML element is best to use in this example?
 
 ```html
 tag = ???

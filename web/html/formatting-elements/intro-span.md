@@ -20,7 +20,7 @@ revisionQuestion:
 
 ## Content
 
-The HTML `<span>` element is used to style inline HTML elements, meaning that it can style elements that are already on a line with other elements. By itself, the element does not represent any visual change by itself and CSS is required to style it.
+The `<span>` element is used to style inline HTML elements, meaning that it can style elements that are already on a line with other elements. By itself, the element does not represent any visual change, and it requires CSS to style it.
 
 **Notes:**
 
@@ -38,7 +38,7 @@ Example:
 </p>
 ```
 
-The above example with HTML alone does pretty much nothing, whereas this example styles the text green based on the properties assigned to the class brand:
+The above example with HTML alone does pretty much nothing. Whereas the following example styles the text green based on the properties assigned to the `"brand-color"` class:
 
 ```html
 <p>Normal text here.

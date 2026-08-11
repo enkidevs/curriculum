@@ -27,11 +27,11 @@ revisionQuestion:
 
 ## Content
 
-The HTML `<bdi>`, or the **Bidirectional Isolation** element, is used to isolate a span of text that might be formatted in a different direction than other text - typically working with languages from different languages whose direction is unknown.
+The `<bdi>`, or the **Bidirectional Isolation** element, is used to isolate a span of text that might be formatted in a different direction than other text, typically working with languages whose direction is unknown.
 
-For instance, you can use this on a text that is in English (written left-right), to present it in Arabic (written right-left). The '[user agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent)' detects that the text should be rendered differently and adjusts accordingly.
+For instance, you can use this on a text in English (written left-right) to present it in Arabic (written right-left). The '[user agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent)' detects that the text should be rendered differently and adjusts accordingly.
 
-If you don't use the `<bdi>` element when working with alphanumeric numbers and Arabic text can you see how the code doesn't display as you would expect?:
+If you don't use the `<bdi>` element when working with alphanumeric numbers and Arabic text, can you see how the code doesn't display as you would expect?:
 
 ```html
 <p>

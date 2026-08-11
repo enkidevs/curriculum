@@ -24,7 +24,7 @@ revisionQuestion:
 
 ## Content
 
-The HTML `<samp>`, or the **Sample Output** element, is used to represent a sample output from a computer program.
+The `<samp>`, or the **Sample Output** element, is used to represent a sample output from a computer program.
 
 Example:
 
@@ -40,7 +40,7 @@ Sample Output Result:
 
 The default font style for the `<samp>` element for most browsers is the monospace font.
 
-By adding CSS styles, the `<samp>` element can be used to present the sample output from a computer program in much better ways.
+By adding CSS styles, the `<samp>` element can be used to present the output from a computer program in a more visually pleasing way.
 
 ![samp-element-styled](https://img.enkipro.com/d2ec92c8d3a7be6ac739a44ee6ef01fc.png)
 
