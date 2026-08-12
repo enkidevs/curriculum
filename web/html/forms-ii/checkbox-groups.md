@@ -181,6 +181,7 @@ Given the code:
 
 ```html
 <tagA>
+<fieldset>
  <legend>
    Choose favorite meal
  </legend>
