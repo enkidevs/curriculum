@@ -14,20 +14,29 @@ category: must-know
 
 ## Content
 
-JavaScript is Everywhere!
+You can think of every website as a car 🚗.
+
+- The metal frame, the doors, the steering wheel: this is all HTML
+
+- The paint: this is CSS.
+
+- The engine, wiring, and everything under the hood: this is **JavaScript**.
+
+It's what brings the web to life!
+
+
+
+For example, here's code that makes sure a user is old enough to use your website: 
+```js
+let age = prompt("Please Enter Your Age")
+if(age < 16) {
+  alert("You are too young to sign up, sorry!")
+}
+```
 
 Every time you refresh your Twitter feed or search for a pair of skinny jeans on Amazon, you interact with JavaScript.
 
-For instance, the following code shows an alert that you might be familiar with 👖:
-
-```js
-alert("Warning! 👖 no longer fit.");
-```
-
-![JavaScript_Jeans_Final](https://img.enkipro.com/bd7c491db166c1fcdc6144f145a186dc.png)
-
-
-JavaScript is essentially the language of the Web; Facebook, Google, Netflix, Microsoft, etc., all use it for one purpose or another.
+It's the language of the Web; Facebook, Google, Netflix, Microsoft, etc., all use it for one purpose or another.
 
 > 🤔 What purpose will you use it for?
 >

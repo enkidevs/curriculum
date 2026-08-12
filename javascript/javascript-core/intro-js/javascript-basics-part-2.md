@@ -139,7 +139,7 @@ x
 y
 ```
 
-is understod as:
+is understood as:
 
 ```js
 x;
