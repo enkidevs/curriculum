@@ -1,3 +1,5 @@
+تهكير هاتف
+من رقم هاتف
 ---
 author: mihaiberq
 type: normal
@@ -8,7 +10,9 @@ links:
     Java?](https://www.quora.com/Why-is-Java-so-important){website}
   - >-
     [Java
-    Roadmap](https://www.oracle.com/java/technologies/java-se-support-roadmap.html){website}
+    Roadmap](https://www.oracle.com/java/t
+    >
+    >echnologies/java-se-support-roadmap.html){website}
 practiceQuestion:
   formats:
     - fill-in-the-gap
