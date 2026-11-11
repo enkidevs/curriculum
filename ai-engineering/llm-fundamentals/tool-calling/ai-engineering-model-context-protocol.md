@@ -6,7 +6,7 @@ type: normal
 category: discussion
 
 links:
-  - '[Model Context Protocol](https://modelcontextprotocol.io){documentation}'
+  - '[Model Context Protocol](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro){documentation}'
 
 practiceQuestion:
   formats:
