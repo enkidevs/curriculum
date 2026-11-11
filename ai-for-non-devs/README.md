@@ -10,15 +10,15 @@ availableAspects:
   - obscura
 
 startingPoints:
-  - title: Prompting & Coding
-    subtitle: Task briefs, agents, tests, debugging, docs, and comms
-    icon: 💻
-    workout: writing-a-task-brief
-  - title: Debugging & Incident Response
-    subtitle: Root causes, on-call, postmortems, docs, and team comms
-    icon: 🐛
-    workout: debugging-with-ai
-  - title: Documentation & Comms
-    subtitle: Code comments, release notes, PR descriptions, and tickets
-    icon: 📝
-    workout: drafting-and-maintaining-technical-docs
+  - title: Prompting & AI Tools
+    subtitle: Clear requests, ChatGPT, Claude, Gemini, and AI agents
+    icon: 🧠
+    workout: prompting-with-co-star
+  - title: Writing & Content
+    subtitle: Marketing copy, reports, business cases, and team updates
+    icon: ✍️
+    workout: drafting-marketing-copy
+  - title: Meetings & Team Comms
+    subtitle: Agenda prep, follow-ups, handoffs, retros, and AI norms
+    icon: 💬
+    workout: preparing-for-meetings
