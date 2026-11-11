@@ -6,7 +6,7 @@ link: 'https://goo.gl/UrtyTi'
 links:
   - >-
     [Control Structures in
-    Python](http://interactivepython.org/runestone/static/pythonds/Introduction/ControlStructures.html){website}
+    Python](https://runestone.academy/ns/books/published/pythonds/Introduction/ControlStructures.html){website}
 ---
 
 # Python Sequence Iteration Exercise

@@ -8,7 +8,7 @@ link: 'https://goo.gl/hghspF'
 links:
   - >-
     [Control Structures in
-    Python](http://interactivepython.org/runestone/static/pythonds/Introduction/ControlStructures.html){website}
+    Python](https://runestone.academy/ns/books/published/pythonds/Introduction/ControlStructures.html){website}
 ---
 
 # Python Control Flow Exercise
