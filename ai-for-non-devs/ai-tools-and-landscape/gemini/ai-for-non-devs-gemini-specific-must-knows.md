@@ -46,9 +46,9 @@ Workspace access has limits.
 
 It does not gain access to a colleague's private file just because both people work for the same company.
 
-In the Gemini app, Workspace services must be turned on. In a new conversation, you may need to name the app and the file.[1]
+In the Gemini app, Workspace services must be turned on. In a new conversation, you may need to name the app and the file.
 
-Some file types and actions still aren't supported, even in a connected app.[1]
+Some file types and actions still aren't supported, even in a connected app.
 
 > ‼️ A file being in Drive isn't enough. Check the account, its permissions, the connection, and the file you named.
 
