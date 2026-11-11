@@ -53,7 +53,7 @@ Types of change:
 
 ### Added
 
-- [Ai for Devs - add whole topic](https://github.com/enkidevs/curriculum/pull/3400)
+- [Ai for Devs - add new topic](https://github.com/enkidevs/curriculum/pull/3400)
 
 ## July 23rd 2026
 
