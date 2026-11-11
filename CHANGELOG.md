@@ -55,6 +55,7 @@ Types of change:
 ### Added
 
 - [AI for non devs - add new topic](https://github.com/enkidevs/curriculum/pull/3402)
+- [Ai for Devs - add new topic](https://github.com/enkidevs/curriculum/pull/3400)
 
 ## July 23rd 2026
 
