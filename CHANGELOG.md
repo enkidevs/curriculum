@@ -49,6 +49,13 @@ Types of change:
 ### Fixed
 
 
+## November 11th 2026
+
+### Added
+
+- [Ai Engineering - Add new topic](https://github.com/enkidevs/curriculum/pull/3401)
+
+
 ## July 23rd 2026
 
 ### Fixed
