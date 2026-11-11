@@ -53,7 +53,7 @@ Types of change:
 ## November 11th 2026
 
 ### Added
-
+- [AI Non Devs -add starting points separately](https://github.com/enkidevs/curriculum/pull/3403)
 - [AI for non devs - add new topic](https://github.com/enkidevs/curriculum/pull/3402)
 - [Ai for Devs - add new topic](https://github.com/enkidevs/curriculum/pull/3400)
 
