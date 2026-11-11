@@ -9,7 +9,7 @@ link: 'https://www.codewars.com/kata/number-of-people-in-the-bus'
 links:
   - >-
     [Pure Functions
-    Example](http://interactivepython.org/courselib/static/thinkcspy/Lists/PureFunctions.html){website}
+    Example](https://runestone.academy/ns/books/published/thinkcspy/Lists/PureFunctions.html){website}
   - >-
     [Python Functions Video
     Tutorial](https://www.youtube.com/watch?v=NE97ylAnrz4){video}

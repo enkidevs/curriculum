@@ -6,7 +6,7 @@ link: 'https://goo.gl/SZFREy'
 links:
   - >-
     [Operators in
-    Python](http://interactivepython.org/runestone/static/CS152f17/SimplePythonData/OperatorsandOperands.html){website}
+    Python](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/OperatorsandOperands.html){website}
 ---
 
 # Python Arithmetic Operations Exercise
