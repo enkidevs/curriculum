@@ -49,6 +49,13 @@ Types of change:
 ### Fixed
 
 
+
+## November 11th 2026
+
+### Added
+
+- [AI for non devs - add new topic](https://github.com/enkidevs/curriculum/pull/3402)
+
 ## July 23rd 2026
 
 ### Fixed
