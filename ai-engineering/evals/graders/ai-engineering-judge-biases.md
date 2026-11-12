@@ -35,11 +35,14 @@ revisionQuestion:
   rubric:
     expectedPoint: Verbosity bias, where the judge favors longer outputs whether or not the extra text helps.
     requiredConcepts:
-      - Verbosity bias, or length bias.
+      - Names verbosity or length as the bias (the word "bias" isn't needed).
     acceptedAnswers:
       - Verbosity bias.
       - Length bias; it prefers longer replies.
       - Verbosity, since the longer reply wins.
+      - Verbosity.
+      - Length.
+      - The length one.
     hints:
       - Which bias is about length?
       - Does the order or the author of the reply matter here?
