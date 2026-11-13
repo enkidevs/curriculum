@@ -49,6 +49,11 @@ Types of change:
 ### Fixed
 
 
+## November 13th 2026
+
+### Added
+- [Ai Engineering - Judge biases - loosed rubric for RQ](https://github.com/enkidevs/curriculum/pull/3406)
+
 ## November 11th 2026
 
 ### Added
